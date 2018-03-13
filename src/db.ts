@@ -1,8 +1,19 @@
 import * as mysql from 'promise-mysql';
+import {Pool} from "promise-mysql";
 
 export class Db{
-    private pool:any;
 
+    private pool:Pool;
+
+    /**
+     * Constructor für die DB Klasse
+     *
+     * @param {string} host
+     * @param {string} user
+     * @param {string} password
+     * @param {string} database
+     * @param {number} port
+     */
     constructor(host:string, user:string,password:string, database:string, port:number) {
 
         this.pool = mysql.createPool({
@@ -14,17 +25,28 @@ export class Db{
         });
     }
 
+
+
+    /**
+     *
+     * @returns {Promise<any>}
+     */
     public async testQuery(){
         return await this.query("SELECT * from Persons");
     }
 
+
+
+    /**
+     *
+     * @param {string} qry
+     * @returns {Promise<any>}
+     */
     private async query (qry:string) {
         try {
-            let res = await this.pool.query(qry);
-            return res;
+            return await this.pool.query(qry);
         } catch(err) {
             console.log(err);
-
         }
 
     }

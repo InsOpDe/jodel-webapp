@@ -10,6 +10,15 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const mysql = require("promise-mysql");
 class Db {
+    /**
+     * Constructor für die DB Klasse
+     *
+     * @param {string} host
+     * @param {string} user
+     * @param {string} password
+     * @param {string} database
+     * @param {number} port
+     */
     constructor(host, user, password, database, port) {
         this.pool = mysql.createPool({
             host: host,
@@ -19,16 +28,24 @@ class Db {
             port: port,
         });
     }
+    /**
+     *
+     * @returns {Promise<any>}
+     */
     testQuery() {
         return __awaiter(this, void 0, void 0, function* () {
             return yield this.query("SELECT * from Persons");
         });
     }
+    /**
+     *
+     * @param {string} qry
+     * @returns {Promise<any>}
+     */
     query(qry) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
-                let res = yield this.pool.query(qry);
-                return res;
+                return yield this.pool.query(qry);
             }
             catch (err) {
                 console.log(err);

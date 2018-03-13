@@ -6,10 +6,17 @@ import config from "./config";
 export class Api{
 
     private app: Application;
+
     private prefix:string = "/api";
 
     private db:Db;
 
+
+    /**
+     * Constructor für die Api klasse
+     *
+     * @param {e.Application} app
+     */
     constructor(app: Application) {
         this.app = app;
 
@@ -19,6 +26,11 @@ export class Api{
     }
 
 
+
+    /**
+     * Router für Api.
+     * Routed alle /api/* requests weiter
+     */
     private api() {
         let router = Router();
 
@@ -28,10 +40,17 @@ export class Api{
 
     }
 
-    // private foo(req:Request, res:Response) {
-    private foo = (req:Request, res:Response) => {
-        let test = this.db.testQuery()[0].FirstName;
-        res.send(`Hello ${test}!`);
+
+
+    /**
+     *
+     * @param {e.Request} req
+     * @param {e.Response} res
+     * @returns {Promise<void>}
+     */
+    private foo = async (req:Request, res:Response) => {
+        let test = await this.db.testQuery();
+        res.send(`Hello ${test[0].FirstName}!`);
     }
 
 
