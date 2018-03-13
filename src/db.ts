@@ -1,9 +1,8 @@
 import * as mysql from 'promise-mysql';
-import {Pool} from "promise-mysql";
 
 export class Db{
 
-    private pool:Pool;
+    private pool:mysql.Pool;
 
     /**
      * Constructor für die DB Klasse

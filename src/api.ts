@@ -2,7 +2,6 @@ import {Application, Router, Request, Response} from "express";
 import { Db } from './db'
 import config from "./config";
 
-
 export class Api{
 
     private app: Application;
