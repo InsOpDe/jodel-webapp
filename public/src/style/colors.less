@@ -1,0 +1,45 @@
+/**
+ * Classes for Colors
+ *
+ * @author  Maya
+ * @since   22.03.2018
+ */
+@orange: #FBB058;
+@green: #B5CF6C;
+@yellow: #FEC85C;
+@red: #E4867E;
+@blue: #68B5D5;
+@turquoise: #A7CAC1;
+@darkGrey: #262323;
+@lightGrey: #F1F1F1;
+@grey: #6D6D6D;
+
+@jodelColors:
+        orange @orange,
+        green @green,
+        yellow @yellow,
+        red @red,
+        blue @blue,
+        turquoise @turquoise,
+        lightGrey @lightGrey;
+
+@lightness: 10%;
+@darkness: 5%;
+
+.for-each(@value in @jodelColors) {
+  @key: at(@value, 1);
+
+  // color classes
+  .@{key} {color: at(@value, 2);}
+  // light-color classes
+  .light-@{key} {color: lighten(at(@value, 2), @lightness);}
+  // dark-color classes
+  .dark-@{key} {color: darken(at(@value, 2), @darkness);}
+
+  // background-color classes
+  .bg-@{key} {background-color: at(@value, 2);}
+  // light-background-color classes
+  .bg-light-@{key} {background-color: lighten(at(@value, 2), @lightness);}
+  // dark-background-color classes
+  .bg-dark-@{key} {background-color: darken(at(@value, 2), @darkness);}
+}
