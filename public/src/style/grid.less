@@ -1,0 +1,39 @@
+/**
+ * Styles for Grid
+ *
+ * @author  Maya
+ * @since   22.03.2018
+ */
+html,body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    //height: 100%;
+}
+
+.grid {
+  padding: 20px 0;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+// generates columns with 10%,20%,..,100% width
+@padding: 1%;
+.generate-columns(9);
+.generate-columns(@n, @i: 1) when (@i =< @n) {
+  .col-@{i} {
+    float: left;
+    width: (@i * 100% / @n);
+    padding: 0 @padding;
+  }
+  .generate-columns(@n, (@i + 1));
+}
