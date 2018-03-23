@@ -28,7 +28,7 @@ export class ContentComponent implements OnInit {
      * @since   23.03.2018
      */
     getData(): void {
-        this.contentService.getData()
+        ContentService.getResultData()
             .subscribe(result => {
                 this.data.result = result;
             });

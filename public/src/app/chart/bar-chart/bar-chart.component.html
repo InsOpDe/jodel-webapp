@@ -1,5 +1,11 @@
 <div class="grid">
+
     <h3>{{title}}</h3>
-    <div *ngFor="let n of bars['true']" class="bar bg-green"></div>
-    <div *ngFor="let n of bars['false']" class="bar bg-lightGrey"></div>
+
+    <div *ngFor="let n of maxBarAmountArray; let i = index"
+         [ngClass]="[i <= valueRound ? 'bar bg-light-' + color : 'bar bg-lightGrey']">
+
+        <div *ngIf="i == 1">{{value.toString()[0]}}</div>
+        <div *ngIf="i == 2">{{value.toString()[1]}}</div>
+    </div>
 </div>

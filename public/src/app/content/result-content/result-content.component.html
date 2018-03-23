@@ -1,11 +1,27 @@
 <h2>Das hast du mit deinem Jodel erreicht</h2>
 
-<app-bar-chart [value]="result.karma" [title]="'Karma'"></app-bar-chart>
+<!--Karma-->
+<app-bar-chart [value]="result.karma"
+               [title]="'Karma'">
+</app-bar-chart>
 
-<app-bar-chart [value]="result.votes" [title]="'Votes'"></app-bar-chart>
+<!--Votes-->
+<app-bar-chart [value]="result.votes"
+               [title]="'Votes'">
+</app-bar-chart>
 
-<app-bar-chart [value]="result.comments" [title]="'Kommentare'"></app-bar-chart>
+<!--Comments-->
+<app-bar-chart [value]="result.comments"
+               [title]="'Kommentare'">
+</app-bar-chart>
 
-<app-bar-chart [value]="result.pins" [title]="'Pins'"></app-bar-chart>
+<!--Pins-->
+<app-bar-chart [color]="'orange'"
+               [value]="result.pins"
+               [title]="'Pins'">
+</app-bar-chart>
 
-<app-bar-chart [value]="result.shared" [title]="'Shared'"></app-bar-chart>
+<!--Shared-->
+<app-bar-chart [value]="result.shared"
+               [title]="'Shared'">
+</app-bar-chart>

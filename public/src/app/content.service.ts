@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {Observable} from 'rxjs/Observable';
 import {of} from 'rxjs/observable/of';
 import {ResultModel} from './content/result-content/result.model';
@@ -7,7 +7,11 @@ import {RESULT} from './content/result-content/mock-results';
 @Injectable()
 export class ContentService {
 
-  constructor() { }
+    color: string;
+
+    constructor() {
+        this.color = 'green'
+    }
 
 
     /**
@@ -16,8 +20,8 @@ export class ContentService {
      * @author  Maya
      * @since   23.03.2018
      */
-  getData(): Observable<ResultModel> {
+    static getResultData(): Observable<ResultModel> {
 
-      return of(RESULT);
-  }
+        return of(RESULT);
+    }
 }
