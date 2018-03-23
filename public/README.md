@@ -2,9 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
+## Hinzufügen von Componenten, Services, usw..
+Funktioniert alles über das Angular CLI.
+Beispiel neues Component my-new-component in folder:
+`ng generate component folder/my-new-component`
+
+## Less
+Neue Less files müssen in styles.less importiert werden.
+File watcher arguments: `--no-color --lists $FileName$` außerdem muss `track only root files` enabled werden (dadurch werden alle styles in die styles.css geschrieben sobald ein importiertes less file bearbeitet wurde)
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve`/`ng serve --open` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
