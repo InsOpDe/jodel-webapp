@@ -10,7 +10,7 @@
 
         <!--KEYWORD CONTENT-->
         <app-keyword-content *ngSwitchCase="CONTENTTYPE.KEYWORD"
-                             [keywordContent]="data.keywordContent">
+                             [keywordContent]="data.keywordContent[contentService.currentContentpage.id-1]">
         </app-keyword-content>
 
     </div>

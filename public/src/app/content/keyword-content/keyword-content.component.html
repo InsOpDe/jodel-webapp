@@ -1,6 +1,6 @@
 <!--LEFT-->
 <div class="col-3">
-  <h2>Überschrift1</h2>
+  <app-map-content></app-map-content>
 </div>
 
 
@@ -13,4 +13,10 @@
 <!--RIGHT-->
 <div class="col-3">
   <h2>Überschrift3</h2>
+  <!--Keyword-->
+  <app-bar-chart *ngFor="let keyword of keywordContent.similiarKeywords"
+                 [value]="keyword.value"
+                 [color]="keyword.color"
+                 [title]="keyword.keyword">
+  </app-bar-chart>
 </div>

@@ -21,7 +21,7 @@ export class ContentComponent implements OnInit {
 
     data: ContentModel;
 
-    constructor(public contentService: ContentService) { }
+    constructor(private contentService: ContentService) { }
 
     /**
      * on init

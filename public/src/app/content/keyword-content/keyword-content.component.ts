@@ -22,4 +22,7 @@ export class KeywordContentComponent implements OnInit {
     ngOnInit() {
     }
 
+    ngOnChanges(changes) {
+        console.log(changes);
+    }
 }

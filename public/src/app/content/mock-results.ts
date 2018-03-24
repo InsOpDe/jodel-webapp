@@ -49,7 +49,28 @@ export const RESULT: ContentModel = {
         {
             title: 'Schlagwort1',
             color: 'orange',
-            similiarKeywords: [],
+            similiarKeywords: [
+                new KeywordEffectModel({
+                    color: 'orange',
+                    value: '43',
+                    keyword: 'Schlüsselwort1'
+                }),
+                new KeywordEffectModel({
+                    color: 'turquoise',
+                    value: '21',
+                    keyword: 'Schlüsselwort2'
+                }),
+                new KeywordEffectModel({
+                    color: 'red',
+                    value: '1',
+                    keyword: 'Schlüsselwort3'
+                }),
+                new KeywordEffectModel({
+                    color: 'blue',
+                    value: '100',
+                    keyword: 'Schlüsselwort4'
+                })
+            ],
             relatedHashtags: [],
             map: new MapModel({
                 foo: '312',
