@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { BarChartComponent } from './chart/bar-chart/bar-chart.component';
+import { BarChartComponent } from './content/shared/chart/bar-chart/bar-chart.component';
 import { HeaderComponent } from './header/header.component';
 import {FormsModule} from '@angular/forms';
 import { ContentComponent } from './content/content.component';

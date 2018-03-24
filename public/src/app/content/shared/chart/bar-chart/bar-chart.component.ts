@@ -1,5 +1,5 @@
 import {Component, Input, OnInit, SimpleChanges} from '@angular/core';
-import {ContentService} from "../../content.service";
+import {ContentService} from "../../../../content.service";
 /**
  * Bar Char Component
  *
