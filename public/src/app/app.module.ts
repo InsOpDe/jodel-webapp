@@ -13,6 +13,7 @@ import { MapContentComponent } from './content/your-result-content/map-content/m
 import { YourResultContentComponent } from './content/your-result-content/your-result-content.component';
 import { KeywordEffectContentComponent } from './content/your-result-content/keyword-effect-content/keyword-effect-content.component';
 import { TimeContentComponent } from './content/your-result-content/time-content/time-content.component';
+import { KeywordContentComponent } from './content/keyword-content/keyword-content.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { TimeContentComponent } from './content/your-result-content/time-content
     MapContentComponent,
     YourResultContentComponent,
     KeywordEffectContentComponent,
-    TimeContentComponent
+    TimeContentComponent,
+    KeywordContentComponent
   ],
   imports: [
       BrowserModule,

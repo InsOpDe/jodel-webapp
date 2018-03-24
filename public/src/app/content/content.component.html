@@ -1,8 +1,15 @@
 <div class="mainContainer">
-  <div class="grid">
 
-    <!--YOUR RESULT CONTENT-->
-    <app-your-result-content></app-your-result-content>
+    <!--switch by current contentpage-->
+    <div class="grid" [ngSwitch]="currentContenttype">
 
-  </div>
+        <!--YOUR RESULT CONTENT-->
+        <app-your-result-content *ngSwitchCase="CONTENTTYPE.YOUR_RESULT">
+        </app-your-result-content>
+
+        <!--KEYWORD CONTENT-->
+        <app-keyword-content *ngSwitchCase="CONTENTTYPE.KEYWORD">
+        </app-keyword-content>
+
+    </div>
 </div>
