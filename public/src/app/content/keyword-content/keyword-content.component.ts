@@ -1,4 +1,5 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {KeywordResultModel} from "./keyword-result.model";
 
 /**
  * keyword content
@@ -12,6 +13,8 @@ import {Component, OnInit} from '@angular/core';
     templateUrl: './keyword-content.component.html'
 })
 export class KeywordContentComponent implements OnInit {
+
+    @Input() keywordContent: KeywordResultModel;
 
     constructor() {
     }

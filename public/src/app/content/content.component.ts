@@ -1,6 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {ContentService} from '../content.service';
 import {CONTENTTYPE} from "../global/contenttype";
+import {Contentpage} from "./content-page.model";
+import {ContentModel} from "./content.model";
 /**
  * content component
  * Verwaltet welche Content seite angezeigt werden soll
@@ -15,8 +17,11 @@ import {CONTENTTYPE} from "../global/contenttype";
 
 export class ContentComponent implements OnInit {
 
-    currentContenttype: number;
+    currentContentpage: Contentpage;
+
     CONTENTTYPE = CONTENTTYPE;
+
+    data: ContentModel;
 
     constructor(private contentService: ContentService) { }
 
@@ -27,7 +32,25 @@ export class ContentComponent implements OnInit {
      * @since   23.03.2018
      */
     ngOnInit() {
-        this.currentContenttype = this.contentService.currentContenttype;
+        this.currentContentpage = this.contentService.currentContentpage;
+
+        // get content data
+        this.getData();
+    }
+
+
+    /**
+     * get data from service
+     *
+     * @author  Maya
+     * @since   23.03.2018
+     */
+    getData(): void {
+        this.contentService.getResultData()
+            .subscribe(response => {
+
+                this.data = response;
+            });
     }
 
 }

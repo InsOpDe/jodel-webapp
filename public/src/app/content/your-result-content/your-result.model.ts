@@ -16,10 +16,13 @@ export class YourResultModel {
 
     map: MapModel;
 
+    // time: TimeModel;
+
     constructor (data) {
 
         this.result = new ResultModel(data.result);
         this.keywordEffectArray = data.keywordEffectArray;
-        this.map = new MapModel(data.map)
+        this.map = new MapModel(data.map);
+        // this.time = new TimeModel(data.time);
     }
 }

@@ -1,5 +1,4 @@
-import {Component, OnInit} from '@angular/core';
-import {ContentService} from "../../content.service";
+import {Component, Input, OnInit} from '@angular/core';
 import {YourResultModel} from "./your-result.model";
 
 @Component({
@@ -9,25 +8,9 @@ import {YourResultModel} from "./your-result.model";
 })
 export class YourResultContentComponent implements OnInit {
 
-    content: YourResultModel;
+    @Input() yourResultContent: YourResultModel;
 
-    constructor(private contentService: ContentService) {
-    }
-
-
-    /**
-     * get data from service
-     *
-     * @author  Maya
-     * @since   23.03.2018
-     */
-    getData(): void {
-        this.contentService.getResultData()
-            .subscribe(response => {
-
-                this.content = response;
-            });
-    }
+    constructor() {}
 
 
     /**
@@ -37,7 +20,6 @@ export class YourResultContentComponent implements OnInit {
      * @since   23.03.2018
      */
     ngOnInit() {
-        this.getData();
     }
 
 }
