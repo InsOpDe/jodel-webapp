@@ -1,0 +1,10 @@
+<h2>Auswirkung deiner Schlagworte</h2>
+
+
+
+<!--Keyword-->
+<app-bar-chart *ngFor="let keyword of keywordEffectArray"
+               [value]="keyword.value"
+               [color]="keyword.color"
+               [title]="keyword.keyword">
+</app-bar-chart>

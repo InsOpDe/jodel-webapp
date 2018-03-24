@@ -13,9 +13,7 @@ import {ContentService} from '../content.service';
 
 export class ContentComponent implements OnInit {
 
-    data = {
-        'result': {}
-    };
+    data;
 
     constructor(private contentService: ContentService) {
     }
@@ -28,10 +26,6 @@ export class ContentComponent implements OnInit {
      * @since   23.03.2018
      */
     getData(): void {
-        ContentService.getResultData()
-            .subscribe(result => {
-                this.data.result = result;
-            });
     }
 
 

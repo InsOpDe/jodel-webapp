@@ -15,7 +15,7 @@ export class BarChartComponent implements OnInit {
 
     @Input() value: number;
     @Input() title: string;
-    @Input() color:string;
+    @Input() color: string;
 
     maxBarAmount = 45;
     maxBarAmountArray = new Array(this.maxBarAmount);

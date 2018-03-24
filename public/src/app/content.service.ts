@@ -1,8 +1,8 @@
 import {Injectable} from '@angular/core';
 import {Observable} from 'rxjs/Observable';
 import {of} from 'rxjs/observable/of';
-import {ResultModel} from './content/result-content/result.model';
-import {RESULT} from './content/result-content/mock-results';
+import {RESULT} from './content/your-result-content/result-content/mock-results';
+import {YourResultModel} from "./content/your-result-content/your-result.model";
 
 @Injectable()
 export class ContentService {
@@ -20,7 +20,7 @@ export class ContentService {
      * @author  Maya
      * @since   23.03.2018
      */
-    static getResultData(): Observable<ResultModel> {
+    getResultData(): Observable<YourResultModel> {
 
         return of(RESULT);
     }

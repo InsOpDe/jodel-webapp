@@ -1,0 +1,24 @@
+<!--LEFT-->
+<div class="col-3">
+    <app-map-content></app-map-content>
+</div>
+
+
+<!--CENTER-->
+<div class="col-3">
+    <app-result-content [resultData]="content.result">
+    </app-result-content>
+</div>
+
+
+<!--RIGHT-->
+<div class="col-3">
+
+    <app-keyword-effect-content [keywordEffectArray]="content.keywordEffectArray">
+    </app-keyword-effect-content>
+
+    <div class="grid">
+        <app-time-content></app-time-content>
+    </div>
+
+</div>
