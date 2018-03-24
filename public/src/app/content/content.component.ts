@@ -5,7 +5,8 @@ import {Contentpage} from "./content-page.model";
 import {ContentModel} from "./content.model";
 /**
  * content component
- * Verwaltet welche Content seite angezeigt werden soll
+ *  - Requests data from the service and forwards
+ *  them to the content components
  *
  * @author  Maya
  * @since   23.03.2018

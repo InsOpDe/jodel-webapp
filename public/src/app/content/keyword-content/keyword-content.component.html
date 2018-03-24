@@ -1,19 +1,19 @@
 <!--LEFT-->
 <div class="col-3">
-  <app-map-content></app-map-content>
+    <app-map-content></app-map-content>
 </div>
 
 
 <!--CENTER-->
 <div class="col-3">
 
-  <h2>Verwandte Hashtags</h2>
-  <app-keyword-barchar-content [keywordBarchartArray]="keywordContent.relatedHashtags">
-  </app-keyword-barchar-content>
+    <app-keyword-barchar-content [keywordBarchartArray]="keywordContent.relatedHashtags"
+                                 [headline]="'Verwandte Hashtags'">
+    </app-keyword-barchar-content>
 
-  <div class="grid">
-    <app-time-content></app-time-content>
-  </div>
+    <div class="grid">
+        <app-time-content></app-time-content>
+    </div>
 
 </div>
 
@@ -21,8 +21,8 @@
 <!--RIGHT-->
 <div class="col-3">
 
-  <h2>Ähnliche Schlagworte</h2>
-  <app-keyword-barchar-content [keywordBarchartArray]="keywordContent.similiarKeywords">
-  </app-keyword-barchar-content>
+    <app-keyword-barchar-content [keywordBarchartArray]="keywordContent.similiarKeywords"
+                                 [headline]="'Ähnliche Schlagworte'">
+    </app-keyword-barchar-content>
 
 </div>

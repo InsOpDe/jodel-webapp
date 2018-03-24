@@ -2,8 +2,8 @@ import {Component, Input, OnInit} from '@angular/core';
 import {KeywordResultModel} from "./keyword-result.model";
 
 /**
- * keyword content
- * Inhaltsseite fuer ein Schluesselwort
+ * keyword content component
+ * - content page for a keyword
  *
  * @author  Maya
  * @since   23.03.2018
