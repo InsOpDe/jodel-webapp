@@ -23,6 +23,6 @@ export class KeywordContentComponent implements OnInit {
     }
 
     ngOnChanges(changes) {
-        console.log(changes);
+        // console.log(changes);
     }
 }
