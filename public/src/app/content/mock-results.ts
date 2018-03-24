@@ -1,8 +1,12 @@
-import {KeywordEffectModel} from "./your-result-content/keyword-effect-content/keyword-effect.model";
+import {KeywordBarchartModel} from "./shared/keywords-barchar/keyword-barchart.model";
 import {ResultModel} from "./your-result-content/result-content/result.model";
-import {MapModel} from "./your-result-content/map-content/map.model";
+import {MapModel} from "./shared/map-content/map.model";
 import {ContentModel} from "./content.model";
-import {TimeModel} from "./your-result-content/time-content/time.model";
+import {TimeModel} from "./shared/time-content/time.model";
+import {
+    hashtagBarchartArray2, keywordBarchartArray1,
+    keywordBarchartArray2
+} from "./shared/keywords-barchar/mock-keyword-barchart-Array";
 
 
 export const RESULT: ContentModel = {
@@ -16,30 +20,13 @@ export const RESULT: ContentModel = {
             'comments': 53,
         }),
 
-        keywordEffectArray: [
-            new KeywordEffectModel({
-                color: 'orange',
-                value: '32',
-                keyword: 'Schlüsselwort1'
-            }),
-            new KeywordEffectModel({
-                color: 'turquoise',
-                value: '56',
-                keyword: 'Schlüsselwort2'
-            }),
-            new KeywordEffectModel({
-                color: 'red',
-                value: '75',
-                keyword: 'Schlüsselwort3'
-            }),
-            new KeywordEffectModel({
-                color: 'blue',
-                value: '12',
-                keyword: 'Schlüsselwort4'
-            })
-        ],
+        keywordEffectArray: keywordBarchartArray1,
 
         map: new MapModel({
+            foo: '312',
+            bar: 123
+        }),
+        time: new TimeModel({
             foo: '312',
             bar: 123
         })
@@ -49,29 +36,8 @@ export const RESULT: ContentModel = {
         {
             title: 'Schlagwort1',
             color: 'orange',
-            similiarKeywords: [
-                new KeywordEffectModel({
-                    color: 'orange',
-                    value: '43',
-                    keyword: 'Schlüsselwort1'
-                }),
-                new KeywordEffectModel({
-                    color: 'turquoise',
-                    value: '21',
-                    keyword: 'Schlüsselwort2'
-                }),
-                new KeywordEffectModel({
-                    color: 'red',
-                    value: '1',
-                    keyword: 'Schlüsselwort3'
-                }),
-                new KeywordEffectModel({
-                    color: 'blue',
-                    value: '100',
-                    keyword: 'Schlüsselwort4'
-                })
-            ],
-            relatedHashtags: [],
+            similiarKeywords: keywordBarchartArray2,
+            relatedHashtags: hashtagBarchartArray2,
             map: new MapModel({
                 foo: '312',
                 bar: 123
@@ -84,8 +50,8 @@ export const RESULT: ContentModel = {
         {
             title: 'Schlagwort2',
             color: 'turquoise',
-            similiarKeywords: [],
-            relatedHashtags: [],
+            similiarKeywords: keywordBarchartArray1,
+            relatedHashtags: hashtagBarchartArray2,
             map: new MapModel({
                 foo: '312',
                 bar: 123

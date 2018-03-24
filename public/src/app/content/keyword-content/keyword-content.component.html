@@ -6,17 +6,23 @@
 
 <!--CENTER-->
 <div class="col-3">
-  <h2>Überschrift2</h2>
+
+  <h2>Verwandte Hashtags</h2>
+  <app-keyword-barchar-content [keywordBarchartArray]="keywordContent.relatedHashtags">
+  </app-keyword-barchar-content>
+
+  <div class="grid">
+    <app-time-content></app-time-content>
+  </div>
+
 </div>
 
 
 <!--RIGHT-->
 <div class="col-3">
-  <h2>Überschrift3</h2>
-  <!--Keyword-->
-  <app-bar-chart *ngFor="let keyword of keywordContent.similiarKeywords"
-                 [value]="keyword.value"
-                 [color]="keyword.color"
-                 [title]="keyword.keyword">
-  </app-bar-chart>
+
+  <h2>Ähnliche Schlagworte</h2>
+  <app-keyword-barchar-content [keywordBarchartArray]="keywordContent.similiarKeywords">
+  </app-keyword-barchar-content>
+
 </div>

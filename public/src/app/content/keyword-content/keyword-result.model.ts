@@ -1,6 +1,6 @@
-import {MapModel} from "../your-result-content/map-content/map.model";
-import {KeywordEffectModel} from "../your-result-content/keyword-effect-content/keyword-effect.model";
-import {TimeModel} from "../your-result-content/time-content/time.model";
+import {MapModel} from "../shared/map-content/map.model";
+import {KeywordBarchartModel} from "../shared/keywords-barchar/keyword-barchart.model";
+import {TimeModel} from "../shared/time-content/time.model";
 
 /**
  * Beispielaufbau fuer ein keyword result model
@@ -11,9 +11,8 @@ import {TimeModel} from "../your-result-content/time-content/time.model";
 export class KeywordResultModel {
 
     title: string;
-    // TODO Keywordeffectmodell verallgemeinern zu barchar modell ??
-    relatedHashtags: Array<KeywordEffectModel>;
-    similiarKeywords: Array<KeywordEffectModel>;
+    relatedHashtags: Array<KeywordBarchartModel>;
+    similiarKeywords: Array<KeywordBarchartModel>;
     color: string;
     time: TimeModel;
     map: MapModel;

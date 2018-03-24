@@ -1,10 +1,10 @@
 /**
- * Model for Keyword Effects
+ * Model for Keyword Barchart
  *
  * @author Maya
  * @since  24.03.2018
  */
-export class KeywordEffectModel {
+export class KeywordBarchartModel {
 
     keyword: string;
     value: number;
