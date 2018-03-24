@@ -17,13 +17,11 @@ import {ContentModel} from "./content.model";
 
 export class ContentComponent implements OnInit {
 
-    currentContentpage: Contentpage;
-
     CONTENTTYPE = CONTENTTYPE;
 
     data: ContentModel;
 
-    constructor(private contentService: ContentService) { }
+    constructor(public contentService: ContentService) { }
 
     /**
      * on init
@@ -32,7 +30,6 @@ export class ContentComponent implements OnInit {
      * @since   23.03.2018
      */
     ngOnInit() {
-        this.currentContentpage = this.contentService.currentContentpage;
 
         // get content data
         this.getData();

@@ -21,7 +21,7 @@ export class BarChartComponent implements OnInit {
     maxBarAmountArray = new Array(this.maxBarAmount);
     valueRound: number;
 
-    constructor(private contentService: ContentService) { }
+    constructor(public contentService: ContentService) { }
 
 
     /**

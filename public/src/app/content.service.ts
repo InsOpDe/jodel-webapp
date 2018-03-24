@@ -60,16 +60,4 @@ export class ContentService {
             }));
         }
     }
-
-
-    /**
-     * set current conntentpage
-     *
-     * @author  Maya
-     * @since   24.03.2018
-     */
-    setCurrentContentpage(pageId): void {
-
-        this.currentContentpage = this.contentpages[pageId];
-    }
 }

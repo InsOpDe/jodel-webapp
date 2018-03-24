@@ -1,10 +1,17 @@
-<div class="bg-light-{{color}}">
+<div class="bg-light-{{contentService.color}}">
     <div class="grid headerContainer">
 
         <!--ICON AND DROPDOWN-->
         <div class="col-3">
-            <select></select>
-            <div class="jodelIcon"></div>
+            <div class="jodelIcon">
+
+                <select [(ngModel)]="contentService.currentContentpage">
+                    <option *ngFor="let page of contentService.contentpages" [ngValue]="page">
+                        {{page.title}}
+                    </option>
+                </select>
+
+            </div>
         </div>
 
         <!--JODEL TEXT-->
