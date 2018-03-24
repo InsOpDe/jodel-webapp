@@ -182,6 +182,24 @@ div {
 .bg-dark-turquoise {
   background-color: #97c0b6;
 }
+.grey {
+  color: #6D6D6D;
+}
+.light-grey {
+  color: #878787;
+}
+.dark-grey {
+  color: #606060;
+}
+.bg-grey {
+  background-color: #6D6D6D;
+}
+.bg-light-grey {
+  background-color: #878787;
+}
+.bg-dark-grey {
+  background-color: #606060;
+}
 .lightGrey {
   color: #F1F1F1;
 }

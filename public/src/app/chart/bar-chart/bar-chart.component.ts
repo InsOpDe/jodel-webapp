@@ -1,4 +1,5 @@
 import {Component, Input, OnInit, SimpleChanges} from '@angular/core';
+import {ContentService} from "../../content.service";
 /**
  * Bar Char Component
  *
@@ -14,23 +15,23 @@ export class BarChartComponent implements OnInit {
 
     @Input() value: number;
     @Input() title: string;
+    @Input() color: string;
 
     maxBarAmount = 45;
+    maxBarAmountArray = new Array(this.maxBarAmount);
+    valueRound: number;
 
-    bars = {
-      'true': new Array(0),
-      'false': new Array(0)
-    };
-
-    constructor() {
-    }
+    constructor(private contentService: ContentService) { }
 
 
     /**
+     * default color is the color of the selected jodel from contentService
+     *
      * @author  Maya
      * @since   23.03.2018
      */
     ngOnInit() {
+        this.color = this.color || this.contentService.color;
     }
 
 
@@ -39,6 +40,7 @@ export class BarChartComponent implements OnInit {
      * @since   23.03.2018
      */
     ngOnChanges(changes: SimpleChanges) {
+
         if (typeof changes.value != 'undefined') {
             this.updateBarValues();
         }
@@ -46,16 +48,13 @@ export class BarChartComponent implements OnInit {
 
 
     /**
-     * update bar chart values
+     * update rounded value
      *
      * @author  Maya
      * @since   23.03.2018
      */
     updateBarValues() {
-        this.bars = {
-            'true': new Array(this.round(true) || 0),
-            'false': new Array(this.round(false) || 0)
-        };
+        this.valueRound = this.round();
     }
 
 
@@ -65,15 +64,11 @@ export class BarChartComponent implements OnInit {
      * @author  Maya
      * @since   23.03.2018
      *
-     * @param isTrue
-     *
      * @returns {number}
      */
-    round(isTrue) {
+    round() {
         let factor = 100 / this.maxBarAmount;
 
-        return isTrue ?
-            Math.round(this.value / factor) :
-            this.maxBarAmount - Math.round(this.value / factor);
+        return Math.round(this.value / factor);
     }
 }

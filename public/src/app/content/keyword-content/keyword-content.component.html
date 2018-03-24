@@ -1,0 +1,28 @@
+<!--LEFT-->
+<div class="col-3">
+    <app-map-content></app-map-content>
+</div>
+
+
+<!--CENTER-->
+<div class="col-3">
+
+    <app-keyword-barchar-content [keywordBarchartArray]="keywordContent.relatedHashtags"
+                                 [headline]="'Verwandte Hashtags'">
+    </app-keyword-barchar-content>
+
+    <div class="grid">
+        <app-time-content></app-time-content>
+    </div>
+
+</div>
+
+
+<!--RIGHT-->
+<div class="col-3">
+
+    <app-keyword-barchar-content [keywordBarchartArray]="keywordContent.similiarKeywords"
+                                 [headline]="'Ähnliche Schlagworte'">
+    </app-keyword-barchar-content>
+
+</div>

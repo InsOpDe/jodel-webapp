@@ -1,0 +1,25 @@
+<!--LEFT-->
+<div class="col-3">
+    <app-map-content></app-map-content>
+</div>
+
+
+<!--CENTER-->
+<div class="col-3">
+    <app-result-content [resultData]="yourResultContent.result">
+    </app-result-content>
+</div>
+
+
+<!--RIGHT-->
+<div class="col-3">
+
+    <app-keyword-barchar-content [keywordBarchartArray]="yourResultContent.keywordEffectArray"
+                                 [headline]="'Auswirkung deiner Schlagworte'">
+    </app-keyword-barchar-content>
+
+    <div class="grid">
+        <app-time-content></app-time-content>
+    </div>
+
+</div>

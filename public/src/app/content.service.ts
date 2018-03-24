@@ -1,23 +1,63 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {Observable} from 'rxjs/Observable';
 import {of} from 'rxjs/observable/of';
-import {ResultModel} from './content/result-content/result.model';
-import {RESULT} from './content/result-content/mock-results';
+import {RESULT} from './content/mock-results';
+import {ContentModel} from "./content/content.model";
+import {Contentpage} from "./content/content-page.model";
+import {CONTENTTYPE} from "./global/contenttype";
 
+/**
+ * content service
+ * (Bisher einzige geplante) Verbindung zum Server
+ *
+ * Verwaltet/Speichert globale Informationen, die von anderen Components
+ * benoetigt werden (aktuelle color, page, ..)
+ */
 @Injectable()
 export class ContentService {
 
-  constructor() { }
+    color: string;
+    contentpages: Contentpage[] = [new Contentpage()];
+    currentContentpage: Contentpage;
+
+    constructor() {
+        this.color = 'green';
+        this.currentContentpage = this.contentpages[0];
+    }
 
 
     /**
      * get data from mock result to fake http request
+     * TODO AJAX CALL
      *
      * @author  Maya
      * @since   23.03.2018
      */
-  getData(): Observable<ResultModel> {
+    getResultData(): Observable<ContentModel> {
 
-      return of(RESULT);
-  }
+        let result = RESULT;
+
+        this.createContentpages(result.keywordContent);
+
+        return of(result);
+    }
+
+
+    /**
+     * create all existing content pages (your result + all keyword pages)
+     *
+     * @author  Maya
+     * @since   24.03.2018
+     */
+    createContentpages(keywordContent): void {
+
+        for (let i = 0; i < keywordContent.length; i++) {
+
+            this.contentpages.push(new Contentpage({
+                id: i+1,
+                type: CONTENTTYPE.KEYWORD,
+                title: keywordContent[i].title
+            }));
+        }
+    }
 }

@@ -1,7 +1,12 @@
 import {Component, OnInit} from '@angular/core';
 import {ContentService} from '../content.service';
+import {CONTENTTYPE} from "../global/contenttype";
+import {Contentpage} from "./content-page.model";
+import {ContentModel} from "./content.model";
 /**
  * content component
+ *  - Requests data from the service and forwards
+ *  them to the content components
  *
  * @author  Maya
  * @since   23.03.2018
@@ -13,11 +18,22 @@ import {ContentService} from '../content.service';
 
 export class ContentComponent implements OnInit {
 
-    data = {
-        'result': {}
-    };
+    CONTENTTYPE = CONTENTTYPE;
 
-    constructor(private contentService: ContentService) {
+    data: ContentModel;
+
+    constructor(private contentService: ContentService) { }
+
+    /**
+     * on init
+     *
+     * @author  Maya
+     * @since   23.03.2018
+     */
+    ngOnInit() {
+
+        // get content data
+        this.getData();
     }
 
 
@@ -28,21 +44,11 @@ export class ContentComponent implements OnInit {
      * @since   23.03.2018
      */
     getData(): void {
-        this.contentService.getData()
-            .subscribe(result => {
-                this.data.result = result;
+        this.contentService.getResultData()
+            .subscribe(response => {
+
+                this.data = response;
             });
-    }
-
-
-    /**
-     * on init
-     *
-     * @author  Maya
-     * @since   23.03.2018
-     */
-    ngOnInit() {
-        this.getData();
     }
 
 }

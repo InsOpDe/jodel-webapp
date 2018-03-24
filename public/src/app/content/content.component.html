@@ -1,19 +1,17 @@
 <div class="mainContainer">
-  <div class="grid">
 
-    <!--LEFT-->
-    <div class="col-3">
-      <app-map-content></app-map-content>
-    </div>
+    <!--switch by current contentpage-->
+    <div class="grid" [ngSwitch]="contentService.currentContentpage.type">
 
-    <!--CENTER-->
-    <div class="col-3">
-      <app-result-content [resultData]="data.result"></app-result-content>
-    </div>
+        <!--YOUR RESULT CONTENT-->
+        <app-your-result-content *ngSwitchCase="CONTENTTYPE.YOUR_RESULT"
+                                 [yourResultContent]="data.yourResultContent">
+        </app-your-result-content>
 
-    <!--RIGHT-->
-    <div class="col-3">
-      <h2>Überschrift</h2>
+        <!--KEYWORD CONTENT-->
+        <app-keyword-content *ngSwitchCase="CONTENTTYPE.KEYWORD"
+                             [keywordContent]="data.keywordContent[contentService.currentContentpage.id-1]">
+        </app-keyword-content>
+
     </div>
-  </div>
 </div>

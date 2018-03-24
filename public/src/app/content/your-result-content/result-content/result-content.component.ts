@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {ResultModel} from './result.model';
+import {ResultModel} from "./result.model";
 
 @Component({
     selector: 'app-result-content',
@@ -8,15 +8,9 @@ import {ResultModel} from './result.model';
 
 export class ResultContentComponent implements OnInit {
 
-    @Input() resultData;
+    @Input() resultData: ResultModel;
 
-    result: ResultModel;
+    constructor() { }
 
-    constructor() {
-
-    }
-
-    ngOnInit() {
-        this.result = new ResultModel(this.resultData);
-    }
+    ngOnInit() { }
 }
