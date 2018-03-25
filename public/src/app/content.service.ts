@@ -5,6 +5,12 @@ import {RESULT} from './content/mock-results';
 import {ContentModel} from "./content/content.model";
 import {Contentpage} from "./content/content-page.model";
 import {CONTENTTYPE} from "./global/contenttype";
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+
+
+const httpOptions = {
+  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+};
 
 /**
  * content service - (Bisher einzige geplante) Verbindung zum Server
@@ -22,7 +28,7 @@ export class ContentService {
     contentpages: Contentpage[] = [];
     currentContentpage: Contentpage;
 
-    constructor() {
+    constructor(private http: HttpClient) {
         this.color = 'green';
     }
 
@@ -42,6 +48,9 @@ export class ContentService {
         this.setContentpages(result.keywordContent);
 
         return of(result);
+
+        // return this.http
+        //   .get<ContentModel>('/api/user', httpOptions);
     }
 
 

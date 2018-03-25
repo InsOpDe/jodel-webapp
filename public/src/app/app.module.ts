@@ -16,6 +16,8 @@ import { TimeContentComponent } from './content/shared/time-content/time-content
 import { KeywordContentComponent } from './content/keyword-content/keyword-content.component';
 import { ColorPaletteComponent } from './header/color-palette/color-palette.component';
 import { ContentPageSelectionComponent } from './header/content-page-selection/content-page-selection.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -34,7 +36,8 @@ import { ContentPageSelectionComponent } from './header/content-page-selection/c
   ],
   imports: [
       BrowserModule,
-      FormsModule
+      FormsModule,
+      HttpClientModule
   ],
   providers: [
       ContentService
