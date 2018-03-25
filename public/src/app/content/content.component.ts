@@ -46,7 +46,6 @@ export class ContentComponent implements OnInit {
     getData(): void {
         this.contentService.getResultData()
             .subscribe(response => {
-
                 this.data = response;
             });
     }

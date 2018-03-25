@@ -14,6 +14,7 @@ import { YourResultContentComponent } from './content/your-result-content/your-r
 import { KeywordBarchartContentComponent } from './content/shared/keywords-barchar/keyword-barchart-content.component';
 import { TimeContentComponent } from './content/shared/time-content/time-content.component';
 import { KeywordContentComponent } from './content/keyword-content/keyword-content.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { KeywordContentComponent } from './content/keyword-content/keyword-conte
   ],
   imports: [
       BrowserModule,
-      FormsModule
+      FormsModule,
+      HttpClientModule
   ],
   providers: [
       ContentService
