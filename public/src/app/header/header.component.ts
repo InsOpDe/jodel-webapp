@@ -1,10 +1,11 @@
 import {Component, OnInit} from '@angular/core';
 import {ContentService} from "../content.service";
-import {Contentpage} from "../content/content-page.model";
+import {ContentModel} from "../content/content.model";
 
 /**
  * header component
  *  - handles the currentContentpage of the contentService
+ *  and sends the entered data to the contentService
  *
  * @author  Maya
  * @since   24.03.2018
@@ -15,15 +16,54 @@ import {Contentpage} from "../content/content-page.model";
 })
 export class HeaderComponent implements OnInit {
 
-    location = 'München';
-    time = '22:06 Uhr';
-    jodelText: String = 'Wasser löst irgendwie alle Probleme. ' +
-        'Du willst abnehmen? Trink Wasser. \n' +
-        'Du hast unreine Haut? Trink Wasser. \n' +
-        'Dein Ex nervt? Ertränk ihn im Wasser.';
+    jodel: {
+        location: string,
+        time: string,
+        text: string;
+    };
+
+    contentData: ContentModel;
 
     constructor(public contentService: ContentService) { }
 
     ngOnInit() {
+
+        this.jodel = {
+            location: 'München',
+            time: '22:06',
+            text: 'Wasser löst irgendwie alle Probleme. ' +
+            'Du willst abnehmen? Trink Wasser. \n' +
+            'Du hast unreine Haut? Trink Wasser. ' +
+            'Dein Ex nervt? Ertränk ihn im Wasser.\n\n' +
+            '#darferdas'
+        }
+    }
+
+    /**
+     * send jodel data to the service
+     * - after the response, the data is forwarded to the content component
+     *
+     * @author  Maya
+     * @since   24.03.2018
+     */
+    sendJodel() {
+
+        this.contentService.getResultData(this.jodel)
+            .subscribe(response => {
+
+                this.contentData = response;
+        });
+    }
+
+
+    /**
+     * back to landingpage, refresh data of the service,
+     * keep jodel data ??
+     *
+     * @author  Maya
+     * @since   24.03.2018
+     */
+    editJodel() {
+        this.contentService.refresh();
     }
 }

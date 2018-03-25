@@ -7,39 +7,66 @@ import {Contentpage} from "./content/content-page.model";
 import {CONTENTTYPE} from "./global/contenttype";
 
 /**
- * content service
- * (Bisher einzige geplante) Verbindung zum Server
+ * content service - (Bisher einzige geplante) Verbindung zum Server
  *
  * Verwaltet/Speichert globale Informationen, die von anderen Components
  * benoetigt werden (aktuelle color, page, ..)
+ *
+ * @author  Maya
+ * @since   24.03.2018
  */
 @Injectable()
 export class ContentService {
 
     color: string;
-    contentpages: Contentpage[] = [new Contentpage()];
+    contentpages: Contentpage[] = [];
     currentContentpage: Contentpage;
 
     constructor() {
         this.color = 'green';
-        this.currentContentpage = this.contentpages[0];
     }
 
 
     /**
+     * send jodel data to server and
      * get data from mock result to fake http request
      * TODO AJAX CALL
      *
      * @author  Maya
      * @since   23.03.2018
      */
-    getResultData(): Observable<ContentModel> {
+    getResultData(jodelData): Observable<ContentModel> {
 
         let result = RESULT;
 
-        this.createContentpages(result.keywordContent);
+        this.setContentpages(result.keywordContent);
 
         return of(result);
+    }
+
+
+    /**
+     * refresh contentpages for new jodel
+     *
+     * @author  Maya
+     * @since   25.03.2018
+     */
+    refresh() {
+        this.currentContentpage = null;
+        this.contentpages = [];
+    }
+
+
+    /**
+     * create contentpages and set current contentpage
+     *
+     * @author  Maya
+     * @since   24.03.2018
+     */
+    setContentpages(keywordContent): void {
+
+        this.createContentpages(keywordContent);
+        this.currentContentpage = this.contentpages[0];
     }
 
 
@@ -50,6 +77,8 @@ export class ContentService {
      * @since   24.03.2018
      */
     createContentpages(keywordContent): void {
+
+        this.contentpages.push(new Contentpage());
 
         for (let i = 0; i < keywordContent.length; i++) {
 

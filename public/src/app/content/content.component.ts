@@ -1,12 +1,12 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {ContentService} from '../content.service';
 import {CONTENTTYPE} from "../global/contenttype";
 import {Contentpage} from "./content-page.model";
 import {ContentModel} from "./content.model";
 /**
  * content component
- *  - Requests data from the service and forwards
- *  them to the content components
+ *  -  receives data from the header and forwards
+ *  it to the content components
  *
  * @author  Maya
  * @since   23.03.2018
@@ -20,7 +20,7 @@ export class ContentComponent implements OnInit {
 
     CONTENTTYPE = CONTENTTYPE;
 
-    data: ContentModel;
+    @Input() data: ContentModel;
 
     constructor(private contentService: ContentService) { }
 
@@ -32,23 +32,5 @@ export class ContentComponent implements OnInit {
      */
     ngOnInit() {
 
-        // get content data
-        this.getData();
     }
-
-
-    /**
-     * get data from service
-     *
-     * @author  Maya
-     * @since   23.03.2018
-     */
-    getData(): void {
-        this.contentService.getResultData()
-            .subscribe(response => {
-
-                this.data = response;
-            });
-    }
-
 }

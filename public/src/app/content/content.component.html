@@ -1,7 +1,9 @@
 <div class="mainContainer">
 
     <!--switch by current contentpage-->
-    <div class="grid" [ngSwitch]="contentService.currentContentpage.type">
+    <div class="grid"
+         *ngIf="contentService.currentContentpage"
+         [ngSwitch]="contentService.currentContentpage.type">
 
         <!--YOUR RESULT CONTENT-->
         <app-your-result-content *ngSwitchCase="CONTENTTYPE.YOUR_RESULT"

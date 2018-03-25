@@ -1,4 +1,5 @@
-<app-header></app-header>
-<app-content></app-content>
+<app-header #header></app-header>
+
+<app-content [data]="header.contentData"></app-content>
 
 <!--footer ???-->

@@ -1,29 +1,43 @@
-<div class="bg-light-{{contentService.color}}">
-    <div class="grid headerContainer">
+<div [ngClass]="[contentService.currentContentpage ? '' : 'landingpage']">
+    <div class="bg-light-{{contentService.color}}">
+        <div class="grid headerContainer">
+            <!--ICON AND DROPDOWN-->
+            <div class="col-3">
+                <div class="jodelIcon">
+                    <app-content-page-selection></app-content-page-selection>
+                </div>
+            </div>
 
-        <!--ICON AND DROPDOWN-->
-        <div class="col-3">
-            <div class="jodelIcon">
+            <!--JODEL TEXT-->
+            <div class="col-3">
+                <textarea rows="5"
+                          placeholder="Good Vibes only!"
+                          class="bg-light-{{contentService.color}}"
+                          [ngModel]="jodel.text">
+                </textarea>
+            </div>
 
-                <select [(ngModel)]="contentService.currentContentpage">
-                    <option *ngFor="let page of contentService.contentpages" [ngValue]="page">
-                        {{page.title}}
-                    </option>
-                </select>
+            <!--LOCATION / TIME / BUTTON-->
+            <div class="col-3">
+                <input type="text"
+                       placeholder="Wähle deine Stadt"
+                       class="bg-light-{{contentService.color}}"
+                       [ngModel]="jodel.location"><br>
 
+                <input type="time"
+                       [ngModel]="jodel.time"
+                       class="bg-light-{{contentService.color}}"><br><br>
+
+                <button (click)="contentService.currentContentpage ? editJodel() : sendJodel()">
+                    {{contentService.currentContentpage ? 'edit' : 'send'}}
+                </button>
             </div>
         </div>
+    </div>
 
-        <!--JODEL TEXT-->
-        <div class="col-3 jodelText">
-            <p>
-                {{jodelText}}
-            </p>
-        </div>
-
-        <!--LOCATION / TIME ???-->
-        <div class="col-3">
-            <p>{{location}}<br>{{time}}</p>
-        </div>
+    <!--COLORS-->
+    <div class="grid"
+         *ngIf="!contentService.currentContentpage">
+        <app-color-palette></app-color-palette>
     </div>
 </div>

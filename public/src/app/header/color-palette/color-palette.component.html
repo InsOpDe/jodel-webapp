@@ -1,0 +1,11 @@
+<div class="col-3">&nbsp;</div>
+
+<div class="col-3">
+    <button *ngFor="let col of COLORS"
+            class="colorBox bg-{{col}}"
+            (click)="onColorSelect(col)">
+
+    </button>
+</div>
+
+<div class="col-3">&nbsp;</div>

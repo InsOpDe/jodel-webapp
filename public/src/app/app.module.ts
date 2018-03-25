@@ -14,7 +14,8 @@ import { YourResultContentComponent } from './content/your-result-content/your-r
 import { KeywordBarchartContentComponent } from './content/shared/keywords-barchar/keyword-barchart-content.component';
 import { TimeContentComponent } from './content/shared/time-content/time-content.component';
 import { KeywordContentComponent } from './content/keyword-content/keyword-content.component';
-
+import { ColorPaletteComponent } from './header/color-palette/color-palette.component';
+import { ContentPageSelectionComponent } from './header/content-page-selection/content-page-selection.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,9 @@ import { KeywordContentComponent } from './content/keyword-content/keyword-conte
     YourResultContentComponent,
     KeywordBarchartContentComponent,
     TimeContentComponent,
-    KeywordContentComponent
+    KeywordContentComponent,
+    ColorPaletteComponent,
+    ContentPageSelectionComponent,
   ],
   imports: [
       BrowserModule,
