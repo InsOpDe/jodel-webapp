@@ -4,19 +4,27 @@
  * @author  Maya
  * @since   23.03.2018
  */
+.landingpage {
+  padding-top: 150px;
+}
 
 .headerContainer {
-  height: 130px;
+  height: 126px;
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-}
 
-.jodelText {
-  height: 100%;
-  //border-style: solid;
-  //border-color: @darkGrey;
-  //border-width: 1px;
+  // TODO nicht mehr als x Zeilen
+  textarea {
+    width: 100%;
+    resize: none;
+    overflow:hidden;
+  }
+
+  button {
+    padding: 5px 10px;
+    background-color: @orange;
+  }
 }
 
 .jodelIcon {

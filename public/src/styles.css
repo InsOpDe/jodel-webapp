@@ -243,6 +243,19 @@ h3 {
   margin-top: 0;
   margin-bottom: 5px;
 }
+input,
+textarea,
+button {
+  font-family: 'Fira Sans', sans-serif;
+  border-style: none;
+  outline: none;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  filter: brightness(110%);
+}
 /**
  * Styles for AppComponent
  *
@@ -259,14 +272,23 @@ h3 {
  * @author  Maya
  * @since   23.03.2018
  */
+.landingpage {
+  padding-top: 150px;
+}
 .headerContainer {
-  height: 130px;
+  height: 126px;
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
 }
-.jodelText {
-  height: 100%;
+.headerContainer textarea {
+  width: 100%;
+  resize: none;
+  overflow: hidden;
+}
+.headerContainer button {
+  padding: 5px 10px;
+  background-color: #FBB058;
 }
 .jodelIcon {
   height: 100%;
@@ -275,6 +297,12 @@ h3 {
 }
 .col-3 {
   height: 100%;
+}
+.colorBox {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 .bar {
   height: 20px;
