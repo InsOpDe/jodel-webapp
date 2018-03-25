@@ -74,7 +74,7 @@ export class Server {
      */
     public config() {
         //add static paths
-        this.app.use('/', express.static('public'));
+        this.app.use('/', express.static('public/dist'));
 
         //mount json form parser
         this.app.use(bodyParser.json());
