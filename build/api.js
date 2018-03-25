@@ -29,9 +29,9 @@ class Api {
          * @returns {Promise<void>}
          */
         this.foo = (req, res) => __awaiter(this, void 0, void 0, function* () {
-            // let test = await this.db.testQuery();
-            res.send(testResult);
-            // res.send(`Hello ${test[0].FirstName}!`);
+            let test = yield this.db.testQuery();
+            res.send(`Hello ${test[0].FirstName}!`);
+            // res.send(testResult);
         });
         this.app = app;
         this.db = new db_1.Db(config_1.default.db.host, config_1.default.db.user, config_1.default.db.password, config_1.default.db.database, config_1.default.db.port);

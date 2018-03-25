@@ -4,9 +4,9 @@ import config from "./config";
 
 
 
-const testResult = {
-    "foo" : "bar"
-};
+// const testResult = {
+//     "foo" : "bar"
+// };
 
 
 export class Api{
@@ -55,9 +55,9 @@ export class Api{
      * @returns {Promise<void>}
      */
     private foo = async (req:Request, res:Response) => {
-        // let test = await this.db.testQuery();
-        res.send(testResult);
-        // res.send(`Hello ${test[0].FirstName}!`);
+        let test = await this.db.testQuery();
+        res.send(`Hello ${test[0].FirstName}!`);
+        // res.send(testResult);
     }
 
 
