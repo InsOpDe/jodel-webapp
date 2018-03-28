@@ -37,6 +37,10 @@ export class HeaderComponent implements OnInit {
             'Dein Ex nervt? Ertränk ihn im Wasser.\n\n' +
             '#darferdas'
         }
+
+
+        // debug
+        // this.sendJodel();
     }
 
     /**

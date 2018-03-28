@@ -8,6 +8,7 @@ import {TimeModel} from "./time.model";
 export class TimeContentComponent implements OnInit {
 
   @Input() time: TimeModel;
+  @Input() color: string;
 
   constructor() { }
 

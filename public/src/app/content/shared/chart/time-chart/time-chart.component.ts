@@ -19,13 +19,21 @@ export class TimeChartComponent implements OnInit {
 
     convertedValues: TimeModel["value"];
 
+    @Input() color: string;
+
     @Input() timeModel: TimeModel;
 
 
     constructor(private contentService: ContentService) {}
 
 
-    ngOnInit() {}
+    /**
+     * @author  Maya
+     * @since   28.03.2018
+     */
+    ngOnInit() {
+        this.color = this.color || this.contentService.color;
+    }
 
 
     /**
