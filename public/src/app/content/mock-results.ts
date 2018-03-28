@@ -7,6 +7,7 @@ import {
     hashtagBarchartArray2, keywordBarchartArray1,
     keywordBarchartArray2
 } from "./shared/keywords-barchar/mock-keyword-barchart-Array";
+import {TIME_RESULT1, TIME_RESULT2} from "./shared/time-content/mock-time-result";
 
 
 export const RESULT: ContentModel = {
@@ -26,10 +27,8 @@ export const RESULT: ContentModel = {
             foo: '312',
             bar: 123
         }),
-        time: new TimeModel({
-            foo: '312',
-            bar: 123
-        })
+        time: TIME_RESULT1
+
     },
 
     keywordContent : [
@@ -42,10 +41,7 @@ export const RESULT: ContentModel = {
                 foo: '312',
                 bar: 123
             }),
-            time: new TimeModel({
-                foo: '312',
-                bar: 123
-            })
+            time: TIME_RESULT2
         },
         {
             title: 'Schlagwort2',
@@ -56,10 +52,7 @@ export const RESULT: ContentModel = {
                 foo: '312',
                 bar: 123
             }),
-            time: new TimeModel({
-                foo: '312',
-                bar: 123
-            })
+            time: TIME_RESULT1
         }
     ]
 };

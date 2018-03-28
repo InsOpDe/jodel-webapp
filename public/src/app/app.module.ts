@@ -17,6 +17,7 @@ import { KeywordContentComponent } from './content/keyword-content/keyword-conte
 import { ColorPaletteComponent } from './header/color-palette/color-palette.component';
 import { ContentPageSelectionComponent } from './header/content-page-selection/content-page-selection.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TimeChartComponent } from './content/shared/chart/time-chart/time-chart.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { HttpClientModule } from '@angular/common/http';
     KeywordContentComponent,
     ColorPaletteComponent,
     ContentPageSelectionComponent,
+    TimeChartComponent,
   ],
   imports: [
       BrowserModule,
