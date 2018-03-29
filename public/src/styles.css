@@ -304,6 +304,14 @@ button:hover {
   margin-right: 10px;
   margin-bottom: 10px;
 }
+select {
+  border: none;
+  font-size: 1.3em;
+  outline: none;
+}
+select option {
+  border: none;
+}
 .bar {
   height: 20px;
   width: 8px;

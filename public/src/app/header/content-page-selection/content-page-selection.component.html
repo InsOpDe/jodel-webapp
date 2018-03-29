@@ -1,4 +1,5 @@
-<select [(ngModel)]="currentContentpageType"
+<select [ngClass]="'bg-light-' + contentService.color"
+        [(ngModel)]="currentContentpageType"
         (change)="handleContenttypeChange()">
 
     <option *ngFor="let type of contenttypes"
@@ -8,7 +9,11 @@
 
 </select>
 
-<select *ngIf="contentService.currentContentpage.type.multiplePages"
+<br>
+<br>
+
+<select [ngClass]="'bg-light-' + contentService.color"
+        *ngIf="contentService.currentContentpage.type.multiplePages"
         [(ngModel)]="contentService.currentContentpage">
 
     <option *ngFor="let page of currentContentpages"
