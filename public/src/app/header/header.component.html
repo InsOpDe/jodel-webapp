@@ -4,7 +4,7 @@
             <!--ICON AND DROPDOWN-->
             <div class="col-3">
                 <div class="jodelIcon">
-                    <app-content-page-selection></app-content-page-selection>
+                    <app-content-page-selection *ngIf="contentService.currentContentpage"></app-content-page-selection>
                 </div>
             </div>
 

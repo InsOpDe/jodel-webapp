@@ -67,6 +67,29 @@ export class ContentService {
 
 
     /**
+     * change Contentpage type
+     *
+     * @author  Maya
+     * @since   29.03.2018
+     */
+    changeContentpageType(type) {
+
+        if (type.id == this.currentContentpage.type.id) return;
+
+
+        for(let i = 0; i < this.contentpages.length; i++) {
+
+            if (this.contentpages[i].type.id == type.id) {
+
+                this.currentContentpage = this.contentpages[i];
+                break;
+            }
+        }
+
+    }
+
+
+    /**
      * create contentpages and set current contentpage
      *
      * @author  Maya
@@ -97,5 +120,7 @@ export class ContentService {
                 title: keywordContent[i].title
             }));
         }
+
+        console.log(this.contentpages);
     }
 }
