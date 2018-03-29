@@ -306,7 +306,20 @@ button:hover {
 }
 .bar {
   height: 20px;
-  width: 7px;
-  margin-right: 3px;
+  width: 8px;
+  margin-right: 4px;
   float: left;
+}
+.quad {
+  width: 8px;
+  height: 8px;
+  margin-top: 4px;
+}
+.long {
+  height: 12px;
+  margin-top: 0;
+}
+.hours {
+  float: left;
+  margin-right: 4px;
 }

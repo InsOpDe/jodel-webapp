@@ -1,5 +1,6 @@
-import {Component, Input, OnInit, SimpleChanges} from '@angular/core';
+import {Component, Input, OnChanges, OnInit, SimpleChanges} from '@angular/core';
 import {ContentService} from "../../../../content.service";
+import {log} from "util";
 /**
  * Bar Char Component
  *
@@ -11,13 +12,13 @@ import {ContentService} from "../../../../content.service";
     templateUrl: './bar-chart.component.html'
 })
 
-export class BarChartComponent implements OnInit {
+export class BarChartComponent implements OnInit, OnChanges {
 
     @Input() value: number;
     @Input() title: string;
     @Input() color: string;
 
-    maxBarAmount = 45;
+    maxBarAmount = 37;
     maxBarAmountArray = new Array(this.maxBarAmount);
     valueRound: number;
 

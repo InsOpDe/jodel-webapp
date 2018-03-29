@@ -1,10 +1,8 @@
 export class TimeModel {
 
-    foo: string;
-    bar: number;
+    value: Array<number>;
 
     constructor (data) {
-        this.foo = data.foo;
-        this.bar = data.bar;
+        this.value = data.value;
     }
 }

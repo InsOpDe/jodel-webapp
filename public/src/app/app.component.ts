@@ -19,8 +19,4 @@ export class AppComponent {
 
     constructor () {
     }
-
-    onClick () {
-        this.barCharValue1 += 5;
-    }
 }
