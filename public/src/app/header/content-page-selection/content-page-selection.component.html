@@ -1,6 +1,19 @@
-<select *ngIf="contentService.currentContentpage"
+<select [(ngModel)]="currentContentpageType"
+        (change)="handleContenttypeChange()">
+
+    <option *ngFor="let type of contenttypes"
+            [ngValue]="CONTENTTYPE[type]">
+        {{CONTENTTYPE[type].title}}
+    </option>
+
+</select>
+
+<select *ngIf="contentService.currentContentpage.type.multiplePages"
         [(ngModel)]="contentService.currentContentpage">
-  <option *ngFor="let page of contentService.contentpages" [ngValue]="page">
-    {{page.title}}
-  </option>
+
+    <option *ngFor="let page of currentContentpages"
+            [ngValue]="page">
+        {{page.title}}
+    </option>
+
 </select>

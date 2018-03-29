@@ -1,4 +1,5 @@
 import {CONTENTTYPE} from "../global/contenttype";
+import {ContentTypeModel} from "./content-type.model";
 
 /**
  * content page model
@@ -9,7 +10,7 @@ import {CONTENTTYPE} from "../global/contenttype";
 export class Contentpage {
 
     id: number;
-    type: number;
+    type: ContentTypeModel;
     title: string;
 
     constructor(data = Contentpage.getStartPage()) {
