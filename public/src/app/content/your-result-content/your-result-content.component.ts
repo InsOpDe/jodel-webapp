@@ -3,8 +3,7 @@ import {YourResultModel} from "./your-result.model";
 
 @Component({
     selector: 'app-your-result-content',
-    templateUrl: './your-result-content.component.html',
-    styleUrls: ['./your-result-content.component.less']
+    templateUrl: './your-result-content.component.html'
 })
 export class YourResultContentComponent implements OnInit {
 

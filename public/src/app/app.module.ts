@@ -34,7 +34,7 @@ import { TimeChartComponent } from './content/shared/chart/time-chart/time-chart
     KeywordContentComponent,
     ColorPaletteComponent,
     ContentPageSelectionComponent,
-    TimeChartComponent,
+    TimeChartComponent
   ],
   imports: [
       BrowserModule,

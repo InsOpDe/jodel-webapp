@@ -2,7 +2,9 @@
 <div *ngFor="let h of hours; let i = index" class="hours">
 
     <div *ngFor="let n of maxValue; let j = index"
-         [ngClass]="[j >= convertedValues[i] ? (j == convertedValues[i] ? 'quad bg-light-' + color : 'long bg-light-' + color) : 'quad bg-lightGrey']">
+         [ngClass]="[j >= convertedValues[i] ? (j == convertedValues[i] ?
+                        'quad bg-light-' + color : 'long bg-light-' + color) :
+                        'quad bg-lightGrey']">
     </div>
 
 </div>
