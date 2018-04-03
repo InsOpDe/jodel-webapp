@@ -3,4 +3,16 @@
 <!--TODO MAP-->
 <div class="grid bg-lightGrey">
     <h3>TODO KARTE</h3>
+    <div *ngFor="let dummy of ' '.repeat(map.squaresY).split(''), let y = index">
+      <div *ngFor="let dummy of ' '.repeat(map.squaresX).split(''), let x = index">
+        <div id="{{y}}-{{x}}" class="square">o</div>
+      </div>
+    </div>
+
+  <!--<div *ngFor="let n of maxBarAmountArray; let i = index"-->
+         <!--[ngClass]="[i <= valueRound ? 'bar bg-light-' + color : 'bar bg-lightGrey']">-->
+
+      <!--<div *ngIf="i == 1">{{value.toString()[0]}}</div>-->
+      <!--<div *ngIf="i == 2">{{value.toString()[1]}}</div>-->
+    <!--</div>-->
 </div>
