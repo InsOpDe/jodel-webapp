@@ -678,6 +678,16 @@ class Texttools {
             });
         });
     }
+    extractHashtags(str) {
+        return __awaiter(this, void 0, void 0, function* () {
+            return new Promise((resolve, reject) => {
+                let re = new RegExp(/(#[^\s]*)+/, "gi");
+                resolve(str.match(re, (matched) => {
+                    return matched;
+                }));
+            });
+        });
+    }
     /**
      * Load the Keywords out of the arraywords.txt file.
      */
