@@ -689,6 +689,18 @@ export class Texttools
 
     }
 
+    public async extractHashtags(str)
+    {
+        return new Promise((resolve, reject) =>
+        {
+            let re = new RegExp(/(#[^\s]*)+/, "gi");
+            resolve(str.match(re, (matched) =>
+            {
+                return matched;
+            }))
+        })
+    }
+
     /**
      * Load the Keywords out of the arraywords.txt file.
      */
@@ -747,6 +759,7 @@ export class Texttools
 
     }
 
+
     /**
      * this will split a text at spaces
      * @param text string of text
@@ -770,3 +783,4 @@ export class Texttools
 
 
 }
+
