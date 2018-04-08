@@ -41,11 +41,17 @@ export class Api{
         let router = Router();
 
         router.use('/user', this.foo);
+        router.use('/random', this.getRandomPost);
 
         this.app.use(this.prefix, router);
 
     }
 
+
+    private getRandomPost = async(req, res) => {
+        let result = await this.db.getRandomPost();
+        res.send("<pre>" + JSON.stringify(result, null, 2))
+    }
 
 
     /**
@@ -56,7 +62,7 @@ export class Api{
      */
     private foo = async (req:Request, res:Response) => {
         let test = await this.db.testQuery();
-        res.send(`Hello ${test[0].FirstName}!`);
+        res.send(`Hello ${JSON.stringify(test[0])}!`);
         // res.send(testResult);
     }
 

@@ -22,6 +22,7 @@ export class Db{
             database : database,
             port : port,
         });
+
     }
 
 
@@ -31,7 +32,19 @@ export class Db{
      * @returns {Promise<any>}
      */
     public async testQuery(){
-        return await this.query("SELECT * from Persons");
+        return await this.query("SELECT * from children Limit 1");
+    }
+
+
+    /**
+     * get random top 1000 post
+     *
+     * @returns {Promise<any>}
+     */
+    public async getRandomPost(){
+        return await this.query("SELECT top.*, messages.post_message FROM (SELECT * FROM jodeldb.posts order by votes desc LIMIT 1000) as top \n" +
+            "inner join messages on (messages.post_id = top.post_id)\n" +
+            "order by RAND() LIMIT 1\n");
     }
 
 
