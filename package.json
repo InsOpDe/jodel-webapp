@@ -10,10 +10,10 @@
     "@types/express": "*",
     "@types/node": "*",
     "source-map-support": "^0.5.3",
-    "typescript": "*"
+    "typescript": "^2.9.0-dev.20180407"
   },
   "scripts": {
-    "start": "node build/app.js",
+    "start": "tsc && node build/app.js",
     "clean": "rm -rf build node_modules"
   }
 }

@@ -74,6 +74,12 @@ div {
  * @author  Maya
  * @since   22.03.2018
  */
+/**
+ * Classes for Colors
+ *
+ * @author  Maya
+ * @since   22.03.2018
+ */
 .orange {
   color: #FBB058;
 }
@@ -331,3 +337,23 @@ select option {
   float: left;
   margin-right: 4px;
 }
+#map {
+  position: relative;
+  background-size: contain;
+}
+.row {
+  height: 10px;
+  width: 100%;
+}
+.square {
+  float: left;
+  box-sizing: border-box;
+  width: 8px;
+  height: 8px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+.square-fill {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/*# sourceMappingURL=styles.css.map */

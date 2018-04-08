@@ -4,7 +4,7 @@ const config = {
 		host : 'localhost',
 		user : 'root',
 		password : 'root',
-		database : 'test',
+        database : 'test',
         port : 8889,
 	}
 };
