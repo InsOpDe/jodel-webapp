@@ -1,16 +1,13 @@
 
 <div *ngFor="let h of hours; let i = index" class="hours">
 
-
-
-
     <div *ngFor="let n of convertedValuesArrays[i]; let j = index"
          [ngClass]="['quad bg-lightGrey']">
     </div>
 
-
-    <div [@timeChartState]="{value: 'set', params: {'bar_color': colors[color]}}">
-
+    <div [@timeChartState]="{value: 'set', params: {
+    'bar_color': colors[color]
+    }}">
         <div *ngFor="let n of maxValueArray[i]; let j = index"
              [ngClass]="[j == 0 ? 'quad bg-' + color : 'long bg-' + color]">
         </div>

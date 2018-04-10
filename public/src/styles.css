@@ -519,7 +519,7 @@ button:hover {
  * @since   23.03.2018
  */
 .landingpage {
-  padding-top: 150px;
+  padding-top: 300px;
 }
 .headerContainer {
   height: 126px;
@@ -532,7 +532,7 @@ button:hover {
   resize: none;
   overflow: hidden;
 }
-.headerContainer button {
+.headerContainer .sendEditButton {
   padding: 5px 10px;
   background-color: #fcbc71;
 }
@@ -544,11 +544,16 @@ button:hover {
 .col-3 {
   height: 100%;
 }
+.roundedCorners {
+  border-radius: 2px;
+}
 .colorBox {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  border-radius: 2px;
+  width: 15px;
+  height: 15px;
+  margin-right: 6px;
+  margin-bottom: 4px;
+  padding: 0;
 }
 select {
   border: none;
@@ -563,11 +568,13 @@ select option {
   width: 8px;
   margin-right: 4px;
   float: left;
+  border-radius: 1px;
 }
 .quad {
   width: 8px;
   height: 8px;
   margin-top: 4px;
+  border-radius: 1px;
 }
 .long {
   height: 12px;
@@ -592,6 +599,7 @@ select option {
   height: 8px;
   margin-right: 4px;
   margin-bottom: 4px;
+  border-radius: 1px;
 }
 .square-fill {
   background-color: #F1F1F1;

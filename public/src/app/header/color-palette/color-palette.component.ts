@@ -10,8 +10,7 @@ import {ContentService} from "../../content.service";
  */
 @Component({
     selector: 'app-color-palette',
-    templateUrl: './color-palette.component.html',
-    styleUrls: ['./color-palette.component.less']
+    templateUrl: './color-palette.component.html'
 })
 export class ColorPaletteComponent implements OnInit {
 

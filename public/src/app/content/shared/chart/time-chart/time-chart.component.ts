@@ -21,11 +21,11 @@ import {COLORS} from "../../../../global/colors";
                         height: '8px',
                         marginTop: '4px'
                     }),
-                    stagger(-150, [
-                        animate(10, style({
+                    stagger(-130, [
+                        animate(1, style({
                             backgroundColor: '{{bar_color}}',
                             height: '12px',
-                            marginTop: 0
+                            marginTop: '0'
                         }))
                     ])
                 ], {optional: true})
