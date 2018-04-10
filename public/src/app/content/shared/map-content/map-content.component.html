@@ -1,8 +1,8 @@
 <h2>Beliebtheit in Deutschland</h2>
 
-<!--TODO MAP-->
 <div class="grid">
-    <h3>{{selectedCity}}</h3>
+  <div class="info-box">asdasd</div>
+
   <div id="map">
     <div class="row" *ngFor="let dummy of ' '.repeat(map.squaresY).split(''), let y = index">
         <div
@@ -10,6 +10,7 @@
           ngClass="{{mapArr[y + '-' + x] ? 'square-fill' : ''}}"
           id="{{y}}-{{x}}"
           class="square"
+          tooltip="{{x}}-{{y}}"
         >
 
         </div>
