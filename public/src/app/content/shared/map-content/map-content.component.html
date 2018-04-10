@@ -14,10 +14,7 @@
         <div
           *ngFor="let dummy of ' '.repeat(map.squaresX).split(''), let x = index"
           ngClass="
-            {{citiesCoords[y + '-' + x] && citiesCoords[y + '-' + x].votes > threshHigh ? 'square-high' :
-             (citiesCoords[y + '-' + x] && citiesCoords[y + '-' + x].votes > threshMid ? 'square-mid' :
-             (citiesCoords[y + '-' + x] && citiesCoords[y + '-' + x].votes > threshLow ? 'square-low' :
-             (mapArr[y + '-' + x] ? 'square-fill' : '')))}}
+            {{citiesCoords[y + '-' + x] && citiesCoords[y + '-' + x].votes ? calcClass(citiesCoords[y + '-' + x].votes) : (mapArr[y + '-' + x] ? 'hm-' + color + '-0' : '')}}
           "
           id="{{y}}-{{x}}"
           class="square"

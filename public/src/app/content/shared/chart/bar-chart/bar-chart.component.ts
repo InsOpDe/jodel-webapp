@@ -24,8 +24,8 @@ import {COLORS} from "../../../../global/colors";
                     style({
                         backgroundColor: COLORS.lightGrey
                     }),
-                    stagger(150, [
-                        animate(100, style({
+                    stagger(130, [
+                        animate(10, style({
                             backgroundColor: '{{bar_color}}'
                         }))
                     ])

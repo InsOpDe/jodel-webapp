@@ -1,4 +1,4 @@
-import {Component, Input, OnInit, NgStyle} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {ContentService} from "../../../content.service";
 import {CITIES} from "../../../global/cities";
 import {MAP} from "./map";
@@ -19,12 +19,16 @@ export class MapContentComponent implements OnInit {
   city: string = "";
   votes: string = "";
   inhabitants: string = "";
+  color: string;
+  maxvote: number = 0;
+  maxsteps: number =  9;
+  voteindex: object = [];
 
-  threshHigh: number = 500;
-  threshMid: number = 50;
-  threshLow: number = 0;
+  //hm-color-0 bis  9
 
-  constructor() {
+
+  constructor(private contentService:ContentService) {
+    this.color = contentService.color;
   }
 
   updateInfoBox (e) {
@@ -52,10 +56,33 @@ export class MapContentComponent implements OnInit {
 
       if(MapCitiesDummy[i]) {
         city.votes = MapCitiesDummy[i].votes;
-
+        this.maxvote = Math.max(this.maxvote, city.votes)
       }
       this.citiesCoords[y + "-" + x] = city;
     }
+
+    let maxLogValue = Math.log(this.maxvote - 10);
+    let step = maxLogValue / this.maxsteps;
+
+    for(let i = 0; i <= this.maxsteps; i++) {
+      this.voteindex[i] = Math.pow(Math.E, step * i)
+    }
+    console.log(this.voteindex)
+
+  }
+
+
+  calcClass (value) {
+    let elClass = "hm-" + this.color + "-";
+    let maxindex = 0;
+    for(let i in this.voteindex) {
+      if(value >= this.voteindex[i]) {
+        maxindex = Number(i);
+      } else {
+        break;
+      }
+    }
+    return elClass + maxindex;
   }
 
 }
