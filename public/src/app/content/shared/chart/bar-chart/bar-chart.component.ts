@@ -5,7 +5,7 @@ import {
     state,
     style,
     animate,
-    transition, stagger, query
+    transition, stagger, query, animateChild
 } from '@angular/animations';
 import {COLORS} from "../../../../global/colors";
 /**
@@ -24,8 +24,8 @@ import {COLORS} from "../../../../global/colors";
                     style({
                         backgroundColor: COLORS.lightGrey
                     }),
-                    stagger(130, [
-                        animate(10, style({
+                    stagger(70, [
+                        animate(1, style({
                             backgroundColor: '{{bar_color}}'
                         }))
                     ])

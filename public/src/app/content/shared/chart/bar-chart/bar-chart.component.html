@@ -2,14 +2,17 @@
 
     <h3>{{title}}</h3>
 
-    <div [@barChartState]="{value: 'set', params: {'bar_color': colors[color]}}">
-        <div *ngFor="let n of valueRoundArray; let i = index"
-             [ngClass]="['bar bg-' + color]">
 
-            <div *ngIf="i == 1">{{value.toString()[0]}}</div>
-            <div *ngIf="i == 2">{{value.toString()[1]}}</div>
+        <div [@barChartState]="{value: 'set', params: {'bar_color': colors[color]}}">
+            <div *ngFor="let n of valueRoundArray; let i = index"
+                 [ngClass]="['bar bg-' + color]">
+
+                <div *ngIf="i == 1">{{value.toString()[0]}}</div>
+                <div *ngIf="i == 2">{{value.toString()[1]}}</div>
+            </div>
         </div>
-    </div>
+
+
 
     <div *ngFor="let n of maxBarAmountArray; let i = index"
          class="bar bg-lightGrey">

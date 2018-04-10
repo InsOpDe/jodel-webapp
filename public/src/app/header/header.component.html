@@ -1,12 +1,11 @@
-<div [ngClass]="[contentService.currentContentpage ? '' : 'landingpage']">
-    <div class="bg-{{contentService.color}}">
-        <div class="grid headerContainer">
-            <!--ICON AND DROPDOWN-->
-            <div class="col-3">
-                <div class="jodelIcon">
-                    <app-content-page-selection *ngIf="contentService.currentContentpage"></app-content-page-selection>
-                </div>
+<div [ngClass]="[contentService.currentContentpage ? 'bg-' + contentService.color : 'bg-' + contentService.color + ' landingpage']">
+    <div class="grid headerContainer">
+        <!--ICON AND DROPDOWN-->
+        <div class="col-3">
+            <div class="jodelIcon">
+                <app-content-page-selection *ngIf="contentService.currentContentpage"></app-content-page-selection>
             </div>
+        </div>
 
             <!--TODO disable input if currentContentage is set-->
             <!--JODEL TEXT-->
@@ -29,16 +28,16 @@
                        [ngModel]="jodel.time"
                        class="bg-{{contentService.color}}"><br><br>
 
-                <button (click)="contentService.currentContentpage ? editJodel() : sendJodel()">
-                    {{contentService.currentContentpage ? 'edit' : 'send'}}
-                </button>
-            </div>
+            <button class="sendEditButton roundedCorners"
+                    (click)="contentService.currentContentpage ? editJodel() : sendJodel()">
+                {{contentService.currentContentpage ? 'edit' : 'send'}}
+            </button>
         </div>
     </div>
+</div>
 
-    <!--COLORS-->
-    <div class="grid"
-         *ngIf="!contentService.currentContentpage">
-        <app-color-palette></app-color-palette>
-    </div>
+<!--COLORS-->
+<div class="grid headerContainer"
+     *ngIf="!contentService.currentContentpage">
+    <app-color-palette></app-color-palette>
 </div>
