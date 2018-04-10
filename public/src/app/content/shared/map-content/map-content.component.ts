@@ -21,7 +21,7 @@ export class MapContentComponent implements OnInit {
   inhabitants: string = "";
   color: string;
   maxvote: number = 0;
-  maxsteps: number =  9;
+  maxsteps: number =  3;
   voteindex: object = [];
   classesMap: object = {};
 
@@ -112,7 +112,11 @@ export class MapContentComponent implements OnInit {
         break;
       }
     }
-    return elClass + maxindex;
+    if(maxindex == 0) {
+      return "square-fill"
+    }
+
+    return elClass + maxindex*3;
   }
 
 
