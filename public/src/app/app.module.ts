@@ -18,6 +18,9 @@ import { ColorPaletteComponent } from './header/color-palette/color-palette.comp
 import { ContentPageSelectionComponent } from './header/content-page-selection/content-page-selection.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TimeChartComponent } from './content/shared/chart/time-chart/time-chart.component';
+import { TooltipDirective } from './directives/tooltip/tooltip.directive';
+import { TooltipComponent, TooltipContainerDirective } from './directives/tooltip/tooltip.component';
+import { ForTooltipComponent } from './directives/tooltip/for-tooltip.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 
@@ -35,7 +38,15 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     KeywordContentComponent,
     ColorPaletteComponent,
     ContentPageSelectionComponent,
-    TimeChartComponent
+    TimeChartComponent,
+    TooltipDirective,
+    TooltipComponent,
+    ForTooltipComponent,
+    TooltipContainerDirective
+  ],
+  entryComponents: [
+    TooltipComponent,
+    ForTooltipComponent
   ],
   imports: [
       BrowserModule,
