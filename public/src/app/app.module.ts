@@ -18,6 +18,7 @@ import { ColorPaletteComponent } from './header/color-palette/color-palette.comp
 import { ContentPageSelectionComponent } from './header/content-page-selection/content-page-selection.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TimeChartComponent } from './content/shared/chart/time-chart/time-chart.component';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { TimeChartComponent } from './content/shared/chart/time-chart/time-chart
   imports: [
       BrowserModule,
       FormsModule,
-      HttpClientModule
+      HttpClientModule,
+      BrowserAnimationsModule
   ],
   providers: [
       ContentService

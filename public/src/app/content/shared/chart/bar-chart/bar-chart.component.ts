@@ -1,6 +1,13 @@
 import {Component, Input, OnChanges, OnInit, SimpleChanges} from '@angular/core';
 import {ContentService} from "../../../../content.service";
-import {log} from "util";
+import {
+    trigger,
+    state,
+    style,
+    animate,
+    transition, stagger, query
+} from '@angular/animations';
+import {COLORS} from "../../../../global/colors";
 /**
  * Bar Char Component
  *
@@ -9,7 +16,23 @@ import {log} from "util";
  */
 @Component({
     selector: 'app-bar-chart',
-    templateUrl: './bar-chart.component.html'
+    templateUrl: './bar-chart.component.html',
+    animations: [
+        trigger('barChartState', [
+            transition('void => set', [
+                query(":enter", [
+                    style({
+                        backgroundColor: COLORS.lightGrey
+                    }),
+                    stagger(150, [
+                        animate(100, style({
+                            backgroundColor: '{{bar_color}}'
+                        }))
+                    ])
+                ], {optional: true})
+            ]),
+        ])
+    ]
 })
 
 export class BarChartComponent implements OnInit, OnChanges {
@@ -18,8 +41,12 @@ export class BarChartComponent implements OnInit, OnChanges {
     @Input() title: string;
     @Input() color: string;
 
+
+    colors = COLORS;
+
     maxBarAmount = 37;
     maxBarAmountArray = new Array(this.maxBarAmount);
+    valueRoundArray = [];
     valueRound: number;
 
     constructor(private contentService: ContentService) { }
@@ -56,6 +83,8 @@ export class BarChartComponent implements OnInit, OnChanges {
      */
     updateBarValues() {
         this.valueRound = this.round();
+        this.valueRoundArray = new Array(this.valueRound);
+        this.maxBarAmountArray = new Array(this.maxBarAmount - this.valueRound);
     }
 
 
