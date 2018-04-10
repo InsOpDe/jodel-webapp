@@ -1,7 +1,4 @@
-﻿import { setTimeout } from "core-js/library/web/timers";
-import { error } from "util";
-import { loadavg } from "os";
-/*
+﻿/*
  * Created by Tim Mend 
  * This file will provide function for editing texts
  * src: https://stackoverflow.com/questions/15604140/replace-multiple-strings-with-multiple-other-strings

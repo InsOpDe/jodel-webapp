@@ -1,12 +1,4 @@
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 /*
  * Created by Tim Mend
@@ -668,24 +660,20 @@ class Texttools {
      *
      * @param str string of text
      */
-    replaceAll(str) {
-        return __awaiter(this, void 0, void 0, function* () {
-            return new Promise((resolve, reject) => {
-                let re = new RegExp(Object.values(this.replace_words_clean).join("\\b|\\b") + "|" + Object.values(this.replace_2).join("|"), "gi");
-                resolve(str.replace(re, function (matched) {
-                    return "";
-                }));
-            });
+    async replaceAll(str) {
+        return new Promise((resolve, reject) => {
+            let re = new RegExp(Object.values(this.replace_words_clean).join("\\b|\\b") + "|" + Object.values(this.replace_2).join("|"), "gi");
+            resolve(str.replace(re, function (matched) {
+                return "";
+            }));
         });
     }
-    extractHashtags(str) {
-        return __awaiter(this, void 0, void 0, function* () {
-            return new Promise((resolve, reject) => {
-                let re = new RegExp(/(#[^\s]*)+/, "gi");
-                resolve(str.match(re, (matched) => {
-                    return matched;
-                }));
-            });
+    async extractHashtags(str) {
+        return new Promise((resolve, reject) => {
+            let re = new RegExp(/(#[^\s]*)+/, "gi");
+            resolve(str.match(re, (matched) => {
+                return matched;
+            }));
         });
     }
     /**
@@ -712,23 +700,21 @@ class Texttools {
      * This will extract a keywords from a given message.
      * @param message string
      */
-    extractKeywords(message) {
-        return __awaiter(this, void 0, void 0, function* () {
-            this.keywords = yield this.loadKeywords();
-            yield this.cleanWords();
-            let res = [];
-            let words = yield this.replaceAll(message);
-            let words_array = this.splitByWords(words);
-            return new Promise((resolve, reject) => {
-                for (let i = 0; i < words_array.length; i++) {
-                    for (let key in this.keywords) {
-                        if (this.keywords[key].name == words_array[i]) {
-                            res.push(this.keywords[key]);
-                        }
+    async extractKeywords(message) {
+        this.keywords = await this.loadKeywords();
+        await this.cleanWords();
+        let res = [];
+        let words = await this.replaceAll(message);
+        let words_array = this.splitByWords(words);
+        return new Promise((resolve, reject) => {
+            for (let i = 0; i < words_array.length; i++) {
+                for (let key in this.keywords) {
+                    if (this.keywords[key].name == words_array[i]) {
+                        res.push(this.keywords[key]);
                     }
                 }
-                resolve(res);
-            });
+            }
+            resolve(res);
         });
     }
     /**
