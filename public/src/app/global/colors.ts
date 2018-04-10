@@ -1,11 +1,14 @@
-export const COLORS_JSON = {
+export const COLORS = {
 
-    ORANGE: 'orange',
-    GREEN: 'green',
-    YELLOW: 'yellow',
-    RED: 'red',
-    BLUE: 'blue',
-    TURQUOISE: 'turquoise'
+    orange: '#fcc88a',
+    green: '#c8dc92',
+    yellow: '#fed98f',
+    red: '#edaea8',
+    blue: '#90c9e0',
+    turquoise: '#c7ddd7',
+    darkGrey: '#262323',
+    lightGrey: '#F1F1F1',
+    grey: '#6D6D6D'
 };
 
 export const COLORS_ARRAY = [
