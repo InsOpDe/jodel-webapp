@@ -75,11 +75,12 @@ export class Db{
         {
             if (count == 0)
             {
-                throw "INVALID:::KEYWORDS:::EXCEPTION";
+                return [];
             }
             let _query_1 = _query + " GROUP BY t.post_id HAVING COUNT(DISTINCT t.post_keyword) = " + count;
             res = await this.query(_query_1);
             count--;
+            process.stdout.write(".");
         }
         while (res.length == 0)
 
@@ -117,6 +118,7 @@ export class Db{
             let _query_1 = _query + " GROUP BY t.post_id HAVING COUNT(DISTINCT t.post_tag) = " + count;
             res = await this.query(_query_1);
             count--;
+            process.stdout.write(".");
         }
         while (res.length == 0)
 
@@ -132,11 +134,20 @@ export class Db{
     {
         this.texttools.extractHashtags(message).then((value) =>
         {
+            if (value == undefined)
+            {
+                value = [];
+            }
             let res = Object.values(value);
             this.getPostsFromTags(res);
         })
 
+
         let res = await this.texttools.extractHashtags(message);
+        if (res == undefined)
+        {
+            res = [];
+        }
         let res_array = Object.values(res);
         let resDBHash = this.getPostsFromTags(res_array);
         let res_keywords = await this.texttools.extractKeywords(message);
@@ -145,8 +156,15 @@ export class Db{
         {
             res_keywords_array.push(res_keywords[key].name);
         }
-        //console.log(res_keywords);
+        if (res_keywords_array.length == 0)
+        {
+            return new Promise((resolve) =>
+            {
+                resolve("");
+            });
+        }
         let resDBKeyword = await this.getPostsFromKeywords(res_keywords_array);
+        
         return new Promise((resolve, reject) =>
         {
 

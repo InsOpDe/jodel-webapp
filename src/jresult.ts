@@ -4,6 +4,7 @@ import { Texttools } from './texttools';
 export class JResult
 {
     Jodel: string;
+    Votes: any;
     affJodel: Jodel;
     db: Db;
     texttools: Texttools;
@@ -37,13 +38,21 @@ export class JResult
      */
     public async getResult()
     {
+        console.log("Getting similiar post...")
         let res = await this.db.getMostSimiliar(this.Jodel);
+        if (res == "")
+        {
+            //TODO: Yeah... shitty solution for the problem if there is no similiar Jodel.
+            this.affJodel = new Jodel("5980aae96e902100171a0ba8", this.db);
+        } else
+        {
+            this.affJodel = new Jodel(res[0].post_id, this.db);
 
-        this.affJodel = new Jodel(res[0].post_id, this.db);
-        this.affJodel.fill();
+        }
+        await this.affJodel.fill();
         let res2 = await this.texttools.extractHashtags(this.Jodel);
         let res3 = await this.texttools.extractKeywords(this.Jodel);
-        
+        console.log("Getting Hashtags and Keywords...")
         for (let key1 in res3)
         {
             let _tmp: {
@@ -54,6 +63,7 @@ export class JResult
             let keynum = await this.db.getCityKeywordAmount(res3[key1].name);
             for (let key2 in keynum)
             {
+                process.stdout.write(".");
                 _tmp.push({
                     city: keynum[key2].loc_name,
                     amount: keynum[key2].amount
@@ -76,6 +86,7 @@ export class JResult
             let hashnum = await this.db.getCityHashtagAmount(res2[hashi]);
             for (let key3 in hashnum)
             {
+                process.stdout.write(".");
                 _tmp.push({
                     city: hashnum[key3].loc_name,
                     amount: hashnum[key3].amount
@@ -88,11 +99,70 @@ export class JResult
                 citydata: _tmp
             })
         }
+        console.log("Generating Votes...")
+        let _votestmp = await this.generateVotes(res);
+        this.Votes = _votestmp;
+        console.log("Generating City Importance...")
+        let _cityimportance = await this.generateCityImportance();
+        console.log(_cityimportance);
+        //this.Votes = parseInt(_votestmp);
+
         return new Promise((resolve) =>
         {
             resolve(true);
         })
 
+    }
+    public async generateVotes(keys: any)
+    {
+        let sum = 0;
+        for (let key in keys)
+        {   
+            let tmp = await this.db.getPostById(keys[key].post_id);
+            if (tmp.length == 0)
+            {
+                let tmp = await this.db.getChildById(keys[key].post_id);
+                //console.log(tmp);
+                sum += parseInt(tmp[0].vote_count);
+                process.stdout.write(".");
+            }
+            else
+            {
+                sum += parseInt(tmp[0].votes) * 1.5;
+                process.stdout.write(".");
+            }
+            //console.log(tmp[0].votes);    
+            
+        }
+        return new Promise((resolve) =>
+        { resolve(Math.ceil((sum / keys.length))) })
+    }
+
+    public async generateCityImportance()
+    {
+        return new Promise((resolve) =>
+        {
+
+        
+        let hash1: any = this.hashtags[0]['citydata'];
+        for (let i = 1; i < this.hashtags.length; i++)
+        {
+            let hash: any = this.hashtags[i]['citydata'];
+            for (let key in hash)
+            {
+                for (let i = 0; i < hash1.length; i++)
+                {
+                    if (hash[key].name == hash1[i].name)
+                    {
+                        hash1.amount += hash[key].amount;
+                        process.stdout.write(".");
+                    }
+                }
+            }
+            
+            }
+            resolve(hash1);
+        })
     }
 
     public toJSON(): JRESULT
@@ -100,6 +170,7 @@ export class JResult
 
         return {
             message: this.Jodel,
+            Votes: this.Votes,
             jodel: this.affJodel.encodeJodel(),
             keywords: this.keywords,
             hashtags: this.hashtags
@@ -110,6 +181,7 @@ export class JResult
 interface JRESULT
 {
     message: string;
+    Votes: any;
     jodel: JodelJSON;
     keywords: {
         name: string;
