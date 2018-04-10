@@ -32,14 +32,26 @@ export class Db{
      * @returns {Promise<any>}
      */
     public async testQuery(){
-        return await this.query("SELECT * from Persons");
+        return await this.query("SELECT * from children Limit 1");
     }
 
-   
+
+    /**
+     * get random top 1000 post
+     *
+     * @returns {Promise<any>}
+     */
+    public async getRandomPost(){
+        return await this.query("SELECT top.*, messages.post_message FROM (SELECT * FROM jodeldb.posts order by votes desc LIMIT 1000) as top \n" +
+            "inner join messages on (messages.post_id = top.post_id)\n" +
+            "order by RAND() LIMIT 1\n");
+    }
+
+
     /**
      * This Function will return a result if at least one keyword exists in the table keywords!
      * The table keywords is very big, so this function is very slow.
-     * 
+     *
      * @param keywords words from the jodelmessage which will be searched in the table keywords for
      */
     public async getPostsFromKeywords(keywords: string[])
@@ -70,7 +82,7 @@ export class Db{
             count--;
         }
         while (res.length == 0)
-        
+
         return res;
     }
 
@@ -99,7 +111,7 @@ export class Db{
         {
             if (count == 0)
             {
-               
+
                 return res;
             }
             let _query_1 = _query + " GROUP BY t.post_id HAVING COUNT(DISTINCT t.post_tag) = " + count;
@@ -112,7 +124,7 @@ export class Db{
     }
 
     /**
-     * TODO: This works but it is stupidly slow. Write better Code...somehow or create View in Database and 
+     * TODO: This works but it is stupidly slow. Write better Code...somehow or create View in Database and
      * correct other functions
      * @param message string
      */
@@ -154,7 +166,7 @@ export class Db{
         })
 
         }
-    
+
     public async getMessageById(id: string)
     {
         let _query = "SELECT message from messages WHERE post_id = " + id;
