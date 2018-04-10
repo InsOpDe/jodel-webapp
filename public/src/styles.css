@@ -75,112 +75,112 @@ div {
  * @since   22.03.2018
  */
 .orange {
-  color: #FBB058;
-}
-.light-orange {
   color: #fcc88a;
 }
+.light-orange {
+  color: #fddfbc;
+}
 .dark-orange {
-  color: #faa43f;
+  color: #fcbc71;
 }
 .bg-orange {
-  background-color: #FBB058;
-}
-.bg-light-orange {
   background-color: #fcc88a;
 }
+.bg-light-orange {
+  background-color: #fddfbc;
+}
 .bg-dark-orange {
-  background-color: #faa43f;
+  background-color: #fcbc71;
 }
 .green {
-  color: #B5CF6C;
-}
-.light-green {
   color: #c8dc92;
 }
+.light-green {
+  color: #dce8b9;
+}
 .dark-green {
-  color: #abc959;
+  color: #bfd57f;
 }
 .bg-green {
-  background-color: #B5CF6C;
-}
-.bg-light-green {
   background-color: #c8dc92;
 }
+.bg-light-green {
+  background-color: #dce8b9;
+}
 .bg-dark-green {
-  background-color: #abc959;
+  background-color: #bfd57f;
 }
 .yellow {
-  color: #FEC85C;
-}
-.light-yellow {
   color: #fed98f;
 }
+.light-yellow {
+  color: #ffeac1;
+}
 .dark-yellow {
-  color: #febf43;
+  color: #fed175;
 }
 .bg-yellow {
-  background-color: #FEC85C;
-}
-.bg-light-yellow {
   background-color: #fed98f;
 }
+.bg-light-yellow {
+  background-color: #ffeac1;
+}
 .bg-dark-yellow {
-  background-color: #febf43;
+  background-color: #fed175;
 }
 .red {
-  color: #E4867E;
-}
-.light-red {
   color: #edaea8;
 }
+.light-red {
+  color: #f6d5d2;
+}
 .dark-red {
-  color: #e07269;
+  color: #e89a93;
 }
 .bg-red {
-  background-color: #E4867E;
-}
-.bg-light-red {
   background-color: #edaea8;
 }
+.bg-light-red {
+  background-color: #f6d5d2;
+}
 .bg-dark-red {
-  background-color: #e07269;
+  background-color: #e89a93;
 }
 .blue {
-  color: #68B5D5;
-}
-.light-blue {
   color: #90c9e0;
 }
+.light-blue {
+  color: #b8dceb;
+}
 .dark-blue {
-  color: #54abcf;
+  color: #7cbfdb;
 }
 .bg-blue {
-  background-color: #68B5D5;
-}
-.bg-light-blue {
   background-color: #90c9e0;
 }
+.bg-light-blue {
+  background-color: #b8dceb;
+}
 .bg-dark-blue {
-  background-color: #54abcf;
+  background-color: #7cbfdb;
 }
 .turquoise {
-  color: #A7CAC1;
-}
-.light-turquoise {
   color: #c7ddd7;
 }
+.light-turquoise {
+  color: #e7f0ee;
+}
 .dark-turquoise {
-  color: #97c0b6;
+  color: #b7d4cc;
 }
 .bg-turquoise {
-  background-color: #A7CAC1;
-}
-.bg-light-turquoise {
   background-color: #c7ddd7;
 }
+.bg-light-turquoise {
+  background-color: #e7f0ee;
+}
 .bg-dark-turquoise {
-  background-color: #97c0b6;
+  background-color: #b7d4cc;
 }
 .grey {
   color: #6D6D6D;
@@ -288,7 +288,7 @@ button:hover {
 }
 .headerContainer button {
   padding: 5px 10px;
-  background-color: #FBB058;
+  background-color: #fcbc71;
 }
 .jodelIcon {
   height: 100%;
