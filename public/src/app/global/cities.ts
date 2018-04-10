@@ -1,5 +1,5 @@
 export const CITIES = {
-  "Berlin": {
+  "1": {
     "city": "Berlin",
     "lat": "52.533 ",
     "long": " 13.413",
@@ -10,7 +10,7 @@ export const CITIES = {
       "y": 15
     }
   },
-  "Hamburg": {
+  "2": {
     "city": "Hamburg",
     "lat": "53.567 ",
     "long": " 10.033",
@@ -21,7 +21,7 @@ export const CITIES = {
       "y": 9
     }
   },
-  "München": {
+  "3": {
     "city": "München",
     "lat": "48.133 ",
     "long": " 11.567",
@@ -32,7 +32,7 @@ export const CITIES = {
       "y": 42
     }
   },
-  "Köln": {
+  "4": {
     "city": "Köln",
     "lat": "50.950 ",
     "long": " 6.950",
@@ -43,7 +43,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Frankfurt am Main": {
+  "5": {
     "city": "Frankfurt am Main",
     "lat": "50.117 ",
     "long": " 8.683",
@@ -54,7 +54,7 @@ export const CITIES = {
       "y": 30
     }
   },
-  "Stuttgart": {
+  "6": {
     "city": "Stuttgart",
     "lat": "48.783 ",
     "long": " 9.183",
@@ -65,7 +65,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Düsseldorf": {
+  "7": {
     "city": "Düsseldorf",
     "lat": "51.233 ",
     "long": " 6.783",
@@ -76,7 +76,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Dortmund": {
+  "8": {
     "city": "Dortmund",
     "lat": "51.517 ",
     "long": " 7.467",
@@ -87,7 +87,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Essen": {
+  "9": {
     "city": "Essen",
     "lat": "52.717 ",
     "long": " 7.933",
@@ -98,7 +98,7 @@ export const CITIES = {
       "y": 14
     }
   },
-  "Leipzig": {
+  "10": {
     "city": "Leipzig",
     "lat": "51.339 ",
     "long": " 12.377",
@@ -109,7 +109,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Bremen": {
+  "11": {
     "city": "Bremen",
     "lat": "53.083 ",
     "long": " 8.817",
@@ -120,7 +120,7 @@ export const CITIES = {
       "y": 12
     }
   },
-  "Dresden": {
+  "12": {
     "city": "Dresden",
     "lat": "51.050 ",
     "long": " 13.739",
@@ -131,7 +131,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Hannover": {
+  "13": {
     "city": "Hannover",
     "lat": "52.383 ",
     "long": " 9.733",
@@ -142,7 +142,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Nürnberg": {
+  "14": {
     "city": "Nürnberg",
     "lat": "49.450 ",
     "long": " 11.083",
@@ -153,7 +153,7 @@ export const CITIES = {
       "y": 34
     }
   },
-  "Duisburg": {
+  "15": {
     "city": "Duisburg",
     "lat": "51.433 ",
     "long": " 6.767",
@@ -164,7 +164,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Bochum": {
+  "16": {
     "city": "Bochum",
     "lat": "51.483 ",
     "long": " 7.217",
@@ -175,7 +175,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Wuppertal": {
+  "17": {
     "city": "Wuppertal",
     "lat": "51.267 ",
     "long": " 7.200",
@@ -186,7 +186,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Bielefeld": {
+  "18": {
     "city": "Bielefeld",
     "lat": "52.017 ",
     "long": " 8.533",
@@ -197,7 +197,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Bonn": {
+  "19": {
     "city": "Bonn",
     "lat": "50.733 ",
     "long": " 7.100",
@@ -208,7 +208,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Münster": {
+  "20": {
     "city": "Münster",
     "lat": "51.967 ",
     "long": " 7.633",
@@ -219,7 +219,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Karlsruhe": {
+  "21": {
     "city": "Karlsruhe",
     "lat": "49.017 ",
     "long": " 8.400",
@@ -230,7 +230,7 @@ export const CITIES = {
       "y": 37
     }
   },
-  "Mannheim": {
+  "22": {
     "city": "Mannheim",
     "lat": "49.483 ",
     "long": " 8.467",
@@ -241,7 +241,7 @@ export const CITIES = {
       "y": 34
     }
   },
-  "Augsburg": {
+  "23": {
     "city": "Augsburg",
     "lat": "48.367 ",
     "long": " 10.900",
@@ -252,7 +252,7 @@ export const CITIES = {
       "y": 41
     }
   },
-  "Wiesbaden": {
+  "24": {
     "city": "Wiesbaden",
     "lat": "50.100 ",
     "long": " 8.233",
@@ -263,7 +263,7 @@ export const CITIES = {
       "y": 30
     }
   },
-  "Gelsenkirchen": {
+  "25": {
     "city": "Gelsenkirchen",
     "lat": "51.550 ",
     "long": " 7.100",
@@ -274,7 +274,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Mönchengladbach": {
+  "26": {
     "city": "Mönchengladbach",
     "lat": "51.200 ",
     "long": " 6.433",
@@ -285,7 +285,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Braunschweig": {
+  "27": {
     "city": "Braunschweig",
     "lat": "52.267 ",
     "long": " 10.533",
@@ -296,7 +296,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Chemnitz": {
+  "28": {
     "city": "Chemnitz",
     "lat": "50.830 ",
     "long": " 12.917",
@@ -307,7 +307,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Kiel": {
+  "29": {
     "city": "Kiel",
     "lat": "54.333 ",
     "long": " 10.133",
@@ -318,7 +318,7 @@ export const CITIES = {
       "y": 4
     }
   },
-  "Aachen": {
+  "30": {
     "city": "Aachen",
     "lat": "50.783 ",
     "long": " 6.083",
@@ -329,7 +329,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Halle (Saale)": {
+  "31": {
     "city": "Halle (Saale)",
     "lat": "52.067 ",
     "long": " 8.367",
@@ -340,7 +340,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Magdeburg": {
+  "32": {
     "city": "Magdeburg",
     "lat": "52.122 ",
     "long": " 11.619",
@@ -351,7 +351,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Freiburg im Breisgau": {
+  "33": {
     "city": "Freiburg im Breisgau",
     "lat": "48.000 ",
     "long": " 7.850",
@@ -362,7 +362,7 @@ export const CITIES = {
       "y": 43
     }
   },
-  "Krefeld": {
+  "34": {
     "city": "Krefeld",
     "lat": "51.333 ",
     "long": " 6.567",
@@ -373,7 +373,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Lübeck": {
+  "35": {
     "city": "Lübeck",
     "lat": "53.867 ",
     "long": " 10.683",
@@ -384,7 +384,7 @@ export const CITIES = {
       "y": 7
     }
   },
-  "Oberhausen": {
+  "36": {
     "city": "Oberhausen",
     "lat": "51.483 ",
     "long": " 6.867",
@@ -395,7 +395,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Erfurt": {
+  "37": {
     "city": "Erfurt",
     "lat": "50.986 ",
     "long": " 11.022",
@@ -406,7 +406,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Mainz": {
+  "38": {
     "city": "Mainz",
     "lat": "50.000 ",
     "long": " 8.267",
@@ -417,7 +417,7 @@ export const CITIES = {
       "y": 31
     }
   },
-  "Rostock": {
+  "39": {
     "city": "Rostock",
     "lat": "54.089 ",
     "long": " 12.125",
@@ -428,7 +428,7 @@ export const CITIES = {
       "y": 6
     }
   },
-  "Kassel": {
+  "40": {
     "city": "Kassel",
     "lat": "51.317 ",
     "long": " 9.500",
@@ -439,7 +439,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Hagen": {
+  "41": {
     "city": "Hagen",
     "lat": "51.367 ",
     "long": " 7.467",
@@ -450,7 +450,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Hamm": {
+  "42": {
     "city": "Hamm",
     "lat": "50.767 ",
     "long": " 7.683",
@@ -461,7 +461,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Saarbrücken": {
+  "43": {
     "city": "Saarbrücken",
     "lat": "49.233 ",
     "long": " 7.000",
@@ -472,7 +472,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Mülheim an der Ruhr": {
+  "44": {
     "city": "Mülheim an der Ruhr",
     "lat": "51.433 ",
     "long": " 6.883",
@@ -483,7 +483,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Potsdam": {
+  "45": {
     "city": "Potsdam",
     "lat": "52.401 ",
     "long": " 13.049",
@@ -494,7 +494,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Ludwigshafen am Rhein": {
+  "46": {
     "city": "Ludwigshafen am Rhein",
     "lat": "49.467 ",
     "long": " 8.450",
@@ -505,7 +505,7 @@ export const CITIES = {
       "y": 34
     }
   },
-  "Oldenburg": {
+  "47": {
     "city": "Oldenburg",
     "lat": "53.150 ",
     "long": " 8.217",
@@ -516,7 +516,7 @@ export const CITIES = {
       "y": 11
     }
   },
-  "Leverkusen": {
+  "48": {
     "city": "Leverkusen",
     "lat": "51.033 ",
     "long": " 7.000",
@@ -527,7 +527,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Osnabrück": {
+  "49": {
     "city": "Osnabrück",
     "lat": "52.283 ",
     "long": " 8.050",
@@ -538,7 +538,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Solingen": {
+  "50": {
     "city": "Solingen",
     "lat": "51.167 ",
     "long": " 7.083",
@@ -549,7 +549,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Heidelberg": {
+  "51": {
     "city": "Heidelberg",
     "lat": "49.400 ",
     "long": " 8.683",
@@ -560,7 +560,7 @@ export const CITIES = {
       "y": 34
     }
   },
-  "Herne": {
+  "52": {
     "city": "Herne",
     "lat": "51.550 ",
     "long": " 7.217",
@@ -571,7 +571,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Neuss": {
+  "53": {
     "city": "Neuss",
     "lat": "51.200 ",
     "long": " 6.683",
@@ -582,7 +582,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Darmstadt": {
+  "54": {
     "city": "Darmstadt",
     "lat": "49.867 ",
     "long": " 8.650",
@@ -593,7 +593,7 @@ export const CITIES = {
       "y": 32
     }
   },
-  "Paderborn": {
+  "55": {
     "city": "Paderborn",
     "lat": "51.717 ",
     "long": " 8.750",
@@ -604,7 +604,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Regensburg": {
+  "56": {
     "city": "Regensburg",
     "lat": "49.017 ",
     "long": " 12.100",
@@ -615,7 +615,7 @@ export const CITIES = {
       "y": 37
     }
   },
-  "Ingolstadt": {
+  "57": {
     "city": "Ingolstadt",
     "lat": "48.767 ",
     "long": " 11.433",
@@ -626,7 +626,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Würzburg": {
+  "58": {
     "city": "Würzburg",
     "lat": "49.800 ",
     "long": " 9.933",
@@ -637,7 +637,7 @@ export const CITIES = {
       "y": 32
     }
   },
-  "Fürth": {
+  "59": {
     "city": "Fürth",
     "lat": "49.650 ",
     "long": " 8.783",
@@ -648,7 +648,7 @@ export const CITIES = {
       "y": 33
     }
   },
-  "Wolfsburg": {
+  "60": {
     "city": "Wolfsburg",
     "lat": "52.417 ",
     "long": " 10.783",
@@ -659,7 +659,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Ulm": {
+  "61": {
     "city": "Ulm",
     "lat": "48.400 ",
     "long": " 9.983",
@@ -670,7 +670,7 @@ export const CITIES = {
       "y": 41
     }
   },
-  "Heilbronn": {
+  "62": {
     "city": "Heilbronn",
     "lat": "49.150 ",
     "long": " 9.217",
@@ -681,7 +681,7 @@ export const CITIES = {
       "y": 36
     }
   },
-  "Pforzheim": {
+  "63": {
     "city": "Pforzheim",
     "lat": "48.883 ",
     "long": " 8.700",
@@ -692,7 +692,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Göttingen": {
+  "64": {
     "city": "Göttingen",
     "lat": "51.533 ",
     "long": " 9.933",
@@ -703,7 +703,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Bottrop": {
+  "65": {
     "city": "Bottrop",
     "lat": "51.533 ",
     "long": " 6.933",
@@ -714,7 +714,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Trier": {
+  "66": {
     "city": "Trier",
     "lat": "49.750 ",
     "long": " 6.650",
@@ -725,7 +725,7 @@ export const CITIES = {
       "y": 32
     }
   },
-  "Recklinghausen": {
+  "67": {
     "city": "Recklinghausen",
     "lat": "51.617 ",
     "long": " 7.200",
@@ -736,7 +736,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Reutlingen": {
+  "68": {
     "city": "Reutlingen",
     "lat": "48.500 ",
     "long": " 9.217",
@@ -747,7 +747,7 @@ export const CITIES = {
       "y": 40
     }
   },
-  "Bremerhaven": {
+  "69": {
     "city": "Bremerhaven",
     "lat": "53.550 ",
     "long": " 8.583",
@@ -758,7 +758,7 @@ export const CITIES = {
       "y": 9
     }
   },
-  "Koblenz": {
+  "70": {
     "city": "Koblenz",
     "lat": "50.350 ",
     "long": " 7.600",
@@ -769,7 +769,7 @@ export const CITIES = {
       "y": 29
     }
   },
-  "Bergisch Gladbach": {
+  "71": {
     "city": "Bergisch Gladbach",
     "lat": "50.983 ",
     "long": " 7.133",
@@ -780,7 +780,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Jena": {
+  "72": {
     "city": "Jena",
     "lat": "50.933 ",
     "long": " 11.591",
@@ -791,7 +791,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Remscheid": {
+  "73": {
     "city": "Remscheid",
     "lat": "51.183 ",
     "long": " 7.183",
@@ -802,7 +802,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Erlangen": {
+  "74": {
     "city": "Erlangen",
     "lat": "49.600 ",
     "long": " 11.000",
@@ -813,7 +813,7 @@ export const CITIES = {
       "y": 33
     }
   },
-  "Moers": {
+  "75": {
     "city": "Moers",
     "lat": "51.450 ",
     "long": " 6.633",
@@ -824,7 +824,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Siegen": {
+  "76": {
     "city": "Siegen",
     "lat": "50.883 ",
     "long": " 8.033",
@@ -835,7 +835,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Hildesheim": {
+  "77": {
     "city": "Hildesheim",
     "lat": "52.150 ",
     "long": " 9.950",
@@ -846,7 +846,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Salzgitter": {
+  "78": {
     "city": "Salzgitter",
     "lat": "52.117 ",
     "long": " 10.417",
@@ -857,7 +857,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Cottbus": {
+  "79": {
     "city": "Cottbus",
     "lat": "51.766 ",
     "long": " 14.335",
@@ -868,7 +868,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Kaiserslautern": {
+  "80": {
     "city": "Kaiserslautern",
     "lat": "49.450 ",
     "long": " 7.767",
@@ -879,7 +879,7 @@ export const CITIES = {
       "y": 34
     }
   },
-  "Gütersloh": {
+  "81": {
     "city": "Gütersloh",
     "lat": "51.900 ",
     "long": " 8.383",
@@ -890,7 +890,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Schwerin": {
+  "82": {
     "city": "Schwerin",
     "lat": "53.628 ",
     "long": " 11.412",
@@ -901,7 +901,7 @@ export const CITIES = {
       "y": 8
     }
   },
-  "Witten": {
+  "83": {
     "city": "Witten",
     "lat": "51.433 ",
     "long": " 7.333",
@@ -912,7 +912,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Gera": {
+  "84": {
     "city": "Gera",
     "lat": "50.878 ",
     "long": " 12.076",
@@ -923,7 +923,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Iserlohn": {
+  "85": {
     "city": "Iserlohn",
     "lat": "51.383 ",
     "long": " 7.700",
@@ -934,7 +934,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Ludwigsburg": {
+  "86": {
     "city": "Ludwigsburg",
     "lat": "48.900 ",
     "long": " 9.200",
@@ -945,7 +945,7 @@ export const CITIES = {
       "y": 37
     }
   },
-  "Hanau": {
+  "87": {
     "city": "Hanau",
     "lat": "50.117 ",
     "long": " 8.917",
@@ -956,7 +956,7 @@ export const CITIES = {
       "y": 30
     }
   },
-  "Esslingen am Neckar": {
+  "88": {
     "city": "Esslingen am Neckar",
     "lat": "48.750 ",
     "long": " 9.300",
@@ -967,7 +967,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Zwickau": {
+  "89": {
     "city": "Zwickau",
     "lat": "50.720 ",
     "long": " 12.500",
@@ -978,7 +978,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Düren": {
+  "90": {
     "city": "Düren",
     "lat": "50.800 ",
     "long": " 6.483",
@@ -989,7 +989,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Ratingen": {
+  "91": {
     "city": "Ratingen",
     "lat": "51.300 ",
     "long": " 6.850",
@@ -1000,7 +1000,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Tübingen": {
+  "92": {
     "city": "Tübingen",
     "lat": "48.517 ",
     "long": " 9.067",
@@ -1011,7 +1011,7 @@ export const CITIES = {
       "y": 40
     }
   },
-  "Flensburg": {
+  "93": {
     "city": "Flensburg",
     "lat": "54.783 ",
     "long": " 9.433",
@@ -1022,7 +1022,7 @@ export const CITIES = {
       "y": 1
     }
   },
-  "Lünen": {
+  "94": {
     "city": "Lünen",
     "lat": "51.617 ",
     "long": " 7.533",
@@ -1033,7 +1033,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Villingen-Schwenningen": {
+  "95": {
     "city": "Villingen-Schwenningen",
     "lat": "48.067 ",
     "long": " 8.450",
@@ -1044,7 +1044,7 @@ export const CITIES = {
       "y": 43
     }
   },
-  "Gießen": {
+  "96": {
     "city": "Gießen",
     "lat": "50.583 ",
     "long": " 8.683",
@@ -1055,7 +1055,7 @@ export const CITIES = {
       "y": 27
     }
   },
-  "Marl": {
+  "97": {
     "city": "Marl",
     "lat": "51.667 ",
     "long": " 7.100",
@@ -1066,7 +1066,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Konstanz": {
+  "98": {
     "city": "Konstanz",
     "lat": "47.667 ",
     "long": " 9.183",
@@ -1077,7 +1077,7 @@ export const CITIES = {
       "y": 45
     }
   },
-  "Worms": {
+  "99": {
     "city": "Worms",
     "lat": "49.633 ",
     "long": " 8.367",
@@ -1088,7 +1088,7 @@ export const CITIES = {
       "y": 33
     }
   },
-  "Minden": {
+  "100": {
     "city": "Minden",
     "lat": "52.300 ",
     "long": " 8.917",
@@ -1099,7 +1099,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Velbert": {
+  "101": {
     "city": "Velbert",
     "lat": "51.333 ",
     "long": " 7.050",
@@ -1110,7 +1110,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Neumünster": {
+  "102": {
     "city": "Neumünster",
     "lat": "54.067 ",
     "long": " 9.983",
@@ -1121,7 +1121,7 @@ export const CITIES = {
       "y": 6
     }
   },
-  "Norderstedt": {
+  "103": {
     "city": "Norderstedt",
     "lat": "53.700 ",
     "long": " 10.017",
@@ -1132,7 +1132,7 @@ export const CITIES = {
       "y": 8
     }
   },
-  "Delmenhorst": {
+  "104": {
     "city": "Delmenhorst",
     "lat": "53.050 ",
     "long": " 8.633",
@@ -1143,7 +1143,7 @@ export const CITIES = {
       "y": 12
     }
   },
-  "Wilhelmshaven": {
+  "105": {
     "city": "Wilhelmshaven",
     "lat": "53.517 ",
     "long": " 8.117",
@@ -1154,7 +1154,7 @@ export const CITIES = {
       "y": 9
     }
   },
-  "Viersen": {
+  "106": {
     "city": "Viersen",
     "lat": "51.250 ",
     "long": " 6.400",
@@ -1165,7 +1165,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Gladbeck": {
+  "107": {
     "city": "Gladbeck",
     "lat": "51.583 ",
     "long": " 6.983",
@@ -1176,7 +1176,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Dorsten": {
+  "108": {
     "city": "Dorsten",
     "lat": "51.667 ",
     "long": " 6.967",
@@ -1187,7 +1187,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Rheine": {
+  "109": {
     "city": "Rheine",
     "lat": "52.283 ",
     "long": " 7.450",
@@ -1198,7 +1198,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Detmold": {
+  "110": {
     "city": "Detmold",
     "lat": "51.933 ",
     "long": " 8.883",
@@ -1209,7 +1209,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Troisdorf": {
+  "111": {
     "city": "Troisdorf",
     "lat": "50.817 ",
     "long": " 7.150",
@@ -1220,7 +1220,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Castrop-Rauxel": {
+  "112": {
     "city": "Castrop-Rauxel",
     "lat": "51.550 ",
     "long": " 7.317",
@@ -1231,7 +1231,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Lüneburg": {
+  "113": {
     "city": "Lüneburg",
     "lat": "53.250 ",
     "long": " 10.417",
@@ -1242,7 +1242,7 @@ export const CITIES = {
       "y": 11
     }
   },
-  "Marburg": {
+  "114": {
     "city": "Marburg",
     "lat": "50.817 ",
     "long": " 8.767",
@@ -1253,7 +1253,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Arnsberg": {
+  "115": {
     "city": "Arnsberg",
     "lat": "51.400 ",
     "long": " 8.067",
@@ -1264,7 +1264,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Lüdenscheid": {
+  "116": {
     "city": "Lüdenscheid",
     "lat": "51.217 ",
     "long": " 7.633",
@@ -1275,7 +1275,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Bamberg": {
+  "117": {
     "city": "Bamberg",
     "lat": "49.900 ",
     "long": " 10.883",
@@ -1286,7 +1286,7 @@ export const CITIES = {
       "y": 31
     }
   },
-  "Bayreuth": {
+  "118": {
     "city": "Bayreuth",
     "lat": "49.950 ",
     "long": " 11.583",
@@ -1297,7 +1297,7 @@ export const CITIES = {
       "y": 31
     }
   },
-  "Bocholt": {
+  "119": {
     "city": "Bocholt",
     "lat": "51.833 ",
     "long": " 6.617",
@@ -1308,7 +1308,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Celle": {
+  "120": {
     "city": "Celle",
     "lat": "52.633 ",
     "long": " 10.083",
@@ -1319,7 +1319,7 @@ export const CITIES = {
       "y": 15
     }
   },
-  "Landshut": {
+  "121": {
     "city": "Landshut",
     "lat": "48.533 ",
     "long": " 12.150",
@@ -1330,7 +1330,7 @@ export const CITIES = {
       "y": 40
     }
   },
-  "Aschaffenburg": {
+  "122": {
     "city": "Aschaffenburg",
     "lat": "49.967 ",
     "long": " 9.150",
@@ -1341,7 +1341,7 @@ export const CITIES = {
       "y": 31
     }
   },
-  "Dinslaken": {
+  "123": {
     "city": "Dinslaken",
     "lat": "51.567 ",
     "long": " 6.733",
@@ -1352,7 +1352,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Aalen": {
+  "124": {
     "city": "Aalen",
     "lat": "48.833 ",
     "long": " 10.100",
@@ -1363,7 +1363,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Fulda": {
+  "125": {
     "city": "Fulda",
     "lat": "50.550 ",
     "long": " 9.683",
@@ -1374,7 +1374,7 @@ export const CITIES = {
       "y": 27
     }
   },
-  "Lippstadt": {
+  "126": {
     "city": "Lippstadt",
     "lat": "51.667 ",
     "long": " 8.350",
@@ -1385,7 +1385,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Kempten (Allgäu)": {
+  "127": {
     "city": "Kempten (Allgäu)",
     "lat": "47.733 ",
     "long": " 10.317",
@@ -1396,7 +1396,7 @@ export const CITIES = {
       "y": 45
     }
   },
-  "Herford": {
+  "128": {
     "city": "Herford",
     "lat": "52.117 ",
     "long": " 8.683",
@@ -1407,7 +1407,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Kerpen": {
+  "129": {
     "city": "Kerpen",
     "lat": "50.867 ",
     "long": " 6.700",
@@ -1418,7 +1418,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Plauen": {
+  "130": {
     "city": "Plauen",
     "lat": "50.489 ",
     "long": " 12.130",
@@ -1429,7 +1429,7 @@ export const CITIES = {
       "y": 28
     }
   },
-  "Neuwied": {
+  "131": {
     "city": "Neuwied",
     "lat": "50.433 ",
     "long": " 7.467",
@@ -1440,7 +1440,7 @@ export const CITIES = {
       "y": 28
     }
   },
-  "Weimar": {
+  "132": {
     "city": "Weimar",
     "lat": "50.989 ",
     "long": " 11.325",
@@ -1451,7 +1451,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Dormagen": {
+  "133": {
     "city": "Dormagen",
     "lat": "51.100 ",
     "long": " 6.833",
@@ -1462,7 +1462,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Sindelfingen": {
+  "134": {
     "city": "Sindelfingen",
     "lat": "48.717 ",
     "long": " 9.000",
@@ -1473,7 +1473,7 @@ export const CITIES = {
       "y": 39
     }
   },
-  "Neubrandenburg": {
+  "135": {
     "city": "Neubrandenburg",
     "lat": "53.555 ",
     "long": " 13.262",
@@ -1484,7 +1484,7 @@ export const CITIES = {
       "y": 9
     }
   },
-  "Grevenbroich": {
+  "136": {
     "city": "Grevenbroich",
     "lat": "51.100 ",
     "long": " 6.583",
@@ -1495,7 +1495,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Rosenheim": {
+  "137": {
     "city": "Rosenheim",
     "lat": "47.850 ",
     "long": " 12.133",
@@ -1506,7 +1506,7 @@ export const CITIES = {
       "y": 44
     }
   },
-  "Herten": {
+  "138": {
     "city": "Herten",
     "lat": "51.600 ",
     "long": " 7.133",
@@ -1517,7 +1517,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Wesel": {
+  "139": {
     "city": "Wesel",
     "lat": "51.667 ",
     "long": " 6.617",
@@ -1528,7 +1528,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Garbsen": {
+  "140": {
     "city": "Garbsen",
     "lat": "52.417 ",
     "long": " 9.583",
@@ -1539,7 +1539,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Bergheim": {
+  "141": {
     "city": "Bergheim",
     "lat": "50.950 ",
     "long": " 6.650",
@@ -1550,7 +1550,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Schwäbisch Gmünd": {
+  "142": {
     "city": "Schwäbisch Gmünd",
     "lat": "48.800 ",
     "long": " 9.800",
@@ -1561,7 +1561,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Hürth": {
+  "143": {
     "city": "Hürth",
     "lat": "50.867 ",
     "long": " 6.867",
@@ -1572,7 +1572,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Unna": {
+  "144": {
     "city": "Unna",
     "lat": "51.533 ",
     "long": " 7.683",
@@ -1583,7 +1583,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Friedrichshafen": {
+  "145": {
     "city": "Friedrichshafen",
     "lat": "47.650 ",
     "long": " 9.483",
@@ -1594,7 +1594,7 @@ export const CITIES = {
       "y": 45
     }
   },
-  "Offenburg": {
+  "146": {
     "city": "Offenburg",
     "lat": "48.467 ",
     "long": " 7.950",
@@ -1605,7 +1605,7 @@ export const CITIES = {
       "y": 40
     }
   },
-  "Stralsund": {
+  "147": {
     "city": "Stralsund",
     "lat": "54.312 ",
     "long": " 13.090",
@@ -1616,7 +1616,7 @@ export const CITIES = {
       "y": 4
     }
   },
-  "Langenfeld (Rheinland)": {
+  "148": {
     "city": "Langenfeld (Rheinland)",
     "lat": "51.100 ",
     "long": " 6.950",
@@ -1627,7 +1627,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Greifswald": {
+  "149": {
     "city": "Greifswald",
     "lat": "54.089 ",
     "long": " 13.383",
@@ -1638,7 +1638,7 @@ export const CITIES = {
       "y": 6
     }
   },
-  "Neu-Ulm": {
+  "150": {
     "city": "Neu-Ulm",
     "lat": "48.400 ",
     "long": " 10.017",
@@ -1649,7 +1649,7 @@ export const CITIES = {
       "y": 41
     }
   },
-  "Göppingen": {
+  "151": {
     "city": "Göppingen",
     "lat": "48.700 ",
     "long": " 9.650",
@@ -1660,7 +1660,7 @@ export const CITIES = {
       "y": 39
     }
   },
-  "Euskirchen": {
+  "152": {
     "city": "Euskirchen",
     "lat": "50.667 ",
     "long": " 6.783",
@@ -1671,7 +1671,7 @@ export const CITIES = {
       "y": 27
     }
   },
-  "Stolberg (Rheinland)": {
+  "153": {
     "city": "Stolberg (Rheinland)",
     "lat": "50.767 ",
     "long": " 6.233",
@@ -1682,7 +1682,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Hameln": {
+  "154": {
     "city": "Hameln",
     "lat": "52.100 ",
     "long": " 9.350",
@@ -1693,7 +1693,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Eschweiler": {
+  "155": {
     "city": "Eschweiler",
     "lat": "50.817 ",
     "long": " 6.267",
@@ -1704,7 +1704,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Sankt Augustin": {
+  "156": {
     "city": "Sankt Augustin",
     "lat": "50.767 ",
     "long": " 7.183",
@@ -1715,7 +1715,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Görlitz": {
+  "157": {
     "city": "Görlitz",
     "lat": "51.156 ",
     "long": " 14.993",
@@ -1726,7 +1726,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Hilden": {
+  "158": {
     "city": "Hilden",
     "lat": "51.167 ",
     "long": " 6.933",
@@ -1737,7 +1737,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Meerbusch": {
+  "159": {
     "city": "Meerbusch",
     "lat": "51.267 ",
     "long": " 6.683",
@@ -1748,7 +1748,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Hattingen": {
+  "160": {
     "city": "Hattingen",
     "lat": "51.400 ",
     "long": " 7.183",
@@ -1759,7 +1759,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Waiblingen": {
+  "161": {
     "city": "Waiblingen",
     "lat": "48.833 ",
     "long": " 9.317",
@@ -1770,7 +1770,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Pulheim": {
+  "162": {
     "city": "Pulheim",
     "lat": "51.000 ",
     "long": " 6.800",
@@ -1781,7 +1781,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Baden-Baden": {
+  "163": {
     "city": "Baden-Baden",
     "lat": "48.767 ",
     "long": " 8.233",
@@ -1792,7 +1792,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Menden (Sauerland)": {
+  "164": {
     "city": "Menden (Sauerland)",
     "lat": "51.433 ",
     "long": " 7.800",
@@ -1803,7 +1803,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Bad Salzuflen": {
+  "165": {
     "city": "Bad Salzuflen",
     "lat": "52.083 ",
     "long": " 8.750",
@@ -1814,7 +1814,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Langenhagen": {
+  "166": {
     "city": "Langenhagen",
     "lat": "52.433 ",
     "long": " 9.733",
@@ -1825,7 +1825,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Nordhorn": {
+  "167": {
     "city": "Nordhorn",
     "lat": "52.433 ",
     "long": " 7.067",
@@ -1836,7 +1836,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Lingen (Ems)": {
+  "168": {
     "city": "Lingen (Ems)",
     "lat": "52.517 ",
     "long": " 7.317",
@@ -1847,7 +1847,7 @@ export const CITIES = {
       "y": 15
     }
   },
-  "Bad Homburg vor der Höhe": {
+  "169": {
     "city": "Bad Homburg vor der Höhe",
     "lat": "50.233 ",
     "long": " 8.617",
@@ -1858,7 +1858,7 @@ export const CITIES = {
       "y": 29
     }
   },
-  "Neustadt an der Weinstraße": {
+  "170": {
     "city": "Neustadt an der Weinstraße",
     "lat": "49.350 ",
     "long": " 8.150",
@@ -1869,7 +1869,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Ahlen": {
+  "171": {
     "city": "Ahlen",
     "lat": "51.767 ",
     "long": " 7.883",
@@ -1880,7 +1880,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Wolfenbüttel": {
+  "172": {
     "city": "Wolfenbüttel",
     "lat": "52.167 ",
     "long": " 10.533",
@@ -1891,7 +1891,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Frechen": {
+  "173": {
     "city": "Frechen",
     "lat": "50.917 ",
     "long": " 6.817",
@@ -1902,7 +1902,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Schweinfurt": {
+  "174": {
     "city": "Schweinfurt",
     "lat": "50.050 ",
     "long": " 10.233",
@@ -1913,7 +1913,7 @@ export const CITIES = {
       "y": 30
     }
   },
-  "Wetzlar": {
+  "175": {
     "city": "Wetzlar",
     "lat": "50.550 ",
     "long": " 8.500",
@@ -1924,7 +1924,7 @@ export const CITIES = {
       "y": 27
     }
   },
-  "Ibbenbüren": {
+  "176": {
     "city": "Ibbenbüren",
     "lat": "52.283 ",
     "long": " 7.717",
@@ -1935,7 +1935,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Goslar": {
+  "177": {
     "city": "Goslar",
     "lat": "51.900 ",
     "long": " 10.433",
@@ -1946,7 +1946,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Willich": {
+  "178": {
     "city": "Willich",
     "lat": "51.267 ",
     "long": " 6.550",
@@ -1957,7 +1957,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Emden": {
+  "179": {
     "city": "Emden",
     "lat": "53.367 ",
     "long": " 7.200",
@@ -1968,7 +1968,7 @@ export const CITIES = {
       "y": 10
     }
   },
-  "Passau": {
+  "180": {
     "city": "Passau",
     "lat": "48.567 ",
     "long": " 13.467",
@@ -1979,7 +1979,7 @@ export const CITIES = {
       "y": 40
     }
   },
-  "Gummersbach": {
+  "181": {
     "city": "Gummersbach",
     "lat": "51.033 ",
     "long": " 7.567",
@@ -1990,7 +1990,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Speyer": {
+  "182": {
     "city": "Speyer",
     "lat": "49.317 ",
     "long": " 8.433",
@@ -2001,7 +2001,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Ravensburg": {
+  "183": {
     "city": "Ravensburg",
     "lat": "47.783 ",
     "long": " 9.617",
@@ -2012,7 +2012,7 @@ export const CITIES = {
       "y": 44
     }
   },
-  "Erftstadt": {
+  "184": {
     "city": "Erftstadt",
     "lat": "50.800 ",
     "long": " 6.767",
@@ -2023,7 +2023,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Kleve": {
+  "185": {
     "city": "Kleve",
     "lat": "51.783 ",
     "long": " 6.133",
@@ -2034,7 +2034,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Bad Kreuznach": {
+  "186": {
     "city": "Bad Kreuznach",
     "lat": "49.833 ",
     "long": " 7.867",
@@ -2045,7 +2045,7 @@ export const CITIES = {
       "y": 32
     }
   },
-  "Peine": {
+  "187": {
     "city": "Peine",
     "lat": "52.317 ",
     "long": " 10.233",
@@ -2056,7 +2056,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Lörrach": {
+  "188": {
     "city": "Lörrach",
     "lat": "47.617 ",
     "long": " 7.667",
@@ -2067,7 +2067,7 @@ export const CITIES = {
       "y": 45
     }
   },
-  "Bad Oeynhausen": {
+  "189": {
     "city": "Bad Oeynhausen",
     "lat": "52.200 ",
     "long": " 8.800",
@@ -2078,7 +2078,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Böblingen": {
+  "190": {
     "city": "Böblingen",
     "lat": "48.683 ",
     "long": " 9.017",
@@ -2089,7 +2089,7 @@ export const CITIES = {
       "y": 39
     }
   },
-  "Elmshorn": {
+  "191": {
     "city": "Elmshorn",
     "lat": "53.750 ",
     "long": " 9.650",
@@ -2100,7 +2100,7 @@ export const CITIES = {
       "y": 8
     }
   },
-  "Frankenthal (Pfalz)": {
+  "192": {
     "city": "Frankenthal (Pfalz)",
     "lat": "49.533 ",
     "long": " 8.350",
@@ -2111,7 +2111,7 @@ export const CITIES = {
       "y": 34
     }
   },
-  "Cuxhaven": {
+  "193": {
     "city": "Cuxhaven",
     "lat": "53.867 ",
     "long": " 8.700",
@@ -2122,7 +2122,7 @@ export const CITIES = {
       "y": 7
     }
   },
-  "Rastatt": {
+  "194": {
     "city": "Rastatt",
     "lat": "48.867 ",
     "long": " 8.200",
@@ -2133,7 +2133,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Heidenheim an der Brenz": {
+  "195": {
     "city": "Heidenheim an der Brenz",
     "lat": "48.683 ",
     "long": " 10.150",
@@ -2144,7 +2144,7 @@ export const CITIES = {
       "y": 39
     }
   },
-  "Rheda-Wiedenbrück": {
+  "196": {
     "city": "Rheda-Wiedenbrück",
     "lat": "51.850 ",
     "long": " 8.317",
@@ -2155,7 +2155,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Soest": {
+  "197": {
     "city": "Soest",
     "lat": "51.567 ",
     "long": " 8.117",
@@ -2166,7 +2166,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Bergkamen": {
+  "198": {
     "city": "Bergkamen",
     "lat": "51.617 ",
     "long": " 7.633",
@@ -2177,7 +2177,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Bornheim": {
+  "199": {
     "city": "Bornheim",
     "lat": "50.767 ",
     "long": " 6.983",
@@ -2188,7 +2188,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Singen (Hohentwiel)": {
+  "200": {
     "city": "Singen (Hohentwiel)",
     "lat": "47.767 ",
     "long": " 8.833",
@@ -2199,7 +2199,7 @@ export const CITIES = {
       "y": 44
     }
   },
-  "Leonberg": {
+  "201": {
     "city": "Leonberg",
     "lat": "49.950 ",
     "long": " 12.283",
@@ -2210,7 +2210,7 @@ export const CITIES = {
       "y": 31
     }
   },
-  "Freising": {
+  "202": {
     "city": "Freising",
     "lat": "48.400 ",
     "long": " 11.750",
@@ -2221,7 +2221,7 @@ export const CITIES = {
       "y": 41
     }
   },
-  "Hennef (Sieg)": {
+  "203": {
     "city": "Hennef (Sieg)",
     "lat": "50.783 ",
     "long": " 7.283",
@@ -2232,7 +2232,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Alsdorf": {
+  "204": {
     "city": "Alsdorf",
     "lat": "50.883 ",
     "long": " 6.167",
@@ -2243,7 +2243,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Straubing": {
+  "205": {
     "city": "Straubing",
     "lat": "48.883 ",
     "long": " 12.583",
@@ -2254,7 +2254,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Schwerte": {
+  "206": {
     "city": "Schwerte",
     "lat": "51.450 ",
     "long": " 7.567",
@@ -2265,7 +2265,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Dachau": {
+  "207": {
     "city": "Dachau",
     "lat": "48.267 ",
     "long": " 11.433",
@@ -2276,7 +2276,7 @@ export const CITIES = {
       "y": 41
     }
   },
-  "Dülmen": {
+  "208": {
     "city": "Dülmen",
     "lat": "51.833 ",
     "long": " 7.283",
@@ -2287,7 +2287,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Herzogenrath": {
+  "209": {
     "city": "Herzogenrath",
     "lat": "50.867 ",
     "long": " 6.100",
@@ -2298,7 +2298,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Stade": {
+  "210": {
     "city": "Stade",
     "lat": "53.600 ",
     "long": " 9.483",
@@ -2309,7 +2309,7 @@ export const CITIES = {
       "y": 9
     }
   },
-  "Neunkirchen": {
+  "211": {
     "city": "Neunkirchen",
     "lat": "50.783 ",
     "long": " 8.000",
@@ -2320,7 +2320,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Melle": {
+  "212": {
     "city": "Melle",
     "lat": "52.200 ",
     "long": " 8.333",
@@ -2331,7 +2331,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Oberursel (Taunus)": {
+  "213": {
     "city": "Oberursel (Taunus)",
     "lat": "50.200 ",
     "long": " 8.583",
@@ -2342,7 +2342,7 @@ export const CITIES = {
       "y": 29
     }
   },
-  "Bünde": {
+  "214": {
     "city": "Bünde",
     "lat": "52.200 ",
     "long": " 8.583",
@@ -2353,7 +2353,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Gotha": {
+  "215": {
     "city": "Gotha",
     "lat": "50.954 ",
     "long": " 10.710",
@@ -2364,7 +2364,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Landau in der Pfalz": {
+  "216": {
     "city": "Landau in der Pfalz",
     "lat": "49.200 ",
     "long": " 8.117",
@@ -2375,7 +2375,7 @@ export const CITIES = {
       "y": 36
     }
   },
-  "Fellbach": {
+  "217": {
     "city": "Fellbach",
     "lat": "48.817 ",
     "long": " 9.283",
@@ -2386,7 +2386,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Filderstadt": {
+  "218": {
     "city": "Filderstadt",
     "lat": "48.683 ",
     "long": " 9.217",
@@ -2397,7 +2397,7 @@ export const CITIES = {
       "y": 39
     }
   },
-  "Lahr/Schwarzwald": {
+  "219": {
     "city": "Lahr/Schwarzwald",
     "lat": "48.350 ",
     "long": " 7.867",
@@ -2408,7 +2408,7 @@ export const CITIES = {
       "y": 41
     }
   },
-  "Weinheim": {
+  "220": {
     "city": "Weinheim",
     "lat": "49.550 ",
     "long": " 8.667",
@@ -2419,7 +2419,7 @@ export const CITIES = {
       "y": 33
     }
   },
-  "Brühl": {
+  "221": {
     "city": "Brühl",
     "lat": "50.833 ",
     "long": " 6.900",
@@ -2430,7 +2430,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Hof": {
+  "222": {
     "city": "Hof",
     "lat": "51.243 ",
     "long": " 13.191",
@@ -2441,7 +2441,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Albstadt": {
+  "223": {
     "city": "Albstadt",
     "lat": "48.217 ",
     "long": " 9.033",
@@ -2452,7 +2452,7 @@ export const CITIES = {
       "y": 42
     }
   },
-  "Rodgau": {
+  "224": {
     "city": "Rodgau",
     "lat": "50.033 ",
     "long": " 8.883",
@@ -2463,7 +2463,7 @@ export const CITIES = {
       "y": 31
     }
   },
-  "Bruchsal": {
+  "225": {
     "city": "Bruchsal",
     "lat": "49.117 ",
     "long": " 8.583",
@@ -2474,7 +2474,7 @@ export const CITIES = {
       "y": 36
     }
   },
-  "Erkrath": {
+  "226": {
     "city": "Erkrath",
     "lat": "51.217 ",
     "long": " 6.917",
@@ -2485,7 +2485,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Neustadt am Rübenberge": {
+  "227": {
     "city": "Neustadt am Rübenberge",
     "lat": "52.500 ",
     "long": " 9.467",
@@ -2496,7 +2496,7 @@ export const CITIES = {
       "y": 15
     }
   },
-  "Kamen": {
+  "228": {
     "city": "Kamen",
     "lat": "51.600 ",
     "long": " 7.650",
@@ -2507,7 +2507,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Halberstadt": {
+  "229": {
     "city": "Halberstadt",
     "lat": "51.897 ",
     "long": " 11.041",
@@ -2518,7 +2518,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Lehrte": {
+  "230": {
     "city": "Lehrte",
     "lat": "52.367 ",
     "long": " 9.983",
@@ -2529,7 +2529,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Oranienburg": {
+  "231": {
     "city": "Oranienburg",
     "lat": "52.755 ",
     "long": " 13.235",
@@ -2540,7 +2540,7 @@ export const CITIES = {
       "y": 14
     }
   },
-  "Erkelenz": {
+  "232": {
     "city": "Erkelenz",
     "lat": "51.083 ",
     "long": " 6.317",
@@ -2551,7 +2551,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Kaarst": {
+  "233": {
     "city": "Kaarst",
     "lat": "51.217 ",
     "long": " 6.617",
@@ -2562,7 +2562,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Rottenburg am Neckar": {
+  "234": {
     "city": "Rottenburg am Neckar",
     "lat": "48.483 ",
     "long": " 8.933",
@@ -2573,7 +2573,7 @@ export const CITIES = {
       "y": 40
     }
   },
-  "Bietigheim-Bissingen": {
+  "235": {
     "city": "Bietigheim-Bissingen",
     "lat": "48.950 ",
     "long": " 9.133",
@@ -2584,7 +2584,7 @@ export const CITIES = {
       "y": 37
     }
   },
-  "Memmingen": {
+  "236": {
     "city": "Memmingen",
     "lat": "47.983 ",
     "long": " 10.183",
@@ -2595,7 +2595,7 @@ export const CITIES = {
       "y": 43
     }
   },
-  "Kaufbeuren": {
+  "237": {
     "city": "Kaufbeuren",
     "lat": "47.883 ",
     "long": " 10.617",
@@ -2606,7 +2606,7 @@ export const CITIES = {
       "y": 44
     }
   },
-  "Falkensee": {
+  "238": {
     "city": "Falkensee",
     "lat": "52.569 ",
     "long": " 13.102",
@@ -2617,7 +2617,7 @@ export const CITIES = {
       "y": 15
     }
   },
-  "Wismar": {
+  "239": {
     "city": "Wismar",
     "lat": "53.894 ",
     "long": " 11.462",
@@ -2628,7 +2628,7 @@ export const CITIES = {
       "y": 7
     }
   },
-  "Eisenach": {
+  "240": {
     "city": "Eisenach",
     "lat": "50.977 ",
     "long": " 10.315",
@@ -2639,7 +2639,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Borken": {
+  "241": {
     "city": "Borken",
     "lat": "51.050 ",
     "long": " 9.283",
@@ -2650,7 +2650,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Pinneberg": {
+  "242": {
     "city": "Pinneberg",
     "lat": "53.667 ",
     "long": " 9.800",
@@ -2661,7 +2661,7 @@ export const CITIES = {
       "y": 8
     }
   },
-  "Nordhausen": {
+  "243": {
     "city": "Nordhausen",
     "lat": "51.500 ",
     "long": " 10.784",
@@ -2672,7 +2672,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Weiden in der Oberpfalz": {
+  "244": {
     "city": "Weiden in der Oberpfalz",
     "lat": "49.683 ",
     "long": " 12.167",
@@ -2683,7 +2683,7 @@ export const CITIES = {
       "y": 33
     }
   },
-  "Homburg": {
+  "245": {
     "city": "Homburg",
     "lat": "49.317 ",
     "long": " 7.333",
@@ -2694,7 +2694,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Nettetal": {
+  "246": {
     "city": "Nettetal",
     "lat": "51.300 ",
     "long": " 6.283",
@@ -2705,7 +2705,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Gifhorn": {
+  "247": {
     "city": "Gifhorn",
     "lat": "52.483 ",
     "long": " 10.550",
@@ -2716,7 +2716,7 @@ export const CITIES = {
       "y": 15
     }
   },
-  "Amberg": {
+  "248": {
     "city": "Amberg",
     "lat": "49.450 ",
     "long": " 11.850",
@@ -2727,7 +2727,7 @@ export const CITIES = {
       "y": 34
     }
   },
-  "Freiberg": {
+  "249": {
     "city": "Freiberg",
     "lat": "50.917 ",
     "long": " 13.348",
@@ -2738,7 +2738,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Heinsberg": {
+  "250": {
     "city": "Heinsberg",
     "lat": "51.067 ",
     "long": " 6.100",
@@ -2749,7 +2749,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Aurich": {
+  "251": {
     "city": "Aurich",
     "lat": "53.467 ",
     "long": " 7.483",
@@ -2760,7 +2760,7 @@ export const CITIES = {
       "y": 9
     }
   },
-  "Lemgo": {
+  "252": {
     "city": "Lemgo",
     "lat": "52.033 ",
     "long": " 8.900",
@@ -2771,7 +2771,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Coburg": {
+  "253": {
     "city": "Coburg",
     "lat": "50.267 ",
     "long": " 10.967",
@@ -2782,7 +2782,7 @@ export const CITIES = {
       "y": 29
     }
   },
-  "Wunstorf": {
+  "254": {
     "city": "Wunstorf",
     "lat": "52.433 ",
     "long": " 9.433",
@@ -2793,7 +2793,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Ansbach": {
+  "255": {
     "city": "Ansbach",
     "lat": "49.300 ",
     "long": " 10.583",
@@ -2804,7 +2804,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Siegburg": {
+  "256": {
     "city": "Siegburg",
     "lat": "50.800 ",
     "long": " 7.200",
@@ -2815,7 +2815,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Seevetal": {
+  "257": {
     "city": "Seevetal",
     "lat": "53.400 ",
     "long": " 9.967",
@@ -2826,7 +2826,7 @@ export const CITIES = {
       "y": 10
     }
   },
-  "Laatzen": {
+  "258": {
     "city": "Laatzen",
     "lat": "52.317 ",
     "long": " 9.783",
@@ -2837,7 +2837,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Königswinter": {
+  "259": {
     "city": "Königswinter",
     "lat": "50.683 ",
     "long": " 7.200",
@@ -2848,7 +2848,7 @@ export const CITIES = {
       "y": 27
     }
   },
-  "Dreieich": {
+  "260": {
     "city": "Dreieich",
     "lat": "50.017 ",
     "long": " 8.700",
@@ -2859,7 +2859,7 @@ export const CITIES = {
       "y": 31
     }
   },
-  "Nürtingen": {
+  "261": {
     "city": "Nürtingen",
     "lat": "48.633 ",
     "long": " 9.350",
@@ -2870,7 +2870,7 @@ export const CITIES = {
       "y": 39
     }
   },
-  "Schwabach": {
+  "262": {
     "city": "Schwabach",
     "lat": "49.333 ",
     "long": " 11.017",
@@ -2881,7 +2881,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Stendal": {
+  "263": {
     "city": "Stendal",
     "lat": "52.606 ",
     "long": " 11.867",
@@ -2892,7 +2892,7 @@ export const CITIES = {
       "y": 15
     }
   },
-  "Buxtehude": {
+  "264": {
     "city": "Buxtehude",
     "lat": "53.483 ",
     "long": " 9.700",
@@ -2903,7 +2903,7 @@ export const CITIES = {
       "y": 9
     }
   },
-  "Pirmasens": {
+  "265": {
     "city": "Pirmasens",
     "lat": "49.200 ",
     "long": " 7.600",
@@ -2914,7 +2914,7 @@ export const CITIES = {
       "y": 36
     }
   },
-  "Kirchheim unter Teck": {
+  "266": {
     "city": "Kirchheim unter Teck",
     "lat": "48.650 ",
     "long": " 9.450",
@@ -2925,7 +2925,7 @@ export const CITIES = {
       "y": 39
     }
   },
-  "Löhne": {
+  "267": {
     "city": "Löhne",
     "lat": "52.200 ",
     "long": " 8.700",
@@ -2936,7 +2936,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Bensheim": {
+  "268": {
     "city": "Bensheim",
     "lat": "49.683 ",
     "long": " 8.600",
@@ -2947,7 +2947,7 @@ export const CITIES = {
       "y": 33
     }
   },
-  "Bautzen": {
+  "269": {
     "city": "Bautzen",
     "lat": "51.186 ",
     "long": " 14.434",
@@ -2958,7 +2958,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Freital": {
+  "270": {
     "city": "Freital",
     "lat": "50.998 ",
     "long": " 13.652",
@@ -2969,7 +2969,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Hückelhoven": {
+  "271": {
     "city": "Hückelhoven",
     "lat": "51.067 ",
     "long": " 6.217",
@@ -2980,7 +2980,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Hofheim am Taunus": {
+  "272": {
     "city": "Hofheim am Taunus",
     "lat": "50.083 ",
     "long": " 8.450",
@@ -2991,7 +2991,7 @@ export const CITIES = {
       "y": 30
     }
   },
-  "Germering": {
+  "273": {
     "city": "Germering",
     "lat": "48.133 ",
     "long": " 11.367",
@@ -3002,7 +3002,7 @@ export const CITIES = {
       "y": 42
     }
   },
-  "Neumarkt in der Oberpfalz": {
+  "274": {
     "city": "Neumarkt in der Oberpfalz",
     "lat": "49.283 ",
     "long": " 11.467",
@@ -3013,7 +3013,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Ahaus": {
+  "275": {
     "city": "Ahaus",
     "lat": "52.083 ",
     "long": " 7.017",
@@ -3024,7 +3024,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Schorndorf": {
+  "276": {
     "city": "Schorndorf",
     "lat": "49.167 ",
     "long": " 12.600",
@@ -3035,7 +3035,7 @@ export const CITIES = {
       "y": 36
     }
   },
-  "Völklingen": {
+  "277": {
     "city": "Völklingen",
     "lat": "49.250 ",
     "long": " 6.850",
@@ -3046,7 +3046,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Leinfelden-Echterdingen": {
+  "278": {
     "city": "Leinfelden-Echterdingen",
     "lat": "48.700 ",
     "long": " 9.167",
@@ -3057,7 +3057,7 @@ export const CITIES = {
       "y": 39
     }
   },
-  "Ettlingen": {
+  "279": {
     "city": "Ettlingen",
     "lat": "48.950 ",
     "long": " 8.417",
@@ -3068,7 +3068,7 @@ export const CITIES = {
       "y": 37
     }
   },
-  "Würselen": {
+  "280": {
     "city": "Würselen",
     "lat": "50.817 ",
     "long": " 6.133",
@@ -3079,7 +3079,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Schwäbisch Hall": {
+  "281": {
     "city": "Schwäbisch Hall",
     "lat": "49.117 ",
     "long": " 9.733",
@@ -3090,7 +3090,7 @@ export const CITIES = {
       "y": 36
     }
   },
-  "Ostfildern": {
+  "282": {
     "city": "Ostfildern",
     "lat": "48.717 ",
     "long": " 9.267",
@@ -3101,7 +3101,7 @@ export const CITIES = {
       "y": 39
     }
   },
-  "Buchholz in der Nordheide": {
+  "283": {
     "city": "Buchholz in der Nordheide",
     "lat": "53.333 ",
     "long": " 9.883",
@@ -3112,7 +3112,7 @@ export const CITIES = {
       "y": 10
     }
   },
-  "Mettmann": {
+  "284": {
     "city": "Mettmann",
     "lat": "51.250 ",
     "long": " 6.983",
@@ -3123,7 +3123,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Maintal": {
+  "285": {
     "city": "Maintal",
     "lat": "50.167 ",
     "long": " 8.800",
@@ -3134,7 +3134,7 @@ export const CITIES = {
       "y": 30
     }
   },
-  "Pirna": {
+  "286": {
     "city": "Pirna",
     "lat": "50.959 ",
     "long": " 13.946",
@@ -3145,7 +3145,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Kamp-Lintfort": {
+  "287": {
     "city": "Kamp-Lintfort",
     "lat": "51.500 ",
     "long": " 6.550",
@@ -3156,7 +3156,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Niederkassel": {
+  "288": {
     "city": "Niederkassel",
     "lat": "50.817 ",
     "long": " 7.033",
@@ -3167,7 +3167,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Neu-Isenburg": {
+  "289": {
     "city": "Neu-Isenburg",
     "lat": "50.050 ",
     "long": " 8.700",
@@ -3178,7 +3178,7 @@ export const CITIES = {
       "y": 30
     }
   },
-  "Warendorf": {
+  "290": {
     "city": "Warendorf",
     "lat": "51.950 ",
     "long": " 8.000",
@@ -3189,7 +3189,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Langen": {
+  "291": {
     "city": "Langen",
     "lat": "53.617 ",
     "long": " 8.600",
@@ -3200,7 +3200,7 @@ export const CITIES = {
       "y": 9
     }
   },
-  "Suhl": {
+  "292": {
     "city": "Suhl",
     "lat": "50.610 ",
     "long": " 10.688",
@@ -3211,7 +3211,7 @@ export const CITIES = {
       "y": 27
     }
   },
-  "Papenburg": {
+  "293": {
     "city": "Papenburg",
     "lat": "53.083 ",
     "long": " 7.400",
@@ -3222,7 +3222,7 @@ export const CITIES = {
       "y": 12
     }
   },
-  "Voerde (Niederrhein)": {
+  "294": {
     "city": "Voerde (Niederrhein)",
     "lat": "51.600 ",
     "long": " 6.683",
@@ -3233,7 +3233,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Greven": {
+  "295": {
     "city": "Greven",
     "lat": "52.100 ",
     "long": " 7.617",
@@ -3244,7 +3244,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Beckum": {
+  "296": {
     "city": "Beckum",
     "lat": "51.750 ",
     "long": " 8.050",
@@ -3255,7 +3255,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Emsdetten": {
+  "297": {
     "city": "Emsdetten",
     "lat": "52.167 ",
     "long": " 7.533",
@@ -3266,7 +3266,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Sankt Ingbert": {
+  "298": {
     "city": "Sankt Ingbert",
     "lat": "49.283 ",
     "long": " 7.117",
@@ -3277,7 +3277,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Backnang": {
+  "299": {
     "city": "Backnang",
     "lat": "48.950 ",
     "long": " 9.417",
@@ -3288,7 +3288,7 @@ export const CITIES = {
       "y": 37
     }
   },
-  "Erding": {
+  "300": {
     "city": "Erding",
     "lat": "48.300 ",
     "long": " 11.900",
@@ -3299,7 +3299,7 @@ export const CITIES = {
       "y": 41
     }
   },
-  "Coesfeld": {
+  "301": {
     "city": "Coesfeld",
     "lat": "51.933 ",
     "long": " 7.167",
@@ -3310,7 +3310,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Bramsche": {
+  "302": {
     "city": "Bramsche",
     "lat": "52.417 ",
     "long": " 7.983",
@@ -3321,7 +3321,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Wesseling": {
+  "303": {
     "city": "Wesseling",
     "lat": "50.817 ",
     "long": " 6.983",
@@ -3332,7 +3332,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Königs Wusterhausen": {
+  "304": {
     "city": "Königs Wusterhausen",
     "lat": "52.300 ",
     "long": " 13.625",
@@ -3343,7 +3343,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Fürstenfeldbruck": {
+  "305": {
     "city": "Fürstenfeldbruck",
     "lat": "48.183 ",
     "long": " 11.267",
@@ -3354,7 +3354,7 @@ export const CITIES = {
       "y": 42
     }
   },
-  "Porta Westfalica": {
+  "306": {
     "city": "Porta Westfalica",
     "lat": "52.233 ",
     "long": " 8.933",
@@ -3365,7 +3365,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Sinsheim": {
+  "307": {
     "city": "Sinsheim",
     "lat": "49.250 ",
     "long": " 8.883",
@@ -3376,7 +3376,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Lage": {
+  "308": {
     "city": "Lage",
     "lat": "52.000 ",
     "long": " 8.800",
@@ -3387,7 +3387,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Kehl": {
+  "309": {
     "city": "Kehl",
     "lat": "48.567 ",
     "long": " 7.817",
@@ -3398,7 +3398,7 @@ export const CITIES = {
       "y": 40
     }
   },
-  "Meppen": {
+  "310": {
     "city": "Meppen",
     "lat": "52.700 ",
     "long": " 7.300",
@@ -3409,7 +3409,7 @@ export const CITIES = {
       "y": 14
     }
   },
-  "Kempen": {
+  "311": {
     "city": "Kempen",
     "lat": "51.367 ",
     "long": " 6.417",
@@ -3420,7 +3420,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Saarlouis": {
+  "312": {
     "city": "Saarlouis",
     "lat": "49.317 ",
     "long": " 6.750",
@@ -3431,7 +3431,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Tuttlingen": {
+  "313": {
     "city": "Tuttlingen",
     "lat": "47.983 ",
     "long": " 8.817",
@@ -3442,7 +3442,7 @@ export const CITIES = {
       "y": 43
     }
   },
-  "Datteln": {
+  "314": {
     "city": "Datteln",
     "lat": "51.650 ",
     "long": " 7.350",
@@ -3453,7 +3453,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Wermelskirchen": {
+  "315": {
     "city": "Wermelskirchen",
     "lat": "51.133 ",
     "long": " 7.217",
@@ -3464,7 +3464,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Zweibrücken": {
+  "316": {
     "city": "Zweibrücken",
     "lat": "49.250 ",
     "long": " 7.367",
@@ -3475,7 +3475,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Limburg an der Lahn": {
+  "317": {
     "city": "Limburg an der Lahn",
     "lat": "50.383 ",
     "long": " 8.067",
@@ -3486,7 +3486,7 @@ export const CITIES = {
       "y": 28
     }
   },
-  "Radebeul": {
+  "318": {
     "city": "Radebeul",
     "lat": "51.115 ",
     "long": " 13.632",
@@ -3497,7 +3497,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Merseburg": {
+  "319": {
     "city": "Merseburg",
     "lat": "51.353 ",
     "long": " 11.989",
@@ -3508,7 +3508,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Leer": {
+  "320": {
     "city": "Leer",
     "lat": "53.233 ",
     "long": " 7.450",
@@ -3519,7 +3519,7 @@ export const CITIES = {
       "y": 11
     }
   },
-  "Bernburg (Saale)": {
+  "321": {
     "city": "Bernburg (Saale)",
     "lat": "51.791 ",
     "long": " 11.736",
@@ -3530,7 +3530,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Winsen (Luhe)": {
+  "322": {
     "city": "Winsen (Luhe)",
     "lat": "53.367 ",
     "long": " 10.217",
@@ -3541,7 +3541,7 @@ export const CITIES = {
       "y": 10
     }
   },
-  "Goch": {
+  "323": {
     "city": "Goch",
     "lat": "51.683 ",
     "long": " 6.167",
@@ -3552,7 +3552,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Hoyerswerda": {
+  "324": {
     "city": "Hoyerswerda",
     "lat": "51.440 ",
     "long": " 14.239",
@@ -3563,7 +3563,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Geldern": {
+  "325": {
     "city": "Geldern",
     "lat": "51.517 ",
     "long": " 6.317",
@@ -3574,7 +3574,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Cloppenburg": {
+  "326": {
     "city": "Cloppenburg",
     "lat": "52.850 ",
     "long": " 8.050",
@@ -3585,7 +3585,7 @@ export const CITIES = {
       "y": 13
     }
   },
-  "Uelzen": {
+  "327": {
     "city": "Uelzen",
     "lat": "52.967 ",
     "long": " 10.567",
@@ -3596,7 +3596,7 @@ export const CITIES = {
       "y": 13
     }
   },
-  "Crailsheim": {
+  "328": {
     "city": "Crailsheim",
     "lat": "49.133 ",
     "long": " 10.067",
@@ -3607,7 +3607,7 @@ export const CITIES = {
       "y": 36
     }
   },
-  "Steinfurt": {
+  "329": {
     "city": "Steinfurt",
     "lat": "52.150 ",
     "long": " 7.350",
@@ -3618,7 +3618,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Balingen": {
+  "330": {
     "city": "Balingen",
     "lat": "48.283 ",
     "long": " 8.850",
@@ -3629,7 +3629,7 @@ export const CITIES = {
       "y": 41
     }
   },
-  "Mörfelden-Walldorf": {
+  "331": {
     "city": "Mörfelden-Walldorf",
     "lat": "49.983 ",
     "long": " 8.567",
@@ -3640,7 +3640,7 @@ export const CITIES = {
       "y": 31
     }
   },
-  "Barsinghausen": {
+  "332": {
     "city": "Barsinghausen",
     "lat": "52.300 ",
     "long": " 9.467",
@@ -3651,7 +3651,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Hemer": {
+  "333": {
     "city": "Hemer",
     "lat": "51.383 ",
     "long": " 7.767",
@@ -3662,7 +3662,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Dietzenbach": {
+  "334": {
     "city": "Dietzenbach",
     "lat": "50.017 ",
     "long": " 8.783",
@@ -3673,7 +3673,7 @@ export const CITIES = {
       "y": 31
     }
   },
-  "Seelze": {
+  "335": {
     "city": "Seelze",
     "lat": "52.400 ",
     "long": " 9.600",
@@ -3684,7 +3684,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Kornwestheim": {
+  "336": {
     "city": "Kornwestheim",
     "lat": "48.867 ",
     "long": " 9.183",
@@ -3695,7 +3695,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Wernigerode": {
+  "337": {
     "city": "Wernigerode",
     "lat": "51.842 ",
     "long": " 10.791",
@@ -3706,7 +3706,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Stuhr": {
+  "338": {
     "city": "Stuhr",
     "lat": "53.033 ",
     "long": " 8.750",
@@ -3717,7 +3717,7 @@ export const CITIES = {
       "y": 12
     }
   },
-  "Bad Vilbel": {
+  "339": {
     "city": "Bad Vilbel",
     "lat": "50.183 ",
     "long": " 8.733",
@@ -3728,7 +3728,7 @@ export const CITIES = {
       "y": 30
     }
   },
-  "Naumburg (Saale)": {
+  "340": {
     "city": "Naumburg (Saale)",
     "lat": "51.250 ",
     "long": " 9.167",
@@ -3739,7 +3739,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Korschenbroich": {
+  "341": {
     "city": "Korschenbroich",
     "lat": "51.200 ",
     "long": " 6.517",
@@ -3750,7 +3750,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Altenburg": {
+  "342": {
     "city": "Altenburg",
     "lat": "50.995 ",
     "long": " 12.446",
@@ -3761,7 +3761,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Wedel": {
+  "343": {
     "city": "Wedel",
     "lat": "53.583 ",
     "long": " 9.700",
@@ -3772,7 +3772,7 @@ export const CITIES = {
       "y": 9
     }
   },
-  "Rheinfelden (Baden)": {
+  "344": {
     "city": "Rheinfelden (Baden)",
     "lat": "47.567 ",
     "long": " 7.783",
@@ -3783,7 +3783,7 @@ export const CITIES = {
       "y": 46
     }
   },
-  "Ahrensburg": {
+  "345": {
     "city": "Ahrensburg",
     "lat": "53.667 ",
     "long": " 10.233",
@@ -3794,7 +3794,7 @@ export const CITIES = {
       "y": 8
     }
   },
-  "Jülich": {
+  "346": {
     "city": "Jülich",
     "lat": "50.917 ",
     "long": " 6.350",
@@ -3805,7 +3805,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Lampertheim": {
+  "347": {
     "city": "Lampertheim",
     "lat": "49.600 ",
     "long": " 8.467",
@@ -3816,7 +3816,7 @@ export const CITIES = {
       "y": 33
     }
   },
-  "Biberach an der Riß": {
+  "348": {
     "city": "Biberach an der Riß",
     "lat": "48.100 ",
     "long": " 9.783",
@@ -3827,7 +3827,7 @@ export const CITIES = {
       "y": 42
     }
   },
-  "Deggendorf": {
+  "349": {
     "city": "Deggendorf",
     "lat": "48.833 ",
     "long": " 12.967",
@@ -3838,7 +3838,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Delbrück": {
+  "350": {
     "city": "Delbrück",
     "lat": "51.767 ",
     "long": " 8.567",
@@ -3849,7 +3849,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Itzehoe": {
+  "351": {
     "city": "Itzehoe",
     "lat": "53.933 ",
     "long": " 9.517",
@@ -3860,7 +3860,7 @@ export const CITIES = {
       "y": 7
     }
   },
-  "Forchheim": {
+  "352": {
     "city": "Forchheim",
     "lat": "49.717 ",
     "long": " 11.050",
@@ -3871,7 +3871,7 @@ export const CITIES = {
       "y": 32
     }
   },
-  "Bad Nauheim": {
+  "353": {
     "city": "Bad Nauheim",
     "lat": "50.367 ",
     "long": " 8.750",
@@ -3882,7 +3882,7 @@ export const CITIES = {
       "y": 28
     }
   },
-  "Vechta": {
+  "354": {
     "city": "Vechta",
     "lat": "52.733 ",
     "long": " 8.283",
@@ -3893,7 +3893,7 @@ export const CITIES = {
       "y": 14
     }
   },
-  "Georgsmarienhütte": {
+  "355": {
     "city": "Georgsmarienhütte",
     "lat": "52.217 ",
     "long": " 8.033",
@@ -3904,7 +3904,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Kreuztal": {
+  "356": {
     "city": "Kreuztal",
     "lat": "50.967 ",
     "long": " 8.000",
@@ -3915,7 +3915,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Oer-Erkenschwick": {
+  "357": {
     "city": "Oer-Erkenschwick",
     "lat": "51.650 ",
     "long": " 7.250",
@@ -3926,7 +3926,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Schönebeck": {
+  "358": {
     "city": "Schönebeck",
     "lat": "52.016 ",
     "long": " 11.731",
@@ -3937,7 +3937,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Einbeck": {
+  "359": {
     "city": "Einbeck",
     "lat": "51.817 ",
     "long": " 9.867",
@@ -3948,7 +3948,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Gevelsberg": {
+  "360": {
     "city": "Gevelsberg",
     "lat": "51.317 ",
     "long": " 7.333",
@@ -3959,7 +3959,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Achim": {
+  "361": {
     "city": "Achim",
     "lat": "53.017 ",
     "long": " 9.033",
@@ -3970,7 +3970,7 @@ export const CITIES = {
       "y": 12
     }
   },
-  "Rheinberg": {
+  "362": {
     "city": "Rheinberg",
     "lat": "51.550 ",
     "long": " 6.600",
@@ -3981,7 +3981,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Herrenberg": {
+  "363": {
     "city": "Herrenberg",
     "lat": "48.600 ",
     "long": " 8.867",
@@ -3992,7 +3992,7 @@ export const CITIES = {
       "y": 39
     }
   },
-  "Ganderkesee": {
+  "364": {
     "city": "Ganderkesee",
     "lat": "53.033 ",
     "long": " 8.550",
@@ -4003,7 +4003,7 @@ export const CITIES = {
       "y": 12
     }
   },
-  "Riesa": {
+  "365": {
     "city": "Riesa",
     "lat": "51.300 ",
     "long": " 13.301",
@@ -4014,7 +4014,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Neuruppin": {
+  "366": {
     "city": "Neuruppin",
     "lat": "52.924 ",
     "long": " 12.806",
@@ -4025,7 +4025,7 @@ export const CITIES = {
       "y": 13
     }
   },
-  "Werl": {
+  "367": {
     "city": "Werl",
     "lat": "51.550 ",
     "long": " 7.917",
@@ -4036,7 +4036,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Eisenhüttenstadt": {
+  "368": {
     "city": "Eisenhüttenstadt",
     "lat": "52.151 ",
     "long": " 14.634",
@@ -4047,7 +4047,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Haan": {
+  "369": {
     "city": "Haan",
     "lat": "51.200 ",
     "long": " 7.017",
@@ -4058,7 +4058,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Weyhe": {
+  "370": {
     "city": "Weyhe",
     "lat": "53.000 ",
     "long": " 8.867",
@@ -4069,7 +4069,7 @@ export const CITIES = {
       "y": 12
     }
   },
-  "Lohmar": {
+  "371": {
     "city": "Lohmar",
     "lat": "50.833 ",
     "long": " 7.217",
@@ -4080,7 +4080,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Osterholz-Scharmbeck": {
+  "372": {
     "city": "Osterholz-Scharmbeck",
     "lat": "53.233 ",
     "long": " 8.783",
@@ -4091,7 +4091,7 @@ export const CITIES = {
       "y": 11
     }
   },
-  "Burgdorf": {
+  "373": {
     "city": "Burgdorf",
     "lat": "52.450 ",
     "long": " 10.017",
@@ -4102,7 +4102,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Meschede": {
+  "374": {
     "city": "Meschede",
     "lat": "51.350 ",
     "long": " 8.283",
@@ -4113,7 +4113,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Weil am Rhein": {
+  "375": {
     "city": "Weil am Rhein",
     "lat": "47.583 ",
     "long": " 7.633",
@@ -4124,7 +4124,7 @@ export const CITIES = {
       "y": 46
     }
   },
-  "Geesthacht": {
+  "376": {
     "city": "Geesthacht",
     "lat": "53.433 ",
     "long": " 10.367",
@@ -4135,7 +4135,7 @@ export const CITIES = {
       "y": 10
     }
   },
-  "Werne": {
+  "377": {
     "city": "Werne",
     "lat": "51.667 ",
     "long": " 7.633",
@@ -4146,7 +4146,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Merzig": {
+  "378": {
     "city": "Merzig",
     "lat": "49.450 ",
     "long": " 6.650",
@@ -4157,7 +4157,7 @@ export const CITIES = {
       "y": 34
     }
   },
-  "Ennepetal": {
+  "379": {
     "city": "Ennepetal",
     "lat": "51.300 ",
     "long": " 7.367",
@@ -4168,7 +4168,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Höxter": {
+  "380": {
     "city": "Höxter",
     "lat": "51.783 ",
     "long": " 9.383",
@@ -4179,7 +4179,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Andernach": {
+  "381": {
     "city": "Andernach",
     "lat": "50.433 ",
     "long": " 7.417",
@@ -4190,7 +4190,7 @@ export const CITIES = {
       "y": 28
     }
   },
-  "Rietberg": {
+  "382": {
     "city": "Rietberg",
     "lat": "51.817 ",
     "long": " 8.433",
@@ -4201,7 +4201,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Wedemark": {
+  "383": {
     "city": "Wedemark",
     "lat": "52.550 ",
     "long": " 9.733",
@@ -4212,7 +4212,7 @@ export const CITIES = {
       "y": 15
     }
   },
-  "Waltrop": {
+  "384": {
     "city": "Waltrop",
     "lat": "51.617 ",
     "long": " 7.400",
@@ -4223,7 +4223,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Friedberg": {
+  "385": {
     "city": "Friedberg",
     "lat": "50.333 ",
     "long": " 8.767",
@@ -4234,7 +4234,7 @@ export const CITIES = {
       "y": 29
     }
   },
-  "Oelde": {
+  "386": {
     "city": "Oelde",
     "lat": "51.833 ",
     "long": " 8.150",
@@ -4245,7 +4245,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Tönisvorst": {
+  "387": {
     "city": "Tönisvorst",
     "lat": "51.317 ",
     "long": " 6.450",
@@ -4256,7 +4256,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Neuburg an der Donau": {
+  "388": {
     "city": "Neuburg an der Donau",
     "lat": "48.733 ",
     "long": " 11.183",
@@ -4267,7 +4267,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Bad Hersfeld": {
+  "389": {
     "city": "Bad Hersfeld",
     "lat": "50.867 ",
     "long": " 9.717",
@@ -4278,7 +4278,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Taunusstein": {
+  "390": {
     "city": "Taunusstein",
     "lat": "50.150 ",
     "long": " 8.150",
@@ -4289,7 +4289,7 @@ export const CITIES = {
       "y": 30
     }
   },
-  "Zeitz": {
+  "391": {
     "city": "Zeitz",
     "lat": "51.048 ",
     "long": " 12.138",
@@ -4300,7 +4300,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Gaggenau": {
+  "392": {
     "city": "Gaggenau",
     "lat": "48.800 ",
     "long": " 8.317",
@@ -4311,7 +4311,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Northeim": {
+  "393": {
     "city": "Northeim",
     "lat": "51.700 ",
     "long": " 10.000",
@@ -4322,7 +4322,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Bühl": {
+  "394": {
     "city": "Bühl",
     "lat": "48.700 ",
     "long": " 8.133",
@@ -4333,7 +4333,7 @@ export const CITIES = {
       "y": 39
     }
   },
-  "Güstrow": {
+  "395": {
     "city": "Güstrow",
     "lat": "53.798 ",
     "long": " 12.173",
@@ -4344,7 +4344,7 @@ export const CITIES = {
       "y": 7
     }
   },
-  "Bretten": {
+  "396": {
     "city": "Bretten",
     "lat": "49.033 ",
     "long": " 8.717",
@@ -4355,7 +4355,7 @@ export const CITIES = {
       "y": 37
     }
   },
-  "Landsberg am Lech": {
+  "397": {
     "city": "Landsberg am Lech",
     "lat": "48.050 ",
     "long": " 10.883",
@@ -4366,7 +4366,7 @@ export const CITIES = {
       "y": 43
     }
   },
-  "Vaihingen an der Enz": {
+  "398": {
     "city": "Vaihingen an der Enz",
     "lat": "48.933 ",
     "long": " 8.967",
@@ -4377,7 +4377,7 @@ export const CITIES = {
       "y": 37
     }
   },
-  "Springe": {
+  "399": {
     "city": "Springe",
     "lat": "52.217 ",
     "long": " 9.550",
@@ -4388,7 +4388,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Schwandorf": {
+  "400": {
     "city": "Schwandorf",
     "lat": "49.333 ",
     "long": " 12.117",
@@ -4399,7 +4399,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Grimma": {
+  "401": {
     "city": "Grimma",
     "lat": "51.241 ",
     "long": " 12.717",
@@ -4410,7 +4410,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Kelkheim (Taunus)": {
+  "402": {
     "city": "Kelkheim (Taunus)",
     "lat": "50.133 ",
     "long": " 8.450",
@@ -4421,7 +4421,7 @@ export const CITIES = {
       "y": 30
     }
   },
-  "Rösrath": {
+  "403": {
     "city": "Rösrath",
     "lat": "50.900 ",
     "long": " 7.183",
@@ -4432,7 +4432,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Idar-Oberstein": {
+  "404": {
     "city": "Idar-Oberstein",
     "lat": "49.717 ",
     "long": " 7.317",
@@ -4443,7 +4443,7 @@ export const CITIES = {
       "y": 32
     }
   },
-  "Schwelm": {
+  "405": {
     "city": "Schwelm",
     "lat": "51.283 ",
     "long": " 7.300",
@@ -4454,7 +4454,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Kevelaer": {
+  "406": {
     "city": "Kevelaer",
     "lat": "51.583 ",
     "long": " 6.250",
@@ -4465,7 +4465,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Bad Zwischenahn": {
+  "407": {
     "city": "Bad Zwischenahn",
     "lat": "53.183 ",
     "long": " 8.017",
@@ -4476,7 +4476,7 @@ export const CITIES = {
       "y": 11
     }
   },
-  "Mühlheim am Main": {
+  "408": {
     "city": "Mühlheim am Main",
     "lat": "50.117 ",
     "long": " 8.833",
@@ -4487,7 +4487,7 @@ export const CITIES = {
       "y": 30
     }
   },
-  "Sundern (Sauerland)": {
+  "409": {
     "city": "Sundern (Sauerland)",
     "lat": "51.333 ",
     "long": " 8.000",
@@ -4498,7 +4498,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Unterschleißheim": {
+  "410": {
     "city": "Unterschleißheim",
     "lat": "48.283 ",
     "long": " 11.567",
@@ -4509,7 +4509,7 @@ export const CITIES = {
       "y": 41
     }
   },
-  "Leichlingen (Rheinland)": {
+  "411": {
     "city": "Leichlingen (Rheinland)",
     "lat": "51.100 ",
     "long": " 7.017",
@@ -4520,7 +4520,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Meißen": {
+  "412": {
     "city": "Meißen",
     "lat": "51.167 ",
     "long": " 13.467",
@@ -4531,7 +4531,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Winnenden": {
+  "413": {
     "city": "Winnenden",
     "lat": "48.867 ",
     "long": " 9.383",
@@ -4542,7 +4542,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Wegberg": {
+  "414": {
     "city": "Wegberg",
     "lat": "51.150 ",
     "long": " 6.283",
@@ -4553,7 +4553,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Wetter (Ruhr)": {
+  "415": {
     "city": "Wetter (Ruhr)",
     "lat": "51.383 ",
     "long": " 7.400",
@@ -4564,7 +4564,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Aschersleben": {
+  "416": {
     "city": "Aschersleben",
     "lat": "51.759 ",
     "long": " 11.451",
@@ -4575,7 +4575,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Königsbrunn": {
+  "417": {
     "city": "Königsbrunn",
     "lat": "48.267 ",
     "long": " 10.883",
@@ -4586,7 +4586,7 @@ export const CITIES = {
       "y": 41
     }
   },
-  "Sangerhausen": {
+  "418": {
     "city": "Sangerhausen",
     "lat": "51.475 ",
     "long": " 11.299",
@@ -4597,7 +4597,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Henstedt-Ulzburg": {
+  "419": {
     "city": "Henstedt-Ulzburg",
     "lat": "53.783 ",
     "long": " 10.017",
@@ -4608,7 +4608,7 @@ export const CITIES = {
       "y": 7
     }
   },
-  "Baunatal": {
+  "420": {
     "city": "Baunatal",
     "lat": "51.267 ",
     "long": " 9.417",
@@ -4619,7 +4619,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Rendsburg": {
+  "421": {
     "city": "Rendsburg",
     "lat": "54.300 ",
     "long": " 9.667",
@@ -4630,7 +4630,7 @@ export const CITIES = {
       "y": 4
     }
   },
-  "Emmendingen": {
+  "422": {
     "city": "Emmendingen",
     "lat": "48.117 ",
     "long": " 7.850",
@@ -4641,7 +4641,7 @@ export const CITIES = {
       "y": 42
     }
   },
-  "Overath": {
+  "423": {
     "city": "Overath",
     "lat": "50.933 ",
     "long": " 7.283",
@@ -4652,7 +4652,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Rödermark": {
+  "424": {
     "city": "Rödermark",
     "lat": "49.983 ",
     "long": " 8.833",
@@ -4663,7 +4663,7 @@ export const CITIES = {
       "y": 31
     }
   },
-  "Rheinbach": {
+  "425": {
     "city": "Rheinbach",
     "lat": "50.633 ",
     "long": " 6.950",
@@ -4674,7 +4674,7 @@ export const CITIES = {
       "y": 27
     }
   },
-  "Neukirchen-Vluyn": {
+  "426": {
     "city": "Neukirchen-Vluyn",
     "lat": "51.450 ",
     "long": " 6.550",
@@ -4685,7 +4685,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Mechernich": {
+  "427": {
     "city": "Mechernich",
     "lat": "50.600 ",
     "long": " 6.650",
@@ -4696,7 +4696,7 @@ export const CITIES = {
       "y": 27
     }
   },
-  "Geislingen an der Steige": {
+  "428": {
     "city": "Geislingen an der Steige",
     "lat": "48.633 ",
     "long": " 9.817",
@@ -4707,7 +4707,7 @@ export const CITIES = {
       "y": 39
     }
   },
-  "Wangen im Allgäu": {
+  "429": {
     "city": "Wangen im Allgäu",
     "lat": "47.683 ",
     "long": " 9.833",
@@ -4718,7 +4718,7 @@ export const CITIES = {
       "y": 45
     }
   },
-  "Schloß Holte-Stukenbrock": {
+  "430": {
     "city": "Schloß Holte-Stukenbrock",
     "lat": "51.900 ",
     "long": " 8.617",
@@ -4729,7 +4729,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Reinbek": {
+  "431": {
     "city": "Reinbek",
     "lat": "53.517 ",
     "long": " 10.250",
@@ -4740,7 +4740,7 @@ export const CITIES = {
       "y": 9
     }
   },
-  "Verden (Aller)": {
+  "432": {
     "city": "Verden (Aller)",
     "lat": "52.917 ",
     "long": " 9.233",
@@ -4751,7 +4751,7 @@ export const CITIES = {
       "y": 13
     }
   },
-  "Hamminkeln": {
+  "433": {
     "city": "Hamminkeln",
     "lat": "51.733 ",
     "long": " 6.600",
@@ -4762,7 +4762,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Geilenkirchen": {
+  "434": {
     "city": "Geilenkirchen",
     "lat": "50.967 ",
     "long": " 6.117",
@@ -4773,7 +4773,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Leimen": {
+  "435": {
     "city": "Leimen",
     "lat": "49.350 ",
     "long": " 8.683",
@@ -4784,7 +4784,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Hattersheim am Main": {
+  "436": {
     "city": "Hattersheim am Main",
     "lat": "50.067 ",
     "long": " 8.483",
@@ -4795,7 +4795,7 @@ export const CITIES = {
       "y": 30
     }
   },
-  "Griesheim": {
+  "437": {
     "city": "Griesheim",
     "lat": "49.867 ",
     "long": " 8.550",
@@ -4806,7 +4806,7 @@ export const CITIES = {
       "y": 32
     }
   },
-  "Olching": {
+  "438": {
     "city": "Olching",
     "lat": "48.217 ",
     "long": " 11.333",
@@ -4817,7 +4817,7 @@ export const CITIES = {
       "y": 42
     }
   },
-  "Garmisch-Partenkirchen": {
+  "439": {
     "city": "Garmisch-Partenkirchen",
     "lat": "47.500 ",
     "long": " 11.100",
@@ -4828,7 +4828,7 @@ export const CITIES = {
       "y": 46
     }
   },
-  "Baesweiler": {
+  "440": {
     "city": "Baesweiler",
     "lat": "50.917 ",
     "long": " 6.183",
@@ -4839,7 +4839,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Weinstadt": {
+  "441": {
     "city": "Weinstadt",
     "lat": "48.817 ",
     "long": " 9.383",
@@ -4850,7 +4850,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Staßfurt": {
+  "442": {
     "city": "Staßfurt",
     "lat": "51.846 ",
     "long": " 11.580",
@@ -4861,7 +4861,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Selm": {
+  "443": {
     "city": "Selm",
     "lat": "51.700 ",
     "long": " 7.483",
@@ -4872,7 +4872,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Ellwangen (Jagst)": {
+  "444": {
     "city": "Ellwangen (Jagst)",
     "lat": "48.967 ",
     "long": " 10.133",
@@ -4883,7 +4883,7 @@ export const CITIES = {
       "y": 37
     }
   },
-  "Ingelheim am Rhein": {
+  "445": {
     "city": "Ingelheim am Rhein",
     "lat": "49.967 ",
     "long": " 8.050",
@@ -4894,7 +4894,7 @@ export const CITIES = {
       "y": 31
     }
   },
-  "Köthen (Anhalt)": {
+  "446": {
     "city": "Köthen (Anhalt)",
     "lat": "51.750 ",
     "long": " 11.967",
@@ -4905,7 +4905,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Wiesloch": {
+  "447": {
     "city": "Wiesloch",
     "lat": "49.300 ",
     "long": " 8.700",
@@ -4916,7 +4916,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Lauf an der Pegnitz": {
+  "448": {
     "city": "Lauf an der Pegnitz",
     "lat": "49.517 ",
     "long": " 11.283",
@@ -4927,7 +4927,7 @@ export const CITIES = {
       "y": 34
     }
   },
-  "Nordenham": {
+  "449": {
     "city": "Nordenham",
     "lat": "53.483 ",
     "long": " 8.483",
@@ -4938,7 +4938,7 @@ export const CITIES = {
       "y": 9
     }
   },
-  "Neckarsulm": {
+  "450": {
     "city": "Neckarsulm",
     "lat": "49.200 ",
     "long": " 9.233",
@@ -4949,7 +4949,7 @@ export const CITIES = {
       "y": 36
     }
   },
-  "Hennigsdorf": {
+  "451": {
     "city": "Hennigsdorf",
     "lat": "52.649 ",
     "long": " 13.212",
@@ -4960,7 +4960,7 @@ export const CITIES = {
       "y": 14
     }
   },
-  "Brilon": {
+  "452": {
     "city": "Brilon",
     "lat": "51.400 ",
     "long": " 8.567",
@@ -4971,7 +4971,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Strausberg": {
+  "453": {
     "city": "Strausberg",
     "lat": "52.583 ",
     "long": " 13.894",
@@ -4982,7 +4982,7 @@ export const CITIES = {
       "y": 15
     }
   },
-  "Ilmenau": {
+  "454": {
     "city": "Ilmenau",
     "lat": "50.686 ",
     "long": " 10.922",
@@ -4993,7 +4993,7 @@ export const CITIES = {
       "y": 27
     }
   },
-  "Lennestadt": {
+  "455": {
     "city": "Lennestadt",
     "lat": "51.133 ",
     "long": " 8.083",
@@ -5004,7 +5004,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Lohne (Oldenburg)": {
+  "456": {
     "city": "Lohne (Oldenburg)",
     "lat": "52.667 ",
     "long": " 8.233",
@@ -5015,7 +5015,7 @@ export const CITIES = {
       "y": 14
     }
   },
-  "Kulmbach": {
+  "457": {
     "city": "Kulmbach",
     "lat": "50.117 ",
     "long": " 11.450",
@@ -5026,7 +5026,7 @@ export const CITIES = {
       "y": 30
     }
   },
-  "Heiligenhaus": {
+  "458": {
     "city": "Heiligenhaus",
     "lat": "51.333 ",
     "long": " 6.967",
@@ -5037,7 +5037,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Plettenberg": {
+  "459": {
     "city": "Plettenberg",
     "lat": "51.217 ",
     "long": " 7.867",
@@ -5048,7 +5048,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Remseck am Neckar": {
+  "460": {
     "city": "Remseck am Neckar",
     "lat": "48.867 ",
     "long": " 9.283",
@@ -5059,7 +5059,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Zittau": {
+  "461": {
     "city": "Zittau",
     "lat": "50.899 ",
     "long": " 14.831",
@@ -5070,7 +5070,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Petershagen": {
+  "462": {
     "city": "Petershagen",
     "lat": "52.523 ",
     "long": " 13.769",
@@ -5081,7 +5081,7 @@ export const CITIES = {
       "y": 15
     }
   },
-  "Bad Honnef": {
+  "463": {
     "city": "Bad Honnef",
     "lat": "50.650 ",
     "long": " 7.233",
@@ -5092,7 +5092,7 @@ export const CITIES = {
       "y": 27
     }
   },
-  "Mühlacker": {
+  "464": {
     "city": "Mühlacker",
     "lat": "48.950 ",
     "long": " 8.850",
@@ -5103,7 +5103,7 @@ export const CITIES = {
       "y": 37
     }
   },
-  "Butzbach": {
+  "465": {
     "city": "Butzbach",
     "lat": "50.433 ",
     "long": " 8.667",
@@ -5114,7 +5114,7 @@ export const CITIES = {
       "y": 28
     }
   },
-  "Verl": {
+  "466": {
     "city": "Verl",
     "lat": "51.883 ",
     "long": " 8.500",
@@ -5125,7 +5125,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Ehingen": {
+  "467": {
     "city": "Ehingen",
     "lat": "48.283 ",
     "long": " 9.733",
@@ -5136,7 +5136,7 @@ export const CITIES = {
       "y": 41
     }
   },
-  "Teltow": {
+  "468": {
     "city": "Teltow",
     "lat": "52.401 ",
     "long": " 13.269",
@@ -5147,7 +5147,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Lübbecke": {
+  "469": {
     "city": "Lübbecke",
     "lat": "52.300 ",
     "long": " 8.617",
@@ -5158,7 +5158,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Weiterstadt": {
+  "470": {
     "city": "Weiterstadt",
     "lat": "49.900 ",
     "long": " 8.583",
@@ -5169,7 +5169,7 @@ export const CITIES = {
       "y": 31
     }
   },
-  "Warstein": {
+  "471": {
     "city": "Warstein",
     "lat": "51.450 ",
     "long": " 8.350",
@@ -5180,7 +5180,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Heppenheim (Bergstraße)": {
+  "472": {
     "city": "Heppenheim (Bergstraße)",
     "lat": "49.650 ",
     "long": " 8.633",
@@ -5191,7 +5191,7 @@ export const CITIES = {
       "y": 33
     }
   },
-  "Wiehl": {
+  "473": {
     "city": "Wiehl",
     "lat": "50.950 ",
     "long": " 7.550",
@@ -5202,7 +5202,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Schmallenberg": {
+  "474": {
     "city": "Schmallenberg",
     "lat": "51.150 ",
     "long": " 8.283",
@@ -5213,7 +5213,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Pfaffenhofen an der Ilm": {
+  "475": {
     "city": "Pfaffenhofen an der Ilm",
     "lat": "48.533 ",
     "long": " 11.500",
@@ -5224,7 +5224,7 @@ export const CITIES = {
       "y": 40
     }
   },
-  "Sprockhövel": {
+  "476": {
     "city": "Sprockhövel",
     "lat": "51.350 ",
     "long": " 7.250",
@@ -5235,7 +5235,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Rinteln": {
+  "477": {
     "city": "Rinteln",
     "lat": "52.183 ",
     "long": " 9.083",
@@ -5246,7 +5246,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Salzkotten": {
+  "478": {
     "city": "Salzkotten",
     "lat": "51.667 ",
     "long": " 8.600",
@@ -5257,7 +5257,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Lindau (Bodensee)": {
+  "479": {
     "city": "Lindau (Bodensee)",
     "lat": "47.550 ",
     "long": " 9.683",
@@ -5268,7 +5268,7 @@ export const CITIES = {
       "y": 46
     }
   },
-  "Norden": {
+  "480": {
     "city": "Norden",
     "lat": "53.600 ",
     "long": " 7.200",
@@ -5279,7 +5279,7 @@ export const CITIES = {
       "y": 9
     }
   },
-  "Friedrichsdorf": {
+  "481": {
     "city": "Friedrichsdorf",
     "lat": "50.250 ",
     "long": " 8.650",
@@ -5290,7 +5290,7 @@ export const CITIES = {
       "y": 29
     }
   },
-  "Ludwigsfelde": {
+  "482": {
     "city": "Ludwigsfelde",
     "lat": "52.296 ",
     "long": " 13.258",
@@ -5301,7 +5301,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Bad Oldesloe": {
+  "483": {
     "city": "Bad Oldesloe",
     "lat": "53.817 ",
     "long": " 10.367",
@@ -5312,7 +5312,7 @@ export const CITIES = {
       "y": 7
     }
   },
-  "Espelkamp": {
+  "484": {
     "city": "Espelkamp",
     "lat": "52.383 ",
     "long": " 8.633",
@@ -5323,7 +5323,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Rottweil": {
+  "485": {
     "city": "Rottweil",
     "lat": "48.167 ",
     "long": " 8.633",
@@ -5334,7 +5334,7 @@ export const CITIES = {
       "y": 42
     }
   },
-  "Werder (Havel)": {
+  "486": {
     "city": "Werder (Havel)",
     "lat": "52.381 ",
     "long": " 12.939",
@@ -5345,7 +5345,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Delitzsch": {
+  "487": {
     "city": "Delitzsch",
     "lat": "51.525 ",
     "long": " 12.337",
@@ -5356,7 +5356,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Roth": {
+  "488": {
     "city": "Roth",
     "lat": "50.767 ",
     "long": " 7.700",
@@ -5367,7 +5367,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Harsewinkel": {
+  "489": {
     "city": "Harsewinkel",
     "lat": "51.967 ",
     "long": " 8.233",
@@ -5378,7 +5378,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Olpe": {
+  "490": {
     "city": "Olpe",
     "lat": "51.033 ",
     "long": " 7.850",
@@ -5389,7 +5389,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Attendorn": {
+  "491": {
     "city": "Attendorn",
     "lat": "51.133 ",
     "long": " 7.900",
@@ -5400,7 +5400,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Horb am Neckar": {
+  "492": {
     "city": "Horb am Neckar",
     "lat": "48.450 ",
     "long": " 8.700",
@@ -5411,7 +5411,7 @@ export const CITIES = {
       "y": 40
     }
   },
-  "Groß-Gerau": {
+  "493": {
     "city": "Groß-Gerau",
     "lat": "49.917 ",
     "long": " 8.483",
@@ -5422,7 +5422,7 @@ export const CITIES = {
       "y": 31
     }
   },
-  "Ditzingen": {
+  "494": {
     "city": "Ditzingen",
     "lat": "48.833 ",
     "long": " 9.067",
@@ -5433,7 +5433,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Zirndorf": {
+  "495": {
     "city": "Zirndorf",
     "lat": "49.450 ",
     "long": " 10.950",
@@ -5444,7 +5444,7 @@ export const CITIES = {
       "y": 34
     }
   },
-  "Senftenberg": {
+  "496": {
     "city": "Senftenberg",
     "lat": "51.523 ",
     "long": " 14.000",
@@ -5455,7 +5455,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Quedlinburg": {
+  "497": {
     "city": "Quedlinburg",
     "lat": "51.798 ",
     "long": " 11.138",
@@ -5466,7 +5466,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Pfungstadt": {
+  "498": {
     "city": "Pfungstadt",
     "lat": "49.800 ",
     "long": " 8.600",
@@ -5477,7 +5477,7 @@ export const CITIES = {
       "y": 32
     }
   },
-  "Arnstadt": {
+  "499": {
     "city": "Arnstadt",
     "lat": "50.833 ",
     "long": " 10.955",
@@ -5488,7 +5488,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Weingarten": {
+  "500": {
     "city": "Weingarten",
     "lat": "49.267 ",
     "long": " 8.283",
@@ -5499,7 +5499,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Obertshausen": {
+  "501": {
     "city": "Obertshausen",
     "lat": "50.083 ",
     "long": " 8.850",
@@ -5510,7 +5510,7 @@ export const CITIES = {
       "y": 30
     }
   },
-  "Unterhaching": {
+  "502": {
     "city": "Unterhaching",
     "lat": "48.067 ",
     "long": " 11.617",
@@ -5521,7 +5521,7 @@ export const CITIES = {
       "y": 43
     }
   },
-  "Salzwedel": {
+  "503": {
     "city": "Salzwedel",
     "lat": "52.853 ",
     "long": " 11.138",
@@ -5532,7 +5532,7 @@ export const CITIES = {
       "y": 13
     }
   },
-  "Geretsried": {
+  "504": {
     "city": "Geretsried",
     "lat": "47.850 ",
     "long": " 11.483",
@@ -5543,7 +5543,7 @@ export const CITIES = {
       "y": 44
     }
   },
-  "Rathenow": {
+  "505": {
     "city": "Rathenow",
     "lat": "52.608 ",
     "long": " 12.341",
@@ -5554,7 +5554,7 @@ export const CITIES = {
       "y": 15
     }
   },
-  "Übach-Palenberg": {
+  "506": {
     "city": "Übach-Palenberg",
     "lat": "50.933 ",
     "long": " 6.100",
@@ -5565,7 +5565,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Meckenheim": {
+  "507": {
     "city": "Meckenheim",
     "lat": "50.617 ",
     "long": " 7.017",
@@ -5576,7 +5576,7 @@ export const CITIES = {
       "y": 27
     }
   },
-  "Schleswig": {
+  "508": {
     "city": "Schleswig",
     "lat": "54.517 ",
     "long": " 9.567",
@@ -5587,7 +5587,7 @@ export const CITIES = {
       "y": 3
     }
   },
-  "Lüdinghausen": {
+  "509": {
     "city": "Lüdinghausen",
     "lat": "51.767 ",
     "long": " 7.433",
@@ -5598,7 +5598,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Markkleeberg": {
+  "510": {
     "city": "Markkleeberg",
     "lat": "51.268 ",
     "long": " 12.377",
@@ -5609,7 +5609,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Idstein": {
+  "511": {
     "city": "Idstein",
     "lat": "50.217 ",
     "long": " 8.267",
@@ -5620,7 +5620,7 @@ export const CITIES = {
       "y": 29
     }
   },
-  "Stutensee": {
+  "512": {
     "city": "Stutensee",
     "lat": "49.083 ",
     "long": " 8.483",
@@ -5631,7 +5631,7 @@ export const CITIES = {
       "y": 36
     }
   },
-  "Limbach-Oberfrohna": {
+  "513": {
     "city": "Limbach-Oberfrohna",
     "lat": "50.862 ",
     "long": " 12.761",
@@ -5642,7 +5642,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Syke": {
+  "514": {
     "city": "Syke",
     "lat": "52.917 ",
     "long": " 8.817",
@@ -5653,7 +5653,7 @@ export const CITIES = {
       "y": 13
     }
   },
-  "Varel": {
+  "515": {
     "city": "Varel",
     "lat": "53.400 ",
     "long": " 8.133",
@@ -5664,7 +5664,7 @@ export const CITIES = {
       "y": 10
     }
   },
-  "Isernhagen": {
+  "516": {
     "city": "Isernhagen",
     "lat": "52.433 ",
     "long": " 9.850",
@@ -5675,7 +5675,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Ronnenberg": {
+  "517": {
     "city": "Ronnenberg",
     "lat": "52.317 ",
     "long": " 9.650",
@@ -5686,7 +5686,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Sonneberg": {
+  "518": {
     "city": "Sonneberg",
     "lat": "50.362 ",
     "long": " 11.175",
@@ -5697,7 +5697,7 @@ export const CITIES = {
       "y": 28
     }
   },
-  "Waldshut-Tiengen": {
+  "519": {
     "city": "Waldshut-Tiengen",
     "lat": "47.617 ",
     "long": " 8.217",
@@ -5708,7 +5708,7 @@ export const CITIES = {
       "y": 45
     }
   },
-  "Warburg": {
+  "520": {
     "city": "Warburg",
     "lat": "51.483 ",
     "long": " 9.150",
@@ -5719,7 +5719,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Haren (Ems)": {
+  "521": {
     "city": "Haren (Ems)",
     "lat": "52.800 ",
     "long": " 7.250",
@@ -5730,7 +5730,7 @@ export const CITIES = {
       "y": 14
     }
   },
-  "Korbach": {
+  "522": {
     "city": "Korbach",
     "lat": "51.283 ",
     "long": " 8.867",
@@ -5741,7 +5741,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Dillenburg": {
+  "523": {
     "city": "Dillenburg",
     "lat": "50.733 ",
     "long": " 8.283",
@@ -5752,7 +5752,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Sehnde": {
+  "524": {
     "city": "Sehnde",
     "lat": "52.317 ",
     "long": " 9.967",
@@ -5763,7 +5763,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Öhringen": {
+  "525": {
     "city": "Öhringen",
     "lat": "49.200 ",
     "long": " 9.500",
@@ -5774,7 +5774,7 @@ export const CITIES = {
       "y": 36
     }
   },
-  "Alfter": {
+  "526": {
     "city": "Alfter",
     "lat": "50.733 ",
     "long": " 7.017",
@@ -5785,7 +5785,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Wertheim": {
+  "527": {
     "city": "Wertheim",
     "lat": "49.750 ",
     "long": " 9.517",
@@ -5796,7 +5796,7 @@ export const CITIES = {
       "y": 32
     }
   },
-  "Netphen": {
+  "528": {
     "city": "Netphen",
     "lat": "50.917 ",
     "long": " 8.100",
@@ -5807,7 +5807,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Bedburg": {
+  "529": {
     "city": "Bedburg",
     "lat": "51.000 ",
     "long": " 6.567",
@@ -5818,7 +5818,7 @@ export const CITIES = {
       "y": 25
     }
   },
-  "Jüchen": {
+  "530": {
     "city": "Jüchen",
     "lat": "51.100 ",
     "long": " 6.500",
@@ -5829,7 +5829,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Glauchau": {
+  "531": {
     "city": "Glauchau",
     "lat": "50.821 ",
     "long": " 12.547",
@@ -5840,7 +5840,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Helmstedt": {
+  "532": {
     "city": "Helmstedt",
     "lat": "52.233 ",
     "long": " 11.017",
@@ -5851,7 +5851,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Calw": {
+  "533": {
     "city": "Calw",
     "lat": "48.733 ",
     "long": " 8.733",
@@ -5862,7 +5862,7 @@ export const CITIES = {
       "y": 38
     }
   },
-  "Walsrode": {
+  "534": {
     "city": "Walsrode",
     "lat": "52.867 ",
     "long": " 9.600",
@@ -5873,7 +5873,7 @@ export const CITIES = {
       "y": 13
     }
   },
-  "Gardelegen": {
+  "535": {
     "city": "Gardelegen",
     "lat": "52.528 ",
     "long": " 11.392",
@@ -5884,7 +5884,7 @@ export const CITIES = {
       "y": 15
     }
   },
-  "Moormerland": {
+  "536": {
     "city": "Moormerland",
     "lat": "53.333 ",
     "long": " 7.450",
@@ -5895,7 +5895,7 @@ export const CITIES = {
       "y": 10
     }
   },
-  "Herzogenaurach": {
+  "537": {
     "city": "Herzogenaurach",
     "lat": "49.567 ",
     "long": " 10.883",
@@ -5906,7 +5906,7 @@ export const CITIES = {
       "y": 33
     }
   },
-  "Bad Mergentheim": {
+  "538": {
     "city": "Bad Mergentheim",
     "lat": "49.500 ",
     "long": " 9.767",
@@ -5917,7 +5917,7 @@ export const CITIES = {
       "y": 34
     }
   },
-  "Wallenhorst": {
+  "539": {
     "city": "Wallenhorst",
     "lat": "52.350 ",
     "long": " 8.017",
@@ -5928,7 +5928,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Mosbach": {
+  "540": {
     "city": "Mosbach",
     "lat": "49.350 ",
     "long": " 9.100",
@@ -5939,7 +5939,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Riedstadt": {
+  "541": {
     "city": "Riedstadt",
     "lat": "49.833 ",
     "long": " 8.500",
@@ -5950,7 +5950,7 @@ export const CITIES = {
       "y": 32
     }
   },
-  "Burg": {
+  "542": {
     "city": "Burg",
     "lat": "54.000 ",
     "long": " 9.267",
@@ -5961,7 +5961,7 @@ export const CITIES = {
       "y": 6
     }
   },
-  "Starnberg": {
+  "543": {
     "city": "Starnberg",
     "lat": "48.000 ",
     "long": " 11.333",
@@ -5972,7 +5972,7 @@ export const CITIES = {
       "y": 43
     }
   },
-  "Waldkraiburg": {
+  "544": {
     "city": "Waldkraiburg",
     "lat": "48.217 ",
     "long": " 12.400",
@@ -5983,7 +5983,7 @@ export const CITIES = {
       "y": 42
     }
   },
-  "Rudolstadt": {
+  "545": {
     "city": "Rudolstadt",
     "lat": "50.722 ",
     "long": " 11.340",
@@ -5994,7 +5994,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Herdecke": {
+  "546": {
     "city": "Herdecke",
     "lat": "51.400 ",
     "long": " 7.433",
@@ -6005,7 +6005,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Vaterstetten": {
+  "547": {
     "city": "Vaterstetten",
     "lat": "48.100 ",
     "long": " 11.783",
@@ -6016,7 +6016,7 @@ export const CITIES = {
       "y": 42
     }
   },
-  "Vreden": {
+  "548": {
     "city": "Vreden",
     "lat": "52.033 ",
     "long": " 6.817",
@@ -6027,7 +6027,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Freudenstadt": {
+  "549": {
     "city": "Freudenstadt",
     "lat": "48.467 ",
     "long": " 8.417",
@@ -6038,7 +6038,7 @@ export const CITIES = {
       "y": 40
     }
   },
-  "Lengerich": {
+  "550": {
     "city": "Lengerich",
     "lat": "52.550 ",
     "long": " 7.533",
@@ -6049,7 +6049,7 @@ export const CITIES = {
       "y": 15
     }
   },
-  "Husum": {
+  "551": {
     "city": "Husum",
     "lat": "54.483 ",
     "long": " 9.067",
@@ -6060,7 +6060,7 @@ export const CITIES = {
       "y": 3
     }
   },
-  "Überlingen": {
+  "552": {
     "city": "Überlingen",
     "lat": "47.767 ",
     "long": " 9.167",
@@ -6071,7 +6071,7 @@ export const CITIES = {
       "y": 44
     }
   },
-  "Leutkirch im Allgäu": {
+  "553": {
     "city": "Leutkirch im Allgäu",
     "lat": "47.833 ",
     "long": " 10.017",
@@ -6082,7 +6082,7 @@ export const CITIES = {
       "y": 44
     }
   },
-  "Radevormwald": {
+  "554": {
     "city": "Radevormwald",
     "lat": "51.200 ",
     "long": " 7.350",
@@ -6093,7 +6093,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Apolda": {
+  "555": {
     "city": "Apolda",
     "lat": "51.025 ",
     "long": " 11.511",
@@ -6104,7 +6104,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Schwetzingen": {
+  "556": {
     "city": "Schwetzingen",
     "lat": "49.383 ",
     "long": " 8.583",
@@ -6115,7 +6115,7 @@ export const CITIES = {
       "y": 34
     }
   },
-  "Spremberg": {
+  "557": {
     "city": "Spremberg",
     "lat": "51.562 ",
     "long": " 14.375",
@@ -6126,7 +6126,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Osterode am Harz": {
+  "558": {
     "city": "Osterode am Harz",
     "lat": "51.733 ",
     "long": " 10.250",
@@ -6137,7 +6137,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Weilheim in Oberbayern": {
+  "559": {
     "city": "Weilheim in Oberbayern",
     "lat": "47.833 ",
     "long": " 11.150",
@@ -6148,7 +6148,7 @@ export const CITIES = {
       "y": 44
     }
   },
-  "Karben": {
+  "560": {
     "city": "Karben",
     "lat": "50.233 ",
     "long": " 8.783",
@@ -6159,7 +6159,7 @@ export const CITIES = {
       "y": 29
     }
   },
-  "Westerstede": {
+  "561": {
     "city": "Westerstede",
     "lat": "53.267 ",
     "long": " 7.933",
@@ -6170,7 +6170,7 @@ export const CITIES = {
       "y": 11
     }
   },
-  "Wandlitz": {
+  "562": {
     "city": "Wandlitz",
     "lat": "52.755 ",
     "long": " 13.448",
@@ -6181,7 +6181,7 @@ export const CITIES = {
       "y": 14
     }
   },
-  "Sondershausen": {
+  "563": {
     "city": "Sondershausen",
     "lat": "51.376 ",
     "long": " 10.884",
@@ -6192,7 +6192,7 @@ export const CITIES = {
       "y": 22
     }
   },
-  "Rastede": {
+  "564": {
     "city": "Rastede",
     "lat": "53.250 ",
     "long": " 8.200",
@@ -6203,7 +6203,7 @@ export const CITIES = {
       "y": 11
     }
   },
-  "Friesoythe": {
+  "565": {
     "city": "Friesoythe",
     "lat": "53.017 ",
     "long": " 7.867",
@@ -6214,7 +6214,7 @@ export const CITIES = {
       "y": 12
     }
   },
-  "Senden": {
+  "566": {
     "city": "Senden",
     "lat": "51.850 ",
     "long": " 7.483",
@@ -6225,7 +6225,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Gersthofen": {
+  "567": {
     "city": "Gersthofen",
     "lat": "48.417 ",
     "long": " 10.883",
@@ -6236,7 +6236,7 @@ export const CITIES = {
       "y": 40
     }
   },
-  "Stadtallendorf": {
+  "568": {
     "city": "Stadtallendorf",
     "lat": "50.833 ",
     "long": " 9.017",
@@ -6247,7 +6247,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Eckernförde": {
+  "569": {
     "city": "Eckernförde",
     "lat": "54.467 ",
     "long": " 9.833",
@@ -6258,7 +6258,7 @@ export const CITIES = {
       "y": 3
     }
   },
-  "Edewecht": {
+  "570": {
     "city": "Edewecht",
     "lat": "53.133 ",
     "long": " 7.983",
@@ -6269,7 +6269,7 @@ export const CITIES = {
       "y": 11
     }
   },
-  "Stadthagen": {
+  "571": {
     "city": "Stadthagen",
     "lat": "52.317 ",
     "long": " 9.200",
@@ -6280,7 +6280,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Büdingen": {
+  "572": {
     "city": "Büdingen",
     "lat": "50.283 ",
     "long": " 9.100",
@@ -6291,7 +6291,7 @@ export const CITIES = {
       "y": 29
     }
   },
-  "Büren": {
+  "573": {
     "city": "Büren",
     "lat": "51.550 ",
     "long": " 8.567",
@@ -6302,7 +6302,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Donaueschingen": {
+  "574": {
     "city": "Donaueschingen",
     "lat": "47.950 ",
     "long": " 8.500",
@@ -6313,7 +6313,7 @@ export const CITIES = {
       "y": 43
     }
   },
-  "Bad Harzburg": {
+  "575": {
     "city": "Bad Harzburg",
     "lat": "51.883 ",
     "long": " 10.567",
@@ -6324,7 +6324,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Bad Kissingen": {
+  "576": {
     "city": "Bad Kissingen",
     "lat": "50.200 ",
     "long": " 10.083",
@@ -6335,7 +6335,7 @@ export const CITIES = {
       "y": 29
     }
   },
-  "Nagold": {
+  "577": {
     "city": "Nagold",
     "lat": "48.550 ",
     "long": " 8.733",
@@ -6346,7 +6346,7 @@ export const CITIES = {
       "y": 40
     }
   },
-  "Ilsede": {
+  "578": {
     "city": "Ilsede",
     "lat": "52.267 ",
     "long": " 10.217",
@@ -6357,7 +6357,7 @@ export const CITIES = {
       "y": 17
     }
   },
-  "Metzingen": {
+  "579": {
     "city": "Metzingen",
     "lat": "48.533 ",
     "long": " 9.283",
@@ -6368,7 +6368,7 @@ export const CITIES = {
       "y": 40
     }
   },
-  "Waldkirch": {
+  "580": {
     "city": "Waldkirch",
     "lat": "48.100 ",
     "long": " 7.967",
@@ -6379,7 +6379,7 @@ export const CITIES = {
       "y": 42
     }
   },
-  "Döbeln": {
+  "581": {
     "city": "Döbeln",
     "lat": "51.124 ",
     "long": " 13.118",
@@ -6390,7 +6390,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Xanten": {
+  "582": {
     "city": "Xanten",
     "lat": "51.667 ",
     "long": " 6.450",
@@ -6401,7 +6401,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Wipperfürth": {
+  "583": {
     "city": "Wipperfürth",
     "lat": "51.117 ",
     "long": " 7.400",
@@ -6412,7 +6412,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Heide": {
+  "584": {
     "city": "Heide",
     "lat": "54.200 ",
     "long": " 9.100",
@@ -6423,7 +6423,7 @@ export const CITIES = {
       "y": 5
     }
   },
-  "Soltau": {
+  "585": {
     "city": "Soltau",
     "lat": "52.983 ",
     "long": " 9.833",
@@ -6434,7 +6434,7 @@ export const CITIES = {
       "y": 12
     }
   },
-  "Rotenburg (Wümme)": {
+  "586": {
     "city": "Rotenburg (Wümme)",
     "lat": "53.117 ",
     "long": " 9.400",
@@ -6445,7 +6445,7 @@ export const CITIES = {
       "y": 12
     }
   },
-  "Lindlar": {
+  "587": {
     "city": "Lindlar",
     "lat": "51.017 ",
     "long": " 7.383",
@@ -6456,7 +6456,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Rees": {
+  "588": {
     "city": "Rees",
     "lat": "51.767 ",
     "long": " 6.400",
@@ -6467,7 +6467,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Eppingen": {
+  "589": {
     "city": "Eppingen",
     "lat": "49.133 ",
     "long": " 8.917",
@@ -6478,7 +6478,7 @@ export const CITIES = {
       "y": 36
     }
   },
-  "Sonthofen": {
+  "590": {
     "city": "Sonthofen",
     "lat": "47.517 ",
     "long": " 10.283",
@@ -6489,7 +6489,7 @@ export const CITIES = {
       "y": 46
     }
   },
-  "Ottobrunn": {
+  "591": {
     "city": "Ottobrunn",
     "lat": "48.067 ",
     "long": " 11.667",
@@ -6500,7 +6500,7 @@ export const CITIES = {
       "y": 43
     }
   },
-  "Elsdorf": {
+  "592": {
     "city": "Elsdorf",
     "lat": "53.250 ",
     "long": " 9.350",
@@ -6511,7 +6511,7 @@ export const CITIES = {
       "y": 11
     }
   },
-  "Meiningen": {
+  "593": {
     "city": "Meiningen",
     "lat": "50.567 ",
     "long": " 10.163",
@@ -6522,7 +6522,7 @@ export const CITIES = {
       "y": 27
     }
   },
-  "Versmold": {
+  "594": {
     "city": "Versmold",
     "lat": "52.033 ",
     "long": " 8.150",
@@ -6533,7 +6533,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Wülfrath": {
+  "595": {
     "city": "Wülfrath",
     "lat": "51.283 ",
     "long": " 7.033",
@@ -6544,7 +6544,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Laupheim": {
+  "596": {
     "city": "Laupheim",
     "lat": "48.233 ",
     "long": " 9.883",
@@ -6555,7 +6555,7 @@ export const CITIES = {
       "y": 42
     }
   },
-  "Hockenheim": {
+  "597": {
     "city": "Hockenheim",
     "lat": "49.317 ",
     "long": " 8.550",
@@ -6566,7 +6566,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Puchheim": {
+  "598": {
     "city": "Puchheim",
     "lat": "48.150 ",
     "long": " 11.350",
@@ -6577,7 +6577,7 @@ export const CITIES = {
       "y": 42
     }
   },
-  "Duderstadt": {
+  "599": {
     "city": "Duderstadt",
     "lat": "51.517 ",
     "long": " 10.267",
@@ -6588,7 +6588,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Geseke": {
+  "600": {
     "city": "Geseke",
     "lat": "51.633 ",
     "long": " 8.517",
@@ -6599,7 +6599,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Aichach": {
+  "601": {
     "city": "Aichach",
     "lat": "48.467 ",
     "long": " 11.133",
@@ -6610,7 +6610,7 @@ export const CITIES = {
       "y": 40
     }
   },
-  "Greiz": {
+  "602": {
     "city": "Greiz",
     "lat": "50.656 ",
     "long": " 12.203",
@@ -6621,7 +6621,7 @@ export const CITIES = {
       "y": 27
     }
   },
-  "Schwanewede": {
+  "603": {
     "city": "Schwanewede",
     "lat": "53.233 ",
     "long": " 8.583",
@@ -6632,7 +6632,7 @@ export const CITIES = {
       "y": 11
     }
   },
-  "Werdau": {
+  "604": {
     "city": "Werdau",
     "lat": "50.741 ",
     "long": " 12.380",
@@ -6643,7 +6643,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Blieskastel": {
+  "605": {
     "city": "Blieskastel",
     "lat": "49.233 ",
     "long": " 7.267",
@@ -6654,7 +6654,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Schramberg": {
+  "606": {
     "city": "Schramberg",
     "lat": "48.233 ",
     "long": " 8.383",
@@ -6665,7 +6665,7 @@ export const CITIES = {
       "y": 42
     }
   },
-  "Coswig": {
+  "607": {
     "city": "Coswig",
     "lat": "51.888 ",
     "long": " 12.442",
@@ -6676,7 +6676,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Neu Wulmstorf": {
+  "608": {
     "city": "Neu Wulmstorf",
     "lat": "53.467 ",
     "long": " 9.800",
@@ -6687,7 +6687,7 @@ export const CITIES = {
       "y": 9
     }
   },
-  "Eschborn": {
+  "609": {
     "city": "Eschborn",
     "lat": "50.150 ",
     "long": " 8.567",
@@ -6698,7 +6698,7 @@ export const CITIES = {
       "y": 30
     }
   },
-  "Groß-Umstadt": {
+  "610": {
     "city": "Groß-Umstadt",
     "lat": "49.867 ",
     "long": " 8.933",
@@ -6709,7 +6709,7 @@ export const CITIES = {
       "y": 32
     }
   },
-  "Herborn": {
+  "611": {
     "city": "Herborn",
     "lat": "50.683 ",
     "long": " 8.300",
@@ -6720,7 +6720,7 @@ export const CITIES = {
       "y": 27
     }
   },
-  "Traunreut": {
+  "612": {
     "city": "Traunreut",
     "lat": "47.967 ",
     "long": " 12.600",
@@ -6731,7 +6731,7 @@ export const CITIES = {
       "y": 43
     }
   },
-  "Kitzingen": {
+  "613": {
     "city": "Kitzingen",
     "lat": "49.733 ",
     "long": " 10.167",
@@ -6742,7 +6742,7 @@ export const CITIES = {
       "y": 32
     }
   },
-  "Steinhagen": {
+  "614": {
     "city": "Steinhagen",
     "lat": "52.000 ",
     "long": " 8.417",
@@ -6753,7 +6753,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Wittmund": {
+  "615": {
     "city": "Wittmund",
     "lat": "53.583 ",
     "long": " 7.783",
@@ -6764,7 +6764,7 @@ export const CITIES = {
       "y": 9
     }
   },
-  "Meinerzhagen": {
+  "616": {
     "city": "Meinerzhagen",
     "lat": "51.100 ",
     "long": " 7.633",
@@ -6775,7 +6775,7 @@ export const CITIES = {
       "y": 24
     }
   },
-  "Enger": {
+  "617": {
     "city": "Enger",
     "lat": "52.133 ",
     "long": " 8.567",
@@ -6786,7 +6786,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Kleinmachnow": {
+  "618": {
     "city": "Kleinmachnow",
     "lat": "52.413 ",
     "long": " 13.223",
@@ -6797,7 +6797,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Burgwedel": {
+  "619": {
     "city": "Burgwedel",
     "lat": "52.500 ",
     "long": " 9.867",
@@ -6808,7 +6808,7 @@ export const CITIES = {
       "y": 15
     }
   },
-  "Waghäusel": {
+  "620": {
     "city": "Waghäusel",
     "lat": "49.250 ",
     "long": " 8.550",
@@ -6819,7 +6819,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Flörsheim am Main": {
+  "621": {
     "city": "Flörsheim am Main",
     "lat": "50.017 ",
     "long": " 8.433",
@@ -6830,7 +6830,7 @@ export const CITIES = {
       "y": 31
     }
   },
-  "Quickborn": {
+  "622": {
     "city": "Quickborn",
     "lat": "53.733 ",
     "long": " 9.900",
@@ -6841,7 +6841,7 @@ export const CITIES = {
       "y": 8
     }
   },
-  "Germersheim": {
+  "623": {
     "city": "Germersheim",
     "lat": "49.217 ",
     "long": " 8.367",
@@ -6852,7 +6852,7 @@ export const CITIES = {
       "y": 36
     }
   },
-  "Haar": {
+  "624": {
     "city": "Haar",
     "lat": "48.117 ",
     "long": " 11.733",
@@ -6863,7 +6863,7 @@ export const CITIES = {
       "y": 42
     }
   },
-  "Wilnsdorf": {
+  "625": {
     "city": "Wilnsdorf",
     "lat": "50.817 ",
     "long": " 8.100",
@@ -6874,7 +6874,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Bad Rappenau": {
+  "626": {
     "city": "Bad Rappenau",
     "lat": "49.250 ",
     "long": " 9.100",
@@ -6885,7 +6885,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Neustrelitz": {
+  "627": {
     "city": "Neustrelitz",
     "lat": "53.365 ",
     "long": " 13.069",
@@ -6896,7 +6896,7 @@ export const CITIES = {
       "y": 10
     }
   },
-  "Westoverledingen": {
+  "628": {
     "city": "Westoverledingen",
     "lat": "53.167 ",
     "long": " 7.467",
@@ -6907,7 +6907,7 @@ export const CITIES = {
       "y": 11
     }
   },
-  "Wachtberg": {
+  "629": {
     "city": "Wachtberg",
     "lat": "50.633 ",
     "long": " 7.100",
@@ -6918,7 +6918,7 @@ export const CITIES = {
       "y": 27
     }
   },
-  "Annaberg-Buchholz": {
+  "630": {
     "city": "Annaberg-Buchholz",
     "lat": "50.580 ",
     "long": " 13.011",
@@ -6929,7 +6929,7 @@ export const CITIES = {
       "y": 27
     }
   },
-  "Bruchköbel": {
+  "631": {
     "city": "Bruchköbel",
     "lat": "50.183 ",
     "long": " 8.917",
@@ -6940,7 +6940,7 @@ export const CITIES = {
       "y": 30
     }
   },
-  "Stadtlohn": {
+  "632": {
     "city": "Stadtlohn",
     "lat": "52.000 ",
     "long": " 6.917",
@@ -6951,7 +6951,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Luckenwalde": {
+  "633": {
     "city": "Luckenwalde",
     "lat": "52.089 ",
     "long": " 13.174",
@@ -6962,7 +6962,7 @@ export const CITIES = {
       "y": 18
     }
   },
-  "Kaltenkirchen": {
+  "634": {
     "city": "Kaltenkirchen",
     "lat": "53.833 ",
     "long": " 9.967",
@@ -6973,7 +6973,7 @@ export const CITIES = {
       "y": 7
     }
   },
-  "Rheinstetten": {
+  "635": {
     "city": "Rheinstetten",
     "lat": "48.967 ",
     "long": " 8.300",
@@ -6984,7 +6984,7 @@ export const CITIES = {
       "y": 37
     }
   },
-  "Schortens": {
+  "636": {
     "city": "Schortens",
     "lat": "53.533 ",
     "long": " 7.950",
@@ -6995,7 +6995,7 @@ export const CITIES = {
       "y": 9
     }
   },
-  "Dillingen/Saar": {
+  "637": {
     "city": "Dillingen/Saar",
     "lat": "49.350 ",
     "long": " 6.733",
@@ -7006,7 +7006,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Blankenburg (Harz)": {
+  "638": {
     "city": "Blankenburg (Harz)",
     "lat": "51.791 ",
     "long": " 10.959",
@@ -7017,7 +7017,7 @@ export const CITIES = {
       "y": 20
     }
   },
-  "Gauting": {
+  "639": {
     "city": "Gauting",
     "lat": "48.067 ",
     "long": " 11.383",
@@ -7028,7 +7028,7 @@ export const CITIES = {
       "y": 43
     }
   },
-  "Haßloch": {
+  "640": {
     "city": "Haßloch",
     "lat": "49.367 ",
     "long": " 8.250",
@@ -7039,7 +7039,7 @@ export const CITIES = {
       "y": 35
     }
   },
-  "Eislingen/Fils": {
+  "641": {
     "city": "Eislingen/Fils",
     "lat": "48.700 ",
     "long": " 9.700",
@@ -7050,7 +7050,7 @@ export const CITIES = {
       "y": 39
     }
   },
-  "Lichtenfels": {
+  "642": {
     "city": "Lichtenfels",
     "lat": "51.233 ",
     "long": " 8.817",
@@ -7061,7 +7061,7 @@ export const CITIES = {
       "y": 23
     }
   },
-  "Uetze": {
+  "643": {
     "city": "Uetze",
     "lat": "52.467 ",
     "long": " 10.200",
@@ -7072,7 +7072,7 @@ export const CITIES = {
       "y": 16
     }
   },
-  "Holzminden": {
+  "644": {
     "city": "Holzminden",
     "lat": "51.833 ",
     "long": " 9.450",
@@ -7083,7 +7083,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Karlsfeld": {
+  "645": {
     "city": "Karlsfeld",
     "lat": "48.217 ",
     "long": " 11.467",
@@ -7094,7 +7094,7 @@ export const CITIES = {
       "y": 42
     }
   },
-  "Zülpich": {
+  "646": {
     "city": "Zülpich",
     "lat": "50.700 ",
     "long": " 6.650",
@@ -7105,7 +7105,7 @@ export const CITIES = {
       "y": 26
     }
   },
-  "Torgau": {
+  "647": {
     "city": "Torgau",
     "lat": "51.557 ",
     "long": " 12.993",
@@ -7116,7 +7116,7 @@ export const CITIES = {
       "y": 21
     }
   },
-  "Günzburg": {
+  "648": {
     "city": "Günzburg",
     "lat": "48.450 ",
     "long": " 10.283",
@@ -7127,7 +7127,7 @@ export const CITIES = {
       "y": 40
     }
   },
-  "Ennigerloh": {
+  "649": {
     "city": "Ennigerloh",
     "lat": "51.833 ",
     "long": " 8.033",
@@ -7138,7 +7138,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Bad Waldsee": {
+  "650": {
     "city": "Bad Waldsee",
     "lat": "47.917 ",
     "long": " 9.750",
@@ -7149,7 +7149,7 @@ export const CITIES = {
       "y": 43
     }
   },
-  "Dessau-Roßlau": {
+  "651": {
     "city": "Dessau-Roßlau",
     "inhabitants": "82.919",
     "long": "12.236",
@@ -7160,7 +7160,7 @@ export const CITIES = {
       "y": 19
     }
   },
-  "Rüsselsheim am Main": {
+  "652": {
     "city": "Rüsselsheim am Main",
     "inhabitants": "63.030",
     "long": "50.000",
@@ -7171,7 +7171,7 @@ export const CITIES = {
       "y": 286
     }
   },
-  "Frankfurt (Oder)": {
+  "653": {
     "city": "Frankfurt (Oder)",
     "inhabitants": "58.092",
     "long": "52.342",
@@ -7182,7 +7182,7 @@ export const CITIES = {
       "y": 248
     }
   },
-  "Gronau (Westf.)": {
+  "654": {
     "city": "Gronau (Westf.)",
     "inhabitants": "47.010",
     "long": "52.200",
@@ -7193,7 +7193,7 @@ export const CITIES = {
       "y": 294
     }
   },
-  "Wittenberg, Lutherstadt": {
+  "655": {
     "city": "Wittenberg, Lutherstadt",
     "inhabitants": "46.475",
     "long": "51.876",
@@ -7204,7 +7204,7 @@ export const CITIES = {
       "y": 260
     }
   },
-  "Monheim am Rhein": {
+  "656": {
     "city": "Monheim am Rhein",
     "inhabitants": "40.885",
     "long": "48.833",
@@ -7215,7 +7215,7 @@ export const CITIES = {
       "y": 271
     }
   },
-  "Bitterfeld-Wolfen": {
+  "657": {
     "city": "Bitterfeld-Wolfen",
     "inhabitants": "40.480",
     "long": "51.626",
@@ -7226,7 +7226,7 @@ export const CITIES = {
       "y": 262
     }
   },
-  "Eberswalde": {
+  "658": {
     "city": "Eberswalde",
     "long": "52.830",
     "lat": "13.813",
@@ -7237,7 +7237,7 @@ export const CITIES = {
       "y": 253
     }
   },
-  "Haltern am See": {
+  "659": {
     "city": "Haltern am See",
     "long": "51.750",
     "lat": "7.183",
@@ -7248,7 +7248,7 @@ export const CITIES = {
       "y": 294
     }
   },
-  "Bernau bei Berlin": {
+  "660": {
     "city": "Bernau bei Berlin",
     "long": "47.817",
     "lat": "12.383",
@@ -7259,7 +7259,7 @@ export const CITIES = {
       "y": 262
     }
   },
-  "Mühlhausen/Thüringen": {
+  "661": {
     "city": "Mühlhausen/Thüringen",
     "inhabitants": "34.552",
     "long": "49.167",
@@ -7270,7 +7270,7 @@ export const CITIES = {
       "y": 267
     }
   },
-  "Fürstenwalde/Spree": {
+  "662": {
     "city": "Fürstenwalde/Spree",
     "long": "52.356",
     "lat": "14.068",
@@ -7281,7 +7281,7 @@ export const CITIES = {
       "y": 251
     }
   },
-  "Nienburg/Weser": {
+  "663": {
     "city": "Nienburg/Weser",
     "long": "52.633",
     "lat": "9.200",
@@ -7292,7 +7292,7 @@ export const CITIES = {
       "y": 281
     }
   },
-  "Emmerich am Rhein": {
+  "664": {
     "city": "Emmerich am Rhein",
     "inhabitants": "30.968",
     "long": "51.833",
@@ -7303,7 +7303,7 @@ export const CITIES = {
       "y": 299
     }
   },
-  "Radolfzell am Bodensee": {
+  "665": {
     "city": "Radolfzell am Bodensee",
     "inhabitants": "30.943",
     "long": "47.733",
@@ -7314,7 +7314,7 @@ export const CITIES = {
       "y": 283
     }
   },
-  "Schwedt/Oder": {
+  "666": {
     "city": "Schwedt/Oder",
     "inhabitants": "30.262",
     "long": "53.060",
@@ -7325,7 +7325,7 @@ export const CITIES = {
       "y": 250
     }
   },
-  "Bad Neuenahr-Ahrweiler": {
+  "667": {
     "city": "Bad Neuenahr-Ahrweiler",
     "long": "50.550",
     "lat": "7.117",
@@ -7336,7 +7336,7 @@ export const CITIES = {
       "y": 294
     }
   },
-  "Blankenfelde-Mahlow": {
+  "668": {
     "city": "Blankenfelde-Mahlow",
     "long": "52.330",
     "lat": "13.405",
@@ -7347,7 +7347,7 @@ export const CITIES = {
       "y": 255
     }
   },
-  "St. Wendel": {
+  "669": {
     "city": "St. Wendel",
     "long": "49.467",
     "lat": "7.167",
@@ -7358,7 +7358,7 @@ export const CITIES = {
       "y": 294
     }
   },
-  "Saalfeld/Saale": {
+  "670": {
     "city": "Saalfeld/Saale",
     "long": "50.649",
     "lat": "11.362",
@@ -7369,7 +7369,7 @@ export const CITIES = {
       "y": 268
     }
   },
-  "Bingen am Rhein": {
+  "671": {
     "city": "Bingen am Rhein",
     "long": "48.117",
     "lat": "9.267",
@@ -7380,7 +7380,7 @@ export const CITIES = {
       "y": 281
     }
   },
-  "Eisleben, Lutherstadt": {
+  "672": {
     "city": "Eisleben, Lutherstadt",
     "long": "51.532",
     "lat": "11.543",
@@ -7391,7 +7391,7 @@ export const CITIES = {
       "y": 267
     }
   },
-  "Zerbst/Anhalt": {
+  "673": {
     "city": "Zerbst/Anhalt",
     "long": "51.961",
     "lat": "12.083",
@@ -7402,7 +7402,7 @@ export const CITIES = {
       "y": 263
     }
   },
-  "Halle (Westf.)": {
+  "674": {
     "city": "Halle (Westf.)",
     "long": "52.067",
     "lat": "8.367",
@@ -7413,7 +7413,7 @@ export const CITIES = {
       "y": 286
     }
   },
-  "Neusäß": {
+  "675": {
     "city": "Neusäß",
     "long": "48.400",
     "lat": "10.833",
@@ -7424,7 +7424,7 @@ export const CITIES = {
       "y": 271
     }
   },
-  "Waren (Müritz)": {
+  "676": {
     "city": "Waren (Müritz)",
     "long": "53.516",
     "lat": "12.692",
@@ -7435,7 +7435,7 @@ export const CITIES = {
       "y": 260
     }
   },
-  "Fröndenberg/Ruhr": {
+  "677": {
     "city": "Fröndenberg/Ruhr",
     "long": "51.483",
     "lat": "7.767",
