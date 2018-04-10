@@ -81,112 +81,112 @@ div {
  * @since   22.03.2018
  */
 .orange {
-  color: #fcc88a;
+  color: #FBB058;
 }
 .light-orange {
-  color: #fddfbc;
+  color: #fcc88a;
 }
 .dark-orange {
-  color: #fcbc71;
+  color: #faa43f;
 }
 .bg-orange {
-  background-color: #fcc88a;
+  background-color: #FBB058;
 }
 .bg-light-orange {
-  background-color: #fddfbc;
+  background-color: #fcc88a;
 }
 .bg-dark-orange {
-  background-color: #fcbc71;
+  background-color: #faa43f;
 }
 .green {
-  color: #c8dc92;
+  color: #B5CF6C;
 }
 .light-green {
-  color: #dce8b9;
+  color: #c8dc92;
 }
 .dark-green {
-  color: #bfd57f;
+  color: #abc959;
 }
 .bg-green {
-  background-color: #c8dc92;
+  background-color: #B5CF6C;
 }
 .bg-light-green {
-  background-color: #dce8b9;
+  background-color: #c8dc92;
 }
 .bg-dark-green {
-  background-color: #bfd57f;
+  background-color: #abc959;
 }
 .yellow {
-  color: #fed98f;
+  color: #FEC85C;
 }
 .light-yellow {
-  color: #ffeac1;
+  color: #fed98f;
 }
 .dark-yellow {
-  color: #fed175;
+  color: #febf43;
 }
 .bg-yellow {
-  background-color: #fed98f;
+  background-color: #FEC85C;
 }
 .bg-light-yellow {
-  background-color: #ffeac1;
+  background-color: #fed98f;
 }
 .bg-dark-yellow {
-  background-color: #fed175;
+  background-color: #febf43;
 }
 .red {
-  color: #edaea8;
+  color: #E4867E;
 }
 .light-red {
-  color: #f6d5d2;
+  color: #edaea8;
 }
 .dark-red {
-  color: #e89a93;
+  color: #e07269;
 }
 .bg-red {
-  background-color: #edaea8;
+  background-color: #E4867E;
 }
 .bg-light-red {
-  background-color: #f6d5d2;
+  background-color: #edaea8;
 }
 .bg-dark-red {
-  background-color: #e89a93;
+  background-color: #e07269;
 }
 .blue {
-  color: #90c9e0;
+  color: #68B5D5;
 }
 .light-blue {
-  color: #b8dceb;
+  color: #90c9e0;
 }
 .dark-blue {
-  color: #7cbfdb;
+  color: #54abcf;
 }
 .bg-blue {
-  background-color: #90c9e0;
+  background-color: #68B5D5;
 }
 .bg-light-blue {
-  background-color: #b8dceb;
+  background-color: #90c9e0;
 }
 .bg-dark-blue {
-  background-color: #7cbfdb;
+  background-color: #54abcf;
 }
 .turquoise {
-  color: #c7ddd7;
+  color: #A7CAC1;
 }
 .light-turquoise {
-  color: #e7f0ee;
+  color: #c7ddd7;
 }
 .dark-turquoise {
-  color: #b7d4cc;
+  color: #97c0b6;
 }
 .bg-turquoise {
-  background-color: #c7ddd7;
+  background-color: #A7CAC1;
 }
 .bg-light-turquoise {
-  background-color: #e7f0ee;
+  background-color: #c7ddd7;
 }
 .bg-dark-turquoise {
-  background-color: #b7d4cc;
+  background-color: #97c0b6;
 }
 .grey {
   color: #6D6D6D;
@@ -356,4 +356,18 @@ select option {
 .square-fill {
   background-color: rgba(0, 0, 0, 0.2);
 }
-/*# sourceMappingURL=styles.css.map */
+.info-box {
+  display: block;
+  position: absolute;
+  height: 83px;
+  width: 333px;
+}
+.square-high {
+  background-color: red;
+}
+.square-mid {
+  background-color: orange;
+}
+.square-low {
+  background-color: yellow;
+}

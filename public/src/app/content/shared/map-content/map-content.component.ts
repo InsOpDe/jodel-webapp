@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnInit, NgStyle} from '@angular/core';
 import {ContentService} from "../../../content.service";
 import {CITIES} from "../../../global/cities";
 import {MAP} from "./map";
@@ -16,8 +16,25 @@ export class MapContentComponent implements OnInit {
   @Input() map: MapModel;
   mapArr: object = MAP;
   citiesCoords : object = {};
+  city: string = "";
+  votes: string = "";
+  inhabitants: string = "";
+
+  threshHigh: number = 500;
+  threshMid: number = 50;
+  threshLow: number = 0;
 
   constructor() {
+  }
+
+  updateInfoBox (e) {
+    let id = e.target.id;
+    let city = this.citiesCoords[id];
+    if(city) {
+      this.city = city.city;
+      this.votes = city.votes;
+      this.inhabitants = city.inhabitants;
+    }
   }
 
   ngOnInit() {
@@ -25,25 +42,17 @@ export class MapContentComponent implements OnInit {
     let mapCitiesDummyObj = {};
     for(let i in MapCitiesDummy){
       mapCitiesDummyObj[MapCitiesDummy[i].loc_name] = MapCitiesDummy[i];
-      console.log(MapCitiesDummy[i].loc_name);
-      // console.log(MapCitiesDummy[i]);
-      // console.log(i);
     }
 
-    console.log("############");
 
     for(let i in CITIES) {
       let city = CITIES[i];
       let x = city.coordinates.x;
       let y = city.coordinates.y;
-      console.log(i);
 
       if(MapCitiesDummy[i]) {
         city.votes = MapCitiesDummy[i].votes;
-        // console.log(i);
 
-      } else {
-        // console.log(i);
       }
       this.citiesCoords[y + "-" + x] = city;
     }

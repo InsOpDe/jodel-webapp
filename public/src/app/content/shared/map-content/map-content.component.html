@@ -1,16 +1,28 @@
 <h2>Beliebtheit in Deutschland</h2>
 
 <div class="grid">
-  <div class="info-box">asdasd</div>
+
+  <div class="info-box" *ngIf="city">
+    <p>{{city}} ({{votes}})</p>
+
+  </div>
+  <br>
+  <br>
 
   <div id="map">
     <div class="row" *ngFor="let dummy of ' '.repeat(map.squaresY).split(''), let y = index">
         <div
           *ngFor="let dummy of ' '.repeat(map.squaresX).split(''), let x = index"
-          ngClass="{{mapArr[y + '-' + x] ? 'square-fill' : ''}}"
+          ngClass="
+            {{citiesCoords[y + '-' + x] && citiesCoords[y + '-' + x].votes > threshHigh ? 'square-high' :
+             (citiesCoords[y + '-' + x] && citiesCoords[y + '-' + x].votes > threshMid ? 'square-mid' :
+             (citiesCoords[y + '-' + x] && citiesCoords[y + '-' + x].votes > threshLow ? 'square-low' :
+             (mapArr[y + '-' + x] ? 'square-fill' : '')))}}
+          "
           id="{{y}}-{{x}}"
           class="square"
-          tooltip="{{x}}-{{y}}"
+          (mouseover)="updateInfoBox($event)"
+
         >
 
         </div>
