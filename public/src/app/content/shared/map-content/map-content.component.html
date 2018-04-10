@@ -14,7 +14,7 @@
         <div
           *ngFor="let dummy of ' '.repeat(map.squaresX).split(''), let x = index"
           ngClass="
-            {{citiesCoords[y + '-' + x] && citiesCoords[y + '-' + x].votes ? calcClass(citiesCoords[y + '-' + x].votes) : (mapArr[y + '-' + x] ? 'hm-' + color + '-0' : '')}}
+          {{mapArr[y + '-' + x] ? classesMap[y + '-' + x] : ''}}
           "
           id="{{y}}-{{x}}"
           class="square"

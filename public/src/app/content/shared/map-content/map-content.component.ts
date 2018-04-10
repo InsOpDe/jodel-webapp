@@ -23,6 +23,7 @@ export class MapContentComponent implements OnInit {
   maxvote: number = 0;
   maxsteps: number =  9;
   voteindex: object = [];
+  classesMap: object = {};
 
   //hm-color-0 bis  9
 
@@ -84,12 +85,26 @@ export class MapContentComponent implements OnInit {
       this.voteindex[i] = Math.pow(Math.E, step * i)
     }
 
+
+    // calculate heatmap
+    for(let y = 0; y < this.map.squaresY; y++) {
+      for(let x = 0; x < this.map.squaresX; x++) {
+        this.classesMap[y + "-" + x] = this.calcClass(x,y)
+      }
+    }
+
   }
 
 
-  calcClass (value) {
+  calcClass (x, y) {
     let elClass = "hm-" + this.color + "-";
     let maxindex = 0;
+    let city = this.citiesCoords[y + '-' + x] || {votes: 0}
+
+    // if(!city) return elClass + maxindex
+    let value = city.votes;
+
+    value += this.getNeighbourVotes(x,y);
     for(let i in this.voteindex) {
       if(value >= this.voteindex[i]) {
         maxindex = Number(i);
@@ -98,6 +113,50 @@ export class MapContentComponent implements OnInit {
       }
     }
     return elClass + maxindex;
+  }
+
+
+
+  getNeighbourVotes (x, y) {
+    let d_xy = [
+      [-1,-1],[0,-1],[1,-1],
+      [-1,0],        [1,0],
+      [-1,1],[0,1],[1,1],
+    ];
+
+    let innerVotes = this.calcVotes(d_xy, x, y) / 4;
+    // return innerVotes;
+
+    let d_xy2 = [
+      [-2,-2],[-1,-2],[0,-2],[1,-2],[2,-2],
+      [-2,-1],                      [2,-1],
+      [-2,0],                       [2,0],
+      [-2,1],                       [2,1],
+      [-2,2],[-1,2],[0,2],[1,2],[2,2],
+    ];
+
+    let outerVotes = this.calcVotes(d_xy2, x, y) / 25;
+
+
+    // console.log( innerVotes, outerVotes)
+
+    return innerVotes + outerVotes;
+
+  }
+
+  calcVotes(d, x, y){
+
+    let votes = 0;
+    for(let i in d) {
+      let dx = x - d[i][0];
+      let dy = y - d[i][1];
+
+      let city = this.citiesCoords[dy + "-" + dx];
+      if(city) {
+        votes += city.votes;
+      }
+    }
+    return votes/ d.length;
   }
 
 }
