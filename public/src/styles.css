@@ -74,6 +74,12 @@ div {
  * @author  Maya
  * @since   22.03.2018
  */
+/**
+ * Classes for Colors
+ *
+ * @author  Maya
+ * @since   22.03.2018
+ */
 .hm-orange-0 {
   background-color: #fff7ed;
 }
@@ -596,5 +602,11 @@ select option {
   border-radius: 1px;
 }
 .square-fill {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #F1F1F1;
+}
+.info-box {
+  display: block;
+  position: absolute;
+  height: 83px;
+  width: 333px;
 }
