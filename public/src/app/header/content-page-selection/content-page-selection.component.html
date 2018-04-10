@@ -1,4 +1,4 @@
-<select [ngClass]="'bg-light-' + contentService.color"
+<select [ngClass]="'bg-' + contentService.color"
         [(ngModel)]="currentContentpageType"
         (change)="handleContenttypeChange()">
 
@@ -12,7 +12,7 @@
 <br>
 <br>
 
-<select [ngClass]="'bg-light-' + contentService.color"
+<select [ngClass]="'bg-' + contentService.color"
         *ngIf="contentService.currentContentpage.type.multiplePages"
         [(ngModel)]="contentService.currentContentpage">
 

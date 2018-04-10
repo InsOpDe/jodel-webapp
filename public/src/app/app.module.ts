@@ -21,6 +21,7 @@ import { TimeChartComponent } from './content/shared/chart/time-chart/time-chart
 import { TooltipDirective } from './directives/tooltip/tooltip.directive';
 import { TooltipComponent, TooltipContainerDirective } from './directives/tooltip/tooltip.component';
 import { ForTooltipComponent } from './directives/tooltip/for-tooltip.component';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 
 @NgModule({
@@ -50,7 +51,8 @@ import { ForTooltipComponent } from './directives/tooltip/for-tooltip.component'
   imports: [
       BrowserModule,
       FormsModule,
-      HttpClientModule
+      HttpClientModule,
+      BrowserAnimationsModule
   ],
   providers: [
       ContentService

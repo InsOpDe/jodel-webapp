@@ -1,5 +1,5 @@
 <div [ngClass]="[contentService.currentContentpage ? '' : 'landingpage']">
-    <div class="bg-light-{{contentService.color}}">
+    <div class="bg-{{contentService.color}}">
         <div class="grid headerContainer">
             <!--ICON AND DROPDOWN-->
             <div class="col-3">
@@ -13,7 +13,7 @@
             <div class="col-3">
                 <textarea rows="5"
                           placeholder="Good Vibes only!"
-                          class="bg-light-{{contentService.color}}"
+                          class="bg-{{contentService.color}}"
                           [ngModel]="jodel.text">
                 </textarea>
             </div>
@@ -22,12 +22,12 @@
             <div class="col-3">
                 <input type="text"
                        placeholder="Wähle deine Stadt"
-                       class="bg-light-{{contentService.color}}"
+                       class="bg-{{contentService.color}}"
                        [ngModel]="jodel.location"><br>
 
                 <input type="time"
                        [ngModel]="jodel.time"
-                       class="bg-light-{{contentService.color}}"><br><br>
+                       class="bg-{{contentService.color}}"><br><br>
 
                 <button (click)="contentService.currentContentpage ? editJodel() : sendJodel()">
                     {{contentService.currentContentpage ? 'edit' : 'send'}}
