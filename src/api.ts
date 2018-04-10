@@ -1,8 +1,7 @@
 import {Application, Router, Request, Response} from "express";
 import { Db } from './db'
 import config from "./config";
-
-
+import { Jodel, JResult } from "./jresult";
 
 // const testResult = {
 //     "foo" : "bar"
@@ -37,12 +36,12 @@ export class Api{
      * Router für Api.
      * Routed alle /api/* requests weiter
      */
-    private api() {
+    private async api() {
         let router = Router();
 
         router.use('/user', this.foo);
         router.use('/random', this.getRandomPost);
-
+       
         this.app.use(this.prefix, router);
 
     }

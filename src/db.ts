@@ -154,10 +154,79 @@ export class Db{
         })
 
         }
-    
+
+    //TODO: SLOW - Write better SQL?
+    /**
+     * 
+     * This will retrieve how many times a specific keyword was used in a city
+     * @param keyword the keyword which will be searched for
+     */
+    public async getCityKeywordAmount(keyword: string)
+    {
+        
+        let _query = "Select COUNT(g1.loc_name) as amount, g1.post_keyword, g1.loc_name FROM (SELECT t1.post_id, t1.loc_name, t2.post_keyword FROM location t1 "
+            + "INNER JOIN keywords t2 ON t1.post_id = t2.post_id WHERE post_keyword = " + "\"" + keyword + "\"" + ") g1 GROUP BY g1.post_keyword, g1.loc_name"
+        return await this.query(_query);
+
+    }
+
+
+    //TODO: SLOW - Write better SQL?
+    /**
+     * 
+     * This will retrieve how many times a specific hashtag was used in a city
+     * @param hashtag the hashtag which will be searched for
+     */
+    public async getCityHashtagAmount(hashtag: string)
+    {
+
+        let _query = "Select COUNT(g1.loc_name) as amount, g1.post_tag, g1.loc_name FROM (SELECT t1.post_id, t1.loc_name, t2.post_tag FROM location t1 "
+            + "INNER JOIN tags t2 ON t1.post_id = t2.post_id WHERE post_tag = " + "\"" + hashtag + "\"" + ") g1 GROUP BY g1.post_tag, g1.loc_name"
+        return await this.query(_query);
+
+    }
+
+    public async getHashtagAmount(hashtag: string)
+    {
+        let _query = "SELECT COUNT(post_tag) as amount, post_tag from tags WHERE post_tag =  " + "\"" + hashtag + "\"";
+        return await this.query(_query);
+    }
+
     public async getMessageById(id: string)
     {
-        let _query = "SELECT message from messages WHERE post_id = " + id;
+        let _query = "SELECT post_message from messages WHERE post_id = " + "\"" + id + "\"";
+        return await this.query(_query);
+    }
+
+    public async getTagsById(id: string)
+    {
+        let _query = "Select post_tag from tags WHERE post_id = " + "\"" + id + "\"";
+        return await this.query(_query);
+    }
+
+    public async getKeywordsById(id: string)
+    {
+        let _query = "Select post_keyword from keywords WHERE post_id = " + "\"" + id + "\"";
+        return await this.query(_query);
+    }
+
+    public async getLocationById(id: string)
+    {
+        let _query = "Select loc_name from location WHERE post_id = " + "\"" + id + "\"";
+        return await this.query(_query);
+    }
+
+    public async getLocationByIdChild(id: string)
+    {
+        let _query = "Select post_id from children WHERE child_id = " + "\"" + id + "\"";
+        let tmp = await this.query(_query);
+        _query = "Select loc_name from location WHERE post_id = " + "\"" + tmp[0].post_id + "\"";
+        return await this.query(_query);
+    }
+
+    public async getChildById(id: string)
+    {
+        let _query = "Select * from children WHERE child_id = " + "\"" + id + "\"";
         return await this.query(_query);
     }
 
@@ -167,13 +236,14 @@ export class Db{
      */
     public async getPostById(id: string)
     {
-        let _query = "SELECT * from posts WHERE post_id = " + id;
+        let _query = "SELECT * from posts WHERE post_id = " + "\"" + id + "\"";
         return await this.query(_query);
     }
 
     public async getChildrenById(id: string)
     {
-        let _query = "SELECT * from children WHERE post_id = " + id;
+        let _query = "SELECT * from children WHERE post_id = " + "\"" + id + "\"";
+        return await this.query(_query);
     }
 
     /**

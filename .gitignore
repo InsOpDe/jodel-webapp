@@ -12,3 +12,4 @@ package-lock.json
 /.vs/jodel-webapp/v15/.suo
 *.config
 /vwd.webinfo
+/src/config.ts
