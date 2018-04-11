@@ -19,7 +19,7 @@ class Server {
     constructor(port) {
         //create expressjs application
         this.app = express();
-        this.port = "asd";
+        this.port = port;
         //configure application
         this.config();
         //add api
