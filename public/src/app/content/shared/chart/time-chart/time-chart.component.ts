@@ -36,9 +36,10 @@ import {COLORS} from "../../../../global/colors";
 export class TimeChartComponent implements OnInit {
 
     hours = new Array(24);
-
     maxValue = new Array(12);
     maxValueArray = [];
+
+    infoText: string;
 
     convertedValues: TimeModel["value"];
     convertedValuesArrays = [];
@@ -72,6 +73,7 @@ export class TimeChartComponent implements OnInit {
 
         if (changes.timeModel) {
             this.updateConvertedValues();
+            this.updateInfoBox(null);
             this.triggerValue = this.triggerValue == 'a' ? 'b' : 'a';
         }
     }
@@ -85,6 +87,19 @@ export class TimeChartComponent implements OnInit {
 
         this.hours = new Array(this.timeModel.value.length);
         this.convertedValues = this.convertValuesForChart();
+    }
+
+
+    updateInfoBox(hour) {
+
+        if (hour == null) {
+            this.infoText = '12 - 13 Uhr (24)'
+
+        } else {
+            this.infoText = hour + ' - ' + (hour+1) + ' Uhr (' + this.timeModel.value[hour] + ')';
+        }
+
+        console.log('hour chart event', event);
     }
 
 

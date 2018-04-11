@@ -25,7 +25,6 @@ import {COLORS} from "../../../global/colors";
             ]),
         ])
     ]
-    // styleUrls: ['./map-content.component.css']
 })
 export class MapContentComponent implements OnInit {
 

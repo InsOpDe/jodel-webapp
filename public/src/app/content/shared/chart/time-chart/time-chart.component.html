@@ -1,5 +1,8 @@
+<h3>{{infoText}}</h3>
+
 <div [@timeChartState]="{value: triggerValue, params: {'bar_color': colors[color]}}">
-    <div *ngFor="let h of hours; let i = index" class="hours">
+    <div (mouseenter)="updateInfoBox(i)"
+         *ngFor="let h of hours; let i = index" class="hours">
 
         <div *ngFor="let n of convertedValuesArrays[i]; let j = index"
              class="animation quad bg-lightGrey">
