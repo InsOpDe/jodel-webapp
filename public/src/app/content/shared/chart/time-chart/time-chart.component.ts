@@ -14,19 +14,20 @@ import {COLORS} from "../../../../global/colors";
     templateUrl: './time-chart.component.html',
     animations: [
         trigger('timeChartState', [
-            transition('void => set', [
-                query(":enter", [
+            transition('* => *', [
+                query(".animation", [
                     style({
                         backgroundColor: COLORS.lightGrey,
+                        width: '8px',
                         height: '8px',
                         marginTop: '4px'
                     }),
-                    stagger(-130, [
+                    stagger(8, [
                         animate(1, style({
-                            backgroundColor: '{{bar_color}}',
-                            height: '12px',
-                            marginTop: '0'
-                        }))
+                            // backgroundColor: '{{bar_color}}',
+                            // height: '12px',
+                            // marginTop: '0'
+                    }))
                     ])
                 ], {optional: true})
             ]),
@@ -48,6 +49,7 @@ export class TimeChartComponent implements OnInit {
     @Input() color: string;
 
     @Input() timeModel: TimeModel;
+    triggerValue = 'a';
 
 
     constructor(private contentService: ContentService) {}
@@ -70,7 +72,9 @@ export class TimeChartComponent implements OnInit {
 
         if (changes.timeModel) {
             this.updateConvertedValues();
+            this.triggerValue = this.triggerValue == 'a' ? 'b' : 'a';
         }
+
     }
 
 
