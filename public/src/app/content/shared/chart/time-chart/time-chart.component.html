@@ -9,7 +9,8 @@
         </div>
 
         <div *ngFor="let n of maxValueArray[i]; let j = index"
-             [ngClass]="[j == 0 ? 'animation quad bg-' + color : 'animation long bg-' + color]">
+             [ngClass]="[i == currentHour ? (j == 0 ? 'animation quad bg-dark-' + color : 'animation long bg-dark-' + color) :
+             j == 0 ? 'animation quad bg-' + color : 'animation long bg-' + color]">
         </div>
     </div>
 </div>

@@ -13,7 +13,7 @@
                 <textarea rows="5"
                           placeholder="Good Vibes only!"
                           class="bg-{{contentService.color}}"
-                          [ngModel]="jodel.text">
+                          [(ngModel)]="jodel.text">
                 </textarea>
             </div>
 
@@ -30,7 +30,7 @@
                        <!--[ngModel]="jodel.location"><br>-->
 
                 <input type="time"
-                       [ngModel]="jodel.time"
+                       [(ngModel)]="jodel.time"
                        class="bg-{{contentService.color}}"><br><br>
 
             <button class="sendEditButton roundedCorners"

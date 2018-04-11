@@ -27,7 +27,7 @@ export class HeaderComponent implements OnInit {
     text: string;
   };
 
-  public group: CreateNewAutocompleteGroup[];
+  public group: any;
 
   /**
    *
@@ -78,7 +78,7 @@ export class HeaderComponent implements OnInit {
 
 
     // debug
-    // this.sendJodel();
+    this.sendJodel();
   }
 
   /**
@@ -89,7 +89,6 @@ export class HeaderComponent implements OnInit {
    * @since   24.03.2018
    */
   sendJodel() {
-
     this.contentService.getResultData(this.jodel)
       .subscribe(response => {
 

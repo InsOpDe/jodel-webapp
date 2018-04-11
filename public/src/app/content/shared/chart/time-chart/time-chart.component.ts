@@ -36,7 +36,7 @@ import {COLORS} from "../../../../global/colors";
 export class TimeChartComponent implements OnInit {
 
     hours = new Array(24);
-    maxValue = new Array(12);
+    maxValue = new Array(15);
     maxValueArray = [];
 
     infoText: string;
@@ -51,6 +51,7 @@ export class TimeChartComponent implements OnInit {
     @Input() timeModel: TimeModel;
 
     triggerValue = 'a';
+    currentHour: number;
 
     constructor(private contentService: ContentService) {}
 
@@ -61,6 +62,7 @@ export class TimeChartComponent implements OnInit {
      */
     ngOnInit() {
         this.color = this.color || this.contentService.color;
+        this.currentHour = Number(this.contentService.jodelData.time.split(':')[0]) || 12;
         this.triggerValue = this.triggerValue == 'a' ? 'b' : 'a';
     }
 
@@ -73,8 +75,9 @@ export class TimeChartComponent implements OnInit {
 
         if (changes.timeModel) {
             this.updateConvertedValues();
-            this.updateInfoBox(null);
+            this.currentHour = Number(this.contentService.jodelData.time.split(':')[0]) || 12;
             this.triggerValue = this.triggerValue == 'a' ? 'b' : 'a';
+            this.updateInfoBox(this.currentHour);
         }
     }
 
@@ -92,14 +95,30 @@ export class TimeChartComponent implements OnInit {
 
     updateInfoBox(hour) {
 
-        if (hour == null) {
-            this.infoText = '12 - 13 Uhr (24)'
+        console.log(hour);
 
-        } else {
-            this.infoText = hour + ' - ' + (hour+1) + ' Uhr (' + this.timeModel.value[hour] + ')';
+        this.infoText = hour + ' - ' + (hour+1) + ' Uhr (' + this.timeModel.value[hour] + ' Votes)';
+    }
+
+
+    /**
+     * calc and return logarithmic vote index
+     *
+     * @author  Maya
+     * @since   28.03.2018
+     */
+    calcLogVoteIndex() {
+
+        let max = Math.max(...this.timeModel.value);
+        let maxLogValue = Math.log(max - 10);
+        let step = maxLogValue / this.maxValue.length;
+        let voteIndex = [];
+
+        for (let i = 0; i < this.maxValue.length; i++) {
+            voteIndex[i] = Math.pow(Math.E, step * i);
         }
 
-        console.log('hour chart event', event);
+        return voteIndex;
     }
 
 
@@ -112,13 +131,21 @@ export class TimeChartComponent implements OnInit {
     convertValuesForChart() {
 
         let convertedValues = [];
-        let factor = 100 / this.maxValue.length;
+        let voteIndex = this.calcLogVoteIndex();
 
-        for (let i = 0; i < this.hours.length; i++) {
+        for (let hour = 0; hour <= this.hours.length; hour++) {
 
-            convertedValues[i] = this.maxValue.length - Math.round(this.timeModel.value[i] / factor);
-            this.convertedValuesArrays[i] = new Array(convertedValues[i]);
-            this.maxValueArray[i] = new Array(this.maxValue.length - convertedValues[i]);
+            let convertedValue = 0;
+
+            for (let i in voteIndex) {
+                if (this.timeModel.value[hour] >= voteIndex[i]) {
+                    convertedValue = Number(i)+1;
+                }
+            }
+
+            convertedValues[hour] = convertedValue;
+            this.convertedValuesArrays[hour] = new Array(this.maxValue.length - convertedValues[hour]);
+            this.maxValueArray[hour] = new Array(convertedValues[hour]);
         }
 
         return convertedValues;

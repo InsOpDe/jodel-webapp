@@ -83,12 +83,6 @@ div {
  * @author  Maya
  * @since   22.03.2018
  */
-/**
- * Classes for Colors
- *
- * @author  Maya
- * @since   22.03.2018
- */
 .hm-orange-0 {
   background-color: #fff7ed;
 }
@@ -126,7 +120,7 @@ div {
   color: #fddfbc;
 }
 .dark-orange {
-  color: #fcbc71;
+  color: #fa9826;
 }
 .bg-orange {
   background-color: #fcc88a;
@@ -135,7 +129,7 @@ div {
   background-color: #fddfbc;
 }
 .bg-dark-orange {
-  background-color: #fcbc71;
+  background-color: #fa9826;
 }
 .hm-green-0 {
   background-color: #eff5df;
@@ -174,7 +168,7 @@ div {
   color: #dce8b9;
 }
 .dark-green {
-  color: #bfd57f;
+  color: #a2c246;
 }
 .bg-green {
   background-color: #c8dc92;
@@ -183,7 +177,7 @@ div {
   background-color: #dce8b9;
 }
 .bg-dark-green {
-  background-color: #bfd57f;
+  background-color: #a2c246;
 }
 .hm-yellow-0 {
   background-color: #fffbf4;
@@ -222,7 +216,7 @@ div {
   color: #ffeac1;
 }
 .dark-yellow {
-  color: #fed175;
+  color: #feb729;
 }
 .bg-yellow {
   background-color: #fed98f;
@@ -231,7 +225,7 @@ div {
   background-color: #ffeac1;
 }
 .bg-dark-yellow {
-  background-color: #fed175;
+  background-color: #feb729;
 }
 .hm-red-0 {
   background-color: #fefdfd;
@@ -270,7 +264,7 @@ div {
   color: #f6d5d2;
 }
 .dark-red {
-  color: #e89a93;
+  color: #db5e54;
 }
 .bg-red {
   background-color: #edaea8;
@@ -279,7 +273,7 @@ div {
   background-color: #f6d5d2;
 }
 .bg-dark-red {
-  background-color: #e89a93;
+  background-color: #db5e54;
 }
 .hm-blue-0 {
   background-color: #e0f0f6;
@@ -318,7 +312,7 @@ div {
   color: #b8dceb;
 }
 .dark-blue {
-  color: #7cbfdb;
+  color: #40a1ca;
 }
 .bg-blue {
   background-color: #90c9e0;
@@ -327,7 +321,7 @@ div {
   background-color: #b8dceb;
 }
 .bg-dark-blue {
-  background-color: #7cbfdb;
+  background-color: #40a1ca;
 }
 .hm-turquoise-0 {
   background-color: #ffffff;
@@ -366,7 +360,7 @@ div {
   color: #e7f0ee;
 }
 .dark-turquoise {
-  color: #b7d4cc;
+  color: #87b7ab;
 }
 .bg-turquoise {
   background-color: #c7ddd7;
@@ -375,7 +369,7 @@ div {
   background-color: #e7f0ee;
 }
 .bg-dark-turquoise {
-  background-color: #b7d4cc;
+  background-color: #87b7ab;
 }
 .hm-grey-0 {
   background-color: #a0a0a0;
@@ -414,7 +408,7 @@ div {
   color: #878787;
 }
 .dark-grey {
-  color: #606060;
+  color: #3a3a3a;
 }
 .bg-grey {
   background-color: #6D6D6D;
@@ -423,7 +417,7 @@ div {
   background-color: #878787;
 }
 .bg-dark-grey {
-  background-color: #606060;
+  background-color: #3a3a3a;
 }
 .hm-lightGrey-0 {
   background-color: #ffffff;
@@ -462,7 +456,7 @@ div {
   color: #ffffff;
 }
 .dark-lightGrey {
-  color: #e4e4e4;
+  color: #bebebe;
 }
 .bg-lightGrey {
   background-color: #F1F1F1;
@@ -471,7 +465,7 @@ div {
   background-color: #ffffff;
 }
 .bg-dark-lightGrey {
-  background-color: #e4e4e4;
+  background-color: #bebebe;
 }
 /**
  * Styles fot texts and headlines
@@ -546,7 +540,7 @@ button:hover {
   background-color: #fff;
   font-weight: normal;
   font-size: 15px;
-  width: calc(100% - 4px);
+  width: calc(96%);
 }
 .ng-autocomplete-dropdown .ng-dropdown {
   display: none;

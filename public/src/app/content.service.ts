@@ -27,7 +27,7 @@ export class ContentService {
     color: string;
     contentpages: Contentpage[] = [];
     currentContentpage: Contentpage;
-    jodelData: object;
+    jodelData: any;
 
     constructor(private http: HttpClient) {
         this.color = 'green';
