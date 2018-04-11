@@ -142,26 +142,43 @@ export class JResult
     {
         return new Promise((resolve) =>
         {
-
-        
-        let hash1: any = this.hashtags[0]['citydata'];
-        for (let i = 1; i < this.hashtags.length; i++)
-        {
-            let hash: any = this.hashtags[i]['citydata'];
-            for (let key in hash)
+            let sum: any = this.keywords[0]['citydata'];
+            for (let b = 1; b < this.keywords.length; b++)
             {
-                for (let i = 0; i < hash1.length; i++)
+                let key_tmp: any = this.keywords[b]['citydata'];
+                for (let n = 0; n < sum.length; n++)
                 {
-                    if (hash[key].name == hash1[i].name)
+                    for (let m = 0; m < key_tmp.length; m++)
                     {
-                        hash1.amount += hash[key].amount;
-                        process.stdout.write(".");
+                        if (sum[n].city == key_tmp[m].city)
+                        {
+                            sum[n].amount += key_tmp[m].amount;
+                        }
+                    }
+                }
+            }
+            //console.log(this.hashtags);
+            //let hash_sum: any = this.hashtags[0]['citydata'];
+            //console.log(hash_sum)
+            //console.log(hash1);
+        for (let i = 0; i < this.hashtags.length; i++)
+        {
+            let hash_tmp: any = this.hashtags[i]['citydata'];
+            console.log(hash_tmp);
+            for (let j = 0; j < sum.length; j++)
+            {
+                for (let k = 0; k < hash_tmp.length; k++)
+                {
+                    if (sum[j].city == hash_tmp[k].city)
+                    {
+                        sum[j].amount += hash_tmp[k].amount;
+
                     }
                 }
             }
             
             }
-            resolve(hash1);
+            resolve(sum);
         })
     }
 

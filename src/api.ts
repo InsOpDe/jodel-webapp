@@ -41,7 +41,9 @@ export class Api{
 
         router.use('/user', this.foo);
         router.use('/random', this.getRandomPost);
-       
+        let _res = new JResult("Mein Name ist Tim #go #yeah", this.db);
+        await _res.getResult();
+        //console.log(JSON.stringify(_res.toJSON()));
         this.app.use(this.prefix, router);
 
     }

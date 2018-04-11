@@ -7,8 +7,9 @@
 		"module": "commonjs",
 		"moduleResolution": "node"
 	},
-	"exclude": [
-		"node_modules",
-		"public"
-	]
+  "exclude": [
+    "node_modules",
+    "public"
+  ],
+  "compileOnSave": true
 }
