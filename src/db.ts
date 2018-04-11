@@ -87,6 +87,22 @@ export class Db{
         return res;
     }
 
+    public timeKeywords(keywords: string)
+    {
+        for (let i = 0; i < 25; i++)
+        {
+            let _query = "SELECT post_id FROM posts WHERE created_at LIKE \"%T" + i + ":%\"";
+            let query_res = this.query(_query);
+            for (let key in query_res)
+            {
+                this.getKeywordsById(query_res[key]);
+            }
+            //this.getKeywordsById()
+
+        }
+    }
+
+
     /**
      * Same Function as getPostsFromKeywords
      * @param tags the tags which will be searched in the table tags
@@ -219,6 +235,12 @@ export class Db{
     public async getHashtagAmount(hashtag: string)
     {
         let _query = "SELECT COUNT(post_tag) as amount, post_tag from tags WHERE post_tag =  " + "\"" + hashtag + "\"";
+        return await this.query(_query);
+    }
+
+    public async getHashtagsById(id: string)
+    {
+        let _query = "Select post_tag FROM tags WHERE post_id = " + "\"" + id + "\"";
         return await this.query(_query);
     }
 

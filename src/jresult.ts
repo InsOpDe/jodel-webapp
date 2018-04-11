@@ -46,7 +46,7 @@ export class JResult
      */
     public async getResult()
     {
-        console.log("Getting similiar post...")
+        process.stdout.write("Getting similiar post")
         let res = await this.db.getMostSimiliar(this.Jodel);
         if (res == "")
         {
@@ -60,18 +60,18 @@ export class JResult
         await this.affJodel.fill();
         let res2 = await this.texttools.extractHashtags(this.Jodel);
         let res3 = await this.texttools.extractKeywords(this.Jodel);
-        console.log("Getting Hashtags and Keywords...")
+        process.stdout.write("Getting Hashtags and Keywords")
         for (let key1 in res3)
         {
             let _tmp: {
                 city: string;
                 amount: number;
             }[] = [];
-
+            process.stdout.write(".");
             let keynum = await this.db.getCityKeywordAmount(res3[key1].name);
             for (let key2 in keynum)
             {
-                process.stdout.write(".");
+                
                 _tmp.push({
                     city: keynum[key2].loc_name,
                     amount: keynum[key2].amount
@@ -92,9 +92,10 @@ export class JResult
             }[] = [];
             let tmp = await this.db.getHashtagAmount(res2[hashi]);
             let hashnum = await this.db.getCityHashtagAmount(res2[hashi]);
+            process.stdout.write(".");
+
             for (let key3 in hashnum)
             {
-                process.stdout.write(".");
                 _tmp.push({
                     city: hashnum[key3].loc_name,
                     amount: hashnum[key3].amount
@@ -107,10 +108,10 @@ export class JResult
                 citydata: _tmp
             })
         }
-        console.log("Generating Votes...")
+        process.stdout.write("Generating Votes")
         let _votestmp = await this.interPolateResult(res);
         this.interPolatedResult = _votestmp;
-        console.log("Generating City Importance...")
+        process.stdout.write("Generating City Importance")
         let _cityimportance = await this.generateCityImportance();
         this.cityimportance = _cityimportance;
         
@@ -122,7 +123,7 @@ export class JResult
     }
 
     /**
-     * This will create create the Votes for a Post based on the similiar Post 
+     * This will create create the Votes, Pins, Comments and similiar Keywords for a Post based on the similiar Post 
      * @param keys the keys from the similiar Posts
      * @author Tim Mend
      */
@@ -130,8 +131,55 @@ export class JResult
     {
         let sum = 0;
         let sum_comments = 0;
+        let jresult_keywords: string[] = [];
+        let jresult_hashtags: string[] = [];
+        let keywords_similiar: string[] = [];
+        let hashtags_similiar: string[] = [];
+        //Get Keywords out of keywords array from JRESULT 
+        for (let key in this.keywords)
+        {
+            jresult_keywords.push(this.keywords[key].name);
+        }
+
+        //Get Hashtags out of hashtags array from JRESULT
+        for (let hash in this.hashtags)
+        {
+            jresult_hashtags.push(this.hashtags[hash].name);
+        }
+
+
         for (let key in keys)
         {   
+            let keywords_similiar_post = await this.db.getKeywordsById(keys[key].post_id);
+            //Get relational Keywords out of the similiar Jodel
+            for (let key in keywords_similiar_post)
+            {
+                for (let key_jresult in jresult_keywords)
+                {
+                    process.stdout.write(".");
+                    if (jresult_keywords[key_jresult] != keywords_similiar_post[key_jresult])
+                    {
+                        keywords_similiar.push(keywords_similiar_post[key_jresult]);
+                    }
+                }
+            }
+
+            //Same as keywords
+            let hashtags_similiar_post = await this.db.getHashtagsById(keys[key]);
+
+            for (let hash in hashtags_similiar_post)
+            {
+                process.stdout.write(".");
+                for (let hash_jresult in jresult_hashtags)
+                {
+                    if (hashtags_similiar_post[hash] != jresult_hashtags[hash_jresult])
+                    {
+                        hashtags_similiar.push(hashtags_similiar_post[hash]);
+                    }
+                }
+            }
+
+
             let tmp = await this.db.getPostById(keys[key].post_id);
             sum_comments += parseInt(tmp[0].child_count)
             if (tmp.length == 0)
@@ -154,7 +202,9 @@ export class JResult
             resolve({
                 Votes: Math.ceil((sum / keys.length)),
                 Comments: Math.ceil((sum_comments / keys.length)),
-                Pins: Math.ceil((sum / keys.length) * 0.15)
+                Pins: Math.ceil((sum / keys.length) * 0.15),
+                Keywords_similiar: keywords_similiar,
+                Hashtag_similiar: hashtags_similiar
             })
         })
     }

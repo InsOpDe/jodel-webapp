@@ -41,11 +41,11 @@ export class Api{
 
         router.use('/user', this.foo);
         router.use('/random', this.getRandomPost);
-        let _res = new JResult("Jodel ist eine coole Plattform! Ich glaub manchmal ich bin hier bei coolen Leuten gelandet :D #jhj #letfetz", this.db);
+        let _res = new JResult("Jodel ist eine coole Plattform! #jhj #letfetz", this.db);
         await _res.getResult();
         console.log(JSON.stringify(_res.toJSON()));
         //let _res = await this.db.getCreatedByIdChild("59a04066b938680016c917c5");
-        console.log(_res);
+        //console.log(_res);
         this.app.use(this.prefix, router);
 
     }
