@@ -26,6 +26,7 @@ export class HeaderComponent implements OnInit {
     time: string,
     text: string;
   };
+  jodelIsWriteable:boolean = true;
 
   public group;
 
@@ -64,15 +65,7 @@ export class HeaderComponent implements OnInit {
         this.jodel.location,
         'completer',
         cityArr,
-        // [
-        //   {title: 'Option 1', id: '1'},
-        //   {title: 'Option 2', id: '2'},
-        //   {title: 'Option 3', id: '3'},
-        //   {title: 'Option 4', id: '4'},
-        //   {title: 'Option 5', id: '5'},
-        // ],
         {titleKey: 'city', childrenKey: null}
-        // {titleKey: 'title', childrenKey: null}
       ),
     ]
 
@@ -90,6 +83,8 @@ export class HeaderComponent implements OnInit {
    */
   sendJodel() {
 
+    this.jodelIsWriteable = false;
+
     this.contentService.getResultData(this.jodel)
       .subscribe(response => {
 
@@ -106,6 +101,8 @@ export class HeaderComponent implements OnInit {
    * @since   24.03.2018
    */
   editJodel() {
+
+    this.jodelIsWriteable = true;
     this.contentService.refresh();
   }
 }
