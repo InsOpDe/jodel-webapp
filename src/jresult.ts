@@ -1,10 +1,13 @@
 ﻿import { Db } from "./db";
 import { Texttools } from './texttools';
 
+const POSTWEIGHT: number = 1.5;
+
+
 export class JResult
 {
     Jodel: string;
-    Votes: any;
+    interPolatedResult: any;
     affJodel: Jodel;
     db: Db;
     texttools: Texttools;
@@ -26,15 +29,20 @@ export class JResult
         }[]
     }[] = [];
 
+    cityimportance: any;
+
     constructor(jodel: string, db: Db)
     {
         this.Jodel = jodel;
         this.db = db;
         this.texttools = new Texttools();
     }
+
+
     //TODO: Maybe not the best way to handle this.. get Most Similiar returns many values I just take the first
     /**
-     * Just take the first result.
+     * This function will create the Result for the Frontend for a given Message. 
+     * @author Tim Mend
      */
     public async getResult()
     {
@@ -100,25 +108,32 @@ export class JResult
             })
         }
         console.log("Generating Votes...")
-        let _votestmp = await this.generateVotes(res);
-        this.Votes = _votestmp;
+        let _votestmp = await this.interPolateResult(res);
+        this.interPolatedResult = _votestmp;
         console.log("Generating City Importance...")
         let _cityimportance = await this.generateCityImportance();
-        console.log(_cityimportance);
-        //this.Votes = parseInt(_votestmp);
-
+        this.cityimportance = _cityimportance;
+        
         return new Promise((resolve) =>
         {
             resolve(true);
         })
 
     }
-    public async generateVotes(keys: any)
+
+    /**
+     * This will create create the Votes for a Post based on the similiar Post 
+     * @param keys the keys from the similiar Posts
+     * @author Tim Mend
+     */
+    private async interPolateResult(keys: any)
     {
         let sum = 0;
+        let sum_comments = 0;
         for (let key in keys)
         {   
             let tmp = await this.db.getPostById(keys[key].post_id);
+            sum_comments += parseInt(tmp[0].child_count)
             if (tmp.length == 0)
             {
                 let tmp = await this.db.getChildById(keys[key].post_id);
@@ -128,17 +143,28 @@ export class JResult
             }
             else
             {
-                sum += parseInt(tmp[0].votes) * 1.5;
+                sum += parseInt(tmp[0].votes) * POSTWEIGHT;
                 process.stdout.write(".");
             }
             //console.log(tmp[0].votes);    
             
         }
         return new Promise((resolve) =>
-        { resolve(Math.ceil((sum / keys.length))) })
+        {
+            resolve({
+                Votes: Math.ceil((sum / keys.length)),
+                Comments: Math.ceil((sum_comments / keys.length)),
+                Pins: Math.ceil((sum / keys.length) * 0.15)
+            })
+        })
     }
 
-    public async generateCityImportance()
+
+    /**
+     * This will create a Array of the succes of a post in the cities based on the keywords and hashtags used in the post
+     * @author Tim Mend
+     */
+    private async generateCityImportance()
     {
         return new Promise((resolve) =>
         {
@@ -154,17 +180,16 @@ export class JResult
                         {
                             sum[n].amount += key_tmp[m].amount;
                         }
+                        if (m == key_tmp.length && sum[n].city != key_tmp[m].city)
+                        {
+                            sum.push(key_tmp[m]);
+                        }
                     }
                 }
             }
-            //console.log(this.hashtags);
-            //let hash_sum: any = this.hashtags[0]['citydata'];
-            //console.log(hash_sum)
-            //console.log(hash1);
-        for (let i = 0; i < this.hashtags.length; i++)
+            for (let i = 0; i < this.hashtags.length; i++)
         {
             let hash_tmp: any = this.hashtags[i]['citydata'];
-            console.log(hash_tmp);
             for (let j = 0; j < sum.length; j++)
             {
                 for (let k = 0; k < hash_tmp.length; k++)
@@ -173,6 +198,10 @@ export class JResult
                     {
                         sum[j].amount += hash_tmp[k].amount;
 
+                    }
+                    if (k == hash_tmp.length && sum[j].city != hash_tmp[k].city)
+                    {
+                        sum.push(hash_tmp[k]);
                     }
                 }
             }
@@ -187,10 +216,11 @@ export class JResult
 
         return {
             message: this.Jodel,
-            Votes: this.Votes,
+            Votes: this.interPolatedResult,
             jodel: this.affJodel.encodeJodel(),
-            keywords: this.keywords,
-            hashtags: this.hashtags
+            //keywords: this.keywords,
+            //hashtags: this.hashtags,
+            cityimportance: this.cityimportance
         };
     }
 }
@@ -200,22 +230,23 @@ interface JRESULT
     message: string;
     Votes: any;
     jodel: JodelJSON;
-    keywords: {
-        name: string;
-        amount: Number;
-        citydata: {
-            city: string;
-            amount: Number;
-        }[]
-    }[];
-    hashtags: {
-        name: string;
-        amount: Number;
-        citydata: {
-            city: string;
-            amount: Number;
-        }[]
-    }[];
+    //keywords: {
+    //    name: string;
+    //    amount: Number;
+    //    citydata: {
+    //        city: string;
+    //        amount: Number;
+    //    }[]
+    //}[];
+    //hashtags: {
+    //    name: string;
+    //    amount: Number;
+    //    citydata: {
+    //        city: string;
+    //        amount: Number;
+    //    }[]
+    //}[];
+    cityimportance: any;
 
 }
  
@@ -225,7 +256,7 @@ export class Jodel
 {
     core: coreJodel;
     children: coreJodel[] = [];
-    created_at: string;
+    //created_at: string;
     image_approved: Boolean;
     image_url: string;
     child_count: Number;
@@ -255,7 +286,7 @@ export class Jodel
             }
             return new Promise((resolve) =>
             {
-                this.created_at = this.core.post[0].created_at;
+                //this.created_at = this.core.post[0].created_at;
                 this.image_approved = this.core.post[0].image_approved;
                 this.image_url = this.core.post[0].image_url;
                 this.child_count = this.core.post[0].child_count;
@@ -277,7 +308,6 @@ export class Jodel
             image_url: this.image_url == undefined ? "" : this.image_url,
             child_count: this.child_count == undefined ? 0 : this.child_count,
             oj_replied: this.oj_replied == undefined ? false : true,
-            vote_count_timestamp: this.voute_count_timestamp == undefined ? "" : this.voute_count_timestamp,
             children: this.createChildrenArray(this.children) == undefined ? [] : this.createChildrenArray(this.children)
         };
 
@@ -307,7 +337,7 @@ interface JodelJSON
     image_url: string;
     child_count: Number;
     oj_replied: Boolean;
-    vote_count_timestamp: string;
+    //created_at: string;
     children: coreJodelJSON[];
 }
 
@@ -320,6 +350,7 @@ interface coreJodelJSON
     keywords: string[];
     tags: string[];
     location: string;
+    created_at: string;
 
 }
 export class coreJodel
@@ -333,6 +364,7 @@ export class coreJodel
     location: string;
     db: Db;
     post: any;
+    created_at: string;
     constructor(post_id: string,  db: Db)
     {
         this.post_id = post_id;
@@ -351,6 +383,7 @@ export class coreJodel
             this.vote_count = res[0].vote_count;
             res = await this.db.getLocationByIdChild(this.post_id);
             this.location = res[0].loc_name;
+            this.created_at = await this.db.getLocationByIdChild(this.post_id);
         }
         else
         {
@@ -384,7 +417,8 @@ export class coreJodel
             post_message: this.post_message,
             keywords: this.keywords,
             tags: this.tags,
-            location: this.location
+            location: this.location,
+            created_at: this.created_at
         };
 
     }

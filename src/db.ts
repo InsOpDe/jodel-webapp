@@ -254,6 +254,14 @@ export class Db{
         return await this.query(_query);
     }
 
+    public async getCreatedByIdChild(id: string)
+    {
+        let _query = "Select post_id from children WHERE child_id = " + "\"" + id + "\""
+        let tmp = await this.query(_query);
+        _query = "Select created_at from posts WHERE post_id = " + "\"" + tmp[0].post_id + "\"";
+        return await this.query(_query);
+    }
+
     public async getChildById(id: string)
     {
         let _query = "Select * from children WHERE child_id = " + "\"" + id + "\"";
