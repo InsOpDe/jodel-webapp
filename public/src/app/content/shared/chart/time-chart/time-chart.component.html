@@ -1,6 +1,5 @@
 <div [@timeChartState]="{value: triggerValue, params: {'bar_color': colors[color]}}">
-    <div
-         *ngFor="let h of hours; let i = index" class="hours">
+    <div *ngFor="let h of hours; let i = index" class="hours">
 
         <div *ngFor="let n of convertedValuesArrays[i]; let j = index"
              class="animation quad bg-lightGrey">
