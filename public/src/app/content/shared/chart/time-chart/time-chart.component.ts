@@ -1,6 +1,8 @@
 import {Component, Input, OnInit, SimpleChanges} from '@angular/core';
 import {TimeModel} from "../../time-content/time.model";
 import {ContentService} from "../../../../content.service";
+import {animate, query, stagger, style, transition, trigger} from "@angular/animations";
+import {COLORS} from "../../../../global/colors";
 /**
  * time chart component
  *
@@ -9,15 +11,39 @@ import {ContentService} from "../../../../content.service";
  */
 @Component({
     selector: 'app-time-chart',
-    templateUrl: './time-chart.component.html'
+    templateUrl: './time-chart.component.html',
+    animations: [
+        trigger('timeChartState', [
+            transition('void => set', [
+                query(":enter", [
+                    style({
+                        backgroundColor: COLORS.lightGrey,
+                        height: '8px',
+                        marginTop: '4px'
+                    }),
+                    stagger(-130, [
+                        animate(1, style({
+                            backgroundColor: '{{bar_color}}',
+                            height: '12px',
+                            marginTop: '0'
+                        }))
+                    ])
+                ], {optional: true})
+            ]),
+        ])
+    ]
 })
 export class TimeChartComponent implements OnInit {
 
     hours = new Array(24);
 
     maxValue = new Array(12);
+    maxValueArray = [];
 
     convertedValues: TimeModel["value"];
+    convertedValuesArrays = [];
+
+    colors = COLORS;
 
     @Input() color: string;
 
@@ -73,6 +99,8 @@ export class TimeChartComponent implements OnInit {
         for (let i = 0; i < this.hours.length; i++) {
 
             convertedValues[i] = this.maxValue.length - Math.round(this.timeModel.value[i] / factor);
+            this.convertedValuesArrays[i] = new Array(convertedValues[i]);
+            this.maxValueArray[i] = new Array(this.maxValue.length - convertedValues[i]);
         }
 
         return convertedValues;

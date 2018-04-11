@@ -14,22 +14,25 @@
 .square {
   float: left;
   box-sizing:border-box;
-  width: 8px;
-  height: 8px;
-  margin-right: 4px;
-  margin-bottom: 4px;
+  width: @barWidth;
+  height: @barWidth;
+  margin-right: @barPadding;
+  margin-bottom: @barPadding;
+  border-radius: @borderRadius;
   //border: 1px solid rgba(0,0,0,0.2);
   //background-color: #88a;
 }
 
 .square-fill {
-  background-color:rgba(0,0,0,0.2);
+  background-color: @lightGrey;
 }
 
 .info-box {
   display: block;
   position: absolute;
   height: 83px;
-  width: 133px;
-  background-color: red;
+  width: 333px;
+  //width: 133px;
+  //background-color: red;
+
 }

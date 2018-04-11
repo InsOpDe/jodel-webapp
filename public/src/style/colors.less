@@ -28,7 +28,10 @@
 @darkness: 5%;
 
 .for-each(@value in @jodelColors) {
+
   @key: at(@value, 1);
+
+  .generate-gradient(@key, lighten(at(@value, 2), 20%));
 
   // color classes
   .@{key} {color: at(@value, 2);}
@@ -43,4 +46,14 @@
   .bg-light-@{key} {background-color: lighten(at(@value, 2), @lightness);}
   // dark-background-color classes
   .bg-dark-@{key} {background-color: darken(at(@value, 2), @darkness);}
+}
+
+
+.generate-gradient(@key, @value, @i:0, @d:0%) when (@i <= 9) {
+
+  .hm-@{key}-@{i} {
+    background-color: darken(@value, @d);
+  }
+
+  .generate-gradient(@key, @value, @i + 1, @d + 5%)
 }

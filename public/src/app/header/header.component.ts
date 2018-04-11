@@ -1,6 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {ContentService} from "../content.service";
 import {ContentModel} from "../content/content.model";
+import {animate, query, stagger, style, transition, trigger} from "@angular/animations";
+import {COLORS} from "../global/colors";
 
 /**
  * header component
@@ -36,11 +38,11 @@ export class HeaderComponent implements OnInit {
             'Du hast unreine Haut? Trink Wasser. ' +
             'Dein Ex nervt? Ertränk ihn im Wasser.\n\n' +
             '#darferdas'
-        }
+        };
 
 
         // debug
-        this.sendJodel();
+        // this.sendJodel();
     }
 
     /**
