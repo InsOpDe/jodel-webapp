@@ -44,8 +44,13 @@ export class MapContentComponent implements OnInit {
 
     constructor(private contentService: ContentService) {
         this.color = contentService.color;
-        // console.log(contentService)
-        this.city = contentService.jodelData.location;
+        let cityId = contentService.jodelData.cityId;
+        let city = CITIES[cityId];
+        if (city) {
+          this.city = city.city;
+          this.votes = String(MapCitiesDummy[cityId].votes);
+          this.inhabitants = city.inhabitants;
+        }
     }
 
     ngOnChanges(changes: SimpleChanges) {
