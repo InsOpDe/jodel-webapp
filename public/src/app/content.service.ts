@@ -27,6 +27,7 @@ export class ContentService {
     color: string;
     contentpages: Contentpage[] = [];
     currentContentpage: Contentpage;
+    jodelData: object;
 
     constructor(private http: HttpClient) {
         this.color = 'green';
@@ -42,6 +43,8 @@ export class ContentService {
      * @since   23.03.2018
      */
     getResultData(jodelData): Observable<ContentModel> {
+
+        this.jodelData = jodelData;
 
         let result = RESULT;
 

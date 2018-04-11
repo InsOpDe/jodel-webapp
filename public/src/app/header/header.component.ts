@@ -6,7 +6,7 @@ import {COLORS} from "../global/colors";
 
 /**
  * header component
- *  - handles the currentContentpage of the contentService
+ *  - handles the current Contentpage of the contentService
  *  and sends the entered data to the contentService
  *
  * @author  Maya
