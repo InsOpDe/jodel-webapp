@@ -22,6 +22,7 @@ import { TooltipDirective } from './directives/tooltip/tooltip.directive';
 import { TooltipComponent, TooltipContainerDirective } from './directives/tooltip/tooltip.component';
 import { ForTooltipComponent } from './directives/tooltip/for-tooltip.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { RelatedJodelComponent } from './content/your-result-content/related-jodel/related-jodel.component';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     TooltipDirective,
     TooltipComponent,
     ForTooltipComponent,
-    TooltipContainerDirective
+    TooltipContainerDirective,
+    RelatedJodelComponent
   ],
   entryComponents: [
     TooltipComponent,

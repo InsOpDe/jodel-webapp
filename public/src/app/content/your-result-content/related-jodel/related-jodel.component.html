@@ -1,0 +1,15 @@
+<div class="grid">
+    <h2>Ähnlichster Jodel</h2>
+</div>
+
+<p [innerHTML]="relatedJodel.text" class="m-t-0"></p>
+
+<p class="dark-{{relatedJodel.color}}">{{relatedJodel.location}}, {{relatedJodel.time}} Uhr</p>
+
+<div class="m-b-30">
+    <app-bar-chart *ngFor="let keyword of relatedJodel.barchartArray"
+                   [value]="keyword.value"
+                   [color]="relatedJodel.color"
+                   [title]="keyword.keyword">
+    </app-bar-chart>
+</div>
