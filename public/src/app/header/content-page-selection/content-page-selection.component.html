@@ -1,13 +1,24 @@
-<select [ngClass]="'bg-' + contentService.color"
-        [(ngModel)]="currentContentpageType"
-        (change)="handleContenttypeChange()">
+<!--<select [ngClass]="'bg-' + contentService.color"-->
+        <!--[(ngModel)]="currentContentpageType"-->
+        <!--(change)="handleContenttypeChange()">-->
 
-    <option *ngFor="let type of contenttypes"
-            [ngValue]="CONTENTTYPE[type]">
-        {{CONTENTTYPE[type].title}}
-    </option>
+    <!--<option *ngFor="let type of contenttypes"-->
+            <!--[ngValue]="CONTENTTYPE[type]">-->
+        <!--{{CONTENTTYPE[type].title}}-->
+    <!--</option>-->
 
-</select>
+<!--</select>-->
+
+
+
+<div class="radioSelector" *ngFor="let type of contenttypes">
+  <label for="type_answer_{{type}}">
+    <input id="type_answer_{{type}}" (change)="handleContenttypeChange()" [value]="CONTENTTYPE[type]" type="radio" name="types" [(ngModel)]="currentContentpageType">
+    <span class="checkmark">
+      {{CONTENTTYPE[type].title}}
+    </span>
+  </label>
+</div>
 
 <br>
 <br>

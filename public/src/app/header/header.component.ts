@@ -74,7 +74,7 @@ export class HeaderComponent implements OnInit {
 
 
     // debug
-    // this.sendJodel();
+    this.sendJodel();
   }
 
   /**
