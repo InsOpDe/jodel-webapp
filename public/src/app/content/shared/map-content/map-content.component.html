@@ -2,19 +2,17 @@
 
 <div class="grid">
 
-    <div class="info-box" *ngIf="city">
-        <p>{{city}} ({{votes}})</p>
-
-    </div>
-    <br>
-    <br>
+    <!--<div class="info-box" *ngIf="city">-->
+  <h3>{{city}} ({{votes}})</h3>
+    <!--</div>-->
 
     <div id="map">
         <div class="row"
              [@mapState]="{value: triggerValue, params:{}}"
              *ngFor="let dummy of ' '.repeat(map.squaresY).split(''), let y = index">
 
-            <div *ngFor="let dummy of ' '.repeat(map.squaresX).split(''), let x = index"
+            <div
+                 *ngFor="let dummy of ' '.repeat(map.squaresX).split(''), let x = index"
                  ngClass="{{mapArr[y + '-' + x] ? classesMap[y + '-' + x] : ''}}"
                  id="{{y}}-{{x}}"
                  class="square"

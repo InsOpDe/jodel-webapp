@@ -41,11 +41,10 @@ export class MapContentComponent implements OnInit {
     classesMap: object = {};
     triggerValue = 'a';
 
-    //hm-color-0 bis  9
-
 
     constructor(private contentService: ContentService) {
         this.color = contentService.color;
+        this.city = contentService.jodelData.location;
     }
 
     ngOnChanges(changes: SimpleChanges) {
