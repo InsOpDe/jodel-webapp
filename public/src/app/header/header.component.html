@@ -2,46 +2,62 @@
     <div class="grid headerContainer">
         <!--ICON AND DROPDOWN-->
         <div class="col-3">
-            <div class="jodelIcon">
-                <app-content-page-selection *ngIf="contentService.currentContentpage"></app-content-page-selection>
+            <div [ngClass]="{
+            'jodelIcon-orange': contentService.color == 'blue' ||
+                                contentService.color == 'green' ||
+                                contentService.color == 'turquoise',
+            'jodelIcon-blue': contentService.color == 'yellow' ||
+                                contentService.color == 'red',
+            'jodelIcon-green': contentService.color == 'orange'
+            }">
+                <app-content-page-selection *ngIf="contentService.currentContentpage">
+                </app-content-page-selection>
             </div>
         </div>
 
-            <!--TODO disable input if currentContentage is set-->
-            <!--JODEL TEXT-->
-            <div class="col-3">
+        <!--TODO disable input if currentContentage is set-->
+        <!--JODEL TEXT-->
+        <div class="col-3">
                 <textarea rows="5"
                           [disabled]="!jodelIsWriteable"
                           placeholder="Good Vibes only!"
                           class="bg-{{contentService.color}}"
                           [ngModel]="jodel.text">
                 </textarea>
-            </div>
+        </div>
 
-            <!--LOCATION / TIME / BUTTON-->
-            <div class="col-3">
-              <div *ngIf="jodelIsWriteable" style="width:220px">
+        <!--LOCATION / TIME / BUTTON-->
+        <div class="col-3">
+            <div *ngIf="jodelIsWriteable" style="width:220px">
                 <ng-autocomplete
-                  (selected)="Selected($event)"
-                  [classes]="['ng-autocomplete-input']"
-                  class="bg-{{contentService.color}}"
-                  [group]="group"></ng-autocomplete>
-              </div>
-              <div *ngIf="!jodelIsWriteable">
+                        (selected)="Selected($event)"
+                        [classes]="['ng-autocomplete-input']"
+                        class="bg-{{contentService.color}}"
+                        [group]="group"></ng-autocomplete>
+            </div>
+            <div *ngIf="!jodelIsWriteable">
                 <input disabled type="text"
                        placeholder="Wähle deine Stadt"
                        class="bg-{{contentService.color}}"
                        [ngModel]="jodel.location"><br>
-              </div>
+            </div>
 
 
-                <input
-                       [disabled]="!jodelIsWriteable"
-                       type="time"
-                       [ngModel]="jodel.time"
-                       class="bg-{{contentService.color}}"><br><br>
+            <input
+                    [disabled]="!jodelIsWriteable"
+                    type="time"
+                    [ngModel]="jodel.time"
+                    class="bg-{{contentService.color}}"><br><br>
 
-            <button class="sendEditButton roundedCorners"
+            <button [ngClass]="{
+                        'sendEditButton': true,
+                        'hm-orange-6': contentService.color == 'blue' ||
+                                            contentService.color == 'green' ||
+                                            contentService.color == 'turquoise',
+                        'hm-blue-6': contentService.color == 'yellow' ||
+                                            contentService.color == 'red',
+                        'hm-green-7': contentService.color == 'orange'
+                        }"
                     (click)="contentService.currentContentpage ? editJodel() : sendJodel()">
                 {{contentService.currentContentpage ? 'edit' : 'send'}}
             </button>
