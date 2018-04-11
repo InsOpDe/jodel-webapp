@@ -32,10 +32,10 @@ export class MapContentComponent implements OnInit {
     mapArr: object = MAP;
     citiesCoords: object = {};
     city: string = "";
+    cities = CITIES;
     votes: string = "";
     inhabitants: string = "";
     color: string;
-    maxvote: number = 0;
     maxsteps: number = 3;
     voteindex: object = [];
     classesMap: object = {};
@@ -73,6 +73,7 @@ export class MapContentComponent implements OnInit {
 
         // map cities
         let mapCitiesDummyObj = {};
+        let maxvote = 0;
         for (let i in MapCitiesDummy) {
             mapCitiesDummyObj[MapCitiesDummy[i].id_cities] = MapCitiesDummy[i];
         }
@@ -85,7 +86,7 @@ export class MapContentComponent implements OnInit {
 
             if (MapCitiesDummy[id]) {
                 city.votes = MapCitiesDummy[id].votes;
-                this.maxvote = Math.max(this.maxvote, city.votes)
+                maxvote = Math.max(maxvote, city.votes)
             } else {
                 city.votes = 0;
             }
@@ -105,7 +106,7 @@ export class MapContentComponent implements OnInit {
         }
 
         // calculate steps for heatmap
-        let maxLogValue = Math.log(this.maxvote - 10);
+        let maxLogValue = Math.log(maxvote - 10);
         let step = maxLogValue / this.maxsteps;
 
         for (let i = 0; i <= this.maxsteps; i++) {
@@ -120,13 +121,26 @@ export class MapContentComponent implements OnInit {
             }
         }
 
+        this.editSelectedCityClass();
+    }
+
+    editSelectedCityClass() {
+
+        let currentCity = CITIES[this.contentService.jodelData.cityId];
+        let x = currentCity.coordinates.x;
+        let y = currentCity.coordinates.y;
+
+        this.classesMap[y + '-' + x] = 'selectedCity ' + this.calcClass(x,y);
+        this.classesMap[(y+1) + '-' + x] = 'selectedCityBottom ' + this.calcClass(x,y);
+        this.classesMap[y + '-' + (x+1)] = 'selectedCityRight ' + this.calcClass(x,y);
+        this.classesMap[(y+1) + '-' + (x+1)] = 'selectedCityBottomRight ' + this.calcClass(x,y);
     }
 
 
     calcClass(x, y) {
         let elClass = "hm-" + this.color + "-";
         let maxindex = 0;
-        let city = this.citiesCoords[y + '-' + x] || {votes: 0}
+        let city = this.citiesCoords[y + '-' + x] || {votes: 0};
 
         // if(!city) return elClass + maxindex
         let value = city.votes;
