@@ -11,26 +11,34 @@
             <!--JODEL TEXT-->
             <div class="col-3">
                 <textarea rows="5"
+                          [disabled]="!jodelIsWriteable"
                           placeholder="Good Vibes only!"
                           class="bg-{{contentService.color}}"
-                          [(ngModel)]="jodel.text">
+                          [ngModel]="jodel.text">
                 </textarea>
             </div>
 
             <!--LOCATION / TIME / BUTTON-->
             <div class="col-3">
+              <div *ngIf="jodelIsWriteable" style="width:220px">
                 <ng-autocomplete
                   (selected)="Selected($event)"
                   [classes]="['ng-autocomplete-input']"
                   class="bg-{{contentService.color}}"
                   [group]="group"></ng-autocomplete>
-                <!--<input type="text"-->
-                       <!--placeholder="Wähle deine Stadt"-->
-                       <!--class="bg-{{contentService.color}}"-->
-                       <!--[ngModel]="jodel.location"><br>-->
+              </div>
+              <div *ngIf="!jodelIsWriteable">
+                <input disabled type="text"
+                       placeholder="Wähle deine Stadt"
+                       class="bg-{{contentService.color}}"
+                       [ngModel]="jodel.location"><br>
+              </div>
 
-                <input type="time"
-                       [(ngModel)]="jodel.time"
+
+                <input
+                       [disabled]="!jodelIsWriteable"
+                       type="time"
+                       [ngModel]="jodel.time"
                        class="bg-{{contentService.color}}"><br><br>
 
             <button class="sendEditButton roundedCorners"

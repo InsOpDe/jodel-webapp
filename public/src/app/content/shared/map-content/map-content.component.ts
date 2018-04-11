@@ -44,6 +44,7 @@ export class MapContentComponent implements OnInit {
 
     constructor(private contentService: ContentService) {
         this.color = contentService.color;
+        // console.log(contentService)
         this.city = contentService.jodelData.location;
     }
 
