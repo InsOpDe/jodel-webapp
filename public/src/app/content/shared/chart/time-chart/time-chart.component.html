@@ -1,12 +1,16 @@
+<h3>{{infoText}}</h3>
+
 <div [@timeChartState]="{value: triggerValue, params: {'bar_color': colors[color]}}">
-    <div *ngFor="let h of hours; let i = index" class="hours">
+    <div (mouseenter)="updateInfoBox(i)"
+         *ngFor="let h of hours; let i = index" class="hours">
 
         <div *ngFor="let n of convertedValuesArrays[i]; let j = index"
              class="animation quad bg-lightGrey">
         </div>
 
         <div *ngFor="let n of maxValueArray[i]; let j = index"
-             [ngClass]="[j == 0 ? 'animation quad bg-' + color : 'animation long bg-' + color]">
+             [ngClass]="[i == currentHour ? (j == 0 ? 'animation quad bg-dark-' + color : 'animation long bg-dark-' + color) :
+             j == 0 ? 'animation quad bg-' + color : 'animation long bg-' + color]">
         </div>
     </div>
 </div>
