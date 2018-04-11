@@ -19,6 +19,16 @@ div {
     //height: 100%;
 }
 
+::-webkit-scrollbar {
+  //width: 0px;  /* remove scrollbar space */
+  //background: transparent;  /* optional: just make scrollbar invisible */
+  display:none;
+}
+.no-scroll {
+  -ms-overflow-style: none;  // IE 10+
+  overflow: -moz-scrollbars-none;  // Firefox
+}
+
 .grid {
   padding: 20px 0;
   width: 100%;

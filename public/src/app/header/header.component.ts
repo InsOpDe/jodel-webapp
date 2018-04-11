@@ -60,14 +60,17 @@ export class HeaderComponent implements OnInit {
       cityArr.push(CITIES[i]);
     }
 
+    let cityGroup = CreateNewAutocompleteGroup(
+      "Deine Stadt",
+      // this.jodel.location,
+      'completer',
+      cityArr,
+      {titleKey: 'city', childrenKey: null}
+    );
     this.group = [
-      CreateNewAutocompleteGroup(
-        this.jodel.location,
-        'completer',
-        cityArr,
-        {titleKey: 'city', childrenKey: null}
-      ),
+      cityGroup
     ]
+
 
 
     // debug

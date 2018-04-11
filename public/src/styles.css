@@ -16,6 +16,13 @@ div {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+.no-scroll {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
 .grid {
   padding: 20px 0;
   width: 100%;
@@ -531,21 +538,13 @@ button:hover {
 }
 .ng-autocomplete-dropdown {
   position: relative;
-  box-sizing: border-box;
 }
 .ng-autocomplete-dropdown .ng-autocomplete-inputs {
   position: relative;
-  box-sizing: border-box;
 }
 .ng-autocomplete-dropdown .ng-autocomplete-inputs input::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #262323;
-  opacity: 1;
-  /* Firefox */
-}
-.ng-autocomplete-dropdown .ng-autocomplete-inputs input:disabled::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: red;
   opacity: 1;
   /* Firefox */
 }
@@ -559,8 +558,6 @@ button:hover {
 }
 .ng-autocomplete-dropdown .ng-autocomplete-placeholder {
   position: absolute;
-  margin: 3px;
-  background-color: #fff;
   font-weight: normal;
   font-size: 15px;
   width: calc(100% - 4px);
@@ -573,6 +570,8 @@ button:hover {
   overflow-x: hidden;
   position: absolute;
   width: 100%;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
 }
 .ng-autocomplete-dropdown .ng-dropdown.open {
   display: block;
@@ -584,13 +583,33 @@ button:hover {
   font-weight: normal;
   font-size: 15px;
   height: 24px;
-  background-color: #ffffff;
 }
-.ng-autocomplete-dropdown .ng-dropdown .dropdown-item:nth-child(odd) {
-  background-color: #efefef;
+.ng-autocomplete-dropdown .ng-dropdown .dropdown-item {
+  background-color: #fff;
 }
-.ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active {
-  background-color: #0099cc;
+.bg-green .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active,
+.bg-green .ng-autocomplete-placeholder {
+  background-color: #c8dc92;
+}
+.bg-orange .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active,
+.bg-orange .ng-autocomplete-placeholder {
+  background-color: #fcc88a;
+}
+.bg-yellow .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active,
+.bg-yellow .ng-autocomplete-placeholder {
+  background-color: #fed98f;
+}
+.bg-red .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active,
+.bg-red .ng-autocomplete-placeholder {
+  background-color: #edaea8;
+}
+.bg-blue .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active,
+.bg-blue .ng-autocomplete-placeholder {
+  background-color: #90c9e0;
+}
+.bg-turquoise .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active,
+.bg-turquoise .ng-autocomplete-placeholder {
+  background-color: #c7ddd7;
 }
 .ng-autocomplete-dropdown .ng-dropdown .dropdown-item .dropdown-item-highlight {
   font-weight: bold;

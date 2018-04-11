@@ -9,11 +9,11 @@
   position: relative;
   //margin-top: 25px;
   //height: 200px;
-  box-sizing: border-box;
+  //box-sizing: border-box;
 }
 .ng-autocomplete-dropdown .ng-autocomplete-inputs {
   position: relative;
-  box-sizing: border-box;
+  //box-sizing: border-box;
 }
 .ng-autocomplete-dropdown .ng-autocomplete-inputs input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: @darkGrey;
@@ -36,8 +36,7 @@
 
 .ng-autocomplete-dropdown .ng-autocomplete-placeholder {
   position: absolute;
-  margin: 3px;
-  background-color: #fff;
+  //margin: 3px;
   //padding: 17px 18px;
   //font-family: Arial;
   font-weight: normal;
@@ -52,6 +51,7 @@
   overflow-x: hidden;
   position: absolute;
   width: 100%;
+  .no-scroll;
 }
 .ng-autocomplete-dropdown .ng-dropdown.open {
   display: block;
@@ -63,16 +63,36 @@
   font-weight: normal;
   font-size: 15px;
   height: 24px;
-  background-color: #ffffff;
   //background-color: inherit;
 
 }
-.ng-autocomplete-dropdown .ng-dropdown .dropdown-item:nth-child(odd) {
-  background-color: #efefef;
+.ng-autocomplete-dropdown .ng-dropdown .dropdown-item {
+  //background-color: @lightGrey;
+  background-color: #fff;
 }
-.ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active {
-  background-color: #0099cc;
-  //color: #fff !important;
+
+.bg-green .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active, .bg-green .ng-autocomplete-placeholder  {
+  background-color: @green;
+}
+
+.bg-orange .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active, .bg-orange .ng-autocomplete-placeholder  {
+  background-color: @orange;
+}
+
+.bg-yellow .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active, .bg-yellow .ng-autocomplete-placeholder  {
+  background-color: @yellow;
+}
+
+.bg-red .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active, .bg-red .ng-autocomplete-placeholder  {
+  background-color: @red;
+}
+
+.bg-blue .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active, .bg-blue .ng-autocomplete-placeholder  {
+  background-color: @blue;
+}
+
+.bg-turquoise .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active, .bg-turquoise .ng-autocomplete-placeholder  {
+  background-color: @turquoise;
 }
 
 .ng-autocomplete-dropdown .ng-dropdown .dropdown-item .dropdown-item-highlight {
