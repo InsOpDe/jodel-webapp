@@ -26,6 +26,9 @@ div {
 .m-t-0 {
   margin-top: 0 !important;
 }
+.m-b-0 {
+  margin-bottom: 0 !important;
+}
 .m-b-30 {
   margin-bottom: 30px !important;
 }
@@ -865,6 +868,9 @@ p {
   font-size: 0.9em;
   margin: 0.8em 0;
 }
+p:first-of-type {
+  margin-top: 0;
+}
 h2 {
   color: #262323;
   font-size: 1.1em;
@@ -882,6 +888,7 @@ h3 {
 input,
 textarea,
 button {
+  color: #262323;
   font-size: 0.9em;
   font-family: 'Fira Sans', sans-serif;
   border-style: none;

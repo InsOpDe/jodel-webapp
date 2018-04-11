@@ -1,7 +1,7 @@
 import {Component, Input, OnInit, SimpleChanges} from '@angular/core';
 import {TimeModel} from "../../time-content/time.model";
 import {ContentService} from "../../../../content.service";
-import {animate, query, stagger, style, transition, trigger} from "@angular/animations";
+import {animate, query, stagger, state, style, transition, trigger} from "@angular/animations";
 import {COLORS} from "../../../../global/colors";
 /**
  * time chart component
@@ -13,9 +13,12 @@ import {COLORS} from "../../../../global/colors";
     selector: 'app-time-chart',
     templateUrl: './time-chart.component.html',
     animations: [
+
         trigger('timeChartState', [
-            transition('* => *', [
-                query(".animation", [
+            state("a", style({})),
+            state("b", style({})),
+            transition("* => *", [
+                query(":enter .animation", [
                     style({
                         backgroundColor: COLORS.lightGrey,
                         width: '8px',
@@ -23,12 +26,8 @@ import {COLORS} from "../../../../global/colors";
                         marginTop: '4px'
                     }),
                     stagger(8, [
-                        animate(1, style({
-                            // backgroundColor: '{{bar_color}}',
-                            // height: '12px',
-                            // marginTop: '0'
-                    }))
-                    ])
+                        animate(1)
+                    ]),
                 ], {optional: true})
             ]),
         ])
@@ -49,8 +48,8 @@ export class TimeChartComponent implements OnInit {
     @Input() color: string;
 
     @Input() timeModel: TimeModel;
-    triggerValue = 'a';
 
+    triggerValue = 'a';
 
     constructor(private contentService: ContentService) {}
 
@@ -61,6 +60,7 @@ export class TimeChartComponent implements OnInit {
      */
     ngOnInit() {
         this.color = this.color || this.contentService.color;
+        this.triggerValue = this.triggerValue == 'a' ? 'b' : 'a';
     }
 
 
@@ -74,7 +74,6 @@ export class TimeChartComponent implements OnInit {
             this.updateConvertedValues();
             this.triggerValue = this.triggerValue == 'a' ? 'b' : 'a';
         }
-
     }
 
 
