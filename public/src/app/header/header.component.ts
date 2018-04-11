@@ -5,6 +5,7 @@ import {CreateNewAutocompleteGroup, SelectedAutocompleteItem, NgAutocompleteComp
 import {CITIES} from "../global/cities";
 import {animate, query, stagger, style, transition, trigger} from "@angular/animations";
 import {COLORS} from "../global/colors";
+import {HeaderModel} from "./header.model";
 
 /**
  * header component
@@ -21,11 +22,7 @@ import {COLORS} from "../global/colors";
 export class HeaderComponent implements OnInit {
   @ViewChild(NgAutocompleteComponent) public completer: NgAutocompleteComponent;
 
-  jodel: {
-    location: string,
-    time: string,
-    text: string;
-  };
+  jodel:HeaderModel;
   jodelIsWriteable:boolean = true;
 
   public group;
@@ -36,7 +33,9 @@ export class HeaderComponent implements OnInit {
    * @constructor
    */
   Selected(item: SelectedAutocompleteItem) {
-    console.log(item);
+    let original = item.item.original;
+    this.jodel.location = original.city;
+    this.jodel.cityId = original.id;
   }
 
   contentData: ContentModel;
@@ -46,28 +45,32 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
 
-    this.jodel = {
+    this.jodel = new HeaderModel({
       location: 'München',
+      cityId: 3,
       time: '22:06',
       text: 'Wasser löst irgendwie alle Probleme. ' +
       'Du willst abnehmen? Trink Wasser. \n' +
       'Du hast unreine Haut? Trink Wasser. ' +
       'Dein Ex nervt? Ertränk ihn im Wasser.\n\n' +
       '#darferdas'
-    };
+    });
     let cityArr = [];
     for(let i in CITIES){
       cityArr.push(CITIES[i]);
     }
 
+    let cityGroup = CreateNewAutocompleteGroup(
+      "Deine Stadt",
+      // this.jodel.location,
+      'completer',
+      cityArr,
+      {titleKey: 'city', childrenKey: null}
+    );
     this.group = [
-      CreateNewAutocompleteGroup(
-        this.jodel.location,
-        'completer',
-        cityArr,
-        {titleKey: 'city', childrenKey: null}
-      ),
+      cityGroup
     ]
+
 
 
     // debug

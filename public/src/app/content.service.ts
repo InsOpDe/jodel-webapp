@@ -6,6 +6,7 @@ import {ContentModel} from "./content/content.model";
 import {Contentpage} from "./content/content-page.model";
 import {CONTENTTYPE} from "./global/contenttype";
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+import {HeaderModel} from "./header/header.model";
 
 
 const httpOptions = {
@@ -27,11 +28,7 @@ export class ContentService {
     color: string;
     contentpages: Contentpage[] = [];
     currentContentpage: Contentpage;
-    jodelData = {
-      location: "",
-      time: "",
-      text: "",
-    };
+    jodelData:HeaderModel;
 
     constructor(private http: HttpClient) {
         this.color = 'green';
@@ -128,6 +125,5 @@ export class ContentService {
             }));
         }
 
-        console.log(this.contentpages);
     }
 }

@@ -7,8 +7,8 @@
                                 contentService.color == 'green' ||
                                 contentService.color == 'turquoise',
             'jodelIcon-blue': contentService.color == 'yellow' ||
-                                contentService.color == 'red',
-            'jodelIcon-green': contentService.color == 'orange'
+                                contentService.color == 'red' ||
+                                contentService.color == 'orange'
             }">
                 <app-content-page-selection *ngIf="contentService.currentContentpage">
                 </app-content-page-selection>
@@ -22,7 +22,7 @@
                           [disabled]="!jodelIsWriteable"
                           placeholder="Good Vibes only!"
                           class="bg-{{contentService.color}}"
-                          [ngModel]="jodel.text">
+                          [(ngModel)]="jodel.text">
                 </textarea>
         </div>
 
@@ -39,14 +39,14 @@
                 <input disabled type="text"
                        placeholder="Wähle deine Stadt"
                        class="bg-{{contentService.color}}"
-                       [ngModel]="jodel.location"><br>
+                       [(ngModel)]="jodel.location"><br>
             </div>
 
 
             <input
                     [disabled]="!jodelIsWriteable"
                     type="time"
-                    [ngModel]="jodel.time"
+                    [(ngModel)]="jodel.time"
                     class="bg-{{contentService.color}}"><br><br>
 
             <button [ngClass]="{
@@ -55,8 +55,8 @@
                                             contentService.color == 'green' ||
                                             contentService.color == 'turquoise',
                         'hm-blue-6': contentService.color == 'yellow' ||
-                                            contentService.color == 'red',
-                        'hm-green-7': contentService.color == 'orange'
+                                        contentService.color == 'red' ||
+                                      contentService.color == 'orange'
                         }"
                     (click)="contentService.currentContentpage ? editJodel() : sendJodel()">
                 {{contentService.currentContentpage ? 'edit' : 'send'}}

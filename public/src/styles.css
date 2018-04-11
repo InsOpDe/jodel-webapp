@@ -16,6 +16,13 @@ div {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+.no-scroll {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
 .grid {
   padding: 20px 0;
   width: 100%;
@@ -94,6 +101,45 @@ button[disabled] {
  * @author  Maya
  * @since   22.03.2018
  */
+/**
+ * jodel icon farben
+ */
+.jodelIcon-orange {
+  height: 100%;
+  background: url('assets/jodel_inv-free_orange.png') no-repeat right center;
+  background-size: contain;
+}
+.jodelIcon-green {
+  height: 100%;
+  background: url('assets/jodel_inv-free_green.png') no-repeat right center;
+  background-size: contain;
+}
+.jodelIcon-yellow {
+  height: 100%;
+  background: url('assets/jodel_inv-free_yellow.png') no-repeat right center;
+  background-size: contain;
+}
+.jodelIcon-red {
+  height: 100%;
+  background: url('assets/jodel_inv-free_red.png') no-repeat right center;
+  background-size: contain;
+}
+.jodelIcon-blue {
+  height: 100%;
+  background: url('assets/jodel_inv-free_blue.png') no-repeat right center;
+  background-size: contain;
+}
+.jodelIcon-turquoise {
+  height: 100%;
+  background: url('assets/jodel_inv-free_turquoise.png') no-repeat right center;
+  background-size: contain;
+}
+/**
+ * Classes for Colors
+ *
+ * @author  Maya
+ * @since   22.03.2018
+ */
 .hm-orange-0 {
   background-color: #fff7ed;
 }
@@ -131,7 +177,7 @@ button[disabled] {
   color: #fddfbc;
 }
 .dark-orange {
-  color: #fcc88a;
+  color: #fcbc71;
 }
 .bg-orange {
   background-color: #fcc88a;
@@ -140,7 +186,7 @@ button[disabled] {
   background-color: #fddfbc;
 }
 .bg-dark-orange {
-  background-color: #fcc88a;
+  background-color: #fcbc71;
 }
 .hm-green-0 {
   background-color: #eff5df;
@@ -179,7 +225,7 @@ button[disabled] {
   color: #dce8b9;
 }
 .dark-green {
-  color: #c8dc92;
+  color: #bfd57f;
 }
 .bg-green {
   background-color: #c8dc92;
@@ -188,7 +234,7 @@ button[disabled] {
   background-color: #dce8b9;
 }
 .bg-dark-green {
-  background-color: #c8dc92;
+  background-color: #bfd57f;
 }
 .hm-yellow-0 {
   background-color: #fffbf4;
@@ -227,7 +273,7 @@ button[disabled] {
   color: #ffeac1;
 }
 .dark-yellow {
-  color: #fed98f;
+  color: #fed175;
 }
 .bg-yellow {
   background-color: #fed98f;
@@ -236,7 +282,7 @@ button[disabled] {
   background-color: #ffeac1;
 }
 .bg-dark-yellow {
-  background-color: #fed98f;
+  background-color: #fed175;
 }
 .hm-red-0 {
   background-color: #fefdfd;
@@ -275,7 +321,7 @@ button[disabled] {
   color: #f6d5d2;
 }
 .dark-red {
-  color: #edaea8;
+  color: #e89a93;
 }
 .bg-red {
   background-color: #edaea8;
@@ -284,7 +330,7 @@ button[disabled] {
   background-color: #f6d5d2;
 }
 .bg-dark-red {
-  background-color: #edaea8;
+  background-color: #e89a93;
 }
 .hm-blue-0 {
   background-color: #e0f0f6;
@@ -323,7 +369,7 @@ button[disabled] {
   color: #b8dceb;
 }
 .dark-blue {
-  color: #90c9e0;
+  color: #7cbfdb;
 }
 .bg-blue {
   background-color: #90c9e0;
@@ -332,7 +378,7 @@ button[disabled] {
   background-color: #b8dceb;
 }
 .bg-dark-blue {
-  background-color: #90c9e0;
+  background-color: #7cbfdb;
 }
 .hm-turquoise-0 {
   background-color: #ffffff;
@@ -371,7 +417,7 @@ button[disabled] {
   color: #e7f0ee;
 }
 .dark-turquoise {
-  color: #c7ddd7;
+  color: #b7d4cc;
 }
 .bg-turquoise {
   background-color: #c7ddd7;
@@ -380,103 +426,7 @@ button[disabled] {
   background-color: #e7f0ee;
 }
 .bg-dark-turquoise {
-  background-color: #c7ddd7;
-}
-.hm-darkGrey-0 {
-  background-color: #5b5454;
-}
-.hm-darkGrey-1 {
-  background-color: #4e4848;
-}
-.hm-darkGrey-2 {
-  background-color: #413b3b;
-}
-.hm-darkGrey-3 {
-  background-color: #332f2f;
-}
-.hm-darkGrey-4 {
-  background-color: #262323;
-}
-.hm-darkGrey-5 {
-  background-color: #191717;
-}
-.hm-darkGrey-6 {
-  background-color: #0b0b0b;
-}
-.hm-darkGrey-7 {
-  background-color: #000000;
-}
-.hm-darkGrey-8 {
-  background-color: #000000;
-}
-.hm-darkGrey-9 {
-  background-color: #000000;
-}
-.darkGrey {
-  color: #262323;
-}
-.light-darkGrey {
-  color: #413b3b;
-}
-.dark-darkGrey {
-  color: #262323;
-}
-.bg-darkGrey {
-  background-color: #262323;
-}
-.bg-light-darkGrey {
-  background-color: #413b3b;
-}
-.bg-dark-darkGrey {
-  background-color: #262323;
-}
-.hm-lightGrey-0 {
-  background-color: #ffffff;
-}
-.hm-lightGrey-1 {
-  background-color: #f2f2f2;
-}
-.hm-lightGrey-2 {
-  background-color: #e6e6e6;
-}
-.hm-lightGrey-3 {
-  background-color: #d9d9d9;
-}
-.hm-lightGrey-4 {
-  background-color: #cccccc;
-}
-.hm-lightGrey-5 {
-  background-color: #bfbfbf;
-}
-.hm-lightGrey-6 {
-  background-color: #b3b3b3;
-}
-.hm-lightGrey-7 {
-  background-color: #a6a6a6;
-}
-.hm-lightGrey-8 {
-  background-color: #999999;
-}
-.hm-lightGrey-9 {
-  background-color: #8c8c8c;
-}
-.lightGrey {
-  color: #F1F1F1;
-}
-.light-lightGrey {
-  color: #ffffff;
-}
-.dark-lightGrey {
-  color: #f1f1f1;
-}
-.bg-lightGrey {
-  background-color: #F1F1F1;
-}
-.bg-light-lightGrey {
-  background-color: #ffffff;
-}
-.bg-dark-lightGrey {
-  background-color: #f1f1f1;
+  background-color: #b7d4cc;
 }
 .hm-grey-0 {
   background-color: #a0a0a0;
@@ -515,7 +465,7 @@ button[disabled] {
   color: #878787;
 }
 .dark-grey {
-  color: #6d6d6d;
+  color: #606060;
 }
 .bg-grey {
   background-color: #6D6D6D;
@@ -524,7 +474,55 @@ button[disabled] {
   background-color: #878787;
 }
 .bg-dark-grey {
-  background-color: #6d6d6d;
+  background-color: #606060;
+}
+.hm-lightGrey-0 {
+  background-color: #ffffff;
+}
+.hm-lightGrey-1 {
+  background-color: #f2f2f2;
+}
+.hm-lightGrey-2 {
+  background-color: #e6e6e6;
+}
+.hm-lightGrey-3 {
+  background-color: #d9d9d9;
+}
+.hm-lightGrey-4 {
+  background-color: #cccccc;
+}
+.hm-lightGrey-5 {
+  background-color: #bfbfbf;
+}
+.hm-lightGrey-6 {
+  background-color: #b3b3b3;
+}
+.hm-lightGrey-7 {
+  background-color: #a6a6a6;
+}
+.hm-lightGrey-8 {
+  background-color: #999999;
+}
+.hm-lightGrey-9 {
+  background-color: #8c8c8c;
+}
+.lightGrey {
+  color: #F1F1F1;
+}
+.light-lightGrey {
+  color: #ffffff;
+}
+.dark-lightGrey {
+  color: #e4e4e4;
+}
+.bg-lightGrey {
+  background-color: #F1F1F1;
+}
+.bg-light-lightGrey {
+  background-color: #ffffff;
+}
+.bg-dark-lightGrey {
+  background-color: #e4e4e4;
 }
 /**
  * Styles fot texts and headlines
@@ -580,11 +578,9 @@ button:hover {
 }
 .ng-autocomplete-dropdown {
   position: relative;
-  box-sizing: border-box;
 }
 .ng-autocomplete-dropdown .ng-autocomplete-inputs {
   position: relative;
-  box-sizing: border-box;
 }
 .ng-autocomplete-dropdown .ng-autocomplete-inputs input::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -602,11 +598,9 @@ button:hover {
 }
 .ng-autocomplete-dropdown .ng-autocomplete-placeholder {
   position: absolute;
-  margin: 3px;
-  background-color: #fff;
   font-weight: normal;
   font-size: 15px;
-  width: calc(96%);
+  width: calc(100% - 4px);
 }
 .ng-autocomplete-dropdown .ng-dropdown {
   display: none;
@@ -616,6 +610,8 @@ button:hover {
   overflow-x: hidden;
   position: absolute;
   width: 100%;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
 }
 .ng-autocomplete-dropdown .ng-dropdown.open {
   display: block;
@@ -627,13 +623,33 @@ button:hover {
   font-weight: normal;
   font-size: 15px;
   height: 24px;
-  background-color: #ffffff;
 }
-.ng-autocomplete-dropdown .ng-dropdown .dropdown-item:nth-child(odd) {
-  background-color: #efefef;
+.ng-autocomplete-dropdown .ng-dropdown .dropdown-item {
+  background-color: #fff;
 }
-.ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active {
-  background-color: #0099cc;
+.bg-green .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active,
+.bg-green .ng-autocomplete-placeholder {
+  background-color: #c8dc92;
+}
+.bg-orange .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active,
+.bg-orange .ng-autocomplete-placeholder {
+  background-color: #fcc88a;
+}
+.bg-yellow .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active,
+.bg-yellow .ng-autocomplete-placeholder {
+  background-color: #fed98f;
+}
+.bg-red .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active,
+.bg-red .ng-autocomplete-placeholder {
+  background-color: #edaea8;
+}
+.bg-blue .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active,
+.bg-blue .ng-autocomplete-placeholder {
+  background-color: #90c9e0;
+}
+.bg-turquoise .ng-autocomplete-dropdown .ng-dropdown .dropdown-item.active,
+.bg-turquoise .ng-autocomplete-placeholder {
+  background-color: #c7ddd7;
 }
 .ng-autocomplete-dropdown .ng-dropdown .dropdown-item .dropdown-item-highlight {
   font-weight: bold;
@@ -696,36 +712,6 @@ button:hover {
 .headerContainer .sendEditButton {
   padding: 5px 10px;
   border-radius: 2px;
-}
-.jodelIcon-orange {
-  height: 100%;
-  background: url('assets/jodel_inv-free_orange.png') no-repeat right center;
-  background-size: contain;
-}
-.jodelIcon-green {
-  height: 100%;
-  background: url('assets/jodel_inv-free_green.png') no-repeat right center;
-  background-size: contain;
-}
-.jodelIcon-yellow {
-  height: 100%;
-  background: url('assets/jodel_inv-free_yellow.png') no-repeat right center;
-  background-size: contain;
-}
-.jodelIcon-red {
-  height: 100%;
-  background: url('assets/jodel_inv-free_red.png') no-repeat right center;
-  background-size: contain;
-}
-.jodelIcon-blue {
-  height: 100%;
-  background: url('assets/jodel_inv-free_blue.png') no-repeat right center;
-  background-size: contain;
-}
-.jodelIcon-turquoise {
-  height: 100%;
-  background: url('assets/jodel_inv-free_turquoise.png') no-repeat right center;
-  background-size: contain;
 }
 .col-3 {
   height: 100%;
