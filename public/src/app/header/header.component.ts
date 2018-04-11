@@ -26,6 +26,7 @@ export class HeaderComponent implements OnInit {
     time: string,
     text: string;
   };
+  jodelIsWriteable:boolean = true;
 
   public group;
 
@@ -82,6 +83,8 @@ export class HeaderComponent implements OnInit {
    */
   sendJodel() {
 
+    this.jodelIsWriteable = false;
+
     this.contentService.getResultData(this.jodel)
       .subscribe(response => {
 
@@ -98,6 +101,8 @@ export class HeaderComponent implements OnInit {
    * @since   24.03.2018
    */
   editJodel() {
+
+    this.jodelIsWriteable = true;
     this.contentService.refresh();
   }
 }

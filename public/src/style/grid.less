@@ -46,3 +46,12 @@ div {
   }
   .generate-columns(@n, (@i + 1));
 }
+
+input,textarea,button {
+  color: @darkGrey;
+
+  &[disabled] {
+    background-color: inherit;
+    color: @darkGrey;
+  }
+}

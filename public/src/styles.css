@@ -74,6 +74,17 @@ div {
   width: 100%;
   padding: 0 1%;
 }
+input,
+textarea,
+button {
+  color: #262323;
+}
+input[disabled],
+textarea[disabled],
+button[disabled] {
+  background-color: inherit;
+  color: #262323;
+}
 /**
  * Classes for Colors
  *
@@ -532,6 +543,12 @@ button:hover {
   opacity: 1;
   /* Firefox */
 }
+.ng-autocomplete-dropdown .ng-autocomplete-inputs input:disabled::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1;
+  /* Firefox */
+}
 .ng-autocomplete-dropdown .ng-autocomplete-inputs input {
   width: 100%;
   font-weight: normal;
@@ -711,9 +728,9 @@ select option {
   height: 83px;
   width: 333px;
 }
-input[disabled],
-textarea[disabled],
-button[disabled] {
+.relatedJodel input[disabled],
+.relatedJodel textarea[disabled],
+.relatedJodel button[disabled] {
   background-color: white;
   color: #262323;
 }
