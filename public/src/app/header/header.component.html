@@ -19,10 +19,15 @@
 
             <!--LOCATION / TIME / BUTTON-->
             <div class="col-3">
-                <input type="text"
-                       placeholder="Wähle deine Stadt"
-                       class="bg-{{contentService.color}}"
-                       [ngModel]="jodel.location"><br>
+                <ng-autocomplete
+                  (selected)="Selected($event)"
+                  [classes]="['ng-autocomplete-input']"
+                  class="bg-{{contentService.color}}"
+                  [group]="group"></ng-autocomplete>
+                <!--<input type="text"-->
+                       <!--placeholder="Wähle deine Stadt"-->
+                       <!--class="bg-{{contentService.color}}"-->
+                       <!--[ngModel]="jodel.location"><br>-->
 
                 <input type="time"
                        [ngModel]="jodel.time"
