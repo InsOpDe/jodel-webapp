@@ -23,7 +23,7 @@ import {COLORS} from "../../../../global/colors";
                         marginTop: '4px'
                     }),
                     stagger(8, [
-                        animate(8, style({
+                        animate(1, style({
                             // backgroundColor: '{{bar_color}}',
                             // height: '12px',
                             // marginTop: '0'
