@@ -8,6 +8,7 @@ import {ResultModel} from "./result-content/result.model";
 import {KeywordBarchartModel} from "../shared/keywords-barchar/keyword-barchart.model";
 import {MapModel} from "../shared/map-content/map.model";
 import {TimeModel} from "../shared/time-content/time.model";
+import {RelatedJodelModel} from "./related-jodel/related-jodel.model";
 
 export class YourResultModel {
 
@@ -19,11 +20,14 @@ export class YourResultModel {
 
     time: TimeModel;
 
+    relatedJodel: RelatedJodelModel;
+
     constructor (data) {
 
         this.result = new ResultModel(data.result);
         this.keywordEffectArray = data.keywordBarchartArray;
         this.map = new MapModel(data.map);
         this.time = new TimeModel(data.time);
+        this.relatedJodel = new RelatedJodelModel(data.relatedJodel)
     }
 }
