@@ -210,8 +210,8 @@ export class Db{
     public async getCityKeywordAmount(keyword: string)
     {
         
-        let _query = "Select COUNT(g1.loc_name) as amount, g1.post_keyword, g1.loc_name FROM (SELECT t1.post_id, t1.loc_name, t2.post_keyword FROM location t1 "
-            + "INNER JOIN keywords t2 ON t1.post_id = t2.post_id WHERE post_keyword = " + "\"" + keyword + "\"" + ") g1 GROUP BY g1.post_keyword, g1.loc_name"
+        let _query = "Select COUNT(g1.loc_name) as amount, g1.post_keyword, g1.loc_name, g1.id_cities FROM (SELECT t1.post_id, t1.loc_name, t2.post_keyword, t3.id_cities FROM location t1 "
+            + "INNER JOIN keywords t2 ON t1.post_id = t2.post_id INNER JOIN cities t3 ON t1.loc_name = t3.name WHERE post_keyword = " + "\"" + keyword + "\"" + ") g1 GROUP BY g1.post_keyword, g1.loc_name"
         return await this.query(_query);
 
     }
@@ -226,8 +226,8 @@ export class Db{
     public async getCityHashtagAmount(hashtag: string)
     {
 
-        let _query = "Select COUNT(g1.loc_name) as amount, g1.post_tag, g1.loc_name FROM (SELECT t1.post_id, t1.loc_name, t2.post_tag FROM location t1 "
-            + "INNER JOIN tags t2 ON t1.post_id = t2.post_id WHERE post_tag = " + "\"" + hashtag + "\"" + ") g1 GROUP BY g1.post_tag, g1.loc_name"
+        let _query = "Select COUNT(g1.loc_name) as amount, g1.post_tag, g1.loc_name, g1.id_cities FROM (SELECT t1.post_id, t1.loc_name, t2.post_tag, t3.id_cities FROM location t1 "
+            + "INNER JOIN tags t2 ON t1.post_id = t2.post_id INNER JOIN cities t3 ON t1.loc_name = t3.name WHERE post_tag = " + "\"" + hashtag + "\"" + ") g1 GROUP BY g1.post_tag, g1.loc_name"
         return await this.query(_query);
 
     }

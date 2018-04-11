@@ -7,29 +7,15 @@ const POSTWEIGHT: number = 1.5;
 export class JResult
 {
     Jodel: string;
-    interPolatedResult: any;
+    interPolatedResult: interpolatedResult;
     affJodel: Jodel;
     db: Db;
     texttools: Texttools;
-    keywords: {
-        name: string;
-        amount: Number;
-        citydata: {
-            city: string;
-            amount: Number;
-        }[]
-    }[] = [];
+    keywords: HashandKeyResult[];
 
-    hashtags: {
-        name: string;
-        amount: Number;
-        citydata: {
-            city: string;
-            amount: Number;
-        }[]
-    }[] = [];
+    hashtags: HashandKeyResult[];
 
-    cityimportance: any;
+    cityimportance: Citydata[];
 
     constructor(jodel: string, db: Db)
     {
@@ -66,6 +52,7 @@ export class JResult
             let _tmp: {
                 city: string;
                 amount: number;
+                id: number;
             }[] = [];
             process.stdout.write(".");
             let keynum = await this.db.getCityKeywordAmount(res3[key1].name);
@@ -74,7 +61,8 @@ export class JResult
                 
                 _tmp.push({
                     city: keynum[key2].loc_name,
-                    amount: keynum[key2].amount
+                    amount: keynum[key2].amount,
+                    id: keynum[key2].id_cities
                 })
 
             }
@@ -86,10 +74,7 @@ export class JResult
         }
         for (let hashi in res2)
         {
-            let _tmp: {
-                city: string;
-                amount: Number;
-            }[] = [];
+            let _tmp: Citydata[] = [];
             let tmp = await this.db.getHashtagAmount(res2[hashi]);
             let hashnum = await this.db.getCityHashtagAmount(res2[hashi]);
             process.stdout.write(".");
@@ -98,7 +83,8 @@ export class JResult
             {
                 _tmp.push({
                     city: hashnum[key3].loc_name,
-                    amount: hashnum[key3].amount
+                    amount: hashnum[key3].amount,
+                    id: hashnum[key3].id_cities
                 })
             }
 
@@ -110,10 +96,10 @@ export class JResult
         }
         process.stdout.write("Generating Votes")
         let _votestmp = await this.interPolateResult(res);
-        this.interPolatedResult = _votestmp;
+        this.interPolatedResult = _votestmp[0];
         process.stdout.write("Generating City Importance")
         let _cityimportance = await this.generateCityImportance();
-        this.cityimportance = _cityimportance;
+        this.cityimportance = _cityimportance[0];
         
         return new Promise((resolve) =>
         {
@@ -121,7 +107,7 @@ export class JResult
         })
 
     }
-
+    
     /**
      * This will create create the Votes, Pins, Comments and similiar Keywords for a Post based on the similiar Post 
      * @param keys the keys from the similiar Posts
@@ -131,20 +117,29 @@ export class JResult
     {
         let sum = 0;
         let sum_comments = 0;
-        let jresult_keywords: string[] = [];
-        let jresult_hashtags: string[] = [];
-        let keywords_similiar: string[] = [];
-        let hashtags_similiar: string[] = [];
+        let jresult_keywords: keyorhash[] = [];
+        let jresult_hashtags: keyorhash[] = [];
+        let keywords_similiar: keyorhash[] = [];
+        let hashtags_similiar: keyorhash[] = [];
+        //TODO: YEAH.... ^^
         //Get Keywords out of keywords array from JRESULT 
         for (let key in this.keywords)
         {
-            jresult_keywords.push(this.keywords[key].name);
+            let _tmp: keyorhash = {
+                name: this.keywords[key].name,
+                value: Math.floor(Math.random() * 100)
+            }
+            jresult_keywords.push(_tmp);
         }
 
         //Get Hashtags out of hashtags array from JRESULT
         for (let hash in this.hashtags)
         {
-            jresult_hashtags.push(this.hashtags[hash].name);
+            let _tmp: keyorhash = {
+                name: this.hashtags[hash].name,
+                value: Math.floor(Math.random() * 100)
+            }
+            jresult_hashtags.push(_tmp);
         }
 
 
@@ -160,6 +155,7 @@ export class JResult
                     if (jresult_keywords[key_jresult] != keywords_similiar_post[key_jresult])
                     {
                         keywords_similiar.push(keywords_similiar_post[key_jresult]);
+                        jresult_keywords.push(keywords_similiar_post[key_jresult]);
                     }
                 }
             }
@@ -175,6 +171,7 @@ export class JResult
                     if (hashtags_similiar_post[hash] != jresult_hashtags[hash_jresult])
                     {
                         hashtags_similiar.push(hashtags_similiar_post[hash]);
+                        jresult_hashtags.push(hashtags_similiar_post[hash]);
                     }
                 }
             }
@@ -199,16 +196,17 @@ export class JResult
         }
         return new Promise((resolve) =>
         {
-            resolve({
+            let _res: interpolatedResult = {
                 Votes: Math.ceil((sum / keys.length)),
                 Comments: Math.ceil((sum_comments / keys.length)),
                 Pins: Math.ceil((sum / keys.length) * 0.15),
                 Keywords_similiar: keywords_similiar,
                 Hashtag_similiar: hashtags_similiar
-            })
+            }
+            resolve(_res)
         })
+        
     }
-
 
     /**
      * This will create a Array of the succes of a post in the cities based on the keywords and hashtags used in the post
@@ -266,10 +264,10 @@ export class JResult
 
         return {
             message: this.Jodel,
-            Votes: this.interPolatedResult,
+            interPolatedResult: this.interPolatedResult,
+            hashtags: this.hashtags,
+            keywords: this.keywords,
             jodel: this.affJodel.encodeJodel(),
-            //keywords: this.keywords,
-            //hashtags: this.hashtags,
             cityimportance: this.cityimportance
         };
     }
@@ -278,24 +276,10 @@ export class JResult
 interface JRESULT
 {
     message: string;
-    Votes: any;
+    interPolatedResult: interpolatedResult;
+    hashtags: HashandKeyResult[],
+    keywords: HashandKeyResult[],
     jodel: JodelJSON;
-    //keywords: {
-    //    name: string;
-    //    amount: Number;
-    //    citydata: {
-    //        city: string;
-    //        amount: Number;
-    //    }[]
-    //}[];
-    //hashtags: {
-    //    name: string;
-    //    amount: Number;
-    //    citydata: {
-    //        city: string;
-    //        amount: Number;
-    //    }[]
-    //}[];
     cityimportance: any;
 
 }
@@ -379,6 +363,34 @@ export class Jodel
 }
 
 
+interface Citydata
+{
+    city: string,
+    amount: number,
+    id: number
+}
+
+interface HashandKeyResult
+{
+    name: string,
+    amount: number,
+    citydata: Citydata[];
+}
+
+interface keyorhash
+{
+    name: string,
+    value: number
+}
+
+interface interpolatedResult
+{
+    Votes: number,
+    Comments: number,
+    Pins: number,
+    Keywords_similiar: keyorhash[],
+    Hashtag_similiar: keyorhash[]
+}
 
 interface JodelJSON
 {
@@ -387,7 +399,6 @@ interface JodelJSON
     image_url: string;
     child_count: Number;
     oj_replied: Boolean;
-    //created_at: string;
     children: coreJodelJSON[];
 }
 
@@ -403,6 +414,9 @@ interface coreJodelJSON
     created_at: string;
 
 }
+
+
+
 export class coreJodel
 {
     post_id: string;

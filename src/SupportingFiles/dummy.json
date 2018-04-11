@@ -1,0 +1,9489 @@
+﻿{
+  "message": "Jodel ist eine coole Plattform! #jhj #letfetz",
+  "Votes": {
+    "Votes": 31,
+    "Comments": 5,
+    "Pins": 5,
+    "Keywords_similiar": [
+      { "post_keyword": "Jodel" },
+      { "post_keyword": "coole" },
+      { "post_keyword": "Plattform" },
+      { "post_keyword": "Jodel" },
+      { "post_keyword": "coole" },
+      { "post_keyword": "Plattform" },
+      { "post_keyword": "Jodel" },
+      { "post_keyword": "coole" },
+      { "post_keyword": "Plattform" },
+      { "post_keyword": "Jodel" },
+      { "post_keyword": "coole" },
+      { "post_keyword": "Plattform" },
+      { "post_keyword": "Jodel" },
+      { "post_keyword": "coole" },
+      { "post_keyword": "Plattform" },
+      { "post_keyword": "Jodel" },
+      { "post_keyword": "richtige" },
+      { "post_keyword": "witzig" },
+      { "post_keyword": "Jodel" },
+      { "post_keyword": "richtige" },
+      { "post_keyword": "witzig" },
+      { "post_keyword": "Jodel" },
+      { "post_keyword": "richtige" },
+      { "post_keyword": "witzig" },
+      { "post_keyword": "Jodel" },
+      { "post_keyword": "richtige" },
+      { "post_keyword": "witzig" },
+      { "post_keyword": "Jodel" },
+      { "post_keyword": "richtige" },
+      { "post_keyword": "witzig" },
+      { "post_keyword": "Jodel" },
+      { "post_keyword": "richtige" },
+      { "post_keyword": "witzig" },
+      { "post_keyword": "Jodel" },
+      { "post_keyword": "richtige" },
+      { "post_keyword": "witzig" }
+    ],
+    "Hashtag_similiar": []
+  },
+  "jodel": {
+    "core": {
+      "post_id": "5a19ef651c74330016d16858",
+      "vote_count": 15,
+      "post_color": "06A3CB",
+      "post_message": "Jodel war mal ne coole Plattform mit intelligenten Menschen. Mittlerweile nur noch Schwachmatiker und Jugendliche mit Pseudoproblemen...\n\n#whathappened",
+      "keywords": [ "Jodel", "coole", "Plattform", "Mittlerweile", "Jugendliche" ],
+      "tags": [ "#whathappened" ],
+      "location": "Tübingen"
+    },
+    "image_approved": 0,
+    "image_url": "",
+    "child_count": 3,
+    "oj_replied": true,
+    "children": []
+  },
+  "cityimportance": [
+    {
+      "city": "A",
+      "amount": 1
+    },
+    {
+      "city": "Aachen",
+      "amount": 5593
+    },
+    {
+      "city": "Aalen",
+      "amount": 427
+    },
+    {
+      "city": "Abtsgmünd",
+      "amount": 4
+    },
+    {
+      "city": "Achern",
+      "amount": 1
+    },
+    {
+      "city": "Achim",
+      "amount": 24
+    },
+    {
+      "city": "Achterwehr",
+      "amount": 14
+    },
+    {
+      "city": "Adelheidsdorf",
+      "amount": 3
+    },
+    {
+      "city": "Adendorf",
+      "amount": 29
+    },
+    {
+      "city": "Aerzen",
+      "amount": 3
+    },
+    {
+      "city": "Aesch BL",
+      "amount": 2
+    },
+    {
+      "city": "Affing",
+      "amount": 2
+    },
+    {
+      "city": "Aglasterhausen",
+      "amount": 1
+    },
+    {
+      "city": "Ahaus",
+      "amount": 24
+    },
+    {
+      "city": "Ahlen",
+      "amount": 72
+    },
+    {
+      "city": "Ahorn",
+      "amount": 7
+    },
+    {
+      "city": "Ahrensburg",
+      "amount": 32
+    },
+    {
+      "city": "Ahrensfelde",
+      "amount": 11
+    },
+    {
+      "city": "Ahrenshöft",
+      "amount": 1
+    },
+    {
+      "city": "Aichach",
+      "amount": 5
+    },
+    {
+      "city": "Aichtal",
+      "amount": 18
+    },
+    {
+      "city": "Aichwald",
+      "amount": 2
+    },
+    {
+      "city": "Aidlingen",
+      "amount": 16
+    },
+    {
+      "city": "Aiterhofen",
+      "amount": 5
+    },
+    {
+      "city": "Aitrang",
+      "amount": 1
+    },
+    {
+      "city": "Albstadt",
+      "amount": 62
+    },
+    {
+      "city": "Aldenhoven",
+      "amount": 8
+    },
+    {
+      "city": "Aldingen",
+      "amount": 1
+    },
+    {
+      "city": "Alfhausen",
+      "amount": 7
+    },
+    {
+      "city": "Alfter",
+      "amount": 138
+    },
+    {
+      "city": "Allensbach",
+      "amount": 33
+    },
+    {
+      "city": "Alling",
+      "amount": 1
+    },
+    {
+      "city": "Allmendingen",
+      "amount": 2
+    },
+    {
+      "city": "Allschwil",
+      "amount": 7
+    },
+    {
+      "city": "Almstedt",
+      "amount": 1
+    },
+    {
+      "city": "Alpen",
+      "amount": 3
+    },
+    {
+      "city": "Alpirsbach",
+      "amount": 2
+    },
+    {
+      "city": "Alsdorf",
+      "amount": 42
+    },
+    {
+      "city": "Altdorf",
+      "amount": 28
+    },
+    {
+      "city": "Altefähr",
+      "amount": 2
+    },
+    {
+      "city": "Altena",
+      "amount": 31
+    },
+    {
+      "city": "Altenburg",
+      "amount": 14
+    },
+    {
+      "city": "Altenholz",
+      "amount": 100
+    },
+    {
+      "city": "Altenkirchen (Westerwald)",
+      "amount": 4
+    },
+    {
+      "city": "Altenstadt an der Waldnaab",
+      "amount": 18
+    },
+    {
+      "city": "Altfraunhofen",
+      "amount": 2
+    },
+    {
+      "city": "Althengstett",
+      "amount": 1
+    },
+    {
+      "city": "Althütte",
+      "amount": 2
+    },
+    {
+      "city": "Altlußheim",
+      "amount": 33
+    },
+    {
+      "city": "Altomünster",
+      "amount": 3
+    },
+    {
+      "city": "Altrip",
+      "amount": 1
+    },
+    {
+      "city": "Altstadt",
+      "amount": 14
+    },
+    {
+      "city": "Altstadt Nord",
+      "amount": 4
+    },
+    {
+      "city": "Altstadt Sud",
+      "amount": 9
+    },
+    {
+      "city": "Alveslohe",
+      "amount": 6
+    },
+    {
+      "city": "Alzenau",
+      "amount": 23
+    },
+    {
+      "city": "Amberg",
+      "amount": 73
+    },
+    {
+      "city": "Ammerbuch",
+      "amount": 18
+    },
+    {
+      "city": "Amstetten",
+      "amount": 4
+    },
+    {
+      "city": "Amöneburg",
+      "amount": 6
+    },
+    {
+      "city": "Andernach",
+      "amount": 12
+    },
+    {
+      "city": "Angelbachtal",
+      "amount": 14
+    },
+    {
+      "city": "Annaberg-Buchholz",
+      "amount": 3
+    },
+    {
+      "city": "Annweiler am Trifels",
+      "amount": 10
+    },
+    {
+      "city": "Anröchte",
+      "amount": 14
+    },
+    {
+      "city": "Ansbach",
+      "amount": 105
+    },
+    {
+      "city": "Anzing",
+      "amount": 2
+    },
+    {
+      "city": "Appenweier",
+      "amount": 11
+    },
+    {
+      "city": "Aquisgrana",
+      "amount": 1
+    },
+    {
+      "city": "Argenbühl",
+      "amount": 1
+    },
+    {
+      "city": "Arlesheim",
+      "amount": 437
+    },
+    {
+      "city": "Arnsberg",
+      "amount": 124
+    },
+    {
+      "city": "Arnstadt",
+      "amount": 3
+    },
+    {
+      "city": "Artlenburg",
+      "amount": 1
+    },
+    {
+      "city": "Aschaffenburg",
+      "amount": 321
+    },
+    {
+      "city": "Ascheberg",
+      "amount": 6
+    },
+    {
+      "city": "Aschersleben",
+      "amount": 9
+    },
+    {
+      "city": "Aschheim",
+      "amount": 11
+    },
+    {
+      "city": "Aspach",
+      "amount": 4
+    },
+    {
+      "city": "Attendorn",
+      "amount": 11
+    },
+    {
+      "city": "Atting",
+      "amount": 2
+    },
+    {
+      "city": "Auetal",
+      "amount": 3
+    },
+    {
+      "city": "Augsbourg",
+      "amount": 1
+    },
+    {
+      "city": "Augsburg",
+      "amount": 3323
+    },
+    {
+      "city": "Augustdorf",
+      "amount": 11
+    },
+    {
+      "city": "Auhagen",
+      "amount": 1
+    },
+    {
+      "city": "Aulendorf",
+      "amount": 2
+    },
+    {
+      "city": "Aurich",
+      "amount": 13
+    },
+    {
+      "city": "Aystetten",
+      "amount": 13
+    },
+    {
+      "city": "Aßlar",
+      "amount": 8
+    },
+    {
+      "city": "BA",
+      "amount": 7
+    },
+    {
+      "city": "Baar-Ebenhausen",
+      "amount": 1
+    },
+    {
+      "city": "Babenhausen",
+      "amount": 18
+    },
+    {
+      "city": "Backnang",
+      "amount": 25
+    },
+    {
+      "city": "Bad Abbach",
+      "amount": 14
+    },
+    {
+      "city": "Bad Aibling",
+      "amount": 13
+    },
+    {
+      "city": "Bad Berleburg",
+      "amount": 4
+    },
+    {
+      "city": "Bad Berneck im Fichtelgebirge",
+      "amount": 1
+    },
+    {
+      "city": "Bad Bocklet",
+      "amount": 5
+    },
+    {
+      "city": "Bad Boll",
+      "amount": 3
+    },
+    {
+      "city": "Bad Bramstedt",
+      "amount": 4
+    },
+    {
+      "city": "Bad Camberg",
+      "amount": 19
+    },
+    {
+      "city": "Bad Ditzenbach",
+      "amount": 2
+    },
+    {
+      "city": "Bad Dürkheim",
+      "amount": 23
+    },
+    {
+      "city": "Bad Dürrheim",
+      "amount": 11
+    },
+    {
+      "city": "Bad Ems",
+      "amount": 8
+    },
+    {
+      "city": "Bad Fallingbostel",
+      "amount": 2
+    },
+    {
+      "city": "Bad Friedrichshall",
+      "amount": 56
+    },
+    {
+      "city": "Bad Gandersheim",
+      "amount": 2
+    },
+    {
+      "city": "Bad Grönenbach",
+      "amount": 3
+    },
+    {
+      "city": "Bad Harzburg",
+      "amount": 16
+    },
+    {
+      "city": "Bad Hersfeld",
+      "amount": 18
+    },
+    {
+      "city": "Bad Hindelang",
+      "amount": 1
+    },
+    {
+      "city": "Bad Homburg",
+      "amount": 15
+    },
+    {
+      "city": "Bad Homburg vor der Höhe",
+      "amount": 111
+    },
+    {
+      "city": "Bad Honnef",
+      "amount": 57
+    },
+    {
+      "city": "Bad Kissingen",
+      "amount": 15
+    },
+    {
+      "city": "Bad Kreuznach",
+      "amount": 29
+    },
+    {
+      "city": "Bad Laer",
+      "amount": 5
+    },
+    {
+      "city": "Bad Lippspringe",
+      "amount": 77
+    },
+    {
+      "city": "Bad Mergentheim",
+      "amount": 33
+    },
+    {
+      "city": "Bad Münder am Deister",
+      "amount": 10
+    },
+    {
+      "city": "Bad Münster am Stein-Ebernburg",
+      "amount": 2
+    },
+    {
+      "city": "Bad Münstereifel",
+      "amount": 10
+    },
+    {
+      "city": "Bad Nauheim",
+      "amount": 23
+    },
+    {
+      "city": "Bad Neuenahr-Ahrweiler",
+      "amount": 6
+    },
+    {
+      "city": "Bad Oeynhausen",
+      "amount": 67
+    },
+    {
+      "city": "Bad Oldesloe",
+      "amount": 9
+    },
+    {
+      "city": "Bad Rappenau",
+      "amount": 4
+    },
+    {
+      "city": "Bad Rothenfelde",
+      "amount": 9
+    },
+    {
+      "city": "Bad Salzdetfurth",
+      "amount": 27
+    },
+    {
+      "city": "Bad Salzuflen",
+      "amount": 42
+    },
+    {
+      "city": "Bad Schwalbach",
+      "amount": 6
+    },
+    {
+      "city": "Bad Schwartau",
+      "amount": 19
+    },
+    {
+      "city": "Bad Schönborn",
+      "amount": 22
+    },
+    {
+      "city": "Bad Soden am Taunus",
+      "amount": 1
+    },
+    {
+      "city": "Bad Sulza",
+      "amount": 1
+    },
+    {
+      "city": "Bad Säckingen",
+      "amount": 4
+    },
+    {
+      "city": "Bad Urach",
+      "amount": 3
+    },
+    {
+      "city": "Bad Vilbel",
+      "amount": 117
+    },
+    {
+      "city": "Bad Waldsee",
+      "amount": 13
+    },
+    {
+      "city": "Bad Wünnenberg",
+      "amount": 4
+    },
+    {
+      "city": "Bad Überkingen",
+      "amount": 2
+    },
+    {
+      "city": "Bad Zwischenahn",
+      "amount": 30
+    },
+    {
+      "city": "Badbergen",
+      "amount": 1
+    },
+    {
+      "city": "Baden",
+      "amount": 3
+    },
+    {
+      "city": "Baden-Baden",
+      "amount": 106
+    },
+    {
+      "city": "Baesweiler",
+      "amount": 11
+    },
+    {
+      "city": "Bahnhof Lohne",
+      "amount": 1
+    },
+    {
+      "city": "Baiersbronn",
+      "amount": 8
+    },
+    {
+      "city": "Baiersdorf",
+      "amount": 20
+    },
+    {
+      "city": "Baindt",
+      "amount": 44
+    },
+    {
+      "city": "Bakum",
+      "amount": 35
+    },
+    {
+      "city": "Balduinstein",
+      "amount": 1
+    },
+    {
+      "city": "Bâle",
+      "amount": 1
+    },
+    {
+      "city": "Balgheim",
+      "amount": 8
+    },
+    {
+      "city": "Balingen",
+      "amount": 25
+    },
+    {
+      "city": "Baltmannsweiler",
+      "amount": 3
+    },
+    {
+      "city": "Balve",
+      "amount": 9
+    },
+    {
+      "city": "Bamberg",
+      "amount": 1077
+    },
+    {
+      "city": "Bann",
+      "amount": 3
+    },
+    {
+      "city": "Bannewitz",
+      "amount": 19
+    },
+    {
+      "city": "Barbing",
+      "amount": 4
+    },
+    {
+      "city": "Bargfeld-Stegen",
+      "amount": 3
+    },
+    {
+      "city": "Bargteheide",
+      "amount": 6
+    },
+    {
+      "city": "Barmbek-Nord",
+      "amount": 2
+    },
+    {
+      "city": "Barsbüttel",
+      "amount": 3
+    },
+    {
+      "city": "Barsinghausen",
+      "amount": 10
+    },
+    {
+      "city": "Barum",
+      "amount": 3
+    },
+    {
+      "city": "Basel",
+      "amount": 91
+    },
+    {
+      "city": "Basel-Stadt",
+      "amount": 428
+    },
+    {
+      "city": "Battweiler",
+      "amount": 1
+    },
+    {
+      "city": "Baunatal",
+      "amount": 95
+    },
+    {
+      "city": "Bautzen",
+      "amount": 13
+    },
+    {
+      "city": "Bawinkel",
+      "amount": 1
+    },
+    {
+      "city": "Bayreuth",
+      "amount": 1874
+    },
+    {
+      "city": "Bechtheim",
+      "amount": 4
+    },
+    {
+      "city": "Bechtsrieth",
+      "amount": 2
+    },
+    {
+      "city": "Beckingen",
+      "amount": 3
+    },
+    {
+      "city": "Beckum",
+      "amount": 54
+    },
+    {
+      "city": "Bedburg",
+      "amount": 4
+    },
+    {
+      "city": "Bedburg-Hau",
+      "amount": 17
+    },
+    {
+      "city": "Beelen",
+      "amount": 3
+    },
+    {
+      "city": "Beendorf",
+      "amount": 1
+    },
+    {
+      "city": "Beerfelden",
+      "amount": 6
+    },
+    {
+      "city": "Behringersdorfer Forst",
+      "amount": 5
+    },
+    {
+      "city": "Beidenfleth",
+      "amount": 1
+    },
+    {
+      "city": "Beimerstetten",
+      "amount": 6
+    },
+    {
+      "city": "Belm",
+      "amount": 35
+    },
+    {
+      "city": "Bempflingen",
+      "amount": 9
+    },
+    {
+      "city": "Bendorf",
+      "amount": 27
+    },
+    {
+      "city": "Bennewitz",
+      "amount": 1
+    },
+    {
+      "city": "Benningen",
+      "amount": 1
+    },
+    {
+      "city": "Benningen am Neckar",
+      "amount": 1
+    },
+    {
+      "city": "Bensheim",
+      "amount": 84
+    },
+    {
+      "city": "Bentwisch",
+      "amount": 10
+    },
+    {
+      "city": "Berg",
+      "amount": 6
+    },
+    {
+      "city": "Berg bei Neumarkt in der Oberpfalz",
+      "amount": 3
+    },
+    {
+      "city": "Bergheim",
+      "amount": 34
+    },
+    {
+      "city": "Bergisch Gladbach",
+      "amount": 319
+    },
+    {
+      "city": "Bergkamen",
+      "amount": 81
+    },
+    {
+      "city": "Bergkirchen",
+      "amount": 9
+    },
+    {
+      "city": "Berglen",
+      "amount": 19
+    },
+    {
+      "city": "Bergneustadt",
+      "amount": 23
+    },
+    {
+      "city": "Berlin",
+      "amount": 4806
+    },
+    {
+      "city": "Bernau bei Berlin",
+      "amount": 2
+    },
+    {
+      "city": "Bernburg (Saale)",
+      "amount": 86
+    },
+    {
+      "city": "Berngau",
+      "amount": 3
+    },
+    {
+      "city": "Bernried",
+      "amount": 13
+    },
+    {
+      "city": "Berumbur",
+      "amount": 2
+    },
+    {
+      "city": "Besigheim",
+      "amount": 10
+    },
+    {
+      "city": "Bessenbach",
+      "amount": 9
+    },
+    {
+      "city": "Bestwig",
+      "amount": 4
+    },
+    {
+      "city": "Bexbach",
+      "amount": 23
+    },
+    {
+      "city": "BI",
+      "amount": 4
+    },
+    {
+      "city": "Biberach",
+      "amount": 2
+    },
+    {
+      "city": "Biberach An Der Riss",
+      "amount": 1
+    },
+    {
+      "city": "Biberach an der Riß",
+      "amount": 90
+    },
+    {
+      "city": "Biblis",
+      "amount": 20
+    },
+    {
+      "city": "Bickenbach",
+      "amount": 19
+    },
+    {
+      "city": "Biebelried",
+      "amount": 11
+    },
+    {
+      "city": "Biebertal",
+      "amount": 11
+    },
+    {
+      "city": "Biederitz",
+      "amount": 2
+    },
+    {
+      "city": "Bielefeld",
+      "amount": 5013
+    },
+    {
+      "city": "Bienenbüttel",
+      "amount": 3
+    },
+    {
+      "city": "Bietigheim",
+      "amount": 5
+    },
+    {
+      "city": "Bietigheim-Bissingen",
+      "amount": 114
+    },
+    {
+      "city": "Billigheim",
+      "amount": 4
+    },
+    {
+      "city": "Billigheim-Ingenheim",
+      "amount": 13
+    },
+    {
+      "city": "Bindlach",
+      "amount": 21
+    },
+    {
+      "city": "Bingen am Rhein",
+      "amount": 12
+    },
+    {
+      "city": "Binningen",
+      "amount": 2
+    },
+    {
+      "city": "Birken-Honigsessen",
+      "amount": 1
+    },
+    {
+      "city": "Birkenau",
+      "amount": 15
+    },
+    {
+      "city": "Birkenbeul",
+      "amount": 1
+    },
+    {
+      "city": "Birkenfeld",
+      "amount": 36
+    },
+    {
+      "city": "Bischberg",
+      "amount": 38
+    },
+    {
+      "city": "Bischbrunn",
+      "amount": 5
+    },
+    {
+      "city": "Bischofsheim",
+      "amount": 31
+    },
+    {
+      "city": "Bischweier",
+      "amount": 7
+    },
+    {
+      "city": "Bissendorf",
+      "amount": 16
+    },
+    {
+      "city": "Bitterfeld-Wolfen",
+      "amount": 7
+    },
+    {
+      "city": "Blaichach",
+      "amount": 3
+    },
+    {
+      "city": "Blankenburg (Harz)",
+      "amount": 2
+    },
+    {
+      "city": "Blankenfelde-Mahlow",
+      "amount": 1
+    },
+    {
+      "city": "Blaustein",
+      "amount": 8
+    },
+    {
+      "city": "Blieskastel",
+      "amount": 15
+    },
+    {
+      "city": "Blomberg",
+      "amount": 3
+    },
+    {
+      "city": "BN",
+      "amount": 2
+    },
+    {
+      "city": "BO",
+      "amount": 3
+    },
+    {
+      "city": "Bobenheim-Roxheim",
+      "amount": 20
+    },
+    {
+      "city": "Bobingen",
+      "amount": 33
+    },
+    {
+      "city": "Bocholt",
+      "amount": 263
+    },
+    {
+      "city": "Bochum",
+      "amount": 3549
+    },
+    {
+      "city": "Bockhorn",
+      "amount": 2
+    },
+    {
+      "city": "Bodelshausen",
+      "amount": 3
+    },
+    {
+      "city": "Bodenheim",
+      "amount": 51
+    },
+    {
+      "city": "Bodman-Ludwigshafen",
+      "amount": 4
+    },
+    {
+      "city": "Boffzen",
+      "amount": 2
+    },
+    {
+      "city": "Bogen",
+      "amount": 4
+    },
+    {
+      "city": "Bogenhausen",
+      "amount": 7
+    },
+    {
+      "city": "Bokensdorf",
+      "amount": 3
+    },
+    {
+      "city": "Boksee",
+      "amount": 1
+    },
+    {
+      "city": "Bollschweil",
+      "amount": 4
+    },
+    {
+      "city": "Bomlitz",
+      "amount": 6
+    },
+    {
+      "city": "Bonn",
+      "amount": 3659
+    },
+    {
+      "city": "Boppard",
+      "amount": 4
+    },
+    {
+      "city": "Borchen",
+      "amount": 91
+    },
+    {
+      "city": "Borgholzhausen",
+      "amount": 3
+    },
+    {
+      "city": "Borken",
+      "amount": 13
+    },
+    {
+      "city": "Borken (Hessen)",
+      "amount": 9
+    },
+    {
+      "city": "Bornheim",
+      "amount": 90
+    },
+    {
+      "city": "Borstel-Hohenraden",
+      "amount": 5
+    },
+    {
+      "city": "Bottmingen",
+      "amount": 3
+    },
+    {
+      "city": "Bottrop",
+      "amount": 349
+    },
+    {
+      "city": "Bous",
+      "amount": 12
+    },
+    {
+      "city": "Bovenden",
+      "amount": 54
+    },
+    {
+      "city": "Boxberg",
+      "amount": 2
+    },
+    {
+      "city": "Brachbach",
+      "amount": 16
+    },
+    {
+      "city": "Brackenheim",
+      "amount": 2
+    },
+    {
+      "city": "Bramsche",
+      "amount": 29
+    },
+    {
+      "city": "Brandis",
+      "amount": 2
+    },
+    {
+      "city": "Braunfels",
+      "amount": 2
+    },
+    {
+      "city": "Braunsbach",
+      "amount": 1
+    },
+    {
+      "city": "Braunschweig",
+      "amount": 2536
+    },
+    {
+      "city": "Breckerfeld",
+      "amount": 6
+    },
+    {
+      "city": "Breedenbroek",
+      "amount": 1
+    },
+    {
+      "city": "Bregenz",
+      "amount": 3
+    },
+    {
+      "city": "Breitenburg",
+      "amount": 5
+    },
+    {
+      "city": "Breitscheid",
+      "amount": 3
+    },
+    {
+      "city": "Bremen",
+      "amount": 3784
+    },
+    {
+      "city": "Bremerhaven",
+      "amount": 257
+    },
+    {
+      "city": "Bretten",
+      "amount": 23
+    },
+    {
+      "city": "Bretzfeld",
+      "amount": 8
+    },
+    {
+      "city": "Breuberg",
+      "amount": 5
+    },
+    {
+      "city": "Brey",
+      "amount": 7
+    },
+    {
+      "city": "Brieselang",
+      "amount": 1
+    },
+    {
+      "city": "Brigachtal",
+      "amount": 4
+    },
+    {
+      "city": "Brilon",
+      "amount": 20
+    },
+    {
+      "city": "Brohl-Lützing",
+      "amount": 10
+    },
+    {
+      "city": "Bruchköbel",
+      "amount": 26
+    },
+    {
+      "city": "Bruchmühlbach-Miesau",
+      "amount": 3
+    },
+    {
+      "city": "Bruchsal",
+      "amount": 92
+    },
+    {
+      "city": "Brugg",
+      "amount": 1
+    },
+    {
+      "city": "Brunsbüttel",
+      "amount": 1
+    },
+    {
+      "city": "Brunswick",
+      "amount": 76
+    },
+    {
+      "city": "Brüggen",
+      "amount": 5
+    },
+    {
+      "city": "Brüheim",
+      "amount": 1
+    },
+    {
+      "city": "Brühl",
+      "amount": 146
+    },
+    {
+      "city": "Bräunlingen",
+      "amount": 2
+    },
+    {
+      "city": "BS",
+      "amount": 3
+    },
+    {
+      "city": "Bubenreuth",
+      "amount": 1
+    },
+    {
+      "city": "Buchenberg",
+      "amount": 13
+    },
+    {
+      "city": "Buchholz in der Nordheide",
+      "amount": 13
+    },
+    {
+      "city": "Buckenhof",
+      "amount": 257
+    },
+    {
+      "city": "Budenheim",
+      "amount": 74
+    },
+    {
+      "city": "Burg Stargard",
+      "amount": 3
+    },
+    {
+      "city": "Burgdorf",
+      "amount": 6
+    },
+    {
+      "city": "Burgebrach",
+      "amount": 2
+    },
+    {
+      "city": "Burgheim",
+      "amount": 1
+    },
+    {
+      "city": "Burgkunstadt",
+      "amount": 1
+    },
+    {
+      "city": "Burgoberbach",
+      "amount": 3
+    },
+    {
+      "city": "Burgrieden",
+      "amount": 2
+    },
+    {
+      "city": "Burgstädt",
+      "amount": 2
+    },
+    {
+      "city": "Burgwedel",
+      "amount": 14
+    },
+    {
+      "city": "Burkardroth",
+      "amount": 1
+    },
+    {
+      "city": "Burladingen",
+      "amount": 1
+    },
+    {
+      "city": "Burscheid",
+      "amount": 16
+    },
+    {
+      "city": "Buseck",
+      "amount": 72
+    },
+    {
+      "city": "Buttelstedt",
+      "amount": 3
+    },
+    {
+      "city": "Butzbach",
+      "amount": 38
+    },
+    {
+      "city": "Buxheim",
+      "amount": 9
+    },
+    {
+      "city": "Buxtehude",
+      "amount": 30
+    },
+    {
+      "city": "Büchenbach",
+      "amount": 3
+    },
+    {
+      "city": "Büchlberg",
+      "amount": 1
+    },
+    {
+      "city": "Bückeburg",
+      "amount": 17
+    },
+    {
+      "city": "Büdingen",
+      "amount": 10
+    },
+    {
+      "city": "Bühl",
+      "amount": 87
+    },
+    {
+      "city": "Bühlertal",
+      "amount": 18
+    },
+    {
+      "city": "Bünde",
+      "amount": 41
+    },
+    {
+      "city": "Bünsdorf",
+      "amount": 2
+    },
+    {
+      "city": "Büren",
+      "amount": 15
+    },
+    {
+      "city": "Bürstadt",
+      "amount": 10
+    },
+    {
+      "city": "Büttelborn",
+      "amount": 42
+    },
+    {
+      "city": "Bächingen an der Brenz",
+      "amount": 1
+    },
+    {
+      "city": "Böbingen",
+      "amount": 2
+    },
+    {
+      "city": "Böblingen",
+      "amount": 89
+    },
+    {
+      "city": "Böhlen",
+      "amount": 3
+    },
+    {
+      "city": "Bönen",
+      "amount": 11
+    },
+    {
+      "city": "Bönnigheim",
+      "amount": 25
+    },
+    {
+      "city": "Bönningstedt",
+      "amount": 8
+    },
+    {
+      "city": "Börtlingen",
+      "amount": 2
+    },
+    {
+      "city": "Bösel",
+      "amount": 4
+    },
+    {
+      "city": "Bösingen",
+      "amount": 4
+    },
+    {
+      "city": "Bötersen",
+      "amount": 1
+    },
+    {
+      "city": "Bötzingen",
+      "amount": 6
+    },
+    {
+      "city": "Cadolzburg",
+      "amount": 15
+    },
+    {
+      "city": "Callenberg",
+      "amount": 11
+    },
+    {
+      "city": "Calw",
+      "amount": 9
+    },
+    {
+      "city": "Cappeln (Oldenburg)",
+      "amount": 9
+    },
+    {
+      "city": "Castrop-Rauxel",
+      "amount": 207
+    },
+    {
+      "city": "Celle",
+      "amount": 61
+    },
+    {
+      "city": "Cham",
+      "amount": 4
+    },
+    {
+      "city": "Charlottenburg-Nord",
+      "amount": 1
+    },
+    {
+      "city": "Chemnitz",
+      "amount": 874
+    },
+    {
+      "city": "Clausthal-Zellerfeld",
+      "amount": 187
+    },
+    {
+      "city": "Cloppenburg",
+      "amount": 53
+    },
+    {
+      "city": "Coburg",
+      "amount": 499
+    },
+    {
+      "city": "Coesfeld",
+      "amount": 27
+    },
+    {
+      "city": "Colditz",
+      "amount": 3
+    },
+    {
+      "city": "Cologne",
+      "amount": 381
+    },
+    {
+      "city": "Contwig",
+      "amount": 3
+    },
+    {
+      "city": "Coppenbrügge",
+      "amount": 4
+    },
+    {
+      "city": "Coswig (Anhalt)",
+      "amount": 5
+    },
+    {
+      "city": "Cottbus",
+      "amount": 402
+    },
+    {
+      "city": "Crailsheim",
+      "amount": 11
+    },
+    {
+      "city": "Cramberg",
+      "amount": 1
+    },
+    {
+      "city": "Cremlingen",
+      "amount": 35
+    },
+    {
+      "city": "Creußen",
+      "amount": 26
+    },
+    {
+      "city": "Crottendorf",
+      "amount": 2
+    },
+    {
+      "city": "Cuxhaven",
+      "amount": 21
+    },
+    {
+      "city": "Cölbe",
+      "amount": 21
+    },
+    {
+      "city": "Dachau",
+      "amount": 25
+    },
+    {
+      "city": "Dallgow-Döberitz",
+      "amount": 17
+    },
+    {
+      "city": "Dannstadt-Schauernheim",
+      "amount": 10
+    },
+    {
+      "city": "Darmstadt",
+      "amount": 2678
+    },
+    {
+      "city": "Dasing",
+      "amount": 7
+    },
+    {
+      "city": "Dassel",
+      "amount": 3
+    },
+    {
+      "city": "Datteln",
+      "amount": 40
+    },
+    {
+      "city": "Dauchingen",
+      "amount": 6
+    },
+    {
+      "city": "Deggendorf",
+      "amount": 350
+    },
+    {
+      "city": "Deidesheim",
+      "amount": 16
+    },
+    {
+      "city": "Deining",
+      "amount": 5
+    },
+    {
+      "city": "Deizisau",
+      "amount": 27
+    },
+    {
+      "city": "Deißlingen",
+      "amount": 5
+    },
+    {
+      "city": "Delbrück",
+      "amount": 25
+    },
+    {
+      "city": "Delitzsch",
+      "amount": 5
+    },
+    {
+      "city": "Delmenhorst",
+      "amount": 89
+    },
+    {
+      "city": "Denkte",
+      "amount": 4
+    },
+    {
+      "city": "Derenburg",
+      "amount": 2
+    },
+    {
+      "city": "Despetal",
+      "amount": 35
+    },
+    {
+      "city": "Dessau-Roßlau",
+      "amount": 31
+    },
+    {
+      "city": "Detmold",
+      "amount": 164
+    },
+    {
+      "city": "Dettenhausen",
+      "amount": 1
+    },
+    {
+      "city": "Dettenheim",
+      "amount": 6
+    },
+    {
+      "city": "Dettingen an der Erms",
+      "amount": 14
+    },
+    {
+      "city": "Dettingen unter Teck",
+      "amount": 28
+    },
+    {
+      "city": "Deutz",
+      "amount": 1
+    },
+    {
+      "city": "Dieburg",
+      "amount": 51
+    },
+    {
+      "city": "Diedorf",
+      "amount": 48
+    },
+    {
+      "city": "Diekholzen",
+      "amount": 29
+    },
+    {
+      "city": "Dielheim",
+      "amount": 42
+    },
+    {
+      "city": "Diepenau",
+      "amount": 2
+    },
+    {
+      "city": "Diepholz",
+      "amount": 10
+    },
+    {
+      "city": "Diera-Zehren",
+      "amount": 1
+    },
+    {
+      "city": "Dietmannsried",
+      "amount": 5
+    },
+    {
+      "city": "Dietzenbach",
+      "amount": 43
+    },
+    {
+      "city": "Dillenburg",
+      "amount": 10
+    },
+    {
+      "city": "Dillingen/Saar",
+      "amount": 21
+    },
+    {
+      "city": "Dingsheim",
+      "amount": 3
+    },
+    {
+      "city": "Dinkelsbühl",
+      "amount": 1
+    },
+    {
+      "city": "Dinklage",
+      "amount": 14
+    },
+    {
+      "city": "Dinslaken",
+      "amount": 82
+    },
+    {
+      "city": "Dippoldiswalde",
+      "amount": 1
+    },
+    {
+      "city": "Dissen am Teutoburger Wald",
+      "amount": 2
+    },
+    {
+      "city": "Dissen-Striesow",
+      "amount": 1
+    },
+    {
+      "city": "Dittelbrunn",
+      "amount": 15
+    },
+    {
+      "city": "Ditzingen",
+      "amount": 8
+    },
+    {
+      "city": "Doberschau-Gaußig",
+      "amount": 2
+    },
+    {
+      "city": "Dohna",
+      "amount": 1
+    },
+    {
+      "city": "Dollern",
+      "amount": 1
+    },
+    {
+      "city": "Donaueschingen",
+      "amount": 17
+    },
+    {
+      "city": "Donaustauf",
+      "amount": 20
+    },
+    {
+      "city": "Dormagen",
+      "amount": 69
+    },
+    {
+      "city": "Dorneck",
+      "amount": 24
+    },
+    {
+      "city": "Dornstadt",
+      "amount": 25
+    },
+    {
+      "city": "Dorstadt",
+      "amount": 4
+    },
+    {
+      "city": "Dorsten",
+      "amount": 57
+    },
+    {
+      "city": "Dortmund",
+      "amount": 5164
+    },
+    {
+      "city": "Dossenheim",
+      "amount": 134
+    },
+    {
+      "city": "Drebber",
+      "amount": 5
+    },
+    {
+      "city": "Dreieich",
+      "amount": 111
+    },
+    {
+      "city": "Drensteinfurt",
+      "amount": 11
+    },
+    {
+      "city": "Dresde",
+      "amount": 1
+    },
+    {
+      "city": "Dresden",
+      "amount": 3365
+    },
+    {
+      "city": "Drestedt",
+      "amount": 2
+    },
+    {
+      "city": "Drolshagen",
+      "amount": 9
+    },
+    {
+      "city": "Duderstadt",
+      "amount": 7
+    },
+    {
+      "city": "Duisburg",
+      "amount": 1823
+    },
+    {
+      "city": "Dunningen",
+      "amount": 2
+    },
+    {
+      "city": "Durach",
+      "amount": 22
+    },
+    {
+      "city": "Durmersheim",
+      "amount": 13
+    },
+    {
+      "city": "Dußlingen",
+      "amount": 63
+    },
+    {
+      "city": "Düdenbüttel",
+      "amount": 1
+    },
+    {
+      "city": "Dülmen",
+      "amount": 47
+    },
+    {
+      "city": "Düren",
+      "amount": 50
+    },
+    {
+      "city": "Dürrröhrsdorf-Dittersbach",
+      "amount": 1
+    },
+    {
+      "city": "Düsseldorf",
+      "amount": 4423
+    },
+    {
+      "city": "Dänischenhagen",
+      "amount": 7
+    },
+    {
+      "city": "Döbeln",
+      "amount": 1
+    },
+    {
+      "city": "Dörfles-Esbach",
+      "amount": 13
+    },
+    {
+      "city": "Dörverden",
+      "amount": 2
+    },
+    {
+      "city": "E",
+      "amount": 7
+    },
+    {
+      "city": "Eberdingen",
+      "amount": 10
+    },
+    {
+      "city": "Ebersbach an der Fils",
+      "amount": 11
+    },
+    {
+      "city": "Ebsdorfergrund",
+      "amount": 5
+    },
+    {
+      "city": "Eching",
+      "amount": 49
+    },
+    {
+      "city": "Echzell",
+      "amount": 5
+    },
+    {
+      "city": "Eckernförde",
+      "amount": 13
+    },
+    {
+      "city": "Eckersdorf",
+      "amount": 8
+    },
+    {
+      "city": "Edemissen",
+      "amount": 5
+    },
+    {
+      "city": "Edenkoben",
+      "amount": 63
+    },
+    {
+      "city": "Edermünde",
+      "amount": 5
+    },
+    {
+      "city": "Edertal",
+      "amount": 3
+    },
+    {
+      "city": "Edesheim",
+      "amount": 3
+    },
+    {
+      "city": "Edewecht",
+      "amount": 16
+    },
+    {
+      "city": "Edingen-Neckarhausen",
+      "amount": 89
+    },
+    {
+      "city": "Efringen-Kirchen",
+      "amount": 2
+    },
+    {
+      "city": "Eggenstein-Leopoldshafen",
+      "amount": 4
+    },
+    {
+      "city": "Eglhartinger Forst",
+      "amount": 2
+    },
+    {
+      "city": "Egling",
+      "amount": 5
+    },
+    {
+      "city": "Ehekirchen",
+      "amount": 1
+    },
+    {
+      "city": "Ehingen (Donau)",
+      "amount": 5
+    },
+    {
+      "city": "Ehningen",
+      "amount": 17
+    },
+    {
+      "city": "Ehrenkirchen",
+      "amount": 1
+    },
+    {
+      "city": "Ehringshausen",
+      "amount": 7
+    },
+    {
+      "city": "Eibelstadt",
+      "amount": 7
+    },
+    {
+      "city": "Eich",
+      "amount": 3
+    },
+    {
+      "city": "Eichenzell",
+      "amount": 10
+    },
+    {
+      "city": "Eichstetten am Kaiserstuhl",
+      "amount": 3
+    },
+    {
+      "city": "Eicklingen",
+      "amount": 3
+    },
+    {
+      "city": "Einbeck",
+      "amount": 16
+    },
+    {
+      "city": "Einhausen",
+      "amount": 7
+    },
+    {
+      "city": "Eisenach",
+      "amount": 23
+    },
+    {
+      "city": "Eisenhüttenstadt",
+      "amount": 10
+    },
+    {
+      "city": "Eisingen",
+      "amount": 27
+    },
+    {
+      "city": "Eislingen/Fils",
+      "amount": 10
+    },
+    {
+      "city": "Eitorf",
+      "amount": 1
+    },
+    {
+      "city": "Elchesheim-Illingen",
+      "amount": 4
+    },
+    {
+      "city": "Elchingen",
+      "amount": 24
+    },
+    {
+      "city": "Ellerbek",
+      "amount": 2
+    },
+    {
+      "city": "Ellwangen (Jagst)",
+      "amount": 7
+    },
+    {
+      "city": "Elmshorn",
+      "amount": 30
+    },
+    {
+      "city": "Elsdorf",
+      "amount": 10
+    },
+    {
+      "city": "Elsfleth",
+      "amount": 13
+    },
+    {
+      "city": "Elsterberg",
+      "amount": 2
+    },
+    {
+      "city": "Eltville am Rhein",
+      "amount": 39
+    },
+    {
+      "city": "Elz",
+      "amount": 9
+    },
+    {
+      "city": "Elztal",
+      "amount": 3
+    },
+    {
+      "city": "Embsen",
+      "amount": 2
+    },
+    {
+      "city": "Emden",
+      "amount": 252
+    },
+    {
+      "city": "Emmendingen",
+      "amount": 54
+    },
+    {
+      "city": "Emmerich am Rhein",
+      "amount": 28
+    },
+    {
+      "city": "Emmering",
+      "amount": 29
+    },
+    {
+      "city": "Emmerthal",
+      "amount": 12
+    },
+    {
+      "city": "Emmingen-Liptingen",
+      "amount": 1
+    },
+    {
+      "city": "Empfingen",
+      "amount": 7
+    },
+    {
+      "city": "Emsdetten",
+      "amount": 63
+    },
+    {
+      "city": "Emskirchen",
+      "amount": 2
+    },
+    {
+      "city": "Emstek",
+      "amount": 9
+    },
+    {
+      "city": "Emtmannsberg",
+      "amount": 3
+    },
+    {
+      "city": "Endingen am Kaiserstuhl",
+      "amount": 3
+    },
+    {
+      "city": "Engelsbrand",
+      "amount": 9
+    },
+    {
+      "city": "Engelskirchen",
+      "amount": 21
+    },
+    {
+      "city": "Engelstadt",
+      "amount": 8
+    },
+    {
+      "city": "Engen",
+      "amount": 1
+    },
+    {
+      "city": "Enger",
+      "amount": 80
+    },
+    {
+      "city": "Eningen unter Achalm",
+      "amount": 24
+    },
+    {
+      "city": "Enkenbach-Alsenborn",
+      "amount": 4
+    },
+    {
+      "city": "Ennepetal",
+      "amount": 57
+    },
+    {
+      "city": "Ennigerloh",
+      "amount": 13
+    },
+    {
+      "city": "Ense",
+      "amount": 11
+    },
+    {
+      "city": "Epfendorf",
+      "amount": 1
+    },
+    {
+      "city": "Eppelheim",
+      "amount": 8
+    },
+    {
+      "city": "Eppertshausen",
+      "amount": 5
+    },
+    {
+      "city": "Eppingen",
+      "amount": 6
+    },
+    {
+      "city": "Eppstein",
+      "amount": 6
+    },
+    {
+      "city": "Erbach",
+      "amount": 9
+    },
+    {
+      "city": "Erding",
+      "amount": 11
+    },
+    {
+      "city": "Erdmannhausen",
+      "amount": 8
+    },
+    {
+      "city": "Erftstadt",
+      "amount": 32
+    },
+    {
+      "city": "Erfurt",
+      "amount": 1533
+    },
+    {
+      "city": "Ergolding",
+      "amount": 13
+    },
+    {
+      "city": "ERH",
+      "amount": 6
+    },
+    {
+      "city": "Erkelenz",
+      "amount": 26
+    },
+    {
+      "city": "Erkrath",
+      "amount": 107
+    },
+    {
+      "city": "Erlabrunn",
+      "amount": 1
+    },
+    {
+      "city": "Erlangen",
+      "amount": 2553
+    },
+    {
+      "city": "Erlenbach",
+      "amount": 6
+    },
+    {
+      "city": "Erlensee",
+      "amount": 7
+    },
+    {
+      "city": "Erlenstegener Forst",
+      "amount": 3
+    },
+    {
+      "city": "Erligheim",
+      "amount": 2
+    },
+    {
+      "city": "Erwitte",
+      "amount": 37
+    },
+    {
+      "city": "Erzhausen",
+      "amount": 43
+    },
+    {
+      "city": "Eschbach",
+      "amount": 1
+    },
+    {
+      "city": "Eschborn",
+      "amount": 120
+    },
+    {
+      "city": "Eschelbronn",
+      "amount": 2
+    },
+    {
+      "city": "Eschweiler",
+      "amount": 33
+    },
+    {
+      "city": "Espelkamp",
+      "amount": 11
+    },
+    {
+      "city": "Espenau",
+      "amount": 7
+    },
+    {
+      "city": "Essen",
+      "amount": 3856
+    },
+    {
+      "city": "Essenbach",
+      "amount": 13
+    },
+    {
+      "city": "Essenheim",
+      "amount": 4
+    },
+    {
+      "city": "Essingen",
+      "amount": 8
+    },
+    {
+      "city": "Esslingen",
+      "amount": 20
+    },
+    {
+      "city": "Esslingen am Neckar",
+      "amount": 261
+    },
+    {
+      "city": "Ettenheim",
+      "amount": 6
+    },
+    {
+      "city": "Ettlingen",
+      "amount": 103
+    },
+    {
+      "city": "Euerdorf",
+      "amount": 2
+    },
+    {
+      "city": "Euskirchen",
+      "amount": 37
+    },
+    {
+      "city": "Eutingen im Gäu",
+      "amount": 6
+    },
+    {
+      "city": "Falkensee",
+      "amount": 2
+    },
+    {
+      "city": "Feldkirchen",
+      "amount": 75
+    },
+    {
+      "city": "Fell",
+      "amount": 1
+    },
+    {
+      "city": "Fellbach",
+      "amount": 184
+    },
+    {
+      "city": "Fernwald",
+      "amount": 32
+    },
+    {
+      "city": "Filderstadt",
+      "amount": 127
+    },
+    {
+      "city": "Finnentrop",
+      "amount": 4
+    },
+    {
+      "city": "Fischbach",
+      "amount": 3
+    },
+    {
+      "city": "Fischen im Allgäu",
+      "amount": 7
+    },
+    {
+      "city": "Fladungen",
+      "amount": 1
+    },
+    {
+      "city": "Flein",
+      "amount": 107
+    },
+    {
+      "city": "Flensburg",
+      "amount": 816
+    },
+    {
+      "city": "Flintbek",
+      "amount": 8
+    },
+    {
+      "city": "Flörsheim am Main",
+      "amount": 33
+    },
+    {
+      "city": "Flöthe",
+      "amount": 1
+    },
+    {
+      "city": "Forbach",
+      "amount": 4
+    },
+    {
+      "city": "Forchheim",
+      "amount": 25
+    },
+    {
+      "city": "Forchtenberg",
+      "amount": 5
+    },
+    {
+      "city": "Forst",
+      "amount": 24
+    },
+    {
+      "city": "Forst Hain im Spessart",
+      "amount": 3
+    },
+    {
+      "city": "Forst Kleinschwarzenlohe",
+      "amount": 5
+    },
+    {
+      "city": "Forst Tennenlohe",
+      "amount": 2
+    },
+    {
+      "city": "Forstenrieder Park",
+      "amount": 10
+    },
+    {
+      "city": "Forstgutsbezirk Sachsenwald",
+      "amount": 4
+    },
+    {
+      "city": "Francoforte sul Meno",
+      "amount": 1
+    },
+    {
+      "city": "Frankenheim/Rhön",
+      "amount": 1
+    },
+    {
+      "city": "Frankenthal",
+      "amount": 3
+    },
+    {
+      "city": "Frankenthal (Pfalz)",
+      "amount": 77
+    },
+    {
+      "city": "Frankfurt",
+      "amount": 263
+    },
+    {
+      "city": "Frankfurt am Main",
+      "amount": 5447
+    },
+    {
+      "city": "Frankweiler",
+      "amount": 3
+    },
+    {
+      "city": "Frasdorf",
+      "amount": 3
+    },
+    {
+      "city": "Fraureuth",
+      "amount": 1
+    },
+    {
+      "city": "Frechen",
+      "amount": 110
+    },
+    {
+      "city": "Freiberg",
+      "amount": 311
+    },
+    {
+      "city": "Freiberg am Neckar",
+      "amount": 18
+    },
+    {
+      "city": "Freiburg",
+      "amount": 221
+    },
+    {
+      "city": "Freiburg im Breisgau",
+      "amount": 3771
+    },
+    {
+      "city": "Freising",
+      "amount": 346
+    },
+    {
+      "city": "Freital",
+      "amount": 53
+    },
+    {
+      "city": "Frensdorf",
+      "amount": 6
+    },
+    {
+      "city": "Freudenberg",
+      "amount": 69
+    },
+    {
+      "city": "Freudenstadt",
+      "amount": 24
+    },
+    {
+      "city": "Frickenhausen",
+      "amount": 17
+    },
+    {
+      "city": "Frickenhausen am Main",
+      "amount": 1
+    },
+    {
+      "city": "Friedberg",
+      "amount": 134
+    },
+    {
+      "city": "Friedberg (Hessen)",
+      "amount": 97
+    },
+    {
+      "city": "Friedeburg",
+      "amount": 1
+    },
+    {
+      "city": "Friedewald",
+      "amount": 1
+    },
+    {
+      "city": "Friedland",
+      "amount": 15
+    },
+    {
+      "city": "Friedrichsdorf",
+      "amount": 27
+    },
+    {
+      "city": "Friedrichshafen",
+      "amount": 160
+    },
+    {
+      "city": "Friedrichshain",
+      "amount": 1
+    },
+    {
+      "city": "Friedrichsthal",
+      "amount": 5
+    },
+    {
+      "city": "Friesenheim",
+      "amount": 19
+    },
+    {
+      "city": "Friesoythe",
+      "amount": 8
+    },
+    {
+      "city": "Fritzlar",
+      "amount": 3
+    },
+    {
+      "city": "Fronhausen",
+      "amount": 3
+    },
+    {
+      "city": "Fröndenberg",
+      "amount": 2
+    },
+    {
+      "city": "Fröndenberg/Ruhr",
+      "amount": 20
+    },
+    {
+      "city": "Fulda",
+      "amount": 518
+    },
+    {
+      "city": "Fuldabrück",
+      "amount": 12
+    },
+    {
+      "city": "Fuldatal",
+      "amount": 152
+    },
+    {
+      "city": "Furth",
+      "amount": 5
+    },
+    {
+      "city": "Fußgönheim",
+      "amount": 20
+    },
+    {
+      "city": "Fürstenau",
+      "amount": 1
+    },
+    {
+      "city": "Fürstenfeldbruck",
+      "amount": 18
+    },
+    {
+      "city": "Fürstenzell",
+      "amount": 1
+    },
+    {
+      "city": "Fürth",
+      "amount": 616
+    },
+    {
+      "city": "Fürthen",
+      "amount": 1
+    },
+    {
+      "city": "Gaggenau",
+      "amount": 12
+    },
+    {
+      "city": "Gailingen am Hochrhein",
+      "amount": 4
+    },
+    {
+      "city": "Gaimersheim",
+      "amount": 27
+    },
+    {
+      "city": "Gamstädt",
+      "amount": 1
+    },
+    {
+      "city": "Ganderkesee",
+      "amount": 29
+    },
+    {
+      "city": "Gangelt",
+      "amount": 5
+    },
+    {
+      "city": "Garbsen",
+      "amount": 153
+    },
+    {
+      "city": "Garching bei München",
+      "amount": 44
+    },
+    {
+      "city": "Gardelegen",
+      "amount": 7
+    },
+    {
+      "city": "Garmisch-Partenkirchen",
+      "amount": 24
+    },
+    {
+      "city": "Garrel",
+      "amount": 5
+    },
+    {
+      "city": "Gau-Algesheim",
+      "amount": 12
+    },
+    {
+      "city": "Gau-Bischofsheim",
+      "amount": 1
+    },
+    {
+      "city": "Gauting",
+      "amount": 9
+    },
+    {
+      "city": "Geeste",
+      "amount": 8
+    },
+    {
+      "city": "Geesthacht",
+      "amount": 4
+    },
+    {
+      "city": "Geestland",
+      "amount": 8
+    },
+    {
+      "city": "Gehrden",
+      "amount": 31
+    },
+    {
+      "city": "Geilenkirchen",
+      "amount": 36
+    },
+    {
+      "city": "Geisenhausen",
+      "amount": 4
+    },
+    {
+      "city": "Geisenheim",
+      "amount": 13
+    },
+    {
+      "city": "Geisingen",
+      "amount": 2
+    },
+    {
+      "city": "Geislingen",
+      "amount": 7
+    },
+    {
+      "city": "Geislingen an der Steige",
+      "amount": 50
+    },
+    {
+      "city": "Geispolsheim",
+      "amount": 1
+    },
+    {
+      "city": "Geldern",
+      "amount": 31
+    },
+    {
+      "city": "Gelnhausen",
+      "amount": 10
+    },
+    {
+      "city": "Gelsenkirchen",
+      "amount": 545
+    },
+    {
+      "city": "Gemeinde Schardenberg",
+      "amount": 11
+    },
+    {
+      "city": "Gemmingen",
+      "amount": 7
+    },
+    {
+      "city": "Gemmrigheim",
+      "amount": 12
+    },
+    {
+      "city": "Gengenbach",
+      "amount": 21
+    },
+    {
+      "city": "Georgsmarienhütte",
+      "amount": 78
+    },
+    {
+      "city": "Gera",
+      "amount": 117
+    },
+    {
+      "city": "Geretsried",
+      "amount": 2
+    },
+    {
+      "city": "Gerlingen",
+      "amount": 133
+    },
+    {
+      "city": "Germaringen",
+      "amount": 6
+    },
+    {
+      "city": "Germering",
+      "amount": 62
+    },
+    {
+      "city": "Germersheim",
+      "amount": 43
+    },
+    {
+      "city": "Gernsbach",
+      "amount": 7
+    },
+    {
+      "city": "Gernsheim",
+      "amount": 5
+    },
+    {
+      "city": "Gerstetten",
+      "amount": 3
+    },
+    {
+      "city": "Gersthofen",
+      "amount": 43
+    },
+    {
+      "city": "Gerwisch",
+      "amount": 4
+    },
+    {
+      "city": "Gescher",
+      "amount": 12
+    },
+    {
+      "city": "Gesees",
+      "amount": 9
+    },
+    {
+      "city": "Geseke",
+      "amount": 19
+    },
+    {
+      "city": "Gesundbrunnen",
+      "amount": 2
+    },
+    {
+      "city": "Gettorf",
+      "amount": 1
+    },
+    {
+      "city": "Gevelsberg",
+      "amount": 12
+    },
+    {
+      "city": "Gieboldehausen",
+      "amount": 1
+    },
+    {
+      "city": "Giengen an der Brenz",
+      "amount": 6
+    },
+    {
+      "city": "Giessen",
+      "amount": 123
+    },
+    {
+      "city": "Gießen",
+      "amount": 3364
+    },
+    {
+      "city": "Gifhorn",
+      "amount": 45
+    },
+    {
+      "city": "Gilching",
+      "amount": 13
+    },
+    {
+      "city": "Gingen an der Fils",
+      "amount": 3
+    },
+    {
+      "city": "Ginsheim-Gustavsburg",
+      "amount": 65
+    },
+    {
+      "city": "Gladbeck",
+      "amount": 210
+    },
+    {
+      "city": "Gladenbach",
+      "amount": 1
+    },
+    {
+      "city": "Glatten",
+      "amount": 4
+    },
+    {
+      "city": "Glauchau",
+      "amount": 5
+    },
+    {
+      "city": "Gleichen",
+      "amount": 8
+    },
+    {
+      "city": "Gleisweiler",
+      "amount": 2
+    },
+    {
+      "city": "Glinde",
+      "amount": 15
+    },
+    {
+      "city": "Glottertal",
+      "amount": 10
+    },
+    {
+      "city": "Glücksburg (Ostsee)",
+      "amount": 9
+    },
+    {
+      "city": "Goch",
+      "amount": 16
+    },
+    {
+      "city": "Goldenstedt",
+      "amount": 37
+    },
+    {
+      "city": "Golmbach",
+      "amount": 2
+    },
+    {
+      "city": "Golmsdorf",
+      "amount": 3
+    },
+    {
+      "city": "Gomaringen",
+      "amount": 20
+    },
+    {
+      "city": "Gommersheim",
+      "amount": 2
+    },
+    {
+      "city": "Goslar",
+      "amount": 53
+    },
+    {
+      "city": "Gotha",
+      "amount": 7
+    },
+    {
+      "city": "Gottenheim",
+      "amount": 21
+    },
+    {
+      "city": "Gottmadingen",
+      "amount": 3
+    },
+    {
+      "city": "Graben-Neudorf",
+      "amount": 21
+    },
+    {
+      "city": "Grafenau",
+      "amount": 5
+    },
+    {
+      "city": "Grafschaft",
+      "amount": 24
+    },
+    {
+      "city": "Grasbrunn",
+      "amount": 25
+    },
+    {
+      "city": "Grasellenbach",
+      "amount": 3
+    },
+    {
+      "city": "Grasleben",
+      "amount": 1
+    },
+    {
+      "city": "Grefrath",
+      "amount": 10
+    },
+    {
+      "city": "Greifswald",
+      "amount": 1275
+    },
+    {
+      "city": "Greimerath",
+      "amount": 1
+    },
+    {
+      "city": "Greiz",
+      "amount": 2
+    },
+    {
+      "city": "Greven",
+      "amount": 46
+    },
+    {
+      "city": "Grevenbroich",
+      "amount": 87
+    },
+    {
+      "city": "Griesheim",
+      "amount": 160
+    },
+    {
+      "city": "Grimma",
+      "amount": 5
+    },
+    {
+      "city": "Gronau (Westfalen)",
+      "amount": 7
+    },
+    {
+      "city": "Grosbliederstroff",
+      "amount": 1
+    },
+    {
+      "city": "Groß Grönau",
+      "amount": 8
+    },
+    {
+      "city": "Groß Quenstedt",
+      "amount": 1
+    },
+    {
+      "city": "Groß Sarau",
+      "amount": 3
+    },
+    {
+      "city": "Groß-Gerau",
+      "amount": 21
+    },
+    {
+      "city": "Groß-Umstadt",
+      "amount": 29
+    },
+    {
+      "city": "Groß-Zimmern",
+      "amount": 36
+    },
+    {
+      "city": "Großbeeren",
+      "amount": 26
+    },
+    {
+      "city": "Großheirath",
+      "amount": 1
+    },
+    {
+      "city": "Großkarolinenfeld",
+      "amount": 6
+    },
+    {
+      "city": "Großkrotzenburg",
+      "amount": 30
+    },
+    {
+      "city": "Großmehring",
+      "amount": 10
+    },
+    {
+      "city": "Großostheim",
+      "amount": 28
+    },
+    {
+      "city": "Großpaschleben",
+      "amount": 1
+    },
+    {
+      "city": "Großpösna",
+      "amount": 10
+    },
+    {
+      "city": "Großröda",
+      "amount": 1
+    },
+    {
+      "city": "Großschirma",
+      "amount": 2
+    },
+    {
+      "city": "Großtreben-Zwethau",
+      "amount": 1
+    },
+    {
+      "city": "Gründau",
+      "amount": 5
+    },
+    {
+      "city": "Grünkraut",
+      "amount": 9
+    },
+    {
+      "city": "Grünwald",
+      "amount": 63
+    },
+    {
+      "city": "Gräfelfing",
+      "amount": 15
+    },
+    {
+      "city": "Gröbenzell",
+      "amount": 96
+    },
+    {
+      "city": "Guldental",
+      "amount": 1
+    },
+    {
+      "city": "Gummersbach",
+      "amount": 129
+    },
+    {
+      "city": "Gundelfingen",
+      "amount": 5
+    },
+    {
+      "city": "Gundelsheim",
+      "amount": 45
+    },
+    {
+      "city": "Gutach (Schwarzwaldbahn)",
+      "amount": 1
+    },
+    {
+      "city": "Guxhagen",
+      "amount": 5
+    },
+    {
+      "city": "Güntersleben",
+      "amount": 4
+    },
+    {
+      "city": "Günthersleben-Wechmar",
+      "amount": 1
+    },
+    {
+      "city": "Günzburg",
+      "amount": 21
+    },
+    {
+      "city": "Güsten",
+      "amount": 1
+    },
+    {
+      "city": "Güstrow",
+      "amount": 19
+    },
+    {
+      "city": "Gütersloh",
+      "amount": 150
+    },
+    {
+      "city": "Gägelow",
+      "amount": 2
+    },
+    {
+      "city": "Gärtringen",
+      "amount": 1
+    },
+    {
+      "city": "Göppingen",
+      "amount": 78
+    },
+    {
+      "city": "Görlitz",
+      "amount": 53
+    },
+    {
+      "city": "Göttingen",
+      "amount": 3477
+    },
+    {
+      "city": "Haan",
+      "amount": 17
+    },
+    {
+      "city": "Haar",
+      "amount": 3
+    },
+    {
+      "city": "Hackenheim",
+      "amount": 2
+    },
+    {
+      "city": "Hadamar",
+      "amount": 5
+    },
+    {
+      "city": "Hagen",
+      "amount": 362
+    },
+    {
+      "city": "Hagen am Teutoburger Wald",
+      "amount": 57
+    },
+    {
+      "city": "Hagenbach",
+      "amount": 6
+    },
+    {
+      "city": "Hahnbach",
+      "amount": 3
+    },
+    {
+      "city": "Hahnstätten",
+      "amount": 5
+    },
+    {
+      "city": "Haiger",
+      "amount": 10
+    },
+    {
+      "city": "Haimendorfer Forst",
+      "amount": 7
+    },
+    {
+      "city": "Haimhausen",
+      "amount": 1
+    },
+    {
+      "city": "Hainburg",
+      "amount": 19
+    },
+    {
+      "city": "Halberstadt",
+      "amount": 51
+    },
+    {
+      "city": "Hallbergmoos",
+      "amount": 7
+    },
+    {
+      "city": "Halle (Saale)",
+      "amount": 165
+    },
+    {
+      "city": "Halle (Westfalen)",
+      "amount": 33
+    },
+    {
+      "city": "Hallerndorf",
+      "amount": 3
+    },
+    {
+      "city": "Hallstadt",
+      "amount": 2
+    },
+    {
+      "city": "Halsbrücke",
+      "amount": 8
+    },
+    {
+      "city": "Halstenbek",
+      "amount": 17
+    },
+    {
+      "city": "Haltern am See",
+      "amount": 44
+    },
+    {
+      "city": "Halver",
+      "amount": 14
+    },
+    {
+      "city": "Hamberge",
+      "amount": 3
+    },
+    {
+      "city": "Hambrücken",
+      "amount": 19
+    },
+    {
+      "city": "Hamburg",
+      "amount": 6609
+    },
+    {
+      "city": "Hamburg-Mitte",
+      "amount": 13
+    },
+    {
+      "city": "Hambühren",
+      "amount": 10
+    },
+    {
+      "city": "Hameln",
+      "amount": 57
+    },
+    {
+      "city": "Hamm",
+      "amount": 395
+    },
+    {
+      "city": "Hammah",
+      "amount": 5
+    },
+    {
+      "city": "Hammersbach",
+      "amount": 3
+    },
+    {
+      "city": "Hammerstein",
+      "amount": 2
+    },
+    {
+      "city": "Hamminkeln",
+      "amount": 53
+    },
+    {
+      "city": "Hanau",
+      "amount": 175
+    },
+    {
+      "city": "Handewitt",
+      "amount": 23
+    },
+    {
+      "city": "Hannover",
+      "amount": 7294
+    },
+    {
+      "city": "Hanover",
+      "amount": 262
+    },
+    {
+      "city": "Hard",
+      "amount": 4
+    },
+    {
+      "city": "Hardt",
+      "amount": 2
+    },
+    {
+      "city": "Haren (Ems)",
+      "amount": 9
+    },
+    {
+      "city": "Harrislee",
+      "amount": 11
+    },
+    {
+      "city": "Harsdorf",
+      "amount": 1
+    },
+    {
+      "city": "Harsewinkel",
+      "amount": 7
+    },
+    {
+      "city": "Harsum",
+      "amount": 37
+    },
+    {
+      "city": "Harztor",
+      "amount": 2
+    },
+    {
+      "city": "Hasbergen",
+      "amount": 24
+    },
+    {
+      "city": "Hasloch",
+      "amount": 1
+    },
+    {
+      "city": "Hassendorf",
+      "amount": 4
+    },
+    {
+      "city": "Hattersheim am Main",
+      "amount": 17
+    },
+    {
+      "city": "Hattingen",
+      "amount": 240
+    },
+    {
+      "city": "Hattorf am Harz",
+      "amount": 1
+    },
+    {
+      "city": "Hattstedt",
+      "amount": 4
+    },
+    {
+      "city": "Hauptsmoor",
+      "amount": 4
+    },
+    {
+      "city": "Haverlah",
+      "amount": 1
+    },
+    {
+      "city": "Havixbeck",
+      "amount": 2
+    },
+    {
+      "city": "Hawangen",
+      "amount": 1
+    },
+    {
+      "city": "Haßloch",
+      "amount": 28
+    },
+    {
+      "city": "Hechingen",
+      "amount": 1
+    },
+    {
+      "city": "Heddesheim",
+      "amount": 14
+    },
+    {
+      "city": "Heede",
+      "amount": 3
+    },
+    {
+      "city": "Heek",
+      "amount": 2
+    },
+    {
+      "city": "Heeslingen",
+      "amount": 3
+    },
+    {
+      "city": "Heeßen",
+      "amount": 8
+    },
+    {
+      "city": "Hégenheim",
+      "amount": 28
+    },
+    {
+      "city": "Heide",
+      "amount": 108
+    },
+    {
+      "city": "Heidelberg",
+      "amount": 2964
+    },
+    {
+      "city": "Heidenheim an der Brenz",
+      "amount": 76
+    },
+    {
+      "city": "Heidesheim am Rhein",
+      "amount": 8
+    },
+    {
+      "city": "Heikendorf",
+      "amount": 13
+    },
+    {
+      "city": "Heilbronn",
+      "amount": 432
+    },
+    {
+      "city": "Heiligenhaus",
+      "amount": 6
+    },
+    {
+      "city": "Heiligkreuzsteinach",
+      "amount": 1
+    },
+    {
+      "city": "Heinersreuth",
+      "amount": 9
+    },
+    {
+      "city": "Heiningen",
+      "amount": 3
+    },
+    {
+      "city": "Heinsberg",
+      "amount": 19
+    },
+    {
+      "city": "Helmstedt",
+      "amount": 20
+    },
+    {
+      "city": "Hemer",
+      "amount": 40
+    },
+    {
+      "city": "Hemmingen",
+      "amount": 77
+    },
+    {
+      "city": "Hemmingstedt",
+      "amount": 24
+    },
+    {
+      "city": "Hemsbach",
+      "amount": 16
+    },
+    {
+      "city": "Henfenfeld",
+      "amount": 1
+    },
+    {
+      "city": "Hengersberg",
+      "amount": 5
+    },
+    {
+      "city": "Hennef (Sieg)",
+      "amount": 74
+    },
+    {
+      "city": "Hennigsdorf",
+      "amount": 3
+    },
+    {
+      "city": "Henstedt-Ulzburg",
+      "amount": 18
+    },
+    {
+      "city": "Heppenheim (Bergstraße)",
+      "amount": 53
+    },
+    {
+      "city": "Herborn",
+      "amount": 4
+    },
+    {
+      "city": "Herbrechtingen",
+      "amount": 3
+    },
+    {
+      "city": "Herdecke",
+      "amount": 1
+    },
+    {
+      "city": "Herford",
+      "amount": 89
+    },
+    {
+      "city": "Herne",
+      "amount": 695
+    },
+    {
+      "city": "Heroldsberg",
+      "amount": 40
+    },
+    {
+      "city": "Herrenberg",
+      "amount": 44
+    },
+    {
+      "city": "Herrieden",
+      "amount": 5
+    },
+    {
+      "city": "Herrsching am Ammersee",
+      "amount": 86
+    },
+    {
+      "city": "Herscheid",
+      "amount": 8
+    },
+    {
+      "city": "Herten",
+      "amount": 140
+    },
+    {
+      "city": "Herxheim bei Landau (Pfalz)",
+      "amount": 36
+    },
+    {
+      "city": "Herzberg am Harz",
+      "amount": 2
+    },
+    {
+      "city": "Herzebrock-Clarholz",
+      "amount": 4
+    },
+    {
+      "city": "Herzogenaurach",
+      "amount": 58
+    },
+    {
+      "city": "Herzogenrath",
+      "amount": 147
+    },
+    {
+      "city": "Hesel",
+      "amount": 1
+    },
+    {
+      "city": "Hespe",
+      "amount": 4
+    },
+    {
+      "city": "Hessisch Oldendorf",
+      "amount": 15
+    },
+    {
+      "city": "Hetlingen",
+      "amount": 2
+    },
+    {
+      "city": "Hettstadt",
+      "amount": 5
+    },
+    {
+      "city": "Hettstedt",
+      "amount": 2
+    },
+    {
+      "city": "Hetzles",
+      "amount": 1
+    },
+    {
+      "city": "Heubach",
+      "amount": 10
+    },
+    {
+      "city": "Heuchelheim",
+      "amount": 33
+    },
+    {
+      "city": "Heuchelheim-Klingen",
+      "amount": 15
+    },
+    {
+      "city": "Heusenstamm",
+      "amount": 13
+    },
+    {
+      "city": "Heusweiler",
+      "amount": 4
+    },
+    {
+      "city": "Heuweiler",
+      "amount": 177
+    },
+    {
+      "city": "Heßdorf",
+      "amount": 34
+    },
+    {
+      "city": "Heßheim",
+      "amount": 3
+    },
+    {
+      "city": "Hiddenhausen",
+      "amount": 15
+    },
+    {
+      "city": "Hilchenbach",
+      "amount": 22
+    },
+    {
+      "city": "Hilden",
+      "amount": 205
+    },
+    {
+      "city": "Hildesheim",
+      "amount": 1099
+    },
+    {
+      "city": "Hille",
+      "amount": 12
+    },
+    {
+      "city": "Hilter am Teutoburger Wald",
+      "amount": 10
+    },
+    {
+      "city": "Hilzingen",
+      "amount": 4
+    },
+    {
+      "city": "Hinding",
+      "amount": 3
+    },
+    {
+      "city": "Hinrichshagen",
+      "amount": 4
+    },
+    {
+      "city": "Hinte",
+      "amount": 5
+    },
+    {
+      "city": "Hirschberg",
+      "amount": 3
+    },
+    {
+      "city": "Hirschberg an der Bergstraße",
+      "amount": 59
+    },
+    {
+      "city": "Hochdorf",
+      "amount": 2
+    },
+    {
+      "city": "Hochdorf-Assenheim",
+      "amount": 3
+    },
+    {
+      "city": "Hochheim am Main",
+      "amount": 30
+    },
+    {
+      "city": "Hochspeyer",
+      "amount": 4
+    },
+    {
+      "city": "Hochstadt (Pfalz)",
+      "amount": 6
+    },
+    {
+      "city": "Hockenheim",
+      "amount": 64
+    },
+    {
+      "city": "Hofbieber",
+      "amount": 7
+    },
+    {
+      "city": "Hofheim am Taunus",
+      "amount": 35
+    },
+    {
+      "city": "Hofoldinger Forst",
+      "amount": 1
+    },
+    {
+      "city": "Hohberg",
+      "amount": 8
+    },
+    {
+      "city": "Hohen Neuendorf",
+      "amount": 4
+    },
+    {
+      "city": "Hohenaspe",
+      "amount": 2
+    },
+    {
+      "city": "Hohenbrunn",
+      "amount": 12
+    },
+    {
+      "city": "Hohenweiler",
+      "amount": 1
+    },
+    {
+      "city": "Hohnhorst",
+      "amount": 2
+    },
+    {
+      "city": "Hollenbach",
+      "amount": 1
+    },
+    {
+      "city": "Hollenstedt",
+      "amount": 1
+    },
+    {
+      "city": "Holzgerlingen",
+      "amount": 22
+    },
+    {
+      "city": "Holzheim",
+      "amount": 1
+    },
+    {
+      "city": "Holzminden",
+      "amount": 18
+    },
+    {
+      "city": "Holzwickede",
+      "amount": 45
+    },
+    {
+      "city": "Homberg (Efze)",
+      "amount": 4
+    },
+    {
+      "city": "Homberg (Ohm)",
+      "amount": 5
+    },
+    {
+      "city": "Homburg",
+      "amount": 78
+    },
+    {
+      "city": "Hoppegarten",
+      "amount": 3
+    },
+    {
+      "city": "Horb am Neckar",
+      "amount": 28
+    },
+    {
+      "city": "Horn-Bad Meinberg",
+      "amount": 16
+    },
+    {
+      "city": "Horstmar",
+      "amount": 7
+    },
+    {
+      "city": "Hoyerswerda",
+      "amount": 13
+    },
+    {
+      "city": "Hude",
+      "amount": 18
+    },
+    {
+      "city": "Hueb",
+      "amount": 1
+    },
+    {
+      "city": "Hummeltal",
+      "amount": 7
+    },
+    {
+      "city": "Hunderdorf",
+      "amount": 2
+    },
+    {
+      "city": "Husum",
+      "amount": 33
+    },
+    {
+      "city": "Hutthurm",
+      "amount": 3
+    },
+    {
+      "city": "Hückelhoven",
+      "amount": 29
+    },
+    {
+      "city": "Hückeswagen",
+      "amount": 19
+    },
+    {
+      "city": "Hüfingen",
+      "amount": 8
+    },
+    {
+      "city": "Hügelsheim",
+      "amount": 9
+    },
+    {
+      "city": "Hüllhorst",
+      "amount": 6
+    },
+    {
+      "city": "Hünfelden",
+      "amount": 8
+    },
+    {
+      "city": "Hünxe",
+      "amount": 27
+    },
+    {
+      "city": "Hürth",
+      "amount": 137
+    },
+    {
+      "city": "Hüttenberg",
+      "amount": 58
+    },
+    {
+      "city": "Hüttlingen",
+      "amount": 15
+    },
+    {
+      "city": "Höchberg",
+      "amount": 26
+    },
+    {
+      "city": "Höchenschwand",
+      "amount": 1
+    },
+    {
+      "city": "Höchst im Odenwald",
+      "amount": 2
+    },
+    {
+      "city": "Höhenkirchen-Siegertsbrunn",
+      "amount": 4
+    },
+    {
+      "city": "Höhenkirchener Forst",
+      "amount": 3
+    },
+    {
+      "city": "Hördt",
+      "amount": 1
+    },
+    {
+      "city": "Höringen",
+      "amount": 1
+    },
+    {
+      "city": "Hörselgau",
+      "amount": 1
+    },
+    {
+      "city": "Hörstel",
+      "amount": 15
+    },
+    {
+      "city": "Hösbach",
+      "amount": 39
+    },
+    {
+      "city": "Hövelhof",
+      "amount": 15
+    },
+    {
+      "city": "Höxter",
+      "amount": 31
+    },
+    {
+      "city": "Hœnheim",
+      "amount": 25
+    },
+    {
+      "city": "Ibbenbüren",
+      "amount": 40
+    },
+    {
+      "city": "Ichenhausen",
+      "amount": 4
+    },
+    {
+      "city": "Icking",
+      "amount": 2
+    },
+    {
+      "city": "Idar-Oberstein",
+      "amount": 10
+    },
+    {
+      "city": "Idstedt",
+      "amount": 2
+    },
+    {
+      "city": "Idstein",
+      "amount": 38
+    },
+    {
+      "city": "Iffezheim",
+      "amount": 3
+    },
+    {
+      "city": "Igel",
+      "amount": 6
+    },
+    {
+      "city": "Ihlow",
+      "amount": 4
+    },
+    {
+      "city": "Ilberstedt",
+      "amount": 1
+    },
+    {
+      "city": "Illingen",
+      "amount": 8
+    },
+    {
+      "city": "Illkirch",
+      "amount": 8
+    },
+    {
+      "city": "Illkirch-Graffenstaden",
+      "amount": 33
+    },
+    {
+      "city": "Illschwang",
+      "amount": 1
+    },
+    {
+      "city": "Ilmenau",
+      "amount": 381
+    },
+    {
+      "city": "Ilmmünster",
+      "amount": 2
+    },
+    {
+      "city": "Ilmtal",
+      "amount": 2
+    },
+    {
+      "city": "Ilsede",
+      "amount": 7
+    },
+    {
+      "city": "Ilsfeld",
+      "amount": 1
+    },
+    {
+      "city": "Immendingen",
+      "amount": 2
+    },
+    {
+      "city": "Immenstaad am Bodensee",
+      "amount": 7
+    },
+    {
+      "city": "Immenstadt im Allgäu",
+      "amount": 13
+    },
+    {
+      "city": "Ingelbach",
+      "amount": 1
+    },
+    {
+      "city": "Ingelheim am Rhein",
+      "amount": 34
+    },
+    {
+      "city": "Ingersheim",
+      "amount": 15
+    },
+    {
+      "city": "Ingolstadt",
+      "amount": 649
+    },
+    {
+      "city": "Insel Poel",
+      "amount": 2
+    },
+    {
+      "city": "Insheim",
+      "amount": 10
+    },
+    {
+      "city": "Isenbüttel",
+      "amount": 23
+    },
+    {
+      "city": "Iserlohn",
+      "amount": 169
+    },
+    {
+      "city": "Isernhagen",
+      "amount": 36
+    },
+    {
+      "city": "Ismaning",
+      "amount": 55
+    },
+    {
+      "city": "Isselburg",
+      "amount": 7
+    },
+    {
+      "city": "Itzehoe",
+      "amount": 22
+    },
+    {
+      "city": "Jade",
+      "amount": 3
+    },
+    {
+      "city": "Jahnsdorf/Erzgeb",
+      "amount": 2
+    },
+    {
+      "city": "Jembke",
+      "amount": 7
+    },
+    {
+      "city": "Jena",
+      "amount": 1741
+    },
+    {
+      "city": "Jesteburg",
+      "amount": 4
+    },
+    {
+      "city": "Johannesberg",
+      "amount": 3
+    },
+    {
+      "city": "Jork",
+      "amount": 21
+    },
+    {
+      "city": "Jungingen",
+      "amount": 1
+    },
+    {
+      "city": "Jüchen",
+      "amount": 30
+    },
+    {
+      "city": "Jülich",
+      "amount": 41
+    },
+    {
+      "city": "Kaarst",
+      "amount": 104
+    },
+    {
+      "city": "Kabelsketal",
+      "amount": 1
+    },
+    {
+      "city": "Kaiserslautern",
+      "amount": 1030
+    },
+    {
+      "city": "Kalefeld",
+      "amount": 1
+    },
+    {
+      "city": "Kalkar",
+      "amount": 10
+    },
+    {
+      "city": "Kalletal",
+      "amount": 8
+    },
+    {
+      "city": "Kaltenlengsfeld",
+      "amount": 1
+    },
+    {
+      "city": "Kaltenwestheim",
+      "amount": 3
+    },
+    {
+      "city": "Kamen",
+      "amount": 58
+    },
+    {
+      "city": "Kammeltal",
+      "amount": 1
+    },
+    {
+      "city": "Kamp-Lintfort",
+      "amount": 51
+    },
+    {
+      "city": "Karben",
+      "amount": 11
+    },
+    {
+      "city": "Karlsbad",
+      "amount": 23
+    },
+    {
+      "city": "Karlsfeld",
+      "amount": 57
+    },
+    {
+      "city": "Karlshuld",
+      "amount": 2
+    },
+    {
+      "city": "Karlskron",
+      "amount": 1
+    },
+    {
+      "city": "Karlsruhe",
+      "amount": 4807
+    },
+    {
+      "city": "Karlstein am Main",
+      "amount": 6
+    },
+    {
+      "city": "Kasel",
+      "amount": 9
+    },
+    {
+      "city": "Kassel",
+      "amount": 1717
+    },
+    {
+      "city": "Katlenburg-Lindau",
+      "amount": 2
+    },
+    {
+      "city": "Katzweiler",
+      "amount": 8
+    },
+    {
+      "city": "Kaufbeuren",
+      "amount": 11
+    },
+    {
+      "city": "Kaufering",
+      "amount": 6
+    },
+    {
+      "city": "Kaufungen",
+      "amount": 10
+    },
+    {
+      "city": "Kefenrod",
+      "amount": 1
+    },
+    {
+      "city": "Kehl",
+      "amount": 10
+    },
+    {
+      "city": "Kelkheim (Taunus)",
+      "amount": 26
+    },
+    {
+      "city": "Kelsterbach",
+      "amount": 11
+    },
+    {
+      "city": "Keltern",
+      "amount": 10
+    },
+    {
+      "city": "Kemmern",
+      "amount": 30
+    },
+    {
+      "city": "Kemnitz",
+      "amount": 7
+    },
+    {
+      "city": "Kempen",
+      "amount": 58
+    },
+    {
+      "city": "Kempten",
+      "amount": 16
+    },
+    {
+      "city": "Kempten (Allgau)",
+      "amount": 7
+    },
+    {
+      "city": "Kempten (Allgäu)",
+      "amount": 422
+    },
+    {
+      "city": "Kerken",
+      "amount": 6
+    },
+    {
+      "city": "Kerkrade",
+      "amount": 2
+    },
+    {
+      "city": "Kernen im Remstal",
+      "amount": 34
+    },
+    {
+      "city": "Kerpen",
+      "amount": 39
+    },
+    {
+      "city": "Ketsch",
+      "amount": 68
+    },
+    {
+      "city": "Kettig",
+      "amount": 3
+    },
+    {
+      "city": "Keulen",
+      "amount": 1
+    },
+    {
+      "city": "Kevelaer",
+      "amount": 24
+    },
+    {
+      "city": "Kiedrich",
+      "amount": 11
+    },
+    {
+      "city": "Kiel",
+      "amount": 3458
+    },
+    {
+      "city": "Kierspe",
+      "amount": 14
+    },
+    {
+      "city": "Kieselbronn",
+      "amount": 23
+    },
+    {
+      "city": "Kindsbach",
+      "amount": 2
+    },
+    {
+      "city": "Kirchardt",
+      "amount": 3
+    },
+    {
+      "city": "Kirchberg an der Jagst",
+      "amount": 2
+    },
+    {
+      "city": "Kirchberg an der Murr",
+      "amount": 11
+    },
+    {
+      "city": "Kirchdorf an der Amper",
+      "amount": 7
+    },
+    {
+      "city": "Kirchehrenbach",
+      "amount": 5
+    },
+    {
+      "city": "Kirchen (Sieg)",
+      "amount": 12
+    },
+    {
+      "city": "Kirchentellinsfurt",
+      "amount": 59
+    },
+    {
+      "city": "Kirchhain",
+      "amount": 31
+    },
+    {
+      "city": "Kirchheim bei München",
+      "amount": 5
+    },
+    {
+      "city": "Kirchheim unter Teck",
+      "amount": 33
+    },
+    {
+      "city": "Kirchhundem",
+      "amount": 4
+    },
+    {
+      "city": "Kirchlengern",
+      "amount": 22
+    },
+    {
+      "city": "Kirchlinteln",
+      "amount": 3
+    },
+    {
+      "city": "Kirchrode-Bemerode-Wülferode",
+      "amount": 7
+    },
+    {
+      "city": "Kirchzarten",
+      "amount": 78
+    },
+    {
+      "city": "Kirkel",
+      "amount": 6
+    },
+    {
+      "city": "Kirn",
+      "amount": 2
+    },
+    {
+      "city": "Kirrweiler (Pfalz)",
+      "amount": 2
+    },
+    {
+      "city": "Kisdorf",
+      "amount": 6
+    },
+    {
+      "city": "Kissing",
+      "amount": 14
+    },
+    {
+      "city": "Kitzingen",
+      "amount": 21
+    },
+    {
+      "city": "KL",
+      "amount": 2
+    },
+    {
+      "city": "Klein Nordende",
+      "amount": 18
+    },
+    {
+      "city": "Klein Offenseth-Sparrieshoop",
+      "amount": 1
+    },
+    {
+      "city": "Klein Trebbow",
+      "amount": 1
+    },
+    {
+      "city": "Klein Vielen",
+      "amount": 1
+    },
+    {
+      "city": "Klein-Winternheim",
+      "amount": 33
+    },
+    {
+      "city": "Kleinblittersdorf",
+      "amount": 4
+    },
+    {
+      "city": "Kleinlangheim",
+      "amount": 2
+    },
+    {
+      "city": "Kleinmachnow",
+      "amount": 27
+    },
+    {
+      "city": "Kleinniedesheim",
+      "amount": 4
+    },
+    {
+      "city": "Kleinsendelbach",
+      "amount": 7
+    },
+    {
+      "city": "Klempau",
+      "amount": 2
+    },
+    {
+      "city": "Kleve",
+      "amount": 150
+    },
+    {
+      "city": "Klingenmünster",
+      "amount": 13
+    },
+    {
+      "city": "Klipphausen",
+      "amount": 4
+    },
+    {
+      "city": "KN",
+      "amount": 4
+    },
+    {
+      "city": "Knöringen",
+      "amount": 13
+    },
+    {
+      "city": "Kobern-Gondorf",
+      "amount": 12
+    },
+    {
+      "city": "Koblenz",
+      "amount": 980
+    },
+    {
+      "city": "Kolbermoor",
+      "amount": 18
+    },
+    {
+      "city": "Koldenbüttel",
+      "amount": 1
+    },
+    {
+      "city": "Kolkwitz",
+      "amount": 8
+    },
+    {
+      "city": "Konstanz",
+      "amount": 997
+    },
+    {
+      "city": "Konz",
+      "amount": 4
+    },
+    {
+      "city": "Korbach",
+      "amount": 13
+    },
+    {
+      "city": "Korntal-Münchingen",
+      "amount": 93
+    },
+    {
+      "city": "Kornwestheim",
+      "amount": 5
+    },
+    {
+      "city": "Korschenbroich",
+      "amount": 54
+    },
+    {
+      "city": "Kosel",
+      "amount": 1
+    },
+    {
+      "city": "Kraftsdorf",
+      "amount": 2
+    },
+    {
+      "city": "Kraiburg am Inn",
+      "amount": 4
+    },
+    {
+      "city": "Kraichtal",
+      "amount": 29
+    },
+    {
+      "city": "Krailling",
+      "amount": 46
+    },
+    {
+      "city": "Kramerhof",
+      "amount": 8
+    },
+    {
+      "city": "Kranenburg",
+      "amount": 4
+    },
+    {
+      "city": "Krefeld",
+      "amount": 689
+    },
+    {
+      "city": "Kreischa",
+      "amount": 5
+    },
+    {
+      "city": "Kressbronn am Bodensee",
+      "amount": 5
+    },
+    {
+      "city": "Kretz",
+      "amount": 3
+    },
+    {
+      "city": "Kreuzberg",
+      "amount": 4
+    },
+    {
+      "city": "Kreuzlingen",
+      "amount": 656
+    },
+    {
+      "city": "Kreuztal",
+      "amount": 101
+    },
+    {
+      "city": "Kreuzwertheim",
+      "amount": 8
+    },
+    {
+      "city": "Kriftel",
+      "amount": 37
+    },
+    {
+      "city": "Kritzmow",
+      "amount": 3
+    },
+    {
+      "city": "Krombach",
+      "amount": 4
+    },
+    {
+      "city": "Kronberg im Taunus",
+      "amount": 2
+    },
+    {
+      "city": "Kronshagen",
+      "amount": 272
+    },
+    {
+      "city": "Kropp",
+      "amount": 1
+    },
+    {
+      "city": "Krummhörn",
+      "amount": 6
+    },
+    {
+      "city": "Kulmbach",
+      "amount": 14
+    },
+    {
+      "city": "Kumhausen",
+      "amount": 11
+    },
+    {
+      "city": "Kupferzell",
+      "amount": 6
+    },
+    {
+      "city": "Kuppenheim",
+      "amount": 8
+    },
+    {
+      "city": "Kusterdingen",
+      "amount": 32
+    },
+    {
+      "city": "Kyffhäuserland",
+      "amount": 1
+    },
+    {
+      "city": "Kümmersbruck",
+      "amount": 8
+    },
+    {
+      "city": "Künzell",
+      "amount": 9
+    },
+    {
+      "city": "Küps",
+      "amount": 1
+    },
+    {
+      "city": "Kürten",
+      "amount": 12
+    },
+    {
+      "city": "Küssaberg",
+      "amount": 3
+    },
+    {
+      "city": "Kämpfelbach",
+      "amount": 19
+    },
+    {
+      "city": "Kölln-Reisiek",
+      "amount": 16
+    },
+    {
+      "city": "Köln",
+      "amount": 11405
+    },
+    {
+      "city": "Königs Wusterhausen",
+      "amount": 5
+    },
+    {
+      "city": "Königsbach-Stein",
+      "amount": 16
+    },
+    {
+      "city": "Königsbronn",
+      "amount": 2
+    },
+    {
+      "city": "Königsbrunn",
+      "amount": 130
+    },
+    {
+      "city": "Königsdorf",
+      "amount": 4
+    },
+    {
+      "city": "Königslutter",
+      "amount": 1
+    },
+    {
+      "city": "Königstein im Taunus",
+      "amount": 42
+    },
+    {
+      "city": "Königswinter",
+      "amount": 191
+    },
+    {
+      "city": "Kösching",
+      "amount": 8
+    },
+    {
+      "city": "Köthen (Anhalt)",
+      "amount": 14
+    },
+    {
+      "city": "Kötz",
+      "amount": 2
+    },
+    {
+      "city": "LA",
+      "amount": 3
+    },
+    {
+      "city": "Laage",
+      "amount": 1
+    },
+    {
+      "city": "Laatzen",
+      "amount": 207
+    },
+    {
+      "city": "Lachendorf",
+      "amount": 2
+    },
+    {
+      "city": "Ladbergen",
+      "amount": 4
+    },
+    {
+      "city": "Ladenburg",
+      "amount": 52
+    },
+    {
+      "city": "Lage",
+      "amount": 33
+    },
+    {
+      "city": "Lahnau",
+      "amount": 31
+    },
+    {
+      "city": "Lahnstein",
+      "amount": 28
+    },
+    {
+      "city": "Lahntal",
+      "amount": 47
+    },
+    {
+      "city": "Lahr/Schwarzwald",
+      "amount": 29
+    },
+    {
+      "city": "Lambsheim",
+      "amount": 11
+    },
+    {
+      "city": "Lampertheim",
+      "amount": 40
+    },
+    {
+      "city": "Landau",
+      "amount": 30
+    },
+    {
+      "city": "Landau in der Pfalz",
+      "amount": 897
+    },
+    {
+      "city": "Landrecht",
+      "amount": 1
+    },
+    {
+      "city": "Landsberg am Lech",
+      "amount": 23
+    },
+    {
+      "city": "Landshut",
+      "amount": 365
+    },
+    {
+      "city": "Langelsheim",
+      "amount": 2
+    },
+    {
+      "city": "Langen (Hessen)",
+      "amount": 77
+    },
+    {
+      "city": "Langenargen",
+      "amount": 14
+    },
+    {
+      "city": "Langenbach",
+      "amount": 6
+    },
+    {
+      "city": "Langenberg",
+      "amount": 10
+    },
+    {
+      "city": "Langenfeld (Rheinland)",
+      "amount": 103
+    },
+    {
+      "city": "Langenhagen",
+      "amount": 204
+    },
+    {
+      "city": "Langenlonsheim",
+      "amount": 3
+    },
+    {
+      "city": "Langenselbold",
+      "amount": 20
+    },
+    {
+      "city": "Langensendelbach",
+      "amount": 34
+    },
+    {
+      "city": "Langenstein",
+      "amount": 1
+    },
+    {
+      "city": "Langerwehe",
+      "amount": 5
+    },
+    {
+      "city": "Langgöns",
+      "amount": 1
+    },
+    {
+      "city": "Langwedel",
+      "amount": 2
+    },
+    {
+      "city": "Langweid am Lech",
+      "amount": 2
+    },
+    {
+      "city": "Lappersdorf",
+      "amount": 17
+    },
+    {
+      "city": "Latendorf",
+      "amount": 2
+    },
+    {
+      "city": "Lauben",
+      "amount": 10
+    },
+    {
+      "city": "Lauchringen",
+      "amount": 1
+    },
+    {
+      "city": "Lauda-Königshofen",
+      "amount": 7
+    },
+    {
+      "city": "Lauf an der Pegnitz",
+      "amount": 28
+    },
+    {
+      "city": "Laufamholzer Forst",
+      "amount": 79
+    },
+    {
+      "city": "Lauffen am Neckar",
+      "amount": 32
+    },
+    {
+      "city": "Laupheim",
+      "amount": 6
+    },
+    {
+      "city": "Lauterach",
+      "amount": 8
+    },
+    {
+      "city": "Lauterbach",
+      "amount": 2
+    },
+    {
+      "city": "Lautertal",
+      "amount": 30
+    },
+    {
+      "city": "Lautertal (Odenwald)",
+      "amount": 9
+    },
+    {
+      "city": "Leer",
+      "amount": 1
+    },
+    {
+      "city": "Leer (Ostfriesland)",
+      "amount": 51
+    },
+    {
+      "city": "Legau",
+      "amount": 2
+    },
+    {
+      "city": "Leherheide",
+      "amount": 8
+    },
+    {
+      "city": "Lehre",
+      "amount": 11
+    },
+    {
+      "city": "Lehrensteinsfeld",
+      "amount": 3
+    },
+    {
+      "city": "Lehrte",
+      "amount": 65
+    },
+    {
+      "city": "Leichlingen (Rheinland)",
+      "amount": 127
+    },
+    {
+      "city": "Leidersbach",
+      "amount": 6
+    },
+    {
+      "city": "Leiferde",
+      "amount": 6
+    },
+    {
+      "city": "Leimen",
+      "amount": 5
+    },
+    {
+      "city": "Leinatal",
+      "amount": 2
+    },
+    {
+      "city": "Leinburg",
+      "amount": 3
+    },
+    {
+      "city": "Leinefelde-Worbis",
+      "amount": 1
+    },
+    {
+      "city": "Leinfelden-Echterdingen",
+      "amount": 44
+    },
+    {
+      "city": "Leingarten",
+      "amount": 21
+    },
+    {
+      "city": "Leinzell",
+      "amount": 11
+    },
+    {
+      "city": "Leipheim",
+      "amount": 2
+    },
+    {
+      "city": "Leipzig",
+      "amount": 3375
+    },
+    {
+      "city": "Lemberg",
+      "amount": 2
+    },
+    {
+      "city": "Lemgo",
+      "amount": 172
+    },
+    {
+      "city": "Lemwerder",
+      "amount": 2
+    },
+    {
+      "city": "Lengede",
+      "amount": 4
+    },
+    {
+      "city": "Lengerich",
+      "amount": 2
+    },
+    {
+      "city": "Lennestadt",
+      "amount": 10
+    },
+    {
+      "city": "Lenningen",
+      "amount": 6
+    },
+    {
+      "city": "Lenting",
+      "amount": 28
+    },
+    {
+      "city": "Leonberg",
+      "amount": 50
+    },
+    {
+      "city": "Leopoldshöhe",
+      "amount": 29
+    },
+    {
+      "city": "Leuna",
+      "amount": 2
+    },
+    {
+      "city": "Leutenbach",
+      "amount": 31
+    },
+    {
+      "city": "Leutkirch im Allgäu",
+      "amount": 6
+    },
+    {
+      "city": "Leverkusen",
+      "amount": 412
+    },
+    {
+      "city": "Lich",
+      "amount": 4
+    },
+    {
+      "city": "Lichtenau",
+      "amount": 8
+    },
+    {
+      "city": "Lichtenfels",
+      "amount": 7
+    },
+    {
+      "city": "Lichtenstein",
+      "amount": 24
+    },
+    {
+      "city": "Lichtentanne",
+      "amount": 1
+    },
+    {
+      "city": "Lichtenwald",
+      "amount": 3
+    },
+    {
+      "city": "Lichterfelde",
+      "amount": 1
+    },
+    {
+      "city": "Liebenburg",
+      "amount": 3
+    },
+    {
+      "city": "Liederbach am Taunus",
+      "amount": 76
+    },
+    {
+      "city": "Liestal",
+      "amount": 42
+    },
+    {
+      "city": "Limbach-Oberfrohna",
+      "amount": 7
+    },
+    {
+      "city": "Limburg an der Lahn",
+      "amount": 52
+    },
+    {
+      "city": "Limburgerhof",
+      "amount": 20
+    },
+    {
+      "city": "Lindau (Bodensee)",
+      "amount": 20
+    },
+    {
+      "city": "Linden",
+      "amount": 67
+    },
+    {
+      "city": "Lindenberg",
+      "amount": 6
+    },
+    {
+      "city": "Lindenberg im Allgäu",
+      "amount": 3
+    },
+    {
+      "city": "Lindhorst",
+      "amount": 3
+    },
+    {
+      "city": "Lindlar",
+      "amount": 9
+    },
+    {
+      "city": "Lingen (Ems)",
+      "amount": 194
+    },
+    {
+      "city": "Linkenheim-Hochstetten",
+      "amount": 59
+    },
+    {
+      "city": "Linnich",
+      "amount": 2
+    },
+    {
+      "city": "Lippetal",
+      "amount": 6
+    },
+    {
+      "city": "Lippstadt",
+      "amount": 198
+    },
+    {
+      "city": "Litzendorf",
+      "amount": 5
+    },
+    {
+      "city": "Lohe-Rickelshof",
+      "amount": 2
+    },
+    {
+      "city": "Lohfelden",
+      "amount": 29
+    },
+    {
+      "city": "Lohmar",
+      "amount": 35
+    },
+    {
+      "city": "Lohne",
+      "amount": 4
+    },
+    {
+      "city": "Lohne (Oldenburg)",
+      "amount": 82
+    },
+    {
+      "city": "Lollar",
+      "amount": 51
+    },
+    {
+      "city": "Longen",
+      "amount": 3
+    },
+    {
+      "city": "Longuich",
+      "amount": 17
+    },
+    {
+      "city": "Lontzen",
+      "amount": 7
+    },
+    {
+      "city": "Loose",
+      "amount": 1
+    },
+    {
+      "city": "Lorch",
+      "amount": 14
+    },
+    {
+      "city": "Lorsch",
+      "amount": 19
+    },
+    {
+      "city": "Losheim am See",
+      "amount": 3
+    },
+    {
+      "city": "Lotte",
+      "amount": 29
+    },
+    {
+      "city": "Loxstedt",
+      "amount": 6
+    },
+    {
+      "city": "Luckenwalde",
+      "amount": 2
+    },
+    {
+      "city": "Ludwigsburg",
+      "amount": 537
+    },
+    {
+      "city": "Ludwigsfelde",
+      "amount": 3
+    },
+    {
+      "city": "Ludwigshafen",
+      "amount": 12
+    },
+    {
+      "city": "Ludwigshafen am Rhein",
+      "amount": 391
+    },
+    {
+      "city": "Luhden",
+      "amount": 4
+    },
+    {
+      "city": "Luneburg",
+      "amount": 3
+    },
+    {
+      "city": "Lustadt",
+      "amount": 3
+    },
+    {
+      "city": "Lutherstadt Wittenberg",
+      "amount": 8
+    },
+    {
+      "city": "Lübbecke",
+      "amount": 15
+    },
+    {
+      "city": "Lübeck",
+      "amount": 1128
+    },
+    {
+      "city": "Lüchow",
+      "amount": 1
+    },
+    {
+      "city": "Lüdenscheid",
+      "amount": 55
+    },
+    {
+      "city": "Lüdersfeld",
+      "amount": 2
+    },
+    {
+      "city": "Lüdinghausen",
+      "amount": 18
+    },
+    {
+      "city": "Lüneburg",
+      "amount": 681
+    },
+    {
+      "city": "Lünen",
+      "amount": 93
+    },
+    {
+      "city": "Löchgau",
+      "amount": 1
+    },
+    {
+      "city": "Löhne",
+      "amount": 68
+    },
+    {
+      "city": "Lörrach",
+      "amount": 28
+    },
+    {
+      "city": "Lörzweiler",
+      "amount": 21
+    },
+    {
+      "city": "Maasbüll",
+      "amount": 2
+    },
+    {
+      "city": "Mackenrodt",
+      "amount": 3
+    },
+    {
+      "city": "Magdala",
+      "amount": 1
+    },
+    {
+      "city": "Magdeburg",
+      "amount": 2230
+    },
+    {
+      "city": "Magdeburgo",
+      "amount": 2
+    },
+    {
+      "city": "Mainaschaff",
+      "amount": 22
+    },
+    {
+      "city": "Mainhausen",
+      "amount": 9
+    },
+    {
+      "city": "Mainleus",
+      "amount": 2
+    },
+    {
+      "city": "Mainstockheim",
+      "amount": 1
+    },
+    {
+      "city": "Maintal",
+      "amount": 29
+    },
+    {
+      "city": "Mainz",
+      "amount": 3268
+    },
+    {
+      "city": "Maisach",
+      "amount": 18
+    },
+    {
+      "city": "Malsch",
+      "amount": 14
+    },
+    {
+      "city": "Manching",
+      "amount": 43
+    },
+    {
+      "city": "Mandel",
+      "amount": 3
+    },
+    {
+      "city": "Mandelbachtal",
+      "amount": 13
+    },
+    {
+      "city": "Mannheim",
+      "amount": 3583
+    },
+    {
+      "city": "Marbach am Neckar",
+      "amount": 32
+    },
+    {
+      "city": "Marburg",
+      "amount": 2143
+    },
+    {
+      "city": "Marburg an der Lahn",
+      "amount": 15
+    },
+    {
+      "city": "March",
+      "amount": 8
+    },
+    {
+      "city": "Marienheide",
+      "amount": 15
+    },
+    {
+      "city": "Marienmünster",
+      "amount": 1
+    },
+    {
+      "city": "Mark",
+      "amount": 15
+    },
+    {
+      "city": "Markdorf",
+      "amount": 23
+    },
+    {
+      "city": "Markgröningen",
+      "amount": 7
+    },
+    {
+      "city": "Markkleeberg",
+      "amount": 37
+    },
+    {
+      "city": "Markranstädt",
+      "amount": 6
+    },
+    {
+      "city": "Markt Indersdorf",
+      "amount": 2
+    },
+    {
+      "city": "Marktheidenfeld",
+      "amount": 7
+    },
+    {
+      "city": "Marktoberdorf",
+      "amount": 7
+    },
+    {
+      "city": "Marl",
+      "amount": 100
+    },
+    {
+      "city": "Marschacht",
+      "amount": 2
+    },
+    {
+      "city": "Marxzell",
+      "amount": 1
+    },
+    {
+      "city": "Marzhausen",
+      "amount": 1
+    },
+    {
+      "city": "Maselheim",
+      "amount": 4
+    },
+    {
+      "city": "Mauer",
+      "amount": 1
+    },
+    {
+      "city": "Mauerstetten",
+      "amount": 7
+    },
+    {
+      "city": "MD",
+      "amount": 1
+    },
+    {
+      "city": "Mechernich",
+      "amount": 19
+    },
+    {
+      "city": "Meckenbeuren",
+      "amount": 20
+    },
+    {
+      "city": "Meckenheim",
+      "amount": 14
+    },
+    {
+      "city": "Meckesheim",
+      "amount": 8
+    },
+    {
+      "city": "Medebach",
+      "amount": 6
+    },
+    {
+      "city": "Meerbusch",
+      "amount": 136
+    },
+    {
+      "city": "Meersburg",
+      "amount": 46
+    },
+    {
+      "city": "Mehlingen",
+      "amount": 2
+    },
+    {
+      "city": "Meiderich",
+      "amount": 3
+    },
+    {
+      "city": "Meine",
+      "amount": 10
+    },
+    {
+      "city": "Meinerzhagen",
+      "amount": 15
+    },
+    {
+      "city": "Meißen",
+      "amount": 18
+    },
+    {
+      "city": "Melle",
+      "amount": 29
+    },
+    {
+      "city": "Memmelsdorf",
+      "amount": 10
+    },
+    {
+      "city": "Memmingen",
+      "amount": 32
+    },
+    {
+      "city": "Menden (Sauerland)",
+      "amount": 83
+    },
+    {
+      "city": "Menslage",
+      "amount": 1
+    },
+    {
+      "city": "Meppen",
+      "amount": 34
+    },
+    {
+      "city": "Merchweiler",
+      "amount": 8
+    },
+    {
+      "city": "Mering",
+      "amount": 18
+    },
+    {
+      "city": "Merseburg (Saale)",
+      "amount": 23
+    },
+    {
+      "city": "Mertesdorf",
+      "amount": 315
+    },
+    {
+      "city": "Merzalben",
+      "amount": 1
+    },
+    {
+      "city": "Merzenich",
+      "amount": 2
+    },
+    {
+      "city": "Merzhausen",
+      "amount": 4
+    },
+    {
+      "city": "Merzig",
+      "amount": 21
+    },
+    {
+      "city": "Meschede",
+      "amount": 18
+    },
+    {
+      "city": "Metelen",
+      "amount": 6
+    },
+    {
+      "city": "Metten",
+      "amount": 8
+    },
+    {
+      "city": "Mettingen",
+      "amount": 15
+    },
+    {
+      "city": "Mettlach",
+      "amount": 2
+    },
+    {
+      "city": "Mettmann",
+      "amount": 69
+    },
+    {
+      "city": "Metzingen",
+      "amount": 22
+    },
+    {
+      "city": "Meuselwitz",
+      "amount": 4
+    },
+    {
+      "city": "Meßstetten",
+      "amount": 7
+    },
+    {
+      "city": "Michelfeld",
+      "amount": 1
+    },
+    {
+      "city": "Michendorf",
+      "amount": 6
+    },
+    {
+      "city": "Mihla",
+      "amount": 1
+    },
+    {
+      "city": "Mildstedt",
+      "amount": 4
+    },
+    {
+      "city": "Milower Land",
+      "amount": 1
+    },
+    {
+      "city": "Minden",
+      "amount": 190
+    },
+    {
+      "city": "Mistelgau",
+      "amount": 2
+    },
+    {
+      "city": "Mitte",
+      "amount": 2
+    },
+    {
+      "city": "Mittelbiberach",
+      "amount": 5
+    },
+    {
+      "city": "Mittelfranken",
+      "amount": 4
+    },
+    {
+      "city": "Mittelherwigsdorf",
+      "amount": 41
+    },
+    {
+      "city": "Mittelreidenbach",
+      "amount": 2
+    },
+    {
+      "city": "Mitterteich",
+      "amount": 1
+    },
+    {
+      "city": "Modautal",
+      "amount": 5
+    },
+    {
+      "city": "Moers",
+      "amount": 227
+    },
+    {
+      "city": "Mohlsdorf-Teichwolframsdorf",
+      "amount": 1
+    },
+    {
+      "city": "Moisburg",
+      "amount": 1
+    },
+    {
+      "city": "Molbergen",
+      "amount": 6
+    },
+    {
+      "city": "Molfsee",
+      "amount": 1
+    },
+    {
+      "city": "Monheim am Rhein",
+      "amount": 49
+    },
+    {
+      "city": "Moormerland",
+      "amount": 15
+    },
+    {
+      "city": "Moringen",
+      "amount": 3
+    },
+    {
+      "city": "Moritzburg",
+      "amount": 4
+    },
+    {
+      "city": "Morsbach",
+      "amount": 1
+    },
+    {
+      "city": "Morscheid",
+      "amount": 15
+    },
+    {
+      "city": "Mosbach",
+      "amount": 109
+    },
+    {
+      "city": "Much",
+      "amount": 4
+    },
+    {
+      "city": "Munderkingen",
+      "amount": 5
+    },
+    {
+      "city": "Munich",
+      "amount": 845
+    },
+    {
+      "city": "Murr",
+      "amount": 28
+    },
+    {
+      "city": "Mutlangen",
+      "amount": 9
+    },
+    {
+      "city": "Muttenz",
+      "amount": 9
+    },
+    {
+      "city": "Mutterstadt",
+      "amount": 19
+    },
+    {
+      "city": "Mühlacker",
+      "amount": 33
+    },
+    {
+      "city": "Mühlau",
+      "amount": 1
+    },
+    {
+      "city": "Mühldorf am Inn",
+      "amount": 2
+    },
+    {
+      "city": "Mühlenbecker Land",
+      "amount": 1
+    },
+    {
+      "city": "Mühlhausen",
+      "amount": 7
+    },
+    {
+      "city": "Mühlhausen-Ehingen",
+      "amount": 1
+    },
+    {
+      "city": "Mühlheim am Main",
+      "amount": 73
+    },
+    {
+      "city": "Mühltal",
+      "amount": 48
+    },
+    {
+      "city": "Mülheim",
+      "amount": 5
+    },
+    {
+      "city": "Mülheim an der Ruhr",
+      "amount": 643
+    },
+    {
+      "city": "Mülheim-Kärlich",
+      "amount": 19
+    },
+    {
+      "city": "München",
+      "amount": 12789
+    },
+    {
+      "city": "München-Flughafen",
+      "amount": 12
+    },
+    {
+      "city": "Münchenbernsdorf",
+      "amount": 2
+    },
+    {
+      "city": "Münchenstein",
+      "amount": 4
+    },
+    {
+      "city": "Münih",
+      "amount": 2
+    },
+    {
+      "city": "Münster",
+      "amount": 5675
+    },
+    {
+      "city": "Münzenberg",
+      "amount": 20
+    },
+    {
+      "city": "Möglingen",
+      "amount": 67
+    },
+    {
+      "city": "Möhlin",
+      "amount": 1
+    },
+    {
+      "city": "Möhnesee",
+      "amount": 15
+    },
+    {
+      "city": "Möhrendorf",
+      "amount": 44
+    },
+    {
+      "city": "Mömbris",
+      "amount": 7
+    },
+    {
+      "city": "Mömlingen",
+      "amount": 8
+    },
+    {
+      "city": "Mönchengladbach",
+      "amount": 912
+    },
+    {
+      "city": "Mönkeberg",
+      "amount": 1
+    },
+    {
+      "city": "Mönkhagen",
+      "amount": 1
+    },
+    {
+      "city": "Mörfelden-Walldorf",
+      "amount": 38
+    },
+    {
+      "city": "Mörlenbach",
+      "amount": 6
+    },
+    {
+      "city": "Mötzingen",
+      "amount": 4
+    },
+    {
+      "city": "Nackenheim",
+      "amount": 4
+    },
+    {
+      "city": "Nagold",
+      "amount": 15
+    },
+    {
+      "city": "Nalbach",
+      "amount": 9
+    },
+    {
+      "city": "Nassenfels",
+      "amount": 3
+    },
+    {
+      "city": "Nauheim",
+      "amount": 6
+    },
+    {
+      "city": "Neckargemünd",
+      "amount": 37
+    },
+    {
+      "city": "Neckarsteinach",
+      "amount": 6
+    },
+    {
+      "city": "Neckarsulm",
+      "amount": 112
+    },
+    {
+      "city": "Neckartenzlingen",
+      "amount": 12
+    },
+    {
+      "city": "Neckarwestheim",
+      "amount": 1
+    },
+    {
+      "city": "Neckarzimmern",
+      "amount": 29
+    },
+    {
+      "city": "Negenborn",
+      "amount": 1
+    },
+    {
+      "city": "Nennhausen",
+      "amount": 1
+    },
+    {
+      "city": "Nentershausen",
+      "amount": 1
+    },
+    {
+      "city": "Netphen",
+      "amount": 116
+    },
+    {
+      "city": "Nettersheim",
+      "amount": 2
+    },
+    {
+      "city": "Nettetal",
+      "amount": 48
+    },
+    {
+      "city": "Netzschkau",
+      "amount": 1
+    },
+    {
+      "city": "Neu Wulmstorf",
+      "amount": 4
+    },
+    {
+      "city": "Neu-Anspach",
+      "amount": 9
+    },
+    {
+      "city": "Neu-Isenburg",
+      "amount": 5
+    },
+    {
+      "city": "Neu-Ulm",
+      "amount": 89
+    },
+    {
+      "city": "Neubiberg",
+      "amount": 40
+    },
+    {
+      "city": "Neubrandenburg",
+      "amount": 117
+    },
+    {
+      "city": "Neubulach",
+      "amount": 1
+    },
+    {
+      "city": "Neuburg am Inn",
+      "amount": 40
+    },
+    {
+      "city": "Neuburg am Rhein",
+      "amount": 2
+    },
+    {
+      "city": "Neuburg an der Donau",
+      "amount": 20
+    },
+    {
+      "city": "Neudenau",
+      "amount": 3
+    },
+    {
+      "city": "Neudietendorf",
+      "amount": 1
+    },
+    {
+      "city": "Neudorf-Bornstein",
+      "amount": 2
+    },
+    {
+      "city": "Neudrossenfeld",
+      "amount": 3
+    },
+    {
+      "city": "Neuenbürg",
+      "amount": 8
+    },
+    {
+      "city": "Neuengörs",
+      "amount": 1
+    },
+    {
+      "city": "Neuenhagen bei Berlin",
+      "amount": 7
+    },
+    {
+      "city": "Neuenhaus",
+      "amount": 1
+    },
+    {
+      "city": "Neuenkirchen",
+      "amount": 176
+    },
+    {
+      "city": "Neuenkirchen-Vörden",
+      "amount": 1
+    },
+    {
+      "city": "Neuenmarkt",
+      "amount": 3
+    },
+    {
+      "city": "Neuenrade",
+      "amount": 1
+    },
+    {
+      "city": "Neuensalz",
+      "amount": 1
+    },
+    {
+      "city": "Neuenstadt am Kocher",
+      "amount": 5
+    },
+    {
+      "city": "Neuenstein",
+      "amount": 3
+    },
+    {
+      "city": "Neufahrn bei Freising",
+      "amount": 19
+    },
+    {
+      "city": "Neuffen",
+      "amount": 3
+    },
+    {
+      "city": "Neuhausen",
+      "amount": 7
+    },
+    {
+      "city": "Neuhausen auf den Fildern",
+      "amount": 30
+    },
+    {
+      "city": "Neuhausen/Spree",
+      "amount": 2
+    },
+    {
+      "city": "Neuhof",
+      "amount": 2
+    },
+    {
+      "city": "Neuhofen",
+      "amount": 29
+    },
+    {
+      "city": "Neuhäusel",
+      "amount": 8
+    },
+    {
+      "city": "Neukirchen-Vluyn",
+      "amount": 45
+    },
+    {
+      "city": "Neukirchen/Erzgebirge",
+      "amount": 5
+    },
+    {
+      "city": "Neukirchen/Pleiße",
+      "amount": 3
+    },
+    {
+      "city": "Neuler",
+      "amount": 7
+    },
+    {
+      "city": "Neulingen",
+      "amount": 16
+    },
+    {
+      "city": "Neulußheim",
+      "amount": 1
+    },
+    {
+      "city": "Neumarkt in der Oberpfalz",
+      "amount": 38
+    },
+    {
+      "city": "Neumünster",
+      "amount": 69
+    },
+    {
+      "city": "Neunkirchen",
+      "amount": 60
+    },
+    {
+      "city": "Neunkirchen-Seelscheid",
+      "amount": 6
+    },
+    {
+      "city": "Neupotz",
+      "amount": 2
+    },
+    {
+      "city": "Neuried",
+      "amount": 20
+    },
+    {
+      "city": "Neuruppin",
+      "amount": 3
+    },
+    {
+      "city": "Neuss",
+      "amount": 1016
+    },
+    {
+      "city": "Neustadt am Rübenberge",
+      "amount": 17
+    },
+    {
+      "city": "Neustadt an der Weinstraße",
+      "amount": 81
+    },
+    {
+      "city": "Neustadt bei Coburg",
+      "amount": 2
+    },
+    {
+      "city": "Neustadt/Süd",
+      "amount": 19
+    },
+    {
+      "city": "Neustetten",
+      "amount": 3
+    },
+    {
+      "city": "Neustrelitz",
+      "amount": 12
+    },
+    {
+      "city": "Neusäß",
+      "amount": 63
+    },
+    {
+      "city": "Neutraubling",
+      "amount": 45
+    },
+    {
+      "city": "Neuweiler",
+      "amount": 1
+    },
+    {
+      "city": "Neuwied",
+      "amount": 38
+    },
+    {
+      "city": "Neuzelle",
+      "amount": 1
+    },
+    {
+      "city": "Newel",
+      "amount": 13
+    },
+    {
+      "city": "Niddatal",
+      "amount": 19
+    },
+    {
+      "city": "Nidderau",
+      "amount": 4
+    },
+    {
+      "city": "Nideggen",
+      "amount": 4
+    },
+    {
+      "city": "Niedenstein",
+      "amount": 2
+    },
+    {
+      "city": "Niederalteich",
+      "amount": 2
+    },
+    {
+      "city": "Niederau",
+      "amount": 5
+    },
+    {
+      "city": "Niederbayern",
+      "amount": 6
+    },
+    {
+      "city": "Niedere Börde",
+      "amount": 1
+    },
+    {
+      "city": "Niedererbach",
+      "amount": 1
+    },
+    {
+      "city": "Niedereschach",
+      "amount": 4
+    },
+    {
+      "city": "Niederhausbergen",
+      "amount": 10
+    },
+    {
+      "city": "Niederkassel",
+      "amount": 98
+    },
+    {
+      "city": "Niederkrüchten",
+      "amount": 6
+    },
+    {
+      "city": "Niederneisen",
+      "amount": 7
+    },
+    {
+      "city": "Niedernhausen",
+      "amount": 22
+    },
+    {
+      "city": "Niedernwöhren",
+      "amount": 2
+    },
+    {
+      "city": "Niederrieden",
+      "amount": 5
+    },
+    {
+      "city": "Niederwerrn",
+      "amount": 9
+    },
+    {
+      "city": "Niederwiesa",
+      "amount": 2
+    },
+    {
+      "city": "Niederzier",
+      "amount": 3
+    },
+    {
+      "city": "Niederzimmern",
+      "amount": 1
+    },
+    {
+      "city": "Niefern-Öschelbronn",
+      "amount": 14
+    },
+    {
+      "city": "Nienburg (Saale)",
+      "amount": 2
+    },
+    {
+      "city": "Nienstedt",
+      "amount": 1
+    },
+    {
+      "city": "Niestetal",
+      "amount": 5
+    },
+    {
+      "city": "Nittendorf",
+      "amount": 13
+    },
+    {
+      "city": "Norden",
+      "amount": 15
+    },
+    {
+      "city": "Norderstedt",
+      "amount": 42
+    },
+    {
+      "city": "Nordhastedt",
+      "amount": 4
+    },
+    {
+      "city": "Nordhausen",
+      "amount": 144
+    },
+    {
+      "city": "Nordheim",
+      "amount": 14
+    },
+    {
+      "city": "Nordhorn",
+      "amount": 32
+    },
+    {
+      "city": "Nordkirchen",
+      "amount": 239
+    },
+    {
+      "city": "Nordstemmen",
+      "amount": 4
+    },
+    {
+      "city": "Nordwalde",
+      "amount": 6
+    },
+    {
+      "city": "Norheim",
+      "amount": 1
+    },
+    {
+      "city": "Northeim",
+      "amount": 13
+    },
+    {
+      "city": "Nottuln",
+      "amount": 4
+    },
+    {
+      "city": "Notzingen",
+      "amount": 12
+    },
+    {
+      "city": "Nufringen",
+      "amount": 8
+    },
+    {
+      "city": "Nuremberg",
+      "amount": 142
+    },
+    {
+      "city": "Nuthe-Urstromtal",
+      "amount": 1
+    },
+    {
+      "city": "Nutteln",
+      "amount": 1
+    },
+    {
+      "city": "Nußloch",
+      "amount": 174
+    },
+    {
+      "city": "Nümbrecht",
+      "amount": 14
+    },
+    {
+      "city": "Nürnberg",
+      "amount": 3544
+    },
+    {
+      "city": "Nürtingen",
+      "amount": 97
+    },
+    {
+      "city": "Nützen",
+      "amount": 3
+    },
+    {
+      "city": "Nörten-Hardenberg",
+      "amount": 16
+    },
+    {
+      "city": "Nörvenich",
+      "amount": 2
+    },
+    {
+      "city": "Ober-Mörlen",
+      "amount": 5
+    },
+    {
+      "city": "Ober-Olm",
+      "amount": 39
+    },
+    {
+      "city": "Ober-Ramstadt",
+      "amount": 32
+    },
+    {
+      "city": "Oberasbach",
+      "amount": 63
+    },
+    {
+      "city": "Oberau",
+      "amount": 1
+    },
+    {
+      "city": "Oberbayern",
+      "amount": 15
+    },
+    {
+      "city": "Oberdachstetten",
+      "amount": 1
+    },
+    {
+      "city": "Oberding",
+      "amount": 16
+    },
+    {
+      "city": "Oberfranken",
+      "amount": 13
+    },
+    {
+      "city": "Oberhaching",
+      "amount": 13
+    },
+    {
+      "city": "Oberhaid",
+      "amount": 11
+    },
+    {
+      "city": "Oberhausen",
+      "amount": 675
+    },
+    {
+      "city": "Oberhof",
+      "amount": 2
+    },
+    {
+      "city": "Oberkochen",
+      "amount": 8
+    },
+    {
+      "city": "Oberkrämer",
+      "amount": 5
+    },
+    {
+      "city": "Obernkirchen",
+      "amount": 4
+    },
+    {
+      "city": "Obernzell",
+      "amount": 5
+    },
+    {
+      "city": "Oberottmarshausen",
+      "amount": 6
+    },
+    {
+      "city": "Oberschleißheim",
+      "amount": 87
+    },
+    {
+      "city": "Oberschöna",
+      "amount": 3
+    },
+    {
+      "city": "Obersontheim",
+      "amount": 4
+    },
+    {
+      "city": "Obersulm",
+      "amount": 16
+    },
+    {
+      "city": "Obertraubling",
+      "amount": 8
+    },
+    {
+      "city": "Obertshausen",
+      "amount": 46
+    },
+    {
+      "city": "Oberursel (Taunus)",
+      "amount": 115
+    },
+    {
+      "city": "Oberwiera",
+      "amount": 1
+    },
+    {
+      "city": "Ochsenfurt",
+      "amount": 2
+    },
+    {
+      "city": "Ochtendung",
+      "amount": 10
+    },
+    {
+      "city": "Ochtrup",
+      "amount": 5
+    },
+    {
+      "city": "Oedheim",
+      "amount": 5
+    },
+    {
+      "city": "Oelde",
+      "amount": 19
+    },
+    {
+      "city": "Oelsnitz/Vogtl.",
+      "amount": 1
+    },
+    {
+      "city": "Oer-Erkenschwick",
+      "amount": 35
+    },
+    {
+      "city": "Oerlinghausen",
+      "amount": 31
+    },
+    {
+      "city": "Oestrich-Winkel",
+      "amount": 1
+    },
+    {
+      "city": "Offenau",
+      "amount": 7
+    },
+    {
+      "city": "Offenbach",
+      "amount": 5
+    },
+    {
+      "city": "Offenbach am Main",
+      "amount": 142
+    },
+    {
+      "city": "Offenbach an der Queich",
+      "amount": 21
+    },
+    {
+      "city": "Offenburg",
+      "amount": 175
+    },
+    {
+      "city": "Ofterschwang",
+      "amount": 4
+    },
+    {
+      "city": "Oftersheim",
+      "amount": 113
+    },
+    {
+      "city": "Olching",
+      "amount": 6
+    },
+    {
+      "city": "Oldenburg",
+      "amount": 2252
+    },
+    {
+      "city": "Olfen",
+      "amount": 3
+    },
+    {
+      "city": "Ollmuth",
+      "amount": 13
+    },
+    {
+      "city": "Olpe",
+      "amount": 29
+    },
+    {
+      "city": "Olsberg",
+      "amount": 8
+    },
+    {
+      "city": "Oppenheim",
+      "amount": 8
+    },
+    {
+      "city": "Oranienbaum-Wörlitz",
+      "amount": 1
+    },
+    {
+      "city": "Oranienburg",
+      "amount": 7
+    },
+    {
+      "city": "Ortenberg",
+      "amount": 35
+    },
+    {
+      "city": "Osburg",
+      "amount": 10
+    },
+    {
+      "city": "Oschatz",
+      "amount": 1
+    },
+    {
+      "city": "Osnabrück",
+      "amount": 3375
+    },
+    {
+      "city": "Osteel",
+      "amount": 1
+    },
+    {
+      "city": "Ostercappeln",
+      "amount": 5
+    },
+    {
+      "city": "Osterholz-Scharmbeck",
+      "amount": 16
+    },
+    {
+      "city": "Osterode am Harz",
+      "amount": 6
+    },
+    {
+      "city": "Osterrönfeld",
+      "amount": 13
+    },
+    {
+      "city": "Ostfildern",
+      "amount": 133
+    },
+    {
+      "city": "Ostheim vor der Rhön",
+      "amount": 1
+    },
+    {
+      "city": "Oststeinbek",
+      "amount": 18
+    },
+    {
+      "city": "Ostwald",
+      "amount": 31
+    },
+    {
+      "city": "Ottenbüttel",
+      "amount": 2
+    },
+    {
+      "city": "Ottendorf",
+      "amount": 70
+    },
+    {
+      "city": "Otterberg",
+      "amount": 5
+    },
+    {
+      "city": "Otterstadt",
+      "amount": 4
+    },
+    {
+      "city": "Ottersweier",
+      "amount": 18
+    },
+    {
+      "city": "Ottobrunn",
+      "amount": 83
+    },
+    {
+      "city": "Otzberg",
+      "amount": 7
+    },
+    {
+      "city": "Overath",
+      "amount": 24
+    },
+    {
+      "city": "Owen",
+      "amount": 2
+    },
+    {
+      "city": "Owschlag",
+      "amount": 2
+    },
+    {
+      "city": "Oyten",
+      "amount": 13
+    },
+    {
+      "city": "PA",
+      "amount": 8
+    },
+    {
+      "city": "Paderborn",
+      "amount": 3073
+    },
+    {
+      "city": "Papenburg",
+      "amount": 31
+    },
+    {
+      "city": "Parkstein",
+      "amount": 3
+    },
+    {
+      "city": "Parkstetten",
+      "amount": 7
+    },
+    {
+      "city": "Pasing",
+      "amount": 4
+    },
+    {
+      "city": "Passau",
+      "amount": 2009
+    },
+    {
+      "city": "Pattensen",
+      "amount": 33
+    },
+    {
+      "city": "Pechbrunn",
+      "amount": 1
+    },
+    {
+      "city": "Peine",
+      "amount": 14
+    },
+    {
+      "city": "Penig",
+      "amount": 2
+    },
+    {
+      "city": "Pentling",
+      "amount": 164
+    },
+    {
+      "city": "Perlacher Forst",
+      "amount": 8
+    },
+    {
+      "city": "Petersaurach",
+      "amount": 6
+    },
+    {
+      "city": "Petersberg",
+      "amount": 42
+    },
+    {
+      "city": "Petershagen",
+      "amount": 5
+    },
+    {
+      "city": "Petershagen/Eggersdorf",
+      "amount": 1
+    },
+    {
+      "city": "Pettendorf",
+      "amount": 23
+    },
+    {
+      "city": "Pettstadt",
+      "amount": 3
+    },
+    {
+      "city": "Pfaffen-Schwabenheim",
+      "amount": 3
+    },
+    {
+      "city": "Pfaffenhofen",
+      "amount": 1
+    },
+    {
+      "city": "Pfaffenhofen an der Ilm",
+      "amount": 11
+    },
+    {
+      "city": "Pfedelbach",
+      "amount": 6
+    },
+    {
+      "city": "Pfinztal",
+      "amount": 33
+    },
+    {
+      "city": "Pforzen",
+      "amount": 2
+    },
+    {
+      "city": "Pforzheim",
+      "amount": 636
+    },
+    {
+      "city": "Pfullingen",
+      "amount": 17
+    },
+    {
+      "city": "Pfungstadt",
+      "amount": 50
+    },
+    {
+      "city": "Philippsburg",
+      "amount": 10
+    },
+    {
+      "city": "Pielenhofen",
+      "amount": 2
+    },
+    {
+      "city": "Pieschen",
+      "amount": 1
+    },
+    {
+      "city": "Pinneberg",
+      "amount": 24
+    },
+    {
+      "city": "Pirk",
+      "amount": 5
+    },
+    {
+      "city": "Pirmasens",
+      "amount": 23
+    },
+    {
+      "city": "Pirna",
+      "amount": 13
+    },
+    {
+      "city": "Planegg",
+      "amount": 70
+    },
+    {
+      "city": "Plattling",
+      "amount": 9
+    },
+    {
+      "city": "Plauen",
+      "amount": 26
+    },
+    {
+      "city": "Plettenberg",
+      "amount": 7
+    },
+    {
+      "city": "Pliening",
+      "amount": 4
+    },
+    {
+      "city": "Plochingen",
+      "amount": 41
+    },
+    {
+      "city": "Plombières",
+      "amount": 2
+    },
+    {
+      "city": "Plüderhausen",
+      "amount": 4
+    },
+    {
+      "city": "Plötzkau",
+      "amount": 1
+    },
+    {
+      "city": "Pohle",
+      "amount": 1
+    },
+    {
+      "city": "Pohlheim",
+      "amount": 33
+    },
+    {
+      "city": "Polling",
+      "amount": 4
+    },
+    {
+      "city": "Porta Westfalica",
+      "amount": 30
+    },
+    {
+      "city": "Postbauer-Heng",
+      "amount": 1
+    },
+    {
+      "city": "Potsdam",
+      "amount": 619
+    },
+    {
+      "city": "Pratteln",
+      "amount": 1
+    },
+    {
+      "city": "Premnitz",
+      "amount": 1
+    },
+    {
+      "city": "Pressig",
+      "amount": 2
+    },
+    {
+      "city": "Preußisch Oldendorf",
+      "amount": 11
+    },
+    {
+      "city": "Priestewitz",
+      "amount": 2
+    },
+    {
+      "city": "Prosselsheim",
+      "amount": 1
+    },
+    {
+      "city": "Puchheim",
+      "amount": 2
+    },
+    {
+      "city": "Pulheim",
+      "amount": 162
+    },
+    {
+      "city": "Pullach im Isartal",
+      "amount": 4
+    },
+    {
+      "city": "Putzbrunn",
+      "amount": 62
+    },
+    {
+      "city": "Püttlingen",
+      "amount": 35
+    },
+    {
+      "city": "Pöhl",
+      "amount": 3
+    },
+    {
+      "city": "Quakenbrück",
+      "amount": 6
+    },
+    {
+      "city": "Quarnbek",
+      "amount": 1
+    },
+    {
+      "city": "Quickborn",
+      "amount": 8
+    },
+    {
+      "city": "Quierschied",
+      "amount": 13
+    },
+    {
+      "city": "Raben Steinfeld",
+      "amount": 14
+    },
+    {
+      "city": "Radebeul",
+      "amount": 22
+    },
+    {
+      "city": "Radevormwald",
+      "amount": 17
+    },
+    {
+      "city": "Radolfzell am Bodensee",
+      "amount": 11
+    },
+    {
+      "city": "Raeren",
+      "amount": 15
+    },
+    {
+      "city": "Rahden",
+      "amount": 8
+    },
+    {
+      "city": "Rain",
+      "amount": 5
+    },
+    {
+      "city": "Rainau",
+      "amount": 4
+    },
+    {
+      "city": "Ralingen",
+      "amount": 4
+    },
+    {
+      "city": "Randersacker",
+      "amount": 110
+    },
+    {
+      "city": "Ranschbach",
+      "amount": 4
+    },
+    {
+      "city": "Rastatt",
+      "amount": 33
+    },
+    {
+      "city": "Rastede",
+      "amount": 33
+    },
+    {
+      "city": "Rastorf",
+      "amount": 11
+    },
+    {
+      "city": "Ratekau",
+      "amount": 7
+    },
+    {
+      "city": "Rathenow",
+      "amount": 4
+    },
+    {
+      "city": "Ratingen",
+      "amount": 227
+    },
+    {
+      "city": "Rattelsdorf",
+      "amount": 4
+    },
+    {
+      "city": "Raubling",
+      "amount": 11
+    },
+    {
+      "city": "Raunheim",
+      "amount": 4
+    },
+    {
+      "city": "Rauschenberg",
+      "amount": 2
+    },
+    {
+      "city": "Ravensburg",
+      "amount": 212
+    },
+    {
+      "city": "Recklinghausen",
+      "amount": 392
+    },
+    {
+      "city": "Rees",
+      "amount": 22
+    },
+    {
+      "city": "Reeßum",
+      "amount": 1
+    },
+    {
+      "city": "Regensburg",
+      "amount": 3655
+    },
+    {
+      "city": "Regenstauf",
+      "amount": 20
+    },
+    {
+      "city": "Rehfelde",
+      "amount": 2
+    },
+    {
+      "city": "Rehling",
+      "amount": 1
+    },
+    {
+      "city": "Rehlingen-Siersburg",
+      "amount": 5
+    },
+    {
+      "city": "Reiat",
+      "amount": 3
+    },
+    {
+      "city": "Reichelsheim (Odenwald)",
+      "amount": 6
+    },
+    {
+      "city": "Reichelsheim (Wetterau)",
+      "amount": 8
+    },
+    {
+      "city": "Reichenau",
+      "amount": 78
+    },
+    {
+      "city": "Reichenbach",
+      "amount": 2
+    },
+    {
+      "city": "Reichenbach an der Fils",
+      "amount": 7
+    },
+    {
+      "city": "Reichenbach im Vogtland",
+      "amount": 1
+    },
+    {
+      "city": "Reichenberg",
+      "amount": 15
+    },
+    {
+      "city": "Reichersbeuern",
+      "amount": 3
+    },
+    {
+      "city": "Reichshof",
+      "amount": 17
+    },
+    {
+      "city": "Reinach BL",
+      "amount": 2
+    },
+    {
+      "city": "Reinbek",
+      "amount": 6
+    },
+    {
+      "city": "Reinheim",
+      "amount": 18
+    },
+    {
+      "city": "Reinsdorf",
+      "amount": 7
+    },
+    {
+      "city": "Reinstorf",
+      "amount": 1
+    },
+    {
+      "city": "Rellingen",
+      "amount": 21
+    },
+    {
+      "city": "Remagen",
+      "amount": 16
+    },
+    {
+      "city": "Remchingen",
+      "amount": 13
+    },
+    {
+      "city": "Remscheid",
+      "amount": 246
+    },
+    {
+      "city": "Remseck am Neckar",
+      "amount": 31
+    },
+    {
+      "city": "Remshalden",
+      "amount": 17
+    },
+    {
+      "city": "Rendsburg",
+      "amount": 8
+    },
+    {
+      "city": "Renningen",
+      "amount": 20
+    },
+    {
+      "city": "Reppenstedt",
+      "amount": 12
+    },
+    {
+      "city": "Rettenberg",
+      "amount": 3
+    },
+    {
+      "city": "Reutlingen",
+      "amount": 315
+    },
+    {
+      "city": "Rhauderfehn",
+      "amount": 5
+    },
+    {
+      "city": "Rheda-Wiedenbrück",
+      "amount": 31
+    },
+    {
+      "city": "Rhede",
+      "amount": 58
+    },
+    {
+      "city": "Rhede (Ems)",
+      "amount": 3
+    },
+    {
+      "city": "Rheinbach",
+      "amount": 29
+    },
+    {
+      "city": "Rheinberg",
+      "amount": 27
+    },
+    {
+      "city": "Rheine",
+      "amount": 179
+    },
+    {
+      "city": "Rheinfelden",
+      "amount": 16
+    },
+    {
+      "city": "Rheinfelden (Baden)",
+      "amount": 8
+    },
+    {
+      "city": "Rheinmünster",
+      "amount": 8
+    },
+    {
+      "city": "Rheinstetten",
+      "amount": 106
+    },
+    {
+      "city": "Ribbesbüttel",
+      "amount": 6
+    },
+    {
+      "city": "Riede",
+      "amount": 4
+    },
+    {
+      "city": "Rieden",
+      "amount": 2
+    },
+    {
+      "city": "Riedering",
+      "amount": 10
+    },
+    {
+      "city": "Riedstadt",
+      "amount": 41
+    },
+    {
+      "city": "Riegel am Kaiserstuhl",
+      "amount": 7
+    },
+    {
+      "city": "Riegelsberg",
+      "amount": 1
+    },
+    {
+      "city": "Riehen",
+      "amount": 4
+    },
+    {
+      "city": "Riesa",
+      "amount": 15
+    },
+    {
+      "city": "Rietberg",
+      "amount": 44
+    },
+    {
+      "city": "Rimbach",
+      "amount": 3
+    },
+    {
+      "city": "Rimpar",
+      "amount": 52
+    },
+    {
+      "city": "Rinteln",
+      "amount": 29
+    },
+    {
+      "city": "Ritterhude",
+      "amount": 15
+    },
+    {
+      "city": "Rockenberg",
+      "amount": 3
+    },
+    {
+      "city": "Rodenbach",
+      "amount": 6
+    },
+    {
+      "city": "Rodenberg",
+      "amount": 14
+    },
+    {
+      "city": "Rodgau",
+      "amount": 72
+    },
+    {
+      "city": "Roding",
+      "amount": 4
+    },
+    {
+      "city": "Roetgen",
+      "amount": 2
+    },
+    {
+      "city": "Roggentin",
+      "amount": 27
+    },
+    {
+      "city": "Rohr",
+      "amount": 8
+    },
+    {
+      "city": "Rohrdorf",
+      "amount": 22
+    },
+    {
+      "city": "Rommerskirchen",
+      "amount": 18
+    },
+    {
+      "city": "Ronneburg",
+      "amount": 5
+    },
+    {
+      "city": "Ronnenberg",
+      "amount": 30
+    },
+    {
+      "city": "Rosbach vor der Höhe",
+      "amount": 9
+    },
+    {
+      "city": "Rosdorf",
+      "amount": 16
+    },
+    {
+      "city": "Rosendahl",
+      "amount": 3
+    },
+    {
+      "city": "Rosenfeld",
+      "amount": 3
+    },
+    {
+      "city": "Rosengarten",
+      "amount": 11
+    },
+    {
+      "city": "Rosenheim",
+      "amount": 393
+    },
+    {
+      "city": "Rostock",
+      "amount": 1527
+    },
+    {
+      "city": "Rotenburg (Wümme)",
+      "amount": 8
+    },
+    {
+      "city": "Rottenburg",
+      "amount": 3
+    },
+    {
+      "city": "Rottenburg am Neckar",
+      "amount": 130
+    },
+    {
+      "city": "Rottendorf",
+      "amount": 21
+    },
+    {
+      "city": "Rottweil",
+      "amount": 25
+    },
+    {
+      "city": "Roßdorf",
+      "amount": 54
+    },
+    {
+      "city": "Roßtal",
+      "amount": 5
+    },
+    {
+      "city": "Rudersberg",
+      "amount": 3
+    },
+    {
+      "city": "Rudolstadt",
+      "amount": 8
+    },
+    {
+      "city": "Runkel",
+      "amount": 3
+    },
+    {
+      "city": "Ruppertshofen",
+      "amount": 5
+    },
+    {
+      "city": "Ruppertsweiler",
+      "amount": 1
+    },
+    {
+      "city": "Ruppichteroth",
+      "amount": 6
+    },
+    {
+      "city": "Rutesheim",
+      "amount": 7
+    },
+    {
+      "city": "Rückersdorf",
+      "amount": 1
+    },
+    {
+      "city": "Rüdersdorf bei Berlin",
+      "amount": 2
+    },
+    {
+      "city": "Rüdesheim am Rhein",
+      "amount": 10
+    },
+    {
+      "city": "Rühen",
+      "amount": 4
+    },
+    {
+      "city": "Rülzheim",
+      "amount": 13
+    },
+    {
+      "city": "Rüsselsheim",
+      "amount": 8
+    },
+    {
+      "city": "Rüsselsheim am Main",
+      "amount": 76
+    },
+    {
+      "city": "Rüthen",
+      "amount": 4
+    },
+    {
+      "city": "Rödelsee",
+      "amount": 1
+    },
+    {
+      "city": "Rödental",
+      "amount": 35
+    },
+    {
+      "city": "Rödermark",
+      "amount": 42
+    },
+    {
+      "city": "Rödinghausen",
+      "amount": 9
+    },
+    {
+      "city": "Röhrmoos",
+      "amount": 1
+    },
+    {
+      "city": "Römerberg",
+      "amount": 15
+    },
+    {
+      "city": "Rösrath",
+      "amount": 55
+    },
+    {
+      "city": "Rötgesbüttel",
+      "amount": 5
+    },
+    {
+      "city": "Röttenbach",
+      "amount": 12
+    },
+    {
+      "city": "Saalfeld/Saale",
+      "amount": 8
+    },
+    {
+      "city": "Saarbrücken",
+      "amount": 1480
+    },
+    {
+      "city": "Saarlouis",
+      "amount": 43
+    },
+    {
+      "city": "Sachsenheim",
+      "amount": 13
+    },
+    {
+      "city": "Saerbeck",
+      "amount": 7
+    },
+    {
+      "city": "Salching",
+      "amount": 3
+    },
+    {
+      "city": "Salem",
+      "amount": 4
+    },
+    {
+      "city": "Salzgitter",
+      "amount": 104
+    },
+    {
+      "city": "Salzkotten",
+      "amount": 34
+    },
+    {
+      "city": "Salzwedel",
+      "amount": 12
+    },
+    {
+      "city": "Salzweg",
+      "amount": 5
+    },
+    {
+      "city": "Sande",
+      "amount": 7
+    },
+    {
+      "city": "Sandhausen",
+      "amount": 62
+    },
+    {
+      "city": "Sankt Augustin",
+      "amount": 365
+    },
+    {
+      "city": "Sankt Ingbert",
+      "amount": 103
+    },
+    {
+      "city": "Sankt Johann",
+      "amount": 1
+    },
+    {
+      "city": "Sankt Leon-Rot",
+      "amount": 50
+    },
+    {
+      "city": "Sarstedt",
+      "amount": 3
+    },
+    {
+      "city": "Sasbach",
+      "amount": 12
+    },
+    {
+      "city": "Sassenberg",
+      "amount": 17
+    },
+    {
+      "city": "Sassenburg",
+      "amount": 12
+    },
+    {
+      "city": "Satteldorf",
+      "amount": 5
+    },
+    {
+      "city": "Sauerlach",
+      "amount": 4
+    },
+    {
+      "city": "Schaafheim",
+      "amount": 2
+    },
+    {
+      "city": "Schallbach",
+      "amount": 1
+    },
+    {
+      "city": "Schallstadt",
+      "amount": 18
+    },
+    {
+      "city": "Scharnebeck",
+      "amount": 3
+    },
+    {
+      "city": "Schaufling",
+      "amount": 5
+    },
+    {
+      "city": "Schechen",
+      "amount": 8
+    },
+    {
+      "city": "Scheeßel",
+      "amount": 6
+    },
+    {
+      "city": "Schellerten",
+      "amount": 3
+    },
+    {
+      "city": "Schenefeld",
+      "amount": 60
+    },
+    {
+      "city": "Schenkenzell",
+      "amount": 1
+    },
+    {
+      "city": "Scheuerfeld",
+      "amount": 5
+    },
+    {
+      "city": "Schiffdorf",
+      "amount": 3
+    },
+    {
+      "city": "Schifferstadt",
+      "amount": 24
+    },
+    {
+      "city": "Schiffweiler",
+      "amount": 9
+    },
+    {
+      "city": "Schkeuditz",
+      "amount": 17
+    },
+    {
+      "city": "Schkopau",
+      "amount": 5
+    },
+    {
+      "city": "Schlangen",
+      "amount": 7
+    },
+    {
+      "city": "Schlangenbad",
+      "amount": 2
+    },
+    {
+      "city": "Schlaubetal",
+      "amount": 1
+    },
+    {
+      "city": "Schleswig",
+      "amount": 14
+    },
+    {
+      "city": "Schlettau",
+      "amount": 2
+    },
+    {
+      "city": "Schlier",
+      "amount": 6
+    },
+    {
+      "city": "Schlierbach",
+      "amount": 5
+    },
+    {
+      "city": "Schloß Holte-Stukenbrock",
+      "amount": 50
+    },
+    {
+      "city": "Schmallenberg",
+      "amount": 40
+    },
+    {
+      "city": "Schmitten",
+      "amount": 3
+    },
+    {
+      "city": "Schnelldorf",
+      "amount": 1
+    },
+    {
+      "city": "Schonungen",
+      "amount": 4
+    },
+    {
+      "city": "Schopfheim",
+      "amount": 17
+    },
+    {
+      "city": "Schorndorf",
+      "amount": 15
+    },
+    {
+      "city": "Schortens",
+      "amount": 31
+    },
+    {
+      "city": "Schramberg",
+      "amount": 15
+    },
+    {
+      "city": "Schriesheim",
+      "amount": 5
+    },
+    {
+      "city": "Schuby",
+      "amount": 3
+    },
+    {
+      "city": "Schutterwald",
+      "amount": 12
+    },
+    {
+      "city": "Schwabach",
+      "amount": 30
+    },
+    {
+      "city": "Schwaben",
+      "amount": 12
+    },
+    {
+      "city": "Schwabenheim an der Selz",
+      "amount": 5
+    },
+    {
+      "city": "Schwaig bei Nürnberg",
+      "amount": 10
+    },
+    {
+      "city": "Schwaigern",
+      "amount": 15
+    },
+    {
+      "city": "Schwalbach",
+      "amount": 17
+    },
+    {
+      "city": "Schwalbach am Taunus",
+      "amount": 1
+    },
+    {
+      "city": "Schwalmtal",
+      "amount": 23
+    },
+    {
+      "city": "Schwanau",
+      "amount": 9
+    },
+    {
+      "city": "Schwandorf",
+      "amount": 10
+    },
+    {
+      "city": "Schwanewede",
+      "amount": 25
+    },
+    {
+      "city": "Schwanstetten",
+      "amount": 5
+    },
+    {
+      "city": "Schwarzach",
+      "amount": 1
+    },
+    {
+      "city": "Schwarzenfeld",
+      "amount": 2
+    },
+    {
+      "city": "Schwebheim",
+      "amount": 3
+    },
+    {
+      "city": "Schweich",
+      "amount": 3
+    },
+    {
+      "city": "Schweinfurt",
+      "amount": 156
+    },
+    {
+      "city": "Schweitenkirchen",
+      "amount": 1
+    },
+    {
+      "city": "Schwelm",
+      "amount": 14
+    },
+    {
+      "city": "Schwentinental",
+      "amount": 24
+    },
+    {
+      "city": "Schwerin",
+      "amount": 121
+    },
+    {
+      "city": "Schwerte",
+      "amount": 149
+    },
+    {
+      "city": "Schwetzingen",
+      "amount": 99
+    },
+    {
+      "city": "Schwieberdingen",
+      "amount": 58
+    },
+    {
+      "city": "Schwielowsee",
+      "amount": 12
+    },
+    {
+      "city": "Schwäbisch Gmünd",
+      "amount": 119
+    },
+    {
+      "city": "Schwäbisch Hall",
+      "amount": 103
+    },
+    {
+      "city": "Schülldorf",
+      "amount": 1
+    },
+    {
+      "city": "Schärding",
+      "amount": 11
+    },
+    {
+      "city": "Schöffengrund",
+      "amount": 22
+    },
+    {
+      "city": "Schönaich",
+      "amount": 10
+    },
+    {
+      "city": "Schönebeck (Elbe)",
+      "amount": 4
+    },
+    {
+      "city": "Schöneck",
+      "amount": 10
+    },
+    {
+      "city": "Schönenberg-Kübelberg",
+      "amount": 6
+    },
+    {
+      "city": "Schöngleina",
+      "amount": 3
+    },
+    {
+      "city": "Schöningen",
+      "amount": 3
+    },
+    {
+      "city": "Schönkirchen",
+      "amount": 19
+    },
+    {
+      "city": "Seefeld",
+      "amount": 5
+    },
+    {
+      "city": "Seeheim-Jugenheim",
+      "amount": 52
+    },
+    {
+      "city": "Seelze",
+      "amount": 106
+    },
+    {
+      "city": "Seeon-Seebruck",
+      "amount": 3
+    },
+    {
+      "city": "Seesen",
+      "amount": 1
+    },
+    {
+      "city": "Seester",
+      "amount": 3
+    },
+    {
+      "city": "Seevetal",
+      "amount": 29
+    },
+    {
+      "city": "Sehmatal",
+      "amount": 1
+    },
+    {
+      "city": "Sehnde",
+      "amount": 18
+    },
+    {
+      "city": "Seligenstadt",
+      "amount": 40
+    },
+    {
+      "city": "Selk",
+      "amount": 1
+    },
+    {
+      "city": "Selm",
+      "amount": 9
+    },
+    {
+      "city": "Senden",
+      "amount": 45
+    },
+    {
+      "city": "Sendenhorst",
+      "amount": 5
+    },
+    {
+      "city": "Senftenberg",
+      "amount": 7
+    },
+    {
+      "city": "Sengenthal",
+      "amount": 3
+    },
+    {
+      "city": "Sennfeld",
+      "amount": 10
+    },
+    {
+      "city": "Sexau",
+      "amount": 2
+    },
+    {
+      "city": "Sickte",
+      "amount": 5
+    },
+    {
+      "city": "Siegburg",
+      "amount": 23
+    },
+    {
+      "city": "Siegen",
+      "amount": 1855
+    },
+    {
+      "city": "Siehdichum",
+      "amount": 1
+    },
+    {
+      "city": "Siek",
+      "amount": 4
+    },
+    {
+      "city": "Sielenbach",
+      "amount": 1
+    },
+    {
+      "city": "Siesbach",
+      "amount": 1
+    },
+    {
+      "city": "Simmern",
+      "amount": 6
+    },
+    {
+      "city": "Simmozheim",
+      "amount": 5
+    },
+    {
+      "city": "Simonswald",
+      "amount": 1
+    },
+    {
+      "city": "Sindelfingen",
+      "amount": 125
+    },
+    {
+      "city": "Singen (Hohentwiel)",
+      "amount": 17
+    },
+    {
+      "city": "Sinn",
+      "amount": 7
+    },
+    {
+      "city": "Sinsheim",
+      "amount": 17
+    },
+    {
+      "city": "Sinzheim",
+      "amount": 25
+    },
+    {
+      "city": "Sinzig",
+      "amount": 31
+    },
+    {
+      "city": "Sinzing",
+      "amount": 47
+    },
+    {
+      "city": "Sissach",
+      "amount": 13
+    },
+    {
+      "city": "Soest",
+      "amount": 214
+    },
+    {
+      "city": "Solingen",
+      "amount": 488
+    },
+    {
+      "city": "Solms",
+      "amount": 24
+    },
+    {
+      "city": "Soltau",
+      "amount": 11
+    },
+    {
+      "city": "Sondershausen",
+      "amount": 3
+    },
+    {
+      "city": "Sonsbeck",
+      "amount": 12
+    },
+    {
+      "city": "Sontheim an der Brenz",
+      "amount": 2
+    },
+    {
+      "city": "Sonthofen",
+      "amount": 9
+    },
+    {
+      "city": "Spardorf",
+      "amount": 1
+    },
+    {
+      "city": "Spelle",
+      "amount": 14
+    },
+    {
+      "city": "Spenge",
+      "amount": 9
+    },
+    {
+      "city": "Speyer",
+      "amount": 54
+    },
+    {
+      "city": "Spicheren",
+      "amount": 8
+    },
+    {
+      "city": "Spremberg",
+      "amount": 5
+    },
+    {
+      "city": "Sprendlingen",
+      "amount": 4
+    },
+    {
+      "city": "Springe",
+      "amount": 14
+    },
+    {
+      "city": "Sprockhövel",
+      "amount": 78
+    },
+    {
+      "city": "St. Ingbert",
+      "amount": 3
+    },
+    {
+      "city": "St. Pauli",
+      "amount": 15
+    },
+    {
+      "city": "Stade",
+      "amount": 39
+    },
+    {
+      "city": "Stadtallendorf",
+      "amount": 2
+    },
+    {
+      "city": "Stadtbergen",
+      "amount": 88
+    },
+    {
+      "city": "Stadthagen",
+      "amount": 10
+    },
+    {
+      "city": "Stadtlohn",
+      "amount": 9
+    },
+    {
+      "city": "Stahnsdorf",
+      "amount": 9
+    },
+    {
+      "city": "Stammham",
+      "amount": 4
+    },
+    {
+      "city": "Starnberg",
+      "amount": 10
+    },
+    {
+      "city": "Stauchitz",
+      "amount": 2
+    },
+    {
+      "city": "Staufenberg",
+      "amount": 12
+    },
+    {
+      "city": "Stegaurach",
+      "amount": 26
+    },
+    {
+      "city": "Stegen",
+      "amount": 5
+    },
+    {
+      "city": "Stein",
+      "amount": 79
+    },
+    {
+      "city": "Steinach",
+      "amount": 5
+    },
+    {
+      "city": "Steinen",
+      "amount": 4
+    },
+    {
+      "city": "Steinenbronn",
+      "amount": 23
+    },
+    {
+      "city": "Steinfeld (Oldenburg)",
+      "amount": 14
+    },
+    {
+      "city": "Steinfurt",
+      "amount": 89
+    },
+    {
+      "city": "Steinhagen",
+      "amount": 47
+    },
+    {
+      "city": "Steinheim am Albuch",
+      "amount": 7
+    },
+    {
+      "city": "Steinheim an der Murr",
+      "amount": 8
+    },
+    {
+      "city": "Steinkirchen",
+      "amount": 1
+    },
+    {
+      "city": "Steinmauern",
+      "amount": 4
+    },
+    {
+      "city": "Steinweiler",
+      "amount": 5
+    },
+    {
+      "city": "Steißlingen",
+      "amount": 1
+    },
+    {
+      "city": "Stelle-Wittenwurth",
+      "amount": 3
+    },
+    {
+      "city": "Stemwede",
+      "amount": 3
+    },
+    {
+      "city": "Stendal",
+      "amount": 33
+    },
+    {
+      "city": "Stephanskirchen",
+      "amount": 32
+    },
+    {
+      "city": "Stephansposching",
+      "amount": 3
+    },
+    {
+      "city": "Stetten am kalten Markt",
+      "amount": 2
+    },
+    {
+      "city": "Stockelsdorf",
+      "amount": 80
+    },
+    {
+      "city": "Stockstadt am Rhein",
+      "amount": 1
+    },
+    {
+      "city": "Stolberg",
+      "amount": 5
+    },
+    {
+      "city": "Stolberg (Rheinland)",
+      "amount": 52
+    },
+    {
+      "city": "Straelen",
+      "amount": 7
+    },
+    {
+      "city": "Stralsund",
+      "amount": 249
+    },
+    {
+      "city": "Strasbourg",
+      "amount": 683
+    },
+    {
+      "city": "Straubenhardt",
+      "amount": 11
+    },
+    {
+      "city": "Straubing",
+      "amount": 50
+    },
+    {
+      "city": "Strausberg",
+      "amount": 1
+    },
+    {
+      "city": "Strullendorf",
+      "amount": 4
+    },
+    {
+      "city": "Stuhr",
+      "amount": 123
+    },
+    {
+      "city": "Stutensee",
+      "amount": 71
+    },
+    {
+      "city": "Stuttgart",
+      "amount": 5929
+    },
+    {
+      "city": "Stuttgart Feuerbach",
+      "amount": 6
+    },
+    {
+      "city": "Stuttgart-Ost",
+      "amount": 11
+    },
+    {
+      "city": "Stäbelow",
+      "amount": 4
+    },
+    {
+      "city": "Suhl",
+      "amount": 9
+    },
+    {
+      "city": "Sulz am Neckar",
+      "amount": 3
+    },
+    {
+      "city": "Sulza",
+      "amount": 230
+    },
+    {
+      "city": "Sulzbach am Main",
+      "amount": 4
+    },
+    {
+      "city": "Sulzbach-Rosenberg",
+      "amount": 9
+    },
+    {
+      "city": "Sulzbach/Saar",
+      "amount": 75
+    },
+    {
+      "city": "Sulzberg",
+      "amount": 3
+    },
+    {
+      "city": "Sulzemoos",
+      "amount": 2
+    },
+    {
+      "city": "Sundern (Sauerland)",
+      "amount": 29
+    },
+    {
+      "city": "Suthfeld",
+      "amount": 2
+    },
+    {
+      "city": "Swisttal",
+      "amount": 21
+    },
+    {
+      "city": "Südergellersen",
+      "amount": 4
+    },
+    {
+      "city": "Südermarsch",
+      "amount": 11
+    },
+    {
+      "city": "Syke",
+      "amount": 5
+    },
+    {
+      "city": "Sülzetal",
+      "amount": 3
+    },
+    {
+      "city": "Süpplingen",
+      "amount": 3
+    },
+    {
+      "city": "Syrgenstein",
+      "amount": 1
+    },
+    {
+      "city": "Süßen",
+      "amount": 4
+    },
+    {
+      "city": "Söhlde",
+      "amount": 3
+    },
+    {
+      "city": "Söhrewald",
+      "amount": 6
+    },
+    {
+      "city": "Tann (Rhön)",
+      "amount": 1
+    },
+    {
+      "city": "Taucha",
+      "amount": 10
+    },
+    {
+      "city": "Taufkirchen",
+      "amount": 12
+    },
+    {
+      "city": "Taunusstein",
+      "amount": 32
+    },
+    {
+      "city": "Tecklenburg",
+      "amount": 3
+    },
+    {
+      "city": "Tegernheim",
+      "amount": 12
+    },
+    {
+      "city": "Teistungen",
+      "amount": 5
+    },
+    {
+      "city": "Telgte",
+      "amount": 2
+    },
+    {
+      "city": "Teltow",
+      "amount": 80
+    },
+    {
+      "city": "Teningen",
+      "amount": 14
+    },
+    {
+      "city": "Tettnang",
+      "amount": 23
+    },
+    {
+      "city": "Teublitz",
+      "amount": 2
+    },
+    {
+      "city": "Thale",
+      "amount": 4
+    },
+    {
+      "city": "Tharandt",
+      "amount": 15
+    },
+    {
+      "city": "Thedinghausen",
+      "amount": 2
+    },
+    {
+      "city": "Theißen",
+      "amount": 2
+    },
+    {
+      "city": "Thermalbad Wiesenbad",
+      "amount": 2
+    },
+    {
+      "city": "Thyrnau",
+      "amount": 8
+    },
+    {
+      "city": "Tiddische",
+      "amount": 5
+    },
+    {
+      "city": "Tiefenbach",
+      "amount": 52
+    },
+    {
+      "city": "Tirschenreuth",
+      "amount": 1
+    },
+    {
+      "city": "Titz",
+      "amount": 1
+    },
+    {
+      "city": "Torgau",
+      "amount": 3
+    },
+    {
+      "city": "Tornesch",
+      "amount": 19
+    },
+    {
+      "city": "Tostedt",
+      "amount": 2
+    },
+    {
+      "city": "Traunreut",
+      "amount": 6
+    },
+    {
+      "city": "Traunstein",
+      "amount": 12
+    },
+    {
+      "city": "Traventhal",
+      "amount": 3
+    },
+    {
+      "city": "Treben",
+      "amount": 2
+    },
+    {
+      "city": "Trebur",
+      "amount": 25
+    },
+    {
+      "city": "Triefenstein",
+      "amount": 3
+    },
+    {
+      "city": "Trier",
+      "amount": 1962
+    },
+    {
+      "city": "Trierweiler",
+      "amount": 5
+    },
+    {
+      "city": "Trippstadt",
+      "amount": 11
+    },
+    {
+      "city": "Troisdorf",
+      "amount": 140
+    },
+    {
+      "city": "Trollenhagen",
+      "amount": 7
+    },
+    {
+      "city": "Trossingen",
+      "amount": 10
+    },
+    {
+      "city": "Trostberg",
+      "amount": 4
+    },
+    {
+      "city": "Tuningen",
+      "amount": 10
+    },
+    {
+      "city": "Tuttlingen",
+      "amount": 55
+    },
+    {
+      "city": "Tutzing",
+      "amount": 5
+    },
+    {
+      "city": "Twistetal",
+      "amount": 1
+    },
+    {
+      "city": "Tübingen",
+      "amount": 2423
+    },
+    {
+      "city": "Tüttendorf",
+      "amount": 5
+    },
+    {
+      "city": "Tüttleben",
+      "amount": 1
+    },
+    {
+      "city": "Tönisvorst",
+      "amount": 64
+    },
+    {
+      "city": "Ubstadt-Weiher",
+      "amount": 15
+    },
+    {
+      "city": "Uedem",
+      "amount": 6
+    },
+    {
+      "city": "Uelzen",
+      "amount": 25
+    },
+    {
+      "city": "Uetersen",
+      "amount": 17
+    },
+    {
+      "city": "Uetze",
+      "amount": 5
+    },
+    {
+      "city": "Uhldingen-Mühlhofen",
+      "amount": 6
+    },
+    {
+      "city": "Uhlstädt-Kirchhasel",
+      "amount": 1
+    },
+    {
+      "city": "Ulm",
+      "amount": 1331
+    },
+    {
+      "city": "Ummendorf",
+      "amount": 10
+    },
+    {
+      "city": "Unkel",
+      "amount": 15
+    },
+    {
+      "city": "Unna",
+      "amount": 63
+    },
+    {
+      "city": "Unterensingen",
+      "amount": 8
+    },
+    {
+      "city": "Unterfranken",
+      "amount": 7
+    },
+    {
+      "city": "Unterföhring",
+      "amount": 37
+    },
+    {
+      "city": "Untergruppenbach",
+      "amount": 3
+    },
+    {
+      "city": "Unterhaching",
+      "amount": 123
+    },
+    {
+      "city": "Untermünkheim",
+      "amount": 2
+    },
+    {
+      "city": "Unterpleichfeld",
+      "amount": 9
+    },
+    {
+      "city": "Unterreichenbach",
+      "amount": 12
+    },
+    {
+      "city": "Unterschleißheim",
+      "amount": 43
+    },
+    {
+      "city": "Untersiemau",
+      "amount": 12
+    },
+    {
+      "city": "Urbar",
+      "amount": 47
+    },
+    {
+      "city": "Uttenreuth",
+      "amount": 11
+    },
+    {
+      "city": "Vaals",
+      "amount": 6
+    },
+    {
+      "city": "Vaihingen an der Enz",
+      "amount": 9
+    },
+    {
+      "city": "Varel",
+      "amount": 8
+    },
+    {
+      "city": "Vaterstetten",
+      "amount": 24
+    },
+    {
+      "city": "Vechelde",
+      "amount": 34
+    },
+    {
+      "city": "Vechta",
+      "amount": 1160
+    },
+    {
+      "city": "Veitsbronn",
+      "amount": 5
+    },
+    {
+      "city": "Veitshöchheim",
+      "amount": 11
+    },
+    {
+      "city": "Velbert",
+      "amount": 145
+    },
+    {
+      "city": "Vellmar",
+      "amount": 122
+    },
+    {
+      "city": "Veltheim (Ohe)",
+      "amount": 8
+    },
+    {
+      "city": "Verden (Aller)",
+      "amount": 11
+    },
+    {
+      "city": "Verl",
+      "amount": 25
+    },
+    {
+      "city": "Versmold",
+      "amount": 7
+    },
+    {
+      "city": "Verwaltungsgemeinschaft Hohe Börde",
+      "amount": 15
+    },
+    {
+      "city": "Vettweiß",
+      "amount": 2
+    },
+    {
+      "city": "Viernheim",
+      "amount": 88
+    },
+    {
+      "city": "Viersen",
+      "amount": 168
+    },
+    {
+      "city": "Villingen-Schwenningen",
+      "amount": 245
+    },
+    {
+      "city": "Vilsheim",
+      "amount": 3
+    },
+    {
+      "city": "Visbek",
+      "amount": 11
+    },
+    {
+      "city": "Visselhövede",
+      "amount": 1
+    },
+    {
+      "city": "Viöl",
+      "amount": 1
+    },
+    {
+      "city": "Vlotho",
+      "amount": 19
+    },
+    {
+      "city": "Voerde (Niederrhein)",
+      "amount": 56
+    },
+    {
+      "city": "Vogt",
+      "amount": 4
+    },
+    {
+      "city": "Vogtareuth",
+      "amount": 2
+    },
+    {
+      "city": "Volkmarsen",
+      "amount": 1
+    },
+    {
+      "city": "Vordorf",
+      "amount": 20
+    },
+    {
+      "city": "Vreden",
+      "amount": 5
+    },
+    {
+      "city": "Völklingen",
+      "amount": 36
+    },
+    {
+      "city": "Waal",
+      "amount": 2
+    },
+    {
+      "city": "Wachtberg",
+      "amount": 71
+    },
+    {
+      "city": "Wachtendonk",
+      "amount": 5
+    },
+    {
+      "city": "Wackersberg",
+      "amount": 2
+    },
+    {
+      "city": "Wackersdorf",
+      "amount": 2
+    },
+    {
+      "city": "Wadersloh",
+      "amount": 10
+    },
+    {
+      "city": "Waghäusel",
+      "amount": 43
+    },
+    {
+      "city": "Waiblingen",
+      "amount": 164
+    },
+    {
+      "city": "Wald-Michelbach",
+      "amount": 9
+    },
+    {
+      "city": "Waldachtal",
+      "amount": 19
+    },
+    {
+      "city": "Waldbronn",
+      "amount": 17
+    },
+    {
+      "city": "Waldbröl",
+      "amount": 22
+    },
+    {
+      "city": "Walddorfhäslach",
+      "amount": 17
+    },
+    {
+      "city": "Waldeck",
+      "amount": 3
+    },
+    {
+      "city": "Waldems",
+      "amount": 1
+    },
+    {
+      "city": "Waldenbuch",
+      "amount": 5
+    },
+    {
+      "city": "Waldfeucht",
+      "amount": 22
+    },
+    {
+      "city": "Waldheim",
+      "amount": 1
+    },
+    {
+      "city": "Waldkirch",
+      "amount": 16
+    },
+    {
+      "city": "Waldsassen",
+      "amount": 1
+    },
+    {
+      "city": "Waldsee",
+      "amount": 2
+    },
+    {
+      "city": "Waldstetten",
+      "amount": 13
+    },
+    {
+      "city": "Walldorf",
+      "amount": 62
+    },
+    {
+      "city": "Wallenhorst",
+      "amount": 168
+    },
+    {
+      "city": "Wallerfangen",
+      "amount": 9
+    },
+    {
+      "city": "Wallhausen",
+      "amount": 3
+    },
+    {
+      "city": "Walpertskirchen",
+      "amount": 1
+    },
+    {
+      "city": "Walsdorf",
+      "amount": 1
+    },
+    {
+      "city": "Walsheim",
+      "amount": 18
+    },
+    {
+      "city": "Walsrode",
+      "amount": 3
+    },
+    {
+      "city": "Waltrop",
+      "amount": 52
+    },
+    {
+      "city": "Walzbachtal",
+      "amount": 8
+    },
+    {
+      "city": "Wandlitz",
+      "amount": 2
+    },
+    {
+      "city": "Wangen im Allgäu",
+      "amount": 11
+    },
+    {
+      "city": "Wangerland",
+      "amount": 6
+    },
+    {
+      "city": "Wannweil",
+      "amount": 4
+    },
+    {
+      "city": "Warburg",
+      "amount": 20
+    },
+    {
+      "city": "Wardenburg",
+      "amount": 151
+    },
+    {
+      "city": "Warendorf",
+      "amount": 18
+    },
+    {
+      "city": "Warmsen",
+      "amount": 2
+    },
+    {
+      "city": "Warstein",
+      "amount": 30
+    },
+    {
+      "city": "Warthausen",
+      "amount": 5
+    },
+    {
+      "city": "Wasbek",
+      "amount": 2
+    },
+    {
+      "city": "Wassenberg",
+      "amount": 15
+    },
+    {
+      "city": "Wasserburg (Bodensee)",
+      "amount": 3
+    },
+    {
+      "city": "Wattenbek",
+      "amount": 2
+    },
+    {
+      "city": "Weddingstedt",
+      "amount": 1
+    },
+    {
+      "city": "Wedel",
+      "amount": 28
+    },
+    {
+      "city": "Wedemark",
+      "amount": 12
+    },
+    {
+      "city": "Weener",
+      "amount": 6
+    },
+    {
+      "city": "Weeze",
+      "amount": 14
+    },
+    {
+      "city": "Weferlingen",
+      "amount": 1
+    },
+    {
+      "city": "Wegberg",
+      "amount": 21
+    },
+    {
+      "city": "Wehr",
+      "amount": 1
+    },
+    {
+      "city": "Weida",
+      "amount": 1
+    },
+    {
+      "city": "Weiden",
+      "amount": 4
+    },
+    {
+      "city": "Weiden in der Oberpfalz",
+      "amount": 86
+    },
+    {
+      "city": "Weihenzell",
+      "amount": 2
+    },
+    {
+      "city": "Weiherhammer",
+      "amount": 7
+    },
+    {
+      "city": "Weikersheim",
+      "amount": 3
+    },
+    {
+      "city": "Weil am Rhein",
+      "amount": 14
+    },
+    {
+      "city": "Weil der Stadt",
+      "amount": 28
+    },
+    {
+      "city": "Weil im Schönbuch",
+      "amount": 5
+    },
+    {
+      "city": "Weilen",
+      "amount": 2
+    },
+    {
+      "city": "Weilerbach",
+      "amount": 4
+    },
+    {
+      "city": "Weilerswist",
+      "amount": 5
+    },
+    {
+      "city": "Weilheim",
+      "amount": 1
+    },
+    {
+      "city": "Weilheim an der Teck",
+      "amount": 5
+    },
+    {
+      "city": "Weilheim in Oberbayern",
+      "amount": 7
+    },
+    {
+      "city": "Weimar",
+      "amount": 274
+    },
+    {
+      "city": "Weimar (Lahn)",
+      "amount": 5
+    },
+    {
+      "city": "Weinfelden",
+      "amount": 7
+    },
+    {
+      "city": "Weingarten",
+      "amount": 288
+    },
+    {
+      "city": "Weingarten (Baden)",
+      "amount": 41
+    },
+    {
+      "city": "Weinheim",
+      "amount": 91
+    },
+    {
+      "city": "Weinsberg",
+      "amount": 12
+    },
+    {
+      "city": "Weinstadt",
+      "amount": 12
+    },
+    {
+      "city": "Weisendorf",
+      "amount": 7
+    },
+    {
+      "city": "Weisenheim am Berg",
+      "amount": 1
+    },
+    {
+      "city": "Weissach",
+      "amount": 7
+    },
+    {
+      "city": "Weissach im Tal",
+      "amount": 6
+    },
+    {
+      "city": "Weiterstadt",
+      "amount": 68
+    },
+    {
+      "city": "Weitramsdorf",
+      "amount": 2
+    },
+    {
+      "city": "Weißenborn/Erzgebirge",
+      "amount": 2
+    },
+    {
+      "city": "Weißenthurm",
+      "amount": 20
+    },
+    {
+      "city": "Welle",
+      "amount": 1
+    },
+    {
+      "city": "Wellendingen",
+      "amount": 10
+    },
+    {
+      "city": "Welver",
+      "amount": 24
+    },
+    {
+      "city": "Wendeburg",
+      "amount": 5
+    },
+    {
+      "city": "Wenden",
+      "amount": 21
+    },
+    {
+      "city": "Wendlingen am Neckar",
+      "amount": 47
+    },
+    {
+      "city": "Wendorf",
+      "amount": 7
+    },
+    {
+      "city": "Wennigsen (Deister)",
+      "amount": 18
+    },
+    {
+      "city": "Wentorf bei Hamburg",
+      "amount": 8
+    },
+    {
+      "city": "Wenzenbach",
+      "amount": 33
+    },
+    {
+      "city": "Wenzendorf",
+      "amount": 1
+    },
+    {
+      "city": "Werder (Havel)",
+      "amount": 23
+    },
+    {
+      "city": "Werdohl",
+      "amount": 10
+    },
+    {
+      "city": "Werl",
+      "amount": 12
+    },
+    {
+      "city": "Wermelskirchen",
+      "amount": 18
+    },
+    {
+      "city": "Wernau",
+      "amount": 1
+    },
+    {
+      "city": "Wernau (Neckar)",
+      "amount": 2
+    },
+    {
+      "city": "Werne",
+      "amount": 21
+    },
+    {
+      "city": "Werneuchen",
+      "amount": 1
+    },
+    {
+      "city": "Wernigerode",
+      "amount": 320
+    },
+    {
+      "city": "Wertheim",
+      "amount": 8
+    },
+    {
+      "city": "Werther (Westfalen)",
+      "amount": 58
+    },
+    {
+      "city": "Wesel",
+      "amount": 47
+    },
+    {
+      "city": "Wesseling",
+      "amount": 93
+    },
+    {
+      "city": "Wesseln",
+      "amount": 31
+    },
+    {
+      "city": "West",
+      "amount": 4
+    },
+    {
+      "city": "Westerstede",
+      "amount": 8
+    },
+    {
+      "city": "Westhausen",
+      "amount": 3
+    },
+    {
+      "city": "Westheim",
+      "amount": 5
+    },
+    {
+      "city": "Westoverledingen",
+      "amount": 11
+    },
+    {
+      "city": "Wettenberg",
+      "amount": 101
+    },
+    {
+      "city": "Wetter (Ruhr)",
+      "amount": 49
+    },
+    {
+      "city": "Wettringen",
+      "amount": 7
+    },
+    {
+      "city": "Wettstetten",
+      "amount": 3
+    },
+    {
+      "city": "Wetzlar",
+      "amount": 111
+    },
+    {
+      "city": "Weyhe",
+      "amount": 71
+    },
+    {
+      "city": "Wickede (Ruhr)",
+      "amount": 11
+    },
+    {
+      "city": "Wiefelstede",
+      "amount": 87
+    },
+    {
+      "city": "Wiehl",
+      "amount": 35
+    },
+    {
+      "city": "Wiernsheim",
+      "amount": 8
+    },
+    {
+      "city": "Wiesau",
+      "amount": 5
+    },
+    {
+      "city": "Wiesbach",
+      "amount": 2
+    },
+    {
+      "city": "Wiesbaden",
+      "amount": 1661
+    },
+    {
+      "city": "Wiesenbach",
+      "amount": 9
+    },
+    {
+      "city": "Wiesloch",
+      "amount": 39
+    },
+    {
+      "city": "Wietmarschen",
+      "amount": 14
+    },
+    {
+      "city": "Wiggensbach",
+      "amount": 7
+    },
+    {
+      "city": "Wildau",
+      "amount": 2
+    },
+    {
+      "city": "Wildberg",
+      "amount": 7
+    },
+    {
+      "city": "Wildenfels",
+      "amount": 3
+    },
+    {
+      "city": "Wilhelmsfeld",
+      "amount": 7
+    },
+    {
+      "city": "Wilhelmshaven",
+      "amount": 520
+    },
+    {
+      "city": "Wilkau-Haßlau",
+      "amount": 1
+    },
+    {
+      "city": "Willich",
+      "amount": 83
+    },
+    {
+      "city": "Willmars",
+      "amount": 1
+    },
+    {
+      "city": "Wilnsdorf",
+      "amount": 56
+    },
+    {
+      "city": "Wilsdruff",
+      "amount": 15
+    },
+    {
+      "city": "Wilthen",
+      "amount": 1
+    },
+    {
+      "city": "Wimsheim",
+      "amount": 7
+    },
+    {
+      "city": "Windeck",
+      "amount": 2
+    },
+    {
+      "city": "Winden im Elztal",
+      "amount": 11
+    },
+    {
+      "city": "Winnenden",
+      "amount": 7
+    },
+    {
+      "city": "Winnert",
+      "amount": 1
+    },
+    {
+      "city": "Winsen (Luhe)",
+      "amount": 11
+    },
+    {
+      "city": "Winterbach",
+      "amount": 10
+    },
+    {
+      "city": "Winterhude",
+      "amount": 6
+    },
+    {
+      "city": "Wipperfürth",
+      "amount": 14
+    },
+    {
+      "city": "Wismar",
+      "amount": 182
+    },
+    {
+      "city": "Wissen",
+      "amount": 4
+    },
+    {
+      "city": "Witten",
+      "amount": 390
+    },
+    {
+      "city": "Wittenau",
+      "amount": 1
+    },
+    {
+      "city": "Wittenberg",
+      "amount": 1
+    },
+    {
+      "city": "Wittichenau",
+      "amount": 3
+    },
+    {
+      "city": "Wittlingen",
+      "amount": 3
+    },
+    {
+      "city": "Wittmund",
+      "amount": 5
+    },
+    {
+      "city": "Wolfenbüttel",
+      "amount": 197
+    },
+    {
+      "city": "Wolfersdorf",
+      "amount": 4
+    },
+    {
+      "city": "Wolfhagen",
+      "amount": 5
+    },
+    {
+      "city": "Wolfisheim",
+      "amount": 1
+    },
+    {
+      "city": "Wolfsberg",
+      "amount": 1
+    },
+    {
+      "city": "Wolfsburg",
+      "amount": 369
+    },
+    {
+      "city": "Wolkenstein",
+      "amount": 1
+    },
+    {
+      "city": "Wolmirstedt",
+      "amount": 1
+    },
+    {
+      "city": "Wolnzach",
+      "amount": 5
+    },
+    {
+      "city": "Woltersdorf",
+      "amount": 1
+    },
+    {
+      "city": "Worms",
+      "amount": 190
+    },
+    {
+      "city": "Wunstorf",
+      "amount": 28
+    },
+    {
+      "city": "Wuppertal",
+      "amount": 2153
+    },
+    {
+      "city": "Wurmlingen",
+      "amount": 4
+    },
+    {
+      "city": "Wurster Nordseeküste",
+      "amount": 3
+    },
+    {
+      "city": "Wutha-Farnroda",
+      "amount": 7
+    },
+    {
+      "city": "Wutöschingen",
+      "amount": 1
+    },
+    {
+      "city": "WÜ",
+      "amount": 6
+    },
+    {
+      "city": "Wülfrath",
+      "amount": 59
+    },
+    {
+      "city": "Würselen",
+      "amount": 94
+    },
+    {
+      "city": "Würzburg",
+      "amount": 3491
+    },
+    {
+      "city": "Wölfersheim",
+      "amount": 9
+    },
+    {
+      "city": "Wöllstadt",
+      "amount": 8
+    },
+    {
+      "city": "Wörth",
+      "amount": 4
+    },
+    {
+      "city": "Wörth am Rhein",
+      "amount": 37
+    },
+    {
+      "city": "Xanten",
+      "amount": 10
+    },
+    {
+      "city": "Übach-Palenberg",
+      "amount": 12
+    },
+    {
+      "city": "Überherrn",
+      "amount": 6
+    },
+    {
+      "city": "Überlingen",
+      "amount": 18
+    },
+    {
+      "city": "Zangberg",
+      "amount": 2
+    },
+    {
+      "city": "Zapfendorf",
+      "amount": 9
+    },
+    {
+      "city": "Zeitlarn",
+      "amount": 28
+    },
+    {
+      "city": "Zeitz",
+      "amount": 3
+    },
+    {
+      "city": "Zell am Main",
+      "amount": 40
+    },
+    {
+      "city": "Zetel",
+      "amount": 3
+    },
+    {
+      "city": "Zeven",
+      "amount": 7
+    },
+    {
+      "city": "Zgorzelec",
+      "amount": 31
+    },
+    {
+      "city": "Zimmern ob Rottweil",
+      "amount": 14
+    },
+    {
+      "city": "Zirndorf",
+      "amount": 18
+    },
+    {
+      "city": "Zittau",
+      "amount": 8
+    },
+    {
+      "city": "Zschaitz-Ottewig",
+      "amount": 1
+    },
+    {
+      "city": "Zuzenhausen",
+      "amount": 2
+    },
+    {
+      "city": "Zweibrücken",
+      "amount": 41
+    },
+    {
+      "city": "Zwenkau",
+      "amount": 4
+    },
+    {
+      "city": "Zwickau",
+      "amount": 319
+    },
+    {
+      "city": "Zwingenberg",
+      "amount": 24
+    },
+    {
+      "city": "Zülpich",
+      "amount": 10
+    },
+    {
+      "city": "Öhningen",
+      "amount": 1
+    },
+    {
+      "city": "Öhringen",
+      "amount": 6
+    },
+    {
+      "city": "Östringen",
+      "amount": 7
+    },
+    {
+      "city": "Ötigheim",
+      "amount": 5
+    },
+    {
+      "city": "Ötisheim",
+      "amount": 3
+    }
+  ]
+}

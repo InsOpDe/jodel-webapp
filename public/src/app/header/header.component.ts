@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {ContentService} from "../content.service";
+import {ContentService, JRESULT} from "../content.service";
 import {ContentModel} from "../content/content.model";
 import {animate, query, stagger, style, transition, trigger} from "@angular/animations";
 import {COLORS} from "../global/colors";
@@ -25,7 +25,7 @@ export class HeaderComponent implements OnInit {
     };
 
     contentData: ContentModel;
-
+  resultData: JRESULT;
     constructor(public contentService: ContentService) { }
 
     ngOnInit() {
@@ -42,7 +42,11 @@ export class HeaderComponent implements OnInit {
 
 
         // debug
-        this.sendJodel();
+      this.sendJodel();
+
+      // Real one
+      //this.sendJodel2();
+
     }
 
     /**
@@ -60,7 +64,14 @@ export class HeaderComponent implements OnInit {
                 this.contentData = response;
         });
     }
-
+  sendJodel2()
+  {
+    this.contentService.getResultData2(this.jodel)
+      .subscribe(response =>
+      {
+        this.resultData = response;
+      })
+  }
 
     /**
      * back to landingpage, refresh data of the service,
