@@ -27,7 +27,7 @@ export class HeaderComponent implements OnInit {
     text: string;
   };
 
-  public group: CreateNewAutocompleteGroup[];
+  public group;
 
   /**
    *
