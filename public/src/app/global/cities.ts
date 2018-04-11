@@ -6,8 +6,8 @@ export const CITIES = {
     "inhabitants": "3520031",
     "state": "Berlin",
     "coordinates": {
-      "x": 30,
-      "y": 15
+      "x": 29,
+      "y": 14
     }
   },
   "2": {
@@ -17,8 +17,8 @@ export const CITIES = {
     "inhabitants": "1787408",
     "state": "Hamburg",
     "coordinates": {
-      "x": 18,
-      "y": 9
+      "x": 17,
+      "y": 8
     }
   },
   "3": {
@@ -28,8 +28,8 @@ export const CITIES = {
     "inhabitants": "1450381",
     "state": "Bayern",
     "coordinates": {
-      "x": 23,
-      "y": 42
+      "x": 22,
+      "y": 41
     }
   },
   "4": {
@@ -39,8 +39,8 @@ export const CITIES = {
     "inhabitants": "1060582",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 25
+      "x": 5,
+      "y": 24
     }
   },
   "5": {
@@ -50,8 +50,8 @@ export const CITIES = {
     "inhabitants": "732688",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 30
+      "x": 11,
+      "y": 29
     }
   },
   "6": {
@@ -61,8 +61,8 @@ export const CITIES = {
     "inhabitants": "623738",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 38
+      "x": 13,
+      "y": 37
     }
   },
   "7": {
@@ -72,8 +72,8 @@ export const CITIES = {
     "inhabitants": "612178",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 23
+      "x": 4,
+      "y": 22
     }
   },
   "8": {
@@ -83,8 +83,8 @@ export const CITIES = {
     "inhabitants": "586181",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 21
+      "x": 7,
+      "y": 20
     }
   },
   "9": {
@@ -94,8 +94,8 @@ export const CITIES = {
     "inhabitants": "582624",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 10,
-      "y": 14
+      "x": 9,
+      "y": 13
     }
   },
   "10": {
@@ -105,8 +105,8 @@ export const CITIES = {
     "inhabitants": "560472",
     "state": "Sachsen",
     "coordinates": {
-      "x": 27,
-      "y": 22
+      "x": 26,
+      "y": 21
     }
   },
   "11": {
@@ -116,8 +116,8 @@ export const CITIES = {
     "inhabitants": "557464",
     "state": "Bremen",
     "coordinates": {
-      "x": 13,
-      "y": 12
+      "x": 12,
+      "y": 11
     }
   },
   "12": {
@@ -127,8 +127,8 @@ export const CITIES = {
     "inhabitants": "543825",
     "state": "Sachsen",
     "coordinates": {
-      "x": 32,
-      "y": 24
+      "x": 31,
+      "y": 23
     }
   },
   "13": {
@@ -138,8 +138,8 @@ export const CITIES = {
     "inhabitants": "532163",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 16,
-      "y": 16
+      "x": 15,
+      "y": 15
     }
   },
   "14": {
@@ -149,8 +149,8 @@ export const CITIES = {
     "inhabitants": "509975",
     "state": "Bayern",
     "coordinates": {
-      "x": 22,
-      "y": 34
+      "x": 21,
+      "y": 33
     }
   },
   "15": {
@@ -160,8 +160,8 @@ export const CITIES = {
     "inhabitants": "491231",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 22
+      "x": 4,
+      "y": 21
     }
   },
   "16": {
@@ -171,8 +171,8 @@ export const CITIES = {
     "inhabitants": "364742",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 22
+      "x": 6,
+      "y": 21
     }
   },
   "17": {
@@ -182,8 +182,8 @@ export const CITIES = {
     "inhabitants": "350046",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 23
+      "x": 6,
+      "y": 22
     }
   },
   "18": {
@@ -193,8 +193,8 @@ export const CITIES = {
     "inhabitants": "333090",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 12,
-      "y": 18
+      "x": 11,
+      "y": 17
     }
   },
   "19": {
@@ -204,8 +204,8 @@ export const CITIES = {
     "inhabitants": "318809",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 26
+      "x": 5,
+      "y": 25
     }
   },
   "20": {
@@ -215,8 +215,8 @@ export const CITIES = {
     "inhabitants": "310039",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 19
+      "x": 7,
+      "y": 18
     }
   },
   "21": {
@@ -226,8 +226,8 @@ export const CITIES = {
     "inhabitants": "307755",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 11,
-      "y": 37
+      "x": 10,
+      "y": 36
     }
   },
   "22": {
@@ -237,8 +237,8 @@ export const CITIES = {
     "inhabitants": "305780",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 12,
-      "y": 34
+      "x": 11,
+      "y": 33
     }
   },
   "23": {
@@ -248,8 +248,8 @@ export const CITIES = {
     "inhabitants": "286374",
     "state": "Bayern",
     "coordinates": {
-      "x": 21,
-      "y": 41
+      "x": 20,
+      "y": 40
     }
   },
   "24": {
@@ -259,8 +259,8 @@ export const CITIES = {
     "inhabitants": "276218",
     "state": "Hessen",
     "coordinates": {
-      "x": 11,
-      "y": 30
+      "x": 10,
+      "y": 29
     }
   },
   "25": {
@@ -270,8 +270,8 @@ export const CITIES = {
     "inhabitants": "260368",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 21
+      "x": 5,
+      "y": 20
     }
   },
   "26": {
@@ -281,8 +281,8 @@ export const CITIES = {
     "inhabitants": "259996",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 4,
-      "y": 23
+      "x": 3,
+      "y": 22
     }
   },
   "27": {
@@ -292,8 +292,8 @@ export const CITIES = {
     "inhabitants": "251364",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 20,
-      "y": 17
+      "x": 19,
+      "y": 16
     }
   },
   "28": {
@@ -303,8 +303,8 @@ export const CITIES = {
     "inhabitants": "248645",
     "state": "Sachsen",
     "coordinates": {
-      "x": 29,
-      "y": 26
+      "x": 28,
+      "y": 25
     }
   },
   "29": {
@@ -314,8 +314,8 @@ export const CITIES = {
     "inhabitants": "246306",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 18,
-      "y": 4
+      "x": 17,
+      "y": 3
     }
   },
   "30": {
@@ -325,8 +325,8 @@ export const CITIES = {
     "inhabitants": "245885",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 26
+      "x": 2,
+      "y": 25
     }
   },
   "31": {
@@ -336,8 +336,8 @@ export const CITIES = {
     "inhabitants": "236991",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 11,
-      "y": 18
+      "x": 10,
+      "y": 17
     }
   },
   "32": {
@@ -347,8 +347,8 @@ export const CITIES = {
     "inhabitants": "235723",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 24,
-      "y": 18
+      "x": 23,
+      "y": 17
     }
   },
   "33": {
@@ -358,8 +358,8 @@ export const CITIES = {
     "inhabitants": "226393",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 9,
-      "y": 43
+      "x": 8,
+      "y": 42
     }
   },
   "34": {
@@ -369,8 +369,8 @@ export const CITIES = {
     "inhabitants": "225144",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 4,
-      "y": 23
+      "x": 3,
+      "y": 22
     }
   },
   "35": {
@@ -380,8 +380,8 @@ export const CITIES = {
     "inhabitants": "216253",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 20,
-      "y": 7
+      "x": 19,
+      "y": 6
     }
   },
   "36": {
@@ -391,8 +391,8 @@ export const CITIES = {
     "inhabitants": "210934",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 22
+      "x": 5,
+      "y": 21
     }
   },
   "37": {
@@ -402,8 +402,8 @@ export const CITIES = {
     "inhabitants": "210118",
     "state": "Thüringen",
     "coordinates": {
-      "x": 21,
-      "y": 25
+      "x": 20,
+      "y": 24
     }
   },
   "38": {
@@ -413,8 +413,8 @@ export const CITIES = {
     "inhabitants": "209779",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 11,
-      "y": 31
+      "x": 10,
+      "y": 30
     }
   },
   "39": {
@@ -424,8 +424,8 @@ export const CITIES = {
     "inhabitants": "206011",
     "state": "Mecklenburg-Vorpommern",
     "coordinates": {
-      "x": 26,
-      "y": 6
+      "x": 25,
+      "y": 5
     }
   },
   "40": {
@@ -435,8 +435,8 @@ export const CITIES = {
     "inhabitants": "197984",
     "state": "Hessen",
     "coordinates": {
-      "x": 16,
-      "y": 23
+      "x": 15,
+      "y": 22
     }
   },
   "41": {
@@ -446,8 +446,8 @@ export const CITIES = {
     "inhabitants": "189044",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 22
+      "x": 7,
+      "y": 21
     }
   },
   "42": {
@@ -457,8 +457,8 @@ export const CITIES = {
     "inhabitants": "179397",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 9,
-      "y": 26
+      "x": 8,
+      "y": 25
     }
   },
   "43": {
@@ -468,8 +468,8 @@ export const CITIES = {
     "inhabitants": "178151",
     "state": "Saarland",
     "coordinates": {
-      "x": 6,
-      "y": 35
+      "x": 5,
+      "y": 34
     }
   },
   "44": {
@@ -479,8 +479,8 @@ export const CITIES = {
     "inhabitants": "169278",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 22
+      "x": 5,
+      "y": 21
     }
   },
   "45": {
@@ -490,8 +490,8 @@ export const CITIES = {
     "inhabitants": "167745",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 29,
-      "y": 16
+      "x": 28,
+      "y": 15
     }
   },
   "46": {
@@ -501,8 +501,8 @@ export const CITIES = {
     "inhabitants": "164718",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 12,
-      "y": 34
+      "x": 11,
+      "y": 33
     }
   },
   "47": {
@@ -512,8 +512,8 @@ export const CITIES = {
     "inhabitants": "163830",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 11,
-      "y": 11
+      "x": 10,
+      "y": 10
     }
   },
   "48": {
@@ -523,8 +523,8 @@ export const CITIES = {
     "inhabitants": "163487",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 24
+      "x": 5,
+      "y": 23
     }
   },
   "49": {
@@ -534,8 +534,8 @@ export const CITIES = {
     "inhabitants": "162403",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 10,
-      "y": 17
+      "x": 9,
+      "y": 16
     }
   },
   "50": {
@@ -545,8 +545,8 @@ export const CITIES = {
     "inhabitants": "158726",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 24
+      "x": 5,
+      "y": 23
     }
   },
   "51": {
@@ -556,8 +556,8 @@ export const CITIES = {
     "inhabitants": "156267",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 12,
-      "y": 34
+      "x": 11,
+      "y": 33
     }
   },
   "52": {
@@ -567,8 +567,8 @@ export const CITIES = {
     "inhabitants": "155851",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 21
+      "x": 6,
+      "y": 20
     }
   },
   "53": {
@@ -578,8 +578,8 @@ export const CITIES = {
     "inhabitants": "155414",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 23
+      "x": 4,
+      "y": 22
     }
   },
   "54": {
@@ -589,8 +589,8 @@ export const CITIES = {
     "inhabitants": "155353",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 32
+      "x": 11,
+      "y": 31
     }
   },
   "55": {
@@ -600,8 +600,8 @@ export const CITIES = {
     "inhabitants": "148126",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 13,
-      "y": 20
+      "x": 12,
+      "y": 19
     }
   },
   "56": {
@@ -611,8 +611,8 @@ export const CITIES = {
     "inhabitants": "145465",
     "state": "Bayern",
     "coordinates": {
-      "x": 25,
-      "y": 37
+      "x": 24,
+      "y": 36
     }
   },
   "57": {
@@ -622,8 +622,8 @@ export const CITIES = {
     "inhabitants": "132438",
     "state": "Bayern",
     "coordinates": {
-      "x": 23,
-      "y": 38
+      "x": 22,
+      "y": 37
     }
   },
   "58": {
@@ -633,8 +633,8 @@ export const CITIES = {
     "inhabitants": "124873",
     "state": "Bayern",
     "coordinates": {
-      "x": 17,
-      "y": 32
+      "x": 16,
+      "y": 31
     }
   },
   "59": {
@@ -644,8 +644,8 @@ export const CITIES = {
     "inhabitants": "124171",
     "state": "Bayern",
     "coordinates": {
-      "x": 13,
-      "y": 33
+      "x": 12,
+      "y": 32
     }
   },
   "60": {
@@ -655,8 +655,8 @@ export const CITIES = {
     "inhabitants": "124045",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 20,
-      "y": 16
+      "x": 19,
+      "y": 15
     }
   },
   "61": {
@@ -666,8 +666,8 @@ export const CITIES = {
     "inhabitants": "122636",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 17,
-      "y": 41
+      "x": 16,
+      "y": 40
     }
   },
   "62": {
@@ -677,8 +677,8 @@ export const CITIES = {
     "inhabitants": "122567",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 36
+      "x": 13,
+      "y": 35
     }
   },
   "63": {
@@ -688,8 +688,8 @@ export const CITIES = {
     "inhabitants": "122247",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 13,
-      "y": 38
+      "x": 12,
+      "y": 37
     }
   },
   "64": {
@@ -699,8 +699,8 @@ export const CITIES = {
     "inhabitants": "118914",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 17,
-      "y": 21
+      "x": 16,
+      "y": 20
     }
   },
   "65": {
@@ -710,8 +710,8 @@ export const CITIES = {
     "inhabitants": "117143",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 21
+      "x": 5,
+      "y": 20
     }
   },
   "66": {
@@ -721,8 +721,8 @@ export const CITIES = {
     "inhabitants": "114914",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 5,
-      "y": 32
+      "x": 4,
+      "y": 31
     }
   },
   "67": {
@@ -732,8 +732,8 @@ export const CITIES = {
     "inhabitants": "114330",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 21
+      "x": 6,
+      "y": 20
     }
   },
   "68": {
@@ -743,8 +743,8 @@ export const CITIES = {
     "inhabitants": "114310",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 40
+      "x": 13,
+      "y": 39
     }
   },
   "69": {
@@ -754,8 +754,8 @@ export const CITIES = {
     "inhabitants": "114025",
     "state": "Bremen",
     "coordinates": {
-      "x": 12,
-      "y": 9
+      "x": 11,
+      "y": 8
     }
   },
   "70": {
@@ -765,8 +765,8 @@ export const CITIES = {
     "inhabitants": "112586",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 8,
-      "y": 29
+      "x": 7,
+      "y": 28
     }
   },
   "71": {
@@ -776,8 +776,8 @@ export const CITIES = {
     "inhabitants": "111366",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 25
+      "x": 6,
+      "y": 24
     }
   },
   "72": {
@@ -787,8 +787,8 @@ export const CITIES = {
     "inhabitants": "109527",
     "state": "Thüringen",
     "coordinates": {
-      "x": 24,
-      "y": 25
+      "x": 23,
+      "y": 24
     }
   },
   "73": {
@@ -798,8 +798,8 @@ export const CITIES = {
     "inhabitants": "109499",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 23
+      "x": 6,
+      "y": 22
     }
   },
   "74": {
@@ -809,8 +809,8 @@ export const CITIES = {
     "inhabitants": "108336",
     "state": "Bayern",
     "coordinates": {
-      "x": 21,
-      "y": 33
+      "x": 20,
+      "y": 32
     }
   },
   "75": {
@@ -820,8 +820,8 @@ export const CITIES = {
     "inhabitants": "104529",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 22
+      "x": 4,
+      "y": 21
     }
   },
   "76": {
@@ -831,8 +831,8 @@ export const CITIES = {
     "inhabitants": "102355",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 10,
-      "y": 25
+      "x": 9,
+      "y": 24
     }
   },
   "77": {
@@ -842,8 +842,8 @@ export const CITIES = {
     "inhabitants": "101667",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 17,
-      "y": 18
+      "x": 16,
+      "y": 17
     }
   },
   "78": {
@@ -853,8 +853,8 @@ export const CITIES = {
     "inhabitants": "101079",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 19,
-      "y": 18
+      "x": 18,
+      "y": 17
     }
   },
   "79": {
@@ -864,8 +864,8 @@ export const CITIES = {
     "inhabitants": "99687",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 34,
-      "y": 20
+      "x": 33,
+      "y": 19
     }
   },
   "80": {
@@ -875,8 +875,8 @@ export const CITIES = {
     "inhabitants": "98520",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 9,
-      "y": 34
+      "x": 8,
+      "y": 33
     }
   },
   "81": {
@@ -886,8 +886,8 @@ export const CITIES = {
     "inhabitants": "97586",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 11,
-      "y": 19
+      "x": 10,
+      "y": 18
     }
   },
   "82": {
@@ -897,8 +897,8 @@ export const CITIES = {
     "inhabitants": "96800",
     "state": "Mecklenburg-Vorpommern",
     "coordinates": {
-      "x": 23,
-      "y": 8
+      "x": 22,
+      "y": 7
     }
   },
   "83": {
@@ -908,8 +908,8 @@ export const CITIES = {
     "inhabitants": "96700",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 22
+      "x": 6,
+      "y": 21
     }
   },
   "84": {
@@ -919,8 +919,8 @@ export const CITIES = {
     "inhabitants": "96011",
     "state": "Thüringen",
     "coordinates": {
-      "x": 25,
-      "y": 25
+      "x": 24,
+      "y": 24
     }
   },
   "85": {
@@ -930,8 +930,8 @@ export const CITIES = {
     "inhabitants": "93537",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 9,
-      "y": 22
+      "x": 8,
+      "y": 21
     }
   },
   "86": {
@@ -941,8 +941,8 @@ export const CITIES = {
     "inhabitants": "92973",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 37
+      "x": 13,
+      "y": 36
     }
   },
   "87": {
@@ -952,8 +952,8 @@ export const CITIES = {
     "inhabitants": "92643",
     "state": "Hessen",
     "coordinates": {
-      "x": 13,
-      "y": 30
+      "x": 12,
+      "y": 29
     }
   },
   "88": {
@@ -963,8 +963,8 @@ export const CITIES = {
     "inhabitants": "91271",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 15,
-      "y": 38
+      "x": 14,
+      "y": 37
     }
   },
   "89": {
@@ -974,8 +974,8 @@ export const CITIES = {
     "inhabitants": "91123",
     "state": "Sachsen",
     "coordinates": {
-      "x": 27,
-      "y": 26
+      "x": 26,
+      "y": 25
     }
   },
   "90": {
@@ -985,8 +985,8 @@ export const CITIES = {
     "inhabitants": "90244",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 4,
-      "y": 26
+      "x": 3,
+      "y": 25
     }
   },
   "91": {
@@ -996,8 +996,8 @@ export const CITIES = {
     "inhabitants": "87943",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 23
+      "x": 4,
+      "y": 22
     }
   },
   "92": {
@@ -1007,8 +1007,8 @@ export const CITIES = {
     "inhabitants": "87464",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 40
+      "x": 13,
+      "y": 39
     }
   },
   "93": {
@@ -1018,8 +1018,8 @@ export const CITIES = {
     "inhabitants": "85942",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 15,
-      "y": 1
+      "x": 14,
+      "y": 0
     }
   },
   "94": {
@@ -1029,8 +1029,8 @@ export const CITIES = {
     "inhabitants": "85867",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 21
+      "x": 7,
+      "y": 20
     }
   },
   "95": {
@@ -1040,8 +1040,8 @@ export const CITIES = {
     "inhabitants": "84674",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 12,
-      "y": 43
+      "x": 11,
+      "y": 42
     }
   },
   "96": {
@@ -1051,8 +1051,8 @@ export const CITIES = {
     "inhabitants": "84455",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 27
+      "x": 11,
+      "y": 26
     }
   },
   "97": {
@@ -1062,8 +1062,8 @@ export const CITIES = {
     "inhabitants": "83926",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 20
+      "x": 5,
+      "y": 19
     }
   },
   "98": {
@@ -1073,8 +1073,8 @@ export const CITIES = {
     "inhabitants": "82859",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 45
+      "x": 13,
+      "y": 44
     }
   },
   "99": {
@@ -1084,8 +1084,8 @@ export const CITIES = {
     "inhabitants": "82102",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 11,
-      "y": 33
+      "x": 10,
+      "y": 32
     }
   },
   "100": {
@@ -1095,8 +1095,8 @@ export const CITIES = {
     "inhabitants": "81598",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 13,
-      "y": 17
+      "x": 12,
+      "y": 16
     }
   },
   "101": {
@@ -1106,8 +1106,8 @@ export const CITIES = {
     "inhabitants": "81430",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 23
+      "x": 5,
+      "y": 22
     }
   },
   "102": {
@@ -1117,8 +1117,8 @@ export const CITIES = {
     "inhabitants": "79197",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 17,
-      "y": 6
+      "x": 16,
+      "y": 5
     }
   },
   "103": {
@@ -1128,8 +1128,8 @@ export const CITIES = {
     "inhabitants": "76712",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 18,
-      "y": 8
+      "x": 17,
+      "y": 7
     }
   },
   "104": {
@@ -1139,8 +1139,8 @@ export const CITIES = {
     "inhabitants": "76323",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 12,
-      "y": 12
+      "x": 11,
+      "y": 11
     }
   },
   "105": {
@@ -1150,8 +1150,8 @@ export const CITIES = {
     "inhabitants": "75995",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 10,
-      "y": 9
+      "x": 9,
+      "y": 8
     }
   },
   "106": {
@@ -1161,8 +1161,8 @@ export const CITIES = {
     "inhabitants": "75931",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 4,
-      "y": 23
+      "x": 3,
+      "y": 22
     }
   },
   "107": {
@@ -1172,8 +1172,8 @@ export const CITIES = {
     "inhabitants": "75455",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 21
+      "x": 5,
+      "y": 20
     }
   },
   "108": {
@@ -1183,8 +1183,8 @@ export const CITIES = {
     "inhabitants": "75431",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 20
+      "x": 5,
+      "y": 19
     }
   },
   "109": {
@@ -1194,8 +1194,8 @@ export const CITIES = {
     "inhabitants": "74852",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 17
+      "x": 7,
+      "y": 16
     }
   },
   "110": {
@@ -1205,8 +1205,8 @@ export const CITIES = {
     "inhabitants": "74817",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 13,
-      "y": 19
+      "x": 12,
+      "y": 18
     }
   },
   "111": {
@@ -1216,8 +1216,8 @@ export const CITIES = {
     "inhabitants": "74400",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 26
+      "x": 6,
+      "y": 25
     }
   },
   "112": {
@@ -1227,8 +1227,8 @@ export const CITIES = {
     "inhabitants": "74220",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 21
+      "x": 6,
+      "y": 20
     }
   },
   "113": {
@@ -1238,8 +1238,8 @@ export const CITIES = {
     "inhabitants": "74072",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 19,
-      "y": 11
+      "x": 18,
+      "y": 10
     }
   },
   "114": {
@@ -1249,8 +1249,8 @@ export const CITIES = {
     "inhabitants": "73836",
     "state": "Hessen",
     "coordinates": {
-      "x": 13,
-      "y": 26
+      "x": 12,
+      "y": 25
     }
   },
   "115": {
@@ -1260,8 +1260,8 @@ export const CITIES = {
     "inhabitants": "73784",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 10,
-      "y": 22
+      "x": 9,
+      "y": 21
     }
   },
   "116": {
@@ -1271,8 +1271,8 @@ export const CITIES = {
     "inhabitants": "73354",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 23
+      "x": 7,
+      "y": 22
     }
   },
   "117": {
@@ -1282,8 +1282,8 @@ export const CITIES = {
     "inhabitants": "73331",
     "state": "Bayern",
     "coordinates": {
-      "x": 21,
-      "y": 31
+      "x": 20,
+      "y": 30
     }
   },
   "118": {
@@ -1293,8 +1293,8 @@ export const CITIES = {
     "inhabitants": "72148",
     "state": "Bayern",
     "coordinates": {
-      "x": 23,
-      "y": 31
+      "x": 22,
+      "y": 30
     }
   },
   "119": {
@@ -1304,8 +1304,8 @@ export const CITIES = {
     "inhabitants": "71443",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 19
+      "x": 4,
+      "y": 18
     }
   },
   "120": {
@@ -1315,8 +1315,8 @@ export const CITIES = {
     "inhabitants": "69748",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 18,
-      "y": 15
+      "x": 17,
+      "y": 14
     }
   },
   "121": {
@@ -1326,8 +1326,8 @@ export const CITIES = {
     "inhabitants": "69211",
     "state": "Bayern",
     "coordinates": {
-      "x": 26,
-      "y": 40
+      "x": 25,
+      "y": 39
     }
   },
   "122": {
@@ -1337,8 +1337,8 @@ export const CITIES = {
     "inhabitants": "68986",
     "state": "Bayern",
     "coordinates": {
-      "x": 14,
-      "y": 31
+      "x": 13,
+      "y": 30
     }
   },
   "123": {
@@ -1348,8 +1348,8 @@ export const CITIES = {
     "inhabitants": "67452",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 21
+      "x": 4,
+      "y": 20
     }
   },
   "124": {
@@ -1359,8 +1359,8 @@ export const CITIES = {
     "inhabitants": "67344",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 18,
-      "y": 38
+      "x": 17,
+      "y": 37
     }
   },
   "125": {
@@ -1370,8 +1370,8 @@ export const CITIES = {
     "inhabitants": "67253",
     "state": "Hessen",
     "coordinates": {
-      "x": 16,
-      "y": 27
+      "x": 15,
+      "y": 26
     }
   },
   "126": {
@@ -1381,8 +1381,8 @@ export const CITIES = {
     "inhabitants": "67233",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 11,
-      "y": 20
+      "x": 10,
+      "y": 19
     }
   },
   "127": {
@@ -1392,8 +1392,8 @@ export const CITIES = {
     "inhabitants": "66947",
     "state": "Bayern",
     "coordinates": {
-      "x": 19,
-      "y": 45
+      "x": 18,
+      "y": 44
     }
   },
   "128": {
@@ -1403,8 +1403,8 @@ export const CITIES = {
     "inhabitants": "66521",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 12,
-      "y": 18
+      "x": 11,
+      "y": 17
     }
   },
   "129": {
@@ -1414,8 +1414,8 @@ export const CITIES = {
     "inhabitants": "65477",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 25
+      "x": 4,
+      "y": 24
     }
   },
   "130": {
@@ -1425,8 +1425,8 @@ export const CITIES = {
     "inhabitants": "65201",
     "state": "Sachsen",
     "coordinates": {
-      "x": 26,
-      "y": 28
+      "x": 25,
+      "y": 27
     }
   },
   "131": {
@@ -1436,8 +1436,8 @@ export const CITIES = {
     "inhabitants": "64340",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 8,
-      "y": 28
+      "x": 7,
+      "y": 27
     }
   },
   "132": {
@@ -1447,8 +1447,8 @@ export const CITIES = {
     "inhabitants": "64131",
     "state": "Thüringen",
     "coordinates": {
-      "x": 23,
-      "y": 25
+      "x": 22,
+      "y": 24
     }
   },
   "133": {
@@ -1458,8 +1458,8 @@ export const CITIES = {
     "inhabitants": "64064",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 24
+      "x": 4,
+      "y": 23
     }
   },
   "134": {
@@ -1469,8 +1469,8 @@ export const CITIES = {
     "inhabitants": "63971",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 39
+      "x": 13,
+      "y": 38
     }
   },
   "135": {
@@ -1480,8 +1480,8 @@ export const CITIES = {
     "inhabitants": "63602",
     "state": "Mecklenburg-Vorpommern",
     "coordinates": {
-      "x": 30,
-      "y": 9
+      "x": 29,
+      "y": 8
     }
   },
   "136": {
@@ -1491,8 +1491,8 @@ export const CITIES = {
     "inhabitants": "63051",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 4,
-      "y": 24
+      "x": 3,
+      "y": 23
     }
   },
   "137": {
@@ -1502,8 +1502,8 @@ export const CITIES = {
     "inhabitants": "61844",
     "state": "Bayern",
     "coordinates": {
-      "x": 26,
-      "y": 44
+      "x": 25,
+      "y": 43
     }
   },
   "138": {
@@ -1513,8 +1513,8 @@ export const CITIES = {
     "inhabitants": "61163",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 21
+      "x": 6,
+      "y": 20
     }
   },
   "139": {
@@ -1524,8 +1524,8 @@ export const CITIES = {
     "inhabitants": "60595",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 20
+      "x": 4,
+      "y": 19
     }
   },
   "140": {
@@ -1535,8 +1535,8 @@ export const CITIES = {
     "inhabitants": "60590",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 16,
-      "y": 16
+      "x": 15,
+      "y": 15
     }
   },
   "141": {
@@ -1546,8 +1546,8 @@ export const CITIES = {
     "inhabitants": "60390",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 25
+      "x": 4,
+      "y": 24
     }
   },
   "142": {
@@ -1557,8 +1557,8 @@ export const CITIES = {
     "inhabitants": "59840",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 17,
-      "y": 38
+      "x": 16,
+      "y": 37
     }
   },
   "143": {
@@ -1568,8 +1568,8 @@ export const CITIES = {
     "inhabitants": "59496",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 25
+      "x": 5,
+      "y": 24
     }
   },
   "144": {
@@ -1579,8 +1579,8 @@ export const CITIES = {
     "inhabitants": "59111",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 9,
-      "y": 21
+      "x": 8,
+      "y": 20
     }
   },
   "145": {
@@ -1590,8 +1590,8 @@ export const CITIES = {
     "inhabitants": "59108",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 16,
-      "y": 45
+      "x": 15,
+      "y": 44
     }
   },
   "146": {
@@ -1601,8 +1601,8 @@ export const CITIES = {
     "inhabitants": "58465",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 10,
-      "y": 40
+      "x": 9,
+      "y": 39
     }
   },
   "147": {
@@ -1612,8 +1612,8 @@ export const CITIES = {
     "inhabitants": "58041",
     "state": "Mecklenburg-Vorpommern",
     "coordinates": {
-      "x": 29,
-      "y": 4
+      "x": 28,
+      "y": 3
     }
   },
   "148": {
@@ -1623,8 +1623,8 @@ export const CITIES = {
     "inhabitants": "58033",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 24
+      "x": 5,
+      "y": 23
     }
   },
   "149": {
@@ -1634,8 +1634,8 @@ export const CITIES = {
     "inhabitants": "57286",
     "state": "Mecklenburg-Vorpommern",
     "coordinates": {
-      "x": 30,
-      "y": 6
+      "x": 29,
+      "y": 5
     }
   },
   "150": {
@@ -1645,8 +1645,8 @@ export const CITIES = {
     "inhabitants": "57237",
     "state": "Bayern",
     "coordinates": {
-      "x": 18,
-      "y": 41
+      "x": 17,
+      "y": 40
     }
   },
   "151": {
@@ -1656,8 +1656,8 @@ export const CITIES = {
     "inhabitants": "56781",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 16,
-      "y": 39
+      "x": 15,
+      "y": 38
     }
   },
   "152": {
@@ -1667,8 +1667,8 @@ export const CITIES = {
     "inhabitants": "56769",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 27
+      "x": 4,
+      "y": 26
     }
   },
   "153": {
@@ -1678,8 +1678,8 @@ export const CITIES = {
     "inhabitants": "56739",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 26
+      "x": 2,
+      "y": 25
     }
   },
   "154": {
@@ -1689,8 +1689,8 @@ export const CITIES = {
     "inhabitants": "56529",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 15,
-      "y": 18
+      "x": 14,
+      "y": 17
     }
   },
   "155": {
@@ -1700,8 +1700,8 @@ export const CITIES = {
     "inhabitants": "55909",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 26
+      "x": 2,
+      "y": 25
     }
   },
   "156": {
@@ -1711,8 +1711,8 @@ export const CITIES = {
     "inhabitants": "55709",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 26
+      "x": 6,
+      "y": 25
     }
   },
   "157": {
@@ -1722,8 +1722,8 @@ export const CITIES = {
     "inhabitants": "55255",
     "state": "Sachsen",
     "coordinates": {
-      "x": 36,
-      "y": 24
+      "x": 35,
+      "y": 23
     }
   },
   "158": {
@@ -1733,8 +1733,8 @@ export const CITIES = {
     "inhabitants": "55185",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 24
+      "x": 5,
+      "y": 23
     }
   },
   "159": {
@@ -1744,8 +1744,8 @@ export const CITIES = {
     "inhabitants": "54892",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 23
+      "x": 4,
+      "y": 22
     }
   },
   "160": {
@@ -1755,8 +1755,8 @@ export const CITIES = {
     "inhabitants": "54834",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 22
+      "x": 6,
+      "y": 21
     }
   },
   "161": {
@@ -1766,8 +1766,8 @@ export const CITIES = {
     "inhabitants": "54263",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 15,
-      "y": 38
+      "x": 14,
+      "y": 37
     }
   },
   "162": {
@@ -1777,8 +1777,8 @@ export const CITIES = {
     "inhabitants": "54200",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 25
+      "x": 4,
+      "y": 24
     }
   },
   "163": {
@@ -1788,8 +1788,8 @@ export const CITIES = {
     "inhabitants": "54160",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 11,
-      "y": 38
+      "x": 10,
+      "y": 37
     }
   },
   "164": {
@@ -1799,8 +1799,8 @@ export const CITIES = {
     "inhabitants": "53485",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 9,
-      "y": 22
+      "x": 8,
+      "y": 21
     }
   },
   "165": {
@@ -1810,8 +1810,8 @@ export const CITIES = {
     "inhabitants": "53341",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 13,
-      "y": 18
+      "x": 12,
+      "y": 17
     }
   },
   "166": {
@@ -1821,8 +1821,8 @@ export const CITIES = {
     "inhabitants": "53323",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 16,
-      "y": 16
+      "x": 15,
+      "y": 15
     }
   },
   "167": {
@@ -1832,8 +1832,8 @@ export const CITIES = {
     "inhabitants": "53285",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 6,
-      "y": 16
+      "x": 5,
+      "y": 15
     }
   },
   "168": {
@@ -1843,8 +1843,8 @@ export const CITIES = {
     "inhabitants": "53284",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 7,
-      "y": 15
+      "x": 6,
+      "y": 14
     }
   },
   "169": {
@@ -1854,8 +1854,8 @@ export const CITIES = {
     "inhabitants": "53244",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 29
+      "x": 11,
+      "y": 28
     }
   },
   "170": {
@@ -1865,8 +1865,8 @@ export const CITIES = {
     "inhabitants": "52999",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 10,
-      "y": 35
+      "x": 9,
+      "y": 34
     }
   },
   "171": {
@@ -1876,8 +1876,8 @@ export const CITIES = {
     "inhabitants": "52287",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 9,
-      "y": 20
+      "x": 8,
+      "y": 19
     }
   },
   "172": {
@@ -1887,8 +1887,8 @@ export const CITIES = {
     "inhabitants": "52269",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 20,
-      "y": 17
+      "x": 19,
+      "y": 16
     }
   },
   "173": {
@@ -1898,8 +1898,8 @@ export const CITIES = {
     "inhabitants": "51999",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 25
+      "x": 4,
+      "y": 24
     }
   },
   "174": {
@@ -1909,8 +1909,8 @@ export const CITIES = {
     "inhabitants": "51969",
     "state": "Bayern",
     "coordinates": {
-      "x": 18,
-      "y": 30
+      "x": 17,
+      "y": 29
     }
   },
   "175": {
@@ -1920,8 +1920,8 @@ export const CITIES = {
     "inhabitants": "51649",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 27
+      "x": 11,
+      "y": 26
     }
   },
   "176": {
@@ -1931,8 +1931,8 @@ export const CITIES = {
     "inhabitants": "50935",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 9,
-      "y": 17
+      "x": 8,
+      "y": 16
     }
   },
   "177": {
@@ -1942,8 +1942,8 @@ export const CITIES = {
     "inhabitants": "50782",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 19,
-      "y": 19
+      "x": 18,
+      "y": 18
     }
   },
   "178": {
@@ -1953,8 +1953,8 @@ export const CITIES = {
     "inhabitants": "50748",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 4,
-      "y": 23
+      "x": 3,
+      "y": 22
     }
   },
   "179": {
@@ -1964,8 +1964,8 @@ export const CITIES = {
     "inhabitants": "50694",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 7,
-      "y": 10
+      "x": 6,
+      "y": 9
     }
   },
   "180": {
@@ -1975,8 +1975,8 @@ export const CITIES = {
     "inhabitants": "50566",
     "state": "Bayern",
     "coordinates": {
-      "x": 31,
-      "y": 40
+      "x": 30,
+      "y": 39
     }
   },
   "181": {
@@ -1986,8 +1986,8 @@ export const CITIES = {
     "inhabitants": "50412",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 24
+      "x": 7,
+      "y": 23
     }
   },
   "182": {
@@ -1997,8 +1997,8 @@ export const CITIES = {
     "inhabitants": "50284",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 12,
-      "y": 35
+      "x": 11,
+      "y": 34
     }
   },
   "183": {
@@ -2008,8 +2008,8 @@ export const CITIES = {
     "inhabitants": "49830",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 16,
-      "y": 44
+      "x": 15,
+      "y": 43
     }
   },
   "184": {
@@ -2019,8 +2019,8 @@ export const CITIES = {
     "inhabitants": "49786",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 26
+      "x": 4,
+      "y": 25
     }
   },
   "185": {
@@ -2030,8 +2030,8 @@ export const CITIES = {
     "inhabitants": "49729",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 20
+      "x": 2,
+      "y": 19
     }
   },
   "186": {
@@ -2041,8 +2041,8 @@ export const CITIES = {
     "inhabitants": "49406",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 9,
-      "y": 32
+      "x": 8,
+      "y": 31
     }
   },
   "187": {
@@ -2052,8 +2052,8 @@ export const CITIES = {
     "inhabitants": "49366",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 18,
-      "y": 16
+      "x": 17,
+      "y": 15
     }
   },
   "188": {
@@ -2063,8 +2063,8 @@ export const CITIES = {
     "inhabitants": "49303",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 9,
-      "y": 45
+      "x": 8,
+      "y": 44
     }
   },
   "189": {
@@ -2074,8 +2074,8 @@ export const CITIES = {
     "inhabitants": "48990",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 13,
-      "y": 17
+      "x": 12,
+      "y": 16
     }
   },
   "190": {
@@ -2085,8 +2085,8 @@ export const CITIES = {
     "inhabitants": "48696",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 39
+      "x": 13,
+      "y": 38
     }
   },
   "191": {
@@ -2096,8 +2096,8 @@ export const CITIES = {
     "inhabitants": "48684",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 16,
-      "y": 8
+      "x": 15,
+      "y": 7
     }
   },
   "192": {
@@ -2107,8 +2107,8 @@ export const CITIES = {
     "inhabitants": "48363",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 11,
-      "y": 34
+      "x": 10,
+      "y": 33
     }
   },
   "193": {
@@ -2118,8 +2118,8 @@ export const CITIES = {
     "inhabitants": "48264",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 13,
-      "y": 7
+      "x": 12,
+      "y": 6
     }
   },
   "194": {
@@ -2129,8 +2129,8 @@ export const CITIES = {
     "inhabitants": "48051",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 11,
-      "y": 38
+      "x": 10,
+      "y": 37
     }
   },
   "195": {
@@ -2140,8 +2140,8 @@ export const CITIES = {
     "inhabitants": "48048",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 18,
-      "y": 39
+      "x": 17,
+      "y": 38
     }
   },
   "196": {
@@ -2151,8 +2151,8 @@ export const CITIES = {
     "inhabitants": "48000",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 11,
-      "y": 19
+      "x": 10,
+      "y": 18
     }
   },
   "197": {
@@ -2162,8 +2162,8 @@ export const CITIES = {
     "inhabitants": "47974",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 10,
-      "y": 21
+      "x": 9,
+      "y": 20
     }
   },
   "198": {
@@ -2173,8 +2173,8 @@ export const CITIES = {
     "inhabitants": "47803",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 21
+      "x": 7,
+      "y": 20
     }
   },
   "199": {
@@ -2184,8 +2184,8 @@ export const CITIES = {
     "inhabitants": "47636",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 26
+      "x": 5,
+      "y": 25
     }
   },
   "200": {
@@ -2195,8 +2195,8 @@ export const CITIES = {
     "inhabitants": "47287",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 13,
-      "y": 44
+      "x": 12,
+      "y": 43
     }
   },
   "201": {
@@ -2206,8 +2206,8 @@ export const CITIES = {
     "inhabitants": "47219",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 26,
-      "y": 31
+      "x": 25,
+      "y": 30
     }
   },
   "202": {
@@ -2217,8 +2217,8 @@ export const CITIES = {
     "inhabitants": "46963",
     "state": "Bayern",
     "coordinates": {
-      "x": 24,
-      "y": 41
+      "x": 23,
+      "y": 40
     }
   },
   "203": {
@@ -2228,8 +2228,8 @@ export const CITIES = {
     "inhabitants": "46902",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 26
+      "x": 6,
+      "y": 25
     }
   },
   "204": {
@@ -2239,8 +2239,8 @@ export const CITIES = {
     "inhabitants": "46880",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 25
+      "x": 2,
+      "y": 24
     }
   },
   "205": {
@@ -2250,8 +2250,8 @@ export const CITIES = {
     "inhabitants": "46806",
     "state": "Bayern",
     "coordinates": {
-      "x": 27,
-      "y": 38
+      "x": 26,
+      "y": 37
     }
   },
   "206": {
@@ -2261,8 +2261,8 @@ export const CITIES = {
     "inhabitants": "46723",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 22
+      "x": 7,
+      "y": 21
     }
   },
   "207": {
@@ -2272,8 +2272,8 @@ export const CITIES = {
     "inhabitants": "46705",
     "state": "Bayern",
     "coordinates": {
-      "x": 23,
-      "y": 41
+      "x": 22,
+      "y": 40
     }
   },
   "208": {
@@ -2283,8 +2283,8 @@ export const CITIES = {
     "inhabitants": "46613",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 19
+      "x": 6,
+      "y": 18
     }
   },
   "209": {
@@ -2294,8 +2294,8 @@ export const CITIES = {
     "inhabitants": "46583",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 25
+      "x": 2,
+      "y": 24
     }
   },
   "210": {
@@ -2305,8 +2305,8 @@ export const CITIES = {
     "inhabitants": "46378",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 16,
-      "y": 9
+      "x": 15,
+      "y": 8
     }
   },
   "211": {
@@ -2316,8 +2316,8 @@ export const CITIES = {
     "inhabitants": "46369",
     "state": "Saarland",
     "coordinates": {
-      "x": 10,
-      "y": 26
+      "x": 9,
+      "y": 25
     }
   },
   "212": {
@@ -2327,8 +2327,8 @@ export const CITIES = {
     "inhabitants": "46039",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 11,
-      "y": 17
+      "x": 10,
+      "y": 16
     }
   },
   "213": {
@@ -2338,8 +2338,8 @@ export const CITIES = {
     "inhabitants": "45723",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 29
+      "x": 11,
+      "y": 28
     }
   },
   "214": {
@@ -2349,8 +2349,8 @@ export const CITIES = {
     "inhabitants": "45615",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 12,
-      "y": 17
+      "x": 11,
+      "y": 16
     }
   },
   "215": {
@@ -2360,8 +2360,8 @@ export const CITIES = {
     "inhabitants": "45410",
     "state": "Thüringen",
     "coordinates": {
-      "x": 20,
-      "y": 25
+      "x": 19,
+      "y": 24
     }
   },
   "216": {
@@ -2371,8 +2371,8 @@ export const CITIES = {
     "inhabitants": "45362",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 10,
-      "y": 36
+      "x": 9,
+      "y": 35
     }
   },
   "217": {
@@ -2382,8 +2382,8 @@ export const CITIES = {
     "inhabitants": "45147",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 15,
-      "y": 38
+      "x": 14,
+      "y": 37
     }
   },
   "218": {
@@ -2393,8 +2393,8 @@ export const CITIES = {
     "inhabitants": "44977",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 39
+      "x": 13,
+      "y": 38
     }
   },
   "219": {
@@ -2404,8 +2404,8 @@ export const CITIES = {
     "inhabitants": "44884",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 9,
-      "y": 41
+      "x": 8,
+      "y": 40
     }
   },
   "220": {
@@ -2415,8 +2415,8 @@ export const CITIES = {
     "inhabitants": "44797",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 12,
-      "y": 33
+      "x": 11,
+      "y": 32
     }
   },
   "221": {
@@ -2426,8 +2426,8 @@ export const CITIES = {
     "inhabitants": "44768",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 26
+      "x": 5,
+      "y": 25
     }
   },
   "222": {
@@ -2437,8 +2437,8 @@ export const CITIES = {
     "inhabitants": "44660",
     "state": "Bayern",
     "coordinates": {
-      "x": 30,
-      "y": 23
+      "x": 29,
+      "y": 22
     }
   },
   "223": {
@@ -2448,8 +2448,8 @@ export const CITIES = {
     "inhabitants": "44431",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 42
+      "x": 13,
+      "y": 41
     }
   },
   "224": {
@@ -2459,8 +2459,8 @@ export const CITIES = {
     "inhabitants": "44222",
     "state": "Hessen",
     "coordinates": {
-      "x": 13,
-      "y": 31
+      "x": 12,
+      "y": 30
     }
   },
   "225": {
@@ -2470,8 +2470,8 @@ export const CITIES = {
     "inhabitants": "44104",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 12,
-      "y": 36
+      "x": 11,
+      "y": 35
     }
   },
   "226": {
@@ -2481,8 +2481,8 @@ export const CITIES = {
     "inhabitants": "44086",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 23
+      "x": 5,
+      "y": 22
     }
   },
   "227": {
@@ -2492,8 +2492,8 @@ export const CITIES = {
     "inhabitants": "43931",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 15,
-      "y": 15
+      "x": 14,
+      "y": 14
     }
   },
   "228": {
@@ -2503,8 +2503,8 @@ export const CITIES = {
     "inhabitants": "43868",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 9,
-      "y": 21
+      "x": 8,
+      "y": 20
     }
   },
   "229": {
@@ -2514,8 +2514,8 @@ export const CITIES = {
     "inhabitants": "43768",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 21,
-      "y": 19
+      "x": 20,
+      "y": 18
     }
   },
   "230": {
@@ -2525,8 +2525,8 @@ export const CITIES = {
     "inhabitants": "43639",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 17,
-      "y": 16
+      "x": 16,
+      "y": 15
     }
   },
   "231": {
@@ -2536,8 +2536,8 @@ export const CITIES = {
     "inhabitants": "43526",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 30,
-      "y": 14
+      "x": 29,
+      "y": 13
     }
   },
   "232": {
@@ -2547,8 +2547,8 @@ export const CITIES = {
     "inhabitants": "43350",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 24
+      "x": 2,
+      "y": 23
     }
   },
   "233": {
@@ -2558,8 +2558,8 @@ export const CITIES = {
     "inhabitants": "43286",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 23
+      "x": 4,
+      "y": 22
     }
   },
   "234": {
@@ -2569,8 +2569,8 @@ export const CITIES = {
     "inhabitants": "43278",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 13,
-      "y": 40
+      "x": 12,
+      "y": 39
     }
   },
   "235": {
@@ -2580,8 +2580,8 @@ export const CITIES = {
     "inhabitants": "42968",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 37
+      "x": 13,
+      "y": 36
     }
   },
   "236": {
@@ -2591,8 +2591,8 @@ export const CITIES = {
     "inhabitants": "42841",
     "state": "Bayern",
     "coordinates": {
-      "x": 18,
-      "y": 43
+      "x": 17,
+      "y": 42
     }
   },
   "237": {
@@ -2602,8 +2602,8 @@ export const CITIES = {
     "inhabitants": "42731",
     "state": "Bayern",
     "coordinates": {
-      "x": 20,
-      "y": 44
+      "x": 19,
+      "y": 43
     }
   },
   "238": {
@@ -2613,8 +2613,8 @@ export const CITIES = {
     "inhabitants": "42634",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 29,
-      "y": 15
+      "x": 28,
+      "y": 14
     }
   },
   "239": {
@@ -2624,8 +2624,8 @@ export const CITIES = {
     "inhabitants": "42557",
     "state": "Mecklenburg-Vorpommern",
     "coordinates": {
-      "x": 23,
-      "y": 7
+      "x": 22,
+      "y": 6
     }
   },
   "240": {
@@ -2635,8 +2635,8 @@ export const CITIES = {
     "inhabitants": "42417",
     "state": "Thüringen",
     "coordinates": {
-      "x": 19,
-      "y": 25
+      "x": 18,
+      "y": 24
     }
   },
   "241": {
@@ -2646,8 +2646,8 @@ export const CITIES = {
     "inhabitants": "42272",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 15,
-      "y": 24
+      "x": 14,
+      "y": 23
     }
   },
   "242": {
@@ -2657,8 +2657,8 @@ export const CITIES = {
     "inhabitants": "42266",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 17,
-      "y": 8
+      "x": 16,
+      "y": 7
     }
   },
   "243": {
@@ -2668,8 +2668,8 @@ export const CITIES = {
     "inhabitants": "42217",
     "state": "Thüringen",
     "coordinates": {
-      "x": 20,
-      "y": 22
+      "x": 19,
+      "y": 21
     }
   },
   "244": {
@@ -2679,8 +2679,8 @@ export const CITIES = {
     "inhabitants": "42055",
     "state": "Bayern",
     "coordinates": {
-      "x": 26,
-      "y": 33
+      "x": 25,
+      "y": 32
     }
   },
   "245": {
@@ -2690,8 +2690,8 @@ export const CITIES = {
     "inhabitants": "41974",
     "state": "Saarland",
     "coordinates": {
-      "x": 7,
-      "y": 35
+      "x": 6,
+      "y": 34
     }
   },
   "246": {
@@ -2701,8 +2701,8 @@ export const CITIES = {
     "inhabitants": "41964",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 23
+      "x": 2,
+      "y": 22
     }
   },
   "247": {
@@ -2712,8 +2712,8 @@ export const CITIES = {
     "inhabitants": "41905",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 20,
-      "y": 15
+      "x": 19,
+      "y": 14
     }
   },
   "248": {
@@ -2723,8 +2723,8 @@ export const CITIES = {
     "inhabitants": "41861",
     "state": "Bayern",
     "coordinates": {
-      "x": 25,
-      "y": 34
+      "x": 24,
+      "y": 33
     }
   },
   "249": {
@@ -2734,8 +2734,8 @@ export const CITIES = {
     "inhabitants": "41641",
     "state": "Sachsen",
     "coordinates": {
-      "x": 30,
-      "y": 25
+      "x": 29,
+      "y": 24
     }
   },
   "250": {
@@ -2745,8 +2745,8 @@ export const CITIES = {
     "inhabitants": "41538",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 24
+      "x": 2,
+      "y": 23
     }
   },
   "251": {
@@ -2756,8 +2756,8 @@ export const CITIES = {
     "inhabitants": "41489",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 8,
-      "y": 9
+      "x": 7,
+      "y": 8
     }
   },
   "252": {
@@ -2767,8 +2767,8 @@ export const CITIES = {
     "inhabitants": "41276",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 13,
-      "y": 18
+      "x": 12,
+      "y": 17
     }
   },
   "253": {
@@ -2778,8 +2778,8 @@ export const CITIES = {
     "inhabitants": "41257",
     "state": "Bayern",
     "coordinates": {
-      "x": 21,
-      "y": 29
+      "x": 20,
+      "y": 28
     }
   },
   "254": {
@@ -2789,8 +2789,8 @@ export const CITIES = {
     "inhabitants": "41251",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 15,
-      "y": 16
+      "x": 14,
+      "y": 15
     }
   },
   "255": {
@@ -2800,8 +2800,8 @@ export const CITIES = {
     "inhabitants": "41159",
     "state": "Bayern",
     "coordinates": {
-      "x": 20,
-      "y": 35
+      "x": 19,
+      "y": 34
     }
   },
   "256": {
@@ -2811,8 +2811,8 @@ export const CITIES = {
     "inhabitants": "41016",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 26
+      "x": 6,
+      "y": 25
     }
   },
   "257": {
@@ -2822,8 +2822,8 @@ export const CITIES = {
     "inhabitants": "40949",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 17,
-      "y": 10
+      "x": 16,
+      "y": 9
     }
   },
   "258": {
@@ -2833,8 +2833,8 @@ export const CITIES = {
     "inhabitants": "40939",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 17,
-      "y": 16
+      "x": 16,
+      "y": 15
     }
   },
   "259": {
@@ -2844,8 +2844,8 @@ export const CITIES = {
     "inhabitants": "40702",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 27
+      "x": 6,
+      "y": 26
     }
   },
   "260": {
@@ -2855,8 +2855,8 @@ export const CITIES = {
     "inhabitants": "40601",
     "state": "Hessen",
     "coordinates": {
-      "x": 13,
-      "y": 31
+      "x": 12,
+      "y": 30
     }
   },
   "261": {
@@ -2866,8 +2866,8 @@ export const CITIES = {
     "inhabitants": "40535",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 15,
-      "y": 39
+      "x": 14,
+      "y": 38
     }
   },
   "262": {
@@ -2877,8 +2877,8 @@ export const CITIES = {
     "inhabitants": "40428",
     "state": "Bayern",
     "coordinates": {
-      "x": 21,
-      "y": 35
+      "x": 20,
+      "y": 34
     }
   },
   "263": {
@@ -2888,8 +2888,8 @@ export const CITIES = {
     "inhabitants": "40269",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 25,
-      "y": 15
+      "x": 24,
+      "y": 14
     }
   },
   "264": {
@@ -2899,8 +2899,8 @@ export const CITIES = {
     "inhabitants": "40173",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 16,
-      "y": 9
+      "x": 15,
+      "y": 8
     }
   },
   "265": {
@@ -2910,8 +2910,8 @@ export const CITIES = {
     "inhabitants": "40125",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 8,
-      "y": 36
+      "x": 7,
+      "y": 35
     }
   },
   "266": {
@@ -2921,8 +2921,8 @@ export const CITIES = {
     "inhabitants": "40094",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 15,
-      "y": 39
+      "x": 14,
+      "y": 38
     }
   },
   "267": {
@@ -2932,8 +2932,8 @@ export const CITIES = {
     "inhabitants": "40086",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 13,
-      "y": 17
+      "x": 12,
+      "y": 16
     }
   },
   "268": {
@@ -2943,8 +2943,8 @@ export const CITIES = {
     "inhabitants": "40051",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 33
+      "x": 11,
+      "y": 32
     }
   },
   "269": {
@@ -2954,8 +2954,8 @@ export const CITIES = {
     "inhabitants": "39845",
     "state": "Sachsen",
     "coordinates": {
-      "x": 34,
-      "y": 23
+      "x": 33,
+      "y": 22
     }
   },
   "270": {
@@ -2965,8 +2965,8 @@ export const CITIES = {
     "inhabitants": "39734",
     "state": "Sachsen",
     "coordinates": {
-      "x": 31,
-      "y": 25
+      "x": 30,
+      "y": 24
     }
   },
   "271": {
@@ -2976,8 +2976,8 @@ export const CITIES = {
     "inhabitants": "39531",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 24
+      "x": 2,
+      "y": 23
     }
   },
   "272": {
@@ -2987,8 +2987,8 @@ export const CITIES = {
     "inhabitants": "39476",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 30
+      "x": 11,
+      "y": 29
     }
   },
   "273": {
@@ -2998,8 +2998,8 @@ export const CITIES = {
     "inhabitants": "39387",
     "state": "Bayern",
     "coordinates": {
-      "x": 23,
-      "y": 42
+      "x": 22,
+      "y": 41
     }
   },
   "274": {
@@ -3009,8 +3009,8 @@ export const CITIES = {
     "inhabitants": "39333",
     "state": "Bayern",
     "coordinates": {
-      "x": 23,
-      "y": 35
+      "x": 22,
+      "y": 34
     }
   },
   "275": {
@@ -3020,8 +3020,8 @@ export const CITIES = {
     "inhabitants": "39277",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 18
+      "x": 5,
+      "y": 17
     }
   },
   "276": {
@@ -3031,8 +3031,8 @@ export const CITIES = {
     "inhabitants": "39172",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 27,
-      "y": 36
+      "x": 26,
+      "y": 35
     }
   },
   "277": {
@@ -3042,8 +3042,8 @@ export const CITIES = {
     "inhabitants": "39129",
     "state": "Saarland",
     "coordinates": {
-      "x": 5,
-      "y": 35
+      "x": 4,
+      "y": 34
     }
   },
   "278": {
@@ -3053,8 +3053,8 @@ export const CITIES = {
     "inhabitants": "39071",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 39
+      "x": 13,
+      "y": 38
     }
   },
   "279": {
@@ -3064,8 +3064,8 @@ export const CITIES = {
     "inhabitants": "38982",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 11,
-      "y": 37
+      "x": 10,
+      "y": 36
     }
   },
   "280": {
@@ -3075,8 +3075,8 @@ export const CITIES = {
     "inhabitants": "38962",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 26
+      "x": 2,
+      "y": 25
     }
   },
   "281": {
@@ -3086,8 +3086,8 @@ export const CITIES = {
     "inhabitants": "38827",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 16,
-      "y": 36
+      "x": 15,
+      "y": 35
     }
   },
   "282": {
@@ -3097,8 +3097,8 @@ export const CITIES = {
     "inhabitants": "38519",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 15,
-      "y": 39
+      "x": 14,
+      "y": 38
     }
   },
   "283": {
@@ -3108,8 +3108,8 @@ export const CITIES = {
     "inhabitants": "38487",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 17,
-      "y": 10
+      "x": 16,
+      "y": 9
     }
   },
   "284": {
@@ -3119,8 +3119,8 @@ export const CITIES = {
     "inhabitants": "38291",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 23
+      "x": 5,
+      "y": 22
     }
   },
   "285": {
@@ -3130,8 +3130,8 @@ export const CITIES = {
     "inhabitants": "38208",
     "state": "Hessen",
     "coordinates": {
-      "x": 13,
-      "y": 30
+      "x": 12,
+      "y": 29
     }
   },
   "286": {
@@ -3141,8 +3141,8 @@ export const CITIES = {
     "inhabitants": "38010",
     "state": "Sachsen",
     "coordinates": {
-      "x": 32,
-      "y": 25
+      "x": 31,
+      "y": 24
     }
   },
   "287": {
@@ -3152,8 +3152,8 @@ export const CITIES = {
     "inhabitants": "37683",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 4,
-      "y": 22
+      "x": 3,
+      "y": 21
     }
   },
   "288": {
@@ -3163,8 +3163,8 @@ export const CITIES = {
     "inhabitants": "37583",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 26
+      "x": 5,
+      "y": 25
     }
   },
   "289": {
@@ -3174,8 +3174,8 @@ export const CITIES = {
     "inhabitants": "37565",
     "state": "Hessen",
     "coordinates": {
-      "x": 13,
-      "y": 30
+      "x": 12,
+      "y": 29
     }
   },
   "290": {
@@ -3185,8 +3185,8 @@ export const CITIES = {
     "inhabitants": "37249",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 10,
-      "y": 19
+      "x": 9,
+      "y": 18
     }
   },
   "291": {
@@ -3196,8 +3196,8 @@ export const CITIES = {
     "inhabitants": "37026",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 9
+      "x": 11,
+      "y": 8
     }
   },
   "292": {
@@ -3207,8 +3207,8 @@ export const CITIES = {
     "inhabitants": "36778",
     "state": "Thüringen",
     "coordinates": {
-      "x": 20,
-      "y": 27
+      "x": 19,
+      "y": 26
     }
   },
   "293": {
@@ -3218,8 +3218,8 @@ export const CITIES = {
     "inhabitants": "36690",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 8,
-      "y": 12
+      "x": 7,
+      "y": 11
     }
   },
   "294": {
@@ -3229,8 +3229,8 @@ export const CITIES = {
     "inhabitants": "36675",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 21
+      "x": 4,
+      "y": 20
     }
   },
   "295": {
@@ -3240,8 +3240,8 @@ export const CITIES = {
     "inhabitants": "36674",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 18
+      "x": 7,
+      "y": 17
     }
   },
   "296": {
@@ -3251,8 +3251,8 @@ export const CITIES = {
     "inhabitants": "36560",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 10,
-      "y": 20
+      "x": 9,
+      "y": 19
     }
   },
   "297": {
@@ -3262,8 +3262,8 @@ export const CITIES = {
     "inhabitants": "36320",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 17
+      "x": 7,
+      "y": 16
     }
   },
   "298": {
@@ -3273,8 +3273,8 @@ export const CITIES = {
     "inhabitants": "36292",
     "state": "Saarland",
     "coordinates": {
-      "x": 7,
-      "y": 35
+      "x": 6,
+      "y": 34
     }
   },
   "299": {
@@ -3284,8 +3284,8 @@ export const CITIES = {
     "inhabitants": "36266",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 15,
-      "y": 37
+      "x": 14,
+      "y": 36
     }
   },
   "300": {
@@ -3295,8 +3295,8 @@ export const CITIES = {
     "inhabitants": "36159",
     "state": "Bayern",
     "coordinates": {
-      "x": 25,
-      "y": 41
+      "x": 24,
+      "y": 40
     }
   },
   "301": {
@@ -3306,8 +3306,8 @@ export const CITIES = {
     "inhabitants": "36116",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 19
+      "x": 6,
+      "y": 18
     }
   },
   "302": {
@@ -3317,8 +3317,8 @@ export const CITIES = {
     "inhabitants": "36013",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 10,
-      "y": 16
+      "x": 9,
+      "y": 15
     }
   },
   "303": {
@@ -3328,8 +3328,8 @@ export const CITIES = {
     "inhabitants": "35975",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 26
+      "x": 5,
+      "y": 25
     }
   },
   "304": {
@@ -3339,8 +3339,8 @@ export const CITIES = {
     "inhabitants": "35765",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 31,
-      "y": 17
+      "x": 30,
+      "y": 16
     }
   },
   "305": {
@@ -3350,8 +3350,8 @@ export const CITIES = {
     "inhabitants": "35708",
     "state": "Bayern",
     "coordinates": {
-      "x": 22,
-      "y": 42
+      "x": 21,
+      "y": 41
     }
   },
   "306": {
@@ -3361,8 +3361,8 @@ export const CITIES = {
     "inhabitants": "35430",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 13,
-      "y": 17
+      "x": 12,
+      "y": 16
     }
   },
   "307": {
@@ -3372,8 +3372,8 @@ export const CITIES = {
     "inhabitants": "35175",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 13,
-      "y": 35
+      "x": 12,
+      "y": 34
     }
   },
   "308": {
@@ -3383,8 +3383,8 @@ export const CITIES = {
     "inhabitants": "35120",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 13,
-      "y": 18
+      "x": 12,
+      "y": 17
     }
   },
   "309": {
@@ -3394,8 +3394,8 @@ export const CITIES = {
     "inhabitants": "35032",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 9,
-      "y": 40
+      "x": 8,
+      "y": 39
     }
   },
   "310": {
@@ -3405,8 +3405,8 @@ export const CITIES = {
     "inhabitants": "34918",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 7,
-      "y": 14
+      "x": 6,
+      "y": 13
     }
   },
   "311": {
@@ -3416,8 +3416,8 @@ export const CITIES = {
     "inhabitants": "34837",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 4,
-      "y": 22
+      "x": 3,
+      "y": 21
     }
   },
   "312": {
@@ -3427,8 +3427,8 @@ export const CITIES = {
     "inhabitants": "34768",
     "state": "Saarland",
     "coordinates": {
-      "x": 5,
-      "y": 35
+      "x": 4,
+      "y": 34
     }
   },
   "313": {
@@ -3438,8 +3438,8 @@ export const CITIES = {
     "inhabitants": "34586",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 13,
-      "y": 43
+      "x": 12,
+      "y": 42
     }
   },
   "314": {
@@ -3449,8 +3449,8 @@ export const CITIES = {
     "inhabitants": "34521",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 21
+      "x": 6,
+      "y": 20
     }
   },
   "315": {
@@ -3460,8 +3460,8 @@ export const CITIES = {
     "inhabitants": "34504",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 24
+      "x": 6,
+      "y": 23
     }
   },
   "316": {
@@ -3471,8 +3471,8 @@ export const CITIES = {
     "inhabitants": "34260",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 7,
-      "y": 35
+      "x": 6,
+      "y": 34
     }
   },
   "317": {
@@ -3482,8 +3482,8 @@ export const CITIES = {
     "inhabitants": "34255",
     "state": "Hessen",
     "coordinates": {
-      "x": 10,
-      "y": 28
+      "x": 9,
+      "y": 27
     }
   },
   "318": {
@@ -3493,8 +3493,8 @@ export const CITIES = {
     "inhabitants": "34055",
     "state": "Sachsen",
     "coordinates": {
-      "x": 31,
-      "y": 24
+      "x": 30,
+      "y": 23
     }
   },
   "319": {
@@ -3504,8 +3504,8 @@ export const CITIES = {
     "inhabitants": "34052",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 25,
-      "y": 22
+      "x": 24,
+      "y": 21
     }
   },
   "320": {
@@ -3515,8 +3515,8 @@ export const CITIES = {
     "inhabitants": "34042",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 8,
-      "y": 11
+      "x": 7,
+      "y": 10
     }
   },
   "321": {
@@ -3526,8 +3526,8 @@ export const CITIES = {
     "inhabitants": "33920",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 24,
-      "y": 20
+      "x": 23,
+      "y": 19
     }
   },
   "322": {
@@ -3537,8 +3537,8 @@ export const CITIES = {
     "inhabitants": "33896",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 18,
-      "y": 10
+      "x": 17,
+      "y": 9
     }
   },
   "323": {
@@ -3548,8 +3548,8 @@ export const CITIES = {
     "inhabitants": "33889",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 20
+      "x": 2,
+      "y": 19
     }
   },
   "324": {
@@ -3559,8 +3559,8 @@ export const CITIES = {
     "inhabitants": "33843",
     "state": "Sachsen",
     "coordinates": {
-      "x": 34,
-      "y": 22
+      "x": 33,
+      "y": 21
     }
   },
   "325": {
@@ -3570,8 +3570,8 @@ export const CITIES = {
     "inhabitants": "33841",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 21
+      "x": 2,
+      "y": 20
     }
   },
   "326": {
@@ -3581,8 +3581,8 @@ export const CITIES = {
     "inhabitants": "33798",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 10,
-      "y": 13
+      "x": 9,
+      "y": 12
     }
   },
   "327": {
@@ -3592,8 +3592,8 @@ export const CITIES = {
     "inhabitants": "33782",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 20,
-      "y": 13
+      "x": 19,
+      "y": 12
     }
   },
   "328": {
@@ -3603,8 +3603,8 @@ export const CITIES = {
     "inhabitants": "33768",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 18,
-      "y": 36
+      "x": 17,
+      "y": 35
     }
   },
   "329": {
@@ -3614,8 +3614,8 @@ export const CITIES = {
     "inhabitants": "33682",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 18
+      "x": 6,
+      "y": 17
     }
   },
   "330": {
@@ -3625,8 +3625,8 @@ export const CITIES = {
     "inhabitants": "33640",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 13,
-      "y": 41
+      "x": 12,
+      "y": 40
     }
   },
   "331": {
@@ -3636,8 +3636,8 @@ export const CITIES = {
     "inhabitants": "33623",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 31
+      "x": 11,
+      "y": 30
     }
   },
   "332": {
@@ -3647,8 +3647,8 @@ export const CITIES = {
     "inhabitants": "33608",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 15,
-      "y": 17
+      "x": 14,
+      "y": 16
     }
   },
   "333": {
@@ -3658,8 +3658,8 @@ export const CITIES = {
     "inhabitants": "33535",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 9,
-      "y": 22
+      "x": 8,
+      "y": 21
     }
   },
   "334": {
@@ -3669,8 +3669,8 @@ export const CITIES = {
     "inhabitants": "33397",
     "state": "Hessen",
     "coordinates": {
-      "x": 13,
-      "y": 31
+      "x": 12,
+      "y": 30
     }
   },
   "335": {
@@ -3680,8 +3680,8 @@ export const CITIES = {
     "inhabitants": "33283",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 16,
-      "y": 16
+      "x": 15,
+      "y": 15
     }
   },
   "336": {
@@ -3691,8 +3691,8 @@ export const CITIES = {
     "inhabitants": "33153",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 38
+      "x": 13,
+      "y": 37
     }
   },
   "337": {
@@ -3702,8 +3702,8 @@ export const CITIES = {
     "inhabitants": "33108",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 20,
-      "y": 19
+      "x": 19,
+      "y": 18
     }
   },
   "338": {
@@ -3713,8 +3713,8 @@ export const CITIES = {
     "inhabitants": "33083",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 13,
-      "y": 12
+      "x": 12,
+      "y": 11
     }
   },
   "339": {
@@ -3724,8 +3724,8 @@ export const CITIES = {
     "inhabitants": "33020",
     "state": "Hessen",
     "coordinates": {
-      "x": 13,
-      "y": 30
+      "x": 12,
+      "y": 29
     }
   },
   "340": {
@@ -3735,8 +3735,8 @@ export const CITIES = {
     "inhabitants": "33012",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 14,
-      "y": 23
+      "x": 13,
+      "y": 22
     }
   },
   "341": {
@@ -3746,8 +3746,8 @@ export const CITIES = {
     "inhabitants": "32922",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 4,
-      "y": 23
+      "x": 3,
+      "y": 22
     }
   },
   "342": {
@@ -3757,8 +3757,8 @@ export const CITIES = {
     "inhabitants": "32910",
     "state": "Thüringen",
     "coordinates": {
-      "x": 27,
-      "y": 25
+      "x": 26,
+      "y": 24
     }
   },
   "343": {
@@ -3768,8 +3768,8 @@ export const CITIES = {
     "inhabitants": "32890",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 16,
-      "y": 9
+      "x": 15,
+      "y": 8
     }
   },
   "344": {
@@ -3779,8 +3779,8 @@ export const CITIES = {
     "inhabitants": "32756",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 9,
-      "y": 46
+      "x": 8,
+      "y": 45
     }
   },
   "345": {
@@ -3790,8 +3790,8 @@ export const CITIES = {
     "inhabitants": "32606",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 18,
-      "y": 8
+      "x": 17,
+      "y": 7
     }
   },
   "346": {
@@ -3801,8 +3801,8 @@ export const CITIES = {
     "inhabitants": "32601",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 4,
-      "y": 25
+      "x": 3,
+      "y": 24
     }
   },
   "347": {
@@ -3812,8 +3812,8 @@ export const CITIES = {
     "inhabitants": "32303",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 33
+      "x": 11,
+      "y": 32
     }
   },
   "348": {
@@ -3823,8 +3823,8 @@ export const CITIES = {
     "inhabitants": "32233",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 17,
-      "y": 42
+      "x": 16,
+      "y": 41
     }
   },
   "349": {
@@ -3834,8 +3834,8 @@ export const CITIES = {
     "inhabitants": "32189",
     "state": "Bayern",
     "coordinates": {
-      "x": 29,
-      "y": 38
+      "x": 28,
+      "y": 37
     }
   },
   "350": {
@@ -3845,8 +3845,8 @@ export const CITIES = {
     "inhabitants": "31964",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 12,
-      "y": 20
+      "x": 11,
+      "y": 19
     }
   },
   "351": {
@@ -3856,8 +3856,8 @@ export const CITIES = {
     "inhabitants": "31771",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 16,
-      "y": 7
+      "x": 15,
+      "y": 6
     }
   },
   "352": {
@@ -3867,8 +3867,8 @@ export const CITIES = {
     "inhabitants": "31651",
     "state": "Bayern",
     "coordinates": {
-      "x": 21,
-      "y": 32
+      "x": 20,
+      "y": 31
     }
   },
   "353": {
@@ -3878,8 +3878,8 @@ export const CITIES = {
     "inhabitants": "31630",
     "state": "Hessen",
     "coordinates": {
-      "x": 13,
-      "y": 28
+      "x": 12,
+      "y": 27
     }
   },
   "354": {
@@ -3889,8 +3889,8 @@ export const CITIES = {
     "inhabitants": "31558",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 11,
-      "y": 14
+      "x": 10,
+      "y": 13
     }
   },
   "355": {
@@ -3900,8 +3900,8 @@ export const CITIES = {
     "inhabitants": "31520",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 10,
-      "y": 17
+      "x": 9,
+      "y": 16
     }
   },
   "356": {
@@ -3911,8 +3911,8 @@ export const CITIES = {
     "inhabitants": "31500",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 10,
-      "y": 25
+      "x": 9,
+      "y": 24
     }
   },
   "357": {
@@ -3922,8 +3922,8 @@ export const CITIES = {
     "inhabitants": "31387",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 21
+      "x": 6,
+      "y": 20
     }
   },
   "358": {
@@ -3933,8 +3933,8 @@ export const CITIES = {
     "inhabitants": "31366",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 24,
-      "y": 18
+      "x": 23,
+      "y": 17
     }
   },
   "359": {
@@ -3944,8 +3944,8 @@ export const CITIES = {
     "inhabitants": "31338",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 17,
-      "y": 20
+      "x": 16,
+      "y": 19
     }
   },
   "360": {
@@ -3955,8 +3955,8 @@ export const CITIES = {
     "inhabitants": "31315",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 23
+      "x": 6,
+      "y": 22
     }
   },
   "361": {
@@ -3966,8 +3966,8 @@ export const CITIES = {
     "inhabitants": "31156",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 14,
-      "y": 12
+      "x": 13,
+      "y": 11
     }
   },
   "362": {
@@ -3977,8 +3977,8 @@ export const CITIES = {
     "inhabitants": "31023",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 21
+      "x": 4,
+      "y": 20
     }
   },
   "363": {
@@ -3988,8 +3988,8 @@ export const CITIES = {
     "inhabitants": "31003",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 13,
-      "y": 39
+      "x": 12,
+      "y": 38
     }
   },
   "364": {
@@ -3999,8 +3999,8 @@ export const CITIES = {
     "inhabitants": "30943",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 12,
-      "y": 12
+      "x": 11,
+      "y": 11
     }
   },
   "365": {
@@ -4010,8 +4010,8 @@ export const CITIES = {
     "inhabitants": "30885",
     "state": "Sachsen",
     "coordinates": {
-      "x": 30,
-      "y": 23
+      "x": 29,
+      "y": 22
     }
   },
   "366": {
@@ -4021,8 +4021,8 @@ export const CITIES = {
     "inhabitants": "30715",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 28,
-      "y": 13
+      "x": 27,
+      "y": 12
     }
   },
   "367": {
@@ -4032,8 +4032,8 @@ export const CITIES = {
     "inhabitants": "30638",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 10,
-      "y": 21
+      "x": 9,
+      "y": 20
     }
   },
   "368": {
@@ -4043,8 +4043,8 @@ export const CITIES = {
     "inhabitants": "30416",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 35,
-      "y": 18
+      "x": 34,
+      "y": 17
     }
   },
   "369": {
@@ -4054,8 +4054,8 @@ export const CITIES = {
     "inhabitants": "30410",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 23
+      "x": 5,
+      "y": 22
     }
   },
   "370": {
@@ -4065,8 +4065,8 @@ export const CITIES = {
     "inhabitants": "30388",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 13,
-      "y": 12
+      "x": 12,
+      "y": 11
     }
   },
   "371": {
@@ -4076,8 +4076,8 @@ export const CITIES = {
     "inhabitants": "30348",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 26
+      "x": 6,
+      "y": 25
     }
   },
   "372": {
@@ -4087,8 +4087,8 @@ export const CITIES = {
     "inhabitants": "30302",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 13,
-      "y": 11
+      "x": 12,
+      "y": 10
     }
   },
   "373": {
@@ -4098,8 +4098,8 @@ export const CITIES = {
     "inhabitants": "30147",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 18,
-      "y": 16
+      "x": 17,
+      "y": 15
     }
   },
   "374": {
@@ -4109,8 +4109,8 @@ export const CITIES = {
     "inhabitants": "30119",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 11,
-      "y": 22
+      "x": 10,
+      "y": 21
     }
   },
   "375": {
@@ -4120,8 +4120,8 @@ export const CITIES = {
     "inhabitants": "30030",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 8,
-      "y": 46
+      "x": 7,
+      "y": 45
     }
   },
   "376": {
@@ -4131,8 +4131,8 @@ export const CITIES = {
     "inhabitants": "30030",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 19,
-      "y": 10
+      "x": 18,
+      "y": 9
     }
   },
   "377": {
@@ -4142,8 +4142,8 @@ export const CITIES = {
     "inhabitants": "29955",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 20
+      "x": 7,
+      "y": 19
     }
   },
   "378": {
@@ -4153,8 +4153,8 @@ export const CITIES = {
     "inhabitants": "29937",
     "state": "Saarland",
     "coordinates": {
-      "x": 5,
-      "y": 34
+      "x": 4,
+      "y": 33
     }
   },
   "379": {
@@ -4164,8 +4164,8 @@ export const CITIES = {
     "inhabitants": "29926",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 23
+      "x": 6,
+      "y": 22
     }
   },
   "380": {
@@ -4175,8 +4175,8 @@ export const CITIES = {
     "inhabitants": "29589",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 15,
-      "y": 20
+      "x": 14,
+      "y": 19
     }
   },
   "381": {
@@ -4186,8 +4186,8 @@ export const CITIES = {
     "inhabitants": "29441",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 8,
-      "y": 28
+      "x": 7,
+      "y": 27
     }
   },
   "382": {
@@ -4197,8 +4197,8 @@ export const CITIES = {
     "inhabitants": "29436",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 12,
-      "y": 20
+      "x": 11,
+      "y": 19
     }
   },
   "383": {
@@ -4208,8 +4208,8 @@ export const CITIES = {
     "inhabitants": "29358",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 16,
-      "y": 15
+      "x": 15,
+      "y": 14
     }
   },
   "384": {
@@ -4219,8 +4219,8 @@ export const CITIES = {
     "inhabitants": "29354",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 21
+      "x": 7,
+      "y": 20
     }
   },
   "385": {
@@ -4230,8 +4230,8 @@ export const CITIES = {
     "inhabitants": "29339",
     "state": "Bayern",
     "coordinates": {
-      "x": 13,
-      "y": 29
+      "x": 12,
+      "y": 28
     }
   },
   "386": {
@@ -4241,8 +4241,8 @@ export const CITIES = {
     "inhabitants": "29299",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 10,
-      "y": 19
+      "x": 9,
+      "y": 18
     }
   },
   "387": {
@@ -4252,8 +4252,8 @@ export const CITIES = {
     "inhabitants": "29296",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 4,
-      "y": 23
+      "x": 3,
+      "y": 22
     }
   },
   "388": {
@@ -4263,8 +4263,8 @@ export const CITIES = {
     "inhabitants": "29182",
     "state": "Bayern",
     "coordinates": {
-      "x": 22,
-      "y": 38
+      "x": 21,
+      "y": 37
     }
   },
   "389": {
@@ -4274,8 +4274,8 @@ export const CITIES = {
     "inhabitants": "29116",
     "state": "Hessen",
     "coordinates": {
-      "x": 16,
-      "y": 25
+      "x": 15,
+      "y": 24
     }
   },
   "390": {
@@ -4285,8 +4285,8 @@ export const CITIES = {
     "inhabitants": "29063",
     "state": "Hessen",
     "coordinates": {
-      "x": 10,
-      "y": 30
+      "x": 9,
+      "y": 29
     }
   },
   "391": {
@@ -4296,8 +4296,8 @@ export const CITIES = {
     "inhabitants": "29052",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 26,
-      "y": 24
+      "x": 25,
+      "y": 23
     }
   },
   "392": {
@@ -4307,8 +4307,8 @@ export const CITIES = {
     "inhabitants": "29032",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 11,
-      "y": 38
+      "x": 10,
+      "y": 37
     }
   },
   "393": {
@@ -4318,8 +4318,8 @@ export const CITIES = {
     "inhabitants": "28920",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 17,
-      "y": 20
+      "x": 16,
+      "y": 19
     }
   },
   "394": {
@@ -4329,8 +4329,8 @@ export const CITIES = {
     "inhabitants": "28882",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 10,
-      "y": 39
+      "x": 9,
+      "y": 38
     }
   },
   "395": {
@@ -4340,8 +4340,8 @@ export const CITIES = {
     "inhabitants": "28845",
     "state": "Mecklenburg-Vorpommern",
     "coordinates": {
-      "x": 26,
-      "y": 7
+      "x": 25,
+      "y": 6
     }
   },
   "396": {
@@ -4351,8 +4351,8 @@ export const CITIES = {
     "inhabitants": "28826",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 13,
-      "y": 37
+      "x": 12,
+      "y": 36
     }
   },
   "397": {
@@ -4362,8 +4362,8 @@ export const CITIES = {
     "inhabitants": "28708",
     "state": "Bayern",
     "coordinates": {
-      "x": 21,
-      "y": 43
+      "x": 20,
+      "y": 42
     }
   },
   "398": {
@@ -4373,8 +4373,8 @@ export const CITIES = {
     "inhabitants": "28695",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 37
+      "x": 13,
+      "y": 36
     }
   },
   "399": {
@@ -4384,8 +4384,8 @@ export const CITIES = {
     "inhabitants": "28682",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 16,
-      "y": 17
+      "x": 15,
+      "y": 16
     }
   },
   "400": {
@@ -4395,8 +4395,8 @@ export const CITIES = {
     "inhabitants": "28481",
     "state": "Bayern",
     "coordinates": {
-      "x": 26,
-      "y": 35
+      "x": 25,
+      "y": 34
     }
   },
   "401": {
@@ -4406,8 +4406,8 @@ export const CITIES = {
     "inhabitants": "28480",
     "state": "Sachsen",
     "coordinates": {
-      "x": 28,
-      "y": 23
+      "x": 27,
+      "y": 22
     }
   },
   "402": {
@@ -4417,8 +4417,8 @@ export const CITIES = {
     "inhabitants": "28452",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 30
+      "x": 11,
+      "y": 29
     }
   },
   "403": {
@@ -4428,8 +4428,8 @@ export const CITIES = {
     "inhabitants": "28386",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 25
+      "x": 6,
+      "y": 24
     }
   },
   "404": {
@@ -4439,8 +4439,8 @@ export const CITIES = {
     "inhabitants": "28350",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 7,
-      "y": 32
+      "x": 6,
+      "y": 31
     }
   },
   "405": {
@@ -4450,8 +4450,8 @@ export const CITIES = {
     "inhabitants": "28330",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 23
+      "x": 6,
+      "y": 22
     }
   },
   "406": {
@@ -4461,8 +4461,8 @@ export const CITIES = {
     "inhabitants": "28311",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 21
+      "x": 2,
+      "y": 20
     }
   },
   "407": {
@@ -4472,8 +4472,8 @@ export const CITIES = {
     "inhabitants": "28204",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 10,
-      "y": 11
+      "x": 9,
+      "y": 10
     }
   },
   "408": {
@@ -4483,8 +4483,8 @@ export const CITIES = {
     "inhabitants": "28170",
     "state": "Hessen",
     "coordinates": {
-      "x": 13,
-      "y": 30
+      "x": 12,
+      "y": 29
     }
   },
   "409": {
@@ -4494,8 +4494,8 @@ export const CITIES = {
     "inhabitants": "28166",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 10,
-      "y": 23
+      "x": 9,
+      "y": 22
     }
   },
   "410": {
@@ -4505,8 +4505,8 @@ export const CITIES = {
     "inhabitants": "28051",
     "state": "Bayern",
     "coordinates": {
-      "x": 23,
-      "y": 41
+      "x": 22,
+      "y": 40
     }
   },
   "411": {
@@ -4516,8 +4516,8 @@ export const CITIES = {
     "inhabitants": "27937",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 24
+      "x": 5,
+      "y": 23
     }
   },
   "412": {
@@ -4527,8 +4527,8 @@ export const CITIES = {
     "inhabitants": "27936",
     "state": "Sachsen",
     "coordinates": {
-      "x": 31,
-      "y": 24
+      "x": 30,
+      "y": 23
     }
   },
   "413": {
@@ -4538,8 +4538,8 @@ export const CITIES = {
     "inhabitants": "27932",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 15,
-      "y": 38
+      "x": 14,
+      "y": 37
     }
   },
   "414": {
@@ -4549,8 +4549,8 @@ export const CITIES = {
     "inhabitants": "27827",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 24
+      "x": 2,
+      "y": 23
     }
   },
   "415": {
@@ -4560,8 +4560,8 @@ export const CITIES = {
     "inhabitants": "27822",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 22
+      "x": 7,
+      "y": 21
     }
   },
   "416": {
@@ -4571,8 +4571,8 @@ export const CITIES = {
     "inhabitants": "27793",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 23,
-      "y": 20
+      "x": 22,
+      "y": 19
     }
   },
   "417": {
@@ -4582,8 +4582,8 @@ export const CITIES = {
     "inhabitants": "27772",
     "state": "Bayern",
     "coordinates": {
-      "x": 21,
-      "y": 41
+      "x": 20,
+      "y": 40
     }
   },
   "418": {
@@ -4593,8 +4593,8 @@ export const CITIES = {
     "inhabitants": "27752",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 22,
-      "y": 22
+      "x": 21,
+      "y": 21
     }
   },
   "419": {
@@ -4604,8 +4604,8 @@ export const CITIES = {
     "inhabitants": "27705",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 18,
-      "y": 7
+      "x": 17,
+      "y": 6
     }
   },
   "420": {
@@ -4615,8 +4615,8 @@ export const CITIES = {
     "inhabitants": "27617",
     "state": "Hessen",
     "coordinates": {
-      "x": 15,
-      "y": 23
+      "x": 14,
+      "y": 22
     }
   },
   "421": {
@@ -4626,8 +4626,8 @@ export const CITIES = {
     "inhabitants": "27617",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 16,
-      "y": 4
+      "x": 15,
+      "y": 3
     }
   },
   "422": {
@@ -4637,8 +4637,8 @@ export const CITIES = {
     "inhabitants": "27383",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 9,
-      "y": 42
+      "x": 8,
+      "y": 41
     }
   },
   "423": {
@@ -4648,8 +4648,8 @@ export const CITIES = {
     "inhabitants": "27264",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 25
+      "x": 6,
+      "y": 24
     }
   },
   "424": {
@@ -4659,8 +4659,8 @@ export const CITIES = {
     "inhabitants": "27242",
     "state": "Hessen",
     "coordinates": {
-      "x": 13,
-      "y": 31
+      "x": 12,
+      "y": 30
     }
   },
   "425": {
@@ -4670,8 +4670,8 @@ export const CITIES = {
     "inhabitants": "27224",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 27
+      "x": 5,
+      "y": 26
     }
   },
   "426": {
@@ -4681,8 +4681,8 @@ export const CITIES = {
     "inhabitants": "27178",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 4,
-      "y": 22
+      "x": 3,
+      "y": 21
     }
   },
   "427": {
@@ -4692,8 +4692,8 @@ export const CITIES = {
     "inhabitants": "27170",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 27
+      "x": 4,
+      "y": 26
     }
   },
   "428": {
@@ -4703,8 +4703,8 @@ export const CITIES = {
     "inhabitants": "27168",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 17,
-      "y": 39
+      "x": 16,
+      "y": 38
     }
   },
   "429": {
@@ -4714,8 +4714,8 @@ export const CITIES = {
     "inhabitants": "27093",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 17,
-      "y": 45
+      "x": 16,
+      "y": 44
     }
   },
   "430": {
@@ -4725,8 +4725,8 @@ export const CITIES = {
     "inhabitants": "27092",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 12,
-      "y": 19
+      "x": 11,
+      "y": 18
     }
   },
   "431": {
@@ -4736,8 +4736,8 @@ export const CITIES = {
     "inhabitants": "27048",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 18,
-      "y": 9
+      "x": 17,
+      "y": 8
     }
   },
   "432": {
@@ -4747,8 +4747,8 @@ export const CITIES = {
     "inhabitants": "26997",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 15,
-      "y": 13
+      "x": 14,
+      "y": 12
     }
   },
   "433": {
@@ -4758,8 +4758,8 @@ export const CITIES = {
     "inhabitants": "26996",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 20
+      "x": 4,
+      "y": 19
     }
   },
   "434": {
@@ -4769,8 +4769,8 @@ export const CITIES = {
     "inhabitants": "26963",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 25
+      "x": 2,
+      "y": 24
     }
   },
   "435": {
@@ -4780,8 +4780,8 @@ export const CITIES = {
     "inhabitants": "26910",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 12,
-      "y": 35
+      "x": 11,
+      "y": 34
     }
   },
   "436": {
@@ -4791,8 +4791,8 @@ export const CITIES = {
     "inhabitants": "26908",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 30
+      "x": 11,
+      "y": 29
     }
   },
   "437": {
@@ -4802,8 +4802,8 @@ export const CITIES = {
     "inhabitants": "26907",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 32
+      "x": 11,
+      "y": 31
     }
   },
   "438": {
@@ -4813,8 +4813,8 @@ export const CITIES = {
     "inhabitants": "26825",
     "state": "Bayern",
     "coordinates": {
-      "x": 23,
-      "y": 42
+      "x": 22,
+      "y": 41
     }
   },
   "439": {
@@ -4824,8 +4824,8 @@ export const CITIES = {
     "inhabitants": "26821",
     "state": "Bayern",
     "coordinates": {
-      "x": 22,
-      "y": 46
+      "x": 21,
+      "y": 45
     }
   },
   "440": {
@@ -4835,8 +4835,8 @@ export const CITIES = {
     "inhabitants": "26819",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 25
+      "x": 2,
+      "y": 24
     }
   },
   "441": {
@@ -4846,8 +4846,8 @@ export const CITIES = {
     "inhabitants": "26685",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 15,
-      "y": 38
+      "x": 14,
+      "y": 37
     }
   },
   "442": {
@@ -4857,8 +4857,8 @@ export const CITIES = {
     "inhabitants": "26634",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 23,
-      "y": 19
+      "x": 22,
+      "y": 18
     }
   },
   "443": {
@@ -4868,8 +4868,8 @@ export const CITIES = {
     "inhabitants": "26603",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 20
+      "x": 7,
+      "y": 19
     }
   },
   "444": {
@@ -4879,8 +4879,8 @@ export const CITIES = {
     "inhabitants": "26574",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 18,
-      "y": 37
+      "x": 17,
+      "y": 36
     }
   },
   "445": {
@@ -4890,8 +4890,8 @@ export const CITIES = {
     "inhabitants": "26546",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 10,
-      "y": 31
+      "x": 9,
+      "y": 30
     }
   },
   "446": {
@@ -4901,8 +4901,8 @@ export const CITIES = {
     "inhabitants": "26519",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 25,
-      "y": 20
+      "x": 24,
+      "y": 19
     }
   },
   "447": {
@@ -4912,8 +4912,8 @@ export const CITIES = {
     "inhabitants": "26426",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 13,
-      "y": 35
+      "x": 12,
+      "y": 34
     }
   },
   "448": {
@@ -4923,8 +4923,8 @@ export const CITIES = {
     "inhabitants": "26344",
     "state": "Bayern",
     "coordinates": {
-      "x": 22,
-      "y": 34
+      "x": 21,
+      "y": 33
     }
   },
   "449": {
@@ -4934,8 +4934,8 @@ export const CITIES = {
     "inhabitants": "26325",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 12,
-      "y": 9
+      "x": 11,
+      "y": 8
     }
   },
   "450": {
@@ -4945,8 +4945,8 @@ export const CITIES = {
     "inhabitants": "26304",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 15,
-      "y": 36
+      "x": 14,
+      "y": 35
     }
   },
   "451": {
@@ -4956,8 +4956,8 @@ export const CITIES = {
     "inhabitants": "26264",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 30,
-      "y": 14
+      "x": 29,
+      "y": 13
     }
   },
   "452": {
@@ -4967,8 +4967,8 @@ export const CITIES = {
     "inhabitants": "26232",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 12,
-      "y": 22
+      "x": 11,
+      "y": 21
     }
   },
   "453": {
@@ -4978,8 +4978,8 @@ export const CITIES = {
     "inhabitants": "26213",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 32,
-      "y": 15
+      "x": 31,
+      "y": 14
     }
   },
   "454": {
@@ -4989,8 +4989,8 @@ export const CITIES = {
     "inhabitants": "26153",
     "state": "Thüringen",
     "coordinates": {
-      "x": 21,
-      "y": 27
+      "x": 20,
+      "y": 26
     }
   },
   "455": {
@@ -5000,8 +5000,8 @@ export const CITIES = {
     "inhabitants": "26073",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 10,
-      "y": 24
+      "x": 9,
+      "y": 23
     }
   },
   "456": {
@@ -5011,8 +5011,8 @@ export const CITIES = {
     "inhabitants": "26060",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 11,
-      "y": 14
+      "x": 10,
+      "y": 13
     }
   },
   "457": {
@@ -5022,8 +5022,8 @@ export const CITIES = {
     "inhabitants": "25933",
     "state": "Bayern",
     "coordinates": {
-      "x": 23,
-      "y": 30
+      "x": 22,
+      "y": 29
     }
   },
   "458": {
@@ -5033,8 +5033,8 @@ export const CITIES = {
     "inhabitants": "25793",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 23
+      "x": 5,
+      "y": 22
     }
   },
   "459": {
@@ -5044,8 +5044,8 @@ export const CITIES = {
     "inhabitants": "25781",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 9,
-      "y": 23
+      "x": 8,
+      "y": 22
     }
   },
   "460": {
@@ -5055,8 +5055,8 @@ export const CITIES = {
     "inhabitants": "25759",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 15,
-      "y": 38
+      "x": 14,
+      "y": 37
     }
   },
   "461": {
@@ -5066,8 +5066,8 @@ export const CITIES = {
     "inhabitants": "25712",
     "state": "Sachsen",
     "coordinates": {
-      "x": 36,
-      "y": 25
+      "x": 35,
+      "y": 24
     }
   },
   "462": {
@@ -5077,8 +5077,8 @@ export const CITIES = {
     "inhabitants": "25663",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 32,
-      "y": 15
+      "x": 31,
+      "y": 14
     }
   },
   "463": {
@@ -5088,8 +5088,8 @@ export const CITIES = {
     "inhabitants": "25654",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 27
+      "x": 6,
+      "y": 26
     }
   },
   "464": {
@@ -5099,8 +5099,8 @@ export const CITIES = {
     "inhabitants": "25649",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 13,
-      "y": 37
+      "x": 12,
+      "y": 36
     }
   },
   "465": {
@@ -5110,8 +5110,8 @@ export const CITIES = {
     "inhabitants": "25557",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 28
+      "x": 11,
+      "y": 27
     }
   },
   "466": {
@@ -5121,8 +5121,8 @@ export const CITIES = {
     "inhabitants": "25512",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 12,
-      "y": 19
+      "x": 11,
+      "y": 18
     }
   },
   "467": {
@@ -5132,8 +5132,8 @@ export const CITIES = {
     "inhabitants": "25503",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 16,
-      "y": 41
+      "x": 15,
+      "y": 40
     }
   },
   "468": {
@@ -5143,8 +5143,8 @@ export const CITIES = {
     "inhabitants": "25483",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 30,
-      "y": 16
+      "x": 29,
+      "y": 15
     }
   },
   "469": {
@@ -5154,8 +5154,8 @@ export const CITIES = {
     "inhabitants": "25462",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 12,
-      "y": 17
+      "x": 11,
+      "y": 16
     }
   },
   "470": {
@@ -5165,8 +5165,8 @@ export const CITIES = {
     "inhabitants": "25416",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 31
+      "x": 11,
+      "y": 30
     }
   },
   "471": {
@@ -5176,8 +5176,8 @@ export const CITIES = {
     "inhabitants": "25407",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 11,
-      "y": 22
+      "x": 10,
+      "y": 21
     }
   },
   "472": {
@@ -5187,8 +5187,8 @@ export const CITIES = {
     "inhabitants": "25284",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 33
+      "x": 11,
+      "y": 32
     }
   },
   "473": {
@@ -5198,8 +5198,8 @@ export const CITIES = {
     "inhabitants": "25274",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 25
+      "x": 7,
+      "y": 24
     }
   },
   "474": {
@@ -5209,8 +5209,8 @@ export const CITIES = {
     "inhabitants": "25230",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 11,
-      "y": 24
+      "x": 10,
+      "y": 23
     }
   },
   "475": {
@@ -5220,8 +5220,8 @@ export const CITIES = {
     "inhabitants": "25226",
     "state": "Bayern",
     "coordinates": {
-      "x": 23,
-      "y": 40
+      "x": 22,
+      "y": 39
     }
   },
   "476": {
@@ -5231,8 +5231,8 @@ export const CITIES = {
     "inhabitants": "25205",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 22
+      "x": 6,
+      "y": 21
     }
   },
   "477": {
@@ -5242,8 +5242,8 @@ export const CITIES = {
     "inhabitants": "25187",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 14,
-      "y": 17
+      "x": 13,
+      "y": 16
     }
   },
   "478": {
@@ -5253,8 +5253,8 @@ export const CITIES = {
     "inhabitants": "25186",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 12,
-      "y": 20
+      "x": 11,
+      "y": 19
     }
   },
   "479": {
@@ -5264,8 +5264,8 @@ export const CITIES = {
     "inhabitants": "25132",
     "state": "Bayern",
     "coordinates": {
-      "x": 16,
-      "y": 46
+      "x": 15,
+      "y": 45
     }
   },
   "480": {
@@ -5275,8 +5275,8 @@ export const CITIES = {
     "inhabitants": "25117",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 7,
-      "y": 9
+      "x": 6,
+      "y": 8
     }
   },
   "481": {
@@ -5286,8 +5286,8 @@ export const CITIES = {
     "inhabitants": "25092",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 29
+      "x": 11,
+      "y": 28
     }
   },
   "482": {
@@ -5297,8 +5297,8 @@ export const CITIES = {
     "inhabitants": "25030",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 30,
-      "y": 17
+      "x": 29,
+      "y": 16
     }
   },
   "483": {
@@ -5308,8 +5308,8 @@ export const CITIES = {
     "inhabitants": "24938",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 19,
-      "y": 7
+      "x": 18,
+      "y": 6
     }
   },
   "484": {
@@ -5319,8 +5319,8 @@ export const CITIES = {
     "inhabitants": "24921",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 12,
-      "y": 16
+      "x": 11,
+      "y": 15
     }
   },
   "485": {
@@ -5330,8 +5330,8 @@ export const CITIES = {
     "inhabitants": "24915",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 12,
-      "y": 42
+      "x": 11,
+      "y": 41
     }
   },
   "486": {
@@ -5341,8 +5341,8 @@ export const CITIES = {
     "inhabitants": "24856",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 29,
-      "y": 16
+      "x": 28,
+      "y": 15
     }
   },
   "487": {
@@ -5352,8 +5352,8 @@ export const CITIES = {
     "inhabitants": "24850",
     "state": "Sachsen",
     "coordinates": {
-      "x": 26,
-      "y": 21
+      "x": 25,
+      "y": 20
     }
   },
   "488": {
@@ -5363,8 +5363,8 @@ export const CITIES = {
     "inhabitants": "24819",
     "state": "Bayern",
     "coordinates": {
-      "x": 9,
-      "y": 26
+      "x": 8,
+      "y": 25
     }
   },
   "489": {
@@ -5374,8 +5374,8 @@ export const CITIES = {
     "inhabitants": "24769",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 11,
-      "y": 19
+      "x": 10,
+      "y": 18
     }
   },
   "490": {
@@ -5385,8 +5385,8 @@ export const CITIES = {
     "inhabitants": "24757",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 9,
-      "y": 24
+      "x": 8,
+      "y": 23
     }
   },
   "491": {
@@ -5396,8 +5396,8 @@ export const CITIES = {
     "inhabitants": "24676",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 9,
-      "y": 24
+      "x": 8,
+      "y": 23
     }
   },
   "492": {
@@ -5407,8 +5407,8 @@ export const CITIES = {
     "inhabitants": "24665",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 13,
-      "y": 40
+      "x": 12,
+      "y": 39
     }
   },
   "493": {
@@ -5418,8 +5418,8 @@ export const CITIES = {
     "inhabitants": "24648",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 31
+      "x": 11,
+      "y": 30
     }
   },
   "494": {
@@ -5429,8 +5429,8 @@ export const CITIES = {
     "inhabitants": "24633",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 38
+      "x": 13,
+      "y": 37
     }
   },
   "495": {
@@ -5440,8 +5440,8 @@ export const CITIES = {
     "inhabitants": "24627",
     "state": "Bayern",
     "coordinates": {
-      "x": 21,
-      "y": 34
+      "x": 20,
+      "y": 33
     }
   },
   "496": {
@@ -5451,8 +5451,8 @@ export const CITIES = {
     "inhabitants": "24625",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 33,
-      "y": 21
+      "x": 32,
+      "y": 20
     }
   },
   "497": {
@@ -5462,8 +5462,8 @@ export const CITIES = {
     "inhabitants": "24555",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 22,
-      "y": 20
+      "x": 21,
+      "y": 19
     }
   },
   "498": {
@@ -5473,8 +5473,8 @@ export const CITIES = {
     "inhabitants": "24548",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 32
+      "x": 11,
+      "y": 31
     }
   },
   "499": {
@@ -5484,8 +5484,8 @@ export const CITIES = {
     "inhabitants": "24481",
     "state": "Thüringen",
     "coordinates": {
-      "x": 21,
-      "y": 26
+      "x": 20,
+      "y": 25
     }
   },
   "500": {
@@ -5495,8 +5495,8 @@ export const CITIES = {
     "inhabitants": "24460",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 11,
-      "y": 35
+      "x": 10,
+      "y": 34
     }
   },
   "501": {
@@ -5506,8 +5506,8 @@ export const CITIES = {
     "inhabitants": "24443",
     "state": "Hessen",
     "coordinates": {
-      "x": 13,
-      "y": 30
+      "x": 12,
+      "y": 29
     }
   },
   "502": {
@@ -5517,8 +5517,8 @@ export const CITIES = {
     "inhabitants": "24437",
     "state": "Bayern",
     "coordinates": {
-      "x": 24,
-      "y": 43
+      "x": 23,
+      "y": 42
     }
   },
   "503": {
@@ -5528,8 +5528,8 @@ export const CITIES = {
     "inhabitants": "24410",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 22,
-      "y": 13
+      "x": 21,
+      "y": 12
     }
   },
   "504": {
@@ -5539,8 +5539,8 @@ export const CITIES = {
     "inhabitants": "24392",
     "state": "Bayern",
     "coordinates": {
-      "x": 23,
-      "y": 44
+      "x": 22,
+      "y": 43
     }
   },
   "505": {
@@ -5550,8 +5550,8 @@ export const CITIES = {
     "inhabitants": "24387",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 26,
-      "y": 15
+      "x": 25,
+      "y": 14
     }
   },
   "506": {
@@ -5561,8 +5561,8 @@ export const CITIES = {
     "inhabitants": "24377",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 3,
-      "y": 25
+      "x": 2,
+      "y": 24
     }
   },
   "507": {
@@ -5572,8 +5572,8 @@ export const CITIES = {
     "inhabitants": "24357",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 27
+      "x": 5,
+      "y": 26
     }
   },
   "508": {
@@ -5583,8 +5583,8 @@ export const CITIES = {
     "inhabitants": "24266",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 16,
-      "y": 3
+      "x": 15,
+      "y": 2
     }
   },
   "509": {
@@ -5594,8 +5594,8 @@ export const CITIES = {
     "inhabitants": "24263",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 20
+      "x": 7,
+      "y": 19
     }
   },
   "510": {
@@ -5605,8 +5605,8 @@ export const CITIES = {
     "inhabitants": "24240",
     "state": "Sachsen",
     "coordinates": {
-      "x": 27,
-      "y": 23
+      "x": 26,
+      "y": 22
     }
   },
   "511": {
@@ -5616,8 +5616,8 @@ export const CITIES = {
     "inhabitants": "24108",
     "state": "Hessen",
     "coordinates": {
-      "x": 11,
-      "y": 29
+      "x": 10,
+      "y": 28
     }
   },
   "512": {
@@ -5627,8 +5627,8 @@ export const CITIES = {
     "inhabitants": "24063",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 12,
-      "y": 36
+      "x": 11,
+      "y": 35
     }
   },
   "513": {
@@ -5638,8 +5638,8 @@ export const CITIES = {
     "inhabitants": "24059",
     "state": "Sachsen",
     "coordinates": {
-      "x": 28,
-      "y": 25
+      "x": 27,
+      "y": 24
     }
   },
   "514": {
@@ -5649,8 +5649,8 @@ export const CITIES = {
     "inhabitants": "24018",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 13,
-      "y": 13
+      "x": 12,
+      "y": 12
     }
   },
   "515": {
@@ -5660,8 +5660,8 @@ export const CITIES = {
     "inhabitants": "23884",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 10,
-      "y": 10
+      "x": 9,
+      "y": 9
     }
   },
   "516": {
@@ -5671,8 +5671,8 @@ export const CITIES = {
     "inhabitants": "23792",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 17,
-      "y": 16
+      "x": 16,
+      "y": 15
     }
   },
   "517": {
@@ -5682,8 +5682,8 @@ export const CITIES = {
     "inhabitants": "23752",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 16,
-      "y": 16
+      "x": 15,
+      "y": 15
     }
   },
   "518": {
@@ -5693,8 +5693,8 @@ export const CITIES = {
     "inhabitants": "23736",
     "state": "Thüringen",
     "coordinates": {
-      "x": 22,
-      "y": 28
+      "x": 21,
+      "y": 27
     }
   },
   "519": {
@@ -5704,8 +5704,8 @@ export const CITIES = {
     "inhabitants": "23674",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 11,
-      "y": 45
+      "x": 10,
+      "y": 44
     }
   },
   "520": {
@@ -5715,8 +5715,8 @@ export const CITIES = {
     "inhabitants": "23629",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 14,
-      "y": 22
+      "x": 13,
+      "y": 21
     }
   },
   "521": {
@@ -5726,8 +5726,8 @@ export const CITIES = {
     "inhabitants": "23545",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 7,
-      "y": 14
+      "x": 6,
+      "y": 13
     }
   },
   "522": {
@@ -5737,8 +5737,8 @@ export const CITIES = {
     "inhabitants": "23515",
     "state": "Hessen",
     "coordinates": {
-      "x": 13,
-      "y": 23
+      "x": 12,
+      "y": 22
     }
   },
   "523": {
@@ -5748,8 +5748,8 @@ export const CITIES = {
     "inhabitants": "23510",
     "state": "Hessen",
     "coordinates": {
-      "x": 11,
-      "y": 26
+      "x": 10,
+      "y": 25
     }
   },
   "524": {
@@ -5759,8 +5759,8 @@ export const CITIES = {
     "inhabitants": "23489",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 17,
-      "y": 16
+      "x": 16,
+      "y": 15
     }
   },
   "525": {
@@ -5770,8 +5770,8 @@ export const CITIES = {
     "inhabitants": "23489",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 16,
-      "y": 36
+      "x": 15,
+      "y": 35
     }
   },
   "526": {
@@ -5781,8 +5781,8 @@ export const CITIES = {
     "inhabitants": "23435",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 26
+      "x": 5,
+      "y": 25
     }
   },
   "527": {
@@ -5792,8 +5792,8 @@ export const CITIES = {
     "inhabitants": "23405",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 16,
-      "y": 32
+      "x": 15,
+      "y": 31
     }
   },
   "528": {
@@ -5803,8 +5803,8 @@ export const CITIES = {
     "inhabitants": "23393",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 10,
-      "y": 25
+      "x": 9,
+      "y": 24
     }
   },
   "529": {
@@ -5814,8 +5814,8 @@ export const CITIES = {
     "inhabitants": "23334",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 4,
-      "y": 25
+      "x": 3,
+      "y": 24
     }
   },
   "530": {
@@ -5825,8 +5825,8 @@ export const CITIES = {
     "inhabitants": "23260",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 4,
-      "y": 24
+      "x": 3,
+      "y": 23
     }
   },
   "531": {
@@ -5836,8 +5836,8 @@ export const CITIES = {
     "inhabitants": "23255",
     "state": "Sachsen",
     "coordinates": {
-      "x": 27,
-      "y": 26
+      "x": 26,
+      "y": 25
     }
   },
   "532": {
@@ -5847,8 +5847,8 @@ export const CITIES = {
     "inhabitants": "25739",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 21,
-      "y": 17
+      "x": 20,
+      "y": 16
     }
   },
   "533": {
@@ -5858,8 +5858,8 @@ export const CITIES = {
     "inhabitants": "23232",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 13,
-      "y": 38
+      "x": 12,
+      "y": 37
     }
   },
   "534": {
@@ -5869,8 +5869,8 @@ export const CITIES = {
     "inhabitants": "23219",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 16,
-      "y": 13
+      "x": 15,
+      "y": 12
     }
   },
   "535": {
@@ -5880,8 +5880,8 @@ export const CITIES = {
     "inhabitants": "23148",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 23,
-      "y": 15
+      "x": 22,
+      "y": 14
     }
   },
   "536": {
@@ -5891,8 +5891,8 @@ export const CITIES = {
     "inhabitants": "23138",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 8,
-      "y": 10
+      "x": 7,
+      "y": 9
     }
   },
   "537": {
@@ -5902,8 +5902,8 @@ export const CITIES = {
     "inhabitants": "23095",
     "state": "Bayern",
     "coordinates": {
-      "x": 21,
-      "y": 33
+      "x": 20,
+      "y": 32
     }
   },
   "538": {
@@ -5913,8 +5913,8 @@ export const CITIES = {
     "inhabitants": "23064",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 17,
-      "y": 34
+      "x": 16,
+      "y": 33
     }
   },
   "539": {
@@ -5924,8 +5924,8 @@ export const CITIES = {
     "inhabitants": "23018",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 10,
-      "y": 16
+      "x": 9,
+      "y": 15
     }
   },
   "540": {
@@ -5935,8 +5935,8 @@ export const CITIES = {
     "inhabitants": "23000",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 35
+      "x": 13,
+      "y": 34
     }
   },
   "541": {
@@ -5946,8 +5946,8 @@ export const CITIES = {
     "inhabitants": "22998",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 32
+      "x": 11,
+      "y": 31
     }
   },
   "542": {
@@ -5957,8 +5957,8 @@ export const CITIES = {
     "inhabitants": "22970",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 15,
-      "y": 6
+      "x": 14,
+      "y": 5
     }
   },
   "543": {
@@ -5968,8 +5968,8 @@ export const CITIES = {
     "inhabitants": "22939",
     "state": "Bayern",
     "coordinates": {
-      "x": 23,
-      "y": 43
+      "x": 22,
+      "y": 42
     }
   },
   "544": {
@@ -5979,8 +5979,8 @@ export const CITIES = {
     "inhabitants": "22917",
     "state": "Bayern",
     "coordinates": {
-      "x": 27,
-      "y": 42
+      "x": 26,
+      "y": 41
     }
   },
   "545": {
@@ -5990,8 +5990,8 @@ export const CITIES = {
     "inhabitants": "22855",
     "state": "Thüringen",
     "coordinates": {
-      "x": 23,
-      "y": 26
+      "x": 22,
+      "y": 25
     }
   },
   "546": {
@@ -6001,8 +6001,8 @@ export const CITIES = {
     "inhabitants": "22818",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 22
+      "x": 7,
+      "y": 21
     }
   },
   "547": {
@@ -6012,8 +6012,8 @@ export const CITIES = {
     "inhabitants": "22768",
     "state": "Bayern",
     "coordinates": {
-      "x": 24,
-      "y": 42
+      "x": 23,
+      "y": 41
     }
   },
   "548": {
@@ -6023,8 +6023,8 @@ export const CITIES = {
     "inhabitants": "22688",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 18
+      "x": 4,
+      "y": 17
     }
   },
   "549": {
@@ -6034,8 +6034,8 @@ export const CITIES = {
     "inhabitants": "22579",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 11,
-      "y": 40
+      "x": 10,
+      "y": 39
     }
   },
   "550": {
@@ -6045,8 +6045,8 @@ export const CITIES = {
     "inhabitants": "22461",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 15
+      "x": 7,
+      "y": 14
     }
   },
   "551": {
@@ -6056,8 +6056,8 @@ export const CITIES = {
     "inhabitants": "22430",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 14,
-      "y": 3
+      "x": 13,
+      "y": 2
     }
   },
   "552": {
@@ -6067,8 +6067,8 @@ export const CITIES = {
     "inhabitants": "22408",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 44
+      "x": 13,
+      "y": 43
     }
   },
   "553": {
@@ -6078,8 +6078,8 @@ export const CITIES = {
     "inhabitants": "22406",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 18,
-      "y": 44
+      "x": 17,
+      "y": 43
     }
   },
   "554": {
@@ -6089,8 +6089,8 @@ export const CITIES = {
     "inhabitants": "22386",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 7,
-      "y": 23
+      "x": 6,
+      "y": 22
     }
   },
   "555": {
@@ -6100,8 +6100,8 @@ export const CITIES = {
     "inhabitants": "22364",
     "state": "Thüringen",
     "coordinates": {
-      "x": 23,
-      "y": 24
+      "x": 22,
+      "y": 23
     }
   },
   "556": {
@@ -6111,8 +6111,8 @@ export const CITIES = {
     "inhabitants": "22335",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 12,
-      "y": 34
+      "x": 11,
+      "y": 33
     }
   },
   "557": {
@@ -6122,8 +6122,8 @@ export const CITIES = {
     "inhabitants": "22326",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 34,
-      "y": 21
+      "x": 33,
+      "y": 20
     }
   },
   "558": {
@@ -6133,8 +6133,8 @@ export const CITIES = {
     "inhabitants": "22201",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 18,
-      "y": 20
+      "x": 17,
+      "y": 19
     }
   },
   "559": {
@@ -6144,8 +6144,8 @@ export const CITIES = {
     "inhabitants": "22184",
     "state": "Bayern",
     "coordinates": {
-      "x": 22,
-      "y": 44
+      "x": 21,
+      "y": 43
     }
   },
   "560": {
@@ -6155,8 +6155,8 @@ export const CITIES = {
     "inhabitants": "22163",
     "state": "Hessen",
     "coordinates": {
-      "x": 13,
-      "y": 29
+      "x": 12,
+      "y": 28
     }
   },
   "561": {
@@ -6166,8 +6166,8 @@ export const CITIES = {
     "inhabitants": "22154",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 10,
-      "y": 11
+      "x": 9,
+      "y": 10
     }
   },
   "562": {
@@ -6177,8 +6177,8 @@ export const CITIES = {
     "inhabitants": "22095",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 31,
-      "y": 14
+      "x": 30,
+      "y": 13
     }
   },
   "563": {
@@ -6188,8 +6188,8 @@ export const CITIES = {
     "inhabitants": "22039",
     "state": "Thüringen",
     "coordinates": {
-      "x": 21,
-      "y": 22
+      "x": 20,
+      "y": 21
     }
   },
   "564": {
@@ -6199,8 +6199,8 @@ export const CITIES = {
     "inhabitants": "22027",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 11,
-      "y": 11
+      "x": 10,
+      "y": 10
     }
   },
   "565": {
@@ -6210,8 +6210,8 @@ export const CITIES = {
     "inhabitants": "21918",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 9,
-      "y": 12
+      "x": 8,
+      "y": 11
     }
   },
   "566": {
@@ -6221,8 +6221,8 @@ export const CITIES = {
     "inhabitants": "20455",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 19
+      "x": 7,
+      "y": 18
     }
   },
   "567": {
@@ -6232,8 +6232,8 @@ export const CITIES = {
     "inhabitants": "21908",
     "state": "Bayern",
     "coordinates": {
-      "x": 21,
-      "y": 40
+      "x": 20,
+      "y": 39
     }
   },
   "568": {
@@ -6243,8 +6243,8 @@ export const CITIES = {
     "inhabitants": "21861",
     "state": "Hessen",
     "coordinates": {
-      "x": 14,
-      "y": 26
+      "x": 13,
+      "y": 25
     }
   },
   "569": {
@@ -6254,8 +6254,8 @@ export const CITIES = {
     "inhabitants": "21859",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 17,
-      "y": 3
+      "x": 16,
+      "y": 2
     }
   },
   "570": {
@@ -6265,8 +6265,8 @@ export const CITIES = {
     "inhabitants": "21827",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 10,
-      "y": 11
+      "x": 9,
+      "y": 10
     }
   },
   "571": {
@@ -6276,8 +6276,8 @@ export const CITIES = {
     "inhabitants": "21814",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 14,
-      "y": 16
+      "x": 13,
+      "y": 15
     }
   },
   "572": {
@@ -6287,8 +6287,8 @@ export const CITIES = {
     "inhabitants": "21785",
     "state": "Hessen",
     "coordinates": {
-      "x": 14,
-      "y": 29
+      "x": 13,
+      "y": 28
     }
   },
   "573": {
@@ -6298,8 +6298,8 @@ export const CITIES = {
     "inhabitants": "21772",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 12,
-      "y": 21
+      "x": 11,
+      "y": 20
     }
   },
   "574": {
@@ -6309,8 +6309,8 @@ export const CITIES = {
     "inhabitants": "21746",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 12,
-      "y": 43
+      "x": 11,
+      "y": 42
     }
   },
   "575": {
@@ -6320,8 +6320,8 @@ export const CITIES = {
     "inhabitants": "21735",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 20,
-      "y": 19
+      "x": 19,
+      "y": 18
     }
   },
   "576": {
@@ -6331,8 +6331,8 @@ export const CITIES = {
     "inhabitants": "21696",
     "state": "Bayern",
     "coordinates": {
-      "x": 18,
-      "y": 29
+      "x": 17,
+      "y": 28
     }
   },
   "577": {
@@ -6342,8 +6342,8 @@ export const CITIES = {
     "inhabitants": "21687",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 13,
-      "y": 40
+      "x": 12,
+      "y": 39
     }
   },
   "578": {
@@ -6353,8 +6353,8 @@ export const CITIES = {
     "inhabitants": "21617",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 18,
-      "y": 17
+      "x": 17,
+      "y": 16
     }
   },
   "579": {
@@ -6364,8 +6364,8 @@ export const CITIES = {
     "inhabitants": "21612",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 15,
-      "y": 40
+      "x": 14,
+      "y": 39
     }
   },
   "580": {
@@ -6375,8 +6375,8 @@ export const CITIES = {
     "inhabitants": "21561",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 10,
-      "y": 42
+      "x": 9,
+      "y": 41
     }
   },
   "581": {
@@ -6386,8 +6386,8 @@ export const CITIES = {
     "inhabitants": "21516",
     "state": "Sachsen",
     "coordinates": {
-      "x": 29,
-      "y": 24
+      "x": 28,
+      "y": 23
     }
   },
   "582": {
@@ -6397,8 +6397,8 @@ export const CITIES = {
     "inhabitants": "21510",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 4,
-      "y": 20
+      "x": 3,
+      "y": 19
     }
   },
   "583": {
@@ -6408,8 +6408,8 @@ export const CITIES = {
     "inhabitants": "21481",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 24
+      "x": 7,
+      "y": 23
     }
   },
   "584": {
@@ -6419,8 +6419,8 @@ export const CITIES = {
     "inhabitants": "21422",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 14,
-      "y": 5
+      "x": 13,
+      "y": 4
     }
   },
   "585": {
@@ -6430,8 +6430,8 @@ export const CITIES = {
     "inhabitants": "21414",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 17,
-      "y": 12
+      "x": 16,
+      "y": 11
     }
   },
   "586": {
@@ -6441,8 +6441,8 @@ export const CITIES = {
     "inhabitants": "21392",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 15,
-      "y": 12
+      "x": 14,
+      "y": 11
     }
   },
   "587": {
@@ -6452,8 +6452,8 @@ export const CITIES = {
     "inhabitants": "21382",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 24
+      "x": 7,
+      "y": 23
     }
   },
   "588": {
@@ -6463,8 +6463,8 @@ export const CITIES = {
     "inhabitants": "21349",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 4,
-      "y": 20
+      "x": 3,
+      "y": 19
     }
   },
   "589": {
@@ -6474,8 +6474,8 @@ export const CITIES = {
     "inhabitants": "21312",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 13,
-      "y": 36
+      "x": 12,
+      "y": 35
     }
   },
   "590": {
@@ -6485,8 +6485,8 @@ export const CITIES = {
     "inhabitants": "21300",
     "state": "Bayern",
     "coordinates": {
-      "x": 19,
-      "y": 46
+      "x": 18,
+      "y": 45
     }
   },
   "591": {
@@ -6496,8 +6496,8 @@ export const CITIES = {
     "inhabitants": "21295",
     "state": "Bayern",
     "coordinates": {
-      "x": 24,
-      "y": 43
+      "x": 23,
+      "y": 42
     }
   },
   "592": {
@@ -6507,8 +6507,8 @@ export const CITIES = {
     "inhabitants": "21232",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 15,
-      "y": 11
+      "x": 14,
+      "y": 10
     }
   },
   "593": {
@@ -6518,8 +6518,8 @@ export const CITIES = {
     "inhabitants": "21231",
     "state": "Thüringen",
     "coordinates": {
-      "x": 18,
-      "y": 27
+      "x": 17,
+      "y": 26
     }
   },
   "594": {
@@ -6529,8 +6529,8 @@ export const CITIES = {
     "inhabitants": "21230",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 10,
-      "y": 18
+      "x": 9,
+      "y": 17
     }
   },
   "595": {
@@ -6540,8 +6540,8 @@ export const CITIES = {
     "inhabitants": "21223",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 23
+      "x": 5,
+      "y": 22
     }
   },
   "596": {
@@ -6551,8 +6551,8 @@ export const CITIES = {
     "inhabitants": "21153",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 17,
-      "y": 42
+      "x": 16,
+      "y": 41
     }
   },
   "597": {
@@ -6562,8 +6562,8 @@ export const CITIES = {
     "inhabitants": "21130",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 12,
-      "y": 35
+      "x": 11,
+      "y": 34
     }
   },
   "598": {
@@ -6573,8 +6573,8 @@ export const CITIES = {
     "inhabitants": "21111",
     "state": "Bayern",
     "coordinates": {
-      "x": 23,
-      "y": 42
+      "x": 22,
+      "y": 41
     }
   },
   "599": {
@@ -6584,8 +6584,8 @@ export const CITIES = {
     "inhabitants": "21072",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 18,
-      "y": 21
+      "x": 17,
+      "y": 20
     }
   },
   "600": {
@@ -6595,8 +6595,8 @@ export const CITIES = {
     "inhabitants": "21070",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 12,
-      "y": 21
+      "x": 11,
+      "y": 20
     }
   },
   "601": {
@@ -6606,8 +6606,8 @@ export const CITIES = {
     "inhabitants": "21050",
     "state": "Bayern",
     "coordinates": {
-      "x": 22,
-      "y": 40
+      "x": 21,
+      "y": 39
     }
   },
   "602": {
@@ -6617,8 +6617,8 @@ export const CITIES = {
     "inhabitants": "21042",
     "state": "Thüringen",
     "coordinates": {
-      "x": 26,
-      "y": 27
+      "x": 25,
+      "y": 26
     }
   },
   "603": {
@@ -6628,8 +6628,8 @@ export const CITIES = {
     "inhabitants": "21040",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 12,
-      "y": 11
+      "x": 11,
+      "y": 10
     }
   },
   "604": {
@@ -6639,8 +6639,8 @@ export const CITIES = {
     "inhabitants": "21039",
     "state": "Sachsen",
     "coordinates": {
-      "x": 27,
-      "y": 26
+      "x": 26,
+      "y": 25
     }
   },
   "605": {
@@ -6650,8 +6650,8 @@ export const CITIES = {
     "inhabitants": "21033",
     "state": "Saarland",
     "coordinates": {
-      "x": 7,
-      "y": 35
+      "x": 6,
+      "y": 34
     }
   },
   "606": {
@@ -6661,8 +6661,8 @@ export const CITIES = {
     "inhabitants": "20985",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 11,
-      "y": 42
+      "x": 10,
+      "y": 41
     }
   },
   "607": {
@@ -6672,8 +6672,8 @@ export const CITIES = {
     "inhabitants": "20831",
     "state": "Sachsen",
     "coordinates": {
-      "x": 27,
-      "y": 19
+      "x": 26,
+      "y": 18
     }
   },
   "608": {
@@ -6683,8 +6683,8 @@ export const CITIES = {
     "inhabitants": "20828",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 17,
-      "y": 9
+      "x": 16,
+      "y": 8
     }
   },
   "609": {
@@ -6694,8 +6694,8 @@ export const CITIES = {
     "inhabitants": "20824",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 30
+      "x": 11,
+      "y": 29
     }
   },
   "610": {
@@ -6705,8 +6705,8 @@ export const CITIES = {
     "inhabitants": "20821",
     "state": "Hessen",
     "coordinates": {
-      "x": 13,
-      "y": 32
+      "x": 12,
+      "y": 31
     }
   },
   "611": {
@@ -6716,8 +6716,8 @@ export const CITIES = {
     "inhabitants": "20816",
     "state": "Hessen",
     "coordinates": {
-      "x": 11,
-      "y": 27
+      "x": 10,
+      "y": 26
     }
   },
   "612": {
@@ -6727,8 +6727,8 @@ export const CITIES = {
     "inhabitants": "20799",
     "state": "Bayern",
     "coordinates": {
-      "x": 27,
-      "y": 43
+      "x": 26,
+      "y": 42
     }
   },
   "613": {
@@ -6738,8 +6738,8 @@ export const CITIES = {
     "inhabitants": "20756",
     "state": "Bayern",
     "coordinates": {
-      "x": 18,
-      "y": 32
+      "x": 17,
+      "y": 31
     }
   },
   "614": {
@@ -6749,8 +6749,8 @@ export const CITIES = {
     "inhabitants": "20749",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 11,
-      "y": 18
+      "x": 10,
+      "y": 17
     }
   },
   "615": {
@@ -6760,8 +6760,8 @@ export const CITIES = {
     "inhabitants": "20735",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 9,
-      "y": 9
+      "x": 8,
+      "y": 8
     }
   },
   "616": {
@@ -6771,8 +6771,8 @@ export const CITIES = {
     "inhabitants": "20670",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 8,
-      "y": 24
+      "x": 7,
+      "y": 23
     }
   },
   "617": {
@@ -6782,8 +6782,8 @@ export const CITIES = {
     "inhabitants": "20658",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 12,
-      "y": 18
+      "x": 11,
+      "y": 17
     }
   },
   "618": {
@@ -6793,8 +6793,8 @@ export const CITIES = {
     "inhabitants": "20655",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 30,
-      "y": 16
+      "x": 29,
+      "y": 15
     }
   },
   "619": {
@@ -6804,8 +6804,8 @@ export const CITIES = {
     "inhabitants": "20654",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 17,
-      "y": 15
+      "x": 16,
+      "y": 14
     }
   },
   "620": {
@@ -6815,8 +6815,8 @@ export const CITIES = {
     "inhabitants": "20629",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 12,
-      "y": 35
+      "x": 11,
+      "y": 34
     }
   },
   "621": {
@@ -6826,8 +6826,8 @@ export const CITIES = {
     "inhabitants": "20623",
     "state": "Hessen",
     "coordinates": {
-      "x": 12,
-      "y": 31
+      "x": 11,
+      "y": 30
     }
   },
   "622": {
@@ -6837,8 +6837,8 @@ export const CITIES = {
     "inhabitants": "20608",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 17,
-      "y": 8
+      "x": 16,
+      "y": 7
     }
   },
   "623": {
@@ -6848,8 +6848,8 @@ export const CITIES = {
     "inhabitants": "20587",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 11,
-      "y": 36
+      "x": 10,
+      "y": 35
     }
   },
   "624": {
@@ -6859,8 +6859,8 @@ export const CITIES = {
     "inhabitants": "20513",
     "state": "Bayern",
     "coordinates": {
-      "x": 24,
-      "y": 42
+      "x": 23,
+      "y": 41
     }
   },
   "625": {
@@ -6870,8 +6870,8 @@ export const CITIES = {
     "inhabitants": "20512",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 10,
-      "y": 26
+      "x": 9,
+      "y": 25
     }
   },
   "626": {
@@ -6881,8 +6881,8 @@ export const CITIES = {
     "inhabitants": "20510",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 14,
-      "y": 35
+      "x": 13,
+      "y": 34
     }
   },
   "627": {
@@ -6892,8 +6892,8 @@ export const CITIES = {
     "inhabitants": "20504",
     "state": "Mecklenburg-Vorpommern",
     "coordinates": {
-      "x": 29,
-      "y": 10
+      "x": 28,
+      "y": 9
     }
   },
   "628": {
@@ -6903,8 +6903,8 @@ export const CITIES = {
     "inhabitants": "20482",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 8,
-      "y": 11
+      "x": 7,
+      "y": 10
     }
   },
   "629": {
@@ -6914,8 +6914,8 @@ export const CITIES = {
     "inhabitants": "20457",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 27
+      "x": 5,
+      "y": 26
     }
   },
   "630": {
@@ -6925,8 +6925,8 @@ export const CITIES = {
     "inhabitants": "20426",
     "state": "Sachsen",
     "coordinates": {
-      "x": 29,
-      "y": 27
+      "x": 28,
+      "y": 26
     }
   },
   "631": {
@@ -6936,8 +6936,8 @@ export const CITIES = {
     "inhabitants": "20418",
     "state": "Hessen",
     "coordinates": {
-      "x": 13,
-      "y": 30
+      "x": 12,
+      "y": 29
     }
   },
   "632": {
@@ -6947,8 +6947,8 @@ export const CITIES = {
     "inhabitants": "20411",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 6,
-      "y": 18
+      "x": 5,
+      "y": 17
     }
   },
   "633": {
@@ -6958,8 +6958,8 @@ export const CITIES = {
     "inhabitants": "20358",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 30,
-      "y": 18
+      "x": 29,
+      "y": 17
     }
   },
   "634": {
@@ -6969,8 +6969,8 @@ export const CITIES = {
     "inhabitants": "20331",
     "state": "Schleswig-Holstein",
     "coordinates": {
-      "x": 17,
-      "y": 7
+      "x": 16,
+      "y": 6
     }
   },
   "635": {
@@ -6980,8 +6980,8 @@ export const CITIES = {
     "inhabitants": "20330",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 11,
-      "y": 37
+      "x": 10,
+      "y": 36
     }
   },
   "636": {
@@ -6991,8 +6991,8 @@ export const CITIES = {
     "inhabitants": "20321",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 10,
-      "y": 9
+      "x": 9,
+      "y": 8
     }
   },
   "637": {
@@ -7002,8 +7002,8 @@ export const CITIES = {
     "inhabitants": "20311",
     "state": "Saarland",
     "coordinates": {
-      "x": 5,
-      "y": 35
+      "x": 4,
+      "y": 34
     }
   },
   "638": {
@@ -7013,8 +7013,8 @@ export const CITIES = {
     "inhabitants": "20294",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 21,
-      "y": 20
+      "x": 20,
+      "y": 19
     }
   },
   "639": {
@@ -7024,8 +7024,8 @@ export const CITIES = {
     "inhabitants": "20268",
     "state": "Bayern",
     "coordinates": {
-      "x": 23,
-      "y": 43
+      "x": 22,
+      "y": 42
     }
   },
   "640": {
@@ -7035,8 +7035,8 @@ export const CITIES = {
     "inhabitants": "20254",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 11,
-      "y": 35
+      "x": 10,
+      "y": 34
     }
   },
   "641": {
@@ -7046,8 +7046,8 @@ export const CITIES = {
     "inhabitants": "20177",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 16,
-      "y": 39
+      "x": 15,
+      "y": 38
     }
   },
   "642": {
@@ -7057,8 +7057,8 @@ export const CITIES = {
     "inhabitants": "20169",
     "state": "Bayern",
     "coordinates": {
-      "x": 13,
-      "y": 23
+      "x": 12,
+      "y": 22
     }
   },
   "643": {
@@ -7068,8 +7068,8 @@ export const CITIES = {
     "inhabitants": "20103",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 18,
-      "y": 16
+      "x": 17,
+      "y": 15
     }
   },
   "644": {
@@ -7079,8 +7079,8 @@ export const CITIES = {
     "inhabitants": "20099",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 15,
-      "y": 19
+      "x": 14,
+      "y": 18
     }
   },
   "645": {
@@ -7090,8 +7090,8 @@ export const CITIES = {
     "inhabitants": "20096",
     "state": "Bayern",
     "coordinates": {
-      "x": 23,
-      "y": 42
+      "x": 22,
+      "y": 41
     }
   },
   "646": {
@@ -7101,8 +7101,8 @@ export const CITIES = {
     "inhabitants": "20091",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 5,
-      "y": 26
+      "x": 4,
+      "y": 25
     }
   },
   "647": {
@@ -7112,8 +7112,8 @@ export const CITIES = {
     "inhabitants": "20047",
     "state": "Sachsen",
     "coordinates": {
-      "x": 29,
-      "y": 21
+      "x": 28,
+      "y": 20
     }
   },
   "648": {
@@ -7123,8 +7123,8 @@ export const CITIES = {
     "inhabitants": "20038",
     "state": "Bayern",
     "coordinates": {
-      "x": 19,
-      "y": 40
+      "x": 18,
+      "y": 39
     }
   },
   "649": {
@@ -7134,8 +7134,8 @@ export const CITIES = {
     "inhabitants": "20037",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 10,
-      "y": 19
+      "x": 9,
+      "y": 18
     }
   },
   "650": {
@@ -7145,8 +7145,8 @@ export const CITIES = {
     "inhabitants": "20011",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 17,
-      "y": 43
+      "x": 16,
+      "y": 42
     }
   },
   "651": {
@@ -7156,8 +7156,8 @@ export const CITIES = {
     "lat": "51.835",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 26,
-      "y": 19
+      "x": 25,
+      "y": 18
     }
   },
   "652": {
@@ -7167,8 +7167,8 @@ export const CITIES = {
     "lat": "8.417",
     "state": "Hessen",
     "coordinates": {
-      "x": 170,
-      "y": 286
+      "x": 169,
+      "y": 285
     }
   },
   "653": {
@@ -7178,8 +7178,8 @@ export const CITIES = {
     "lat": "14.545",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 179,
-      "y": 248
+      "x": 178,
+      "y": 247
     }
   },
   "654": {
@@ -7189,8 +7189,8 @@ export const CITIES = {
     "lat": "7.033",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 178,
-      "y": 294
+      "x": 177,
+      "y": 293
     }
   },
   "655": {
@@ -7200,8 +7200,8 @@ export const CITIES = {
     "lat": "12.649",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 177,
-      "y": 260
+      "x": 176,
+      "y": 259
     }
   },
   "656": {
@@ -7211,8 +7211,8 @@ export const CITIES = {
     "lat": "10.850",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 165,
-      "y": 271
+      "x": 164,
+      "y": 270
     }
   },
   "657": {
@@ -7222,8 +7222,8 @@ export const CITIES = {
     "lat": "12.322",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 176,
-      "y": 262
+      "x": 175,
+      "y": 261
     }
   },
   "658": {
@@ -7233,8 +7233,8 @@ export const CITIES = {
     "inhabitants": "39.303",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 180,
-      "y": 253
+      "x": 179,
+      "y": 252
     }
   },
   "659": {
@@ -7244,8 +7244,8 @@ export const CITIES = {
     "inhabitants": "38.020",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 176,
-      "y": 294
+      "x": 175,
+      "y": 293
     }
   },
   "660": {
@@ -7255,8 +7255,8 @@ export const CITIES = {
     "inhabitants": "37.169",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 161,
-      "y": 262
+      "x": 160,
+      "y": 261
     }
   },
   "661": {
@@ -7266,8 +7266,8 @@ export const CITIES = {
     "lat": "11.450",
     "state": "Thüringen",
     "coordinates": {
-      "x": 167,
-      "y": 267
+      "x": 166,
+      "y": 266
     }
   },
   "662": {
@@ -7277,8 +7277,8 @@ export const CITIES = {
     "inhabitants": "31.741",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 179,
-      "y": 251
+      "x": 178,
+      "y": 250
     }
   },
   "663": {
@@ -7288,8 +7288,8 @@ export const CITIES = {
     "inhabitants": "31.193",
     "state": "Niedersachsen",
     "coordinates": {
-      "x": 180,
-      "y": 281
+      "x": 179,
+      "y": 280
     }
   },
   "664": {
@@ -7299,8 +7299,8 @@ export const CITIES = {
     "lat": "6.250",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 177,
-      "y": 299
+      "x": 176,
+      "y": 298
     }
   },
   "665": {
@@ -7310,8 +7310,8 @@ export const CITIES = {
     "lat": "8.967",
     "state": "Baden-Württemberg",
     "coordinates": {
-      "x": 161,
-      "y": 283
+      "x": 160,
+      "y": 282
     }
   },
   "666": {
@@ -7321,8 +7321,8 @@ export const CITIES = {
     "lat": "14.287",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 181,
-      "y": 250
+      "x": 180,
+      "y": 249
     }
   },
   "667": {
@@ -7332,8 +7332,8 @@ export const CITIES = {
     "inhabitants": "27.468",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 172,
-      "y": 294
+      "x": 171,
+      "y": 293
     }
   },
   "668": {
@@ -7343,8 +7343,8 @@ export const CITIES = {
     "inhabitants": "26.319",
     "state": "Brandenburg",
     "coordinates": {
-      "x": 179,
-      "y": 255
+      "x": 178,
+      "y": 254
     }
   },
   "669": {
@@ -7354,8 +7354,8 @@ export const CITIES = {
     "inhabitants": "26.066",
     "state": "Saarland",
     "coordinates": {
-      "x": 168,
-      "y": 294
+      "x": 167,
+      "y": 293
     }
   },
   "670": {
@@ -7365,8 +7365,8 @@ export const CITIES = {
     "inhabitants": "25.041",
     "state": "Thüringen",
     "coordinates": {
-      "x": 172,
-      "y": 268
+      "x": 171,
+      "y": 267
     }
   },
   "671": {
@@ -7376,8 +7376,8 @@ export const CITIES = {
     "inhabitants": "24.987",
     "state": "Rheinland-Pfalz",
     "coordinates": {
-      "x": 163,
-      "y": 281
+      "x": 162,
+      "y": 280
     }
   },
   "672": {
@@ -7387,8 +7387,8 @@ export const CITIES = {
     "inhabitants": "24.198",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 176,
-      "y": 267
+      "x": 175,
+      "y": 266
     }
   },
   "673": {
@@ -7398,8 +7398,8 @@ export const CITIES = {
     "inhabitants": "22.055",
     "state": "Sachsen-Anhalt",
     "coordinates": {
-      "x": 177,
-      "y": 263
+      "x": 176,
+      "y": 262
     }
   },
   "674": {
@@ -7409,8 +7409,8 @@ export const CITIES = {
     "inhabitants": "21.709",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 178,
-      "y": 286
+      "x": 177,
+      "y": 285
     }
   },
   "675": {
@@ -7420,8 +7420,8 @@ export const CITIES = {
     "inhabitants": "21.617",
     "state": "Bayern",
     "coordinates": {
-      "x": 164,
-      "y": 271
+      "x": 163,
+      "y": 270
     }
   },
   "676": {
@@ -7431,8 +7431,8 @@ export const CITIES = {
     "inhabitants": "21.153",
     "state": "Mecklenburg-Vorpommern",
     "coordinates": {
-      "x": 183,
-      "y": 260
+      "x": 182,
+      "y": 259
     }
   },
   "677": {
@@ -7442,8 +7442,8 @@ export const CITIES = {
     "inhabitants": "20.961",
     "state": "Nordrhein-Westfalen",
     "coordinates": {
-      "x": 175,
-      "y": 290
+      "x": 174,
+      "y": 289
     }
   }
 }
