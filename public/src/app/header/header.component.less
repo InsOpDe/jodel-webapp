@@ -16,14 +16,19 @@
 
   .sendEditButton {
     padding: 5px 10px;
-    background-color: darken(@orange, 5%);
+    border-radius: 2px;
   }
 }
 
-.jodelIcon {
-  height: 100%;
-  background: url('assets/jodel_inv-free.png') no-repeat right center;
-  background-size: contain;
+.for-each(@value in @jodelMainColors) {
+
+  @key: at(@value, 1);
+
+  .jodelIcon-@{key} {
+    height: 100%;
+    background: url('assets/jodel_inv-free_@{key}.png') no-repeat right center;
+    background-size: contain;
+  }
 }
 
 .col-3 {

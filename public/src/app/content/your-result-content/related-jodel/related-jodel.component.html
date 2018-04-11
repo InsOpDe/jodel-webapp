@@ -2,9 +2,9 @@
     <h2>Ähnlichster Jodel</h2>
 </div>
 
-<p [innerHTML]="relatedJodel.text" class="m-t-0"></p>
+<p [innerHTML]="relatedJodel.text"></p>
 
-<p class="dark-{{relatedJodel.color}}">{{relatedJodel.location}}, {{relatedJodel.time}} Uhr</p>
+<p class="dark-{{relatedJodel.color}} m-b-0">{{relatedJodel.location}}, {{relatedJodel.time}} Uhr</p>
 
 <div class="m-b-30">
     <app-bar-chart *ngFor="let keyword of relatedJodel.barchartArray"
