@@ -7,8 +7,8 @@
                                 contentService.color == 'green' ||
                                 contentService.color == 'turquoise',
             'jodelIcon-blue': contentService.color == 'yellow' ||
-                                contentService.color == 'red',
-            'jodelIcon-green': contentService.color == 'orange'
+                                contentService.color == 'red' ||
+                                contentService.color == 'orange'
             }">
                 <app-content-page-selection *ngIf="contentService.currentContentpage">
                 </app-content-page-selection>
@@ -55,8 +55,8 @@
                                             contentService.color == 'green' ||
                                             contentService.color == 'turquoise',
                         'hm-blue-6': contentService.color == 'yellow' ||
-                                            contentService.color == 'red',
-                        'hm-green-7': contentService.color == 'orange'
+                                        contentService.color == 'red' ||
+                                      contentService.color == 'orange'
                         }"
                     (click)="contentService.currentContentpage ? editJodel() : sendJodel()">
                 {{contentService.currentContentpage ? 'edit' : 'send'}}
