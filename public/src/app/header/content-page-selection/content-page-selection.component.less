@@ -35,6 +35,12 @@ select {
   }
 }
 
+.checkmark:hover {
+  filter:brightness(110%);
+}
+.radioSelector input:checked ~ .checkmark:hover {
+  filter:brightness(100%);
+}
 
 
 .green {
@@ -47,6 +53,9 @@ select {
   &.radioSelector input:checked ~ .checkmark {
     background-color: @bg-dark-green;
   }
+  //.checkmark:hover {
+  //  .bg-light-green !important;
+  //}
 }
 .red {
   .checkmark {

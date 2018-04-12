@@ -803,6 +803,12 @@ select option {
   opacity: 0;
   cursor: pointer;
 }
+.checkmark:hover {
+  filter: brightness(110%);
+}
+.radioSelector input:checked ~ .checkmark:hover {
+  filter: brightness(100%);
+}
 .green .checkmark {
   background-color: #c8dc92;
   border-radius: 2px;
