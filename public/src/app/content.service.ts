@@ -52,6 +52,7 @@ export class ContentService {
             'kann sich hergeleitet werden. \n\n' +
             '#darferdas'
         });
+        this.color = 'turquoise';
 
         return of(result);
 
