@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
 const db_1 = require("./db");
 const config_1 = require("./config");
+const jresult_1 = require("./jresult");
 // const testResult = {
 //     "foo" : "bar"
 // };
@@ -14,9 +15,22 @@ class Api {
      */
     constructor(app) {
         this.prefix = "/api";
+        this.loadJsonFile = require("load-json-file");
         this.getRandomPost = async (req, res) => {
             let result = await this.db.getRandomPost();
             res.send("<pre>" + JSON.stringify(result, null, 2));
+        };
+        this.counter = 0;
+        this.returnDummy = async (req, res) => {
+            if (req.body.constructor === Object && Object.keys(req.body).length === 0) {
+                console.log('Object missing');
+                res.send("");
+            }
+            else {
+                let _res = new jresult_1.JResult(req.body.text, this.db);
+                await _res.getResult();
+                res.send(_res.toJSON());
+            }
         };
         /**
          *
@@ -37,10 +51,11 @@ class Api {
      * Router für Api.
      * Routed alle /api/* requests weiter
      */
-    api() {
+    async api() {
         let router = express_1.Router();
         router.use('/user', this.foo);
         router.use('/random', this.getRandomPost);
+        router.use('/dummy', this.returnDummy);
         this.app.use(this.prefix, router);
     }
 }

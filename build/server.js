@@ -49,6 +49,11 @@ class Server {
      * @method config
      */
     config() {
+        this.app.use(function (req, res, next) {
+            res.header("Access-Control-Allow-Origin", "*");
+            res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+            next();
+        });
         //add static paths
         this.app.use('/', express.static('public/dist'));
         //mount json form parser
