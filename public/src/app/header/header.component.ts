@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, NgZone, OnInit, ViewChild} from '@angular/core';
 import {ContentService, JRESULT} from "../content.service";
 import {ContentModel} from "../content/content.model";
 import {CreateNewAutocompleteGroup, SelectedAutocompleteItem, NgAutocompleteComponent} from "ng-auto-complete";
@@ -26,6 +26,9 @@ export class HeaderComponent implements OnInit {
 
     jodel: HeaderModel;
     jodelIsWriteable: boolean = true;
+
+    loading: boolean;
+
     resultData: JRESULT;
     contentData: ContentModel;
 
@@ -43,8 +46,15 @@ export class HeaderComponent implements OnInit {
     }
 
     constructor(public contentService: ContentService,
-                public completer: NgAutocompleteComponent) {
+                public completer: NgAutocompleteComponent,
+                private _ngZone: NgZone) {
+        this.loading = false;
     }
+
+    ngOnChanges () {
+        this.loading = false;
+    }
+
 
     ngOnInit() {
 
@@ -80,9 +90,8 @@ export class HeaderComponent implements OnInit {
         // console.log(this.completer);
 
         // debug
-        this.sendJodel2();
+        // this.sendJodel();
     }
-
 
 
     /**
@@ -93,12 +102,18 @@ export class HeaderComponent implements OnInit {
      */
     getRandomJodel() {
 
+        this.loading = true;
+
         this.contentService.getRandomJodel()
             .subscribe(response => {
 
+                console.log('loading finished');
+
                 this.jodel = response;
+                this.loading = false;
             })
     }
+
 
     /**
      * send jodel data to the service
@@ -108,21 +123,36 @@ export class HeaderComponent implements OnInit {
      * @since   24.03.2018
      */
     sendJodel() {
+        this.loading = true;
+
+        console.log('loading started', this.loading);
 
         this.jodelIsWriteable = false;
 
-        this.contentService.getResultData(this.jodel)
-            .subscribe(response => {
 
-                this.contentData = response;
-            });
+        setTimeout(() => {
+            this.contentService.getResultData(this.jodel)
+                .subscribe(response => {
+
+                    console.log('loading finished');
+                    this.contentData = response;
+                    this.loading = false;
+                });
+        }, 1000)
     }
 
 
 
     async sendJodel2 () {
 
-      this.contentData = await this.contentService.getResultData2(this.jodel)
+        this.loading = true;
+
+        console.log('loading started', this.loading);
+
+        this.jodelIsWriteable = false;
+
+        this.contentData = await this.contentService.getResultData2(this.jodel)
+        this.loading = false;
     }
 
     /**

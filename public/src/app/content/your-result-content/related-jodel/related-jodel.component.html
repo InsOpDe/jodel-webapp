@@ -7,9 +7,10 @@
 <p class="dark-{{relatedJodel.color}} m-b-0">{{relatedJodel.location}}, {{relatedJodel.time}} Uhr</p>
 
 <div class="m-b-30">
-    <app-bar-chart *ngFor="let keyword of relatedJodel.barchartArray"
-                   [value]="keyword.value"
+    <app-bar-chart *ngFor="let relJodel of relatedJodel.barchartArray"
+                   [value]="relJodel.value"
                    [color]="relatedJodel.color"
-                   [title]="keyword.keyword">
+                   [title]="relJodel.keyword"
+                    [maxValue]="relJodel.maxValue">
     </app-bar-chart>
 </div>

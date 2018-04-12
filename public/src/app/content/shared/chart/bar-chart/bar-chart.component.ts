@@ -40,12 +40,14 @@ export class BarChartComponent implements OnInit, OnChanges {
     @Input() value: number;
     @Input() title: string;
     @Input() color: string;
+    @Input() maxValue: number;
 
 
     colors = COLORS;
 
     maxBarAmount = 37;
     maxBarAmountArray = new Array(this.maxBarAmount);
+
     valueRoundArray = [];
     valueRound: number;
 
@@ -60,6 +62,7 @@ export class BarChartComponent implements OnInit, OnChanges {
      */
     ngOnInit() {
         this.color = this.color || this.contentService.color;
+        this.maxValue = this.maxValue || 100000;
     }
 
 
@@ -68,6 +71,8 @@ export class BarChartComponent implements OnInit, OnChanges {
      * @since   23.03.2018
      */
     ngOnChanges(changes: SimpleChanges) {
+
+        this.maxValue = this.maxValue || 100000;
 
         if (typeof changes.value != 'undefined') {
             this.updateBarValues();
@@ -97,7 +102,8 @@ export class BarChartComponent implements OnInit, OnChanges {
      * @returns {number}
      */
     round() {
-        let factor = 200000 / this.maxBarAmount;
+
+        let factor = this.maxValue / this.maxBarAmount;
 
         return Math.round(this.value / factor);
     }
