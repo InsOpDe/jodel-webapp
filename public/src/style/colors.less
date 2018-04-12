@@ -34,13 +34,13 @@
         turquoise @turquoise;
 
 @lightness: 10%;
-@darkness: 0%;
+@darkness: 20%;
 
 .for-each(@value in @jodelColors) {
 
   @key: at(@value, 1);
 
-  .generate-gradient(@key, lighten(at(@value, 2), 20%));
+  .generate-gradient(@key, lighten(at(@value, 2), 17%));
 
   // color classes
   .@{key} {color: at(@value, 2);}

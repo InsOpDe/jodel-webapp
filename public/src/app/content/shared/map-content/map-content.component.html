@@ -11,8 +11,7 @@
              [@mapState]="{value: triggerValue, params:{}}"
              *ngFor="let dummy of ' '.repeat(map.squaresY).split(''), let y = index">
 
-            <div
-                 *ngFor="let dummy of ' '.repeat(map.squaresX).split(''), let x = index"
+            <div *ngFor="let dummy of ' '.repeat(map.squaresX).split(''), let x = index"
                  ngClass="{{mapArr[y + '-' + x] ? classesMap[y + '-' + x] : ''}}"
                  id="{{y}}-{{x}}"
                  class="square"
