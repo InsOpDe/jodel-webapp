@@ -11,17 +11,6 @@ import { KeywordBarchartModel } from "./content/shared/keywords-barchar/keyword-
 import { MapModel } from './content/shared/map-content/map.model';
 import { TIME_RESULT1, TIME_RESULT2 } from "./content/shared/time-content/mock-time-result";
 
-interface JRESULT
-{
-  message: string;
-  interPolatedResult: interpolatedResult;
-  hashtags: HashandKeyResult[],
-  keywords: HashandKeyResult[],
-  jodel: JodelJSON;
-  cityimportance: any;
-
-}
-
 interface Citydata
 {
   city: string,
@@ -35,7 +24,6 @@ interface HashandKeyResult
   amount: number,
   citydata: Citydata[];
 }
-
 
 interface keyorhash
 {
@@ -74,6 +62,21 @@ interface coreJodelJSON
   created_at: string;
 
 }
+export interface JRESULT
+{
+  message: string;
+  interPolatedResult: interpolatedResult;
+  hashtags: HashandKeyResult[],
+  keywords: HashandKeyResult[],
+  jodel: JodelJSON;
+  cityimportance: Citydata[];
+
+}
+
+
+
+
+
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
 };
@@ -93,7 +96,7 @@ export class ContentService {
     color: string;
     contentpages: Contentpage[] = [];
     currentContentpage: Contentpage;
-  true_result: JRESULT;
+    true_result: JRESULT;
     constructor(private http: HttpClient) {
         this.color = 'green';
     }
@@ -109,8 +112,8 @@ export class ContentService {
      */
     getResultData(jodelData): Observable<ContentModel> {
 
-      let result = this.setResult();
-
+        //let result = this.setResult();
+      let result = RESULT;
         this.setContentpages(result.keywordContent);
 
         return of(result);
@@ -120,7 +123,7 @@ export class ContentService {
     }
     getResultData2(jodelData): Observable<JRESULT>
     {
-      return this.http.post<JRESULT>('/api/dummy', jodelData);
+      return this.http.post<JRESULT>('http://localhost:8080/api/dummy', jodelData);
     }
 
     /**

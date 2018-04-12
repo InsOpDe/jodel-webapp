@@ -148,16 +148,6 @@ export class Db{
      */
     public async getMostSimiliar(message: string)
     {
-        this.texttools.extractHashtags(message).then((value) =>
-        {
-            if (value == undefined)
-            {
-                value = [];
-            }
-            let res = Object.values(value);
-            this.getPostsFromTags(res);
-        })
-
 
         let res = await this.texttools.extractHashtags(message);
         if (res == undefined)
@@ -165,6 +155,11 @@ export class Db{
             res = [];
         }
         let res_array = Object.values(res);
+        //Speeding up ---- Maybe remove this when better database exists
+        while (res_array.length > 3)
+        {
+            res_array.pop();
+        }
         let resDBHash = this.getPostsFromTags(res_array);
         let res_keywords = await this.texttools.extractKeywords(message);
         let res_keywords_array: string[] = [];
@@ -172,6 +167,12 @@ export class Db{
         {
             res_keywords_array.push(res_keywords[key].name);
         }
+        //Speeding up that crap ---- Maybe remove this when better database exists
+        while (res_keywords_array.length > 3)
+        {
+            res_keywords_array.pop();
+        }
+
         if (res_keywords_array.length == 0)
         {
             return new Promise((resolve) =>
@@ -210,8 +211,26 @@ export class Db{
     public async getCityKeywordAmount(keyword: string)
     {
         
-        let _query = "Select COUNT(g1.loc_name) as amount, g1.post_keyword, g1.loc_name, g1.id_cities FROM (SELECT t1.post_id, t1.loc_name, t2.post_keyword, t3.id_cities FROM location t1 "
-            + "INNER JOIN keywords t2 ON t1.post_id = t2.post_id INNER JOIN cities t3 ON t1.loc_name = t3.name WHERE post_keyword = " + "\"" + keyword + "\"" + ") g1 GROUP BY g1.post_keyword, g1.loc_name"
+        let _query = "SELECT cities.id_cities, cities.name, result.amount " 
+                      + "FROM cities as cities"
+                      + " INNER JOIN "
+                      + "(SELECT " 
+                      + "COUNT(g1.loc_name) AS amount, "
+                      +     "g1.post_keyword,"
+                      +     " g1.loc_name"
+                      +" FROM                                         "
+                      +" (SELECT                                      "
+                      +"    t1.post_id, t1.loc_name, t2.post_keyword "
+                      +" FROM                                         "
+                      +"    location t1                              "
+                      +" INNER JOIN                                   "
+                      +"    keywords t2 ON t1.post_id = t2.post_id   "
+                      +" WHERE                                        "
+                      +"    post_keyword = " + "\"" + keyword + "\"" + ") g1"
+                      +" GROUP BY                                     "
+                      +"    g1.post_keyword, g1.loc_name) result     "
+                      +" ON                                           "
+                      +"    cities.name = result.loc_name            "
         return await this.query(_query);
 
     }
@@ -226,8 +245,23 @@ export class Db{
     public async getCityHashtagAmount(hashtag: string)
     {
 
-        let _query = "Select COUNT(g1.loc_name) as amount, g1.post_tag, g1.loc_name, g1.id_cities FROM (SELECT t1.post_id, t1.loc_name, t2.post_tag, t3.id_cities FROM location t1 "
-            + "INNER JOIN tags t2 ON t1.post_id = t2.post_id INNER JOIN cities t3 ON t1.loc_name = t3.name WHERE post_tag = " + "\"" + hashtag + "\"" + ") g1 GROUP BY g1.post_tag, g1.loc_name"
+        let _query = "SELECT cities.id_cities, cities.name, result.amount "
+                     +"  FROM cities as cities                               "
+                     +"  INNER JOIN                                          "
+                     +"  (SELECT                                             "
+                     +"  COUNT(g1.loc_name) AS amount,                       "
+                     +"  g1.post_tag,                                        "
+                     +"  g1.loc_name                                         "
+                     +"  FROM                                                "
+                     +"  (SELECT                                             "
+                     +"  t1.post_id, t1.loc_name, t2.post_tag                "
+                     +"  FROM                                                "
+                     +"  location t1                                         "
+                     +"  INNER JOIN tags t2 ON t1.post_id = t2.post_id       "
+                     +"  WHERE                                               "
+                     +"  post_tag = " + "\"" + hashtag + "\"" + ") g1        "
+                     +"  GROUP BY g1.post_tag, g1.loc_name) result           "
+                     +"  ON cities.name = result.loc_name                    "
         return await this.query(_query);
 
     }

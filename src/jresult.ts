@@ -3,7 +3,10 @@ import { Texttools } from './texttools';
 
 const POSTWEIGHT: number = 1.5;
 
-
+/**
+ * At last this Class will generate the Result for the Front-End
+ * @author Tim Mend
+ */
 export class JResult
 {
     Jodel: string;
@@ -11,9 +14,9 @@ export class JResult
     affJodel: Jodel;
     db: Db;
     texttools: Texttools;
-    keywords: HashandKeyResult[];
+    keywords: HashandKeyResult[] = [];
 
-    hashtags: HashandKeyResult[];
+    hashtags: HashandKeyResult[] =[];
 
     cityimportance: Citydata[];
 
@@ -49,23 +52,20 @@ export class JResult
         process.stdout.write("Getting Hashtags and Keywords")
         for (let key1 in res3)
         {
-            let _tmp: {
-                city: string;
-                amount: number;
-                id: number;
-            }[] = [];
+            let _tmp: Citydata[] = [];
             process.stdout.write(".");
             let keynum = await this.db.getCityKeywordAmount(res3[key1].name);
             for (let key2 in keynum)
             {
                 
                 _tmp.push({
-                    city: keynum[key2].loc_name,
+                    city: keynum[key2].name,
                     amount: keynum[key2].amount,
                     id: keynum[key2].id_cities
                 })
 
             }
+            //console.log(_tmp);
             this.keywords.push({
                 name: res3[key1].name,
                 amount: res3[key1].amount,
@@ -95,11 +95,11 @@ export class JResult
             })
         }
         process.stdout.write("Generating Votes")
-        let _votestmp = await this.interPolateResult(res);
-        this.interPolatedResult = _votestmp[0];
+        await this.interPolateResult(res);
         process.stdout.write("Generating City Importance")
         let _cityimportance = await this.generateCityImportance();
-        this.cityimportance = _cityimportance[0];
+
+        this.cityimportance = Object.values(_cityimportance);
         
         return new Promise((resolve) =>
         {
@@ -143,45 +143,41 @@ export class JResult
         }
 
 
-        for (let key in keys)
+
+        let i = keys.length > 2 ? 2 : keys.length;
+        for (let k = 0; k < i; k++)
         {   
-            let keywords_similiar_post = await this.db.getKeywordsById(keys[key].post_id);
+          let keywords_similiar_post = await this.db.getKeywordsById(keys[k].post_id);
+            let _tmpJresult = jresult_keywords.map(a => a.name);
             //Get relational Keywords out of the similiar Jodel
             for (let key in keywords_similiar_post)
             {
-                for (let key_jresult in jresult_keywords)
-                {
-                    process.stdout.write(".");
-                    if (jresult_keywords[key_jresult] != keywords_similiar_post[key_jresult])
+                process.stdout.write(".");
+                if (!(keywords_similiar.includes(keywords_similiar_post[key].post_keyword) || _tmpJresult.includes(keywords_similiar_post[key].post_keyword)))
                     {
-                        keywords_similiar.push(keywords_similiar_post[key_jresult]);
-                        jresult_keywords.push(keywords_similiar_post[key_jresult]);
+                        keywords_similiar.push(keywords_similiar_post[key].post_keyword);
                     }
-                }
+                
             }
 
             //Same as keywords
-            let hashtags_similiar_post = await this.db.getHashtagsById(keys[key]);
-
-            for (let hash in hashtags_similiar_post)
+            let hashtags_similiar_post = await this.db.getHashtagsById(keys[k].post_id);
+             for (let hash in hashtags_similiar_post)
             {
                 process.stdout.write(".");
-                for (let hash_jresult in jresult_hashtags)
+                if (!(jresult_hashtags.includes(hashtags_similiar_post[hash].post_tag) || hashtags_similiar.map(a => a.name).includes(hashtags_similiar_post[hash].post_tag)))
                 {
-                    if (hashtags_similiar_post[hash] != jresult_hashtags[hash_jresult])
-                    {
-                        hashtags_similiar.push(hashtags_similiar_post[hash]);
-                        jresult_hashtags.push(hashtags_similiar_post[hash]);
-                    }
+                    hashtags_similiar.push(hashtags_similiar_post[hash].post_tag);
+                        
                 }
             }
 
 
-            let tmp = await this.db.getPostById(keys[key].post_id);
+            let tmp = await this.db.getPostById(keys[k].post_id);
             sum_comments += parseInt(tmp[0].child_count)
             if (tmp.length == 0)
             {
-                let tmp = await this.db.getChildById(keys[key].post_id);
+                let tmp = await this.db.getChildById(keys[k].post_id);
                 //console.log(tmp);
                 sum += parseInt(tmp[0].vote_count);
                 process.stdout.write(".");
@@ -196,14 +192,15 @@ export class JResult
         }
         return new Promise((resolve) =>
         {
-            let _res: interpolatedResult = {
+            let _res:interpolatedResult = {
                 Votes: Math.ceil((sum / keys.length)),
                 Comments: Math.ceil((sum_comments / keys.length)),
                 Pins: Math.ceil((sum / keys.length) * 0.15),
                 Keywords_similiar: keywords_similiar,
                 Hashtag_similiar: hashtags_similiar
             }
-            resolve(_res)
+            this.interPolatedResult = _res;
+            return resolve(_res)
         })
         
     }
@@ -216,7 +213,7 @@ export class JResult
     {
         return new Promise((resolve) =>
         {
-            let sum: any = this.keywords[0]['citydata'];
+            let sum: Citydata[] = this.keywords[0]['citydata'];
             for (let b = 1; b < this.keywords.length; b++)
             {
                 let key_tmp: any = this.keywords[b]['citydata'];
@@ -228,16 +225,16 @@ export class JResult
                         {
                             sum[n].amount += key_tmp[m].amount;
                         }
-                        if (m == key_tmp.length && sum[n].city != key_tmp[m].city)
-                        {
-                            sum.push(key_tmp[m]);
-                        }
+                        //if (m == key_tmp.length && sum[n].city != key_tmp[m].city)
+                        //{
+                        //    sum.push(key_tmp[m]);
+                        //}
                     }
                 }
             }
             for (let i = 0; i < this.hashtags.length; i++)
         {
-            let hash_tmp: any = this.hashtags[i]['citydata'];
+            let hash_tmp: Citydata[] = this.hashtags[i]['citydata'];
             for (let j = 0; j < sum.length; j++)
             {
                 for (let k = 0; k < hash_tmp.length; k++)
@@ -247,14 +244,15 @@ export class JResult
                         sum[j].amount += hash_tmp[k].amount;
 
                     }
-                    if (k == hash_tmp.length && sum[j].city != hash_tmp[k].city)
-                    {
-                        sum.push(hash_tmp[k]);
-                    }
+                    //if (k == hash_tmp.length && sum[j].city != hash_tmp[k].city)
+                    //{
+                    //    sum.push(hash_tmp[k]);
+                    //}
                 }
             }
             
             }
+            //console.log(sum);
             resolve(sum);
         })
     }
@@ -273,19 +271,11 @@ export class JResult
     }
 }
 
-interface JRESULT
-{
-    message: string;
-    interPolatedResult: interpolatedResult;
-    hashtags: HashandKeyResult[],
-    keywords: HashandKeyResult[],
-    jodel: JodelJSON;
-    cityimportance: any;
 
-}
  
-
-
+/** This class will collect Information about a whole Jodel - no Children. 
+ * @author Tim Mend 
+ */
 export class Jodel
 {
     core: coreJodel;
@@ -363,60 +353,13 @@ export class Jodel
 }
 
 
-interface Citydata
-{
-    city: string,
-    amount: number,
-    id: number
-}
-
-interface HashandKeyResult
-{
-    name: string,
-    amount: number,
-    citydata: Citydata[];
-}
-
-interface keyorhash
-{
-    name: string,
-    value: number
-}
-
-interface interpolatedResult
-{
-    Votes: number,
-    Comments: number,
-    Pins: number,
-    Keywords_similiar: keyorhash[],
-    Hashtag_similiar: keyorhash[]
-}
-
-interface JodelJSON
-{
-    core: coreJodelJSON;
-    image_approved: Boolean;
-    image_url: string;
-    child_count: Number;
-    oj_replied: Boolean;
-    children: coreJodelJSON[];
-}
-
-interface coreJodelJSON
-{
-    post_id: string;
-    vote_count: Number;
-    post_color: string;
-    post_message: string;
-    keywords: string[];
-    tags: string[];
-    location: string;
-    created_at: string;
-
-}
 
 
-
+/**
+ * This is the Class for collecting the coreJodel Info - here can any Jodel be safed
+ * Children too.
+ * @author Tim Mend
+ */
 export class coreJodel
 {
     post_id: string;
@@ -486,4 +429,71 @@ export class coreJodel
         };
 
     }
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////Interfaces///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+interface Citydata
+{
+    city: string,
+    amount: number,
+    id: number
+}
+
+interface HashandKeyResult
+{
+    name: string,
+    amount: number,
+    citydata: Citydata[];
+}
+
+interface keyorhash
+{
+    name: string,
+    value: number
+}
+
+interface interpolatedResult
+{
+    Votes: number,
+    Comments: number,
+    Pins: number,
+    Keywords_similiar: keyorhash[],
+    Hashtag_similiar: keyorhash[]
+}
+
+interface JodelJSON
+{
+    core: coreJodelJSON;
+    image_approved: Boolean;
+    image_url: string;
+    child_count: Number;
+    oj_replied: Boolean;
+    children: coreJodelJSON[];
+}
+
+interface coreJodelJSON
+{
+    post_id: string;
+    vote_count: Number;
+    post_color: string;
+    post_message: string;
+    keywords: string[];
+    tags: string[];
+    location: string;
+    created_at: string;
+
+}
+interface JRESULT
+{
+    message: string;
+    interPolatedResult: interpolatedResult;
+    hashtags: HashandKeyResult[],
+    keywords: HashandKeyResult[],
+    jodel: JodelJSON;
+    cityimportance: Citydata[];
+
 }

@@ -40,16 +40,7 @@ export class Api{
         router.use('/user', this.foo);
         router.use('/random', this.getRandomPost);
         router.use('/dummy', this.returnDummy);
-        let _res = new JResult("Jodel ist toll #jhj", this.db);
-        await _res.getResult();
-        console.log(_res);
-        //let json = await this.loadJsonFile('../src/SupportingFiles/dummy.json');
-        //console.log(json);
-        //let _res = new JResult("Jodel ist eine coole Plattform! #jhj #letfetz", this.db);
-        //await _res.getResult();
-        //console.log(JSON.stringify(_res.toJSON()));
-        //let _res = await this.db.getCreatedByIdChild("59a04066b938680016c917c5");
-        //console.log(_res);
+       
         this.app.use(this.prefix, router);
 
     }
@@ -71,15 +62,10 @@ export class Api{
         }
         else
         {
-            //For a Result use this. this will take a while
-            //////////////////////////////////////////////////////
-            /////let _res = new JResult(req.body.text, this.db);
-            /////await _res.getResult();
-            ////res.send(_res.toJSON);
-            //////////////////////////////////////////////////////
-            let json = await this.loadJsonFile('../src/SupportingFiles/dummy.json');
-            console.log(req.body);
-            res.send(json);
+           
+           let _res = new JResult(req.body.text, this.db);
+            await _res.getResult();
+            res.send(_res.toJSON());
         }
         
 
