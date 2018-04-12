@@ -336,7 +336,7 @@ export class ContentService {
 
     for (let i = 0; i < arr.length; i++) {
       _res.push(new KeywordBarchartModel({
-        color: 'orange',
+        color: this.getColor(arr[i].color),
         value: arr[i].value,
         name: arr[i].name
 
