@@ -161,7 +161,8 @@ export class JResult
             let tmp = await this.db.getHashtagAmount(res2[hashi]);
             let hashnum = await this.db.getCityHashtagAmount(res2[hashi]);
             let simHashtags = await this.db.getSimiliarHashtags(res2[hashi])
-            for (let i = 0; i < 4; i++)
+            let tk = simHashtags.length > 4 ? 4 : simHashtags.length;
+            for (let i = 0; i < tk; i++)
             {
                 simHashtagsarr.push({
                     name: simHashtags[i].hashtag,
