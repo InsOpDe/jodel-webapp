@@ -6,6 +6,7 @@ import {CITIES} from "../global/cities";
 import {animate, query, stagger, style, transition, trigger} from "@angular/animations";
 import {COLORS} from "../global/colors";
 import {HeaderModel} from "./header.model";
+import {renderComponentOrTemplate} from "@angular/core/src/render3/instructions";
 
 /**
  * header component
@@ -16,96 +17,118 @@ import {HeaderModel} from "./header.model";
  * @since   24.03.2018
  */
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html'
+    selector: 'app-header',
+    templateUrl: './header.component.html'
 })
 export class HeaderComponent implements OnInit {
-  @ViewChild(NgAutocompleteComponent) public completer: NgAutocompleteComponent;
 
-  jodel:HeaderModel;
-  jodelIsWriteable:boolean = true;
+    // @ViewChild(NgAutocompleteComponent) public completer: NgAutocompleteComponent;
 
-  public group;
+    jodel: HeaderModel;
+    jodelIsWriteable: boolean = true;
 
-  /**
-   *
-   * @param item
-   * @constructor
-   */
-  Selected(item: SelectedAutocompleteItem) {
-    let original = item.item.original;
-    this.jodel.location = original.city;
-    this.jodel.cityId = original.id;
-  }
+    contentData: ContentModel;
 
-  contentData: ContentModel;
+    public group;
 
-  constructor(public contentService: ContentService) {
-  }
-
-  ngOnInit() {
-
-    this.jodel = new HeaderModel({
-      location: 'München',
-      cityId: 3,
-      time: '22:06',
-      text: 'Wasser löst irgendwie alle Probleme. ' +
-      'Du willst abnehmen? Trink Wasser. \n' +
-      'Du hast unreine Haut? Trink Wasser. ' +
-      'Dein Ex nervt? Ertränk ihn im Wasser.\n\n' +
-      '#darferdas'
-    });
-    let cityArr = [];
-    for(let i in CITIES){
-      cityArr.push(CITIES[i]);
+    /**
+     *
+     * @param item
+     * @constructor
+     */
+    Selected(item: SelectedAutocompleteItem) {
+        let original = item.item.original;
+        this.jodel.location = original.city;
+        this.jodel.cityId = original.id;
     }
 
-    let cityGroup = CreateNewAutocompleteGroup(
-      "Deine Stadt",
-      // this.jodel.location,
-      'completer',
-      cityArr,
-      {titleKey: 'city', childrenKey: null}
-    );
-    this.group = [
-      cityGroup
-    ]
+    constructor(public contentService: ContentService,
+                public completer: NgAutocompleteComponent) {
+    }
+
+    ngOnInit() {
+
+        this.jodel = new HeaderModel({
+            location: 'München',
+            cityId: 3,
+            time: '22:06',
+            text: 'Wasser löst irgendwie alle Probleme. ' +
+            'Du willst abnehmen? Trink Wasser. ' +
+            'Du hast unreine Haut? Trink Wasser. ' +
+            'Dein Ex nervt? Ertränk ihn im Wasser.\n\n' +
+            '#darferdas'
+        });
+
+        let cityArr = [];
+        for (let i in CITIES) {
+            cityArr.push(CITIES[i]);
+        }
+
+        this.group = [
+            CreateNewAutocompleteGroup(
+                this.jodel.location || "Wähle deine Stadt ... ",
+                // this.jodel.location,
+                'completer',
+                cityArr,
+                {titleKey: 'city', childrenKey: null}
+            )
+        ];
+
+
+        // this.completer.SetValues('completer', cityArr);
+        // this.completer.SelectItem('completer', this.jodel.cityId);
+        // console.log(this.completer);
+
+        // debug
+        // this.sendJodel();
+    }
 
 
 
-    // debug
-    this.sendJodel();
-  }
+    /**
+     * get random jodel from content service
+     *
+     * @author  Maya
+     * @since   12.04.2018
+     */
+    getRandomJodel() {
 
-  /**
-   * send jodel data to the service
-   * - after the response, the data is forwarded to the content component
-   *
-   * @author  Maya
-   * @since   24.03.2018
-   */
-  sendJodel() {
+        this.contentService.getRandomJodel()
+            .subscribe(response => {
 
-    this.jodelIsWriteable = false;
+                this.jodel = response;
+            })
+    }
 
-    this.contentService.getResultData(this.jodel)
-      .subscribe(response => {
+    /**
+     * send jodel data to the service
+     * - after the response, the data is forwarded to the content component
+     *
+     * @author  Maya
+     * @since   24.03.2018
+     */
+    sendJodel() {
 
-        this.contentData = response;
-      });
-  }
+        this.jodelIsWriteable = false;
+
+        this.contentService.getResultData(this.jodel)
+            .subscribe(response => {
+
+                this.contentData = response;
+            });
+    }
 
 
-  /**
-   * back to landingpage, refresh data of the service,
-   * keep jodel data ??
-   *
-   * @author  Maya
-   * @since   24.03.2018
-   */
-  editJodel() {
+    /**
+     * back to landingpage, refresh data of the service,
+     * keep jodel data ??
+     *
+     * @author  Maya
+     * @since   24.03.2018
+     */
+    editJodel() {
 
-    this.jodelIsWriteable = true;
-    this.contentService.refresh();
-  }
+        this.jodelIsWriteable = true;
+        this.contentService.refresh();
+    }
 }

@@ -8,14 +8,20 @@
                                 contentService.color == 'turquoise',
             'jodelIcon-blue': contentService.color == 'yellow' ||
                                 contentService.color == 'red' ||
-                                contentService.color == 'orange'
-            }">
-                <app-content-page-selection *ngIf="contentService.currentContentpage">
-                </app-content-page-selection>
+                                contentService.color == 'orange'}">
+
+                <div *ngIf="contentService.currentContentpage">
+                    <app-content-page-selection>
+                    </app-content-page-selection>
+                </div>
+
+                <div *ngIf="!contentService.currentContentpage">
+                    <button (click)="getRandomJodel()" class="getRandomJodel"></button>
+                </div>
+
             </div>
         </div>
 
-        <!--TODO disable input if currentContentage is set-->
         <!--JODEL TEXT-->
         <div class="col-3">
                 <textarea rows="5"
@@ -56,8 +62,7 @@
                                             contentService.color == 'turquoise',
                         'hm-blue-6': contentService.color == 'yellow' ||
                                         contentService.color == 'red' ||
-                                      contentService.color == 'orange'
-                        }"
+                                      contentService.color == 'orange'}"
                     (click)="contentService.currentContentpage ? editJodel() : sendJodel()">
                 {{contentService.currentContentpage ? 'edit' : 'send'}}
             </button>
