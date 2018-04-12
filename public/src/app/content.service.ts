@@ -24,6 +24,7 @@ interface HashandKeyResult
 {
   name: string,
   amount: number,
+  maxValue: number,
   citydata: Citydata[];
 }
 
@@ -37,6 +38,8 @@ interface interpolatedResult
 {
   Votes: number,
   Comments: number,
+  maxKommentare: number,
+  maxValue: number,
   Pins: number,
   Keywords_similiar: keyorhash[],
   Hashtag_similiar: keyorhash[]
@@ -57,7 +60,8 @@ import { RelatedJodelModel } from './content/your-result-content/related-jodel/r
 interface coreJodelJSON
 {
   post_id: string;
-  vote_count: Number;
+  vote_count: number;
+  child_count: number;
   post_color: string;
   post_message: string;
   keywords: string[];
@@ -146,6 +150,11 @@ export class ContentService {
 
         this.jodelData = jodelData;
 
+        for (let i = 0; i < 3000; i++) {
+
+            console.log('a');
+        }
+
         let result = RESULT;
 
         this.setContentpages(result.keywordContent);
@@ -154,9 +163,6 @@ export class ContentService {
         // this.changeContentpageType(CONTENTTYPE.KEYWORD);
 
         return of(result);
-
-        // return this.http
-        //   .get<ContentModel>('/api/user', httpOptions);
     }
 
 
@@ -186,19 +192,55 @@ export class ContentService {
     refresh() {
         this.currentContentpage = null;
         this.contentpages = [];
-  }
+    }
 
-    setResult()
-    {
+    getColor(colorHex: string) {
+
+        let color = '';
+
+        switch (colorHex) {
+            case 'FFBA00': {
+                color = 'yellow';
+                break;
+            }
+            case 'FF9908': {
+                color = 'orange';
+                break;
+            }
+            case '9EC41C': {
+                color = 'green';
+                break;
+            }
+            case '06A3CB': {
+                color = 'blue';
+                break;
+            }
+            case 'DD5F5F': {
+                color = 'red';
+                break;
+            }
+            case '8ABDB0': {
+                color = 'turquoise';
+                break;
+            }
+        }
+
+        return color;
+    }
+
+    setResult() {
+
       let contentModel: ContentModel = {
         yourResultContent: {
           result: new ResultModel({
-            'karma': this.true_result.interPolatedResult.Votes * 0.75,
+            'karma': this.true_result.interPolatedResult.Votes * 5 + this.true_result.interPolatedResult.Comments * 10,
+            'karmaMaxValue': this.true_result.interPolatedResult.maxValue * 5 + this.true_result.interPolatedResult.maxKommentare * 10,
             'votes': this.true_result.interPolatedResult.Votes,
             'pins': this.true_result.interPolatedResult.Pins,
             'shared': 50,
-            'comments': this.true_result.interPolatedResult.Comments
-
+            'comments': this.true_result.interPolatedResult.Comments,
+            'votesMaxValue': this.true_result.interPolatedResult.maxValue,
+            'commentsMaxValue': this.true_result.interPolatedResult.maxKommentare
           }),
           keywordEffectArray: this.createKeyWordBarchartArray(),
 
@@ -223,7 +265,8 @@ export class ContentService {
       keyWortBarChart.push(new KeywordBarchartModel({
         color: 'orange',
         value: Number(this.true_result.keywords[key].amount),
-        keyword: this.true_result.keywords[key].name
+        keyword: this.true_result.keywords[key].name,
+        maxValue: this.true_result.keywords[key].maxValue,
       }))
     }
 
@@ -233,23 +276,32 @@ export class ContentService {
 
   createRelatedJodel() {
 
-    let keywords: KeywordBarchartModel[] = [];
-    for (let key in this.true_result.keywords) {
-      keywords.push(new KeywordBarchartModel({
-        value: Math.min(1*this.true_result.keywords[key].amount, 10),
-        color: "orange",
-        keyword: this.true_result.keywords[key].name
-      }))
-    }
+    let barchartData: KeywordBarchartModel[] = [];
+
+    barchartData.push(new KeywordBarchartModel({
+        value: this.true_result.jodel.core.vote_count,
+        color: this.getColor(this.true_result.jodel.core.post_color),
+        keyword: 'Votes',
+        maxValue: this.true_result.interPolatedResult.maxValue
+    }));
+
+    barchartData.push(new KeywordBarchartModel({
+        value: this.true_result.jodel.child_count,
+        color: this.getColor(this.true_result.jodel.core.post_color),
+        keyword: 'Kommentare',
+        maxValue: this.true_result.interPolatedResult.maxKommentare
+    }));
 
     let data = {
+
       location: this.true_result.jodel.core.location,
       time: this.true_result.jodel.core.created_at,
       text: this.true_result.jodel.core.post_message,
-      color: this.true_result.jodel.core.post_color,
-      barchartArray: keywords
+      color: this.getColor(this.true_result.jodel.core.post_color),
+      barchartArray: barchartData
 
-    }
+    };
+
     let relatedJodelModel = new RelatedJodelModel(data);
 
     return relatedJodelModel
