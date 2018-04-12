@@ -40,7 +40,12 @@ export class Api{
         router.use('/user', this.foo);
         router.use('/random', this.getRandomPost);
         router.use('/dummy', this.returnDummy);
-       
+        let tmp = new JResult("Mein Name ist Tim #jo #swag", this.db);
+        await tmp.getResult();
+        console.log(JSON.stringify(tmp.toJSON()));
+        //console.log(JSON.stringify(tmp.toJSON()))
+
+
         this.app.use(this.prefix, router);
 
     }

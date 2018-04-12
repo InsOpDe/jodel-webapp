@@ -141,6 +141,25 @@ export class Db{
         return res;
     }
 
+    public async getSimiliarKeywords(keyword: string)
+    {
+        let _query = "SELECT "
+                   +"    keywords2.post_keyword,                                                 "
+                   +"    AVG(posts.votes)                                                       "
+                   +"  FROM                                                                      "
+                   +"    (SELECT                                                                 "
+                   +"        *                                                                   "
+                   +"     FROM                                                                   "
+                   +"        keywords                                                            "
+                   +"    WHERE                                                                   "
+                   +"        LCASE(post_keyword) = LCASE(" + "\"" + keyword + "\"" + ")          "
+                   +"    LIMIT 10) keywords                                                      "
+                   +"    INNER JOIN posts ON(posts.post_id = keywords.post_id)                   "
+                   +"    INNER JOIN keywords as keywords2 ON(posts.post_id = keywords2.post_id)  "
+            + "    GROUP BY keywords2.post_keyword                                         "
+        return this.query(_query);
+    }
+
     /**
      * TODO: This works but it is stupidly slow. Write better Code...somehow or create View in Database and
      * correct other functions
