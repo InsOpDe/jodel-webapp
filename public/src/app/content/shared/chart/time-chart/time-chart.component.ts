@@ -95,8 +95,6 @@ export class TimeChartComponent implements OnInit {
 
     updateInfoBox(hour) {
 
-        console.log(hour);
-
         this.infoText = hour + ' - ' + (hour+1) + ' Uhr (' + this.timeModel.value[hour] + ' Votes)';
     }
 
