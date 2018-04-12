@@ -40,9 +40,9 @@ export class Api{
         router.use('/user', this.foo);
         router.use('/random', this.getRandomPost);
         router.use('/dummy', this.returnDummy);
-        let tmp = new JResult("Wasser löst irgendwie alle Probleme. Du willst abnehmen? Trink Wasser. Du hast unreine Haut? Trink Wasser. Dein Ex nervt? Ertränk ihn im Wasser. #darferdas", this.db);
+        let tmp = new JResult("Alternative für Deutschland. Demokratische Partei und Bürgerbewegung gegen die undemokratische und rechtswidrige Willkür der etablierten Altparteien.", this.db);
         await tmp.getResult();
-        //console.log(JSON.stringify(tmp.toJSON()));
+        console.log(JSON.stringify(tmp.toJSON()));
         //console.log(JSON.stringify(tmp.toJSON()))
 
 

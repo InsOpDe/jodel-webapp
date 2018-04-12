@@ -355,7 +355,6 @@ export class JResult
             {
 
                 maxVotes = Math.max(tmp[0].votes * 1, maxVotes * 1); 
-                console.log(maxVotes)
                 maxKommis = Math.max(tmp[0].child_count * 1, maxKommis*1);
                 sum_comments += parseInt(tmp[0].child_count)
 
@@ -569,8 +568,9 @@ export class coreJodel
             res = await this.db.getLocationByIdChild(this.post_id);
             this.location = res[0].loc_name;
             let time_tmp = await this.db.getCreatedByIdChild(this.post_id);
-            let time_tmp_string = time_tmp.created_at;
+            let time_tmp_string = time_tmp[0].created_at;
             let time_tmp_res = time_tmp_string.split("T");
+            console.log(time_tmp_res);
             let time_tmp_res_final = time_tmp_res[1].split(".");
             this.created_at = time_tmp_res_final[0];
         }
