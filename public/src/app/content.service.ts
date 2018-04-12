@@ -36,6 +36,32 @@ export class ContentService {
 
 
     /**
+     * get random jodel data
+     * TODO AJAX CALL
+     *
+     * @author  Maya
+     * @since   23.03.2018
+     */
+    getRandomJodel(): Observable<HeaderModel> {
+
+        let result = new HeaderModel({
+            location: 'Hamburg',
+            cityId: 2,
+            time: '13:48',
+            text: 'Ein Professor kommt in die VL: Der Rest is trivial und ' +
+            'kann sich hergeleitet werden. \n\n' +
+            '#darferdas'
+        });
+        this.color = 'turquoise';
+
+        return of(result);
+
+        // return this.http
+        //   .get<ContentModel>('/api/user', httpOptions);
+    }
+
+
+    /**
      * send jodel data to server and
      * get data from mock result to fake http request
      * TODO AJAX CALL

@@ -593,7 +593,7 @@ button:hover {
 }
 .ng-autocomplete-dropdown .ng-autocomplete-inputs input::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #262323;
+  color: #787878;
   opacity: 1;
   /* Firefox */
 }
@@ -721,6 +721,17 @@ button:hover {
 .headerContainer .sendEditButton {
   padding: 5px 10px;
   border-radius: 2px;
+}
+.headerContainer .getRandomJodel {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  height: 86px;
+  width: 86px;
+  float: right;
 }
 .jodelIcon-orange {
   height: 100%;
