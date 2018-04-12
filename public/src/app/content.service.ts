@@ -27,6 +27,7 @@ interface HashandKeyResult
   color: string,
   amount: number,
   maxValue: number,
+  timetable: number[];
   citydata: Citydata[];
   similiar:keyorhash[];
   similiarHashtags:keyorhash[];
@@ -37,7 +38,7 @@ interface keyorhash
   hashtag: string,
   name: string,
   votes: number,
-  maxValue: number,
+  maxVal: number,
   color: string
 }
 
@@ -82,6 +83,7 @@ interface coreJodelJSON
 export interface JRESULT
 {
   message: string;
+  time: number[];
   interPolatedResult: interpolatedResult;
   hashtags: HashandKeyResult[],
   keywords: HashandKeyResult[],
@@ -344,7 +346,7 @@ export class ContentService {
         // similiarKeywords: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Keywords_similiar),
         // relatedHashtags: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Hashtag_similiar),
         map: new MapModel({cities: this.true_result.keywords[key].citydata}),
-        time: TIME_RESULT2
+        time: this.getTimeModel(this.true_result.keywords[key].timetable),
       })
     }
 
@@ -364,7 +366,7 @@ export class ContentService {
         color: this.getColor(arr[i].color),
         value: arr[i].votes,
         keyword: arr[i].name || arr[i].hashtag,
-        maxValue: arr[i].maxValue
+        maxValue: arr[i].maxVal
 
       }))
     }
