@@ -37,6 +37,12 @@ class JResult {
             let _tmp = [];
             process.stdout.write(".");
             let keynum = await this.db.getCityKeywordAmount(res3[key1].name);
+            let simKeyword = await this.db.getSimiliarKeywords(res3[key1].name);
+            let simKeywords = [];
+            //console.log(simKeyword);
+            for (let simKey in simKeyword) {
+                simKeywords.push(simKeyword[simKey].post_keyword);
+            }
             for (let key2 in keynum) {
                 _tmp.push({
                     name: keynum[key2].name,
@@ -48,9 +54,21 @@ class JResult {
             this.keywords.push({
                 name: res3[key1].name,
                 amount: res3[key1].amount,
-                citydata: _tmp
+                citydata: _tmp,
+                maxValue: 0,
+                similiar: simKeywords
             });
         }
+        ///////Get max Keyword
+        let maxVAL = 0;
+        for (let key in this.keywords) {
+            if (maxVAL < this.keywords[key].amount)
+                maxVAL = this.keywords[key].amount;
+        }
+        for (let key in this.keywords) {
+            this.keywords[key].maxValue = maxVAL;
+        }
+        let _null = [];
         for (let hashi in res2) {
             let _tmp = [];
             let tmp = await this.db.getHashtagAmount(res2[hashi]);
@@ -66,8 +84,19 @@ class JResult {
             this.hashtags.push({
                 name: res2[hashi],
                 amount: tmp[0].amount,
-                citydata: _tmp
+                citydata: _tmp,
+                maxValue: 0,
+                similiar: _null
             });
+        }
+        // Get Max hashtag Value
+        maxVAL = 0;
+        for (let key in this.hashtags) {
+            if (maxVAL < this.hashtags[key].amount)
+                maxVAL = this.hashtags[key].amount;
+        }
+        for (let key in this.hashtags) {
+            this.hashtags[key].maxValue = maxVAL;
         }
         process.stdout.write("Generating Votes");
         await this.interPolateResult(res);
@@ -84,8 +113,10 @@ class JResult {
      * @author Tim Mend
      */
     async interPolateResult(keys) {
+        let maxVotes = 0;
         let sum = 0;
         let sum_comments = 0;
+        let maxKommis = 0;
         let jresult_keywords = [];
         let jresult_hashtags = [];
         let keywords_similiar = [];
@@ -127,7 +158,6 @@ class JResult {
                 }
             }
             let tmp = await this.db.getPostById(keys[k].post_id);
-            sum_comments += parseInt(tmp[0].child_count);
             if (tmp.length == 0) {
                 let tmp = await this.db.getChildById(keys[k].post_id);
                 //console.log(tmp);
@@ -135,6 +165,11 @@ class JResult {
                 process.stdout.write(".");
             }
             else {
+                if (tmp[0].votes > maxVotes)
+                    maxVotes = tmp[0].votes;
+                if (tmp[0].child_count > maxKommis)
+                    maxKommis = tmp[0].child_count;
+                sum_comments += parseInt(tmp[0].child_count);
                 sum += parseInt(tmp[0].votes) * POSTWEIGHT;
                 process.stdout.write(".");
             }
@@ -145,6 +180,8 @@ class JResult {
                 Votes: Math.ceil((sum / keys.length)),
                 Comments: Math.ceil((sum_comments / keys.length)),
                 Pins: Math.ceil((sum / keys.length) * 0.15),
+                maxValue: maxVotes,
+                maxKommentare: maxKommis,
                 Keywords_similiar: keywords_similiar,
                 Hashtag_similiar: hashtags_similiar
             };
