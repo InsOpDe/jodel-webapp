@@ -1,35 +1,45 @@
 <!--<select [ngClass]="'bg-' + contentService.color"-->
-        <!--[(ngModel)]="currentContentpageType"-->
-        <!--(change)="handleContenttypeChange()">-->
+<!--[(ngModel)]="currentContentpageType"-->
+<!--(change)="handleContenttypeChange()">-->
 
-    <!--<option *ngFor="let type of contenttypes"-->
-            <!--[ngValue]="CONTENTTYPE[type]">-->
-        <!--{{CONTENTTYPE[type].title}}-->
-    <!--</option>-->
+<!--<option *ngFor="let type of contenttypes"-->
+<!--[ngValue]="CONTENTTYPE[type]">-->
+<!--{{CONTENTTYPE[type].title}}-->
+<!--</option>-->
 
 <!--</select>-->
 
 
-
 <div class="radioSelector" ngClass="{{contentService.color}}" *ngFor="let type of contenttypes">
   <label for="type_answer_{{type}}">
-    <input id="type_answer_{{type}}" (change)="handleContenttypeChange()" [value]="CONTENTTYPE[type]" type="radio" name="types" [(ngModel)]="currentContentpageType">
+    <input id="type_answer_{{type}}" (change)="handleContenttypeChange()" [value]="CONTENTTYPE[type]" type="radio"
+           name="types" [(ngModel)]="currentContentpageType">
     <span class="checkmark">
       {{CONTENTTYPE[type].title}}
     </span>
   </label>
 </div>
 
-<br>
-<br>
+<div class="slidemenu" *ngIf="contentService.currentContentpage.type.multiplePages">
+  <div class="slidenav slidearrow" (click)="nextContentpage(0)">&#9664;</div>
+  <div class="slidenav" *ngFor="let page of currentContentpages" [hidden]="contentService.currentContentpage != page">
+    <div class="slideelement">
+      {{page.title}}
+    </div>
+  </div>
+  <div class="slidenav slidearrow" (click)="nextContentpage(1)">&#9654;</div>
+</div>
 
-<select [ngClass]="'bg-' + contentService.color"
-        *ngIf="contentService.currentContentpage.type.multiplePages"
-        [(ngModel)]="contentService.currentContentpage">
+<!--<br>-->
+<!--<br>-->
 
-    <option *ngFor="let page of currentContentpages"
-            [ngValue]="page">
-        {{page.title}}
-    </option>
+<!--<select [ngClass]="'bg-' + contentService.color"-->
+<!--*ngIf="contentService.currentContentpage.type.multiplePages"-->
+<!--[(ngModel)]="contentService.currentContentpage">-->
 
-</select>
+<!--<option *ngFor="let page of currentContentpages"-->
+<!--[ngValue]="page">-->
+<!--{{page.title}}-->
+<!--</option>-->
+
+<!--</select>-->

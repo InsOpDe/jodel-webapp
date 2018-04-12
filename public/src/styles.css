@@ -787,6 +787,8 @@ select option {
   display: inline-block;
   position: relative;
   margin-right: 5px;
+  margin-top: 7px;
+  margin-bottom: 7px;
   cursor: pointer;
   width: 150px;
   text-align: center;
@@ -864,7 +866,20 @@ select option {
 .radioSelector input:checked ~ .checkmark:after {
   display: block;
 }
-/* Style the indicator (dot/circle) */
+.slidemenu {
+  display: flex;
+  width: 300px;
+}
+.slidemenu .slideelement {
+  margin: 13px;
+}
+.slidemenu .slidenav {
+  margin: auto;
+  text-align: center;
+}
+.slidemenu .slidearrow {
+  cursor: pointer;
+}
 .bar {
   height: 20px;
   width: 8px;

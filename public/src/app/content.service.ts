@@ -51,6 +51,9 @@ export class ContentService {
 
         this.setContentpages(result.keywordContent);
 
+        //TODO: WIEDER LÖSCHEN!!!!))!"!"!""
+        this.changeContentpageType(CONTENTTYPE.KEYWORD);
+
         return of(result);
 
         // return this.http
