@@ -132,7 +132,8 @@ export class JResult
                 amount: res3[key1].amount,
                 citydata: _tmp,
                 maxValue: 0,
-                similiar: simKeywords
+                similiar: simKeywords,
+                color: await this.getRandomColor()
             })
         }
 
@@ -187,7 +188,8 @@ export class JResult
                 amount: tmp[0].amount,
                 citydata: _tmp,
                 maxValue: 0,
-                similiar: simHashtagsarr
+                similiar: simHashtagsarr,
+                color: await this.getRandomColor()
             })
         }
         // Get Max hashtag Value
@@ -593,6 +595,7 @@ export class coreJodel
             console.log(time_tmp_res);
             let time_tmp_res_final = time_tmp_res[1].split(".");
             this.created_at = time_tmp_res_final[0];
+            
         }
         else
         {
@@ -601,7 +604,8 @@ export class coreJodel
             res = await this.db.getLocationById(this.post_id);
             let time_tmp = this.post[0].created_at.split("T");
             let time_tmp_res = time_tmp[1].split(".");
-            this.created_at = time_tmp_res[1];
+            this.created_at = time_tmp_res[0];
+            
             this.location = res[0].loc_name;
         }
         res = await this.db.getKeywordsById(this.post_id);
@@ -657,7 +661,8 @@ interface HashandKeyResult
     amount: number,
     maxValue: number,
     citydata: Citydata[],
-    similiar: any[]
+    similiar: any[],
+    color: string
 }
 
 interface keyorhash
