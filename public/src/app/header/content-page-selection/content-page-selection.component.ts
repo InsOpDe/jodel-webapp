@@ -27,8 +27,8 @@ export class ContentPageSelectionComponent implements OnInit {
         this.currentContentpageType =
             this.contentService.currentContentpage.type;
 
-      //TODO: WIEDER LÖSCHEN!!!!))!"!"!""
-      this.handleContenttypeChange();
+        // aktivieren wenn man in der schlagwort ansicht landen will
+        // this.handleContenttypeChange();
     }
 
 

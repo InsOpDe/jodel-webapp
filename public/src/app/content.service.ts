@@ -77,8 +77,8 @@ export class ContentService {
 
         this.setContentpages(result.keywordContent);
 
-        //TODO: WIEDER LÖSCHEN!!!!))!"!"!""
-        this.changeContentpageType(CONTENTTYPE.KEYWORD);
+        // aktivieren wenn man in der schlagwort ansicht landen will
+        // this.changeContentpageType(CONTENTTYPE.KEYWORD);
 
         return of(result);
 
