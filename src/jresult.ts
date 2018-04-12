@@ -55,6 +55,15 @@ export class JResult
             let _tmp: Citydata[] = [];
             process.stdout.write(".");
             let keynum = await this.db.getCityKeywordAmount(res3[key1].name);
+            process.stdout.write(".");
+            let simKeyword = await this.db.getSimiliarKeywords(res3[key1].name);
+            let simKeywords: string[] = [];
+            //console.log(simKeyword);
+            for (let simKey in simKeyword)
+            {
+                simKeywords.push(simKeyword[simKey].post_keyword);
+            }
+
             for (let key2 in keynum)
             {
                 
@@ -69,9 +78,26 @@ export class JResult
             this.keywords.push({
                 name: res3[key1].name,
                 amount: res3[key1].amount,
-                citydata: _tmp
+                citydata: _tmp,
+                maxValue: 0,
+                similiar: simKeywords
             })
         }
+
+        ///////Get max Keyword
+        let maxVAL = 0;
+        for (let key in this.keywords)
+        {
+            maxVAL = Math.max(maxVAL * 1, this.keywords[key].amount* 1 )
+        }
+
+        for (let key in this.keywords)
+        {
+            this.keywords[key].maxValue = maxVAL;
+        }
+
+
+        let _null: string[] = []
         for (let hashi in res2)
         {
             let _tmp: Citydata[] = [];
@@ -91,9 +117,23 @@ export class JResult
             this.hashtags.push({
                 name: res2[hashi],
                 amount: tmp[0].amount,
-                citydata: _tmp
+                citydata: _tmp,
+                maxValue: 0,
+                similiar: _null
             })
         }
+        // Get Max hashtag Value
+        maxVAL = 0;
+        for (let key in this.hashtags)
+        {
+            maxVAL = Math.max(maxVAL * 1, this.hashtags[key].amount * 1);
+        }
+       
+        for (let key in this.hashtags)
+        {
+            this.hashtags[key].maxValue = maxVAL;
+        }
+
         process.stdout.write("Generating Votes")
         await this.interPolateResult(res);
         process.stdout.write("Generating City Importance")
@@ -115,8 +155,10 @@ export class JResult
      */
     private async interPolateResult(keys: any)
     {
+        let maxVotes = 0;
         let sum = 0;
         let sum_comments = 0;
+        let maxKommis = 0;
         let jresult_keywords: keyorhash[] = [];
         let jresult_hashtags: keyorhash[] = [];
         let keywords_similiar: keyorhash[] = [];
@@ -172,9 +214,9 @@ export class JResult
                 }
             }
 
-
             let tmp = await this.db.getPostById(keys[k].post_id);
-            sum_comments += parseInt(tmp[0].child_count)
+
+            
             if (tmp.length == 0)
             {
                 let tmp = await this.db.getChildById(keys[k].post_id);
@@ -184,7 +226,13 @@ export class JResult
             }
             else
             {
-                sum += parseInt(tmp[0].votes) * POSTWEIGHT;
+
+                maxVotes = Math.max(tmp[0].votes * 1, maxVotes * 1); 
+                console.log(maxVotes)
+                maxKommis = Math.max(tmp[0].child_count * 1, maxKommis*1);
+                sum_comments += parseInt(tmp[0].child_count)
+
+                sum += parseInt(tmp[0].votes);
                 process.stdout.write(".");
             }
             //console.log(tmp[0].votes);    
@@ -196,6 +244,8 @@ export class JResult
                 Votes: Math.ceil((sum / keys.length)),
                 Comments: Math.ceil((sum_comments / keys.length)),
                 Pins: Math.ceil((sum / keys.length) * 0.15),
+                maxValue: Math.max(maxVotes, Math.ceil((sum / keys.length))),
+                maxKommentare: Math.max(maxKommis, Math.ceil((sum_comments / keys.length))),
                 Keywords_similiar: keywords_similiar,
                 Hashtag_similiar: hashtags_similiar
             }
@@ -447,7 +497,9 @@ interface HashandKeyResult
 {
     name: string,
     amount: number,
-    citydata: Citydata[];
+    maxValue: number,
+    citydata: Citydata[],
+    similiar: string[]
 }
 
 interface keyorhash
@@ -461,6 +513,8 @@ interface interpolatedResult
     Votes: number,
     Comments: number,
     Pins: number,
+    maxValue: number,
+    maxKommentare: number,
     Keywords_similiar: keyorhash[],
     Hashtag_similiar: keyorhash[]
 }
