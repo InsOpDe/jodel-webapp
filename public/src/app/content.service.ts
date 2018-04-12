@@ -3,10 +3,80 @@ import {Observable} from 'rxjs/Observable';
 import {of} from 'rxjs/observable/of';
 import {RESULT} from './content/mock-results';
 import {ContentModel} from "./content/content.model";
-import {Contentpage} from "./content/content-page.model";
+import { Contentpage } from "./content/content-page.model";
+import { ResultModel } from "./content/your-result-content/result-content/result.model";
 import {CONTENTTYPE} from "./global/contenttype";
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { KeywordBarchartModel } from "./content/shared/keywords-barchar/keyword-barchart.model";
+import { MapModel } from './content/shared/map-content/map.model';
+import { TIME_RESULT1, TIME_RESULT2 } from "./content/shared/time-content/mock-time-result";
+
+interface Citydata
+{
+  city: string,
+  amount: number,
+  id: number
+}
+
+interface HashandKeyResult
+{
+  name: string,
+  amount: number,
+  citydata: Citydata[];
+}
+
+interface keyorhash
+{
+  name: string,
+  value: number
+}
+
+interface interpolatedResult
+{
+  Votes: number,
+  Comments: number,
+  Pins: number,
+  Keywords_similiar: keyorhash[],
+  Hashtag_similiar: keyorhash[]
+}
+
+interface JodelJSON
+{
+  core: coreJodelJSON;
+  image_approved: Boolean;
+  image_url: string;
+  child_count: Number;
+  oj_replied: Boolean;
+  children: coreJodelJSON[];
+}
 import {HeaderModel} from "./header/header.model";
+import { RelatedJodelModel } from './content/your-result-content/related-jodel/related-jodel.model';
+
+interface coreJodelJSON
+{
+  post_id: string;
+  vote_count: Number;
+  post_color: string;
+  post_message: string;
+  keywords: string[];
+  tags: string[];
+  location: string;
+  created_at: string;
+
+}
+export interface JRESULT
+{
+  message: string;
+  interPolatedResult: interpolatedResult;
+  hashtags: HashandKeyResult[],
+  keywords: HashandKeyResult[],
+  jodel: JodelJSON;
+  cityimportance: Citydata[];
+
+}
+
+
+
 
 
 const httpOptions = {
@@ -28,6 +98,7 @@ export class ContentService {
     color: string;
     contentpages: Contentpage[] = [];
     currentContentpage: Contentpage;
+    true_result: JRESULT;
     jodelData:HeaderModel;
 
     constructor(private http: HttpClient) {
@@ -85,7 +156,10 @@ export class ContentService {
         // return this.http
         //   .get<ContentModel>('/api/user', httpOptions);
     }
-
+    getResultData2(jodelData): Observable<JRESULT>
+    {
+      return this.http.post<JRESULT>('http://localhost:8080/api/dummy', jodelData);
+    }
 
     /**
      * refresh contentpages for new jodel
@@ -96,8 +170,117 @@ export class ContentService {
     refresh() {
         this.currentContentpage = null;
         this.contentpages = [];
+  }
+
+    setResult()
+    {
+      let contentModel: ContentModel = {
+        yourResultContent: {
+          result: new ResultModel({
+            'karma': this.true_result.interPolatedResult.Votes * 0.75,
+            'votes': this.true_result.interPolatedResult.Votes,
+            'pins': this.true_result.interPolatedResult.Pins,
+            'shared': 50,
+            'comments': this.true_result.interPolatedResult.Comments
+
+          }),
+          keywordEffectArray: this.createKeyWordBarchartArray(),
+
+          map: new MapModel({
+            foo: '312',
+            bar: 123
+          }),
+          time: TIME_RESULT1,
+
+          relatedJodel: this.createRelatedJodel()
+
+        },
+        keywordContent: this.createKeyWordContent()  
+      }
+      
+      return contentModel;
+
+  }
+
+  createKeyWordBarchartArray()
+  {
+    let keyWortBarChart: KeywordBarchartModel[] = [];
+    for(let key in this.true_result.keywords)
+    {
+      keyWortBarChart.push(new KeywordBarchartModel({
+        color: 'orange',
+        value: this.true_result.keywords[key].amount,
+        keyword: this.true_result.keywords[key].name
+      }))
     }
 
+    return keyWortBarChart;
+
+  }
+
+  createRelatedJodel()
+  {
+    let keywords: {
+      value: number,
+      color: string,
+      keyword: string
+
+    }[] = [];
+    for (let key in this.true_result.keywords)
+    {
+      keywords.push({
+        value: this.true_result.keywords[key].amount,
+        color: "orange",
+        keyword: this.true_result.keywords[key].name
+      })
+    }
+    let data = {
+      location: this.true_result.jodel.core.location,
+      time: this.true_result.jodel.core.created_at,
+      text: this.true_result.jodel.core.post_message,
+      color: this.true_result.jodel.core.post_color,
+      barchartArray: keywords
+
+    }
+    return new RelatedJodelModel(data)
+  }
+  createKeyWordContent()
+  {
+    let _res:any[] = [];;
+    for (let key in this.true_result.keywords)
+    {
+      _res.push({
+        title: this.true_result.keywords[key].name,
+        color: 'orange',
+        similiarKeywords: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Keywords_similiar),
+        relatedHashtags: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Hashtag_similiar),
+        map: new MapModel({
+          foo: "312",
+          bar: 123
+        }),
+        time: TIME_RESULT2
+      })
+    }
+    return _res;
+
+  }
+
+  createKeyWordBarChartArraySim(arr: keyorhash[])
+  {
+    let _res: KeywordBarchartModel[] = [];
+
+    for (let i = 0; i < arr.length; i++)
+    {
+      _res.push(new KeywordBarchartModel({
+        color: 'orange',
+        value: arr[i].value,
+        name: arr[i].name
+
+      }))
+    }
+
+    return _res;
+  }
 
     /**
      * change Contentpage type

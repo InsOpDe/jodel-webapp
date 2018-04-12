@@ -14,3 +14,4 @@ package-lock.json
 /vwd.webinfo
 
 ./public/src/style/colors_renderes.less
+/src/config.ts

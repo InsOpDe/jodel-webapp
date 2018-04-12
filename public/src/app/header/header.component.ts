@@ -1,5 +1,5 @@
-import {Component, OnInit, ViewChild} from '@angular/core';
-import {ContentService} from "../content.service";
+import {Component, OnInit} from '@angular/core';
+import {ContentService, JRESULT} from "../content.service";
 import {ContentModel} from "../content/content.model";
 import {CreateNewAutocompleteGroup, SelectedAutocompleteItem, NgAutocompleteComponent} from "ng-auto-complete";
 import {CITIES} from "../global/cities";
@@ -26,7 +26,7 @@ export class HeaderComponent implements OnInit {
 
     jodel: HeaderModel;
     jodelIsWriteable: boolean = true;
-
+  resultData: JRESULT;
     contentData: ContentModel;
 
     public group;
@@ -117,7 +117,15 @@ export class HeaderComponent implements OnInit {
                 this.contentData = response;
             });
     }
-
+    sendJodel2()
+    {
+    this.contentService.getResultData2(this.jodel)
+      .subscribe(response =>
+      {
+        this.resultData = response;
+        console.log(response);
+      })
+    }
 
     /**
      * back to landingpage, refresh data of the service,

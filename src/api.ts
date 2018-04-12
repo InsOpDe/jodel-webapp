@@ -1,9 +1,7 @@
 import {Application, Router, Request, Response} from "express";
 import { Db } from './db'
 import config from "./config";
-
-
-
+import { Jodel, JResult } from "./jresult";
 // const testResult = {
 //     "foo" : "bar"
 // };
@@ -16,8 +14,7 @@ export class Api{
     private prefix:string = "/api";
 
     private db:Db;
-
-
+    private loadJsonFile = require("load-json-file");
     /**
      * Constructor für die Api klasse
      *
@@ -37,12 +34,13 @@ export class Api{
      * Router für Api.
      * Routed alle /api/* requests weiter
      */
-    private api() {
+    private async api() {
         let router = Router();
 
         router.use('/user', this.foo);
         router.use('/random', this.getRandomPost);
-
+        router.use('/dummy', this.returnDummy);
+       
         this.app.use(this.prefix, router);
 
     }
@@ -54,6 +52,25 @@ export class Api{
     }
 
 
+    counter = 0
+    private returnDummy = async(req, res) => 
+    {
+        if (req.body.constructor === Object && Object.keys(req.body).length === 0)
+        {
+            console.log('Object missing');
+            res.send("");
+        }
+        else
+        {
+           
+           let _res = new JResult(req.body.text, this.db);
+            await _res.getResult();
+            res.send(_res.toJSON());
+        }
+        
+
+        
+    }
     /**
      *
      * @param {e.Request} req
