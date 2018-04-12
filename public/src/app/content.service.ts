@@ -209,8 +209,7 @@ export class ContentService {
 
         },
         keywordContent: this.createKeyWordContent()
-      }
-
+      };
       return contentModel;
 
   }
@@ -258,7 +257,7 @@ export class ContentService {
 
   createKeyWordContent() {
 
-    let _res:any[] = [];;
+    let _res:any[] = [];
 
     for (let key in this.true_result.keywords) {
 
@@ -267,12 +266,12 @@ export class ContentService {
         color: 'orange',
         similiarKeywords: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Keywords_similiar),
         relatedHashtags: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Hashtag_similiar),
-        map: new MapModel({cities: this.true_result.cityimportance}),
+        map: new MapModel({cities: this.true_result.keywords[key].citydata}),
         time: TIME_RESULT2
       })
     }
 
-    console.log(_res);
+    // console.log(_res);
     return _res;
 
   }
