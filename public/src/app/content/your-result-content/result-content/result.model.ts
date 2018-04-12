@@ -7,15 +7,21 @@
 export class ResultModel {
 
     karma: number;
+    karmaMaxValue: number;
     votes: number;
     comments: number;
+    commentsMaxValue: number;
+    votesMaxValue: number;
     pins: number;
     shared: number;
 
     constructor (data) {
         this.karma = data.karma;
+        this.karmaMaxValue = data.karmaMaxValue;
         this.votes = data.votes;
+        this.votesMaxValue = data.votesMaxValue;
         this.comments = data.comments;
+        this.commentsMaxValue = data.commentsMaxValue;
         this.pins = data.pins;
         this.shared = data.shared;
     }

@@ -705,13 +705,15 @@ class Texttools {
         this.keywords = await this.loadKeywords();
         await this.cleanWords();
         let res = [];
+        let tmp = [];
         let words = await this.replaceAll(message);
         let words_array = this.splitByWords(words);
         return new Promise((resolve, reject) => {
             for (let i = 0; i < words_array.length; i++) {
                 for (let key in this.keywords) {
-                    if (this.keywords[key].name == words_array[i]) {
+                    if (this.keywords[key].name == words_array[i] && !tmp.includes(this.keywords[key].name)) {
                         res.push(this.keywords[key]);
+                        tmp.push(this.keywords[key].name);
                     }
                 }
             }

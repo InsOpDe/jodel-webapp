@@ -17,10 +17,12 @@ export const relatedJodel: RelatedJodelModel = {
     barchartArray: [{
         value: 13,
         color: 'red',
-        keyword: 'Kommentare'
+        keyword: 'Kommentare',
+        maxValue: 100
     }, {
         value: 98,
         color: 'red',
-        keyword: 'Votes'
+        keyword: 'Votes',
+        maxValue: 100
     }]
 };

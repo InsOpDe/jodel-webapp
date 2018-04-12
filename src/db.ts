@@ -285,6 +285,30 @@ export class Db{
 
     }
 
+    public async getClockVotesAmount(keyword: string[])
+    {
+        let _query ="SELECT                                                     "
+                    +"    AVG(posts.votes) as votes,                            "
+                    +"    SUBSTR(posts.created_at, 12, 2) as hour               "
+                    +"    FROM                                                  "
+                    +"    (SELECT                                               "
+                    +"    keywords.post_keyword as pk2,                         "
+                    +"    keywords.post_id                                      "
+                    +"    FROM                                                  "
+			        +"    keywords                                              "
+		            +"    WHERE                                                 "
+                    +"LCASE(keywords.post_keyword) IN(" + "\"" + keyword.join("\",\"") + "\"" + ")                    "
+                    +" LIMIT 100) keywords3                                     "
+                    +"    INNER JOIN posts ON(posts.post_id = keywords3.post_id)"
+                    +"    GROUP BY hour "
+            + "    order by hour asc "
+
+        return this.query(_query);
+    }
+
+
+
+
     public async getHashtagAmount(hashtag: string)
     {
         let _query = "SELECT COUNT(post_tag) as amount, post_tag from tags WHERE post_tag =  " + "\"" + hashtag + "\"";

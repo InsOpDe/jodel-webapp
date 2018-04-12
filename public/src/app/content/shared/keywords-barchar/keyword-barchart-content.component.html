@@ -3,5 +3,6 @@
 <app-bar-chart *ngFor="let keyword of keywordBarchartArray"
                [value]="keyword.value"
                [color]="keyword.color"
-               [title]="keyword.keyword">
+               [title]="keyword.keyword"
+               [maxValue]="keyword.maxValue">
 </app-bar-chart>
