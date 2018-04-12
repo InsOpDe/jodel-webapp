@@ -117,6 +117,7 @@ export class ContentService {
     currentContentpage: Contentpage;
     true_result: JRESULT;
     jodelData:HeaderModel;
+    randomJodelId:number = -1;
 
     constructor(private http: HttpClient, private util: UtilService) {
         this.color = 'green';
@@ -132,23 +133,39 @@ export class ContentService {
      */
     getRandomJodel(): Observable<HeaderModel> {
 
-      let randomjodelKeys = Object.keys(RANDOMJODEL);
-      // let
-
-        let result = new HeaderModel({
-            location: 'Hamburg',
-            cityId: 2,
-            time: '13:48',
-            text: 'Ein Professor kommt in die VL: Der Rest is trivial und ' +
-            'kann sich hergeleitet werden. \n\n' +
-            '#darferdas'
-        });
-        this.color = 'turquoise';
+        let result = this.getRandomHeaderModel();
 
         return of(result);
 
         // return this.http
         //   .get<ContentModel>('/api/user', httpOptions);
+    }
+
+    getRandomHeaderModel() {
+      let randomJodelKeys = Object.keys(RANDOMJODEL);
+      let randomJodelId = randomJodelKeys[this.util.randomIntFromInterval(0, randomJodelKeys.length - 1)];
+      let randomjodel = RANDOMJODEL[randomJodelId];
+      this.randomJodelId = randomJodelId;
+
+      let allColors = ['yellow',
+        'orange',
+        'green',
+        'blue',
+        'red',
+        'turquoise'];
+      let color = allColors[this.util.randomIntFromInterval(0, allColors.length - 1)];
+
+      console.log(randomjodel);
+
+      let result = new HeaderModel({
+        location: 'Ulm',
+        cityId: 61,
+        time: '13:48',
+        text: randomjodel.message
+      });
+      this.color = color;
+
+      return result;
     }
 
 
@@ -184,8 +201,16 @@ export class ContentService {
     async getResultData2(jodelData) {
 
       this.jodelData = jodelData;
+      let result;
+      if(this.randomJodelId >= 0 && RANDOMJODEL[this.randomJodelId]) {
+        console.log("randomjodel")
+        result = RANDOMJODEL[this.randomJodelId];
+        await this.util.wait(3000);
 
-      let result = await this.http.post<JRESULT>('http://localhost:8080/api/dummy', jodelData).toPromise();
+      } else {
+        result = await this.http.post<JRESULT>('http://localhost:8080/api/dummy', jodelData).toPromise();
+      }
+
       // this.util.download(result);
 
       console.log(result);
@@ -294,6 +319,9 @@ export class ContentService {
       }))
     }
 
+    console.log("keyWortBarChart", keyWortBarChart);
+
+
     return keyWortBarChart;
 
   }
@@ -356,8 +384,6 @@ export class ContentService {
   }
 
   createKeyWordBarChartArraySim(arr: keyorhash[]) {
-
-      console.log('keywords similiar ', arr);
 
     let _res: KeywordBarchartModel[] = [];
 

@@ -5,6 +5,10 @@ export class UtilService {
 
   constructor() { }
 
+  async wait(ms) {
+    return new Promise(resolve=>setTimeout(resolve, ms))
+  }
+
 
   mod (n, m) {
     let remain = n % m;
@@ -33,6 +37,10 @@ export class UtilService {
     a.dataset.downloadurl =  ['text/json', a.download, a.href].join(':')
     e.initMouseEvent('click', true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null)
     a.dispatchEvent(e)
+  }
+
+  randomIntFromInterval(min,max) {
+    return Math.floor(Math.random()*(max-min+1)+min);
   }
 
 }
