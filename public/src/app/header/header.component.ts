@@ -1,12 +1,16 @@
 import {Component, OnInit} from '@angular/core';
 import {ContentService, JRESULT} from "../content.service";
 import {ContentModel} from "../content/content.model";
+import {CreateNewAutocompleteGroup, SelectedAutocompleteItem, NgAutocompleteComponent} from "ng-auto-complete";
+import {CITIES} from "../global/cities";
 import {animate, query, stagger, style, transition, trigger} from "@angular/animations";
 import {COLORS} from "../global/colors";
+import {HeaderModel} from "./header.model";
+import {renderComponentOrTemplate} from "@angular/core/src/render3/instructions";
 
 /**
  * header component
- *  - handles the currentContentpage of the contentService
+ *  - handles the current Contentpage of the contentService
  *  and sends the entered data to the contentService
  *
  * @author  Maya
@@ -18,35 +22,82 @@ import {COLORS} from "../global/colors";
 })
 export class HeaderComponent implements OnInit {
 
-    jodel: {
-        location: string,
-        time: string,
-        text: string;
-    };
+    // @ViewChild(NgAutocompleteComponent) public completer: NgAutocompleteComponent;
+
+    jodel: HeaderModel;
+    jodelIsWriteable: boolean = true;
 
     contentData: ContentModel;
-    resultData: JRESULT;
-    constructor(public contentService: ContentService) { }
+
+    public group;
+
+    /**
+     *
+     * @param item
+     * @constructor
+     */
+    Selected(item: SelectedAutocompleteItem) {
+        let original = item.item.original;
+        this.jodel.location = original.city;
+        this.jodel.cityId = original.id;
+    }
+
+    constructor(public contentService: ContentService,
+                public completer: NgAutocompleteComponent) {
+    }
 
     ngOnInit() {
 
-        this.jodel = {
+        this.jodel = new HeaderModel({
             location: 'München',
+            cityId: 3,
             time: '22:06',
             text: 'Wasser löst irgendwie alle Probleme. ' +
-            'Du willst abnehmen? Trink Wasser. \n' +
+            'Du willst abnehmen? Trink Wasser. ' +
             'Du hast unreine Haut? Trink Wasser. ' +
             'Dein Ex nervt? Ertränk ihn im Wasser.\n\n' +
             '#darferdas'
-        };
+        });
 
+        let cityArr = [];
+        for (let i in CITIES) {
+            cityArr.push(CITIES[i]);
+        }
+
+        this.group = [
+            CreateNewAutocompleteGroup(
+                this.jodel.location || "Wähle deine Stadt ... ",
+                // this.jodel.location,
+                'completer',
+                cityArr,
+                {titleKey: 'city', childrenKey: null}
+            )
+        ];
+
+
+        // this.completer.SetValues('completer', cityArr);
+        // this.completer.SelectItem('completer', this.jodel.cityId);
+        // console.log(this.completer);
 
         // debug
-      this.sendJodel2();
+        // this.sendJodel();
+    }
 
-      // Real one
-      //this.sendJodel2();
 
+
+    /**
+     * get random jodel from content service
+     *
+     * @author  Maya
+     * @since   12.04.2018
+     */
+    getRandomJodel() {
+
+        this.contentService.getRandomJodel()
+            .subscribe(response => {
+
+                this.jodel = response;
+            })
     }
 
     /**
@@ -58,12 +109,13 @@ export class HeaderComponent implements OnInit {
      */
     sendJodel() {
 
+        this.jodelIsWriteable = false;
+
         this.contentService.getResultData(this.jodel)
             .subscribe(response => {
 
                 this.contentData = response;
-              
-          });
+            });
     }
     sendJodel2()
     {
@@ -83,6 +135,8 @@ export class HeaderComponent implements OnInit {
      * @since   24.03.2018
      */
     editJodel() {
+
+        this.jodelIsWriteable = true;
         this.contentService.refresh();
     }
 }

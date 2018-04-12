@@ -2,12 +2,9 @@
 
 <div class="grid">
 
-    <div class="info-box" *ngIf="city">
-        <p>{{city}} ({{votes}})</p>
-
-    </div>
-    <br>
-    <br>
+    <!--<div class="info-box" *ngIf="city">-->
+  <h3>{{city}} ({{votes}})</h3>
+    <!--</div>-->
 
     <div id="map">
         <div class="row"
@@ -18,7 +15,7 @@
                  ngClass="{{mapArr[y + '-' + x] ? classesMap[y + '-' + x] : ''}}"
                  id="{{y}}-{{x}}"
                  class="square"
-                 (mouseover)="updateInfoBox($event)">
+                 (mouseenter)="updateInfoBox($event)">
             </div>
 
         </div>

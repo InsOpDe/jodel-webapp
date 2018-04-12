@@ -49,6 +49,7 @@ interface JodelJSON
   oj_replied: Boolean;
   children: coreJodelJSON[];
 }
+import {HeaderModel} from "./header/header.model";
 
 interface coreJodelJSON
 {
@@ -97,8 +98,36 @@ export class ContentService {
     contentpages: Contentpage[] = [];
     currentContentpage: Contentpage;
     true_result: JRESULT;
+    jodelData:HeaderModel;
+
     constructor(private http: HttpClient) {
         this.color = 'green';
+    }
+
+
+    /**
+     * get random jodel data
+     * TODO AJAX CALL
+     *
+     * @author  Maya
+     * @since   23.03.2018
+     */
+    getRandomJodel(): Observable<HeaderModel> {
+
+        let result = new HeaderModel({
+            location: 'Hamburg',
+            cityId: 2,
+            time: '13:48',
+            text: 'Ein Professor kommt in die VL: Der Rest is trivial und ' +
+            'kann sich hergeleitet werden. \n\n' +
+            '#darferdas'
+        });
+        this.color = 'turquoise';
+
+        return of(result);
+
+        // return this.http
+        //   .get<ContentModel>('/api/user', httpOptions);
     }
 
 
@@ -112,8 +141,10 @@ export class ContentService {
      */
     getResultData(jodelData): Observable<ContentModel> {
 
-        //let result = this.setResult();
-      let result = RESULT;
+        this.jodelData = jodelData;
+
+        let result = RESULT;
+
         this.setContentpages(result.keywordContent);
 
         return of(result);
@@ -276,6 +307,5 @@ export class ContentService {
             }));
         }
 
-        console.log(this.contentpages);
     }
 }

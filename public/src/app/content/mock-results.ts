@@ -8,6 +8,8 @@ import {
     keywordBarchartArray2
 } from "./shared/keywords-barchar/mock-keyword-barchart-Array";
 import {TIME_RESULT1, TIME_RESULT2} from "./shared/time-content/mock-time-result";
+import {relatedJodel} from "./your-result-content/related-jodel/mock-related-jodel";
+import {RelatedJodelModel} from "./your-result-content/related-jodel/related-jodel.model";
 
 
 export const RESULT: ContentModel = {
@@ -27,7 +29,9 @@ export const RESULT: ContentModel = {
             foo: '312',
             bar: 123
         }),
-        time: TIME_RESULT1
+        time: TIME_RESULT1,
+
+        relatedJodel: new RelatedJodelModel(relatedJodel)
 
     },
 

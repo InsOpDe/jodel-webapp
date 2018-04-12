@@ -19,12 +19,34 @@ div {
     //height: 100%;
 }
 
+::-webkit-scrollbar {
+  //width: 0px;  /* remove scrollbar space */
+  //background: transparent;  /* optional: just make scrollbar invisible */
+  display:none;
+}
+.no-scroll {
+  -ms-overflow-style: none;  // IE 10+
+  overflow: -moz-scrollbars-none;  // Firefox
+}
+
 .grid {
   padding: 20px 0;
   width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+.m-t-0 {
+  margin-top: 0 !important;
+}
+
+.m-b-0 {
+  margin-bottom: 0 !important;
+}
+
+.m-b-30 {
+  margin-bottom: 30px !important;
 }
 
 // generates columns with 10%,20%,..,100% width
@@ -37,4 +59,13 @@ div {
     padding: 0 @padding;
   }
   .generate-columns(@n, (@i + 1));
+}
+
+input,textarea,button {
+  color: @darkGrey;
+
+  &[disabled] {
+    background-color: inherit;
+    color: @darkGrey;
+  }
 }
