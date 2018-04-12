@@ -148,6 +148,9 @@ export class ContentService {
 
         this.setContentpages(result.keywordContent);
 
+        // aktivieren wenn man in der schlagwort ansicht landen will
+        // this.changeContentpageType(CONTENTTYPE.KEYWORD);
+
         return of(result);
 
         // return this.http

@@ -101,6 +101,45 @@ button[disabled] {
  * @author  Maya
  * @since   22.03.2018
  */
+/**
+ * jodel icon farben
+ */
+.jodelIcon-orange {
+  height: 100%;
+  background: url('assets/jodel_inv-free_orange.png') no-repeat right center;
+  background-size: contain;
+}
+.jodelIcon-green {
+  height: 100%;
+  background: url('assets/jodel_inv-free_green.png') no-repeat right center;
+  background-size: contain;
+}
+.jodelIcon-yellow {
+  height: 100%;
+  background: url('assets/jodel_inv-free_yellow.png') no-repeat right center;
+  background-size: contain;
+}
+.jodelIcon-red {
+  height: 100%;
+  background: url('assets/jodel_inv-free_red.png') no-repeat right center;
+  background-size: contain;
+}
+.jodelIcon-blue {
+  height: 100%;
+  background: url('assets/jodel_inv-free_blue.png') no-repeat right center;
+  background-size: contain;
+}
+.jodelIcon-turquoise {
+  height: 100%;
+  background: url('assets/jodel_inv-free_turquoise.png') no-repeat right center;
+  background-size: contain;
+}
+/**
+ * Classes for Colors
+ *
+ * @author  Maya
+ * @since   22.03.2018
+ */
 .hm-orange-0 {
   background-color: #fef0de;
 }
@@ -609,7 +648,7 @@ button:hover {
   position: absolute;
   font-weight: normal;
   font-size: 15px;
-  width: calc(96%);
+  width: calc(100% - 4px);
 }
 .ng-autocomplete-dropdown .ng-dropdown {
   display: none;
@@ -733,36 +772,6 @@ button:hover {
   width: 86px;
   float: right;
 }
-.jodelIcon-orange {
-  height: 100%;
-  background: url('assets/jodel_inv-free_orange.png') no-repeat right center;
-  background-size: contain;
-}
-.jodelIcon-green {
-  height: 100%;
-  background: url('assets/jodel_inv-free_green.png') no-repeat right center;
-  background-size: contain;
-}
-.jodelIcon-yellow {
-  height: 100%;
-  background: url('assets/jodel_inv-free_yellow.png') no-repeat right center;
-  background-size: contain;
-}
-.jodelIcon-red {
-  height: 100%;
-  background: url('assets/jodel_inv-free_red.png') no-repeat right center;
-  background-size: contain;
-}
-.jodelIcon-blue {
-  height: 100%;
-  background: url('assets/jodel_inv-free_blue.png') no-repeat right center;
-  background-size: contain;
-}
-.jodelIcon-turquoise {
-  height: 100%;
-  background: url('assets/jodel_inv-free_turquoise.png') no-repeat right center;
-  background-size: contain;
-}
 .col-3 {
   height: 100%;
 }
@@ -784,6 +793,117 @@ select {
 }
 select option {
   border: none;
+}
+.radioSelector {
+  display: inline-block;
+  position: relative;
+  margin-right: 5px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  cursor: pointer;
+  width: 150px;
+  text-align: center;
+  font-size: 1.3em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.radioSelector input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark:hover {
+  filter: brightness(110%);
+}
+.radioSelector input:checked ~ .checkmark:hover {
+  filter: brightness(100%);
+}
+.green .checkmark {
+  background-color: #c8dc92;
+  border-radius: 2px;
+}
+.green.radioSelector input:checked ~ .checkmark {
+  background-color: #a2c246;
+}
+.red .checkmark {
+  background-color: #edaea8;
+  border-radius: 2px;
+}
+.red.radioSelector input:checked ~ .checkmark {
+  background-color: #db5e54;
+}
+.yellow .checkmark {
+  background-color: #fed98f;
+  border-radius: 2px;
+}
+.yellow.radioSelector input:checked ~ .checkmark {
+  background-color: #feb729;
+}
+.orange .checkmark {
+  background-color: #fcc88a;
+  border-radius: 2px;
+}
+.orange.radioSelector input:checked ~ .checkmark {
+  background-color: #fa9826;
+}
+.blue .checkmark {
+  background-color: #90c9e0;
+  border-radius: 2px;
+}
+.blue.radioSelector input:checked ~ .checkmark {
+  background-color: #40a1ca;
+}
+.turquoise .checkmark {
+  background-color: #c7ddd7;
+  border-radius: 2px;
+}
+.turquoise.radioSelector input:checked ~ .checkmark {
+  background-color: #87b7ab;
+}
+/* Create a custom radio button */
+.checkmark {
+  padding: 5px;
+  color: #262323;
+  cursor: pointer;
+}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.radioSelector input:checked ~ .checkmark:after {
+  display: block;
+}
+.slidemenu {
+  display: flex;
+  width: 135px;
+  margin-left: 163px;
+  margin-top: 10px;
+}
+.slidemenu .slideelement {
+  margin: 2px;
+}
+.slidemenu .slidenav {
+  margin: auto;
+  text-align: center;
+}
+.slidemenu .slidearrow {
+  cursor: pointer;
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.slidemenu .slidearrow.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.slidemenu .slidearrow.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
 .bar {
   height: 20px;

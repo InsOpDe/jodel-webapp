@@ -9,3 +9,166 @@ select {
     border: none;
   }
 }
+
+
+.radioSelector {
+  display: inline-block;
+  position: relative;
+  margin-right: 5px;
+  margin-top:7px;
+  margin-bottom: 7px;
+  cursor: pointer;
+  width:150px;
+  text-align:center;
+  font-size: 1.3em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  //box-sizing: border-box;
+
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+}
+
+.checkmark:hover {
+  filter:brightness(110%);
+}
+.radioSelector input:checked ~ .checkmark:hover {
+  filter:brightness(100%);
+}
+
+
+.green {
+  .checkmark {
+    background-color: @green;
+    border-radius: @buttonRadius;
+    //border: 2px @bg-dark-green solid;
+  }
+
+  &.radioSelector input:checked ~ .checkmark {
+    background-color: @bg-dark-green;
+  }
+  //.checkmark:hover {
+  //  .bg-light-green !important;
+  //}
+}
+.red {
+  .checkmark {
+    background-color: @red;
+    border-radius: @buttonRadius;
+    //border: 2px @bg-dark-red solid;
+  }
+
+  &.radioSelector input:checked ~ .checkmark {
+    background-color: @bg-dark-red;
+  }
+}
+.yellow {
+  .checkmark {
+    background-color: @yellow;
+    border-radius: @buttonRadius;
+    //border: 2px @bg-dark-yellow solid;
+  }
+
+  &.radioSelector input:checked ~ .checkmark {
+    background-color: @bg-dark-yellow;
+  }
+}
+.orange {
+  .checkmark {
+    background-color: @orange;
+    border-radius: @buttonRadius;
+    //border: 2px @bg-dark-orange solid;
+  }
+
+  &.radioSelector input:checked ~ .checkmark {
+    background-color: @bg-dark-orange;
+  }
+}
+.blue {
+  .checkmark {
+    background-color: @blue;
+    border-radius: @buttonRadius;
+    //border: 2px @bg-dark-blue solid;
+  }
+
+  &.radioSelector input:checked ~ .checkmark {
+    background-color: @bg-dark-blue;
+  }
+}
+.turquoise {
+  .checkmark {
+    background-color: @turquoise;
+    border-radius: @buttonRadius;
+    //border: 2px @bg-dark-turquoise solid;
+  }
+
+  &.radioSelector input:checked ~ .checkmark {
+    background-color: @bg-dark-turquoise;
+  }
+}
+
+
+/* Create a custom radio button */
+.checkmark {
+  padding: 5px;
+  color:@darkGrey;
+  cursor:pointer;
+}
+
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+//
+///* Show the indicator (dot/circle) when checked */
+.radioSelector input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+.slidemenu {
+  display: flex;
+  width: 135px;
+  margin-left: 163px;
+  margin-top:10px;
+
+
+  .slideelement {
+    //margin: 13px;
+    margin: 2px;
+  }
+
+  .slidenav {
+    margin: auto;
+    text-align:center;
+  }
+
+  .slidearrow {
+    cursor:pointer;
+    //padding-bottom: 5px;
+
+      border: solid black;
+      border-width: 0 1px 1px 0;
+      display: inline-block;
+      padding: 3px;
+
+    &.right {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+    &.left {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
+  }
+}
