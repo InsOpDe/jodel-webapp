@@ -39,7 +39,7 @@ export class JResult
     affJodel: Jodel;
     db: Db;
     texttools: Texttools;
-    keywords: HashandKeyResult[] = [];
+    keywords: any[] = [];
 
     hashtags: HashandKeyResult[] =[];
     time: any[];
@@ -101,11 +101,17 @@ export class JResult
             let keynum = await this.db.getCityKeywordAmount(res3[key1].name);
             process.stdout.write(".");
             let simKeyword = await this.db.getSimiliarKeywords(res3[key1].name);
+            let simHashtag = await this.db.getSimiliarHashtags(res3[key1].name);
             let simKeywords: {
                 name: string,
                 votes: string,
                 color: string
-            }[]= [];
+            }[] = [];
+            let simHashtags: {
+                name: string,
+                votes: string,
+                color: string
+            }[] = [];
             //console.log(simKeyword);
             for (let i = 0; i < 4; i++)
             {
@@ -114,6 +120,15 @@ export class JResult
                     votes: simKeyword[i].votes,
                     color: await this.getRandomColor()
                 });
+            }
+            let i_hash = simHashtag.length > 4 ? 4 : simHashtag.length;
+            for (let i_h = 0; i_h < i_hash; i_h++)
+            {
+                simHashtags.push({
+                    name: simHashtag[i_h].hashtag,
+                    votes: simHashtag[i_h].votes,
+                    color: await this.getRandomColor()
+                })
             }
 
             for (let key2 in keynum)
@@ -133,6 +148,7 @@ export class JResult
                 citydata: _tmp,
                 maxValue: 0,
                 similiar: simKeywords,
+                similiarHashtags: simHashtag,
                 color: await this.getRandomColor()
             })
         }
@@ -161,17 +177,7 @@ export class JResult
             let _tmp: Citydata[] = [];
             let tmp = await this.db.getHashtagAmount(res2[hashi]);
             let hashnum = await this.db.getCityHashtagAmount(res2[hashi]);
-            let simHashtags = await this.db.getSimiliarHashtags(res2[hashi])
-            let tk = simHashtags.length > 4 ? 4 : simHashtags.length;
-            for (let i = 0; i < tk; i++)
-            {
-                simHashtagsarr.push({
-                    name: simHashtags[i].hashtag,
-                    votes: simHashtags[i].votes,
-                    color: await this.getRandomColor()
-                })
-            }
-
+            
             process.stdout.write(".");
 
             for (let key3 in hashnum)
