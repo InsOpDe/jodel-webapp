@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnInit, SimpleChanges} from '@angular/core';
 import {ContentService} from '../content.service';
 import {CONTENTTYPE} from "../global/contenttype";
 import {Contentpage} from "./content-page.model";

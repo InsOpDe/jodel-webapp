@@ -146,6 +146,11 @@ export class ContentService {
 
         this.jodelData = jodelData;
 
+        for (let i = 0; i < 3000; i++) {
+
+            console.log('a');
+        }
+
         let result = RESULT;
 
         this.setContentpages(result.keywordContent);
@@ -154,9 +159,6 @@ export class ContentService {
         // this.changeContentpageType(CONTENTTYPE.KEYWORD);
 
         return of(result);
-
-        // return this.http
-        //   .get<ContentModel>('/api/user', httpOptions);
     }
 
 
