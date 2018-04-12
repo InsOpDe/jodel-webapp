@@ -71,6 +71,7 @@ export class BarChartComponent implements OnInit, OnChanges {
      * @since   23.03.2018
      */
     ngOnChanges(changes: SimpleChanges) {
+      console.log("this.maxValue", this.maxValue);
 
         this.maxValue = this.maxValue || 100000;
 

@@ -23,15 +23,19 @@ interface Citydata
 interface HashandKeyResult
 {
   name: string,
+  color: string,
   amount: number,
   maxValue: number,
   citydata: Citydata[];
+  similiar:keyorhash[];
 }
 
 interface keyorhash
 {
   name: string,
-  value: number
+  votes: number,
+  maxValue: number,
+  color: string
 }
 
 interface interpolatedResult
@@ -262,7 +266,7 @@ export class ContentService {
     for(let key in this.true_result.keywords)
     {
       keyWortBarChart.push(new KeywordBarchartModel({
-        color: 'orange',
+        color: this.getColor(this.true_result.keywords[key].color),
         value: Number(this.true_result.keywords[key].amount),
         keyword: this.true_result.keywords[key].name,
         maxValue: this.true_result.keywords[key].maxValue,
@@ -316,14 +320,16 @@ export class ContentService {
       _res.push({
         title: this.true_result.keywords[key].name,
         color: 'orange',
-        similiarKeywords: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Keywords_similiar),
-        relatedHashtags: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Hashtag_similiar),
+        similiarKeywords: this.createKeyWordBarChartArraySim(this.true_result.keywords[key].similiar),
+        relatedHashtags: this.createKeyWordBarChartArraySim(this.true_result.keywords[key].similiar),
+        // similiarKeywords: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Keywords_similiar),
+        // relatedHashtags: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Hashtag_similiar),
         map: new MapModel({cities: this.true_result.keywords[key].citydata}),
         time: TIME_RESULT2
       })
     }
 
-    // console.log(_res);
+    console.log(_res);
     return _res;
 
   }
@@ -337,8 +343,9 @@ export class ContentService {
     for (let i = 0; i < arr.length; i++) {
       _res.push(new KeywordBarchartModel({
         color: this.getColor(arr[i].color),
-        value: arr[i].value,
-        name: arr[i].name
+        value: arr[i].votes,
+        keyword: arr[i].name,
+        maxValue: arr[i].maxValue
 
       }))
     }
