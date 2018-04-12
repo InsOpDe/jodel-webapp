@@ -28,10 +28,12 @@ interface HashandKeyResult
   maxValue: number,
   citydata: Citydata[];
   similiar:keyorhash[];
+  similiarHashtags:keyorhash[];
 }
 
 interface keyorhash
 {
+  hashtag: string,
   name: string,
   votes: number,
   maxValue: number,
@@ -321,7 +323,7 @@ export class ContentService {
         title: this.true_result.keywords[key].name,
         color: 'orange',
         similiarKeywords: this.createKeyWordBarChartArraySim(this.true_result.keywords[key].similiar),
-        relatedHashtags: this.createKeyWordBarChartArraySim(this.true_result.keywords[key].similiar),
+        relatedHashtags: this.createKeyWordBarChartArraySim(this.true_result.keywords[key].similiarHashtags),
         // similiarKeywords: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Keywords_similiar),
         // relatedHashtags: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Hashtag_similiar),
         map: new MapModel({cities: this.true_result.keywords[key].citydata}),
@@ -344,7 +346,7 @@ export class ContentService {
       _res.push(new KeywordBarchartModel({
         color: this.getColor(arr[i].color),
         value: arr[i].votes,
-        keyword: arr[i].name,
+        keyword: arr[i].name || arr[i].hashtag,
         maxValue: arr[i].maxValue
 
       }))
