@@ -26,7 +26,7 @@ export class HeaderComponent implements OnInit {
 
     jodel: HeaderModel;
     jodelIsWriteable: boolean = true;
-
+  resultData: JRESULT;
     contentData: ContentModel;
 
     public group;

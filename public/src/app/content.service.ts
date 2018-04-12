@@ -50,6 +50,7 @@ interface JodelJSON
   children: coreJodelJSON[];
 }
 import {HeaderModel} from "./header/header.model";
+import { RelatedJodelModel } from './content/your-result-content/related-jodel/related-jodel.model';
 
 interface coreJodelJSON
 {
@@ -186,14 +187,14 @@ export class ContentService {
             foo: '312',
             bar: 123
           }),
-          time: TIME_RESULT1
+          time: TIME_RESULT1,
 
+          relatedJodel: this.createRelatedJodel()
 
         },
-
-        keywordContent: this.createKeyWordContent()
+        keywordContent: this.createKeyWordContent()  
       }
-
+      
       return contentModel;
 
   }
@@ -214,6 +215,32 @@ export class ContentService {
 
   }
 
+  createRelatedJodel()
+  {
+    let keywords: {
+      value: number,
+      color: string,
+      keyword: string
+
+    }[] = [];
+    for (let key in this.true_result.keywords)
+    {
+      keywords.push({
+        value: this.true_result.keywords[key].amount,
+        color: "orange",
+        keyword: this.true_result.keywords[key].name
+      })
+    }
+    let data = {
+      location: this.true_result.jodel.core.location,
+      time: this.true_result.jodel.core.created_at,
+      text: this.true_result.jodel.core.post_message,
+      color: this.true_result.jodel.core.post_color,
+      barchartArray: keywords
+
+    }
+    return new RelatedJodelModel(data)
+  }
   createKeyWordContent()
   {
     let _res:any[] = [];;
