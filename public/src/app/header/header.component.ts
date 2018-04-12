@@ -139,15 +139,20 @@ export class HeaderComponent implements OnInit {
                     this.loading = false;
                 });
         }, 1000)
-
-
     }
 
 
 
     async sendJodel2 () {
 
-      this.contentData = await this.contentService.getResultData2(this.jodel)
+        this.loading = true;
+
+        console.log('loading started', this.loading);
+
+        this.jodelIsWriteable = false;
+
+        this.contentData = await this.contentService.getResultData2(this.jodel)
+        this.loading = false;
     }
 
     /**
