@@ -2,6 +2,7 @@ import {Injectable} from '@angular/core';
 import {Observable} from 'rxjs/Observable';
 import {of} from 'rxjs/observable/of';
 import {RESULT} from './content/mock-results';
+import {RANDOMJODEL} from './content/random-jodel';
 import {ContentModel} from "./content/content.model";
 import { Contentpage } from "./content/content-page.model";
 import { ResultModel } from "./content/your-result-content/result-content/result.model";
@@ -62,6 +63,7 @@ interface JodelJSON
 }
 import {HeaderModel} from "./header/header.model";
 import { RelatedJodelModel } from './content/your-result-content/related-jodel/related-jodel.model';
+import {UtilService} from "./util.service";
 
 interface coreJodelJSON
 {
@@ -113,7 +115,7 @@ export class ContentService {
     true_result: JRESULT;
     jodelData:HeaderModel;
 
-    constructor(private http: HttpClient) {
+    constructor(private http: HttpClient, private util: UtilService) {
         this.color = 'green';
     }
 
@@ -126,6 +128,9 @@ export class ContentService {
      * @since   23.03.2018
      */
     getRandomJodel(): Observable<HeaderModel> {
+
+      let randomjodelKeys = Object.keys(RANDOMJODEL);
+      // let
 
         let result = new HeaderModel({
             location: 'Hamburg',
@@ -178,6 +183,7 @@ export class ContentService {
       this.jodelData = jodelData;
 
       let result = await this.http.post<JRESULT>('http://localhost:8080/api/dummy', jodelData).toPromise();
+      this.util.download(result);
 
       console.log(result);
       this.true_result = result;
