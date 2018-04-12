@@ -11,7 +11,7 @@
 
 
 
-<div class="radioSelector" *ngFor="let type of contenttypes">
+<div class="radioSelector" ngClass="{{contentService.color}}" *ngFor="let type of contenttypes">
   <label for="type_answer_{{type}}">
     <input id="type_answer_{{type}}" (change)="handleContenttypeChange()" [value]="CONTENTTYPE[type]" type="radio" name="types" [(ngModel)]="currentContentpageType">
     <span class="checkmark">

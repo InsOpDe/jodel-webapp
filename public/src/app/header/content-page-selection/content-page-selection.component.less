@@ -16,6 +16,8 @@ select {
   position: relative;
   margin-right: 5px;
   cursor: pointer;
+  width:150px;
+  text-align:center;
   font-size: 1.3em;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -32,23 +34,83 @@ select {
 }
 
 
+
+.green {
+  .checkmark {
+    background-color: @green;
+    border-radius: @buttonRadius;
+    border: 2px @bg-dark-green solid;
+  }
+
+  &.radioSelector input:checked ~ .checkmark {
+    background-color: @bg-dark-green;
+  }
+}
+.red {
+  .checkmark {
+    background-color: @red;
+    border-radius: @buttonRadius;
+    border: 2px @bg-dark-red solid;
+  }
+
+  &.radioSelector input:checked ~ .checkmark {
+    background-color: @bg-dark-red;
+  }
+}
+.yellow {
+  .checkmark {
+    background-color: @yellow;
+    border-radius: @buttonRadius;
+    border: 2px @bg-dark-yellow solid;
+  }
+
+  &.radioSelector input:checked ~ .checkmark {
+    background-color: @bg-dark-yellow;
+  }
+}
+.orange {
+  .checkmark {
+    background-color: @orange;
+    border-radius: @buttonRadius;
+    border: 2px @bg-dark-orange solid;
+  }
+
+  &.radioSelector input:checked ~ .checkmark {
+    background-color: @bg-dark-orange;
+  }
+}
+.blue {
+  .checkmark {
+    background-color: @blue;
+    border-radius: @buttonRadius;
+    border: 2px @bg-dark-blue solid;
+  }
+
+  &.radioSelector input:checked ~ .checkmark {
+    background-color: @bg-dark-blue;
+  }
+}
+.turquoise {
+  .checkmark {
+    background-color: @turquoise;
+    border-radius: @buttonRadius;
+    border: 2px @bg-dark-turquoise solid;
+  }
+
+  &.radioSelector input:checked ~ .checkmark {
+    background-color: @bg-dark-turquoise;
+  }
+}
+
+
 /* Create a custom radio button */
 .checkmark {
   padding: 5px;
-  background-color: #eee;
+  color:@darkGrey;
   cursor:pointer;
-  background-color:red;
 }
 
-///* On mouse-over, add a grey background color */
-//.radioSelector:hover input ~ .checkmark {
-//  background-color: #ccc;
-//}
-//
-///* When the radio button is checked, add a blue background */
-.radioSelector input:checked ~ .checkmark {
-  background-color: #2196F3;
-}
+
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .checkmark:after {

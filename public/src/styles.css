@@ -101,6 +101,45 @@ button[disabled] {
  * @author  Maya
  * @since   22.03.2018
  */
+/**
+ * jodel icon farben
+ */
+.jodelIcon-orange {
+  height: 100%;
+  background: url('assets/jodel_inv-free_orange.png') no-repeat right center;
+  background-size: contain;
+}
+.jodelIcon-green {
+  height: 100%;
+  background: url('assets/jodel_inv-free_green.png') no-repeat right center;
+  background-size: contain;
+}
+.jodelIcon-yellow {
+  height: 100%;
+  background: url('assets/jodel_inv-free_yellow.png') no-repeat right center;
+  background-size: contain;
+}
+.jodelIcon-red {
+  height: 100%;
+  background: url('assets/jodel_inv-free_red.png') no-repeat right center;
+  background-size: contain;
+}
+.jodelIcon-blue {
+  height: 100%;
+  background: url('assets/jodel_inv-free_blue.png') no-repeat right center;
+  background-size: contain;
+}
+.jodelIcon-turquoise {
+  height: 100%;
+  background: url('assets/jodel_inv-free_turquoise.png') no-repeat right center;
+  background-size: contain;
+}
+/**
+ * Classes for Colors
+ *
+ * @author  Maya
+ * @since   22.03.2018
+ */
 .hm-orange-0 {
   background-color: #fef0de;
 }
@@ -609,7 +648,7 @@ button:hover {
   position: absolute;
   font-weight: normal;
   font-size: 15px;
-  width: calc(96%);
+  width: calc(100% - 4px);
 }
 .ng-autocomplete-dropdown .ng-dropdown {
   display: none;
@@ -722,36 +761,6 @@ button:hover {
   padding: 5px 10px;
   border-radius: 2px;
 }
-.jodelIcon-orange {
-  height: 100%;
-  background: url('assets/jodel_inv-free_orange.png') no-repeat right center;
-  background-size: contain;
-}
-.jodelIcon-green {
-  height: 100%;
-  background: url('assets/jodel_inv-free_green.png') no-repeat right center;
-  background-size: contain;
-}
-.jodelIcon-yellow {
-  height: 100%;
-  background: url('assets/jodel_inv-free_yellow.png') no-repeat right center;
-  background-size: contain;
-}
-.jodelIcon-red {
-  height: 100%;
-  background: url('assets/jodel_inv-free_red.png') no-repeat right center;
-  background-size: contain;
-}
-.jodelIcon-blue {
-  height: 100%;
-  background: url('assets/jodel_inv-free_blue.png') no-repeat right center;
-  background-size: contain;
-}
-.jodelIcon-turquoise {
-  height: 100%;
-  background: url('assets/jodel_inv-free_turquoise.png') no-repeat right center;
-  background-size: contain;
-}
 .col-3 {
   height: 100%;
 }
@@ -777,7 +786,10 @@ select option {
 .radioSelector {
   display: inline-block;
   position: relative;
+  margin-right: 5px;
   cursor: pointer;
+  width: 150px;
+  text-align: center;
   font-size: 1.3em;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -789,15 +801,59 @@ select option {
   opacity: 0;
   cursor: pointer;
 }
+.green .checkmark {
+  background-color: #c8dc92;
+  border-radius: 2px;
+  border: 2px #a2c246 solid;
+}
+.green.radioSelector input:checked ~ .checkmark {
+  background-color: #a2c246;
+}
+.red .checkmark {
+  background-color: #edaea8;
+  border-radius: 2px;
+  border: 2px #db5e54 solid;
+}
+.red.radioSelector input:checked ~ .checkmark {
+  background-color: #db5e54;
+}
+.yellow .checkmark {
+  background-color: #fed98f;
+  border-radius: 2px;
+  border: 2px #feb729 solid;
+}
+.yellow.radioSelector input:checked ~ .checkmark {
+  background-color: #feb729;
+}
+.orange .checkmark {
+  background-color: #fcc88a;
+  border-radius: 2px;
+  border: 2px #fa9826 solid;
+}
+.orange.radioSelector input:checked ~ .checkmark {
+  background-color: #fa9826;
+}
+.blue .checkmark {
+  background-color: #90c9e0;
+  border-radius: 2px;
+  border: 2px #40a1ca solid;
+}
+.blue.radioSelector input:checked ~ .checkmark {
+  background-color: #40a1ca;
+}
+.turquoise .checkmark {
+  background-color: #c7ddd7;
+  border-radius: 2px;
+  border: 2px #87b7ab solid;
+}
+.turquoise.radioSelector input:checked ~ .checkmark {
+  background-color: #87b7ab;
+}
 /* Create a custom radio button */
 .checkmark {
   padding: 5px;
-  background-color: #eee;
+  color: #262323;
   cursor: pointer;
-  background-color: red;
-}
-.radioSelector input:checked ~ .checkmark {
-  background-color: #2196F3;
 }
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .checkmark:after {
