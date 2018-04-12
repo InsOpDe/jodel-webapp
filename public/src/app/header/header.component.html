@@ -1,8 +1,9 @@
-<div [ngClass]="[contentService.currentContentpage ? 'bg-' + contentService.color : 'bg-' + contentService.color + ' landingpage']">
-    <div class="grid headerContainer">
-        <!--ICON AND DROPDOWN-->
-        <div class="col-3">
-            <div [ngClass]="{
+<div [hidden]="loading">
+    <div [ngClass]="[contentService.currentContentpage ? 'bg-' + contentService.color : 'bg-' + contentService.color + ' landingpage']">
+        <div class="grid headerContainer">
+            <!--ICON AND DROPDOWN-->
+            <div class="col-3">
+                <div [ngClass]="{
             'jodelIcon-orange': contentService.color == 'blue' ||
                                 contentService.color == 'green' ||
                                 contentService.color == 'turquoise',
@@ -10,52 +11,52 @@
                                 contentService.color == 'red' ||
                                 contentService.color == 'orange'}">
 
-                <div *ngIf="contentService.currentContentpage">
-                    <app-content-page-selection>
-                    </app-content-page-selection>
-                </div>
+                    <div *ngIf="contentService.currentContentpage">
+                        <app-content-page-selection>
+                        </app-content-page-selection>
+                    </div>
 
-                <div *ngIf="!contentService.currentContentpage">
-                    <button (click)="getRandomJodel()" class="getRandomJodel"></button>
-                </div>
+                    <div *ngIf="!contentService.currentContentpage">
+                        <button (click)="getRandomJodel()" class="getRandomJodel"></button>
+                    </div>
 
+                </div>
             </div>
-        </div>
 
-        <!--JODEL TEXT-->
-        <div class="col-3">
+            <!--JODEL TEXT-->
+            <div class="col-3">
                 <textarea rows="5"
                           [disabled]="!jodelIsWriteable"
                           placeholder="Good Vibes only!"
                           class="bg-{{contentService.color}}"
                           [(ngModel)]="jodel.text">
                 </textarea>
-        </div>
-
-        <!--LOCATION / TIME / BUTTON-->
-        <div class="col-3">
-            <div *ngIf="jodelIsWriteable" style="width:220px">
-                <ng-autocomplete
-                        (selected)="Selected($event)"
-                        [classes]="['ng-autocomplete-input']"
-                        class="bg-{{contentService.color}}"
-                        [group]="group"></ng-autocomplete>
-            </div>
-            <div *ngIf="!jodelIsWriteable">
-                <input disabled type="text"
-                       placeholder="Wähle deine Stadt"
-                       class="bg-{{contentService.color}}"
-                       [(ngModel)]="jodel.location"><br>
             </div>
 
+            <!--LOCATION / TIME / BUTTON-->
+            <div class="col-3">
+                <div *ngIf="jodelIsWriteable" style="width:220px">
+                    <ng-autocomplete
+                            (selected)="Selected($event)"
+                            [classes]="['ng-autocomplete-input']"
+                            class="bg-{{contentService.color}}"
+                            [group]="group"></ng-autocomplete>
+                </div>
+                <div *ngIf="!jodelIsWriteable">
+                    <input disabled type="text"
+                           placeholder="Wähle deine Stadt"
+                           class="bg-{{contentService.color}}"
+                           [(ngModel)]="jodel.location"><br>
+                </div>
 
-            <input
-                    [disabled]="!jodelIsWriteable"
-                    type="time"
-                    [(ngModel)]="jodel.time"
-                    class="bg-{{contentService.color}}"><br><br>
 
-            <button [ngClass]="{
+                <input
+                        [disabled]="!jodelIsWriteable"
+                        type="time"
+                        [(ngModel)]="jodel.time"
+                        class="bg-{{contentService.color}}"><br><br>
+
+                <button [ngClass]="{
                         'sendEditButton': true,
                         'hm-orange-6': contentService.color == 'blue' ||
                                             contentService.color == 'green' ||
@@ -63,15 +64,18 @@
                         'hm-blue-6': contentService.color == 'yellow' ||
                                         contentService.color == 'red' ||
                                       contentService.color == 'orange'}"
-                    (click)="contentService.currentContentpage ? editJodel() : sendJodel()">
-                {{contentService.currentContentpage ? 'edit' : 'send'}}
-            </button>
+                        (click)="contentService.currentContentpage ? editJodel() : sendJodel()">
+                    {{contentService.currentContentpage ? 'edit' : 'send'}}
+                </button>
+            </div>
         </div>
+    </div>
+
+    <!--COLORS-->
+    <div class="grid headerContainer"
+         *ngIf="!contentService.currentContentpage">
+        <app-color-palette></app-color-palette>
     </div>
 </div>
 
-<!--COLORS-->
-<div class="grid headerContainer"
-     *ngIf="!contentService.currentContentpage">
-    <app-color-palette></app-color-palette>
-</div>
+

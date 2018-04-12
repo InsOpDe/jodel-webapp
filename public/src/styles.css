@@ -703,6 +703,59 @@ button:hover {
   max-width: 1440px;
   margin: 0 auto;
 }
+.loadingScreen {
+  background-color: #ffffff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.loadingScreen h3 {
+  color: #262323;
+  text-align: center;
+  font-weight: 300 !important;
+  line-height: 1.7 !important;
+}
+@keyframes gif {
+  0% {
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+  }
+  100% {
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+  }
+}
+.jodelGif-orange {
+  animation: gif 2s ease-in-out infinite alternate;
+  -webkit-animation: gif 2s ease-in-out infinite alternate;
+}
+.inlineBlock {
+  display: inline-block;
+}
+@keyframes dots {
+  50% {
+    transform: translateY(-0.3rem);
+    -webkit-transform: translateY(-0.3rem);
+  }
+  100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+  }
+}
+.d {
+  animation: dots 1.5s ease-out infinite;
+  -webkit-animation: dots 1.5s ease-out infinite;
+}
+.d-2 {
+  animation-delay: .5s;
+  -webkit-animation-delay: .5s;
+}
+.d-3 {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
 /**
  * Styles for HeaderComponent
  *

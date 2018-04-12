@@ -1,5 +1,18 @@
 <app-header #header></app-header>
 
-<app-content [data]="header.contentData"></app-content>
+<div *ngIf="!header.loading">
+    <app-content [data]="header.contentData"></app-content>
+</div>
 
-<!--footer ???-->
+<div *ngIf="header.loading" class="loadingScreen">
+    <div>
+        <img class="jodelGif-orange" src="assets/jodelGif-orange.gif">
+        <h3 class="">Einen Moment bitte, das Orakel<br>blickt in die Zukunft ...</h3>
+
+        <!--<div class="inlineBlock d">.</div>-->
+        <!--<div class="inlineBlock d d-2">.</div>-->
+        <!--<div class="inlineBlock d d-3">.</div>-->
+
+    </div>
+
+</div>
