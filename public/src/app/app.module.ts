@@ -23,7 +23,7 @@ import {TooltipComponent, TooltipContainerDirective} from './directives/tooltip/
 import {ForTooltipComponent} from './directives/tooltip/for-tooltip.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {RelatedJodelComponent} from './content/your-result-content/related-jodel/related-jodel.component';
-import {NgAutoCompleteModule} from "ng-auto-complete";
+import {NgAutocompleteComponent, NgAutoCompleteModule} from "ng-auto-complete";
 
 
 @NgModule({
@@ -59,6 +59,7 @@ import {NgAutoCompleteModule} from "ng-auto-complete";
     NgAutoCompleteModule
   ],
   providers: [
+      NgAutocompleteComponent,
     ContentService
   ],
   bootstrap: [AppComponent]
