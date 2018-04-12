@@ -7,6 +7,7 @@
 export class ResultModel {
 
     karma: number;
+    karmaMaxValue: number;
     votes: number;
     comments: number;
     commentsMaxValue: number;
@@ -16,6 +17,7 @@ export class ResultModel {
 
     constructor (data) {
         this.karma = data.karma;
+        this.karmaMaxValue = data.karmaMaxValue;
         this.votes = data.votes;
         this.votesMaxValue = data.votesMaxValue;
         this.comments = data.comments;
