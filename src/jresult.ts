@@ -55,6 +55,7 @@ export class JResult
             let _tmp: Citydata[] = [];
             process.stdout.write(".");
             let keynum = await this.db.getCityKeywordAmount(res3[key1].name);
+            process.stdout.write(".");
             let simKeyword = await this.db.getSimiliarKeywords(res3[key1].name);
             let simKeywords: string[] = [];
             //console.log(simKeyword);
@@ -87,7 +88,7 @@ export class JResult
         let maxVAL = 0;
         for (let key in this.keywords)
         {
-            if (maxVAL < this.keywords[key].amount) maxVAL = this.keywords[key].amount;
+            maxVAL = Math.max(maxVAL * 1, this.keywords[key].amount* 1 )
         }
 
         for (let key in this.keywords)
@@ -125,9 +126,9 @@ export class JResult
         maxVAL = 0;
         for (let key in this.hashtags)
         {
-            if (maxVAL < this.hashtags[key].amount) maxVAL = this.hashtags[key].amount;
+            maxVAL = Math.max(maxVAL * 1, this.hashtags[key].amount * 1);
         }
-
+       
         for (let key in this.hashtags)
         {
             this.hashtags[key].maxValue = maxVAL;
@@ -225,12 +226,13 @@ export class JResult
             }
             else
             {
-                if (tmp[0].votes > maxVotes) maxVotes = tmp[0].votes; 
 
-                if (tmp[0].child_count > maxKommis) maxKommis = tmp[0].child_count;
+                maxVotes = Math.max(tmp[0].votes * 1, maxVotes * 1); 
+                console.log(maxVotes)
+                maxKommis = Math.max(tmp[0].child_count * 1, maxKommis*1);
                 sum_comments += parseInt(tmp[0].child_count)
 
-                sum += parseInt(tmp[0].votes) * POSTWEIGHT;
+                sum += parseInt(tmp[0].votes);
                 process.stdout.write(".");
             }
             //console.log(tmp[0].votes);    
@@ -242,8 +244,8 @@ export class JResult
                 Votes: Math.ceil((sum / keys.length)),
                 Comments: Math.ceil((sum_comments / keys.length)),
                 Pins: Math.ceil((sum / keys.length) * 0.15),
-                maxValue: maxVotes,
-                maxKommentare: maxKommis,
+                maxValue: Math.max(maxVotes, Math.ceil((sum / keys.length))),
+                maxKommentare: Math.max(maxKommis, Math.ceil((sum_comments / keys.length))),
                 Keywords_similiar: keywords_similiar,
                 Hashtag_similiar: hashtags_similiar
             }
