@@ -97,7 +97,7 @@ export class BarChartComponent implements OnInit, OnChanges {
      * @returns {number}
      */
     round() {
-        let factor = 100 / this.maxBarAmount;
+        let factor = 200000 / this.maxBarAmount;
 
         return Math.round(this.value / factor);
     }

@@ -72,11 +72,16 @@ export class MapContentComponent implements OnInit {
 
     ngOnInit() {
 
+        let mapCities = this.map.cities;
+        // console.log("########");
+        // console.log(this.map);
+        // console.log("########");
+
         // map cities
-        let mapCitiesDummyObj = {};
+        let mapCitiesObj = {};
         let maxvote = 0;
-        for (let i in MapCitiesDummy) {
-            mapCitiesDummyObj[MapCitiesDummy[i].id_cities] = MapCitiesDummy[i];
+        for (let i in mapCities) {
+            mapCitiesObj[mapCities[i].id_cities] = mapCities[i];
         }
 
         for (let i in CITIES) {
@@ -85,8 +90,8 @@ export class MapContentComponent implements OnInit {
             let y = city.coordinates.y;
             let id = i;
 
-            if (MapCitiesDummy[id]) {
-                city.votes = MapCitiesDummy[id].votes;
+            if (mapCities[id]) {
+                city.votes = mapCities[id].votes;
                 maxvote = Math.max(maxvote, city.votes)
             } else {
                 city.votes = 0;
