@@ -145,7 +145,7 @@ export class ContentService {
       let randomJodelKeys = Object.keys(RANDOMJODEL);
       let randomJodelId = randomJodelKeys[this.util.randomIntFromInterval(0, randomJodelKeys.length - 1)];
       let randomjodel = RANDOMJODEL[randomJodelId];
-      this.randomJodelId = randomJodelId;
+      this.randomJodelId = Number(randomJodelId);
 
       let allColors = ['yellow',
         'orange',
@@ -211,7 +211,7 @@ export class ContentService {
         result = await this.http.post<JRESULT>('http://localhost:8080/api/dummy', jodelData).toPromise();
       }
 
-      // this.util.download(result);
+      this.util.download(result, "dummy.json");
 
       console.log(result);
       this.true_result = result;
