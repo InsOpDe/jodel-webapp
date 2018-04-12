@@ -62,7 +62,13 @@ export class HeaderComponent implements OnInit {
 
     ngOnInit() {
 
-        this.jodel = this.contentService.getRandomHeaderModel();
+        // this.jodel = this.contentService.getRandomHeaderModel();
+        this.jodel = new HeaderModel({
+        // location: 'Ulm',
+        // cityId: 61,
+        time: '13:48',
+        // text: randomjodel.message
+      })
 
         let cityArr = [];
         for (let i in CITIES) {
