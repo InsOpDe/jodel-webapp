@@ -2,6 +2,31 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const texttools_1 = require("./texttools");
 const POSTWEIGHT = 1.5;
+const COLORS = [{
+        color: "FFBA00",
+        id: 1
+    },
+    {
+        color: "FF9908",
+        id: 2
+    },
+    {
+        color: "9EC41C",
+        id: 3
+    },
+    {
+        color: "06A3CB",
+        id: 4
+    },
+    {
+        color: "DD5F5F",
+        id: 5
+    },
+    {
+        color: "8ABDB0",
+        id: 6
+    },
+];
 /**
  * At last this Class will generate the Result for the Front-End
  * @author Tim Mend
@@ -52,10 +77,50 @@ class JResult {
             let keynum = await this.db.getCityKeywordAmount(res3[key1].name);
             process.stdout.write(".");
             let simKeyword = await this.db.getSimiliarKeywords(res3[key1].name);
+            let simHashtag = await this.db.getSimiliarHashtags(res3[key1].name);
+            let time_tmp = [];
+            time_tmp.push(res3[key1].name);
+            let timetable_2 = await this.getTimeChart(time_tmp);
+            let timeobj_keys = [];
+            for (let tt in timetable_2) {
+                timeobj_keys.push({
+                    votes: timetable_2[tt].votes,
+                    hour: timetable_2[tt].hour
+                });
+            }
             let simKeywords = [];
+            let simHashtags = [];
             //console.log(simKeyword);
-            for (let simKey in simKeyword) {
-                simKeywords.push(simKeyword[simKey].post_keyword);
+            for (let i = 0; i < 4; i++) {
+                simKeywords.push({
+                    name: simKeyword[i].post_keyword,
+                    votes: simKeyword[i].votes,
+                    color: await this.getRandomColor(simKeyword[i].post_keyword),
+                    maxVal: 0
+                });
+            }
+            let maxVAL_simkey = 0;
+            for (let key in simKeywords) {
+                maxVAL_simkey = Math.max(maxVAL_simkey * 1, simKeywords[key].votes * 1);
+            }
+            for (let key in simKeywords) {
+                simKeywords[key].maxVal = maxVAL_simkey;
+            }
+            let i_hash = simHashtag.length > 4 ? 4 : simHashtag.length;
+            for (let i_h = 0; i_h < i_hash; i_h++) {
+                simHashtags.push({
+                    name: simHashtag[i_h].hashtag,
+                    votes: simHashtag[i_h].votes,
+                    color: await this.getRandomColor(simHashtag[i_h].hashtag),
+                    maxVal: 0
+                });
+            }
+            let maxVAL_simhash = 0;
+            for (let key in simHashtags) {
+                maxVAL_simhash = Math.max(maxVAL_simhash * 1, simHashtags[key].votes * 1);
+            }
+            for (let key in simHashtags) {
+                simHashtags[key].maxVal = maxVAL_simhash;
             }
             for (let key2 in keynum) {
                 _tmp.push({
@@ -70,7 +135,10 @@ class JResult {
                 amount: res3[key1].amount,
                 citydata: _tmp,
                 maxValue: 0,
-                similiar: simKeywords
+                similiar: simKeywords,
+                similiarHashtags: simHashtag,
+                timetable: timeobj_keys,
+                color: await this.getRandomColor(res3[key1].name)
             });
         }
         ///////Get max Keyword
@@ -83,6 +151,7 @@ class JResult {
         }
         let _null = [];
         for (let hashi in res2) {
+            let simHashtagsarr = [];
             let _tmp = [];
             let tmp = await this.db.getHashtagAmount(res2[hashi]);
             let hashnum = await this.db.getCityHashtagAmount(res2[hashi]);
@@ -99,7 +168,8 @@ class JResult {
                 amount: tmp[0].amount,
                 citydata: _tmp,
                 maxValue: 0,
-                similiar: _null
+                similiar: simHashtagsarr,
+                color: await this.getRandomColor(res2[hashi])
             });
         }
         // Get Max hashtag Value
@@ -159,6 +229,18 @@ class JResult {
             resolve(newTimehour);
         });
     }
+    async getRandomColor(text) {
+        let _res = 0;
+        for (let i = 0; i < text.length; i++) {
+            _res += text.charCodeAt(i);
+        }
+        _res = _res % 6;
+        for (let key in COLORS) {
+            if (COLORS[key].id == _res) {
+                return COLORS[key].color;
+            }
+        }
+    }
     /**
      * This will create create the Votes, Pins, Comments and similiar Keywords for a Post based on the similiar Post
      * @param keys the keys from the similiar Posts
@@ -178,7 +260,9 @@ class JResult {
         for (let key in this.keywords) {
             let _tmp = {
                 name: this.keywords[key].name,
-                value: Math.floor(Math.random() * 100)
+                value: Math.floor(Math.random() * 100),
+                color: await this.getRandomColor(this.keywords[key].name),
+                maxValue: 0
             };
             jresult_keywords.push(_tmp);
         }
@@ -186,7 +270,9 @@ class JResult {
         for (let hash in this.hashtags) {
             let _tmp = {
                 name: this.hashtags[hash].name,
-                value: Math.floor(Math.random() * 100)
+                value: Math.floor(Math.random() * 100),
+                color: await this.getRandomColor(this.hashtags[hash].name),
+                maxValue: 0
             };
             jresult_hashtags.push(_tmp);
         }
@@ -198,16 +284,45 @@ class JResult {
             for (let key in keywords_similiar_post) {
                 process.stdout.write(".");
                 if (!(keywords_similiar.includes(keywords_similiar_post[key].post_keyword) || _tmpJresult.includes(keywords_similiar_post[key].post_keyword))) {
-                    keywords_similiar.push(keywords_similiar_post[key].post_keyword);
+                    keywords_similiar.push({
+                        name: keywords_similiar_post[key].post_keyword,
+                        value: Math.floor(Math.random() * 100),
+                        color: await this.getRandomColor(keywords_similiar_post[key].post_keyword),
+                        maxValue: 0
+                    });
                 }
+            }
+            for (let z = 0; z < 4; z++) {
+                if (keywords_similiar.length > 4) {
+                    keywords_similiar.pop();
+                }
+            }
+            let maxVAL = 0;
+            for (let key in keywords_similiar) {
+                maxVAL = Math.max(maxVAL * 1, keywords_similiar[key].value * 1);
+            }
+            for (let key in keywords_similiar) {
+                keywords_similiar[key].maxValue = maxVAL;
             }
             //Same as keywords
             let hashtags_similiar_post = await this.db.getHashtagsById(keys[k].post_id);
             for (let hash in hashtags_similiar_post) {
                 process.stdout.write(".");
                 if (!(jresult_hashtags.includes(hashtags_similiar_post[hash].post_tag) || hashtags_similiar.map(a => a.name).includes(hashtags_similiar_post[hash].post_tag))) {
-                    hashtags_similiar.push(hashtags_similiar_post[hash].post_tag);
+                    hashtags_similiar.push({
+                        name: hashtags_similiar_post[hash].post_tag,
+                        value: Math.floor(Math.random() * 100),
+                        color: await this.getRandomColor(hashtags_similiar_post[hash].post_tag),
+                        maxValue: 0
+                    });
                 }
+            }
+            maxVAL = 0;
+            for (let key in hashtags_similiar) {
+                maxVAL = Math.max(maxVAL * 1, hashtags_similiar[key].value * 1);
+            }
+            for (let key in hashtags_similiar) {
+                hashtags_similiar[key].maxValue = maxVAL;
             }
             let tmp = await this.db.getPostById(keys[k].post_id);
             if (tmp.length == 0) {
@@ -218,7 +333,6 @@ class JResult {
             }
             else {
                 maxVotes = Math.max(tmp[0].votes * 1, maxVotes * 1);
-                console.log(maxVotes);
                 maxKommis = Math.max(tmp[0].child_count * 1, maxKommis * 1);
                 sum_comments += parseInt(tmp[0].child_count);
                 sum += parseInt(tmp[0].votes);
@@ -363,12 +477,20 @@ class coreJodel {
             this.vote_count = res[0].vote_count;
             res = await this.db.getLocationByIdChild(this.post_id);
             this.location = res[0].loc_name;
-            this.created_at = await this.db.getLocationByIdChild(this.post_id);
+            let time_tmp = await this.db.getCreatedByIdChild(this.post_id);
+            let time_tmp_string = time_tmp[0].created_at;
+            let time_tmp_res = time_tmp_string.split("T");
+            console.log(time_tmp_res);
+            let time_tmp_res_final = time_tmp_res[1].split(".");
+            this.created_at = time_tmp_res_final[0];
         }
         else {
             this.post_color = this.post[0].post_color;
             this.vote_count = this.post[0].votes;
             res = await this.db.getLocationById(this.post_id);
+            let time_tmp = this.post[0].created_at.split("T");
+            let time_tmp_res = time_tmp[1].split(".");
+            this.created_at = time_tmp_res[0];
             this.location = res[0].loc_name;
         }
         res = await this.db.getKeywordsById(this.post_id);

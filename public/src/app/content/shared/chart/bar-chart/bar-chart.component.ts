@@ -62,7 +62,7 @@ export class BarChartComponent implements OnInit, OnChanges {
      */
     ngOnInit() {
         this.color = this.color || this.contentService.color;
-        this.maxValue = this.maxValue || 100000;
+        this.maxValue = this.maxValue || 1000;
     }
 
 
@@ -71,8 +71,9 @@ export class BarChartComponent implements OnInit, OnChanges {
      * @since   23.03.2018
      */
     ngOnChanges(changes: SimpleChanges) {
+      console.log("this.maxValue", this.maxValue);
 
-        this.maxValue = this.maxValue || 100000;
+        this.maxValue = this.maxValue || 1000;
 
         if (typeof changes.value != 'undefined') {
             this.updateBarValues();

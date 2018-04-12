@@ -184,7 +184,7 @@ export class MapContentComponent implements OnInit {
             [-1, 1], [0, 1], [1, 1],
         ];
 
-        let innerVotes = this.calcVotes(d_xy, x, y) / (this.maxvote / 600);
+        let innerVotes = this.calcVotes(d_xy, x, y) / (Math.max(this.maxvote / 600,1));
         // return innerVotes;
 
         let d_xy2 = [
@@ -195,7 +195,7 @@ export class MapContentComponent implements OnInit {
             [-2, 2], [-1, 2], [0, 2], [1, 2], [2, 2],
         ];
 
-        let outerVotes = this.calcVotes(d_xy2, x, y) / (this.maxvote / 80);
+        let outerVotes = this.calcVotes(d_xy2, x, y) / (Math.max(this.maxvote / 80,2));
 
 
         // console.log( innerVotes, outerVotes)

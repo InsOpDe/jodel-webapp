@@ -23,7 +23,7 @@
 <div class="slidemenu" *ngIf="contentService.currentContentpage.type.multiplePages">
   <div class="slidenav slidearrow left" (click)="nextContentpage(0)"></div>
   <div class="slidenav" *ngFor="let page of currentContentpages" [hidden]="contentService.currentContentpage != page">
-    <div class="slideelement">
+    <div class="slideelement slidetitle">
       {{page.title}}
     </div>
   </div>

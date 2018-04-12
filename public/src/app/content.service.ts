@@ -2,6 +2,7 @@ import {Injectable} from '@angular/core';
 import {Observable} from 'rxjs/Observable';
 import {of} from 'rxjs/observable/of';
 import {RESULT} from './content/mock-results';
+import {RANDOMJODEL} from './content/random-jodel';
 import {ContentModel} from "./content/content.model";
 import { Contentpage } from "./content/content-page.model";
 import { ResultModel } from "./content/your-result-content/result-content/result.model";
@@ -23,15 +24,22 @@ interface Citydata
 interface HashandKeyResult
 {
   name: string,
+  color: string,
   amount: number,
   maxValue: number,
+  timetable: number[];
   citydata: Citydata[];
+  similiar:keyorhash[];
+  similiarHashtags:keyorhash[];
 }
 
 interface keyorhash
 {
+  hashtag: string,
   name: string,
-  value: number
+  votes: number,
+  maxVal: number,
+  color: string
 }
 
 interface interpolatedResult
@@ -56,6 +64,8 @@ interface JodelJSON
 }
 import {HeaderModel} from "./header/header.model";
 import { RelatedJodelModel } from './content/your-result-content/related-jodel/related-jodel.model';
+import {UtilService} from "./util.service";
+import {TimeModel} from "./content/shared/time-content/time.model";
 
 interface coreJodelJSON
 {
@@ -73,6 +83,7 @@ interface coreJodelJSON
 export interface JRESULT
 {
   message: string;
+  time: number[];
   interPolatedResult: interpolatedResult;
   hashtags: HashandKeyResult[],
   keywords: HashandKeyResult[],
@@ -107,7 +118,7 @@ export class ContentService {
     true_result: JRESULT;
     jodelData:HeaderModel;
 
-    constructor(private http: HttpClient) {
+    constructor(private http: HttpClient, private util: UtilService) {
         this.color = 'green';
     }
 
@@ -120,6 +131,9 @@ export class ContentService {
      * @since   23.03.2018
      */
     getRandomJodel(): Observable<HeaderModel> {
+
+      let randomjodelKeys = Object.keys(RANDOMJODEL);
+      // let
 
         let result = new HeaderModel({
             location: 'Hamburg',
@@ -172,6 +186,7 @@ export class ContentService {
       this.jodelData = jodelData;
 
       let result = await this.http.post<JRESULT>('http://localhost:8080/api/dummy', jodelData).toPromise();
+      // this.util.download(result);
 
       console.log(result);
       this.true_result = result;
@@ -192,6 +207,16 @@ export class ContentService {
     refresh() {
         this.currentContentpage = null;
         this.contentpages = [];
+    }
+
+    getTimeModel(timeObj) {
+      let arr = [];
+      for(let i in timeObj) {
+        arr.push(timeObj[i])
+      };
+      arr = arr.sort((a,b)=>a.hour - b.hour);
+      arr = arr.map((a)=>Math.round(a.votes));
+      return new TimeModel({value:arr})
     }
 
     getColor(colorHex: string) {
@@ -245,7 +270,7 @@ export class ContentService {
           keywordEffectArray: this.createKeyWordBarchartArray(),
 
           map: new MapModel({cities: this.true_result.cityimportance}),
-          time: TIME_RESULT1,
+          time: this.getTimeModel(this.true_result.time),
 
           relatedJodel: this.createRelatedJodel()
 
@@ -262,7 +287,7 @@ export class ContentService {
     for(let key in this.true_result.keywords)
     {
       keyWortBarChart.push(new KeywordBarchartModel({
-        color: 'orange',
+        color: this.getColor(this.true_result.keywords[key].color),
         value: Number(this.true_result.keywords[key].amount),
         keyword: this.true_result.keywords[key].name,
         maxValue: this.true_result.keywords[key].maxValue,
@@ -316,14 +341,16 @@ export class ContentService {
       _res.push({
         title: this.true_result.keywords[key].name,
         color: 'orange',
-        similiarKeywords: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Keywords_similiar),
-        relatedHashtags: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Hashtag_similiar),
+        similiarKeywords: this.createKeyWordBarChartArraySim(this.true_result.keywords[key].similiar),
+        relatedHashtags: this.createKeyWordBarChartArraySim(this.true_result.keywords[key].similiarHashtags),
+        // similiarKeywords: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Keywords_similiar),
+        // relatedHashtags: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Hashtag_similiar),
         map: new MapModel({cities: this.true_result.keywords[key].citydata}),
-        time: TIME_RESULT2
+        time: this.getTimeModel(this.true_result.keywords[key].timetable),
       })
     }
 
-    // console.log(_res);
+    console.log(_res);
     return _res;
 
   }
@@ -336,9 +363,10 @@ export class ContentService {
 
     for (let i = 0; i < arr.length; i++) {
       _res.push(new KeywordBarchartModel({
-        color: 'orange',
-        value: arr[i].value,
-        name: arr[i].name
+        color: this.getColor(arr[i].color),
+        value: arr[i].votes,
+        keyword: arr[i].name || arr[i].hashtag,
+        maxValue: arr[i].maxVal
 
       }))
     }

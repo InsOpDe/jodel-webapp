@@ -108,7 +108,7 @@ class Db {
     async getSimiliarKeywords(keyword) {
         let _query = "SELECT "
             + "    keywords2.post_keyword,                                                 "
-            + "    AVG(posts.votes)                                                       "
+            + "    AVG(posts.votes) as votes                                                      "
             + "  FROM                                                                      "
             + "    (SELECT                                                                 "
             + "        *                                                                   "
@@ -116,10 +116,27 @@ class Db {
             + "        keywords                                                            "
             + "    WHERE                                                                   "
             + "        LCASE(post_keyword) = LCASE(" + "\"" + keyword + "\"" + ")          "
-            + "    LIMIT 10) keywords                                                      "
+            + "    LIMIT  10) keywords                                                      "
             + "    INNER JOIN posts ON(posts.post_id = keywords.post_id)                   "
             + "    INNER JOIN keywords as keywords2 ON(posts.post_id = keywords2.post_id)  "
             + "    GROUP BY keywords2.post_keyword                                         ";
+        return this.query(_query);
+    }
+    async getSimiliarHashtags(hashtag) {
+        let _query = "SELECT "
+            + "      hashtags.post_tag as hashtag,                                             "
+            + "          AVG(posts.votes) as votes                                             "
+            + "      FROM                                                                      "
+            + "          (SELECT                                                               "
+            + "          *                                                                     "
+            + "          FROM                                                                  "
+            + "      keywords                                                                  "
+            + "  WHERE                                                                         "
+            + "      LCASE(post_keyword) = LCASE(" + "\"" + hashtag + "\"" + ")                                       "
+            + "  LIMIT 10) keyword                                                             "
+            + "      INNER JOIN posts ON(posts.post_id = keyword.post_id)                      "
+            + "      INNER JOIN tags as hashtags ON(posts.post_id = hashtags.post_id)          "
+            + "      GROUP BY hashtags.post_tag";
         return this.query(_query);
     }
     /**
