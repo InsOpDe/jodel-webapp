@@ -3,6 +3,31 @@ import { Texttools } from './texttools';
 
 const POSTWEIGHT: number = 1.5;
 
+const COLORS = [{
+    color: "FFBA00",
+    id: 1
+    },
+    {
+        color: "FF9908",
+        id: 2
+    },
+    {
+        color: "9EC41C",
+        id: 3
+    },
+    {
+        color: "06A3CB",
+        id: 4
+    },
+    {
+        color: "DD5F5F",
+        id: 5
+    },
+    {
+        color: "8ABDB0",
+        id: 6
+    },
+]
 /**
  * At last this Class will generate the Result for the Front-End
  * @author Tim Mend
@@ -26,7 +51,6 @@ export class JResult
         this.db = db;
         this.texttools = new Texttools();
     }
-
 
     //TODO: Maybe not the best way to handle this.. get Most Similiar returns many values I just take the first
     /**
@@ -77,11 +101,17 @@ export class JResult
             let keynum = await this.db.getCityKeywordAmount(res3[key1].name);
             process.stdout.write(".");
             let simKeyword = await this.db.getSimiliarKeywords(res3[key1].name);
-            let simKeywords: string[] = [];
+            let simKeywords: {
+                name: string,
+                votes: string
+            }[]= [];
             //console.log(simKeyword);
             for (let simKey in simKeyword)
             {
-                simKeywords.push(simKeyword[simKey].post_keyword);
+                simKeywords.push({
+                    name: simKeyword[simKey].post_keyword,
+                    votes: simKeyword[simKey].votes
+                });
             }
 
             for (let key2 in keynum)
@@ -120,9 +150,22 @@ export class JResult
         let _null: string[] = []
         for (let hashi in res2)
         {
+            let simHashtagsarr: {
+                name: string,
+                votes: number
+            }[] = [];
             let _tmp: Citydata[] = [];
             let tmp = await this.db.getHashtagAmount(res2[hashi]);
             let hashnum = await this.db.getCityHashtagAmount(res2[hashi]);
+            let simHashtags = await this.db.getSimiliarHashtags(res2[hashi])
+            for (let simKey in simHashtags)
+            {
+                simHashtagsarr.push({
+                    name: simHashtags[simKey].hashtag,
+                    votes: simHashtags[simKey].votes
+                })
+            }
+
             process.stdout.write(".");
 
             for (let key3 in hashnum)
@@ -139,7 +182,7 @@ export class JResult
                 amount: tmp[0].amount,
                 citydata: _tmp,
                 maxValue: 0,
-                similiar: _null
+                similiar: simHashtagsarr
             })
         }
         // Get Max hashtag Value
@@ -217,7 +260,18 @@ export class JResult
         })
     }
 
+    private async getRandomColor()
+    {
+        let ran = Math.floor((Math.random() * 6) + 1);
 
+        for (let key in COLORS)
+        {
+            if (COLORS[key].id = ran)
+            {
+                return COLORS[key].color;
+            }
+        }
+    }
 
     /**
      * This will create create the Votes, Pins, Comments and similiar Keywords for a Post based on the similiar Post 
@@ -240,7 +294,8 @@ export class JResult
         {
             let _tmp: keyorhash = {
                 name: this.keywords[key].name,
-                value: Math.floor(Math.random() * 100)
+                value: Math.floor(Math.random() * 100),
+                color: await this.getRandomColor()
             }
             jresult_keywords.push(_tmp);
         }
@@ -250,7 +305,8 @@ export class JResult
         {
             let _tmp: keyorhash = {
                 name: this.hashtags[hash].name,
-                value: Math.floor(Math.random() * 100)
+                value: Math.floor(Math.random() * 100),
+                color: await this.getRandomColor()
             }
             jresult_hashtags.push(_tmp);
         }
@@ -512,13 +568,20 @@ export class coreJodel
             this.vote_count = res[0].vote_count;
             res = await this.db.getLocationByIdChild(this.post_id);
             this.location = res[0].loc_name;
-            this.created_at = await this.db.getLocationByIdChild(this.post_id);
+            let time_tmp = await this.db.getCreatedByIdChild(this.post_id);
+            let time_tmp_string = time_tmp.created_at;
+            let time_tmp_res = time_tmp_string.split("T");
+            let time_tmp_res_final = time_tmp_res[1].split(".");
+            this.created_at = time_tmp_res_final[0];
         }
         else
         {
             this.post_color = this.post[0].post_color;
             this.vote_count = this.post[0].votes;
             res = await this.db.getLocationById(this.post_id);
+            let time_tmp = this.post[0].created_at.split("T");
+            let time_tmp_res = time_tmp[1].split(".");
+            this.created_at = time_tmp_res[1];
             this.location = res[0].loc_name;
         }
         res = await this.db.getKeywordsById(this.post_id);
@@ -574,13 +637,14 @@ interface HashandKeyResult
     amount: number,
     maxValue: number,
     citydata: Citydata[],
-    similiar: string[]
+    similiar: any[]
 }
 
 interface keyorhash
 {
     name: string,
-    value: number
+    value: number,
+    color: string
 }
 
 interface interpolatedResult
