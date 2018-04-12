@@ -59,9 +59,9 @@ export class JResult
             {
                 
                 _tmp.push({
-                    city: keynum[key2].name,
-                    amount: keynum[key2].amount,
-                    id: keynum[key2].id_cities
+                    name: keynum[key2].name,
+                    votes: keynum[key2].amount,
+                    id_cities: keynum[key2].id_cities
                 })
 
             }
@@ -82,9 +82,9 @@ export class JResult
             for (let key3 in hashnum)
             {
                 _tmp.push({
-                    city: hashnum[key3].loc_name,
-                    amount: hashnum[key3].amount,
-                    id: hashnum[key3].id_cities
+                    name: hashnum[key3].loc_name,
+                    votes: hashnum[key3].amount,
+                    id_cities: hashnum[key3].id_cities
                 })
             }
 
@@ -221,9 +221,9 @@ export class JResult
                 {
                     for (let m = 0; m < key_tmp.length; m++)
                     {
-                        if (sum[n].city == key_tmp[m].city)
+                        if (sum[n].name == key_tmp[m].city)
                         {
-                            sum[n].amount += key_tmp[m].amount;
+                            sum[n].votes += key_tmp[m].amount;
                         }
                         //if (m == key_tmp.length && sum[n].city != key_tmp[m].city)
                         //{
@@ -239,9 +239,9 @@ export class JResult
             {
                 for (let k = 0; k < hash_tmp.length; k++)
                 {
-                    if (sum[j].city == hash_tmp[k].city)
+                    if (sum[j].name == hash_tmp[k].name)
                     {
-                        sum[j].amount += hash_tmp[k].amount;
+                        sum[j].votes += hash_tmp[k].votes;
 
                     }
                     //if (k == hash_tmp.length && sum[j].city != hash_tmp[k].city)
@@ -438,9 +438,9 @@ export class coreJodel
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 interface Citydata
 {
-    city: string,
-    amount: number,
-    id: number
+    name: string,
+    votes: number,
+    id_cities: number
 }
 
 interface HashandKeyResult
