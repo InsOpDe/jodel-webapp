@@ -26,7 +26,7 @@ export class HeaderComponent implements OnInit {
 
     jodel: HeaderModel;
     jodelIsWriteable: boolean = true;
-  resultData: JRESULT;
+    resultData: JRESULT;
     contentData: ContentModel;
 
     public group;
@@ -117,14 +117,12 @@ export class HeaderComponent implements OnInit {
                 this.contentData = response;
             });
     }
-    sendJodel2()
-    {
-    this.contentService.getResultData2(this.jodel)
-      .subscribe(response =>
-      {
-        this.resultData = response;
-        console.log(response);
-      })
+
+
+
+    async sendJodel2 () {
+
+      this.contentData = await this.contentService.getResultData2(this.jodel)
     }
 
     /**

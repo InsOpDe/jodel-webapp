@@ -10,6 +10,8 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { KeywordBarchartModel } from "./content/shared/keywords-barchar/keyword-barchart.model";
 import { MapModel } from './content/shared/map-content/map.model';
 import { TIME_RESULT1, TIME_RESULT2 } from "./content/shared/time-content/mock-time-result";
+import {MapCitiesDummy} from "./content/shared/map-content/map_cities_dummy";
+
 
 interface Citydata
 {
@@ -156,9 +158,23 @@ export class ContentService {
         // return this.http
         //   .get<ContentModel>('/api/user', httpOptions);
     }
-    getResultData2(jodelData): Observable<JRESULT>
-    {
-      return this.http.post<JRESULT>('http://localhost:8080/api/dummy', jodelData);
+
+
+
+    async getResultData2(jodelData) {
+
+      this.jodelData = jodelData;
+
+      let result = await this.http.post<JRESULT>('http://localhost:8080/api/dummy', jodelData).toPromise();
+
+      console.log(result);
+      this.true_result = result;
+
+      let trueresult2 = this.setResult();
+
+      this.setContentpages(trueresult2.keywordContent);
+
+      return trueresult2
     }
 
     /**
@@ -186,18 +202,15 @@ export class ContentService {
           }),
           keywordEffectArray: this.createKeyWordBarchartArray(),
 
-          map: new MapModel({
-            foo: '312',
-            bar: 123
-          }),
+          map: new MapModel({cities: this.true_result.cityimportance}),
           time: TIME_RESULT1,
 
           relatedJodel: this.createRelatedJodel()
 
         },
-        keywordContent: this.createKeyWordContent()  
+        keywordContent: this.createKeyWordContent()
       }
-      
+
       return contentModel;
 
   }
@@ -209,7 +222,7 @@ export class ContentService {
     {
       keyWortBarChart.push(new KeywordBarchartModel({
         color: 'orange',
-        value: this.true_result.keywords[key].amount,
+        value: Number(this.true_result.keywords[key].amount),
         keyword: this.true_result.keywords[key].name
       }))
     }
@@ -218,22 +231,17 @@ export class ContentService {
 
   }
 
-  createRelatedJodel()
-  {
-    let keywords: {
-      value: number,
-      color: string,
-      keyword: string
+  createRelatedJodel() {
 
-    }[] = [];
-    for (let key in this.true_result.keywords)
-    {
-      keywords.push({
-        value: this.true_result.keywords[key].amount,
+    let keywords: KeywordBarchartModel[] = [];
+    for (let key in this.true_result.keywords) {
+      keywords.push(new KeywordBarchartModel({
+        value: Math.min(1*this.true_result.keywords[key].amount, 10),
         color: "orange",
         keyword: this.true_result.keywords[key].name
-      })
+      }))
     }
+
     let data = {
       location: this.true_result.jodel.core.location,
       time: this.true_result.jodel.core.created_at,
@@ -242,35 +250,40 @@ export class ContentService {
       barchartArray: keywords
 
     }
-    return new RelatedJodelModel(data)
+    let relatedJodelModel = new RelatedJodelModel(data);
+
+    return relatedJodelModel
   }
-  createKeyWordContent()
-  {
+
+
+  createKeyWordContent() {
+
     let _res:any[] = [];;
-    for (let key in this.true_result.keywords)
-    {
+
+    for (let key in this.true_result.keywords) {
+
       _res.push({
         title: this.true_result.keywords[key].name,
         color: 'orange',
         similiarKeywords: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Keywords_similiar),
         relatedHashtags: this.createKeyWordBarChartArraySim(this.true_result.interPolatedResult.Hashtag_similiar),
-        map: new MapModel({
-          foo: "312",
-          bar: 123
-        }),
+        map: new MapModel({cities: this.true_result.cityimportance}),
         time: TIME_RESULT2
       })
     }
+
+    console.log(_res);
     return _res;
 
   }
 
-  createKeyWordBarChartArraySim(arr: keyorhash[])
-  {
+  createKeyWordBarChartArraySim(arr: keyorhash[]) {
+
+      console.log('keywords similiar ', arr);
+
     let _res: KeywordBarchartModel[] = [];
 
-    for (let i = 0; i < arr.length; i++)
-    {
+    for (let i = 0; i < arr.length; i++) {
       _res.push(new KeywordBarchartModel({
         color: 'orange',
         value: arr[i].value,
@@ -327,7 +340,6 @@ export class ContentService {
     createContentpages(keywordContent): void {
 
         this.contentpages.push(new Contentpage());
-
         for (let i = 0; i < keywordContent.length; i++) {
 
             this.contentpages.push(new Contentpage({

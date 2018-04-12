@@ -6,9 +6,9 @@
          [ngSwitch]="contentService.currentContentpage.type.id">
 
         <!--YOUR RESULT CONTENT-->
-        <app-your-result-content *ngSwitchCase="CONTENTTYPE.YOUR_RESULT.id"
-                                 [yourResultContent]="data.yourResultContent">
-        </app-your-result-content>
+      <app-your-result-content *ngSwitchCase="CONTENTTYPE.YOUR_RESULT.id"
+                               [yourResultContent]="data.yourResultContent">
+      </app-your-result-content>
 
         <!--KEYWORD CONTENT-->
         <app-keyword-content *ngSwitchCase="CONTENTTYPE.KEYWORD.id"

@@ -16,8 +16,15 @@ export class MapModel {
     mapHeight : number;
     squaresY : number;
     squaresX : number;
+    cities: object;
 
     constructor (data) {
+
+      // console.log("---------21232--");
+      // console.log(data);
+      // console.log("-----------");
+
+        this.cities = data.cities;
 
         this.mapHeight = this.mapWidth * this.quota;
 

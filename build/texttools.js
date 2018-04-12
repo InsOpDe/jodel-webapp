@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+let path = require('path');
 /*
  * Created by Tim Mend
  * This file will provide function for editing texts
@@ -682,7 +683,7 @@ class Texttools {
     loadKeywords() {
         return new Promise((resolve, reject) => {
             let keywords_n = [];
-            this.fs.readFile('../src/SupportingFiles/arraywords.txt', 'utf8', (err, data) => {
+            this.fs.readFile(path.resolve(__dirname, '../src/SupportingFiles/arraywords.txt'), 'utf8', (err, data) => {
                 if (err)
                     console.log(err);
                 let wordsArray = data.split("\n");
