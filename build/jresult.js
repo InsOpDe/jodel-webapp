@@ -32,6 +32,19 @@ class JResult {
         await this.affJodel.fill();
         let res2 = await this.texttools.extractHashtags(this.Jodel);
         let res3 = await this.texttools.extractKeywords(this.Jodel);
+        let time_value = [];
+        for (let time in res3) {
+            time_value.push(res3[time].name);
+        }
+        let timetable = await this.getTimeChart(time_value);
+        let timeobj = [];
+        for (let tt in timetable) {
+            timeobj.push({
+                votes: timetable[tt].votes,
+                hour: timetable[tt].hour
+            });
+        }
+        this.time = timeobj;
         process.stdout.write("Getting Hashtags and Keywords");
         for (let key1 in res3) {
             let _tmp = [];
@@ -104,6 +117,46 @@ class JResult {
         this.cityimportance = Object.values(_cityimportance);
         return new Promise((resolve) => {
             resolve(true);
+        });
+    }
+    async getTimeChart(arr) {
+        let timehours = await this.db.getClockVotesAmount(arr);
+        let newTimehour = [];
+        return new Promise((resolve) => {
+            for (let I in timehours) {
+                let i = Number(I);
+                let timehour = timehours[i];
+                timehour.hour = Number(timehour.hour);
+                let j = i + 1;
+                if (j >= timehours.length)
+                    j = 0;
+                let nexthour = timehours[j];
+                let difference = nexthour.votes - timehour.votes;
+                let timedifference;
+                if (timehour.hour > nexthour.hour) {
+                    timedifference = 24 - timehour.hour + nexthour.hour;
+                }
+                else {
+                    timedifference = nexthour.hour - timehour.hour;
+                }
+                newTimehour.push({
+                    votes: timehour.votes,
+                    hour: timehour.hour,
+                });
+                let stepsize = difference / timedifference;
+                for (let k = 1; k < timedifference; k++) {
+                    let index = i + k;
+                    let hour = timehour.hour + k;
+                    // if(index  >= timehours.length) hour = hour;
+                    if (hour >= 24)
+                        hour = hour - 24;
+                    newTimehour.push({
+                        votes: Math.round(timehour.votes + (stepsize * k)),
+                        hour: hour,
+                    });
+                }
+            }
+            resolve(newTimehour);
         });
     }
     /**
@@ -230,6 +283,7 @@ class JResult {
         return {
             message: this.Jodel,
             interPolatedResult: this.interPolatedResult,
+            time: this.time,
             hashtags: this.hashtags,
             keywords: this.keywords,
             jodel: this.affJodel.encodeJodel(),
