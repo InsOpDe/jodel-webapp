@@ -683,10 +683,7 @@ class Texttools {
     loadKeywords() {
         return new Promise((resolve, reject) => {
             let keywords_n = [];
-            console.log("load keywords..", __dirname);
             this.fs.readFile(path.resolve(__dirname, '../src/SupportingFiles/arraywords.txt'), 'utf8', (err, data) => {
-                console.log("ERR ", err);
-                console.log("DATA ", data);
                 if (err)
                     console.log(err);
                 let wordsArray = data.split("\n");

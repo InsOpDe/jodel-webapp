@@ -39,9 +39,9 @@ class JResult {
             let keynum = await this.db.getCityKeywordAmount(res3[key1].name);
             for (let key2 in keynum) {
                 _tmp.push({
-                    city: keynum[key2].name,
-                    amount: keynum[key2].amount,
-                    id: keynum[key2].id_cities
+                    name: keynum[key2].name,
+                    votes: keynum[key2].amount,
+                    id_cities: keynum[key2].id_cities
                 });
             }
             //console.log(_tmp);
@@ -58,9 +58,9 @@ class JResult {
             process.stdout.write(".");
             for (let key3 in hashnum) {
                 _tmp.push({
-                    city: hashnum[key3].loc_name,
-                    amount: hashnum[key3].amount,
-                    id: hashnum[key3].id_cities
+                    name: hashnum[key3].loc_name,
+                    votes: hashnum[key3].amount,
+                    id_cities: hashnum[key3].id_cities
                 });
             }
             this.hashtags.push({
@@ -163,8 +163,8 @@ class JResult {
                 let key_tmp = this.keywords[b]['citydata'];
                 for (let n = 0; n < sum.length; n++) {
                     for (let m = 0; m < key_tmp.length; m++) {
-                        if (sum[n].city == key_tmp[m].city) {
-                            sum[n].amount += key_tmp[m].amount;
+                        if (sum[n].name == key_tmp[m].city) {
+                            sum[n].votes += key_tmp[m].amount;
                         }
                         //if (m == key_tmp.length && sum[n].city != key_tmp[m].city)
                         //{
@@ -177,8 +177,8 @@ class JResult {
                 let hash_tmp = this.hashtags[i]['citydata'];
                 for (let j = 0; j < sum.length; j++) {
                     for (let k = 0; k < hash_tmp.length; k++) {
-                        if (sum[j].city == hash_tmp[k].city) {
-                            sum[j].amount += hash_tmp[k].amount;
+                        if (sum[j].name == hash_tmp[k].name) {
+                            sum[j].votes += hash_tmp[k].votes;
                         }
                         //if (k == hash_tmp.length && sum[j].city != hash_tmp[k].city)
                         //{

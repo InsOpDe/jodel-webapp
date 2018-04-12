@@ -37,6 +37,8 @@ export class MapContentComponent implements OnInit {
     inhabitants: string = "";
     color: string;
     maxsteps: number = 3;
+    maxvote:number;
+    id: number;
     voteindex: object = [];
     classesMap: object = {};
     triggerValue = 'a';
@@ -64,6 +66,7 @@ export class MapContentComponent implements OnInit {
         let id = e.target.id;
         let city = this.citiesCoords[id];
         if (city) {
+            this.id = city.id;
             this.city = city.city;
             this.votes = city.votes;
             this.inhabitants = city.inhabitants;
@@ -90,8 +93,8 @@ export class MapContentComponent implements OnInit {
             let y = city.coordinates.y;
             let id = i;
 
-            if (mapCities[id]) {
-                city.votes = mapCities[id].votes;
+            if (mapCitiesObj[id]) {
+                city.votes = mapCitiesObj[id].votes;
                 maxvote = Math.max(maxvote, city.votes)
             } else {
                 city.votes = 0;
@@ -110,6 +113,8 @@ export class MapContentComponent implements OnInit {
                 // console.log(this.citiesCoords[y + "-" + x].city);
             }
         }
+
+        this.maxvote = maxvote;
 
         // calculate steps for heatmap
         let maxLogValue = Math.log(maxvote - 10);
@@ -174,7 +179,7 @@ export class MapContentComponent implements OnInit {
             [-1, 1], [0, 1], [1, 1],
         ];
 
-        let innerVotes = this.calcVotes(d_xy, x, y) / 4;
+        let innerVotes = this.calcVotes(d_xy, x, y) / (this.maxvote / 600);
         // return innerVotes;
 
         let d_xy2 = [
@@ -185,7 +190,7 @@ export class MapContentComponent implements OnInit {
             [-2, 2], [-1, 2], [0, 2], [1, 2], [2, 2],
         ];
 
-        let outerVotes = this.calcVotes(d_xy2, x, y) / 25;
+        let outerVotes = this.calcVotes(d_xy2, x, y) / (this.maxvote / 80);
 
 
         // console.log( innerVotes, outerVotes)
