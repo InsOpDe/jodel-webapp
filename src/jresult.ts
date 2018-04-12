@@ -189,7 +189,7 @@ export class JResult
                 citydata: _tmp,
                 maxValue: 0,
                 similiar: simKeywords,
-                similiarHashtags: simHashtag,
+                similiarHashtags: simHashtags,
                 timetable: timeobj_keys,
                 color: await this.getRandomColor(res3[key1].name)
             })
