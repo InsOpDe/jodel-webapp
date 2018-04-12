@@ -41,7 +41,7 @@ select {
   .checkmark {
     background-color: @green;
     border-radius: @buttonRadius;
-    border: 2px @bg-dark-green solid;
+    //border: 2px @bg-dark-green solid;
   }
 
   &.radioSelector input:checked ~ .checkmark {
@@ -52,7 +52,7 @@ select {
   .checkmark {
     background-color: @red;
     border-radius: @buttonRadius;
-    border: 2px @bg-dark-red solid;
+    //border: 2px @bg-dark-red solid;
   }
 
   &.radioSelector input:checked ~ .checkmark {
@@ -63,7 +63,7 @@ select {
   .checkmark {
     background-color: @yellow;
     border-radius: @buttonRadius;
-    border: 2px @bg-dark-yellow solid;
+    //border: 2px @bg-dark-yellow solid;
   }
 
   &.radioSelector input:checked ~ .checkmark {
@@ -74,7 +74,7 @@ select {
   .checkmark {
     background-color: @orange;
     border-radius: @buttonRadius;
-    border: 2px @bg-dark-orange solid;
+    //border: 2px @bg-dark-orange solid;
   }
 
   &.radioSelector input:checked ~ .checkmark {
@@ -85,7 +85,7 @@ select {
   .checkmark {
     background-color: @blue;
     border-radius: @buttonRadius;
-    border: 2px @bg-dark-blue solid;
+    //border: 2px @bg-dark-blue solid;
   }
 
   &.radioSelector input:checked ~ .checkmark {
@@ -96,7 +96,7 @@ select {
   .checkmark {
     background-color: @turquoise;
     border-radius: @buttonRadius;
-    border: 2px @bg-dark-turquoise solid;
+    //border: 2px @bg-dark-turquoise solid;
   }
 
   &.radioSelector input:checked ~ .checkmark {
@@ -129,10 +129,14 @@ select {
 
 .slidemenu {
   display: flex;
-  width: 300px;
+  width: 135px;
+  margin-left: 163px;
+  margin-top:10px;
+
 
   .slideelement {
-    margin: 13px;
+    //margin: 13px;
+    margin: 2px;
   }
 
   .slidenav {
@@ -142,5 +146,20 @@ select {
 
   .slidearrow {
     cursor:pointer;
+    //padding-bottom: 5px;
+
+      border: solid black;
+      border-width: 0 1px 1px 0;
+      display: inline-block;
+      padding: 3px;
+
+    &.right {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+    &.left {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
   }
 }

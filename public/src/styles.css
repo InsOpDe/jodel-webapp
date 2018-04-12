@@ -806,7 +806,6 @@ select option {
 .green .checkmark {
   background-color: #c8dc92;
   border-radius: 2px;
-  border: 2px #a2c246 solid;
 }
 .green.radioSelector input:checked ~ .checkmark {
   background-color: #a2c246;
@@ -814,7 +813,6 @@ select option {
 .red .checkmark {
   background-color: #edaea8;
   border-radius: 2px;
-  border: 2px #db5e54 solid;
 }
 .red.radioSelector input:checked ~ .checkmark {
   background-color: #db5e54;
@@ -822,7 +820,6 @@ select option {
 .yellow .checkmark {
   background-color: #fed98f;
   border-radius: 2px;
-  border: 2px #feb729 solid;
 }
 .yellow.radioSelector input:checked ~ .checkmark {
   background-color: #feb729;
@@ -830,7 +827,6 @@ select option {
 .orange .checkmark {
   background-color: #fcc88a;
   border-radius: 2px;
-  border: 2px #fa9826 solid;
 }
 .orange.radioSelector input:checked ~ .checkmark {
   background-color: #fa9826;
@@ -838,7 +834,6 @@ select option {
 .blue .checkmark {
   background-color: #90c9e0;
   border-radius: 2px;
-  border: 2px #40a1ca solid;
 }
 .blue.radioSelector input:checked ~ .checkmark {
   background-color: #40a1ca;
@@ -846,7 +841,6 @@ select option {
 .turquoise .checkmark {
   background-color: #c7ddd7;
   border-radius: 2px;
-  border: 2px #87b7ab solid;
 }
 .turquoise.radioSelector input:checked ~ .checkmark {
   background-color: #87b7ab;
@@ -868,10 +862,12 @@ select option {
 }
 .slidemenu {
   display: flex;
-  width: 300px;
+  width: 135px;
+  margin-left: 163px;
+  margin-top: 10px;
 }
 .slidemenu .slideelement {
-  margin: 13px;
+  margin: 2px;
 }
 .slidemenu .slidenav {
   margin: auto;
@@ -879,6 +875,18 @@ select option {
 }
 .slidemenu .slidearrow {
   cursor: pointer;
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.slidemenu .slidearrow.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.slidemenu .slidearrow.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
 .bar {
   height: 20px;
