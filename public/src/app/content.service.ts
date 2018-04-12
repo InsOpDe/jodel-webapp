@@ -64,6 +64,7 @@ interface JodelJSON
 import {HeaderModel} from "./header/header.model";
 import { RelatedJodelModel } from './content/your-result-content/related-jodel/related-jodel.model';
 import {UtilService} from "./util.service";
+import {TimeModel} from "./content/shared/time-content/time.model";
 
 interface coreJodelJSON
 {
@@ -183,7 +184,7 @@ export class ContentService {
       this.jodelData = jodelData;
 
       let result = await this.http.post<JRESULT>('http://localhost:8080/api/dummy', jodelData).toPromise();
-      this.util.download(result);
+      // this.util.download(result);
 
       console.log(result);
       this.true_result = result;
@@ -204,6 +205,16 @@ export class ContentService {
     refresh() {
         this.currentContentpage = null;
         this.contentpages = [];
+    }
+
+    getTimeModel(timeObj) {
+      let arr = [];
+      for(let i in timeObj) {
+        arr.push(timeObj[i])
+      };
+      arr = arr.sort((a,b)=>a.hour - b.hour);
+      arr = arr.map((a)=>Math.round(a.votes));
+      return new TimeModel({value:arr})
     }
 
     getColor(colorHex: string) {
@@ -257,7 +268,7 @@ export class ContentService {
           keywordEffectArray: this.createKeyWordBarchartArray(),
 
           map: new MapModel({cities: this.true_result.cityimportance}),
-          time: TIME_RESULT1,
+          time: this.getTimeModel(this.true_result.time),
 
           relatedJodel: this.createRelatedJodel()
 
