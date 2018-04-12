@@ -742,7 +742,8 @@ export class Texttools
         let words_array = this.splitByWords(words);
         return new Promise((resolve, reject) =>
         {
-            for (let i = 0; i < words_array.length; i++)
+            let j = words_array.length > 4 ? 4 : words_array.length;
+            for (let i = 0; i < j; i++)
             {
                 for (let key in this.keywords)
                 {
@@ -783,5 +784,4 @@ export class Texttools
 
 
 }
-
 
