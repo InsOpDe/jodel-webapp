@@ -118,13 +118,15 @@ export class JResult
             }
             let simKeywords: {
                 name: string,
-                votes: string,
-                color: string
+                votes: number,
+                color: string,
+                maxVal: number
             }[] = [];
             let simHashtags: {
                 name: string,
-                votes: string,
-                color: string
+                votes: number,
+                color: string,
+                maxVal: number
             }[] = [];
             //console.log(simKeyword);
             for (let i = 0; i < 4; i++)
@@ -132,18 +134,43 @@ export class JResult
                 simKeywords.push({
                     name: simKeyword[i].post_keyword,
                     votes: simKeyword[i].votes,
-                    color: await this.getRandomColor(simKeyword[i].post_keyword)
+                    color: await this.getRandomColor(simKeyword[i].post_keyword),
+                    maxVal: 0
                 });
             }
+            let maxVAL_simkey = 0;
+            for (let key in simKeywords)
+            {
+                maxVAL_simkey = Math.max(maxVAL_simkey * 1, simKeywords[key].votes * 1);
+            }
+            for (let key in simKeywords)
+            {
+                simKeywords[key].maxVal = maxVAL_simkey;
+            }
+
+
+
             let i_hash = simHashtag.length > 4 ? 4 : simHashtag.length;
             for (let i_h = 0; i_h < i_hash; i_h++)
             {
                 simHashtags.push({
                     name: simHashtag[i_h].hashtag,
                     votes: simHashtag[i_h].votes,
-                    color: await this.getRandomColor(simHashtag[i_h].hashtag)
+                    color: await this.getRandomColor(simHashtag[i_h].hashtag),
+                    maxVal: 0
                 })
             }
+            let maxVAL_simhash = 0;
+            for (let key in simHashtags)
+            {
+                maxVAL_simhash = Math.max(maxVAL_simhash * 1, simHashtags[key].votes * 1);
+            }
+            for (let key in simHashtags)
+            {
+                simHashtags[key].maxVal = maxVAL_simhash;
+            }
+
+
 
             for (let key2 in keynum)
             {
