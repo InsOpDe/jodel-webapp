@@ -17,10 +17,12 @@ export const RESULT: ContentModel = {
     yourResultContent : {
         result: new ResultModel({
             'karma': 11,
-            'votes': 56,
+            'votes': 250,
             'pins': 95,
             'shared': 23,
-            'comments': 53,
+            'votesMaxValue': 300,
+            'comments': 120,
+            'commentsMaxValue': 150,
         }),
 
         keywordEffectArray: keywordBarchartArray1,

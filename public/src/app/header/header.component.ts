@@ -80,7 +80,7 @@ export class HeaderComponent implements OnInit {
         // console.log(this.completer);
 
         // debug
-        this.sendJodel2();
+        // this.sendJodel();
     }
 
 

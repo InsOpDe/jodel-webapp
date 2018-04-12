@@ -7,20 +7,22 @@
 
 <!--Votes-->
 <app-bar-chart [value]="resultData.votes"
-               [title]="'Votes'">
+               [title]="'Votes'"
+               [maxValue]="resultData.votesMaxValue">
 </app-bar-chart>
 
 <!--Comments-->
 <app-bar-chart [value]="resultData.comments"
-               [title]="'Kommentare'">
+               [title]="'Kommentare'"
+               [maxValue]="resultData.commentsMaxValue">
 </app-bar-chart>
 
-<!--Pins-->
-<app-bar-chart [value]="resultData.pins"
-               [title]="'Pins'">
-</app-bar-chart>
+<!--&lt;!&ndash;Pins&ndash;&gt;-->
+<!--<app-bar-chart [value]="resultData.pins"-->
+               <!--[title]="'Pins'">-->
+<!--</app-bar-chart>-->
 
-<!--Shared-->
-<app-bar-chart [value]="resultData.shared"
-               [title]="'Shared'">
-</app-bar-chart>
+<!--&lt;!&ndash;Shared&ndash;&gt;-->
+<!--<app-bar-chart [value]="resultData.shared"-->
+               <!--[title]="'Shared'">-->
+<!--</app-bar-chart>-->
