@@ -58,7 +58,8 @@ export class MapContentComponent implements OnInit {
 
     ngOnChanges(changes: SimpleChanges) {
         if (changes.map) {
-            this.triggerValue = this.triggerValue == 'a' ? 'b' : 'a';
+          this.initMap();
+          this.triggerValue = this.triggerValue == 'a' ? 'b' : 'a';
         }
     }
 
@@ -73,66 +74,70 @@ export class MapContentComponent implements OnInit {
         }
     }
 
+    initMap() {
+
+      let mapCities = this.map.cities;
+      // console.log("########");
+      // console.log(this.map);
+      // console.log("########");
+
+      // map cities
+      let mapCitiesObj = {};
+      let maxvote = 0;
+      for (let i in mapCities) {
+        mapCitiesObj[mapCities[i].id_cities] = mapCities[i];
+      }
+
+      for (let i in CITIES) {
+        let city = CITIES[i];
+        let x = city.coordinates.x;
+        let y = city.coordinates.y;
+        let id = i;
+
+        if (mapCitiesObj[id]) {
+          city.votes = mapCitiesObj[id].votes;
+          maxvote = Math.max(maxvote, city.votes)
+        } else {
+          city.votes = 0;
+        }
+
+        let cityAlreadyThere = this.citiesCoords[y + "-" + x];
+        if (cityAlreadyThere) {
+          if (cityAlreadyThere.votes < this.citiesCoords[y + "-" + x].votes) {
+            this.citiesCoords[y + "-" + x] = city;
+            this.citiesCoords[y + "-" + x].votes += cityAlreadyThere.votes;
+          } else {
+            this.citiesCoords[y + "-" + x].votes += city.votes;
+          }
+        } else {
+          this.citiesCoords[y + "-" + x] = city;
+          // console.log(this.citiesCoords[y + "-" + x].city);
+        }
+      }
+
+      this.maxvote = maxvote;
+
+      // calculate steps for heatmap
+      let maxLogValue = Math.log(maxvote - 10);
+      let step = maxLogValue / this.maxsteps;
+
+      for (let i = 0; i <= this.maxsteps; i++) {
+        this.voteindex[i] = Math.pow(Math.E, step * i)
+      }
+
+
+      // calculate heatmap
+      for (let y = 0; y < this.map.squaresY; y++) {
+        for (let x = 0; x < this.map.squaresX; x++) {
+          this.classesMap[y + "-" + x] = this.calcClass(x, y)
+        }
+      }
+
+      this.editSelectedCityClass();
+    }
+
     ngOnInit() {
-
-        let mapCities = this.map.cities;
-        // console.log("########");
-        // console.log(this.map);
-        // console.log("########");
-
-        // map cities
-        let mapCitiesObj = {};
-        let maxvote = 0;
-        for (let i in mapCities) {
-            mapCitiesObj[mapCities[i].id_cities] = mapCities[i];
-        }
-
-        for (let i in CITIES) {
-            let city = CITIES[i];
-            let x = city.coordinates.x;
-            let y = city.coordinates.y;
-            let id = i;
-
-            if (mapCitiesObj[id]) {
-                city.votes = mapCitiesObj[id].votes;
-                maxvote = Math.max(maxvote, city.votes)
-            } else {
-                city.votes = 0;
-            }
-
-            let cityAlreadyThere = this.citiesCoords[y + "-" + x];
-            if (cityAlreadyThere) {
-                if (cityAlreadyThere.votes < this.citiesCoords[y + "-" + x].votes) {
-                    this.citiesCoords[y + "-" + x] = city;
-                    this.citiesCoords[y + "-" + x].votes += cityAlreadyThere.votes;
-                } else {
-                    this.citiesCoords[y + "-" + x].votes += city.votes;
-                }
-            } else {
-                this.citiesCoords[y + "-" + x] = city;
-                // console.log(this.citiesCoords[y + "-" + x].city);
-            }
-        }
-
-        this.maxvote = maxvote;
-
-        // calculate steps for heatmap
-        let maxLogValue = Math.log(maxvote - 10);
-        let step = maxLogValue / this.maxsteps;
-
-        for (let i = 0; i <= this.maxsteps; i++) {
-            this.voteindex[i] = Math.pow(Math.E, step * i)
-        }
-
-
-        // calculate heatmap
-        for (let y = 0; y < this.map.squaresY; y++) {
-            for (let x = 0; x < this.map.squaresX; x++) {
-                this.classesMap[y + "-" + x] = this.calcClass(x, y)
-            }
-        }
-
-        this.editSelectedCityClass();
+      this.initMap();
     }
 
     editSelectedCityClass() {
