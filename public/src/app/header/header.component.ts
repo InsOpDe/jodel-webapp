@@ -55,19 +55,14 @@ export class HeaderComponent implements OnInit {
         this.loading = false;
     }
 
+    disableRandomMode() {
+        console.log("changeeed")
+        this.contentService.randomJodelId = -1;
+    }
 
     ngOnInit() {
 
-        this.jodel = new HeaderModel({
-            location: 'München',
-            cityId: 3,
-            time: '22:06',
-            text: 'Wasser löst irgendwie alle Probleme. ' +
-            'Du willst abnehmen? Trink Wasser. ' +
-            'Du hast unreine Haut? Trink Wasser. ' +
-            'Dein Ex nervt? Ertränk ihn im Wasser.\n\n' +
-            '#darferdas'
-        });
+        this.jodel = this.contentService.getRandomHeaderModel();
 
         let cityArr = [];
         for (let i in CITIES) {

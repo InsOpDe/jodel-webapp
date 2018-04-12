@@ -26,6 +26,7 @@
             <!--JODEL TEXT-->
             <div class="col-3">
                 <textarea rows="5"
+                          (change)="disableRandomMode()"
                           [disabled]="!jodelIsWriteable"
                           placeholder="Good Vibes only!"
                           class="bg-{{contentService.color}}"
