@@ -103,14 +103,16 @@ export class JResult
             let simKeyword = await this.db.getSimiliarKeywords(res3[key1].name);
             let simKeywords: {
                 name: string,
-                votes: string
+                votes: string,
+                color: string
             }[]= [];
             //console.log(simKeyword);
-            for (let simKey in simKeyword)
+            for (let i = 0; i < 4; i++)
             {
                 simKeywords.push({
-                    name: simKeyword[simKey].post_keyword,
-                    votes: simKeyword[simKey].votes
+                    name: simKeyword[i].post_keyword,
+                    votes: simKeyword[i].votes,
+                    color: await this.getRandomColor()
                 });
             }
 
@@ -152,17 +154,19 @@ export class JResult
         {
             let simHashtagsarr: {
                 name: string,
-                votes: number
+                votes: number,
+                color: string
             }[] = [];
             let _tmp: Citydata[] = [];
             let tmp = await this.db.getHashtagAmount(res2[hashi]);
             let hashnum = await this.db.getCityHashtagAmount(res2[hashi]);
             let simHashtags = await this.db.getSimiliarHashtags(res2[hashi])
-            for (let simKey in simHashtags)
+            for (let i = 0; i < 4; i++)
             {
                 simHashtagsarr.push({
-                    name: simHashtags[simKey].hashtag,
-                    votes: simHashtags[simKey].votes
+                    name: simHashtags[i].hashtag,
+                    votes: simHashtags[i].votes,
+                    color: await this.getRandomColor()
                 })
             }
 
@@ -266,7 +270,7 @@ export class JResult
 
         for (let key in COLORS)
         {
-            if (COLORS[key].id = ran)
+            if (COLORS[key].id == ran)
             {
                 return COLORS[key].color;
             }
@@ -324,11 +328,22 @@ export class JResult
                 process.stdout.write(".");
                 if (!(keywords_similiar.includes(keywords_similiar_post[key].post_keyword) || _tmpJresult.includes(keywords_similiar_post[key].post_keyword)))
                     {
-                        keywords_similiar.push(keywords_similiar_post[key].post_keyword);
+                    keywords_similiar.push({
+                        name: keywords_similiar_post[key].post_keyword,
+                        value: Math.floor(Math.random() * 100),
+                        color: await this.getRandomColor()
+                    }
+                    );
                     }
                 
             }
-
+            for (let z = 0; z < 4; z++)
+            {
+                if (keywords_similiar.length > 4)
+                {
+                    keywords_similiar.pop();
+                }
+            }
             //Same as keywords
             let hashtags_similiar_post = await this.db.getHashtagsById(keys[k].post_id);
              for (let hash in hashtags_similiar_post)
@@ -336,7 +351,11 @@ export class JResult
                 process.stdout.write(".");
                 if (!(jresult_hashtags.includes(hashtags_similiar_post[hash].post_tag) || hashtags_similiar.map(a => a.name).includes(hashtags_similiar_post[hash].post_tag)))
                 {
-                    hashtags_similiar.push(hashtags_similiar_post[hash].post_tag);
+                    hashtags_similiar.push({
+                        name: hashtags_similiar_post[hash].post_tag,
+                        value: Math.floor(Math.random() * 100),
+                        color: await this.getRandomColor()
+                    });
                         
                 }
             }
