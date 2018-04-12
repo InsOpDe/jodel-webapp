@@ -40,15 +40,16 @@ export class MapContentComponent implements OnInit {
     voteindex: object = [];
     classesMap: object = {};
     triggerValue = 'a';
+    cityId:number;
 
 
     constructor(private contentService: ContentService) {
         this.color = contentService.color;
-        let cityId = contentService.jodelData.cityId;
-        let city = CITIES[cityId];
+        this.cityId = contentService.jodelData.cityId;
+        let city = CITIES[this.cityId];
         if (city) {
           this.city = city.city;
-          this.votes = String(MapCitiesDummy[cityId].votes);
+          this.votes = String(MapCitiesDummy[this.cityId].votes);
           this.inhabitants = city.inhabitants;
         }
     }
