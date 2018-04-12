@@ -17,7 +17,7 @@ export class JResult
     keywords: HashandKeyResult[] = [];
 
     hashtags: HashandKeyResult[] =[];
-
+    time: any[];
     cityimportance: Citydata[];
 
     constructor(jodel: string, db: Db)
@@ -49,6 +49,26 @@ export class JResult
         await this.affJodel.fill();
         let res2 = await this.texttools.extractHashtags(this.Jodel);
         let res3 = await this.texttools.extractKeywords(this.Jodel);
+        let time_value: string[] = [];
+        for (let time in res3)
+        {
+            time_value.push(res3[time].name);
+        }
+        let timetable = await this.getTimeChart(time_value);
+        let timeobj: {
+            votes: number,
+            hour: string
+        }[] = [];
+        for (let tt in timetable)
+        {
+            timeobj.push({
+                votes: timetable[tt].votes,
+                hour: timetable[tt].hour
+            })
+        }
+
+        this.time = timeobj;
+
         process.stdout.write("Getting Hashtags and Keywords")
         for (let key1 in res3)
         {
@@ -147,7 +167,58 @@ export class JResult
         })
 
     }
-    
+
+    private async getTimeChart(arr: string[])
+    {
+
+        let timehours = await this.db.getClockVotesAmount(arr);
+        let newTimehour = [];
+
+        return new Promise((resolve) =>
+        {
+
+        
+        for (let I in timehours)
+        {
+            let i = Number(I);
+            let timehour = timehours[i];
+            timehour.hour = Number(timehour.hour)
+            let j = i + 1;
+            if (j >= timehours.length) j = 0;
+            let nexthour = timehours[j];
+            let difference = nexthour.votes - timehour.votes;
+            let timedifference;
+            if (timehour.hour > nexthour.hour)
+            {
+                timedifference = 24 - timehour.hour + nexthour.hour;
+            } else
+            {
+                timedifference = nexthour.hour - timehour.hour;
+            }
+
+            newTimehour.push({
+                votes: timehour.votes,
+                hour: timehour.hour,
+            })
+            let stepsize = difference / timedifference;
+            for (let k = 1; k < timedifference; k++)
+            {
+                let index = i + k;
+                let hour = timehour.hour + k;
+                // if(index  >= timehours.length) hour = hour;
+                if (hour >= 24) hour = hour - 24;
+                newTimehour.push({
+                    votes: Math.round(timehour.votes + (stepsize * k)),
+                    hour: hour,
+                })
+            }
+            }
+            resolve(newTimehour);
+        })
+    }
+
+
+
     /**
      * This will create create the Votes, Pins, Comments and similiar Keywords for a Post based on the similiar Post 
      * @param keys the keys from the similiar Posts
@@ -313,6 +384,7 @@ export class JResult
         return {
             message: this.Jodel,
             interPolatedResult: this.interPolatedResult,
+            time: this.time,
             hashtags: this.hashtags,
             keywords: this.keywords,
             jodel: this.affJodel.encodeJodel(),
@@ -486,6 +558,9 @@ export class coreJodel
 //////////////////////////////////////////////////Interfaces///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
 interface Citydata
 {
     name: string,
@@ -545,6 +620,7 @@ interface JRESULT
 {
     message: string;
     interPolatedResult: interpolatedResult;
+    time: any;
     hashtags: HashandKeyResult[],
     keywords: HashandKeyResult[],
     jodel: JodelJSON;
