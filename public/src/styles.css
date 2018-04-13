@@ -1247,6 +1247,7 @@ button:hover {
 }
 .headerContainer .sendEditButton[disabled] {
   filter: brightness(90%) !important;
+  cursor: default;
 }
 .headerContainer .getRandomJodel {
   background-color: Transparent;
