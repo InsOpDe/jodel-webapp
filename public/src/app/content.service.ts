@@ -155,7 +155,6 @@ export class ContentService {
         'turquoise'];
       let color = allColors[this.util.randomIntFromInterval(0, allColors.length - 1)];
 
-      console.log(randomjodel);
 
       let result = new HeaderModel({
         location: 'Ulm',
@@ -181,10 +180,6 @@ export class ContentService {
 
         this.jodelData = jodelData;
 
-        for (let i = 0; i < 3000; i++) {
-
-            console.log('a');
-        }
 
         let result = RESULT;
 
@@ -203,12 +198,11 @@ export class ContentService {
       this.jodelData = jodelData;
       let result;
       if(this.randomJodelId >= 0 && RANDOMJODEL[this.randomJodelId]) {
-        console.log("randomjodel")
+        // console.log("randomjodel")
         result = RANDOMJODEL[this.randomJodelId];
         await this.util.wait(3000);
 
       } else {
-        console.log(httpOptions)
         result = await this.http.post<JRESULT>('http://localhost:8080/api/dummy', jodelData, httpOptions).toPromise();
       }
 
@@ -319,8 +313,6 @@ export class ContentService {
       }))
     }
 
-    console.log("keyWortBarChart", keyWortBarChart);
-
 
     return keyWortBarChart;
 
@@ -378,7 +370,6 @@ export class ContentService {
       })
     }
 
-    console.log(_res);
     return _res;
 
   }
@@ -396,8 +387,6 @@ export class ContentService {
 
       }))
     }
-
-    console.log("_res", _res)
 
     return _res;
   }

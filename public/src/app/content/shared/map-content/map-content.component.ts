@@ -42,6 +42,7 @@ export class MapContentComponent implements OnInit {
     id: number;
     voteindex: object = [];
     classesMap: object = {};
+    mapCitiesObj: object = {};
     triggerValue = 'a';
     cityId:number;
 
@@ -60,6 +61,15 @@ export class MapContentComponent implements OnInit {
     ngOnChanges(changes: SimpleChanges) {
         if (changes.map) {
           this.initMap();
+          let cityId = this.contentService.jodelData.cityId;
+
+
+          let coordsId = this.mapCitiesObj[cityId].coordinates.y + "-" + this.mapCitiesObj[cityId].coordinates.x
+          this.updateInfoBox({
+            target: {
+              id: coordsId
+            }
+          })
           this.triggerValue = this.triggerValue == 'a' ? 'b' : 'a';
         }
     }
@@ -78,9 +88,6 @@ export class MapContentComponent implements OnInit {
     initMap() {
 
       let mapCities = this.map.cities;
-      // console.log("########");
-      // console.log(this.map);
-      // console.log("########");
 
       // map cities
       let mapCitiesObj = {};
@@ -88,6 +95,7 @@ export class MapContentComponent implements OnInit {
       for (let i in mapCities) {
         mapCitiesObj[mapCities[i].id_cities] = mapCities[i];
       }
+      this.mapCitiesObj = mapCitiesObj;
 
       for (let i in CITIES) {
         let city = CITIES[i];
@@ -96,6 +104,7 @@ export class MapContentComponent implements OnInit {
         let id = i;
 
         if (mapCitiesObj[id]) {
+          mapCitiesObj[id].coordinates = city.coordinates;
           city.votes = mapCitiesObj[id].votes;
           maxvote = Math.max(maxvote, city.votes)
         } else {
@@ -144,6 +153,7 @@ export class MapContentComponent implements OnInit {
     editSelectedCityClass() {
 
         let currentCity = CITIES[this.contentService.jodelData.cityId];
+        if(!currentCity) return;
         let x = currentCity.coordinates.x;
         let y = currentCity.coordinates.y;
 

@@ -56,7 +56,6 @@ export class HeaderComponent implements OnInit {
     }
 
     disableRandomMode() {
-        console.log("changeeed")
         this.contentService.randomJodelId = -1;
     }
 
@@ -108,7 +107,6 @@ export class HeaderComponent implements OnInit {
         this.contentService.getRandomJodel()
             .subscribe(response => {
 
-                console.log('loading finished');
 
                 this.jodel = response;
                 this.loading = false;
@@ -126,7 +124,6 @@ export class HeaderComponent implements OnInit {
     sendJodel() {
         this.loading = true;
 
-        console.log('loading started', this.loading);
 
         this.jodelIsWriteable = false;
 
@@ -135,7 +132,6 @@ export class HeaderComponent implements OnInit {
             this.contentService.getResultData(this.jodel)
                 .subscribe(response => {
 
-                    console.log('loading finished');
                     this.contentData = response;
                     this.loading = false;
                 });
@@ -148,7 +144,6 @@ export class HeaderComponent implements OnInit {
 
         this.loading = true;
 
-        console.log('loading started', this.loading);
 
         this.jodelIsWriteable = false;
 
