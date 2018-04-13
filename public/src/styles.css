@@ -90,8 +90,7 @@ button {
   color: #262323;
 }
 input[disabled],
-textarea[disabled],
-button[disabled] {
+textarea[disabled] {
   background-color: inherit;
   color: #262323;
 }
@@ -1245,6 +1244,9 @@ button:hover {
 .headerContainer .sendEditButton {
   padding: 5px 10px;
   border-radius: 2px;
+}
+.headerContainer .sendEditButton[disabled] {
+  filter: brightness(90%) !important;
 }
 .headerContainer .getRandomJodel {
   background-color: Transparent;
