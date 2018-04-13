@@ -57,7 +57,7 @@
                         [(ngModel)]="jodel.time"
                         class="bg-{{contentService.color}}"><br><br>
 
-                <button [disabled]="!jodel.text"
+                <button [disabled]="!jodel.text || !jodel.location"
                         [ngClass]="{
                         'sendEditButton': true,
                         'hm-orange-6': contentService.color == 'blue' ||

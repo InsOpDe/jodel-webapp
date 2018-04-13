@@ -1434,6 +1434,9 @@ select option {
   float: left;
   border-radius: 1px;
 }
+.outerGlow {
+  text-shadow: 0 0 3px #fff;
+}
 .quad {
   width: 8px;
   height: 8px;
