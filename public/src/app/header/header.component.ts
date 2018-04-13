@@ -7,6 +7,7 @@ import {animate, query, stagger, style, transition, trigger} from "@angular/anim
 import {COLORS} from "../global/colors";
 import {HeaderModel} from "./header.model";
 import {renderComponentOrTemplate} from "@angular/core/src/render3/instructions";
+import {UtilService} from "../util.service";
 
 /**
  * header component
@@ -53,6 +54,7 @@ export class HeaderComponent implements OnInit {
 
     constructor(public contentService: ContentService,
                 public completer: NgAutocompleteComponent,
+                private utilService: UtilService,
                 private _ngZone: NgZone) {
         this.loading = false;
     }
@@ -62,7 +64,6 @@ export class HeaderComponent implements OnInit {
     }
 
     disableRandomMode() {
-        console.log("changeeed")
         this.contentService.randomJodelId = -1;
     }
 
@@ -74,7 +75,7 @@ export class HeaderComponent implements OnInit {
         this.jodel = new HeaderModel({
         // location: 'Ulm',
         // cityId: 61,
-        time: date.getHours() + ':' + date.getMinutes(),
+        time: this.utilService.leftPad(date.getHours(),"0",2) + ':' + this.utilService.leftPad(date.getMinutes(),"0",2),
         // text: randomjodel.message
       })
 
@@ -116,7 +117,6 @@ export class HeaderComponent implements OnInit {
         this.contentService.getRandomJodel()
             .subscribe(response => {
 
-                console.log('loading finished');
 
                 this.jodel = response;
                 this.loading = false;
@@ -134,7 +134,6 @@ export class HeaderComponent implements OnInit {
     sendJodel() {
         this.loading = true;
 
-        console.log('loading started', this.loading);
 
         this.jodelIsWriteable = false;
 
@@ -143,7 +142,6 @@ export class HeaderComponent implements OnInit {
             this.contentService.getResultData(this.jodel)
                 .subscribe(response => {
 
-                    console.log('loading finished');
                     this.contentData = response;
                     this.loading = false;
                 });
@@ -156,7 +154,6 @@ export class HeaderComponent implements OnInit {
 
         this.loading = true;
 
-        console.log('loading started', this.loading);
 
         this.jodelIsWriteable = false;
 
