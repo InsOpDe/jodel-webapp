@@ -97,7 +97,7 @@ export interface JRESULT
 
 
 const httpOptions = {
-  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+  headers: new HttpHeaders({ 'Content-Type': 'application/json', timeout : String(1000 * 60 * 15) } )
 };
 
 /**
@@ -208,7 +208,8 @@ export class ContentService {
         await this.util.wait(3000);
 
       } else {
-        result = await this.http.post<JRESULT>('http://localhost:8080/api/dummy', jodelData).toPromise();
+        console.log(httpOptions)
+        result = await this.http.post<JRESULT>('http://localhost:8080/api/dummy', jodelData, httpOptions).toPromise();
       }
 
       // this.util.download(result, "dummy.json");
@@ -312,7 +313,7 @@ export class ContentService {
     {
       keyWortBarChart.push(new KeywordBarchartModel({
         color: this.getColor(this.true_result.keywords[key].color),
-        value: Number(this.true_result.keywords[key].amount),
+        value: Math.round(Number(this.true_result.keywords[key].amount)),
         keyword: this.true_result.keywords[key].name,
         maxValue: this.true_result.keywords[key].maxValue,
       }))
@@ -389,12 +390,14 @@ export class ContentService {
     for (let i = 0; i < arr.length; i++) {
       _res.push(new KeywordBarchartModel({
         color: this.getColor(arr[i].color),
-        value: arr[i].votes,
+        value: Math.round(Number(arr[i].votes)),
         keyword: arr[i].name || arr[i].hashtag,
         maxValue: arr[i].maxVal
 
       }))
     }
+
+    console.log("_res", _res)
 
     return _res;
   }

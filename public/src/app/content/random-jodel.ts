@@ -21720,4616 +21720,6 @@ export const RANDOMJODEL = {
     ]
   },
 "3" : {
-  "message": "Es ist spät und wir programmieren\n\n#rockstar #coder",
-  "interPolatedResult": {
-    "Votes": 1,
-    "Comments": 0,
-    "Pins": 1,
-    "maxValue": 4,
-    "maxKommentare": 0,
-    "Keywords_similiar": [
-      {
-        "name": "im",
-        "value": 26,
-        "color": "06A3CB",
-        "maxValue": 68
-      },
-      {
-        "name": "Bus",
-        "value": 67,
-        "color": "06A3CB",
-        "maxValue": 68
-      },
-      {
-        "name": "einschläft",
-        "value": 60,
-        "maxValue": 68
-      },
-      {
-        "name": "aussteigen",
-        "value": 68,
-        "maxValue": 68
-      }
-    ],
-    "Hashtag_similiar": [
-      {
-        "name": "#needforsleep",
-        "value": 50,
-        "color": "9EC41C",
-        "maxValue": 50
-      }
-    ]
-  },
-  "time": [
-    {
-      "votes": 13,
-      "hour": 0
-    },
-    {
-      "votes": 13,
-      "hour": 1
-    },
-    {
-      "votes": 12,
-      "hour": 2
-    },
-    {
-      "votes": 17,
-      "hour": 3
-    },
-    {
-      "votes": 23,
-      "hour": 4
-    },
-    {
-      "votes": 28,
-      "hour": 5
-    },
-    {
-      "votes": 7.5,
-      "hour": 6
-    },
-    {
-      "votes": 43.75,
-      "hour": 7
-    },
-    {
-      "votes": 21,
-      "hour": 8
-    },
-    {
-      "votes": 12,
-      "hour": 9
-    },
-    {
-      "votes": 29.5,
-      "hour": 10
-    },
-    {
-      "votes": 26,
-      "hour": 11
-    },
-    {
-      "votes": 43.3333,
-      "hour": 12
-    },
-    {
-      "votes": 15,
-      "hour": 13
-    },
-    {
-      "votes": 30.5,
-      "hour": 14
-    },
-    {
-      "votes": 38,
-      "hour": 15
-    },
-    {
-      "votes": 2,
-      "hour": 16
-    },
-    {
-      "votes": 22,
-      "hour": 17
-    },
-    {
-      "votes": 38.8571,
-      "hour": 18
-    },
-    {
-      "votes": 27.6667,
-      "hour": 19
-    },
-    {
-      "votes": 35.5556,
-      "hour": 20
-    },
-    {
-      "votes": 38.4,
-      "hour": 21
-    },
-    {
-      "votes": 26,
-      "hour": 22
-    },
-    {
-      "votes": 14,
-      "hour": 23
-    }
-  ],
-  "hashtags": [
-    {
-      "name": "#rockstar",
-      "amount": 8,
-      "citydata": [
-        {
-          "votes": 3,
-          "id_cities": 3
-        },
-        {
-          "votes": 1,
-          "id_cities": 30
-        },
-        {
-          "votes": 1,
-          "id_cities": 32
-        },
-        {
-          "votes": 1,
-          "id_cities": 49
-        },
-        {
-          "votes": 1,
-          "id_cities": 61
-        },
-        {
-          "votes": 1,
-          "id_cities": 77
-        }
-      ],
-      "maxValue": 8,
-      "similiar": [],
-      "color": "FF9908"
-    },
-    {
-      "name": "#coder",
-      "amount": 0,
-      "citydata": [],
-      "maxValue": 8,
-      "similiar": [],
-      "color": "FF9908"
-    }
-  ],
-  "keywords": [
-    {
-      "name": "spät",
-      "amount": "8113",
-      "citydata": [
-        {
-          "name": "Berlin",
-          "votes": 270,
-          "id_cities": 1
-        },
-        {
-          "name": "Hamburg",
-          "votes": 284,
-          "id_cities": 2
-        },
-        {
-          "name": "München",
-          "votes": 465,
-          "id_cities": 3
-        },
-        {
-          "name": "Köln",
-          "votes": 401,
-          "id_cities": 4
-        },
-        {
-          "name": "Frankfurt am Main",
-          "votes": 217,
-          "id_cities": 5
-        },
-        {
-          "name": "Stuttgart",
-          "votes": 220,
-          "id_cities": 6
-        },
-        {
-          "name": "Düsseldorf",
-          "votes": 144,
-          "id_cities": 7
-        },
-        {
-          "name": "Dortmund",
-          "votes": 171,
-          "id_cities": 8
-        },
-        {
-          "name": "Essen",
-          "votes": 124,
-          "id_cities": 9
-        },
-        {
-          "name": "Leipzig",
-          "votes": 111,
-          "id_cities": 10
-        },
-        {
-          "name": "Bremen",
-          "votes": 118,
-          "id_cities": 11
-        },
-        {
-          "name": "Dresden",
-          "votes": 132,
-          "id_cities": 12
-        },
-        {
-          "name": "Hannover",
-          "votes": 208,
-          "id_cities": 13
-        },
-        {
-          "name": "Nürnberg",
-          "votes": 105,
-          "id_cities": 14
-        },
-        {
-          "name": "Duisburg",
-          "votes": 63,
-          "id_cities": 15
-        },
-        {
-          "name": "Bochum",
-          "votes": 102,
-          "id_cities": 16
-        },
-        {
-          "name": "Wuppertal",
-          "votes": 66,
-          "id_cities": 17
-        },
-        {
-          "name": "Bielefeld",
-          "votes": 125,
-          "id_cities": 18
-        },
-        {
-          "name": "Bonn",
-          "votes": 105,
-          "id_cities": 19
-        },
-        {
-          "name": "Münster",
-          "votes": 149,
-          "id_cities": 20
-        },
-        {
-          "name": "Karlsruhe",
-          "votes": 154,
-          "id_cities": 21
-        },
-        {
-          "name": "Mannheim",
-          "votes": 96,
-          "id_cities": 22
-        },
-        {
-          "name": "Augsburg",
-          "votes": 92,
-          "id_cities": 23
-        },
-        {
-          "name": "Wiesbaden",
-          "votes": 52,
-          "id_cities": 24
-        },
-        {
-          "name": "Gelsenkirchen",
-          "votes": 19,
-          "id_cities": 25
-        },
-        {
-          "name": "Mönchengladbach",
-          "votes": 35,
-          "id_cities": 26
-        },
-        {
-          "name": "Braunschweig",
-          "votes": 86,
-          "id_cities": 27
-        },
-        {
-          "name": "Chemnitz",
-          "votes": 24,
-          "id_cities": 28
-        },
-        {
-          "name": "Kiel",
-          "votes": 112,
-          "id_cities": 29
-        },
-        {
-          "name": "Aachen",
-          "votes": 177,
-          "id_cities": 30
-        },
-        {
-          "name": "Halle (Saale)",
-          "votes": 6,
-          "id_cities": 31
-        },
-        {
-          "name": "Magdeburg",
-          "votes": 54,
-          "id_cities": 32
-        },
-        {
-          "name": "Freiburg im Breisgau",
-          "votes": 102,
-          "id_cities": 33
-        },
-        {
-          "name": "Krefeld",
-          "votes": 14,
-          "id_cities": 34
-        },
-        {
-          "name": "Lübeck",
-          "votes": 34,
-          "id_cities": 35
-        },
-        {
-          "name": "Oberhausen",
-          "votes": 20,
-          "id_cities": 36
-        },
-        {
-          "name": "Erfurt",
-          "votes": 44,
-          "id_cities": 37
-        },
-        {
-          "name": "Mainz",
-          "votes": 112,
-          "id_cities": 38
-        },
-        {
-          "name": "Rostock",
-          "votes": 54,
-          "id_cities": 39
-        },
-        {
-          "name": "Kassel",
-          "votes": 72,
-          "id_cities": 40
-        },
-        {
-          "name": "Hagen",
-          "votes": 6,
-          "id_cities": 41
-        },
-        {
-          "name": "Hamm",
-          "votes": 22,
-          "id_cities": 42
-        },
-        {
-          "name": "Saarbrücken",
-          "votes": 60,
-          "id_cities": 43
-        },
-        {
-          "name": "Mülheim an der Ruhr",
-          "votes": 19,
-          "id_cities": 44
-        },
-        {
-          "name": "Potsdam",
-          "votes": 23,
-          "id_cities": 45
-        },
-        {
-          "name": "Ludwigshafen am Rhein",
-          "votes": 11,
-          "id_cities": 46
-        },
-        {
-          "name": "Oldenburg",
-          "votes": 94,
-          "id_cities": 47
-        },
-        {
-          "name": "Leverkusen",
-          "votes": 10,
-          "id_cities": 48
-        },
-        {
-          "name": "Osnabrück",
-          "votes": 113,
-          "id_cities": 49
-        },
-        {
-          "name": "Solingen",
-          "votes": 10,
-          "id_cities": 50
-        },
-        {
-          "name": "Heidelberg",
-          "votes": 85,
-          "id_cities": 51
-        },
-        {
-          "name": "Herne",
-          "votes": 20,
-          "id_cities": 52
-        },
-        {
-          "name": "Neuss",
-          "votes": 31,
-          "id_cities": 53
-        },
-        {
-          "name": "Darmstadt",
-          "votes": 79,
-          "id_cities": 54
-        },
-        {
-          "name": "Paderborn",
-          "votes": 73,
-          "id_cities": 55
-        },
-        {
-          "name": "Regensburg",
-          "votes": 109,
-          "id_cities": 56
-        },
-        {
-          "name": "Ingolstadt",
-          "votes": 29,
-          "id_cities": 57
-        },
-        {
-          "name": "Würzburg",
-          "votes": 118,
-          "id_cities": 58
-        },
-        {
-          "name": "Fürth",
-          "votes": 12,
-          "id_cities": 59
-        },
-        {
-          "name": "Wolfsburg",
-          "votes": 6,
-          "id_cities": 60
-        },
-        {
-          "name": "Ulm",
-          "votes": 37,
-          "id_cities": 61
-        },
-        {
-          "name": "Heilbronn",
-          "votes": 10,
-          "id_cities": 62
-        },
-        {
-          "name": "Pforzheim",
-          "votes": 20,
-          "id_cities": 63
-        },
-        {
-          "name": "Göttingen",
-          "votes": 80,
-          "id_cities": 64
-        },
-        {
-          "name": "Bottrop",
-          "votes": 8,
-          "id_cities": 65
-        },
-        {
-          "name": "Trier",
-          "votes": 60,
-          "id_cities": 66
-        },
-        {
-          "name": "Recklinghausen",
-          "votes": 13,
-          "id_cities": 67
-        },
-        {
-          "name": "Reutlingen",
-          "votes": 14,
-          "id_cities": 68
-        },
-        {
-          "name": "Bremerhaven",
-          "votes": 14,
-          "id_cities": 69
-        },
-        {
-          "name": "Koblenz",
-          "votes": 34,
-          "id_cities": 70
-        },
-        {
-          "name": "Bergisch Gladbach",
-          "votes": 12,
-          "id_cities": 71
-        },
-        {
-          "name": "Jena",
-          "votes": 74,
-          "id_cities": 72
-        },
-        {
-          "name": "Remscheid",
-          "votes": 5,
-          "id_cities": 73
-        },
-        {
-          "name": "Erlangen",
-          "votes": 68,
-          "id_cities": 74
-        },
-        {
-          "name": "Moers",
-          "votes": 4,
-          "id_cities": 75
-        },
-        {
-          "name": "Siegen",
-          "votes": 56,
-          "id_cities": 76
-        },
-        {
-          "name": "Hildesheim",
-          "votes": 35,
-          "id_cities": 77
-        },
-        {
-          "name": "Salzgitter",
-          "votes": 3,
-          "id_cities": 78
-        },
-        {
-          "name": "Cottbus",
-          "votes": 8,
-          "id_cities": 79
-        },
-        {
-          "name": "Kaiserslautern",
-          "votes": 25,
-          "id_cities": 80
-        },
-        {
-          "name": "Gütersloh",
-          "votes": 5,
-          "id_cities": 81
-        },
-        {
-          "name": "Schwerin",
-          "votes": 2,
-          "id_cities": 82
-        },
-        {
-          "name": "Witten",
-          "votes": 15,
-          "id_cities": 83
-        },
-        {
-          "name": "Iserlohn",
-          "votes": 3,
-          "id_cities": 85
-        },
-        {
-          "name": "Ludwigsburg",
-          "votes": 17,
-          "id_cities": 86
-        },
-        {
-          "name": "Hanau",
-          "votes": 6,
-          "id_cities": 87
-        },
-        {
-          "name": "Esslingen am Neckar",
-          "votes": 5,
-          "id_cities": 88
-        },
-        {
-          "name": "Zwickau",
-          "votes": 13,
-          "id_cities": 89
-        },
-        {
-          "name": "Düren",
-          "votes": 3,
-          "id_cities": 90
-        },
-        {
-          "name": "Ratingen",
-          "votes": 11,
-          "id_cities": 91
-        },
-        {
-          "name": "Tübingen",
-          "votes": 80,
-          "id_cities": 92
-        },
-        {
-          "name": "Flensburg",
-          "votes": 29,
-          "id_cities": 93
-        },
-        {
-          "name": "Lünen",
-          "votes": 2,
-          "id_cities": 94
-        },
-        {
-          "name": "Villingen-Schwenningen",
-          "votes": 14,
-          "id_cities": 95
-        },
-        {
-          "name": "Gießen",
-          "votes": 114,
-          "id_cities": 96
-        },
-        {
-          "name": "Marl",
-          "votes": 2,
-          "id_cities": 97
-        },
-        {
-          "name": "Konstanz",
-          "votes": 25,
-          "id_cities": 98
-        },
-        {
-          "name": "Worms",
-          "votes": 4,
-          "id_cities": 99
-        },
-        {
-          "name": "Minden",
-          "votes": 5,
-          "id_cities": 100
-        },
-        {
-          "name": "Velbert",
-          "votes": 11,
-          "id_cities": 101
-        },
-        {
-          "name": "Neumünster",
-          "votes": 5,
-          "id_cities": 102
-        },
-        {
-          "name": "Norderstedt",
-          "votes": 1,
-          "id_cities": 103
-        },
-        {
-          "name": "Delmenhorst",
-          "votes": 2,
-          "id_cities": 104
-        },
-        {
-          "name": "Wilhelmshaven",
-          "votes": 20,
-          "id_cities": 105
-        },
-        {
-          "name": "Viersen",
-          "votes": 6,
-          "id_cities": 106
-        },
-        {
-          "name": "Gladbeck",
-          "votes": 2,
-          "id_cities": 107
-        },
-        {
-          "name": "Dorsten",
-          "votes": 2,
-          "id_cities": 108
-        },
-        {
-          "name": "Rheine",
-          "votes": 5,
-          "id_cities": 109
-        },
-        {
-          "name": "Detmold",
-          "votes": 3,
-          "id_cities": 110
-        },
-        {
-          "name": "Troisdorf",
-          "votes": 8,
-          "id_cities": 111
-        },
-        {
-          "name": "Castrop-Rauxel",
-          "votes": 5,
-          "id_cities": 112
-        },
-        {
-          "name": "Lüneburg",
-          "votes": 24,
-          "id_cities": 113
-        },
-        {
-          "name": "Marburg",
-          "votes": 51,
-          "id_cities": 114
-        },
-        {
-          "name": "Arnsberg",
-          "votes": 2,
-          "id_cities": 115
-        },
-        {
-          "name": "Lüdenscheid",
-          "votes": 1,
-          "id_cities": 116
-        },
-        {
-          "name": "Bamberg",
-          "votes": 40,
-          "id_cities": 117
-        },
-        {
-          "name": "Bayreuth",
-          "votes": 48,
-          "id_cities": 118
-        },
-        {
-          "name": "Bocholt",
-          "votes": 7,
-          "id_cities": 119
-        },
-        {
-          "name": "Landshut",
-          "votes": 5,
-          "id_cities": 121
-        },
-        {
-          "name": "Aschaffenburg",
-          "votes": 11,
-          "id_cities": 122
-        },
-        {
-          "name": "Dinslaken",
-          "votes": 1,
-          "id_cities": 123
-        },
-        {
-          "name": "Aalen",
-          "votes": 16,
-          "id_cities": 124
-        },
-        {
-          "name": "Fulda",
-          "votes": 18,
-          "id_cities": 125
-        },
-        {
-          "name": "Lippstadt",
-          "votes": 5,
-          "id_cities": 126
-        },
-        {
-          "name": "Kempten (Allgäu)",
-          "votes": 12,
-          "id_cities": 127
-        },
-        {
-          "name": "Herford",
-          "votes": 3,
-          "id_cities": 128
-        },
-        {
-          "name": "Kerpen",
-          "votes": 2,
-          "id_cities": 129
-        },
-        {
-          "name": "Plauen",
-          "votes": 1,
-          "id_cities": 130
-        },
-        {
-          "name": "Neuwied",
-          "votes": 2,
-          "id_cities": 131
-        },
-        {
-          "name": "Weimar",
-          "votes": 11,
-          "id_cities": 132
-        },
-        {
-          "name": "Dormagen",
-          "votes": 3,
-          "id_cities": 133
-        },
-        {
-          "name": "Sindelfingen",
-          "votes": 7,
-          "id_cities": 134
-        },
-        {
-          "name": "Neubrandenburg",
-          "votes": 2,
-          "id_cities": 135
-        },
-        {
-          "name": "Grevenbroich",
-          "votes": 3,
-          "id_cities": 136
-        },
-        {
-          "name": "Rosenheim",
-          "votes": 9,
-          "id_cities": 137
-        },
-        {
-          "name": "Herten",
-          "votes": 3,
-          "id_cities": 138
-        },
-        {
-          "name": "Wesel",
-          "votes": 1,
-          "id_cities": 139
-        },
-        {
-          "name": "Garbsen",
-          "votes": 3,
-          "id_cities": 140
-        },
-        {
-          "name": "Schwäbisch Gmünd",
-          "votes": 5,
-          "id_cities": 142
-        },
-        {
-          "name": "Hürth",
-          "votes": 4,
-          "id_cities": 143
-        },
-        {
-          "name": "Unna",
-          "votes": 1,
-          "id_cities": 144
-        },
-        {
-          "name": "Friedrichshafen",
-          "votes": 10,
-          "id_cities": 145
-        },
-        {
-          "name": "Offenburg",
-          "votes": 2,
-          "id_cities": 146
-        },
-        {
-          "name": "Stralsund",
-          "votes": 1,
-          "id_cities": 147
-        },
-        {
-          "name": "Langenfeld (Rheinland)",
-          "votes": 2,
-          "id_cities": 148
-        },
-        {
-          "name": "Greifswald",
-          "votes": 19,
-          "id_cities": 149
-        },
-        {
-          "name": "Neu-Ulm",
-          "votes": 2,
-          "id_cities": 150
-        },
-        {
-          "name": "Göppingen",
-          "votes": 1,
-          "id_cities": 151
-        },
-        {
-          "name": "Euskirchen",
-          "votes": 4,
-          "id_cities": 152
-        },
-        {
-          "name": "Stolberg (Rheinland)",
-          "votes": 1,
-          "id_cities": 153
-        },
-        {
-          "name": "Hameln",
-          "votes": 1,
-          "id_cities": 154
-        },
-        {
-          "name": "Sankt Augustin",
-          "votes": 13,
-          "id_cities": 156
-        },
-        {
-          "name": "Hilden",
-          "votes": 13,
-          "id_cities": 158
-        },
-        {
-          "name": "Meerbusch",
-          "votes": 4,
-          "id_cities": 159
-        },
-        {
-          "name": "Hattingen",
-          "votes": 8,
-          "id_cities": 160
-        },
-        {
-          "name": "Waiblingen",
-          "votes": 9,
-          "id_cities": 161
-        },
-        {
-          "name": "Pulheim",
-          "votes": 6,
-          "id_cities": 162
-        },
-        {
-          "name": "Baden-Baden",
-          "votes": 5,
-          "id_cities": 163
-        },
-        {
-          "name": "Menden (Sauerland)",
-          "votes": 4,
-          "id_cities": 164
-        },
-        {
-          "name": "Bad Salzuflen",
-          "votes": 3,
-          "id_cities": 165
-        },
-        {
-          "name": "Langenhagen",
-          "votes": 8,
-          "id_cities": 166
-        },
-        {
-          "name": "Nordhorn",
-          "votes": 1,
-          "id_cities": 167
-        },
-        {
-          "name": "Lingen (Ems)",
-          "votes": 2,
-          "id_cities": 168
-        },
-        {
-          "name": "Bad Homburg vor der Höhe",
-          "votes": 6,
-          "id_cities": 169
-        },
-        {
-          "name": "Neustadt an der Weinstraße",
-          "votes": 3,
-          "id_cities": 170
-        },
-        {
-          "name": "Ahlen",
-          "votes": 3,
-          "id_cities": 171
-        },
-        {
-          "name": "Wolfenbüttel",
-          "votes": 5,
-          "id_cities": 172
-        },
-        {
-          "name": "Frechen",
-          "votes": 6,
-          "id_cities": 173
-        },
-        {
-          "name": "Schweinfurt",
-          "votes": 4,
-          "id_cities": 174
-        },
-        {
-          "name": "Wetzlar",
-          "votes": 1,
-          "id_cities": 175
-        },
-        {
-          "name": "Ibbenbüren",
-          "votes": 4,
-          "id_cities": 176
-        },
-        {
-          "name": "Willich",
-          "votes": 1,
-          "id_cities": 178
-        },
-        {
-          "name": "Emden",
-          "votes": 22,
-          "id_cities": 179
-        },
-        {
-          "name": "Passau",
-          "votes": 49,
-          "id_cities": 180
-        },
-        {
-          "name": "Gummersbach",
-          "votes": 3,
-          "id_cities": 181
-        },
-        {
-          "name": "Ravensburg",
-          "votes": 3,
-          "id_cities": 183
-        },
-        {
-          "name": "Erftstadt",
-          "votes": 1,
-          "id_cities": 184
-        },
-        {
-          "name": "Kleve",
-          "votes": 2,
-          "id_cities": 185
-        },
-        {
-          "name": "Peine",
-          "votes": 1,
-          "id_cities": 187
-        },
-        {
-          "name": "Lörrach",
-          "votes": 2,
-          "id_cities": 188
-        },
-        {
-          "name": "Bad Oeynhausen",
-          "votes": 1,
-          "id_cities": 189
-        },
-        {
-          "name": "Böblingen",
-          "votes": 5,
-          "id_cities": 190
-        },
-        {
-          "name": "Elmshorn",
-          "votes": 3,
-          "id_cities": 191
-        },
-        {
-          "name": "Frankenthal (Pfalz)",
-          "votes": 2,
-          "id_cities": 192
-        },
-        {
-          "name": "Rastatt",
-          "votes": 2,
-          "id_cities": 194
-        },
-        {
-          "name": "Soest",
-          "votes": 4,
-          "id_cities": 197
-        },
-        {
-          "name": "Bergkamen",
-          "votes": 1,
-          "id_cities": 198
-        },
-        {
-          "name": "Bornheim",
-          "votes": 5,
-          "id_cities": 199
-        },
-        {
-          "name": "Leonberg",
-          "votes": 1,
-          "id_cities": 201
-        },
-        {
-          "name": "Freising",
-          "votes": 8,
-          "id_cities": 202
-        },
-        {
-          "name": "Hennef (Sieg)",
-          "votes": 5,
-          "id_cities": 203
-        },
-        {
-          "name": "Alsdorf",
-          "votes": 1,
-          "id_cities": 204
-        },
-        {
-          "name": "Schwerte",
-          "votes": 4,
-          "id_cities": 206
-        },
-        {
-          "name": "Dachau",
-          "votes": 1,
-          "id_cities": 207
-        },
-        {
-          "name": "Herzogenrath",
-          "votes": 5,
-          "id_cities": 209
-        },
-        {
-          "name": "Neunkirchen",
-          "votes": 3,
-          "id_cities": 211
-        },
-        {
-          "name": "Oberursel (Taunus)",
-          "votes": 2,
-          "id_cities": 213
-        },
-        {
-          "name": "Landau in der Pfalz",
-          "votes": 12,
-          "id_cities": 216
-        },
-        {
-          "name": "Fellbach",
-          "votes": 4,
-          "id_cities": 217
-        },
-        {
-          "name": "Filderstadt",
-          "votes": 2,
-          "id_cities": 218
-        },
-        {
-          "name": "Lahr/Schwarzwald",
-          "votes": 1,
-          "id_cities": 219
-        },
-        {
-          "name": "Weinheim",
-          "votes": 1,
-          "id_cities": 220
-        },
-        {
-          "name": "Brühl",
-          "votes": 6,
-          "id_cities": 221
-        },
-        {
-          "name": "Albstadt",
-          "votes": 2,
-          "id_cities": 223
-        },
-        {
-          "name": "Rodgau",
-          "votes": 3,
-          "id_cities": 224
-        },
-        {
-          "name": "Bruchsal",
-          "votes": 1,
-          "id_cities": 225
-        },
-        {
-          "name": "Erkrath",
-          "votes": 5,
-          "id_cities": 226
-        },
-        {
-          "name": "Kamen",
-          "votes": 1,
-          "id_cities": 228
-        },
-        {
-          "name": "Halberstadt",
-          "votes": 1,
-          "id_cities": 229
-        },
-        {
-          "name": "Lehrte",
-          "votes": 1,
-          "id_cities": 230
-        },
-        {
-          "name": "Kaarst",
-          "votes": 2,
-          "id_cities": 233
-        },
-        {
-          "name": "Rottenburg am Neckar",
-          "votes": 13,
-          "id_cities": 234
-        },
-        {
-          "name": "Bietigheim-Bissingen",
-          "votes": 2,
-          "id_cities": 235
-        },
-        {
-          "name": "Wismar",
-          "votes": 3,
-          "id_cities": 239
-        },
-        {
-          "name": "Eisenach",
-          "votes": 1,
-          "id_cities": 240
-        },
-        {
-          "name": "Pinneberg",
-          "votes": 1,
-          "id_cities": 242
-        },
-        {
-          "name": "Nordhausen",
-          "votes": 4,
-          "id_cities": 243
-        },
-        {
-          "name": "Weiden in der Oberpfalz",
-          "votes": 3,
-          "id_cities": 244
-        },
-        {
-          "name": "Homburg",
-          "votes": 1,
-          "id_cities": 245
-        },
-        {
-          "name": "Nettetal",
-          "votes": 3,
-          "id_cities": 246
-        },
-        {
-          "name": "Gifhorn",
-          "votes": 2,
-          "id_cities": 247
-        },
-        {
-          "name": "Amberg",
-          "votes": 4,
-          "id_cities": 248
-        },
-        {
-          "name": "Freiberg",
-          "votes": 11,
-          "id_cities": 249
-        },
-        {
-          "name": "Heinsberg",
-          "votes": 2,
-          "id_cities": 250
-        },
-        {
-          "name": "Lemgo",
-          "votes": 9,
-          "id_cities": 252
-        },
-        {
-          "name": "Coburg",
-          "votes": 17,
-          "id_cities": 253
-        },
-        {
-          "name": "Wunstorf",
-          "votes": 1,
-          "id_cities": 254
-        },
-        {
-          "name": "Ansbach",
-          "votes": 5,
-          "id_cities": 255
-        },
-        {
-          "name": "Siegburg",
-          "votes": 1,
-          "id_cities": 256
-        },
-        {
-          "name": "Laatzen",
-          "votes": 5,
-          "id_cities": 258
-        },
-        {
-          "name": "Königswinter",
-          "votes": 10,
-          "id_cities": 259
-        },
-        {
-          "name": "Dreieich",
-          "votes": 3,
-          "id_cities": 260
-        },
-        {
-          "name": "Nürtingen",
-          "votes": 1,
-          "id_cities": 261
-        },
-        {
-          "name": "Stendal",
-          "votes": 3,
-          "id_cities": 263
-        },
-        {
-          "name": "Buxtehude",
-          "votes": 3,
-          "id_cities": 264
-        },
-        {
-          "name": "Kirchheim unter Teck",
-          "votes": 1,
-          "id_cities": 266
-        },
-        {
-          "name": "Löhne",
-          "votes": 1,
-          "id_cities": 267
-        },
-        {
-          "name": "Bensheim",
-          "votes": 3,
-          "id_cities": 268
-        },
-        {
-          "name": "Bautzen",
-          "votes": 1,
-          "id_cities": 269
-        },
-        {
-          "name": "Freital",
-          "votes": 5,
-          "id_cities": 270
-        },
-        {
-          "name": "Hückelhoven",
-          "votes": 1,
-          "id_cities": 271
-        },
-        {
-          "name": "Germering",
-          "votes": 2,
-          "id_cities": 273
-        },
-        {
-          "name": "Ahaus",
-          "votes": 1,
-          "id_cities": 275
-        },
-        {
-          "name": "Schorndorf",
-          "votes": 1,
-          "id_cities": 276
-        },
-        {
-          "name": "Völklingen",
-          "votes": 1,
-          "id_cities": 277
-        },
-        {
-          "name": "Leinfelden-Echterdingen",
-          "votes": 2,
-          "id_cities": 278
-        },
-        {
-          "name": "Ettlingen",
-          "votes": 2,
-          "id_cities": 279
-        },
-        {
-          "name": "Würselen",
-          "votes": 6,
-          "id_cities": 280
-        },
-        {
-          "name": "Schwäbisch Hall",
-          "votes": 4,
-          "id_cities": 281
-        },
-        {
-          "name": "Ostfildern",
-          "votes": 8,
-          "id_cities": 282
-        },
-        {
-          "name": "Mettmann",
-          "votes": 4,
-          "id_cities": 284
-        },
-        {
-          "name": "Kamp-Lintfort",
-          "votes": 2,
-          "id_cities": 287
-        },
-        {
-          "name": "Niederkassel",
-          "votes": 3,
-          "id_cities": 288
-        },
-        {
-          "name": "Warendorf",
-          "votes": 1,
-          "id_cities": 290
-        },
-        {
-          "name": "Beckum",
-          "votes": 3,
-          "id_cities": 296
-        },
-        {
-          "name": "Emsdetten",
-          "votes": 2,
-          "id_cities": 297
-        },
-        {
-          "name": "Sankt Ingbert",
-          "votes": 4,
-          "id_cities": 298
-        },
-        {
-          "name": "Bramsche",
-          "votes": 3,
-          "id_cities": 302
-        },
-        {
-          "name": "Wesseling",
-          "votes": 2,
-          "id_cities": 303
-        },
-        {
-          "name": "Königs Wusterhausen",
-          "votes": 2,
-          "id_cities": 304
-        },
-        {
-          "name": "Porta Westfalica",
-          "votes": 1,
-          "id_cities": 306
-        },
-        {
-          "name": "Lage",
-          "votes": 1,
-          "id_cities": 308
-        },
-        {
-          "name": "Kempen",
-          "votes": 1,
-          "id_cities": 311
-        },
-        {
-          "name": "Saarlouis",
-          "votes": 1,
-          "id_cities": 312
-        },
-        {
-          "name": "Datteln",
-          "votes": 3,
-          "id_cities": 314
-        },
-        {
-          "name": "Wermelskirchen",
-          "votes": 1,
-          "id_cities": 315
-        },
-        {
-          "name": "Zweibrücken",
-          "votes": 3,
-          "id_cities": 316
-        },
-        {
-          "name": "Limburg an der Lahn",
-          "votes": 1,
-          "id_cities": 317
-        },
-        {
-          "name": "Radebeul",
-          "votes": 1,
-          "id_cities": 318
-        },
-        {
-          "name": "Bernburg (Saale)",
-          "votes": 7,
-          "id_cities": 321
-        },
-        {
-          "name": "Winsen (Luhe)",
-          "votes": 1,
-          "id_cities": 322
-        },
-        {
-          "name": "Goch",
-          "votes": 2,
-          "id_cities": 323
-        },
-        {
-          "name": "Geldern",
-          "votes": 1,
-          "id_cities": 325
-        },
-        {
-          "name": "Cloppenburg",
-          "votes": 2,
-          "id_cities": 326
-        },
-        {
-          "name": "Steinfurt",
-          "votes": 2,
-          "id_cities": 329
-        },
-        {
-          "name": "Balingen",
-          "votes": 1,
-          "id_cities": 330
-        },
-        {
-          "name": "Mörfelden-Walldorf",
-          "votes": 3,
-          "id_cities": 331
-        },
-        {
-          "name": "Barsinghausen",
-          "votes": 1,
-          "id_cities": 332
-        },
-        {
-          "name": "Hemer",
-          "votes": 3,
-          "id_cities": 333
-        },
-        {
-          "name": "Dietzenbach",
-          "votes": 2,
-          "id_cities": 334
-        },
-        {
-          "name": "Seelze",
-          "votes": 2,
-          "id_cities": 335
-        },
-        {
-          "name": "Wernigerode",
-          "votes": 14,
-          "id_cities": 337
-        },
-        {
-          "name": "Stuhr",
-          "votes": 2,
-          "id_cities": 338
-        },
-        {
-          "name": "Bad Vilbel",
-          "votes": 3,
-          "id_cities": 339
-        },
-        {
-          "name": "Korschenbroich",
-          "votes": 4,
-          "id_cities": 341
-        },
-        {
-          "name": "Jülich",
-          "votes": 3,
-          "id_cities": 346
-        },
-        {
-          "name": "Lampertheim",
-          "votes": 1,
-          "id_cities": 347
-        },
-        {
-          "name": "Biberach an der Riß",
-          "votes": 4,
-          "id_cities": 348
-        },
-        {
-          "name": "Deggendorf",
-          "votes": 12,
-          "id_cities": 349
-        },
-        {
-          "name": "Delbrück",
-          "votes": 2,
-          "id_cities": 350
-        },
-        {
-          "name": "Bad Nauheim",
-          "votes": 1,
-          "id_cities": 353
-        },
-        {
-          "name": "Vechta",
-          "votes": 33,
-          "id_cities": 354
-        },
-        {
-          "name": "Georgsmarienhütte",
-          "votes": 1,
-          "id_cities": 355
-        },
-        {
-          "name": "Kreuztal",
-          "votes": 3,
-          "id_cities": 356
-        },
-        {
-          "name": "Einbeck",
-          "votes": 2,
-          "id_cities": 359
-        },
-        {
-          "name": "Herrenberg",
-          "votes": 2,
-          "id_cities": 363
-        },
-        {
-          "name": "Eisenhüttenstadt",
-          "votes": 1,
-          "id_cities": 368
-        },
-        {
-          "name": "Haan",
-          "votes": 1,
-          "id_cities": 369
-        },
-        {
-          "name": "Lohmar",
-          "votes": 1,
-          "id_cities": 371
-        },
-        {
-          "name": "Burgdorf",
-          "votes": 1,
-          "id_cities": 373
-        },
-        {
-          "name": "Meschede",
-          "votes": 1,
-          "id_cities": 374
-        },
-        {
-          "name": "Geesthacht",
-          "votes": 1,
-          "id_cities": 376
-        },
-        {
-          "name": "Werne",
-          "votes": 1,
-          "id_cities": 377
-        },
-        {
-          "name": "Merzig",
-          "votes": 1,
-          "id_cities": 378
-        },
-        {
-          "name": "Höxter",
-          "votes": 1,
-          "id_cities": 380
-        },
-        {
-          "name": "Andernach",
-          "votes": 3,
-          "id_cities": 381
-        },
-        {
-          "name": "Waltrop",
-          "votes": 1,
-          "id_cities": 384
-        },
-        {
-          "name": "Friedberg",
-          "votes": 4,
-          "id_cities": 385
-        },
-        {
-          "name": "Oelde",
-          "votes": 1,
-          "id_cities": 386
-        },
-        {
-          "name": "Tönisvorst",
-          "votes": 2,
-          "id_cities": 387
-        },
-        {
-          "name": "Taunusstein",
-          "votes": 1,
-          "id_cities": 390
-        },
-        {
-          "name": "Gaggenau",
-          "votes": 1,
-          "id_cities": 392
-        },
-        {
-          "name": "Bühl",
-          "votes": 1,
-          "id_cities": 394
-        },
-        {
-          "name": "Güstrow",
-          "votes": 1,
-          "id_cities": 395
-        },
-        {
-          "name": "Bretten",
-          "votes": 1,
-          "id_cities": 396
-        },
-        {
-          "name": "Rösrath",
-          "votes": 1,
-          "id_cities": 403
-        },
-        {
-          "name": "Bad Zwischenahn",
-          "votes": 1,
-          "id_cities": 407
-        },
-        {
-          "name": "Mühlheim am Main",
-          "votes": 5,
-          "id_cities": 408
-        },
-        {
-          "name": "Winnenden",
-          "votes": 1,
-          "id_cities": 413
-        },
-        {
-          "name": "Wegberg",
-          "votes": 1,
-          "id_cities": 414
-        },
-        {
-          "name": "Wetter (Ruhr)",
-          "votes": 1,
-          "id_cities": 415
-        },
-        {
-          "name": "Aschersleben",
-          "votes": 1,
-          "id_cities": 416
-        },
-        {
-          "name": "Königsbrunn",
-          "votes": 2,
-          "id_cities": 417
-        },
-        {
-          "name": "Henstedt-Ulzburg",
-          "votes": 1,
-          "id_cities": 419
-        },
-        {
-          "name": "Baunatal",
-          "votes": 7,
-          "id_cities": 420
-        },
-        {
-          "name": "Emmendingen",
-          "votes": 5,
-          "id_cities": 422
-        },
-        {
-          "name": "Rödermark",
-          "votes": 1,
-          "id_cities": 424
-        },
-        {
-          "name": "Rheinbach",
-          "votes": 1,
-          "id_cities": 425
-        },
-        {
-          "name": "Mechernich",
-          "votes": 1,
-          "id_cities": 427
-        },
-        {
-          "name": "Geislingen an der Steige",
-          "votes": 1,
-          "id_cities": 428
-        },
-        {
-          "name": "Reinbek",
-          "votes": 1,
-          "id_cities": 431
-        },
-        {
-          "name": "Verden (Aller)",
-          "votes": 1,
-          "id_cities": 432
-        },
-        {
-          "name": "Hamminkeln",
-          "votes": 2,
-          "id_cities": 433
-        },
-        {
-          "name": "Hattersheim am Main",
-          "votes": 1,
-          "id_cities": 436
-        },
-        {
-          "name": "Griesheim",
-          "votes": 3,
-          "id_cities": 437
-        },
-        {
-          "name": "Köthen (Anhalt)",
-          "votes": 1,
-          "id_cities": 446
-        },
-        {
-          "name": "Wiesloch",
-          "votes": 4,
-          "id_cities": 447
-        },
-        {
-          "name": "Lauf an der Pegnitz",
-          "votes": 5,
-          "id_cities": 448
-        },
-        {
-          "name": "Nordenham",
-          "votes": 1,
-          "id_cities": 449
-        },
-        {
-          "name": "Ilmenau",
-          "votes": 8,
-          "id_cities": 454
-        },
-        {
-          "name": "Lohne (Oldenburg)",
-          "votes": 2,
-          "id_cities": 456
-        },
-        {
-          "name": "Remseck am Neckar",
-          "votes": 1,
-          "id_cities": 460
-        },
-        {
-          "name": "Butzbach",
-          "votes": 1,
-          "id_cities": 465
-        },
-        {
-          "name": "Teltow",
-          "votes": 3,
-          "id_cities": 468
-        },
-        {
-          "name": "Weiterstadt",
-          "votes": 2,
-          "id_cities": 470
-        },
-        {
-          "name": "Heppenheim (Bergstraße)",
-          "votes": 2,
-          "id_cities": 472
-        },
-        {
-          "name": "Schmallenberg",
-          "votes": 1,
-          "id_cities": 474
-        },
-        {
-          "name": "Sprockhövel",
-          "votes": 2,
-          "id_cities": 476
-        },
-        {
-          "name": "Salzkotten",
-          "votes": 1,
-          "id_cities": 478
-        },
-        {
-          "name": "Friedrichsdorf",
-          "votes": 1,
-          "id_cities": 481
-        },
-        {
-          "name": "Ludwigsfelde",
-          "votes": 1,
-          "id_cities": 482
-        },
-        {
-          "name": "Bad Oldesloe",
-          "votes": 1,
-          "id_cities": 483
-        },
-        {
-          "name": "Groß-Gerau",
-          "votes": 1,
-          "id_cities": 493
-        },
-        {
-          "name": "Ditzingen",
-          "votes": 1,
-          "id_cities": 494
-        },
-        {
-          "name": "Zirndorf",
-          "votes": 1,
-          "id_cities": 495
-        },
-        {
-          "name": "Senftenberg",
-          "votes": 1,
-          "id_cities": 496
-        },
-        {
-          "name": "Quedlinburg",
-          "votes": 1,
-          "id_cities": 497
-        },
-        {
-          "name": "Pfungstadt",
-          "votes": 4,
-          "id_cities": 498
-        },
-        {
-          "name": "Weingarten",
-          "votes": 6,
-          "id_cities": 500
-        },
-        {
-          "name": "Obertshausen",
-          "votes": 2,
-          "id_cities": 501
-        },
-        {
-          "name": "Unterhaching",
-          "votes": 5,
-          "id_cities": 502
-        },
-        {
-          "name": "Idstein",
-          "votes": 1,
-          "id_cities": 511
-        },
-        {
-          "name": "Stutensee",
-          "votes": 4,
-          "id_cities": 512
-        },
-        {
-          "name": "Isernhagen",
-          "votes": 1,
-          "id_cities": 516
-        },
-        {
-          "name": "Haren (Ems)",
-          "votes": 1,
-          "id_cities": 521
-        },
-        {
-          "name": "Sehnde",
-          "votes": 1,
-          "id_cities": 524
-        },
-        {
-          "name": "Alfter",
-          "votes": 6,
-          "id_cities": 526
-        },
-        {
-          "name": "Netphen",
-          "votes": 4,
-          "id_cities": 528
-        },
-        {
-          "name": "Bedburg",
-          "votes": 1,
-          "id_cities": 529
-        },
-        {
-          "name": "Jüchen",
-          "votes": 1,
-          "id_cities": 530
-        },
-        {
-          "name": "Moormerland",
-          "votes": 1,
-          "id_cities": 536
-        },
-        {
-          "name": "Herzogenaurach",
-          "votes": 1,
-          "id_cities": 537
-        },
-        {
-          "name": "Bad Mergentheim",
-          "votes": 1,
-          "id_cities": 538
-        },
-        {
-          "name": "Wallenhorst",
-          "votes": 3,
-          "id_cities": 539
-        },
-        {
-          "name": "Mosbach",
-          "votes": 4,
-          "id_cities": 540
-        },
-        {
-          "name": "Riedstadt",
-          "votes": 2,
-          "id_cities": 541
-        },
-        {
-          "name": "Starnberg",
-          "votes": 1,
-          "id_cities": 543
-        },
-        {
-          "name": "Überlingen",
-          "votes": 1,
-          "id_cities": 552
-        },
-        {
-          "name": "Radevormwald",
-          "votes": 1,
-          "id_cities": 554
-        },
-        {
-          "name": "Apolda",
-          "votes": 1,
-          "id_cities": 555
-        },
-        {
-          "name": "Schwetzingen",
-          "votes": 4,
-          "id_cities": 556
-        },
-        {
-          "name": "Rastede",
-          "votes": 1,
-          "id_cities": 564
-        },
-        {
-          "name": "Gersthofen",
-          "votes": 1,
-          "id_cities": 567
-        },
-        {
-          "name": "Stadthagen",
-          "votes": 2,
-          "id_cities": 571
-        },
-        {
-          "name": "Büren",
-          "votes": 2,
-          "id_cities": 573
-        },
-        {
-          "name": "Döbeln",
-          "votes": 1,
-          "id_cities": 581
-        },
-        {
-          "name": "Xanten",
-          "votes": 1,
-          "id_cities": 582
-        },
-        {
-          "name": "Heide",
-          "votes": 1,
-          "id_cities": 584
-        },
-        {
-          "name": "Soltau",
-          "votes": 1,
-          "id_cities": 585
-        },
-        {
-          "name": "Eppingen",
-          "votes": 1,
-          "id_cities": 589
-        },
-        {
-          "name": "Ottobrunn",
-          "votes": 4,
-          "id_cities": 591
-        },
-        {
-          "name": "Wülfrath",
-          "votes": 2,
-          "id_cities": 595
-        },
-        {
-          "name": "Laupheim",
-          "votes": 1,
-          "id_cities": 596
-        },
-        {
-          "name": "Hockenheim",
-          "votes": 1,
-          "id_cities": 597
-        },
-        {
-          "name": "Geseke",
-          "votes": 1,
-          "id_cities": 600
-        },
-        {
-          "name": "Aichach",
-          "votes": 1,
-          "id_cities": 601
-        },
-        {
-          "name": "Blieskastel",
-          "votes": 2,
-          "id_cities": 605
-        },
-        {
-          "name": "Schramberg",
-          "votes": 1,
-          "id_cities": 606
-        },
-        {
-          "name": "Eschborn",
-          "votes": 1,
-          "id_cities": 609
-        },
-        {
-          "name": "Steinhagen",
-          "votes": 3,
-          "id_cities": 614
-        },
-        {
-          "name": "Wittmund",
-          "votes": 1,
-          "id_cities": 615
-        },
-        {
-          "name": "Enger",
-          "votes": 1,
-          "id_cities": 617
-        },
-        {
-          "name": "Kleinmachnow",
-          "votes": 1,
-          "id_cities": 618
-        },
-        {
-          "name": "Burgwedel",
-          "votes": 1,
-          "id_cities": 619
-        },
-        {
-          "name": "Flörsheim am Main",
-          "votes": 2,
-          "id_cities": 621
-        },
-        {
-          "name": "Wilnsdorf",
-          "votes": 6,
-          "id_cities": 625
-        },
-        {
-          "name": "Wachtberg",
-          "votes": 5,
-          "id_cities": 629
-        },
-        {
-          "name": "Annaberg-Buchholz",
-          "votes": 1,
-          "id_cities": 630
-        },
-        {
-          "name": "Bruchköbel",
-          "votes": 1,
-          "id_cities": 631
-        },
-        {
-          "name": "Stadtlohn",
-          "votes": 2,
-          "id_cities": 632
-        },
-        {
-          "name": "Rheinstetten",
-          "votes": 2,
-          "id_cities": 635
-        },
-        {
-          "name": "Dillingen/Saar",
-          "votes": 1,
-          "id_cities": 637
-        },
-        {
-          "name": "Blankenburg (Harz)",
-          "votes": 1,
-          "id_cities": 638
-        },
-        {
-          "name": "Gauting",
-          "votes": 1,
-          "id_cities": 639
-        },
-        {
-          "name": "Haßloch",
-          "votes": 1,
-          "id_cities": 640
-        },
-        {
-          "name": "Holzminden",
-          "votes": 2,
-          "id_cities": 644
-        },
-        {
-          "name": "Karlsfeld",
-          "votes": 3,
-          "id_cities": 645
-        },
-        {
-          "name": "Ennigerloh",
-          "votes": 2,
-          "id_cities": 649
-        },
-        {
-          "name": "Dessau-Roßlau",
-          "votes": 3,
-          "id_cities": 651
-        },
-        {
-          "name": "Rüsselsheim am Main",
-          "votes": 3,
-          "id_cities": 652
-        },
-        {
-          "name": "Bitterfeld-Wolfen",
-          "votes": 1,
-          "id_cities": 656
-        },
-        {
-          "name": "Haltern am See",
-          "votes": 4,
-          "id_cities": 658
-        },
-        {
-          "name": "Emmerich am Rhein",
-          "votes": 1,
-          "id_cities": 663
-        },
-        {
-          "name": "Neusäß",
-          "votes": 2,
-          "id_cities": 673
-        }
-      ],
-      "maxValue": 8113,
-      "similiar": [
-        {
-          "name": "Arbeit",
-          "votes": 16,
-          "color": "DD5F5F",
-          "maxVal": 28
-        },
-        {
-          "name": "ausgeschlafen",
-          "votes": 28,
-          "color": "FFBA00",
-          "maxVal": 28
-        },
-        {
-          "name": "aussteigen",
-          "votes": 4,
-          "maxVal": 28
-        },
-        {
-          "name": "Bahn",
-          "votes": 16,
-          "color": "DD5F5F",
-          "maxVal": 28
-        }
-      ],
-      "similiarHashtags": [
-        {
-          "name": "#dbracingteam",
-          "votes": 16,
-          "maxVal": 28
-        },
-        {
-          "name": "#g",
-          "votes": 7,
-          "maxVal": 28
-        },
-        {
-          "name": "#gesehenundf",
-          "votes": 16,
-          "color": "DD5F5F",
-          "maxVal": 28
-        },
-        {
-          "name": "#ichliebemeinkind",
-          "votes": 28,
-          "color": "DD5F5F",
-          "maxVal": 28
-        }
-      ],
-      "timetable": [
-        {
-          "votes": 13,
-          "hour": 0
-        },
-        {
-          "votes": 13,
-          "hour": 1
-        },
-        {
-          "votes": 12,
-          "hour": 2
-        },
-        {
-          "votes": 17,
-          "hour": 3
-        },
-        {
-          "votes": 23,
-          "hour": 4
-        },
-        {
-          "votes": 28,
-          "hour": 5
-        },
-        {
-          "votes": 7.5,
-          "hour": 6
-        },
-        {
-          "votes": 43.75,
-          "hour": 7
-        },
-        {
-          "votes": 21,
-          "hour": 8
-        },
-        {
-          "votes": 12,
-          "hour": 9
-        },
-        {
-          "votes": 29.5,
-          "hour": 10
-        },
-        {
-          "votes": 26,
-          "hour": 11
-        },
-        {
-          "votes": 43.3333,
-          "hour": 12
-        },
-        {
-          "votes": 15,
-          "hour": 13
-        },
-        {
-          "votes": 30.5,
-          "hour": 14
-        },
-        {
-          "votes": 38,
-          "hour": 15
-        },
-        {
-          "votes": 2,
-          "hour": 16
-        },
-        {
-          "votes": 22,
-          "hour": 17
-        },
-        {
-          "votes": 38.8571,
-          "hour": 18
-        },
-        {
-          "votes": 27.6667,
-          "hour": 19
-        },
-        {
-          "votes": 35.5556,
-          "hour": 20
-        },
-        {
-          "votes": 38.4,
-          "hour": 21
-        },
-        {
-          "votes": 26,
-          "hour": 22
-        },
-        {
-          "votes": 14,
-          "hour": 23
-        }
-      ],
-      "color": "FFBA00"
-    }
-  ],
-  "jodel": {
-    "core": {
-      "post_id": "5a00b6881061e2001777c59b",
-      "vote_count": 4,
-      "post_color": "9EC41C",
-      "post_message": "Wenn man im Bus einschläft und 3 Haltestellen zu spät aussteigen, und dann 2 km zufuß nach Hause laufen muss.\n\n#needforsleep",
-      "keywords": [
-        "im",
-        "Bus",
-        "einschläft",
-        "spät",
-        "aussteigen",
-        "km",
-        "Hause",
-        "laufen"
-      ],
-      "tags": [
-        "#needforsleep"
-      ],
-      "location": "Blankenburg (Harz)",
-      "created_at": "19:22:48"
-    },
-    "image_approved": 0,
-    "image_url": "",
-    "child_count": 0,
-    "oj_replied": true,
-    "children": []
-  },
-  "cityimportance": [
-    {
-      "name": "Berlin",
-      "votes": 270,
-      "id_cities": 1
-    },
-    {
-      "name": "Hamburg",
-      "votes": 284,
-      "id_cities": 2
-    },
-    {
-      "name": "München",
-      "votes": 465,
-      "id_cities": 3
-    },
-    {
-      "name": "Köln",
-      "votes": 401,
-      "id_cities": 4
-    },
-    {
-      "name": "Frankfurt am Main",
-      "votes": 217,
-      "id_cities": 5
-    },
-    {
-      "name": "Stuttgart",
-      "votes": 220,
-      "id_cities": 6
-    },
-    {
-      "name": "Düsseldorf",
-      "votes": 144,
-      "id_cities": 7
-    },
-    {
-      "name": "Dortmund",
-      "votes": 171,
-      "id_cities": 8
-    },
-    {
-      "name": "Essen",
-      "votes": 124,
-      "id_cities": 9
-    },
-    {
-      "name": "Leipzig",
-      "votes": 111,
-      "id_cities": 10
-    },
-    {
-      "name": "Bremen",
-      "votes": 118,
-      "id_cities": 11
-    },
-    {
-      "name": "Dresden",
-      "votes": 132,
-      "id_cities": 12
-    },
-    {
-      "name": "Hannover",
-      "votes": 208,
-      "id_cities": 13
-    },
-    {
-      "name": "Nürnberg",
-      "votes": 105,
-      "id_cities": 14
-    },
-    {
-      "name": "Duisburg",
-      "votes": 63,
-      "id_cities": 15
-    },
-    {
-      "name": "Bochum",
-      "votes": 102,
-      "id_cities": 16
-    },
-    {
-      "name": "Wuppertal",
-      "votes": 66,
-      "id_cities": 17
-    },
-    {
-      "name": "Bielefeld",
-      "votes": 125,
-      "id_cities": 18
-    },
-    {
-      "name": "Bonn",
-      "votes": 105,
-      "id_cities": 19
-    },
-    {
-      "name": "Münster",
-      "votes": 149,
-      "id_cities": 20
-    },
-    {
-      "name": "Karlsruhe",
-      "votes": 154,
-      "id_cities": 21
-    },
-    {
-      "name": "Mannheim",
-      "votes": 96,
-      "id_cities": 22
-    },
-    {
-      "name": "Augsburg",
-      "votes": 92,
-      "id_cities": 23
-    },
-    {
-      "name": "Wiesbaden",
-      "votes": 52,
-      "id_cities": 24
-    },
-    {
-      "name": "Gelsenkirchen",
-      "votes": 19,
-      "id_cities": 25
-    },
-    {
-      "name": "Mönchengladbach",
-      "votes": 35,
-      "id_cities": 26
-    },
-    {
-      "name": "Braunschweig",
-      "votes": 86,
-      "id_cities": 27
-    },
-    {
-      "name": "Chemnitz",
-      "votes": 24,
-      "id_cities": 28
-    },
-    {
-      "name": "Kiel",
-      "votes": 112,
-      "id_cities": 29
-    },
-    {
-      "name": "Aachen",
-      "votes": 177,
-      "id_cities": 30
-    },
-    {
-      "name": "Halle (Saale)",
-      "votes": 6,
-      "id_cities": 31
-    },
-    {
-      "name": "Magdeburg",
-      "votes": 54,
-      "id_cities": 32
-    },
-    {
-      "name": "Freiburg im Breisgau",
-      "votes": 102,
-      "id_cities": 33
-    },
-    {
-      "name": "Krefeld",
-      "votes": 14,
-      "id_cities": 34
-    },
-    {
-      "name": "Lübeck",
-      "votes": 34,
-      "id_cities": 35
-    },
-    {
-      "name": "Oberhausen",
-      "votes": 20,
-      "id_cities": 36
-    },
-    {
-      "name": "Erfurt",
-      "votes": 44,
-      "id_cities": 37
-    },
-    {
-      "name": "Mainz",
-      "votes": 112,
-      "id_cities": 38
-    },
-    {
-      "name": "Rostock",
-      "votes": 54,
-      "id_cities": 39
-    },
-    {
-      "name": "Kassel",
-      "votes": 72,
-      "id_cities": 40
-    },
-    {
-      "name": "Hagen",
-      "votes": 6,
-      "id_cities": 41
-    },
-    {
-      "name": "Hamm",
-      "votes": 22,
-      "id_cities": 42
-    },
-    {
-      "name": "Saarbrücken",
-      "votes": 60,
-      "id_cities": 43
-    },
-    {
-      "name": "Mülheim an der Ruhr",
-      "votes": 19,
-      "id_cities": 44
-    },
-    {
-      "name": "Potsdam",
-      "votes": 23,
-      "id_cities": 45
-    },
-    {
-      "name": "Ludwigshafen am Rhein",
-      "votes": 11,
-      "id_cities": 46
-    },
-    {
-      "name": "Oldenburg",
-      "votes": 94,
-      "id_cities": 47
-    },
-    {
-      "name": "Leverkusen",
-      "votes": 10,
-      "id_cities": 48
-    },
-    {
-      "name": "Osnabrück",
-      "votes": 113,
-      "id_cities": 49
-    },
-    {
-      "name": "Solingen",
-      "votes": 10,
-      "id_cities": 50
-    },
-    {
-      "name": "Heidelberg",
-      "votes": 85,
-      "id_cities": 51
-    },
-    {
-      "name": "Herne",
-      "votes": 20,
-      "id_cities": 52
-    },
-    {
-      "name": "Neuss",
-      "votes": 31,
-      "id_cities": 53
-    },
-    {
-      "name": "Darmstadt",
-      "votes": 79,
-      "id_cities": 54
-    },
-    {
-      "name": "Paderborn",
-      "votes": 73,
-      "id_cities": 55
-    },
-    {
-      "name": "Regensburg",
-      "votes": 109,
-      "id_cities": 56
-    },
-    {
-      "name": "Ingolstadt",
-      "votes": 29,
-      "id_cities": 57
-    },
-    {
-      "name": "Würzburg",
-      "votes": 118,
-      "id_cities": 58
-    },
-    {
-      "name": "Fürth",
-      "votes": 12,
-      "id_cities": 59
-    },
-    {
-      "name": "Wolfsburg",
-      "votes": 6,
-      "id_cities": 60
-    },
-    {
-      "name": "Ulm",
-      "votes": 37,
-      "id_cities": 61
-    },
-    {
-      "name": "Heilbronn",
-      "votes": 10,
-      "id_cities": 62
-    },
-    {
-      "name": "Pforzheim",
-      "votes": 20,
-      "id_cities": 63
-    },
-    {
-      "name": "Göttingen",
-      "votes": 80,
-      "id_cities": 64
-    },
-    {
-      "name": "Bottrop",
-      "votes": 8,
-      "id_cities": 65
-    },
-    {
-      "name": "Trier",
-      "votes": 60,
-      "id_cities": 66
-    },
-    {
-      "name": "Recklinghausen",
-      "votes": 13,
-      "id_cities": 67
-    },
-    {
-      "name": "Reutlingen",
-      "votes": 14,
-      "id_cities": 68
-    },
-    {
-      "name": "Bremerhaven",
-      "votes": 14,
-      "id_cities": 69
-    },
-    {
-      "name": "Koblenz",
-      "votes": 34,
-      "id_cities": 70
-    },
-    {
-      "name": "Bergisch Gladbach",
-      "votes": 12,
-      "id_cities": 71
-    },
-    {
-      "name": "Jena",
-      "votes": 74,
-      "id_cities": 72
-    },
-    {
-      "name": "Remscheid",
-      "votes": 5,
-      "id_cities": 73
-    },
-    {
-      "name": "Erlangen",
-      "votes": 68,
-      "id_cities": 74
-    },
-    {
-      "name": "Moers",
-      "votes": 4,
-      "id_cities": 75
-    },
-    {
-      "name": "Siegen",
-      "votes": 56,
-      "id_cities": 76
-    },
-    {
-      "name": "Hildesheim",
-      "votes": 35,
-      "id_cities": 77
-    },
-    {
-      "name": "Salzgitter",
-      "votes": 3,
-      "id_cities": 78
-    },
-    {
-      "name": "Cottbus",
-      "votes": 8,
-      "id_cities": 79
-    },
-    {
-      "name": "Kaiserslautern",
-      "votes": 25,
-      "id_cities": 80
-    },
-    {
-      "name": "Gütersloh",
-      "votes": 5,
-      "id_cities": 81
-    },
-    {
-      "name": "Schwerin",
-      "votes": 2,
-      "id_cities": 82
-    },
-    {
-      "name": "Witten",
-      "votes": 15,
-      "id_cities": 83
-    },
-    {
-      "name": "Iserlohn",
-      "votes": 3,
-      "id_cities": 85
-    },
-    {
-      "name": "Ludwigsburg",
-      "votes": 17,
-      "id_cities": 86
-    },
-    {
-      "name": "Hanau",
-      "votes": 6,
-      "id_cities": 87
-    },
-    {
-      "name": "Esslingen am Neckar",
-      "votes": 5,
-      "id_cities": 88
-    },
-    {
-      "name": "Zwickau",
-      "votes": 13,
-      "id_cities": 89
-    },
-    {
-      "name": "Düren",
-      "votes": 3,
-      "id_cities": 90
-    },
-    {
-      "name": "Ratingen",
-      "votes": 11,
-      "id_cities": 91
-    },
-    {
-      "name": "Tübingen",
-      "votes": 80,
-      "id_cities": 92
-    },
-    {
-      "name": "Flensburg",
-      "votes": 29,
-      "id_cities": 93
-    },
-    {
-      "name": "Lünen",
-      "votes": 2,
-      "id_cities": 94
-    },
-    {
-      "name": "Villingen-Schwenningen",
-      "votes": 14,
-      "id_cities": 95
-    },
-    {
-      "name": "Gießen",
-      "votes": 114,
-      "id_cities": 96
-    },
-    {
-      "name": "Marl",
-      "votes": 2,
-      "id_cities": 97
-    },
-    {
-      "name": "Konstanz",
-      "votes": 25,
-      "id_cities": 98
-    },
-    {
-      "name": "Worms",
-      "votes": 4,
-      "id_cities": 99
-    },
-    {
-      "name": "Minden",
-      "votes": 5,
-      "id_cities": 100
-    },
-    {
-      "name": "Velbert",
-      "votes": 11,
-      "id_cities": 101
-    },
-    {
-      "name": "Neumünster",
-      "votes": 5,
-      "id_cities": 102
-    },
-    {
-      "name": "Norderstedt",
-      "votes": 1,
-      "id_cities": 103
-    },
-    {
-      "name": "Delmenhorst",
-      "votes": 2,
-      "id_cities": 104
-    },
-    {
-      "name": "Wilhelmshaven",
-      "votes": 20,
-      "id_cities": 105
-    },
-    {
-      "name": "Viersen",
-      "votes": 6,
-      "id_cities": 106
-    },
-    {
-      "name": "Gladbeck",
-      "votes": 2,
-      "id_cities": 107
-    },
-    {
-      "name": "Dorsten",
-      "votes": 2,
-      "id_cities": 108
-    },
-    {
-      "name": "Rheine",
-      "votes": 5,
-      "id_cities": 109
-    },
-    {
-      "name": "Detmold",
-      "votes": 3,
-      "id_cities": 110
-    },
-    {
-      "name": "Troisdorf",
-      "votes": 8,
-      "id_cities": 111
-    },
-    {
-      "name": "Castrop-Rauxel",
-      "votes": 5,
-      "id_cities": 112
-    },
-    {
-      "name": "Lüneburg",
-      "votes": 24,
-      "id_cities": 113
-    },
-    {
-      "name": "Marburg",
-      "votes": 51,
-      "id_cities": 114
-    },
-    {
-      "name": "Arnsberg",
-      "votes": 2,
-      "id_cities": 115
-    },
-    {
-      "name": "Lüdenscheid",
-      "votes": 1,
-      "id_cities": 116
-    },
-    {
-      "name": "Bamberg",
-      "votes": 40,
-      "id_cities": 117
-    },
-    {
-      "name": "Bayreuth",
-      "votes": 48,
-      "id_cities": 118
-    },
-    {
-      "name": "Bocholt",
-      "votes": 7,
-      "id_cities": 119
-    },
-    {
-      "name": "Landshut",
-      "votes": 5,
-      "id_cities": 121
-    },
-    {
-      "name": "Aschaffenburg",
-      "votes": 11,
-      "id_cities": 122
-    },
-    {
-      "name": "Dinslaken",
-      "votes": 1,
-      "id_cities": 123
-    },
-    {
-      "name": "Aalen",
-      "votes": 16,
-      "id_cities": 124
-    },
-    {
-      "name": "Fulda",
-      "votes": 18,
-      "id_cities": 125
-    },
-    {
-      "name": "Lippstadt",
-      "votes": 5,
-      "id_cities": 126
-    },
-    {
-      "name": "Kempten (Allgäu)",
-      "votes": 12,
-      "id_cities": 127
-    },
-    {
-      "name": "Herford",
-      "votes": 3,
-      "id_cities": 128
-    },
-    {
-      "name": "Kerpen",
-      "votes": 2,
-      "id_cities": 129
-    },
-    {
-      "name": "Plauen",
-      "votes": 1,
-      "id_cities": 130
-    },
-    {
-      "name": "Neuwied",
-      "votes": 2,
-      "id_cities": 131
-    },
-    {
-      "name": "Weimar",
-      "votes": 11,
-      "id_cities": 132
-    },
-    {
-      "name": "Dormagen",
-      "votes": 3,
-      "id_cities": 133
-    },
-    {
-      "name": "Sindelfingen",
-      "votes": 7,
-      "id_cities": 134
-    },
-    {
-      "name": "Neubrandenburg",
-      "votes": 2,
-      "id_cities": 135
-    },
-    {
-      "name": "Grevenbroich",
-      "votes": 3,
-      "id_cities": 136
-    },
-    {
-      "name": "Rosenheim",
-      "votes": 9,
-      "id_cities": 137
-    },
-    {
-      "name": "Herten",
-      "votes": 3,
-      "id_cities": 138
-    },
-    {
-      "name": "Wesel",
-      "votes": 1,
-      "id_cities": 139
-    },
-    {
-      "name": "Garbsen",
-      "votes": 3,
-      "id_cities": 140
-    },
-    {
-      "name": "Schwäbisch Gmünd",
-      "votes": 5,
-      "id_cities": 142
-    },
-    {
-      "name": "Hürth",
-      "votes": 4,
-      "id_cities": 143
-    },
-    {
-      "name": "Unna",
-      "votes": 1,
-      "id_cities": 144
-    },
-    {
-      "name": "Friedrichshafen",
-      "votes": 10,
-      "id_cities": 145
-    },
-    {
-      "name": "Offenburg",
-      "votes": 2,
-      "id_cities": 146
-    },
-    {
-      "name": "Stralsund",
-      "votes": 1,
-      "id_cities": 147
-    },
-    {
-      "name": "Langenfeld (Rheinland)",
-      "votes": 2,
-      "id_cities": 148
-    },
-    {
-      "name": "Greifswald",
-      "votes": 19,
-      "id_cities": 149
-    },
-    {
-      "name": "Neu-Ulm",
-      "votes": 2,
-      "id_cities": 150
-    },
-    {
-      "name": "Göppingen",
-      "votes": 1,
-      "id_cities": 151
-    },
-    {
-      "name": "Euskirchen",
-      "votes": 4,
-      "id_cities": 152
-    },
-    {
-      "name": "Stolberg (Rheinland)",
-      "votes": 1,
-      "id_cities": 153
-    },
-    {
-      "name": "Hameln",
-      "votes": 1,
-      "id_cities": 154
-    },
-    {
-      "name": "Sankt Augustin",
-      "votes": 13,
-      "id_cities": 156
-    },
-    {
-      "name": "Hilden",
-      "votes": 13,
-      "id_cities": 158
-    },
-    {
-      "name": "Meerbusch",
-      "votes": 4,
-      "id_cities": 159
-    },
-    {
-      "name": "Hattingen",
-      "votes": 8,
-      "id_cities": 160
-    },
-    {
-      "name": "Waiblingen",
-      "votes": 9,
-      "id_cities": 161
-    },
-    {
-      "name": "Pulheim",
-      "votes": 6,
-      "id_cities": 162
-    },
-    {
-      "name": "Baden-Baden",
-      "votes": 5,
-      "id_cities": 163
-    },
-    {
-      "name": "Menden (Sauerland)",
-      "votes": 4,
-      "id_cities": 164
-    },
-    {
-      "name": "Bad Salzuflen",
-      "votes": 3,
-      "id_cities": 165
-    },
-    {
-      "name": "Langenhagen",
-      "votes": 8,
-      "id_cities": 166
-    },
-    {
-      "name": "Nordhorn",
-      "votes": 1,
-      "id_cities": 167
-    },
-    {
-      "name": "Lingen (Ems)",
-      "votes": 2,
-      "id_cities": 168
-    },
-    {
-      "name": "Bad Homburg vor der Höhe",
-      "votes": 6,
-      "id_cities": 169
-    },
-    {
-      "name": "Neustadt an der Weinstraße",
-      "votes": 3,
-      "id_cities": 170
-    },
-    {
-      "name": "Ahlen",
-      "votes": 3,
-      "id_cities": 171
-    },
-    {
-      "name": "Wolfenbüttel",
-      "votes": 5,
-      "id_cities": 172
-    },
-    {
-      "name": "Frechen",
-      "votes": 6,
-      "id_cities": 173
-    },
-    {
-      "name": "Schweinfurt",
-      "votes": 4,
-      "id_cities": 174
-    },
-    {
-      "name": "Wetzlar",
-      "votes": 1,
-      "id_cities": 175
-    },
-    {
-      "name": "Ibbenbüren",
-      "votes": 4,
-      "id_cities": 176
-    },
-    {
-      "name": "Willich",
-      "votes": 1,
-      "id_cities": 178
-    },
-    {
-      "name": "Emden",
-      "votes": 22,
-      "id_cities": 179
-    },
-    {
-      "name": "Passau",
-      "votes": 49,
-      "id_cities": 180
-    },
-    {
-      "name": "Gummersbach",
-      "votes": 3,
-      "id_cities": 181
-    },
-    {
-      "name": "Ravensburg",
-      "votes": 3,
-      "id_cities": 183
-    },
-    {
-      "name": "Erftstadt",
-      "votes": 1,
-      "id_cities": 184
-    },
-    {
-      "name": "Kleve",
-      "votes": 2,
-      "id_cities": 185
-    },
-    {
-      "name": "Peine",
-      "votes": 1,
-      "id_cities": 187
-    },
-    {
-      "name": "Lörrach",
-      "votes": 2,
-      "id_cities": 188
-    },
-    {
-      "name": "Bad Oeynhausen",
-      "votes": 1,
-      "id_cities": 189
-    },
-    {
-      "name": "Böblingen",
-      "votes": 5,
-      "id_cities": 190
-    },
-    {
-      "name": "Elmshorn",
-      "votes": 3,
-      "id_cities": 191
-    },
-    {
-      "name": "Frankenthal (Pfalz)",
-      "votes": 2,
-      "id_cities": 192
-    },
-    {
-      "name": "Rastatt",
-      "votes": 2,
-      "id_cities": 194
-    },
-    {
-      "name": "Soest",
-      "votes": 4,
-      "id_cities": 197
-    },
-    {
-      "name": "Bergkamen",
-      "votes": 1,
-      "id_cities": 198
-    },
-    {
-      "name": "Bornheim",
-      "votes": 5,
-      "id_cities": 199
-    },
-    {
-      "name": "Leonberg",
-      "votes": 1,
-      "id_cities": 201
-    },
-    {
-      "name": "Freising",
-      "votes": 8,
-      "id_cities": 202
-    },
-    {
-      "name": "Hennef (Sieg)",
-      "votes": 5,
-      "id_cities": 203
-    },
-    {
-      "name": "Alsdorf",
-      "votes": 1,
-      "id_cities": 204
-    },
-    {
-      "name": "Schwerte",
-      "votes": 4,
-      "id_cities": 206
-    },
-    {
-      "name": "Dachau",
-      "votes": 1,
-      "id_cities": 207
-    },
-    {
-      "name": "Herzogenrath",
-      "votes": 5,
-      "id_cities": 209
-    },
-    {
-      "name": "Neunkirchen",
-      "votes": 3,
-      "id_cities": 211
-    },
-    {
-      "name": "Oberursel (Taunus)",
-      "votes": 2,
-      "id_cities": 213
-    },
-    {
-      "name": "Landau in der Pfalz",
-      "votes": 12,
-      "id_cities": 216
-    },
-    {
-      "name": "Fellbach",
-      "votes": 4,
-      "id_cities": 217
-    },
-    {
-      "name": "Filderstadt",
-      "votes": 2,
-      "id_cities": 218
-    },
-    {
-      "name": "Lahr/Schwarzwald",
-      "votes": 1,
-      "id_cities": 219
-    },
-    {
-      "name": "Weinheim",
-      "votes": 1,
-      "id_cities": 220
-    },
-    {
-      "name": "Brühl",
-      "votes": 6,
-      "id_cities": 221
-    },
-    {
-      "name": "Albstadt",
-      "votes": 2,
-      "id_cities": 223
-    },
-    {
-      "name": "Rodgau",
-      "votes": 3,
-      "id_cities": 224
-    },
-    {
-      "name": "Bruchsal",
-      "votes": 1,
-      "id_cities": 225
-    },
-    {
-      "name": "Erkrath",
-      "votes": 5,
-      "id_cities": 226
-    },
-    {
-      "name": "Kamen",
-      "votes": 1,
-      "id_cities": 228
-    },
-    {
-      "name": "Halberstadt",
-      "votes": 1,
-      "id_cities": 229
-    },
-    {
-      "name": "Lehrte",
-      "votes": 1,
-      "id_cities": 230
-    },
-    {
-      "name": "Kaarst",
-      "votes": 2,
-      "id_cities": 233
-    },
-    {
-      "name": "Rottenburg am Neckar",
-      "votes": 13,
-      "id_cities": 234
-    },
-    {
-      "name": "Bietigheim-Bissingen",
-      "votes": 2,
-      "id_cities": 235
-    },
-    {
-      "name": "Wismar",
-      "votes": 3,
-      "id_cities": 239
-    },
-    {
-      "name": "Eisenach",
-      "votes": 1,
-      "id_cities": 240
-    },
-    {
-      "name": "Pinneberg",
-      "votes": 1,
-      "id_cities": 242
-    },
-    {
-      "name": "Nordhausen",
-      "votes": 4,
-      "id_cities": 243
-    },
-    {
-      "name": "Weiden in der Oberpfalz",
-      "votes": 3,
-      "id_cities": 244
-    },
-    {
-      "name": "Homburg",
-      "votes": 1,
-      "id_cities": 245
-    },
-    {
-      "name": "Nettetal",
-      "votes": 3,
-      "id_cities": 246
-    },
-    {
-      "name": "Gifhorn",
-      "votes": 2,
-      "id_cities": 247
-    },
-    {
-      "name": "Amberg",
-      "votes": 4,
-      "id_cities": 248
-    },
-    {
-      "name": "Freiberg",
-      "votes": 11,
-      "id_cities": 249
-    },
-    {
-      "name": "Heinsberg",
-      "votes": 2,
-      "id_cities": 250
-    },
-    {
-      "name": "Lemgo",
-      "votes": 9,
-      "id_cities": 252
-    },
-    {
-      "name": "Coburg",
-      "votes": 17,
-      "id_cities": 253
-    },
-    {
-      "name": "Wunstorf",
-      "votes": 1,
-      "id_cities": 254
-    },
-    {
-      "name": "Ansbach",
-      "votes": 5,
-      "id_cities": 255
-    },
-    {
-      "name": "Siegburg",
-      "votes": 1,
-      "id_cities": 256
-    },
-    {
-      "name": "Laatzen",
-      "votes": 5,
-      "id_cities": 258
-    },
-    {
-      "name": "Königswinter",
-      "votes": 10,
-      "id_cities": 259
-    },
-    {
-      "name": "Dreieich",
-      "votes": 3,
-      "id_cities": 260
-    },
-    {
-      "name": "Nürtingen",
-      "votes": 1,
-      "id_cities": 261
-    },
-    {
-      "name": "Stendal",
-      "votes": 3,
-      "id_cities": 263
-    },
-    {
-      "name": "Buxtehude",
-      "votes": 3,
-      "id_cities": 264
-    },
-    {
-      "name": "Kirchheim unter Teck",
-      "votes": 1,
-      "id_cities": 266
-    },
-    {
-      "name": "Löhne",
-      "votes": 1,
-      "id_cities": 267
-    },
-    {
-      "name": "Bensheim",
-      "votes": 3,
-      "id_cities": 268
-    },
-    {
-      "name": "Bautzen",
-      "votes": 1,
-      "id_cities": 269
-    },
-    {
-      "name": "Freital",
-      "votes": 5,
-      "id_cities": 270
-    },
-    {
-      "name": "Hückelhoven",
-      "votes": 1,
-      "id_cities": 271
-    },
-    {
-      "name": "Germering",
-      "votes": 2,
-      "id_cities": 273
-    },
-    {
-      "name": "Ahaus",
-      "votes": 1,
-      "id_cities": 275
-    },
-    {
-      "name": "Schorndorf",
-      "votes": 1,
-      "id_cities": 276
-    },
-    {
-      "name": "Völklingen",
-      "votes": 1,
-      "id_cities": 277
-    },
-    {
-      "name": "Leinfelden-Echterdingen",
-      "votes": 2,
-      "id_cities": 278
-    },
-    {
-      "name": "Ettlingen",
-      "votes": 2,
-      "id_cities": 279
-    },
-    {
-      "name": "Würselen",
-      "votes": 6,
-      "id_cities": 280
-    },
-    {
-      "name": "Schwäbisch Hall",
-      "votes": 4,
-      "id_cities": 281
-    },
-    {
-      "name": "Ostfildern",
-      "votes": 8,
-      "id_cities": 282
-    },
-    {
-      "name": "Mettmann",
-      "votes": 4,
-      "id_cities": 284
-    },
-    {
-      "name": "Kamp-Lintfort",
-      "votes": 2,
-      "id_cities": 287
-    },
-    {
-      "name": "Niederkassel",
-      "votes": 3,
-      "id_cities": 288
-    },
-    {
-      "name": "Warendorf",
-      "votes": 1,
-      "id_cities": 290
-    },
-    {
-      "name": "Beckum",
-      "votes": 3,
-      "id_cities": 296
-    },
-    {
-      "name": "Emsdetten",
-      "votes": 2,
-      "id_cities": 297
-    },
-    {
-      "name": "Sankt Ingbert",
-      "votes": 4,
-      "id_cities": 298
-    },
-    {
-      "name": "Bramsche",
-      "votes": 3,
-      "id_cities": 302
-    },
-    {
-      "name": "Wesseling",
-      "votes": 2,
-      "id_cities": 303
-    },
-    {
-      "name": "Königs Wusterhausen",
-      "votes": 2,
-      "id_cities": 304
-    },
-    {
-      "name": "Porta Westfalica",
-      "votes": 1,
-      "id_cities": 306
-    },
-    {
-      "name": "Lage",
-      "votes": 1,
-      "id_cities": 308
-    },
-    {
-      "name": "Kempen",
-      "votes": 1,
-      "id_cities": 311
-    },
-    {
-      "name": "Saarlouis",
-      "votes": 1,
-      "id_cities": 312
-    },
-    {
-      "name": "Datteln",
-      "votes": 3,
-      "id_cities": 314
-    },
-    {
-      "name": "Wermelskirchen",
-      "votes": 1,
-      "id_cities": 315
-    },
-    {
-      "name": "Zweibrücken",
-      "votes": 3,
-      "id_cities": 316
-    },
-    {
-      "name": "Limburg an der Lahn",
-      "votes": 1,
-      "id_cities": 317
-    },
-    {
-      "name": "Radebeul",
-      "votes": 1,
-      "id_cities": 318
-    },
-    {
-      "name": "Bernburg (Saale)",
-      "votes": 7,
-      "id_cities": 321
-    },
-    {
-      "name": "Winsen (Luhe)",
-      "votes": 1,
-      "id_cities": 322
-    },
-    {
-      "name": "Goch",
-      "votes": 2,
-      "id_cities": 323
-    },
-    {
-      "name": "Geldern",
-      "votes": 1,
-      "id_cities": 325
-    },
-    {
-      "name": "Cloppenburg",
-      "votes": 2,
-      "id_cities": 326
-    },
-    {
-      "name": "Steinfurt",
-      "votes": 2,
-      "id_cities": 329
-    },
-    {
-      "name": "Balingen",
-      "votes": 1,
-      "id_cities": 330
-    },
-    {
-      "name": "Mörfelden-Walldorf",
-      "votes": 3,
-      "id_cities": 331
-    },
-    {
-      "name": "Barsinghausen",
-      "votes": 1,
-      "id_cities": 332
-    },
-    {
-      "name": "Hemer",
-      "votes": 3,
-      "id_cities": 333
-    },
-    {
-      "name": "Dietzenbach",
-      "votes": 2,
-      "id_cities": 334
-    },
-    {
-      "name": "Seelze",
-      "votes": 2,
-      "id_cities": 335
-    },
-    {
-      "name": "Wernigerode",
-      "votes": 14,
-      "id_cities": 337
-    },
-    {
-      "name": "Stuhr",
-      "votes": 2,
-      "id_cities": 338
-    },
-    {
-      "name": "Bad Vilbel",
-      "votes": 3,
-      "id_cities": 339
-    },
-    {
-      "name": "Korschenbroich",
-      "votes": 4,
-      "id_cities": 341
-    },
-    {
-      "name": "Jülich",
-      "votes": 3,
-      "id_cities": 346
-    },
-    {
-      "name": "Lampertheim",
-      "votes": 1,
-      "id_cities": 347
-    },
-    {
-      "name": "Biberach an der Riß",
-      "votes": 4,
-      "id_cities": 348
-    },
-    {
-      "name": "Deggendorf",
-      "votes": 12,
-      "id_cities": 349
-    },
-    {
-      "name": "Delbrück",
-      "votes": 2,
-      "id_cities": 350
-    },
-    {
-      "name": "Bad Nauheim",
-      "votes": 1,
-      "id_cities": 353
-    },
-    {
-      "name": "Vechta",
-      "votes": 33,
-      "id_cities": 354
-    },
-    {
-      "name": "Georgsmarienhütte",
-      "votes": 1,
-      "id_cities": 355
-    },
-    {
-      "name": "Kreuztal",
-      "votes": 3,
-      "id_cities": 356
-    },
-    {
-      "name": "Einbeck",
-      "votes": 2,
-      "id_cities": 359
-    },
-    {
-      "name": "Herrenberg",
-      "votes": 2,
-      "id_cities": 363
-    },
-    {
-      "name": "Eisenhüttenstadt",
-      "votes": 1,
-      "id_cities": 368
-    },
-    {
-      "name": "Haan",
-      "votes": 1,
-      "id_cities": 369
-    },
-    {
-      "name": "Lohmar",
-      "votes": 1,
-      "id_cities": 371
-    },
-    {
-      "name": "Burgdorf",
-      "votes": 1,
-      "id_cities": 373
-    },
-    {
-      "name": "Meschede",
-      "votes": 1,
-      "id_cities": 374
-    },
-    {
-      "name": "Geesthacht",
-      "votes": 1,
-      "id_cities": 376
-    },
-    {
-      "name": "Werne",
-      "votes": 1,
-      "id_cities": 377
-    },
-    {
-      "name": "Merzig",
-      "votes": 1,
-      "id_cities": 378
-    },
-    {
-      "name": "Höxter",
-      "votes": 1,
-      "id_cities": 380
-    },
-    {
-      "name": "Andernach",
-      "votes": 3,
-      "id_cities": 381
-    },
-    {
-      "name": "Waltrop",
-      "votes": 1,
-      "id_cities": 384
-    },
-    {
-      "name": "Friedberg",
-      "votes": 4,
-      "id_cities": 385
-    },
-    {
-      "name": "Oelde",
-      "votes": 1,
-      "id_cities": 386
-    },
-    {
-      "name": "Tönisvorst",
-      "votes": 2,
-      "id_cities": 387
-    },
-    {
-      "name": "Taunusstein",
-      "votes": 1,
-      "id_cities": 390
-    },
-    {
-      "name": "Gaggenau",
-      "votes": 1,
-      "id_cities": 392
-    },
-    {
-      "name": "Bühl",
-      "votes": 1,
-      "id_cities": 394
-    },
-    {
-      "name": "Güstrow",
-      "votes": 1,
-      "id_cities": 395
-    },
-    {
-      "name": "Bretten",
-      "votes": 1,
-      "id_cities": 396
-    },
-    {
-      "name": "Rösrath",
-      "votes": 1,
-      "id_cities": 403
-    },
-    {
-      "name": "Bad Zwischenahn",
-      "votes": 1,
-      "id_cities": 407
-    },
-    {
-      "name": "Mühlheim am Main",
-      "votes": 5,
-      "id_cities": 408
-    },
-    {
-      "name": "Winnenden",
-      "votes": 1,
-      "id_cities": 413
-    },
-    {
-      "name": "Wegberg",
-      "votes": 1,
-      "id_cities": 414
-    },
-    {
-      "name": "Wetter (Ruhr)",
-      "votes": 1,
-      "id_cities": 415
-    },
-    {
-      "name": "Aschersleben",
-      "votes": 1,
-      "id_cities": 416
-    },
-    {
-      "name": "Königsbrunn",
-      "votes": 2,
-      "id_cities": 417
-    },
-    {
-      "name": "Henstedt-Ulzburg",
-      "votes": 1,
-      "id_cities": 419
-    },
-    {
-      "name": "Baunatal",
-      "votes": 7,
-      "id_cities": 420
-    },
-    {
-      "name": "Emmendingen",
-      "votes": 5,
-      "id_cities": 422
-    },
-    {
-      "name": "Rödermark",
-      "votes": 1,
-      "id_cities": 424
-    },
-    {
-      "name": "Rheinbach",
-      "votes": 1,
-      "id_cities": 425
-    },
-    {
-      "name": "Mechernich",
-      "votes": 1,
-      "id_cities": 427
-    },
-    {
-      "name": "Geislingen an der Steige",
-      "votes": 1,
-      "id_cities": 428
-    },
-    {
-      "name": "Reinbek",
-      "votes": 1,
-      "id_cities": 431
-    },
-    {
-      "name": "Verden (Aller)",
-      "votes": 1,
-      "id_cities": 432
-    },
-    {
-      "name": "Hamminkeln",
-      "votes": 2,
-      "id_cities": 433
-    },
-    {
-      "name": "Hattersheim am Main",
-      "votes": 1,
-      "id_cities": 436
-    },
-    {
-      "name": "Griesheim",
-      "votes": 3,
-      "id_cities": 437
-    },
-    {
-      "name": "Köthen (Anhalt)",
-      "votes": 1,
-      "id_cities": 446
-    },
-    {
-      "name": "Wiesloch",
-      "votes": 4,
-      "id_cities": 447
-    },
-    {
-      "name": "Lauf an der Pegnitz",
-      "votes": 5,
-      "id_cities": 448
-    },
-    {
-      "name": "Nordenham",
-      "votes": 1,
-      "id_cities": 449
-    },
-    {
-      "name": "Ilmenau",
-      "votes": 8,
-      "id_cities": 454
-    },
-    {
-      "name": "Lohne (Oldenburg)",
-      "votes": 2,
-      "id_cities": 456
-    },
-    {
-      "name": "Remseck am Neckar",
-      "votes": 1,
-      "id_cities": 460
-    },
-    {
-      "name": "Butzbach",
-      "votes": 1,
-      "id_cities": 465
-    },
-    {
-      "name": "Teltow",
-      "votes": 3,
-      "id_cities": 468
-    },
-    {
-      "name": "Weiterstadt",
-      "votes": 2,
-      "id_cities": 470
-    },
-    {
-      "name": "Heppenheim (Bergstraße)",
-      "votes": 2,
-      "id_cities": 472
-    },
-    {
-      "name": "Schmallenberg",
-      "votes": 1,
-      "id_cities": 474
-    },
-    {
-      "name": "Sprockhövel",
-      "votes": 2,
-      "id_cities": 476
-    },
-    {
-      "name": "Salzkotten",
-      "votes": 1,
-      "id_cities": 478
-    },
-    {
-      "name": "Friedrichsdorf",
-      "votes": 1,
-      "id_cities": 481
-    },
-    {
-      "name": "Ludwigsfelde",
-      "votes": 1,
-      "id_cities": 482
-    },
-    {
-      "name": "Bad Oldesloe",
-      "votes": 1,
-      "id_cities": 483
-    },
-    {
-      "name": "Groß-Gerau",
-      "votes": 1,
-      "id_cities": 493
-    },
-    {
-      "name": "Ditzingen",
-      "votes": 1,
-      "id_cities": 494
-    },
-    {
-      "name": "Zirndorf",
-      "votes": 1,
-      "id_cities": 495
-    },
-    {
-      "name": "Senftenberg",
-      "votes": 1,
-      "id_cities": 496
-    },
-    {
-      "name": "Quedlinburg",
-      "votes": 1,
-      "id_cities": 497
-    },
-    {
-      "name": "Pfungstadt",
-      "votes": 4,
-      "id_cities": 498
-    },
-    {
-      "name": "Weingarten",
-      "votes": 6,
-      "id_cities": 500
-    },
-    {
-      "name": "Obertshausen",
-      "votes": 2,
-      "id_cities": 501
-    },
-    {
-      "name": "Unterhaching",
-      "votes": 5,
-      "id_cities": 502
-    },
-    {
-      "name": "Idstein",
-      "votes": 1,
-      "id_cities": 511
-    },
-    {
-      "name": "Stutensee",
-      "votes": 4,
-      "id_cities": 512
-    },
-    {
-      "name": "Isernhagen",
-      "votes": 1,
-      "id_cities": 516
-    },
-    {
-      "name": "Haren (Ems)",
-      "votes": 1,
-      "id_cities": 521
-    },
-    {
-      "name": "Sehnde",
-      "votes": 1,
-      "id_cities": 524
-    },
-    {
-      "name": "Alfter",
-      "votes": 6,
-      "id_cities": 526
-    },
-    {
-      "name": "Netphen",
-      "votes": 4,
-      "id_cities": 528
-    },
-    {
-      "name": "Bedburg",
-      "votes": 1,
-      "id_cities": 529
-    },
-    {
-      "name": "Jüchen",
-      "votes": 1,
-      "id_cities": 530
-    },
-    {
-      "name": "Moormerland",
-      "votes": 1,
-      "id_cities": 536
-    },
-    {
-      "name": "Herzogenaurach",
-      "votes": 1,
-      "id_cities": 537
-    },
-    {
-      "name": "Bad Mergentheim",
-      "votes": 1,
-      "id_cities": 538
-    },
-    {
-      "name": "Wallenhorst",
-      "votes": 3,
-      "id_cities": 539
-    },
-    {
-      "name": "Mosbach",
-      "votes": 4,
-      "id_cities": 540
-    },
-    {
-      "name": "Riedstadt",
-      "votes": 2,
-      "id_cities": 541
-    },
-    {
-      "name": "Starnberg",
-      "votes": 1,
-      "id_cities": 543
-    },
-    {
-      "name": "Überlingen",
-      "votes": 1,
-      "id_cities": 552
-    },
-    {
-      "name": "Radevormwald",
-      "votes": 1,
-      "id_cities": 554
-    },
-    {
-      "name": "Apolda",
-      "votes": 1,
-      "id_cities": 555
-    },
-    {
-      "name": "Schwetzingen",
-      "votes": 4,
-      "id_cities": 556
-    },
-    {
-      "name": "Rastede",
-      "votes": 1,
-      "id_cities": 564
-    },
-    {
-      "name": "Gersthofen",
-      "votes": 1,
-      "id_cities": 567
-    },
-    {
-      "name": "Stadthagen",
-      "votes": 2,
-      "id_cities": 571
-    },
-    {
-      "name": "Büren",
-      "votes": 2,
-      "id_cities": 573
-    },
-    {
-      "name": "Döbeln",
-      "votes": 1,
-      "id_cities": 581
-    },
-    {
-      "name": "Xanten",
-      "votes": 1,
-      "id_cities": 582
-    },
-    {
-      "name": "Heide",
-      "votes": 1,
-      "id_cities": 584
-    },
-    {
-      "name": "Soltau",
-      "votes": 1,
-      "id_cities": 585
-    },
-    {
-      "name": "Eppingen",
-      "votes": 1,
-      "id_cities": 589
-    },
-    {
-      "name": "Ottobrunn",
-      "votes": 4,
-      "id_cities": 591
-    },
-    {
-      "name": "Wülfrath",
-      "votes": 2,
-      "id_cities": 595
-    },
-    {
-      "name": "Laupheim",
-      "votes": 1,
-      "id_cities": 596
-    },
-    {
-      "name": "Hockenheim",
-      "votes": 1,
-      "id_cities": 597
-    },
-    {
-      "name": "Geseke",
-      "votes": 1,
-      "id_cities": 600
-    },
-    {
-      "name": "Aichach",
-      "votes": 1,
-      "id_cities": 601
-    },
-    {
-      "name": "Blieskastel",
-      "votes": 2,
-      "id_cities": 605
-    },
-    {
-      "name": "Schramberg",
-      "votes": 1,
-      "id_cities": 606
-    },
-    {
-      "name": "Eschborn",
-      "votes": 1,
-      "id_cities": 609
-    },
-    {
-      "name": "Steinhagen",
-      "votes": 3,
-      "id_cities": 614
-    },
-    {
-      "name": "Wittmund",
-      "votes": 1,
-      "id_cities": 615
-    },
-    {
-      "name": "Enger",
-      "votes": 1,
-      "id_cities": 617
-    },
-    {
-      "name": "Kleinmachnow",
-      "votes": 1,
-      "id_cities": 618
-    },
-    {
-      "name": "Burgwedel",
-      "votes": 1,
-      "id_cities": 619
-    },
-    {
-      "name": "Flörsheim am Main",
-      "votes": 2,
-      "id_cities": 621
-    },
-    {
-      "name": "Wilnsdorf",
-      "votes": 6,
-      "id_cities": 625
-    },
-    {
-      "name": "Wachtberg",
-      "votes": 5,
-      "id_cities": 629
-    },
-    {
-      "name": "Annaberg-Buchholz",
-      "votes": 1,
-      "id_cities": 630
-    },
-    {
-      "name": "Bruchköbel",
-      "votes": 1,
-      "id_cities": 631
-    },
-    {
-      "name": "Stadtlohn",
-      "votes": 2,
-      "id_cities": 632
-    },
-    {
-      "name": "Rheinstetten",
-      "votes": 2,
-      "id_cities": 635
-    },
-    {
-      "name": "Dillingen/Saar",
-      "votes": 1,
-      "id_cities": 637
-    },
-    {
-      "name": "Blankenburg (Harz)",
-      "votes": 1,
-      "id_cities": 638
-    },
-    {
-      "name": "Gauting",
-      "votes": 1,
-      "id_cities": 639
-    },
-    {
-      "name": "Haßloch",
-      "votes": 1,
-      "id_cities": 640
-    },
-    {
-      "name": "Holzminden",
-      "votes": 2,
-      "id_cities": 644
-    },
-    {
-      "name": "Karlsfeld",
-      "votes": 3,
-      "id_cities": 645
-    },
-    {
-      "name": "Ennigerloh",
-      "votes": 2,
-      "id_cities": 649
-    },
-    {
-      "name": "Dessau-Roßlau",
-      "votes": 3,
-      "id_cities": 651
-    },
-    {
-      "name": "Rüsselsheim am Main",
-      "votes": 3,
-      "id_cities": 652
-    },
-    {
-      "name": "Bitterfeld-Wolfen",
-      "votes": 1,
-      "id_cities": 656
-    },
-    {
-      "name": "Haltern am See",
-      "votes": 4,
-      "id_cities": 658
-    },
-    {
-      "name": "Emmerich am Rhein",
-      "votes": 1,
-      "id_cities": 663
-    },
-    {
-      "name": "Neusäß",
-      "votes": 2,
-      "id_cities": 673
-    }
-  ]
-},
-"4" : {
   "message": "\"Rieche ich nach Gras?\"\n\"Ne, und ich?\"\n\"Auch nicht\"\n-Zwei Typen in der Bahn die nach Gras riechen",
   "interPolatedResult": {
     "Votes": 15,
@@ -34340,7 +29730,7 @@ export const RANDOMJODEL = {
     }
   ]
 },
-"5" : {
+"4" : {
   "message": "Mama: \"Was macht die Uni ?\"\n\nIch: \"Nichts macht die Uni, ich muss alles selber machen ..\"",
   "interPolatedResult": {
     "Votes": 4,
@@ -44580,7 +39970,7 @@ export const RANDOMJODEL = {
     }
   ]
 },
-  "6" : {
+  "5" : {
     "message": "Heute in der Universität Ulm Präsentation halten. Bin schon aufgeregt aber das wird bestimmt eine gute Note! \n\n#Uni #Ulm",
     "interPolatedResult": {
       "Votes": 1,
@@ -47760,5 +43150,2709 @@ export const RANDOMJODEL = {
         "id_cities": 579
       }
     ]
-  }
+  },
+"6" : {
+  "message":"Gerade am Präsentieren im Fach Interaktives Informationsdesign. WEHE der Roger gibt mir eine schlechte Note!\n\n#Medieninformatik #Jodel",
+  "interPolatedResult":{
+    "Votes":1,
+    "Comments":1,
+    "Pins":1,
+    "maxValue":20,
+    "maxKommentare":4,
+    "Keywords_similiar":[
+      {
+        "name":"Uni",
+        "value":98,
+        "maxValue":98
+      },
+      {
+        "name":"Gruppe",
+        "value":69,
+        "color":"9EC41C",
+        "maxValue":98
+      },
+      {
+        "name":"XY",
+        "value":34,
+        "color":"9EC41C",
+        "maxValue":98
+      },
+      {
+        "name":"fällt",
+        "value":87,
+        "color":"FF9908",
+        "maxValue":98
+      },
+      {
+        "name":"Hallo",
+        "value":80,
+        "color":"06A3CB",
+        "maxValue":98
+      },
+      {
+        "name":"Freunde",
+        "value":82,
+        "color":"DD5F5F",
+        "maxValue":98
+      }
+    ],
+    "Hashtag_similiar":[
+      {
+        "name":"#warum",
+        "value":82,
+        "color":"9EC41C",
+        "maxValue":82
+      },
+      {
+        "name":"#dummheit",
+        "value":74,
+        "color":"FF9908",
+        "maxValue":82
+      },
+      {
+        "name":"#lesenhilft",
+        "value":30,
+        "color":"FFBA00",
+        "maxValue":82
+      },
+      {
+        "name":"#studenten",
+        "value":17,
+        "color":"FFBA00",
+        "maxValue":82
+      },
+      {
+        "name":"#nocheinhashtag",
+        "value":31,
+        "color":"DD5F5F",
+        "maxValue":82
+      }
+    ]
+  },
+  "time":[
+    {
+      "votes":1,
+      "hour":5
+    },
+    {
+      "votes":19,
+      "hour":6
+    },
+    {
+      "votes":1.5,
+      "hour":7
+    },
+    {
+      "votes":14,
+      "hour":8
+    },
+    {
+      "votes":4,
+      "hour":9
+    },
+    {
+      "votes":9.3333,
+      "hour":10
+    },
+    {
+      "votes":8,
+      "hour":11
+    },
+    {
+      "votes":8.8,
+      "hour":12
+    },
+    {
+      "votes":15.25,
+      "hour":13
+    },
+    {
+      "votes":12,
+      "hour":14
+    },
+    {
+      "votes":10,
+      "hour":15
+    },
+    {
+      "votes":9,
+      "hour":16
+    },
+    {
+      "votes":7.5,
+      "hour":17
+    },
+    {
+      "votes":22,
+      "hour":18
+    },
+    {
+      "votes":3,
+      "hour":19
+    },
+    {
+      "votes":8.1667,
+      "hour":20
+    },
+    {
+      "votes":3.5,
+      "hour":21
+    },
+    {
+      "votes":3,
+      "hour":22
+    },
+    {
+      "votes":3,
+      "hour":23
+    },
+    {
+      "votes":3,
+      "hour":0
+    },
+    {
+      "votes":2,
+      "hour":1
+    },
+    {
+      "votes":2,
+      "hour":2
+    },
+    {
+      "votes":2,
+      "hour":3
+    },
+    {
+      "votes":1,
+      "hour":4
+    }
+  ],
+  "hashtags":[
+    {
+      "name":"#Medieninformatik",
+      "amount":0,
+      "citydata":[
+
+      ],
+      "maxValue":593,
+      "similiar":[
+
+      ],
+      "color":"FFBA00"
+    },
+    {
+      "name":"#Jodel",
+      "amount":593,
+      "citydata":[
+        {
+          "votes":21,
+          "id_cities":1
+        },
+        {
+          "votes":12,
+          "id_cities":2
+        },
+        {
+          "votes":19,
+          "id_cities":3
+        },
+        {
+          "votes":25,
+          "id_cities":4
+        },
+        {
+          "votes":13,
+          "id_cities":5
+        },
+        {
+          "votes":17,
+          "id_cities":6
+        },
+        {
+          "votes":6,
+          "id_cities":7
+        },
+        {
+          "votes":10,
+          "id_cities":8
+        },
+        {
+          "votes":1,
+          "id_cities":9
+        },
+        {
+          "votes":5,
+          "id_cities":10
+        },
+        {
+          "votes":13,
+          "id_cities":11
+        },
+        {
+          "votes":8,
+          "id_cities":12
+        },
+        {
+          "votes":9,
+          "id_cities":13
+        },
+        {
+          "votes":10,
+          "id_cities":14
+        },
+        {
+          "votes":5,
+          "id_cities":15
+        },
+        {
+          "votes":9,
+          "id_cities":16
+        },
+        {
+          "votes":3,
+          "id_cities":17
+        },
+        {
+          "votes":7,
+          "id_cities":18
+        },
+        {
+          "votes":6,
+          "id_cities":19
+        },
+        {
+          "votes":15,
+          "id_cities":20
+        },
+        {
+          "votes":10,
+          "id_cities":21
+        },
+        {
+          "votes":5,
+          "id_cities":22
+        },
+        {
+          "votes":15,
+          "id_cities":23
+        },
+        {
+          "votes":1,
+          "id_cities":24
+        },
+        {
+          "votes":4,
+          "id_cities":25
+        },
+        {
+          "votes":2,
+          "id_cities":26
+        },
+        {
+          "votes":2,
+          "id_cities":27
+        },
+        {
+          "votes":10,
+          "id_cities":29
+        },
+        {
+          "votes":6,
+          "id_cities":30
+        },
+        {
+          "votes":1,
+          "id_cities":31
+        },
+        {
+          "votes":6,
+          "id_cities":33
+        },
+        {
+          "votes":3,
+          "id_cities":34
+        },
+        {
+          "votes":2,
+          "id_cities":35
+        },
+        {
+          "votes":1,
+          "id_cities":36
+        },
+        {
+          "votes":2,
+          "id_cities":37
+        },
+        {
+          "votes":2,
+          "id_cities":38
+        },
+        {
+          "votes":2,
+          "id_cities":39
+        },
+        {
+          "votes":4,
+          "id_cities":40
+        },
+        {
+          "votes":1,
+          "id_cities":41
+        },
+        {
+          "votes":3,
+          "id_cities":43
+        },
+        {
+          "votes":4,
+          "id_cities":44
+        },
+        {
+          "votes":2,
+          "id_cities":45
+        },
+        {
+          "votes":5,
+          "id_cities":47
+        },
+        {
+          "votes":4,
+          "id_cities":48
+        },
+        {
+          "votes":4,
+          "id_cities":49
+        },
+        {
+          "votes":2,
+          "id_cities":50
+        },
+        {
+          "votes":7,
+          "id_cities":51
+        },
+        {
+          "votes":2,
+          "id_cities":52
+        },
+        {
+          "votes":1,
+          "id_cities":53
+        },
+        {
+          "votes":4,
+          "id_cities":54
+        },
+        {
+          "votes":7,
+          "id_cities":55
+        },
+        {
+          "votes":9,
+          "id_cities":56
+        },
+        {
+          "votes":3,
+          "id_cities":57
+        },
+        {
+          "votes":5,
+          "id_cities":58
+        },
+        {
+          "votes":2,
+          "id_cities":59
+        },
+        {
+          "votes":1,
+          "id_cities":60
+        },
+        {
+          "votes":1,
+          "id_cities":61
+        },
+        {
+          "votes":7,
+          "id_cities":64
+        },
+        {
+          "votes":1,
+          "id_cities":65
+        },
+        {
+          "votes":3,
+          "id_cities":66
+        },
+        {
+          "votes":1,
+          "id_cities":67
+        },
+        {
+          "votes":5,
+          "id_cities":70
+        },
+        {
+          "votes":2,
+          "id_cities":71
+        },
+        {
+          "votes":1,
+          "id_cities":72
+        },
+        {
+          "votes":4,
+          "id_cities":74
+        },
+        {
+          "votes":1,
+          "id_cities":75
+        },
+        {
+          "votes":2,
+          "id_cities":76
+        },
+        {
+          "votes":2,
+          "id_cities":77
+        },
+        {
+          "votes":3,
+          "id_cities":80
+        },
+        {
+          "votes":1,
+          "id_cities":82
+        },
+        {
+          "votes":1,
+          "id_cities":85
+        },
+        {
+          "votes":1,
+          "id_cities":89
+        },
+        {
+          "votes":4,
+          "id_cities":92
+        },
+        {
+          "votes":1,
+          "id_cities":93
+        },
+        {
+          "votes":3,
+          "id_cities":96
+        },
+        {
+          "votes":4,
+          "id_cities":98
+        },
+        {
+          "votes":1,
+          "id_cities":105
+        },
+        {
+          "votes":1,
+          "id_cities":106
+        },
+        {
+          "votes":1,
+          "id_cities":108
+        },
+        {
+          "votes":1,
+          "id_cities":110
+        },
+        {
+          "votes":2,
+          "id_cities":113
+        },
+        {
+          "votes":3,
+          "id_cities":114
+        },
+        {
+          "votes":2,
+          "id_cities":117
+        },
+        {
+          "votes":5,
+          "id_cities":118
+        },
+        {
+          "votes":1,
+          "id_cities":124
+        },
+        {
+          "votes":1,
+          "id_cities":125
+        },
+        {
+          "votes":2,
+          "id_cities":132
+        },
+        {
+          "votes":1,
+          "id_cities":135
+        },
+        {
+          "votes":1,
+          "id_cities":143
+        },
+        {
+          "votes":1,
+          "id_cities":145
+        },
+        {
+          "votes":2,
+          "id_cities":146
+        },
+        {
+          "votes":1,
+          "id_cities":147
+        },
+        {
+          "votes":1,
+          "id_cities":148
+        },
+        {
+          "votes":2,
+          "id_cities":152
+        },
+        {
+          "votes":1,
+          "id_cities":160
+        },
+        {
+          "votes":1,
+          "id_cities":161
+        },
+        {
+          "votes":1,
+          "id_cities":162
+        },
+        {
+          "votes":4,
+          "id_cities":163
+        },
+        {
+          "votes":2,
+          "id_cities":166
+        },
+        {
+          "votes":1,
+          "id_cities":178
+        },
+        {
+          "votes":1,
+          "id_cities":179
+        },
+        {
+          "votes":4,
+          "id_cities":180
+        },
+        {
+          "votes":1,
+          "id_cities":182
+        },
+        {
+          "votes":1,
+          "id_cities":188
+        },
+        {
+          "votes":1,
+          "id_cities":190
+        },
+        {
+          "votes":1,
+          "id_cities":208
+        },
+        {
+          "votes":1,
+          "id_cities":216
+        },
+        {
+          "votes":2,
+          "id_cities":217
+        },
+        {
+          "votes":1,
+          "id_cities":223
+        },
+        {
+          "votes":1,
+          "id_cities":240
+        },
+        {
+          "votes":1,
+          "id_cities":242
+        },
+        {
+          "votes":1,
+          "id_cities":253
+        },
+        {
+          "votes":1,
+          "id_cities":255
+        },
+        {
+          "votes":2,
+          "id_cities":259
+        },
+        {
+          "votes":1,
+          "id_cities":279
+        },
+        {
+          "votes":1,
+          "id_cities":281
+        },
+        {
+          "votes":1,
+          "id_cities":293
+        },
+        {
+          "votes":1,
+          "id_cities":316
+        },
+        {
+          "votes":1,
+          "id_cities":325
+        },
+        {
+          "votes":1,
+          "id_cities":328
+        },
+        {
+          "votes":1,
+          "id_cities":339
+        },
+        {
+          "votes":1,
+          "id_cities":341
+        },
+        {
+          "votes":1,
+          "id_cities":344
+        },
+        {
+          "votes":1,
+          "id_cities":354
+        },
+        {
+          "votes":1,
+          "id_cities":370
+        },
+        {
+          "votes":1,
+          "id_cities":374
+        },
+        {
+          "votes":2,
+          "id_cities":379
+        },
+        {
+          "votes":1,
+          "id_cities":385
+        },
+        {
+          "votes":1,
+          "id_cities":396
+        },
+        {
+          "votes":1,
+          "id_cities":403
+        },
+        {
+          "votes":1,
+          "id_cities":406
+        },
+        {
+          "votes":1,
+          "id_cities":436
+        },
+        {
+          "votes":2,
+          "id_cities":450
+        },
+        {
+          "votes":1,
+          "id_cities":486
+        },
+        {
+          "votes":1,
+          "id_cities":490
+        },
+        {
+          "votes":1,
+          "id_cities":502
+        },
+        {
+          "votes":1,
+          "id_cities":508
+        },
+        {
+          "votes":1,
+          "id_cities":512
+        },
+        {
+          "votes":1,
+          "id_cities":523
+        },
+        {
+          "votes":1,
+          "id_cities":532
+        },
+        {
+          "votes":1,
+          "id_cities":541
+        },
+        {
+          "votes":1,
+          "id_cities":588
+        },
+        {
+          "votes":1,
+          "id_cities":591
+        },
+        {
+          "votes":1,
+          "id_cities":606
+        },
+        {
+          "votes":1,
+          "id_cities":626
+        },
+        {
+          "votes":1,
+          "id_cities":645
+        }
+      ],
+      "maxValue":593,
+      "similiar":[
+
+      ],
+      "color":"FFBA00"
+    }
+  ],
+  "keywords":[
+    {
+      "name":"Fach",
+      "amount":"1055",
+      "citydata":[
+        {
+          "name":"Berlin",
+          "votes":16,
+          "id_cities":1
+        },
+        {
+          "name":"Hamburg",
+          "votes":31,
+          "id_cities":2
+        },
+        {
+          "name":"München",
+          "votes":36,
+          "id_cities":3
+        },
+        {
+          "name":"Köln",
+          "votes":43,
+          "id_cities":4
+        },
+        {
+          "name":"Frankfurt am Main",
+          "votes":13,
+          "id_cities":5
+        },
+        {
+          "name":"Stuttgart",
+          "votes":12,
+          "id_cities":6
+        },
+        {
+          "name":"Düsseldorf",
+          "votes":13,
+          "id_cities":7
+        },
+        {
+          "name":"Dortmund",
+          "votes":19,
+          "id_cities":8
+        },
+        {
+          "name":"Essen",
+          "votes":21,
+          "id_cities":9
+        },
+        {
+          "name":"Leipzig",
+          "votes":13,
+          "id_cities":10
+        },
+        {
+          "name":"Bremen",
+          "votes":10,
+          "id_cities":11
+        },
+        {
+          "name":"Dresden",
+          "votes":15,
+          "id_cities":12
+        },
+        {
+          "name":"Hannover",
+          "votes":13,
+          "id_cities":13
+        },
+        {
+          "name":"Nürnberg",
+          "votes":15,
+          "id_cities":14
+        },
+        {
+          "name":"Duisburg",
+          "votes":5,
+          "id_cities":15
+        },
+        {
+          "name":"Bochum",
+          "votes":15,
+          "id_cities":16
+        },
+        {
+          "name":"Wuppertal",
+          "votes":6,
+          "id_cities":17
+        },
+        {
+          "name":"Bielefeld",
+          "votes":21,
+          "id_cities":18
+        },
+        {
+          "name":"Bonn",
+          "votes":16,
+          "id_cities":19
+        },
+        {
+          "name":"Münster",
+          "votes":30,
+          "id_cities":20
+        },
+        {
+          "name":"Karlsruhe",
+          "votes":14,
+          "id_cities":21
+        },
+        {
+          "name":"Mannheim",
+          "votes":17,
+          "id_cities":22
+        },
+        {
+          "name":"Augsburg",
+          "votes":21,
+          "id_cities":23
+        },
+        {
+          "name":"Wiesbaden",
+          "votes":6,
+          "id_cities":24
+        },
+        {
+          "name":"Gelsenkirchen",
+          "votes":1,
+          "id_cities":25
+        },
+        {
+          "name":"Mönchengladbach",
+          "votes":1,
+          "id_cities":26
+        },
+        {
+          "name":"Braunschweig",
+          "votes":6,
+          "id_cities":27
+        },
+        {
+          "name":"Chemnitz",
+          "votes":2,
+          "id_cities":28
+        },
+        {
+          "name":"Kiel",
+          "votes":14,
+          "id_cities":29
+        },
+        {
+          "name":"Aachen",
+          "votes":27,
+          "id_cities":30
+        },
+        {
+          "name":"Magdeburg",
+          "votes":4,
+          "id_cities":32
+        },
+        {
+          "name":"Freiburg im Breisgau",
+          "votes":12,
+          "id_cities":33
+        },
+        {
+          "name":"Krefeld",
+          "votes":4,
+          "id_cities":34
+        },
+        {
+          "name":"Lübeck",
+          "votes":6,
+          "id_cities":35
+        },
+        {
+          "name":"Oberhausen",
+          "votes":2,
+          "id_cities":36
+        },
+        {
+          "name":"Erfurt",
+          "votes":4,
+          "id_cities":37
+        },
+        {
+          "name":"Mainz",
+          "votes":10,
+          "id_cities":38
+        },
+        {
+          "name":"Rostock",
+          "votes":10,
+          "id_cities":39
+        },
+        {
+          "name":"Kassel",
+          "votes":8,
+          "id_cities":40
+        },
+        {
+          "name":"Hagen",
+          "votes":2,
+          "id_cities":41
+        },
+        {
+          "name":"Hamm",
+          "votes":1,
+          "id_cities":42
+        },
+        {
+          "name":"Saarbrücken",
+          "votes":11,
+          "id_cities":43
+        },
+        {
+          "name":"Mülheim an der Ruhr",
+          "votes":3,
+          "id_cities":44
+        },
+        {
+          "name":"Oldenburg",
+          "votes":11,
+          "id_cities":47
+        },
+        {
+          "name":"Osnabrück",
+          "votes":10,
+          "id_cities":49
+        },
+        {
+          "name":"Heidelberg",
+          "votes":11,
+          "id_cities":51
+        },
+        {
+          "name":"Herne",
+          "votes":1,
+          "id_cities":52
+        },
+        {
+          "name":"Neuss",
+          "votes":4,
+          "id_cities":53
+        },
+        {
+          "name":"Darmstadt",
+          "votes":8,
+          "id_cities":54
+        },
+        {
+          "name":"Paderborn",
+          "votes":19,
+          "id_cities":55
+        },
+        {
+          "name":"Regensburg",
+          "votes":15,
+          "id_cities":56
+        },
+        {
+          "name":"Ingolstadt",
+          "votes":6,
+          "id_cities":57
+        },
+        {
+          "name":"Würzburg",
+          "votes":16,
+          "id_cities":58
+        },
+        {
+          "name":"Fürth",
+          "votes":2,
+          "id_cities":59
+        },
+        {
+          "name":"Wolfsburg",
+          "votes":1,
+          "id_cities":60
+        },
+        {
+          "name":"Ulm",
+          "votes":7,
+          "id_cities":61
+        },
+        {
+          "name":"Heilbronn",
+          "votes":3,
+          "id_cities":62
+        },
+        {
+          "name":"Pforzheim",
+          "votes":9,
+          "id_cities":63
+        },
+        {
+          "name":"Göttingen",
+          "votes":17,
+          "id_cities":64
+        },
+        {
+          "name":"Trier",
+          "votes":10,
+          "id_cities":66
+        },
+        {
+          "name":"Recklinghausen",
+          "votes":3,
+          "id_cities":67
+        },
+        {
+          "name":"Reutlingen",
+          "votes":2,
+          "id_cities":68
+        },
+        {
+          "name":"Bremerhaven",
+          "votes":1,
+          "id_cities":69
+        },
+        {
+          "name":"Koblenz",
+          "votes":4,
+          "id_cities":70
+        },
+        {
+          "name":"Bergisch Gladbach",
+          "votes":1,
+          "id_cities":71
+        },
+        {
+          "name":"Jena",
+          "votes":10,
+          "id_cities":72
+        },
+        {
+          "name":"Remscheid",
+          "votes":2,
+          "id_cities":73
+        },
+        {
+          "name":"Erlangen",
+          "votes":7,
+          "id_cities":74
+        },
+        {
+          "name":"Siegen",
+          "votes":9,
+          "id_cities":76
+        },
+        {
+          "name":"Hildesheim",
+          "votes":3,
+          "id_cities":77
+        },
+        {
+          "name":"Kaiserslautern",
+          "votes":2,
+          "id_cities":80
+        },
+        {
+          "name":"Gütersloh",
+          "votes":1,
+          "id_cities":81
+        },
+        {
+          "name":"Witten",
+          "votes":3,
+          "id_cities":83
+        },
+        {
+          "name":"Iserlohn",
+          "votes":1,
+          "id_cities":85
+        },
+        {
+          "name":"Ludwigsburg",
+          "votes":1,
+          "id_cities":86
+        },
+        {
+          "name":"Ratingen",
+          "votes":1,
+          "id_cities":91
+        },
+        {
+          "name":"Tübingen",
+          "votes":10,
+          "id_cities":92
+        },
+        {
+          "name":"Flensburg",
+          "votes":5,
+          "id_cities":93
+        },
+        {
+          "name":"Gießen",
+          "votes":19,
+          "id_cities":96
+        },
+        {
+          "name":"Konstanz",
+          "votes":5,
+          "id_cities":98
+        },
+        {
+          "name":"Worms",
+          "votes":2,
+          "id_cities":99
+        },
+        {
+          "name":"Minden",
+          "votes":1,
+          "id_cities":100
+        },
+        {
+          "name":"Neumünster",
+          "votes":1,
+          "id_cities":102
+        },
+        {
+          "name":"Wilhelmshaven",
+          "votes":9,
+          "id_cities":105
+        },
+        {
+          "name":"Gladbeck",
+          "votes":1,
+          "id_cities":107
+        },
+        {
+          "name":"Dorsten",
+          "votes":1,
+          "id_cities":108
+        },
+        {
+          "name":"Troisdorf",
+          "votes":1,
+          "id_cities":111
+        },
+        {
+          "name":"Lüneburg",
+          "votes":2,
+          "id_cities":113
+        },
+        {
+          "name":"Marburg",
+          "votes":13,
+          "id_cities":114
+        },
+        {
+          "name":"Bamberg",
+          "votes":4,
+          "id_cities":117
+        },
+        {
+          "name":"Bayreuth",
+          "votes":16,
+          "id_cities":118
+        },
+        {
+          "name":"Landshut",
+          "votes":2,
+          "id_cities":121
+        },
+        {
+          "name":"Aschaffenburg",
+          "votes":1,
+          "id_cities":122
+        },
+        {
+          "name":"Aalen",
+          "votes":2,
+          "id_cities":124
+        },
+        {
+          "name":"Fulda",
+          "votes":2,
+          "id_cities":125
+        },
+        {
+          "name":"Kempten (Allgäu)",
+          "votes":1,
+          "id_cities":127
+        },
+        {
+          "name":"Herford",
+          "votes":1,
+          "id_cities":128
+        },
+        {
+          "name":"Neubrandenburg",
+          "votes":1,
+          "id_cities":135
+        },
+        {
+          "name":"Bergheim",
+          "votes":1,
+          "id_cities":141
+        },
+        {
+          "name":"Offenburg",
+          "votes":1,
+          "id_cities":146
+        },
+        {
+          "name":"Stralsund",
+          "votes":1,
+          "id_cities":147
+        },
+        {
+          "name":"Greifswald",
+          "votes":11,
+          "id_cities":149
+        },
+        {
+          "name":"Hilden",
+          "votes":1,
+          "id_cities":158
+        },
+        {
+          "name":"Waiblingen",
+          "votes":1,
+          "id_cities":161
+        },
+        {
+          "name":"Wolfenbüttel",
+          "votes":1,
+          "id_cities":172
+        },
+        {
+          "name":"Frechen",
+          "votes":1,
+          "id_cities":173
+        },
+        {
+          "name":"Emden",
+          "votes":3,
+          "id_cities":179
+        },
+        {
+          "name":"Passau",
+          "votes":14,
+          "id_cities":180
+        },
+        {
+          "name":"Ravensburg",
+          "votes":1,
+          "id_cities":183
+        },
+        {
+          "name":"Erftstadt",
+          "votes":1,
+          "id_cities":184
+        },
+        {
+          "name":"Kleve",
+          "votes":2,
+          "id_cities":185
+        },
+        {
+          "name":"Peine",
+          "votes":1,
+          "id_cities":187
+        },
+        {
+          "name":"Bornheim",
+          "votes":1,
+          "id_cities":199
+        },
+        {
+          "name":"Freising",
+          "votes":1,
+          "id_cities":202
+        },
+        {
+          "name":"Dachau",
+          "votes":1,
+          "id_cities":207
+        },
+        {
+          "name":"Landau in der Pfalz",
+          "votes":7,
+          "id_cities":216
+        },
+        {
+          "name":"Brühl",
+          "votes":1,
+          "id_cities":221
+        },
+        {
+          "name":"Albstadt",
+          "votes":2,
+          "id_cities":223
+        },
+        {
+          "name":"Erkrath",
+          "votes":1,
+          "id_cities":226
+        },
+        {
+          "name":"Halberstadt",
+          "votes":1,
+          "id_cities":229
+        },
+        {
+          "name":"Rottenburg am Neckar",
+          "votes":1,
+          "id_cities":234
+        },
+        {
+          "name":"Pinneberg",
+          "votes":1,
+          "id_cities":242
+        },
+        {
+          "name":"Weiden in der Oberpfalz",
+          "votes":1,
+          "id_cities":244
+        },
+        {
+          "name":"Homburg",
+          "votes":1,
+          "id_cities":245
+        },
+        {
+          "name":"Amberg",
+          "votes":1,
+          "id_cities":248
+        },
+        {
+          "name":"Lemgo",
+          "votes":1,
+          "id_cities":252
+        },
+        {
+          "name":"Coburg",
+          "votes":2,
+          "id_cities":253
+        },
+        {
+          "name":"Laatzen",
+          "votes":2,
+          "id_cities":258
+        },
+        {
+          "name":"Ostfildern",
+          "votes":1,
+          "id_cities":282
+        },
+        {
+          "name":"Kamp-Lintfort",
+          "votes":1,
+          "id_cities":287
+        },
+        {
+          "name":"Niederkassel",
+          "votes":1,
+          "id_cities":288
+        },
+        {
+          "name":"Sankt Ingbert",
+          "votes":1,
+          "id_cities":298
+        },
+        {
+          "name":"Saarlouis",
+          "votes":1,
+          "id_cities":312
+        },
+        {
+          "name":"Tuttlingen",
+          "votes":1,
+          "id_cities":313
+        },
+        {
+          "name":"Zweibrücken",
+          "votes":1,
+          "id_cities":316
+        },
+        {
+          "name":"Cloppenburg",
+          "votes":1,
+          "id_cities":326
+        },
+        {
+          "name":"Steinfurt",
+          "votes":1,
+          "id_cities":329
+        },
+        {
+          "name":"Balingen",
+          "votes":2,
+          "id_cities":330
+        },
+        {
+          "name":"Wernigerode",
+          "votes":2,
+          "id_cities":337
+        },
+        {
+          "name":"Wedel",
+          "votes":1,
+          "id_cities":343
+        },
+        {
+          "name":"Lampertheim",
+          "votes":1,
+          "id_cities":347
+        },
+        {
+          "name":"Biberach an der Riß",
+          "votes":1,
+          "id_cities":348
+        },
+        {
+          "name":"Deggendorf",
+          "votes":6,
+          "id_cities":349
+        },
+        {
+          "name":"Bad Nauheim",
+          "votes":1,
+          "id_cities":353
+        },
+        {
+          "name":"Vechta",
+          "votes":32,
+          "id_cities":354
+        },
+        {
+          "name":"Kreuztal",
+          "votes":1,
+          "id_cities":356
+        },
+        {
+          "name":"Weyhe",
+          "votes":1,
+          "id_cities":370
+        },
+        {
+          "name":"Werne",
+          "votes":1,
+          "id_cities":377
+        },
+        {
+          "name":"Ennepetal",
+          "votes":1,
+          "id_cities":379
+        },
+        {
+          "name":"Friedberg",
+          "votes":1,
+          "id_cities":385
+        },
+        {
+          "name":"Wetter (Ruhr)",
+          "votes":1,
+          "id_cities":415
+        },
+        {
+          "name":"Rheinbach",
+          "votes":1,
+          "id_cities":425
+        },
+        {
+          "name":"Geislingen an der Steige",
+          "votes":1,
+          "id_cities":428
+        },
+        {
+          "name":"Ingelheim am Rhein",
+          "votes":1,
+          "id_cities":445
+        },
+        {
+          "name":"Neckarsulm",
+          "votes":1,
+          "id_cities":450
+        },
+        {
+          "name":"Ilmenau",
+          "votes":2,
+          "id_cities":454
+        },
+        {
+          "name":"Lohne (Oldenburg)",
+          "votes":1,
+          "id_cities":456
+        },
+        {
+          "name":"Kulmbach",
+          "votes":1,
+          "id_cities":457
+        },
+        {
+          "name":"Mühlacker",
+          "votes":2,
+          "id_cities":464
+        },
+        {
+          "name":"Heppenheim (Bergstraße)",
+          "votes":1,
+          "id_cities":472
+        },
+        {
+          "name":"Unterhaching",
+          "votes":1,
+          "id_cities":502
+        },
+        {
+          "name":"Idstein",
+          "votes":1,
+          "id_cities":511
+        },
+        {
+          "name":"Stutensee",
+          "votes":1,
+          "id_cities":512
+        },
+        {
+          "name":"Netphen",
+          "votes":1,
+          "id_cities":528
+        },
+        {
+          "name":"Bedburg",
+          "votes":1,
+          "id_cities":529
+        },
+        {
+          "name":"Karben",
+          "votes":1,
+          "id_cities":560
+        },
+        {
+          "name":"Eschborn",
+          "votes":1,
+          "id_cities":609
+        },
+        {
+          "name":"Enger",
+          "votes":1,
+          "id_cities":617
+        },
+        {
+          "name":"Wachtberg",
+          "votes":1,
+          "id_cities":629
+        },
+        {
+          "name":"Rheinstetten",
+          "votes":3,
+          "id_cities":635
+        },
+        {
+          "name":"Schortens",
+          "votes":1,
+          "id_cities":636
+        },
+        {
+          "name":"Dessau-Roßlau",
+          "votes":1,
+          "id_cities":651
+        }
+      ],
+      "maxValue":1055,
+      "similiar":[
+        {
+          "name":"bestes",
+          "votes":2,
+          "color":"06A3CB",
+          "maxVal":20
+        },
+        {
+          "name":"drunter",
+          "votes":20,
+          "color":"06A3CB",
+          "maxVal":20
+        },
+        {
+          "name":"Fach",
+          "votes":13.1429,
+          "color":"06A3CB",
+          "maxVal":20
+        },
+        {
+          "name":"freu",
+          "votes":4,
+          "color":"FF9908",
+          "maxVal":20
+        }
+      ],
+      "similiarHashtags":[
+        {
+          "name":"#bestfach",
+          "votes":2,
+          "color":"9EC41C",
+          "maxVal":20
+        },
+        {
+          "name":"#bestprof",
+          "votes":2,
+          "color":"06A3CB",
+          "maxVal":20
+        },
+        {
+          "name":"#dummheit",
+          "votes":20,
+          "color":"FF9908",
+          "maxVal":20
+        },
+        {
+          "name":"#lesenhilft",
+          "votes":20,
+          "color":"FFBA00",
+          "maxVal":20
+        }
+      ],
+      "timetable":[
+        {
+          "votes":1,
+          "hour":5
+        },
+        {
+          "votes":19,
+          "hour":6
+        },
+        {
+          "votes":1.5,
+          "hour":7
+        },
+        {
+          "votes":14,
+          "hour":8
+        },
+        {
+          "votes":4,
+          "hour":9
+        },
+        {
+          "votes":9.3333,
+          "hour":10
+        },
+        {
+          "votes":8,
+          "hour":11
+        },
+        {
+          "votes":8.8,
+          "hour":12
+        },
+        {
+          "votes":15.25,
+          "hour":13
+        },
+        {
+          "votes":12,
+          "hour":14
+        },
+        {
+          "votes":10,
+          "hour":15
+        },
+        {
+          "votes":9,
+          "hour":16
+        },
+        {
+          "votes":7.5,
+          "hour":17
+        },
+        {
+          "votes":22,
+          "hour":18
+        },
+        {
+          "votes":3,
+          "hour":19
+        },
+        {
+          "votes":8.1667,
+          "hour":20
+        },
+        {
+          "votes":3.5,
+          "hour":21
+        },
+        {
+          "votes":3,
+          "hour":22
+        },
+        {
+          "votes":3,
+          "hour":23
+        },
+        {
+          "votes":3,
+          "hour":0
+        },
+        {
+          "votes":2,
+          "hour":1
+        },
+        {
+          "votes":2,
+          "hour":2
+        },
+        {
+          "votes":2,
+          "hour":3
+        },
+        {
+          "votes":1,
+          "hour":4
+        }
+      ],
+      "color":"06A3CB"
+    }
+  ],
+  "jodel":{
+    "core":{
+      "post_id":"5a1553ae42bd150012c0b5e5",
+      "vote_count":20,
+      "post_color":"FFBA00",
+      "post_message":"In der Uni Gruppe: \nDas Fach XY fällt aus. \n2 Zeilen drunter. \nFällt Fach XY aus? \n\n#warum #dummheit #lesenhilft #studenten #nocheinhashtag",
+      "keywords":[
+        "Uni",
+        "Gruppe",
+        "Fach",
+        "XY",
+        "fällt",
+        "drunter",
+        "Fällt",
+        "Fach",
+        "XY",
+        "studenten"
+      ],
+      "tags":[
+        "#warum",
+        "#dummheit",
+        "#lesenhilft",
+        "#studenten",
+        "#nocheinhashtag"
+      ],
+      "location":"Balingen",
+      "created_at":"10:38:38"
+    },
+    "image_approved":0,
+    "image_url":"",
+    "child_count":1,
+    "oj_replied":true,
+    "children":[
+
+    ]
+  },
+  "cityimportance":[
+    {
+      "name":"Berlin",
+      "votes":16,
+      "id_cities":1
+    },
+    {
+      "name":"Hamburg",
+      "votes":31,
+      "id_cities":2
+    },
+    {
+      "name":"München",
+      "votes":36,
+      "id_cities":3
+    },
+    {
+      "name":"Köln",
+      "votes":43,
+      "id_cities":4
+    },
+    {
+      "name":"Frankfurt am Main",
+      "votes":13,
+      "id_cities":5
+    },
+    {
+      "name":"Stuttgart",
+      "votes":12,
+      "id_cities":6
+    },
+    {
+      "name":"Düsseldorf",
+      "votes":13,
+      "id_cities":7
+    },
+    {
+      "name":"Dortmund",
+      "votes":19,
+      "id_cities":8
+    },
+    {
+      "name":"Essen",
+      "votes":21,
+      "id_cities":9
+    },
+    {
+      "name":"Leipzig",
+      "votes":13,
+      "id_cities":10
+    },
+    {
+      "name":"Bremen",
+      "votes":10,
+      "id_cities":11
+    },
+    {
+      "name":"Dresden",
+      "votes":15,
+      "id_cities":12
+    },
+    {
+      "name":"Hannover",
+      "votes":13,
+      "id_cities":13
+    },
+    {
+      "name":"Nürnberg",
+      "votes":15,
+      "id_cities":14
+    },
+    {
+      "name":"Duisburg",
+      "votes":5,
+      "id_cities":15
+    },
+    {
+      "name":"Bochum",
+      "votes":15,
+      "id_cities":16
+    },
+    {
+      "name":"Wuppertal",
+      "votes":6,
+      "id_cities":17
+    },
+    {
+      "name":"Bielefeld",
+      "votes":21,
+      "id_cities":18
+    },
+    {
+      "name":"Bonn",
+      "votes":16,
+      "id_cities":19
+    },
+    {
+      "name":"Münster",
+      "votes":30,
+      "id_cities":20
+    },
+    {
+      "name":"Karlsruhe",
+      "votes":14,
+      "id_cities":21
+    },
+    {
+      "name":"Mannheim",
+      "votes":17,
+      "id_cities":22
+    },
+    {
+      "name":"Augsburg",
+      "votes":21,
+      "id_cities":23
+    },
+    {
+      "name":"Wiesbaden",
+      "votes":6,
+      "id_cities":24
+    },
+    {
+      "name":"Gelsenkirchen",
+      "votes":1,
+      "id_cities":25
+    },
+    {
+      "name":"Mönchengladbach",
+      "votes":1,
+      "id_cities":26
+    },
+    {
+      "name":"Braunschweig",
+      "votes":6,
+      "id_cities":27
+    },
+    {
+      "name":"Chemnitz",
+      "votes":2,
+      "id_cities":28
+    },
+    {
+      "name":"Kiel",
+      "votes":14,
+      "id_cities":29
+    },
+    {
+      "name":"Aachen",
+      "votes":27,
+      "id_cities":30
+    },
+    {
+      "name":"Magdeburg",
+      "votes":4,
+      "id_cities":32
+    },
+    {
+      "name":"Freiburg im Breisgau",
+      "votes":12,
+      "id_cities":33
+    },
+    {
+      "name":"Krefeld",
+      "votes":4,
+      "id_cities":34
+    },
+    {
+      "name":"Lübeck",
+      "votes":6,
+      "id_cities":35
+    },
+    {
+      "name":"Oberhausen",
+      "votes":2,
+      "id_cities":36
+    },
+    {
+      "name":"Erfurt",
+      "votes":4,
+      "id_cities":37
+    },
+    {
+      "name":"Mainz",
+      "votes":10,
+      "id_cities":38
+    },
+    {
+      "name":"Rostock",
+      "votes":10,
+      "id_cities":39
+    },
+    {
+      "name":"Kassel",
+      "votes":8,
+      "id_cities":40
+    },
+    {
+      "name":"Hagen",
+      "votes":2,
+      "id_cities":41
+    },
+    {
+      "name":"Hamm",
+      "votes":1,
+      "id_cities":42
+    },
+    {
+      "name":"Saarbrücken",
+      "votes":11,
+      "id_cities":43
+    },
+    {
+      "name":"Mülheim an der Ruhr",
+      "votes":3,
+      "id_cities":44
+    },
+    {
+      "name":"Oldenburg",
+      "votes":11,
+      "id_cities":47
+    },
+    {
+      "name":"Osnabrück",
+      "votes":10,
+      "id_cities":49
+    },
+    {
+      "name":"Heidelberg",
+      "votes":11,
+      "id_cities":51
+    },
+    {
+      "name":"Herne",
+      "votes":1,
+      "id_cities":52
+    },
+    {
+      "name":"Neuss",
+      "votes":4,
+      "id_cities":53
+    },
+    {
+      "name":"Darmstadt",
+      "votes":8,
+      "id_cities":54
+    },
+    {
+      "name":"Paderborn",
+      "votes":19,
+      "id_cities":55
+    },
+    {
+      "name":"Regensburg",
+      "votes":15,
+      "id_cities":56
+    },
+    {
+      "name":"Ingolstadt",
+      "votes":6,
+      "id_cities":57
+    },
+    {
+      "name":"Würzburg",
+      "votes":16,
+      "id_cities":58
+    },
+    {
+      "name":"Fürth",
+      "votes":2,
+      "id_cities":59
+    },
+    {
+      "name":"Wolfsburg",
+      "votes":1,
+      "id_cities":60
+    },
+    {
+      "name":"Ulm",
+      "votes":7,
+      "id_cities":61
+    },
+    {
+      "name":"Heilbronn",
+      "votes":3,
+      "id_cities":62
+    },
+    {
+      "name":"Pforzheim",
+      "votes":9,
+      "id_cities":63
+    },
+    {
+      "name":"Göttingen",
+      "votes":17,
+      "id_cities":64
+    },
+    {
+      "name":"Trier",
+      "votes":10,
+      "id_cities":66
+    },
+    {
+      "name":"Recklinghausen",
+      "votes":3,
+      "id_cities":67
+    },
+    {
+      "name":"Reutlingen",
+      "votes":2,
+      "id_cities":68
+    },
+    {
+      "name":"Bremerhaven",
+      "votes":1,
+      "id_cities":69
+    },
+    {
+      "name":"Koblenz",
+      "votes":4,
+      "id_cities":70
+    },
+    {
+      "name":"Bergisch Gladbach",
+      "votes":1,
+      "id_cities":71
+    },
+    {
+      "name":"Jena",
+      "votes":10,
+      "id_cities":72
+    },
+    {
+      "name":"Remscheid",
+      "votes":2,
+      "id_cities":73
+    },
+    {
+      "name":"Erlangen",
+      "votes":7,
+      "id_cities":74
+    },
+    {
+      "name":"Siegen",
+      "votes":9,
+      "id_cities":76
+    },
+    {
+      "name":"Hildesheim",
+      "votes":3,
+      "id_cities":77
+    },
+    {
+      "name":"Kaiserslautern",
+      "votes":2,
+      "id_cities":80
+    },
+    {
+      "name":"Gütersloh",
+      "votes":1,
+      "id_cities":81
+    },
+    {
+      "name":"Witten",
+      "votes":3,
+      "id_cities":83
+    },
+    {
+      "name":"Iserlohn",
+      "votes":1,
+      "id_cities":85
+    },
+    {
+      "name":"Ludwigsburg",
+      "votes":1,
+      "id_cities":86
+    },
+    {
+      "name":"Ratingen",
+      "votes":1,
+      "id_cities":91
+    },
+    {
+      "name":"Tübingen",
+      "votes":10,
+      "id_cities":92
+    },
+    {
+      "name":"Flensburg",
+      "votes":5,
+      "id_cities":93
+    },
+    {
+      "name":"Gießen",
+      "votes":19,
+      "id_cities":96
+    },
+    {
+      "name":"Konstanz",
+      "votes":5,
+      "id_cities":98
+    },
+    {
+      "name":"Worms",
+      "votes":2,
+      "id_cities":99
+    },
+    {
+      "name":"Minden",
+      "votes":1,
+      "id_cities":100
+    },
+    {
+      "name":"Neumünster",
+      "votes":1,
+      "id_cities":102
+    },
+    {
+      "name":"Wilhelmshaven",
+      "votes":9,
+      "id_cities":105
+    },
+    {
+      "name":"Gladbeck",
+      "votes":1,
+      "id_cities":107
+    },
+    {
+      "name":"Dorsten",
+      "votes":1,
+      "id_cities":108
+    },
+    {
+      "name":"Troisdorf",
+      "votes":1,
+      "id_cities":111
+    },
+    {
+      "name":"Lüneburg",
+      "votes":2,
+      "id_cities":113
+    },
+    {
+      "name":"Marburg",
+      "votes":13,
+      "id_cities":114
+    },
+    {
+      "name":"Bamberg",
+      "votes":4,
+      "id_cities":117
+    },
+    {
+      "name":"Bayreuth",
+      "votes":16,
+      "id_cities":118
+    },
+    {
+      "name":"Landshut",
+      "votes":2,
+      "id_cities":121
+    },
+    {
+      "name":"Aschaffenburg",
+      "votes":1,
+      "id_cities":122
+    },
+    {
+      "name":"Aalen",
+      "votes":2,
+      "id_cities":124
+    },
+    {
+      "name":"Fulda",
+      "votes":2,
+      "id_cities":125
+    },
+    {
+      "name":"Kempten (Allgäu)",
+      "votes":1,
+      "id_cities":127
+    },
+    {
+      "name":"Herford",
+      "votes":1,
+      "id_cities":128
+    },
+    {
+      "name":"Neubrandenburg",
+      "votes":1,
+      "id_cities":135
+    },
+    {
+      "name":"Bergheim",
+      "votes":1,
+      "id_cities":141
+    },
+    {
+      "name":"Offenburg",
+      "votes":1,
+      "id_cities":146
+    },
+    {
+      "name":"Stralsund",
+      "votes":1,
+      "id_cities":147
+    },
+    {
+      "name":"Greifswald",
+      "votes":11,
+      "id_cities":149
+    },
+    {
+      "name":"Hilden",
+      "votes":1,
+      "id_cities":158
+    },
+    {
+      "name":"Waiblingen",
+      "votes":1,
+      "id_cities":161
+    },
+    {
+      "name":"Wolfenbüttel",
+      "votes":1,
+      "id_cities":172
+    },
+    {
+      "name":"Frechen",
+      "votes":1,
+      "id_cities":173
+    },
+    {
+      "name":"Emden",
+      "votes":3,
+      "id_cities":179
+    },
+    {
+      "name":"Passau",
+      "votes":14,
+      "id_cities":180
+    },
+    {
+      "name":"Ravensburg",
+      "votes":1,
+      "id_cities":183
+    },
+    {
+      "name":"Erftstadt",
+      "votes":1,
+      "id_cities":184
+    },
+    {
+      "name":"Kleve",
+      "votes":2,
+      "id_cities":185
+    },
+    {
+      "name":"Peine",
+      "votes":1,
+      "id_cities":187
+    },
+    {
+      "name":"Bornheim",
+      "votes":1,
+      "id_cities":199
+    },
+    {
+      "name":"Freising",
+      "votes":1,
+      "id_cities":202
+    },
+    {
+      "name":"Dachau",
+      "votes":1,
+      "id_cities":207
+    },
+    {
+      "name":"Landau in der Pfalz",
+      "votes":7,
+      "id_cities":216
+    },
+    {
+      "name":"Brühl",
+      "votes":1,
+      "id_cities":221
+    },
+    {
+      "name":"Albstadt",
+      "votes":2,
+      "id_cities":223
+    },
+    {
+      "name":"Erkrath",
+      "votes":1,
+      "id_cities":226
+    },
+    {
+      "name":"Halberstadt",
+      "votes":1,
+      "id_cities":229
+    },
+    {
+      "name":"Rottenburg am Neckar",
+      "votes":1,
+      "id_cities":234
+    },
+    {
+      "name":"Pinneberg",
+      "votes":1,
+      "id_cities":242
+    },
+    {
+      "name":"Weiden in der Oberpfalz",
+      "votes":1,
+      "id_cities":244
+    },
+    {
+      "name":"Homburg",
+      "votes":1,
+      "id_cities":245
+    },
+    {
+      "name":"Amberg",
+      "votes":1,
+      "id_cities":248
+    },
+    {
+      "name":"Lemgo",
+      "votes":1,
+      "id_cities":252
+    },
+    {
+      "name":"Coburg",
+      "votes":2,
+      "id_cities":253
+    },
+    {
+      "name":"Laatzen",
+      "votes":2,
+      "id_cities":258
+    },
+    {
+      "name":"Ostfildern",
+      "votes":1,
+      "id_cities":282
+    },
+    {
+      "name":"Kamp-Lintfort",
+      "votes":1,
+      "id_cities":287
+    },
+    {
+      "name":"Niederkassel",
+      "votes":1,
+      "id_cities":288
+    },
+    {
+      "name":"Sankt Ingbert",
+      "votes":1,
+      "id_cities":298
+    },
+    {
+      "name":"Saarlouis",
+      "votes":1,
+      "id_cities":312
+    },
+    {
+      "name":"Tuttlingen",
+      "votes":1,
+      "id_cities":313
+    },
+    {
+      "name":"Zweibrücken",
+      "votes":1,
+      "id_cities":316
+    },
+    {
+      "name":"Cloppenburg",
+      "votes":1,
+      "id_cities":326
+    },
+    {
+      "name":"Steinfurt",
+      "votes":1,
+      "id_cities":329
+    },
+    {
+      "name":"Balingen",
+      "votes":2,
+      "id_cities":330
+    },
+    {
+      "name":"Wernigerode",
+      "votes":2,
+      "id_cities":337
+    },
+    {
+      "name":"Wedel",
+      "votes":1,
+      "id_cities":343
+    },
+    {
+      "name":"Lampertheim",
+      "votes":1,
+      "id_cities":347
+    },
+    {
+      "name":"Biberach an der Riß",
+      "votes":1,
+      "id_cities":348
+    },
+    {
+      "name":"Deggendorf",
+      "votes":6,
+      "id_cities":349
+    },
+    {
+      "name":"Bad Nauheim",
+      "votes":1,
+      "id_cities":353
+    },
+    {
+      "name":"Vechta",
+      "votes":32,
+      "id_cities":354
+    },
+    {
+      "name":"Kreuztal",
+      "votes":1,
+      "id_cities":356
+    },
+    {
+      "name":"Weyhe",
+      "votes":1,
+      "id_cities":370
+    },
+    {
+      "name":"Werne",
+      "votes":1,
+      "id_cities":377
+    },
+    {
+      "name":"Ennepetal",
+      "votes":1,
+      "id_cities":379
+    },
+    {
+      "name":"Friedberg",
+      "votes":1,
+      "id_cities":385
+    },
+    {
+      "name":"Wetter (Ruhr)",
+      "votes":1,
+      "id_cities":415
+    },
+    {
+      "name":"Rheinbach",
+      "votes":1,
+      "id_cities":425
+    },
+    {
+      "name":"Geislingen an der Steige",
+      "votes":1,
+      "id_cities":428
+    },
+    {
+      "name":"Ingelheim am Rhein",
+      "votes":1,
+      "id_cities":445
+    },
+    {
+      "name":"Neckarsulm",
+      "votes":1,
+      "id_cities":450
+    },
+    {
+      "name":"Ilmenau",
+      "votes":2,
+      "id_cities":454
+    },
+    {
+      "name":"Lohne (Oldenburg)",
+      "votes":1,
+      "id_cities":456
+    },
+    {
+      "name":"Kulmbach",
+      "votes":1,
+      "id_cities":457
+    },
+    {
+      "name":"Mühlacker",
+      "votes":2,
+      "id_cities":464
+    },
+    {
+      "name":"Heppenheim (Bergstraße)",
+      "votes":1,
+      "id_cities":472
+    },
+    {
+      "name":"Unterhaching",
+      "votes":1,
+      "id_cities":502
+    },
+    {
+      "name":"Idstein",
+      "votes":1,
+      "id_cities":511
+    },
+    {
+      "name":"Stutensee",
+      "votes":1,
+      "id_cities":512
+    },
+    {
+      "name":"Netphen",
+      "votes":1,
+      "id_cities":528
+    },
+    {
+      "name":"Bedburg",
+      "votes":1,
+      "id_cities":529
+    },
+    {
+      "name":"Karben",
+      "votes":1,
+      "id_cities":560
+    },
+    {
+      "name":"Eschborn",
+      "votes":1,
+      "id_cities":609
+    },
+    {
+      "name":"Enger",
+      "votes":1,
+      "id_cities":617
+    },
+    {
+      "name":"Wachtberg",
+      "votes":1,
+      "id_cities":629
+    },
+    {
+      "name":"Rheinstetten",
+      "votes":3,
+      "id_cities":635
+    },
+    {
+      "name":"Schortens",
+      "votes":1,
+      "id_cities":636
+    },
+    {
+      "name":"Dessau-Roßlau",
+      "votes":1,
+      "id_cities":651
+    }
+  ]
+}
 }
