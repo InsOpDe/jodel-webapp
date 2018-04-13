@@ -40,9 +40,15 @@ export class HeaderComponent implements OnInit {
      * @constructor
      */
     Selected(item: SelectedAutocompleteItem) {
-        let original = item.item.original;
-        this.jodel.location = original.city;
-        this.jodel.cityId = original.id;
+
+        if (item && item.item) {
+            let original = item.item.original;
+            this.jodel.location = original.city;
+            this.jodel.cityId = original.id;
+        } else {
+            this.jodel.location = '';
+            this.jodel.cityId = 0;
+        }
     }
 
     constructor(public contentService: ContentService,
@@ -62,11 +68,13 @@ export class HeaderComponent implements OnInit {
 
     ngOnInit() {
 
+        let date = new Date();
+
         // this.jodel = this.contentService.getRandomHeaderModel();
         this.jodel = new HeaderModel({
         // location: 'Ulm',
         // cityId: 61,
-        time: '13:48',
+        time: date.getHours() + ':' + date.getMinutes(),
         // text: randomjodel.message
       })
 

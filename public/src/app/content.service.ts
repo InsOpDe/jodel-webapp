@@ -156,11 +156,11 @@ export class ContentService {
       let color = allColors[this.util.randomIntFromInterval(0, allColors.length - 1)];
 
       console.log(randomjodel);
-
+      let date = new Date();
       let result = new HeaderModel({
         location: 'Ulm',
         cityId: 61,
-        time: '13:48',
+        time: date.getHours() + ':' + date.getMinutes(),
         text: randomjodel.message
       });
       this.color = color;
