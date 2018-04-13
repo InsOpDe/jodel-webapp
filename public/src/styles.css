@@ -815,6 +815,7 @@ button:hover {
 }
 .headerContainer .sendEditButton[disabled] {
   filter: brightness(90%) !important;
+  cursor: default;
 }
 .headerContainer .getRandomJodel {
   background-color: Transparent;
@@ -970,6 +971,9 @@ select option {
   margin-right: 4px;
   float: left;
   border-radius: 1px;
+}
+.outerGlow {
+  text-shadow: 0 0 3px #fff;
 }
 .quad {
   width: 8px;

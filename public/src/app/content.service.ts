@@ -156,10 +156,11 @@ export class ContentService {
       let color = allColors[this.util.randomIntFromInterval(0, allColors.length - 1)];
 
 
+      let date = new Date();
       let result = new HeaderModel({
         location: 'Ulm',
         cityId: 61,
-        time: '13:48',
+        time: date.getHours() + ':' + date.getMinutes(),
         text: randomjodel.message
       });
       this.color = color;
@@ -203,7 +204,7 @@ export class ContentService {
         await this.util.wait(3000);
 
       } else {
-        result = await this.http.post<JRESULT>('http://localhost:8080/api/dummy', jodelData, httpOptions).toPromise();
+        result = await this.http.post<JRESULT>('http://localhost:8080/api/dummy', jodelData).toPromise();
       }
 
       // this.util.download(result, "dummy.json");
