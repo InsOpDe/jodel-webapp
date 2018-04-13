@@ -43,4 +43,9 @@ export class UtilService {
     return Math.floor(Math.random()*(max-min+1)+min);
   }
 
+  leftPad (s, c, n) {
+    s = s.toString(); c = c.toString();
+    return s.length > n ? s : c.repeat(n - s.length) + s;
+  }
+
 }

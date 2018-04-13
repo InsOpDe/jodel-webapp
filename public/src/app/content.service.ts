@@ -160,7 +160,7 @@ export class ContentService {
       let result = new HeaderModel({
         location: 'Ulm',
         cityId: 61,
-        time: date.getHours() + ':' + date.getMinutes(),
+        time: this.util.leftPad(date.getHours(),"0",2) + ':' + this.util.leftPad(date.getMinutes(),"0",2),
         text: randomjodel.message
       });
       this.color = color;
