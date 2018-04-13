@@ -97,7 +97,7 @@ export interface JRESULT
 
 
 const httpOptions = {
-  headers: new HttpHeaders({ 'Content-Type': 'application/json', timeout : String(1000 * 60 * 15) } )
+  headers: new HttpHeaders({ 'Content-Type': 'application/json' } )
 };
 
 /**
