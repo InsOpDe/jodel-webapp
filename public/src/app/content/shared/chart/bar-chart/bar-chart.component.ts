@@ -90,7 +90,8 @@ export class BarChartComponent implements OnInit, OnChanges {
      * @since   23.03.2018
      */
     updateBarValues() {
-        this.valueRound = this.round();
+        this.valueRound = this.value > 0 ? this.round() : 0;
+
         this.valueRoundArray = new Array(this.valueRound);
         this.maxBarAmountArray = new Array(this.maxBarAmount - this.valueRound);
     }
