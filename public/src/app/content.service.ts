@@ -211,9 +211,8 @@ export class ContentService {
         result = await this.http.post<JRESULT>('http://localhost:8080/api/dummy', jodelData).toPromise();
       }
 
-      this.util.download(result, "dummy.json");
+      // this.util.download(result, "dummy.json");
 
-      console.log(result);
       this.true_result = result;
 
       let trueresult2 = this.setResult();
