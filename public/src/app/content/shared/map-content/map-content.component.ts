@@ -29,6 +29,7 @@ import {COLORS} from "../../../global/colors";
 export class MapContentComponent implements OnInit {
 
     @Input() map: MapModel;
+    @Input() headline: string;
     mapArr: object = MAP;
     citiesCoords: object = {};
     city: string = "";
