@@ -64,7 +64,7 @@ export class JResult
         if (res == "")
         {
             //TODO: Yeah... shitty solution for the problem if there is no similiar Jodel.
-            this.affJodel = new Jodel("5980aae96e902100171a0ba8", this.db);
+            this.affJodel = new Jodel("5a15f935a8299c3a35452472", this.db);
         } else
         {
             this.affJodel = new Jodel(res[0].post_id, this.db);
