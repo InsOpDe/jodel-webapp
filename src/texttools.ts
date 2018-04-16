@@ -1,4 +1,6 @@
-﻿let path = require('path');
+﻿import { Keywords } from "./resultinterfaces";
+
+let path = require('path');
 
 /*
  * Created by Tim Mend 
@@ -706,7 +708,11 @@ export class Texttools
         return new Promise((resolve, reject) =>
         {
             let re = new RegExp(Object.values(this.replace_words_clean).join("\\b|\\b") + "|" + Object.values(this.replace_2).join("|"), "gi");
-            resolve(str.replace(re, function (matched)
+            let tmp = str.replace(/(#[^\s]*)+/, function (matched)
+            {
+                return "";
+            })
+            resolve(tmp.replace(re, function (matched)
             {
                 return " ";
             }))
@@ -714,9 +720,15 @@ export class Texttools
 
     }
 
-    public async extractHashtags(str)
+    /**
+     * This will return the Hashtags out of a posts
+     * @param str 
+     * @returns Hashtags in a Array. Can return Null
+     * 
+     */
+    public async extractHashtags(str): Promise<string[]>
     {
-        return new Promise((resolve, reject) =>
+        return new Promise<string[]>((resolve, reject) =>
         {
             let re = new RegExp(/(#[^\s]*)+/, "gi");
             resolve(str.match(re, (matched) =>
@@ -758,15 +770,15 @@ export class Texttools
      * This will extract a keywords from a given message. 
      * @param message string 
      */
-    public async extractKeywords(message: string)
+    public async extractKeywords(message: string): Promise<Keywords[]>
     {
         this.keywords = await this.loadKeywords();
         await this.cleanWords();
-        let res: any[] = [];
+        let res: Keywords[] = [];
         let tmp: string[] = [];
         let words = await this.replaceAll(message);
         let words_array = this.splitByWords(words);
-        return new Promise((resolve, reject) =>
+        return new Promise<Keywords[]>((resolve, reject) =>
         {
             //let j = words_array.length > 4 ? 4 : words_array.length;
             for (let i = 0; i < words_array.length; i++)

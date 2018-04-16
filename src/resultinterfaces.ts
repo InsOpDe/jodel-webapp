@@ -67,3 +67,16 @@ export interface JRESULT
     cityimportance: Citydata[];
 
 }
+
+export interface MostSimiliar
+{
+    MostSimiliar: string[];
+    KeyWordPosts: string[];
+    HashtagPosts: string[];
+}
+
+export interface Keywords
+{
+    name: string;
+    amount: number;
+}

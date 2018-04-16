@@ -690,11 +690,20 @@ class Texttools {
     async replaceAll(str) {
         return new Promise((resolve, reject) => {
             let re = new RegExp(Object.values(this.replace_words_clean).join("\\b|\\b") + "|" + Object.values(this.replace_2).join("|"), "gi");
-            resolve(str.replace(re, function (matched) {
+            let tmp = str.replace(/(#[^\s]*)+/, function (matched) {
+                return "";
+            });
+            resolve(tmp.replace(re, function (matched) {
                 return " ";
             }));
         });
     }
+    /**
+     * This will return the Hashtags out of a posts
+     * @param str
+     * @returns Hashtags in a Array. Can return Null
+     *
+     */
     async extractHashtags(str) {
         return new Promise((resolve, reject) => {
             let re = new RegExp(/(#[^\s]*)+/, "gi");

@@ -21,8 +21,8 @@ class JResult {
      */
     async getResult() {
         process.stdout.write("Getting similiar post");
-        let res = await this.db.getMostSimiliar(this.Jodel);
-        if (res == "") {
+        let res = Object.values(await this.db.getMostSimiliar(this.Jodel))[0];
+        if (res.HashtagPosts.length == 0) {
             //TODO: Yeah... shitty solution for the problem if there is no similiar Jodel.
             this.affJodel = new Jodel("5a15f935a8299c3a35452472", this.db);
         }

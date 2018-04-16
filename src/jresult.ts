@@ -1,7 +1,7 @@
 ﻿import { Db } from "./db";
 import { Texttools } from './texttools';
 import { COLORS, POSTWEIGHT } from './constants'
-import { interpolatedResult, Citydata, HashandKeyResult, keyorhash, JodelJSON, coreJodelJSON, JRESULT } from './resultinterfaces'
+import { MostSimiliar, interpolatedResult, Citydata, HashandKeyResult, keyorhash, JodelJSON, coreJodelJSON, JRESULT, Keywords } from './resultinterfaces'
 /**
  * At last this Class will generate the Result for the Front-End
  * @author Tim Mend
@@ -25,7 +25,6 @@ export class JResult
         this.db = db;
         this.texttools = new Texttools();
     }
-
     //TODO: Maybe not the best way to handle this.. get Most Similiar returns many values I just take the first
     /**
      * This function will create the Result for the Frontend for a given Message. 
@@ -34,8 +33,8 @@ export class JResult
     public async getResult()
     {
         process.stdout.write("Getting similiar post")
-        let res = await this.db.getMostSimiliar(this.Jodel);
-        if (res == "")
+        let res: MostSimiliar = Object.values(await this.db.getMostSimiliar(this.Jodel))[0];
+        if (res.HashtagPosts.length == 0)
         {
             //TODO: Yeah... shitty solution for the problem if there is no similiar Jodel.
             this.affJodel = new Jodel("5a15f935a8299c3a35452472", this.db);
@@ -45,8 +44,8 @@ export class JResult
 
         }
         await this.affJodel.fill();
-        let res2 = await this.texttools.extractHashtags(this.Jodel);
-        let res3 = await this.texttools.extractKeywords(this.Jodel);
+        let res2:string[] = await this.texttools.extractHashtags(this.Jodel);
+        let res3:Keywords[] = await this.texttools.extractKeywords(this.Jodel);
         let time_value: string[] = [];
         for (let time in res3)
         {

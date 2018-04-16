@@ -140,47 +140,62 @@ class Db {
         return this.query(_query);
     }
     /**
-     * TODO: This works but it is stupidly slow. Write better Code...somehow or create View in Database and
+     * This will give back the Most Similiar Post. First of all this function will search for Posts
+     * with similiar Keyword and Hashtags. Then the function will check if there are posts with
+     * the same ids in the Keywords and Hashtags Result and will return them in a array of string
+     * and also returns the keywords and hashtag posts
      * correct other functions
      * @param message string
+     * @returns Promise<MostSimiliar> resulttype is in resultinterfaces
      */
     async getMostSimiliar(message) {
         let res = await this.texttools.extractHashtags(message);
+        //handel case if there is no keyword in the message
         if (res == undefined) {
             res = [];
         }
-        let res_array = Object.values(res);
         //TODO:
         //Speeding up ---- Maybe remove this when better database exists
-        while (res_array.length > 3) {
-            res_array.pop();
+        while (res.length > 3) {
+            res.pop();
         }
-        let resDBHash = this.getPostsFromTags(res_array);
-        let res_keywords = await this.texttools.extractKeywords(message);
-        let res_keywords_array = [];
-        for (let key in res_keywords) {
-            res_keywords_array.push(res_keywords[key].name);
+        let hashtagPosts = await this.getPostsFromTags(res);
+        //handel case if there is no hashtag in the message
+        if (hashtagPosts == undefined) {
+            hashtagPosts = [];
         }
-        //Speeding up that crap ---- Maybe remove this when better database exists
-        while (res_keywords_array.length > 3) {
-            res_keywords_array.pop();
+        let keywords = await this.texttools.extractKeywords(message);
+        let keywords_name = keywords.map(resultset => resultset.name);
+        //TODO:
+        //Speeding up -- Maybe remove this when better database exists
+        while (keywords_name.length > 3) {
+            keywords_name.pop();
         }
-        if (res_keywords_array.length == 0) {
+        //handel case if there is no keyword AND no hashtag in the message
+        if (keywords_name.length == 0 && res.length == 0) {
             return new Promise((resolve) => {
-                resolve("");
+                resolve({
+                    MostSimiliar: [],
+                    KeyWordPosts: [],
+                    HashtagPosts: []
+                });
             });
         }
-        let resDBKeyword = await this.getPostsFromKeywords(res_keywords_array);
+        let resDBKeyword = await this.getPostsFromKeywords(keywords_name);
         return new Promise((resolve, reject) => {
             let equal_key = [];
             for (let key in resDBKeyword) {
-                for (let key2 in resDBHash) {
-                    if (resDBKeyword[key].post_id == resDBHash[key].post_id) {
+                for (let key2 in hashtagPosts) {
+                    if (resDBKeyword[key].post_id == hashtagPosts[key2].post_id) {
                         equal_key.push(resDBKeyword[key].post_id);
                     }
                 }
             }
-            resolve(equal_key.length == 0 ? resDBKeyword : equal_key);
+            resolve({
+                MostSimiliar: equal_key,
+                KeyWordPosts: resDBKeyword.map(resultset => resultset.post_id),
+                HashtagPosts: hashtagPosts.map(resultset => resultset.post_id)
+            });
         });
     }
     //TODO: SLOW - Write better SQL?
