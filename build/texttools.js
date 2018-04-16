@@ -763,14 +763,4 @@ class Texttools {
     }
 }
 exports.Texttools = Texttools;
-async function main() {
-    let texttools = new Texttools();
-    let msg = "Mein Name ist Tim A B C lalalal";
-    let hmsg = "Mein Name ist Tim A B C #yeah #fuckyeah #blyat";
-    let keywords = await texttools.extractKeywords(msg);
-    let hashtags = await texttools.extractHashtags(hmsg);
-    console.log(hashtags);
-    console.log(keywords);
-}
-main();
 //# sourceMappingURL=texttools.js.map

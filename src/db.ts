@@ -195,6 +195,7 @@ export class Db{
             res = [];
         }
         let res_array = Object.values(res);
+        //TODO:
         //Speeding up ---- Maybe remove this when better database exists
         while (res_array.length > 3)
         {
