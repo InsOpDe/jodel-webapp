@@ -12,6 +12,32 @@ export class Texttools
         [
             "einfach",
             "\\sa\\s",
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "U",
+            "V",
+            "W",
+            "X",
+            "Y",
+            "Z",
             "ab               ",
             "aber             ",
             "ach              ",
@@ -682,7 +708,7 @@ export class Texttools
             let re = new RegExp(Object.values(this.replace_words_clean).join("\\b|\\b") + "|" + Object.values(this.replace_2).join("|"), "gi");
             resolve(str.replace(re, function (matched)
             {
-                return "";
+                return " ";
             }))
         })
 
@@ -742,8 +768,8 @@ export class Texttools
         let words_array = this.splitByWords(words);
         return new Promise((resolve, reject) =>
         {
-            let j = words_array.length > 4 ? 4 : words_array.length;
-            for (let i = 0; i < j; i++)
+            //let j = words_array.length > 4 ? 4 : words_array.length;
+            for (let i = 0; i < words_array.length; i++)
             {
                 for (let key in this.keywords)
                 {
@@ -785,3 +811,17 @@ export class Texttools
 
 }
 
+
+
+async function main()
+{
+    let texttools = new Texttools();
+    let msg = "Mein Name ist Tim A B C lalalal";
+    let hmsg = "Mein Name ist Tim A B C #yeah #fuckyeah #blyat"
+    let keywords = await texttools.extractKeywords(msg);
+    let hashtags = await texttools.extractHashtags(hmsg);
+    console.log(hashtags);
+    console.log(keywords);
+}
+
+main();

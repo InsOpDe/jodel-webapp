@@ -1,32 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const texttools_1 = require("./texttools");
-const POSTWEIGHT = 1.5;
-const COLORS = [{
-        color: "FFBA00",
-        id: 1
-    },
-    {
-        color: "FF9908",
-        id: 2
-    },
-    {
-        color: "9EC41C",
-        id: 3
-    },
-    {
-        color: "06A3CB",
-        id: 4
-    },
-    {
-        color: "DD5F5F",
-        id: 5
-    },
-    {
-        color: "8ABDB0",
-        id: 6
-    },
-];
+const constants_1 = require("./constants");
 /**
  * At last this Class will generate the Result for the Front-End
  * @author Tim Mend
@@ -49,7 +24,7 @@ class JResult {
         let res = await this.db.getMostSimiliar(this.Jodel);
         if (res == "") {
             //TODO: Yeah... shitty solution for the problem if there is no similiar Jodel.
-            this.affJodel = new Jodel("5980aae96e902100171a0ba8", this.db);
+            this.affJodel = new Jodel("5a15f935a8299c3a35452472", this.db);
         }
         else {
             this.affJodel = new Jodel(res[0].post_id, this.db);
@@ -235,9 +210,9 @@ class JResult {
             _res += text.charCodeAt(i);
         }
         _res = _res % 6;
-        for (let key in COLORS) {
-            if (COLORS[key].id == _res) {
-                return COLORS[key].color;
+        for (let key in constants_1.COLORS) {
+            if (constants_1.COLORS[key].id == _res) {
+                return constants_1.COLORS[key].color;
             }
         }
     }
@@ -519,4 +494,8 @@ class coreJodel {
     }
 }
 exports.coreJodel = coreJodel;
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////Interfaces///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //# sourceMappingURL=jresult.js.map

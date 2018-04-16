@@ -1,33 +1,7 @@
 ﻿import { Db } from "./db";
 import { Texttools } from './texttools';
-
-const POSTWEIGHT: number = 1.5;
-
-const COLORS = [{
-    color: "FFBA00",
-    id: 1
-    },
-    {
-        color: "FF9908",
-        id: 2
-    },
-    {
-        color: "9EC41C",
-        id: 3
-    },
-    {
-        color: "06A3CB",
-        id: 4
-    },
-    {
-        color: "DD5F5F",
-        id: 5
-    },
-    {
-        color: "8ABDB0",
-        id: 6
-    },
-]
+import { COLORS, POSTWEIGHT } from './constants'
+import { interpolatedResult, Citydata, HashandKeyResult, keyorhash, JodelJSON, coreJodelJSON, JRESULT } from './resultinterfaces'
 /**
  * At last this Class will generate the Result for the Front-End
  * @author Tim Mend
@@ -730,72 +704,3 @@ export class coreJodel
 
 
 
-interface Citydata
-{
-    name: string,
-    votes: number,
-    id_cities: number
-}
-
-interface HashandKeyResult
-{
-    name: string,
-    amount: number,
-    maxValue: number,
-    citydata: Citydata[],
-    similiar: any[],
-    color: string
-}
-
-interface keyorhash
-{
-    name: string,
-    value: number,
-    color: string,
-    maxValue: number
-}
-
-interface interpolatedResult
-{
-    Votes: number,
-    Comments: number,
-    Pins: number,
-    maxValue: number,
-    maxKommentare: number,
-    Keywords_similiar: keyorhash[],
-    Hashtag_similiar: keyorhash[]
-}
-
-interface JodelJSON
-{
-    core: coreJodelJSON;
-    image_approved: Boolean;
-    image_url: string;
-    child_count: Number;
-    oj_replied: Boolean;
-    children: coreJodelJSON[];
-}
-
-interface coreJodelJSON
-{
-    post_id: string;
-    vote_count: Number;
-    post_color: string;
-    post_message: string;
-    keywords: string[];
-    tags: string[];
-    location: string;
-    created_at: string;
-
-}
-interface JRESULT
-{
-    message: string;
-    interPolatedResult: interpolatedResult;
-    time: any;
-    hashtags: HashandKeyResult[],
-    keywords: HashandKeyResult[],
-    jodel: JodelJSON;
-    cityimportance: Citydata[];
-
-}
