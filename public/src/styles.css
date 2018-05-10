@@ -1509,7 +1509,7 @@ select option {
 }
 .outerGlow {
   text-shadow: 0 0 3px #fff;
-  opacity: 0;
+  font-family: 'Fira Sans Condensed', sans-serif;
   transition: opacity 140ms ease-in-out;
 }
 .grid .barchart {
