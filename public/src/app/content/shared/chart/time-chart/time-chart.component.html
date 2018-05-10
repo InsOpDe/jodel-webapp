@@ -1,4 +1,4 @@
-<h3>{{infoText}}</h3>
+<h3>{{timeInfo}} &nbsp;<span class="h3_value">{{votesInfo || "0"}} Votes</span></h3>
 
 <div [@timeChartState]="{value: triggerValue, params: {'bar_color': colors[color]}}">
     <div (mouseenter)="updateInfoBox(i)"

@@ -4,6 +4,7 @@
  * @author  Maya
  * @since   22.03.2018
  */
+
 p {
   color: @darkGrey;
   font-size: 0.9em;
@@ -28,6 +29,7 @@ h3 {
   font-size: 0.9em;
   margin-top: 0;
   margin-bottom: 5px;
+  font-weight: bold;
 }
 
 input,textarea,button {
@@ -52,4 +54,83 @@ button {
   &:hover {
     filter: brightness(110%);
   }
+}
+
+.h3_value {
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.tooltip {
+  font-weight: 400;
+  cursor: default;
+  position: relative;
+  display: inline-block;
+
+  .infoIcon {
+    color: @tooltipBackground;
+    font-size: 0.87em;
+  }
+
+  .tooltiptext {
+    font-size: 0.7em;
+    visibility: hidden;
+    width: 190px;
+    background-color: @tooltipBackground;
+    color: @lightGrey;
+    text-align: left;
+    border-radius: 1px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: @tooltipBackground transparent transparent transparent;
+    }
+  }
+
+  .yourResult {
+    width: 197px;
+    margin-left: -83px;
+
+    &:after {
+      left: 40%;
+    }
+  }
+
+  .timeResult {
+    width: 230px;
+    margin-left: -218px;
+
+    &:after {
+
+      left: 91%;
+    }
+  }
+
+  .keywordResult {
+    width: 267px;
+    margin-left: -255px;
+
+    &:after {
+
+      left: 92%;
+    }
+  }
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }

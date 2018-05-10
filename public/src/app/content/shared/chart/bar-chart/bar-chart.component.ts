@@ -24,7 +24,7 @@ import {COLORS} from "../../../../global/colors";
                     style({
                         backgroundColor: COLORS.lightGrey
                     }),
-                    stagger(70, [
+                    stagger(45, [
                         animate(1, style({
                             backgroundColor: '{{bar_color}}'
                         }))
@@ -41,7 +41,7 @@ export class BarChartComponent implements OnInit, OnChanges {
     @Input() title: string;
     @Input() color: string;
     @Input() maxValue: number;
-
+    @Input() unit: string = 'Votes';
 
     colors = COLORS;
 
@@ -50,6 +50,8 @@ export class BarChartComponent implements OnInit, OnChanges {
 
     valueRoundArray = [];
     valueRound: number;
+
+    percentage: string;
 
     constructor(private contentService: ContentService) { }
 
@@ -79,7 +81,22 @@ export class BarChartComponent implements OnInit, OnChanges {
 
         if (typeof changes.value != 'undefined') {
             this.updateBarValues();
+            this.updateUnits();
         }
+    }
+
+
+    /**
+     * update units if value is 1
+     *
+     * @author  Maya
+     * @since   10.05.2018
+     */
+    updateUnits() {
+
+        if (this.value != 1) return;
+
+        this.unit = this.unit.substr(0, this.unit.length-1)
     }
 
 
@@ -90,7 +107,7 @@ export class BarChartComponent implements OnInit, OnChanges {
      * @since   23.03.2018
      */
     updateBarValues() {
-        this.valueRound = this.value > 0 ? this.round() : 0;
+        this.valueRound = this.round();
 
         this.valueRoundArray = new Array(this.valueRound);
         this.maxBarAmountArray = new Array(this.maxBarAmount - this.valueRound);
@@ -109,6 +126,8 @@ export class BarChartComponent implements OnInit, OnChanges {
 
         let factor = this.maxValue / this.maxBarAmount;
 
-        return Math.round(this.value / factor);
+        this.percentage = this.value > 0 ? Math.round((this.value * 100) / this.maxValue) + '%' : '0%';
+
+        return this.value > 0 ? Math.round(this.value / factor) : 0;
     }
 }

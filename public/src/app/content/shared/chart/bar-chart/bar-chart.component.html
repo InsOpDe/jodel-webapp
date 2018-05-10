@@ -1,31 +1,34 @@
-<div class="grid">
+<div class="grid barchart">
 
-    <h3>{{title}}</h3>
+        <h3>{{title}} &nbsp;<span class="h3_value">{{value.toString() || "0"}} {{unit}}</span></h3>
+
+        <div class="barChartHover">
+
+            <div [@barChartState]="{value: 'set', params: {'bar_color': colors[color]}}">
+                <div *ngFor="let n of valueRoundArray; let i = index"
+                     [ngClass]="['bar bg-' + color]">
+
+                    <div class="outerGlow" *ngIf="i == 1">{{percentage.toString()[0]}}</div>
+                    <div class="outerGlow" *ngIf="i == 2">{{percentage.toString()[1]}}</div>
+                    <div class="outerGlow" *ngIf="i == 3">{{percentage.toString()[2]}}</div>
+                    <div class="outerGlow" *ngIf="i == 4">{{percentage.toString()[3]}}</div>
+                    <div class="outerGlow" *ngIf="i == 5">{{percentage.toString()[4]}}</div>
+                    <div class="outerGlow" *ngIf="i == 6">{{percentage.toString()[5]}}</div>
+                </div>
+            </div>
 
 
-        <div [@barChartState]="{value: 'set', params: {'bar_color': colors[color]}}">
-            <div *ngFor="let n of valueRoundArray; let i = index"
-                 [ngClass]="['bar bg-' + color]">
 
-                <div class="outerGlow" *ngIf="i == 1">{{value.toString()[0]}}</div>
-                <div class="outerGlow" *ngIf="i == 2">{{value.toString()[1]}}</div>
-                <div class="outerGlow" *ngIf="i == 3">{{value.toString()[2]}}</div>
-                <div class="outerGlow" *ngIf="i == 4">{{value.toString()[3]}}</div>
-                <div class="outerGlow" *ngIf="i == 5">{{value.toString()[4]}}</div>
-                <div class="outerGlow" *ngIf="i == 6">{{value.toString()[5]}}</div>
+            <div *ngFor="let n of maxBarAmountArray; let i = index"
+                 class="bar bg-lightGrey">
+
+                <div class="outerGlow" *ngIf="i + valueRound == 1">{{percentage.toString()[0]}}</div>
+                <div class="outerGlow" *ngIf="i + valueRound == 2">{{percentage.toString()[1]}}</div>
+                <div class="outerGlow" *ngIf="i + valueRound == 3">{{percentage.toString()[2]}}</div>
+                <div class="outerGlow" *ngIf="i + valueRound == 4">{{percentage.toString()[3]}}</div>
+                <div class="outerGlow" *ngIf="i + valueRound == 5">{{percentage.toString()[4]}}</div>
+                <div class="outerGlow" *ngIf="i + valueRound == 6">{{percentage.toString()[5]}}</div>
             </div>
         </div>
 
-
-
-    <div *ngFor="let n of maxBarAmountArray; let i = index"
-         class="bar bg-lightGrey">
-
-        <div class="outerGlow" *ngIf="i + valueRound == 1">{{value.toString()[0]}}</div>
-        <div class="outerGlow" *ngIf="i + valueRound == 2">{{value.toString()[1]}}</div>
-        <div class="outerGlow" *ngIf="i + valueRound == 3">{{value.toString()[2]}}</div>
-        <div class="outerGlow" *ngIf="i + valueRound == 4">{{value.toString()[3]}}</div>
-        <div class="outerGlow" *ngIf="i + valueRound == 5">{{value.toString()[4]}}</div>
-        <div class="outerGlow" *ngIf="i + valueRound == 6">{{value.toString()[5]}}</div>
-    </div>
 </div>

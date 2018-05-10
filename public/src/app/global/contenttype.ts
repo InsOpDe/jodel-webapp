@@ -10,7 +10,7 @@ export const CONTENTTYPE = {
 
     KEYWORD: new ContentTypeModel({
         id: 2,
-        title: 'Schlagwörter',
+        title: 'Schlagworte',
         multiplePages: true
     })
 };

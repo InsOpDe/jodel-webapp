@@ -25,46 +25,48 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {RelatedJodelComponent} from './content/your-result-content/related-jodel/related-jodel.component';
 import {UtilService} from "./util.service";
 import {NgAutocompleteComponent, NgAutoCompleteModule} from "ng-auto-complete";
+import {AngularFontAwesomeModule} from "angular-font-awesome";
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    BarChartComponent,
-    HeaderComponent,
-    ContentComponent,
-    ResultContentComponent,
-    MapContentComponent,
-    YourResultContentComponent,
-    KeywordBarchartContentComponent,
-    TimeContentComponent,
-    KeywordContentComponent,
-    ColorPaletteComponent,
-    ContentPageSelectionComponent,
-    TimeChartComponent,
-    TooltipDirective,
-    TooltipComponent,
-    ForTooltipComponent,
-    TooltipContainerDirective,
-    RelatedJodelComponent,
-  ],
-  entryComponents: [
-    TooltipComponent,
-    ForTooltipComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpClientModule,
-    BrowserAnimationsModule,
-    NgAutoCompleteModule
-  ],
-  providers: [
-    ContentService,
-    UtilService,
-    NgAutocompleteComponent,
-  ],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        BarChartComponent,
+        HeaderComponent,
+        ContentComponent,
+        ResultContentComponent,
+        MapContentComponent,
+        YourResultContentComponent,
+        KeywordBarchartContentComponent,
+        TimeContentComponent,
+        KeywordContentComponent,
+        ColorPaletteComponent,
+        ContentPageSelectionComponent,
+        TimeChartComponent,
+        TooltipDirective,
+        TooltipComponent,
+        ForTooltipComponent,
+        TooltipContainerDirective,
+        RelatedJodelComponent,
+    ],
+    entryComponents: [
+        TooltipComponent,
+        ForTooltipComponent
+    ],
+    imports: [
+        BrowserModule,
+        FormsModule,
+        HttpClientModule,
+        BrowserAnimationsModule,
+        NgAutoCompleteModule,
+        AngularFontAwesomeModule
+    ],
+    providers: [
+        ContentService,
+        UtilService,
+        NgAutocompleteComponent,
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule {
 }

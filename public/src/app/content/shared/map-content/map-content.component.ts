@@ -18,7 +18,7 @@ import {COLORS} from "../../../global/colors";
                     style({
                         backgroundColor: COLORS.lightGrey
                     }),
-                    stagger(120, animate('50ms ease-in', style({
+                    stagger(90, animate('50ms ease-in', style({
                         // opacity: 1
                     })))
                 ], {optional: true})

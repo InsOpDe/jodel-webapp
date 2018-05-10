@@ -16,6 +16,12 @@ export class KeywordContentComponent implements OnInit {
 
     @Input() keywordContent: KeywordResultModel;
 
+    timeChartHeadline = {
+        'headline' : 'Popularität des Schlagwortes über den Tag hinweg',
+        'tooltip' : 'Die Beliebtheit eines Schlagwortes ist abhängig von der Uhrzeit zu der es gepostet wird.',
+        'class' : 'keywordResult'
+    };
+
     constructor() {
     }
 

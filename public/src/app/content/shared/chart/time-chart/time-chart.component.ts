@@ -25,7 +25,7 @@ import {COLORS} from "../../../../global/colors";
                         height: '8px',
                         marginTop: '4px'
                     }),
-                    stagger(8, [
+                    stagger(4.5, [
                         animate(1)
                     ]),
                 ], {optional: true})
@@ -39,7 +39,8 @@ export class TimeChartComponent implements OnInit {
     maxValue = new Array(15);
     maxValueArray = [];
 
-    infoText: string;
+    timeInfo: string;
+    votesInfo: number;
 
     convertedValues: TimeModel["value"];
     convertedValuesArrays = [];
@@ -47,11 +48,11 @@ export class TimeChartComponent implements OnInit {
     colors = COLORS;
 
     @Input() color: string;
-
     @Input() timeModel: TimeModel;
 
     triggerValue = 'a';
     currentHour: number;
+    private maxTimeValue: number;
 
     constructor(private contentService: ContentService) {}
 
@@ -89,17 +90,68 @@ export class TimeChartComponent implements OnInit {
     updateConvertedValues() {
 
         this.hours = new Array(this.timeModel.value.length);
-        this.convertedValues = this.convertValuesForChart();
-    }
-
-
-    updateInfoBox(hour) {
-
-        this.infoText = hour + ' - ' + (hour+1) + ' Uhr (' + this.timeModel.value[hour] + ' Votes)';
+        this.convertedValues = this.convertValuesForChartLin();
     }
 
 
     /**
+     * @author  Maya
+     * @since   10.05.2018
+     */
+    convertValuesForChartLin() {
+
+        this.hours = new Array(this.timeModel.value.length);
+        this.maxTimeValue = Math.max(...this.timeModel.value);
+
+        let convertedValues = [];
+
+        for (let hour = 0; hour <= this.hours.length; hour++) {
+
+            // convert value to a positive value between 0 and the max value of squares
+            convertedValues[hour] = this.timeModel.value[hour] > 0 ?
+                this.round(this.timeModel.value[hour]) : 0;
+
+            this.convertedValuesArrays[hour] = new Array(this.maxValue.length - convertedValues[hour]);
+            this.maxValueArray[hour] = new Array(convertedValues[hour]);
+        }
+
+        return convertedValues;
+    }
+
+
+    /**
+     * round percentage number [0,100] to [0, maxBarAmount]
+     *
+     * @author  Maya
+     * @since   10.05.2018
+     *
+     * @param {number} value
+     *
+     * @returns {number}
+     */
+    round(value: number) {
+
+        let factor = this.maxTimeValue / this.maxValue.length;
+
+        return Math.round(value / factor);
+    }
+
+
+    /**
+     * @author  Maya
+     * @since   11.04.2018
+     *
+     * @param {number} hour
+     */
+    updateInfoBox(hour: number) {
+
+        this.timeInfo = hour + ' - ' + (hour+1) + ' Uhr ';
+        this.votesInfo =  this.timeModel.value[hour];
+    }
+
+
+    /**
+     * --------- UNUSED --------------------------------
      * calc and return logarithmic vote index
      *
      * @author  Maya
@@ -121,12 +173,13 @@ export class TimeChartComponent implements OnInit {
 
 
     /**
+     * --------- UNUSED --------------------------------
      * round percentage number [0,100] to [0, maxValue]
      *
      * @author  Maya
      * @since   28.03.2018
      */
-    convertValuesForChart() {
+    convertValuesForChartLog() {
 
         let convertedValues = [];
         let voteIndex = this.calcLogVoteIndex();

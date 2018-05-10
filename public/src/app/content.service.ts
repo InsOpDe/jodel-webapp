@@ -118,6 +118,7 @@ export class ContentService {
     true_result: JRESULT;
     jodelData:HeaderModel;
     randomJodelId:number = -1;
+    debug:boolean = false;
 
     constructor(private http: HttpClient, private util: UtilService) {
         this.color = 'green';
@@ -198,10 +199,12 @@ export class ContentService {
 
       this.jodelData = jodelData;
       let result;
+      let secWait = this.debug ? 1 : 3000;
+
       if(this.randomJodelId >= 0 && RANDOMJODEL[this.randomJodelId]) {
         // console.log("randomjodel")
         result = RANDOMJODEL[this.randomJodelId];
-        await this.util.wait(3000);
+        await this.util.wait(secWait);
 
       } else {
         result = await this.http.post<JRESULT>('http://localhost:8080/api/dummy', jodelData).toPromise();

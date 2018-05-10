@@ -73,11 +73,11 @@ export class HeaderComponent implements OnInit {
 
         // this.jodel = this.contentService.getRandomHeaderModel();
         this.jodel = new HeaderModel({
-        // location: 'Ulm',
-        // cityId: 61,
-        time: this.utilService.leftPad(date.getHours(),"0",2) + ':' + this.utilService.leftPad(date.getMinutes(),"0",2),
-        // text: randomjodel.message
-      })
+            // location: 'Ulm',
+            // cityId: 61,
+            time: this.utilService.leftPad(date.getHours(),"0",2) + ':' + this.utilService.leftPad(date.getMinutes(),"0",2),
+            // text: randomjodel.message
+        });
 
         let cityArr = [];
         for (let i in CITIES) {
@@ -99,8 +99,10 @@ export class HeaderComponent implements OnInit {
         // this.completer.SelectItem('completer', this.jodel.cityId);
         // console.log(this.completer);
 
-        // debug
-        // this.sendJodel();
+        if (this.contentService.debug) {
+            this.getRandomJodel();
+            this.sendJodel2();
+        }
     }
 
 

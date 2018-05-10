@@ -15,7 +15,8 @@
 
     <div class="grid">
         <app-time-content [color]="keywordContent.color"
-                          [time]="keywordContent.time"></app-time-content>
+                          [time]="keywordContent.time"
+                          [h3]="timeChartHeadline"></app-time-content>
     </div>
 
 </div>
@@ -25,7 +26,7 @@
 <div class="col-3">
 
     <app-keyword-barchar-content [keywordBarchartArray]="keywordContent.similiarKeywords"
-                                 [headline]="'Ähnliche Schlagworte'">
+                                 [headline]="'Ähnliche Schlagworte und deren Popularität'">
     </app-keyword-barchar-content>
 
 </div>
