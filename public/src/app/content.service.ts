@@ -118,7 +118,7 @@ export class ContentService {
     true_result: JRESULT;
     jodelData:HeaderModel;
     randomJodelId:number = -1;
-    debug:boolean = false;
+    debug:boolean = true;
 
     constructor(private http: HttpClient, private util: UtilService) {
         this.color = 'green';

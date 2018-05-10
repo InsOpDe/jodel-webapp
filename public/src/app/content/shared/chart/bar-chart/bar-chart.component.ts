@@ -42,6 +42,7 @@ export class BarChartComponent implements OnInit, OnChanges {
     @Input() color: string;
     @Input() maxValue: number;
     @Input() unit: string = 'Votes';
+    @Input() average: boolean = false;
 
     colors = COLORS;
 
