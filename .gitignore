@@ -15,3 +15,6 @@ package-lock.json
 
 ./public/src/style/colors_renderes.less
 /src/config.ts
+/src/dbtest.ts
+/build/dbtest.js.map
+/build/dbtest.js

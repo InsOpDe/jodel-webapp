@@ -12,6 +12,32 @@ class Texttools {
         this.replace_words = [
             "einfach",
             "\\sa\\s",
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "U",
+            "V",
+            "W",
+            "X",
+            "Y",
+            "Z",
             "ab               ",
             "aber             ",
             "ach              ",
@@ -664,11 +690,20 @@ class Texttools {
     async replaceAll(str) {
         return new Promise((resolve, reject) => {
             let re = new RegExp(Object.values(this.replace_words_clean).join("\\b|\\b") + "|" + Object.values(this.replace_2).join("|"), "gi");
-            resolve(str.replace(re, function (matched) {
+            let tmp = str.replace(/(#[^\s]*)+/, function (matched) {
                 return "";
+            });
+            resolve(tmp.replace(re, function (matched) {
+                return " ";
             }));
         });
     }
+    /**
+     * This will return the Hashtags out of a posts
+     * @param str
+     * @returns Hashtags in a Array. Can return Null
+     *
+     */
     async extractHashtags(str) {
         return new Promise((resolve, reject) => {
             let re = new RegExp(/(#[^\s]*)+/, "gi");
@@ -709,8 +744,8 @@ class Texttools {
         let words = await this.replaceAll(message);
         let words_array = this.splitByWords(words);
         return new Promise((resolve, reject) => {
-            let j = words_array.length > 4 ? 4 : words_array.length;
-            for (let i = 0; i < j; i++) {
+            //let j = words_array.length > 4 ? 4 : words_array.length;
+            for (let i = 0; i < words_array.length; i++) {
                 for (let key in this.keywords) {
                     if (this.keywords[key].name == words_array[i] && !tmp.includes(this.keywords[key].name)) {
                         res.push(this.keywords[key]);
