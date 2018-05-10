@@ -11,15 +11,17 @@
   height: @barWidth * 2 + @barPadding;
 
   &:hover .outerGlow {
-    visibility: visible;
+    //visibility: visible;
     opacity: 1;
   }
 }
 
 .outerGlow {
   text-shadow: 0 0 3px #fff;
-  visibility: hidden;
+  //visibility: hidden;
   opacity: 0;
+
+  transition: opacity 140ms ease-in-out;
 }
 
 .grid {
