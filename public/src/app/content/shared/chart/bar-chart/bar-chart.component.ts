@@ -125,6 +125,11 @@ export class BarChartComponent implements OnInit, OnChanges {
      */
     round() {
 
+        // fix for the extracted keyword values..
+        let div = this.maxValue > 500 ? 30 : 1;
+        this.maxValue = Math.round(this.maxValue / div);
+        this.value = Math.round(this.value / div);
+
         let factor = this.maxValue / this.maxBarAmount;
 
         this.percentage = this.value > 0 ? Math.round((this.value * 100) / this.maxValue) + '%' : '0%';
