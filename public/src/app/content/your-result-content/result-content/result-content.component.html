@@ -1,29 +1,27 @@
-<h2>Das hast du mit deinem Jodel erreicht</h2>
+<h2>Das hast du mit deinem Jodel erreicht
+    &nbsp;<span class="tooltip"><fa class="infoIcon" name="info-circle" size="1"></fa>
+        <span class="tooltiptext yourResult">Im Vergleich zu anderen Jodeln, die deinem Jodel sehr ähnlich sind.</span>
+    </span>
+
+</h2>
 
 <!--Karma-->
 <app-bar-chart [value]="resultData.karma"
                [title]="'Karma'"
-                [maxValue]="resultData.karmaMaxValue">
+                [maxValue]="resultData.karmaMaxValue"
+                [unit]="'Karmapunkte'">
 </app-bar-chart>
 
 <!--Votes-->
 <app-bar-chart [value]="resultData.votes"
                [title]="'Votes'"
-               [maxValue]="resultData.votesMaxValue">
+               [maxValue]="resultData.votesMaxValue"
+               [unit]="'Votes'">
 </app-bar-chart>
 
 <!--Comments-->
 <app-bar-chart [value]="resultData.comments"
                [title]="'Kommentare'"
-               [maxValue]="resultData.commentsMaxValue">
+               [maxValue]="resultData.commentsMaxValue"
+               [unit]="'Kommentare'">
 </app-bar-chart>
-
-<!--&lt;!&ndash;Pins&ndash;&gt;-->
-<!--<app-bar-chart [value]="resultData.pins"-->
-               <!--[title]="'Pins'">-->
-<!--</app-bar-chart>-->
-
-<!--&lt;!&ndash;Shared&ndash;&gt;-->
-<!--<app-bar-chart [value]="resultData.shared"-->
-               <!--[title]="'Shared'">-->
-<!--</app-bar-chart>-->

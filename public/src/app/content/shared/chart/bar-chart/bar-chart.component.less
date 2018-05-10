@@ -6,6 +6,29 @@
   border-radius: @borderRadius;
 }
 
+.barChartHover {
+  width: 450px;
+  height: @barWidth * 2 + @barPadding;
+
+  &:hover .outerGlow {
+    //visibility: visible;
+    opacity: 1;
+  }
+}
+
 .outerGlow {
   text-shadow: 0 0 3px #fff;
+  //visibility: hidden;
+  opacity: 0;
+
+  font-family: 'Fira Sans Condensed', sans-serif;
+
+  transition: opacity 140ms ease-in-out;
+}
+
+.grid {
+
+  .barchart {
+      padding-bottom: 0;
+  }
 }
