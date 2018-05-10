@@ -7,12 +7,12 @@
             <div *ngFor="let n of valueRoundArray; let i = index"
                  [ngClass]="['bar bg-' + color]">
 
-                <div *ngIf="i == 1">{{value.toString()[0]}}</div>
-                <div *ngIf="i == 2">{{value.toString()[1]}}</div>
-                <div *ngIf="i == 3">{{value.toString()[2]}}</div>
-                <div *ngIf="i == 4">{{value.toString()[3]}}</div>
-                <div *ngIf="i == 5">{{value.toString()[4]}}</div>
-                <div *ngIf="i == 6">{{value.toString()[5]}}</div>
+                <div class="outerGlow" *ngIf="i == 1">{{value.toString()[0]}}</div>
+                <div class="outerGlow" *ngIf="i == 2">{{value.toString()[1]}}</div>
+                <div class="outerGlow" *ngIf="i == 3">{{value.toString()[2]}}</div>
+                <div class="outerGlow" *ngIf="i == 4">{{value.toString()[3]}}</div>
+                <div class="outerGlow" *ngIf="i == 5">{{value.toString()[4]}}</div>
+                <div class="outerGlow" *ngIf="i == 6">{{value.toString()[5]}}</div>
             </div>
         </div>
 
@@ -21,11 +21,11 @@
     <div *ngFor="let n of maxBarAmountArray; let i = index"
          class="bar bg-lightGrey">
 
-        <div *ngIf="i + valueRound == 1">{{value.toString()[0]}}</div>
-        <div *ngIf="i + valueRound == 2">{{value.toString()[1]}}</div>
-        <div *ngIf="i + valueRound == 3">{{value.toString()[2]}}</div>
-        <div *ngIf="i + valueRound == 4">{{value.toString()[3]}}</div>
-        <div *ngIf="i + valueRound == 5">{{value.toString()[4]}}</div>
-        <div *ngIf="i + valueRound == 6">{{value.toString()[5]}}</div>
+        <div class="outerGlow" *ngIf="i + valueRound == 1">{{value.toString()[0]}}</div>
+        <div class="outerGlow" *ngIf="i + valueRound == 2">{{value.toString()[1]}}</div>
+        <div class="outerGlow" *ngIf="i + valueRound == 3">{{value.toString()[2]}}</div>
+        <div class="outerGlow" *ngIf="i + valueRound == 4">{{value.toString()[3]}}</div>
+        <div class="outerGlow" *ngIf="i + valueRound == 5">{{value.toString()[4]}}</div>
+        <div class="outerGlow" *ngIf="i + valueRound == 6">{{value.toString()[5]}}</div>
     </div>
 </div>
