@@ -10,7 +10,7 @@ export class YourResultContentComponent implements OnInit {
     @Input() yourResultContent: YourResultModel;
 
     timeChartHeadline = {
-        'headline': 'Erfolgschancen deines Jodels über den Tag hinweg',
+        'headline': 'Erfolgschancen deines Jodels nach Tageszeit',
         // 'tooltip': 'Der Erfolg deines Jodels ist abhängig von der Uhrzeit zu der du ihn postest.',
         'tooltip': 'Durchschnittlicher Erfolg ähnlicher Jodel, abhängig von ihrer geposteten Uhrzeit.',
         'class': 'timeResult'
