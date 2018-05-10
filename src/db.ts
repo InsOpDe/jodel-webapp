@@ -1,6 +1,6 @@
 import * as mysql from 'promise-mysql';
 import { Texttools } from './texttools';
-import { MostSimiliar, Keywords } from './resultinterfaces'
+import { MostSimilar, Keywords } from './resultinterfaces'
 import { equal } from 'assert';
 export class Db{
 
@@ -183,6 +183,8 @@ export class Db{
 
     }
 
+
+
     /**
      * This will give back the Most Similiar Post. First of all this function will search for Posts
      * with similiar Keyword and Hashtags. Then the function will check if there are posts with 
@@ -192,7 +194,7 @@ export class Db{
      * @param message string
      * @returns Promise<MostSimiliar> resulttype is in resultinterfaces
      */
-    public async getMostSimiliar(message: string): Promise<MostSimiliar>
+    public async getMostSimiliar(message: string): Promise<MostSimilar>
     {
 
         let res: string[] = await this.texttools.extractHashtags(message);
@@ -231,7 +233,7 @@ export class Db{
         //handel case if there is no keyword AND no hashtag in the message
         if (keywords_name.length == 0 && res.length == 0)
         {
-            return new Promise<MostSimiliar>((resolve) =>
+            return new Promise<MostSimilar>((resolve) =>
             {
                 resolve({
                     MostSimiliar: [],
@@ -244,7 +246,7 @@ export class Db{
 
         let resDBKeyword = await this.getPostsFromKeywords(keywords_name);
         
-        return new Promise<MostSimiliar>((resolve, reject) =>
+        return new Promise<MostSimilar>((resolve, reject) =>
         {
 
             let equal_key: string[] = [];

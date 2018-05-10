@@ -1,7 +1,7 @@
 ﻿import { Db } from "./db";
 import { Texttools } from './texttools';
 import { COLORS, POSTWEIGHT } from './constants'
-import { MostSimiliar, interpolatedResult, Citydata, HashandKeyResult, keyorhash, JodelJSON, coreJodelJSON, JRESULT, Keywords } from './resultinterfaces'
+import { MostSimilar, interpolatedResult, Citydata, HashandKeyResult, keyorhash, JodelJSON, coreJodelJSON, JRESULT, Keywords } from './resultinterfaces'
 /**
  * At last this Class will generate the Result for the Front-End
  * @author Tim Mend
@@ -10,7 +10,7 @@ export class JResult
 {
     Jodel: string;
     interPolatedResult: interpolatedResult;
-    affJodel: Jodel;
+    similarJodel: Jodel;
     db: Db;
     texttools: Texttools;
     keywords: any[] = [];
@@ -32,18 +32,39 @@ export class JResult
      */
     public async getResult()
     {
+        console.log("")
         process.stdout.write("Getting similiar post")
-        let res: MostSimiliar = Object.values(await this.db.getMostSimiliar(this.Jodel))[0];
-        if (res.HashtagPosts.length == 0)
+        let analogical: MostSimilar = await this.db.getMostSimiliar(this.Jodel);
+
+        if (analogical.HashtagPosts.length == 0 && analogical.KeyWordPosts.length == 0)
         {
             //TODO: Yeah... shitty solution for the problem if there is no similiar Jodel.
-            this.affJodel = new Jodel("5a15f935a8299c3a35452472", this.db);
-        } else
+            this.similarJodel = new Jodel("5a15f935a8299c3a35452472", this.db);
+        } else if (analogical.MostSimiliar.length == 0)
         {
-            this.affJodel = new Jodel(res[0].post_id, this.db);
+
+            if (analogical.HashtagPosts.length != 0)
+            {
+                this.similarJodel = new Jodel(analogical.HashtagPosts[0], this.db);
+
+            }
+            else
+            {
+                this.similarJodel = new Jodel(analogical.KeyWordPosts[0], this.db);
+            }
 
         }
-        await this.affJodel.fill();
+        else
+        {
+            //Set First MostSimiliar Jodel as Most Similiar Jodel
+            this.similarJodel = new Jodel(analogical.MostSimiliar[0], this.db)
+        }
+
+
+        //Gather Data
+        await this.similarJodel.fill();
+
+
         let res2:string[] = await this.texttools.extractHashtags(this.Jodel);
         let res3:Keywords[] = await this.texttools.extractKeywords(this.Jodel);
         let time_value: string[] = [];
@@ -101,7 +122,6 @@ export class JResult
                 color: string,
                 maxVal: number
             }[] = [];
-            //console.log(simKeyword);
             for (let i = 0; i < 4; i++)
             {
                 simKeywords.push({
@@ -155,7 +175,6 @@ export class JResult
                 })
 
             }
-            //console.log(_tmp);
             this.keywords.push({
                 name: res3[key1].name,
                 amount: res3[key1].amount,
@@ -226,7 +245,7 @@ export class JResult
         }
 
         process.stdout.write("Generating Votes")
-        await this.interPolateResult(res);
+        await this.interPolateResult(analogical);
         process.stdout.write("Generating City Importance")
         let _cityimportance = await this.generateCityImportance();
 
@@ -313,7 +332,7 @@ export class JResult
      * @param keys the keys from the similiar Posts
      * @author Tim Mend
      */
-    private async interPolateResult(keys: any)
+    private async interPolateResult(keys: MostSimilar)
     {
         let maxVotes = 0;
         let sum = 0;
@@ -350,7 +369,7 @@ export class JResult
 
 
 
-        let i = keys.length > 2 ? 2 : keys.length;
+        let i = keys.KeyWordPosts.length > 2 ? 2 : keys.KeyWordPosts.length;
         for (let k = 0; k < i; k++)
         {   
           let keywords_similiar_post = await this.db.getKeywordsById(keys[k].post_id);
@@ -424,7 +443,6 @@ export class JResult
             if (tmp.length == 0)
             {
                 let tmp = await this.db.getChildById(keys[k].post_id);
-                //console.log(tmp);
                 sum += parseInt(tmp[0].vote_count);
                 process.stdout.write(".");
             }
@@ -438,17 +456,17 @@ export class JResult
                 sum += parseInt(tmp[0].votes);
                 process.stdout.write(".");
             }
-            //console.log(tmp[0].votes);    
-            
+
+
         }
         return new Promise((resolve) =>
         {
             let _res:interpolatedResult = {
-                Votes: Math.ceil((sum / keys.length)),
-                Comments: Math.ceil((sum_comments / keys.length)),
-                Pins: Math.ceil((sum / keys.length) * 0.15),
-                maxValue: Math.max(maxVotes, Math.ceil((sum / keys.length))),
-                maxKommentare: Math.max(maxKommis, Math.ceil((sum_comments / keys.length))),
+                Votes: Math.ceil((sum / keys.KeyWordPosts.length)),
+                Comments: Math.ceil((sum_comments / keys.KeyWordPosts.length)),
+                Pins: Math.ceil((sum / keys.KeyWordPosts.length) * 0.15),
+                maxValue: Math.max(maxVotes, Math.ceil((sum / keys.KeyWordPosts.length))),
+                maxKommentare: Math.max(maxKommis, Math.ceil((sum_comments / keys.KeyWordPosts.length))),
                 Keywords_similiar: keywords_similiar,
                 Hashtag_similiar: hashtags_similiar
             }
@@ -505,7 +523,6 @@ export class JResult
             }
             
             }
-            //console.log(sum);
             resolve(sum);
         })
     }
@@ -519,7 +536,7 @@ export class JResult
             time: this.time,
             hashtags: this.hashtags,
             keywords: this.keywords,
-            jodel: this.affJodel.encodeJodel(),
+            jodel: this.similarJodel.encodeJodel(),
             cityimportance: this.cityimportance
         };
     }
@@ -647,7 +664,6 @@ export class coreJodel
             let time_tmp = await this.db.getCreatedByIdChild(this.post_id);
             let time_tmp_string = time_tmp[0].created_at;
             let time_tmp_res = time_tmp_string.split("T");
-            console.log(time_tmp_res);
             let time_tmp_res_final = time_tmp_res[1].split(".");
             this.created_at = time_tmp_res_final[0];
             
@@ -694,12 +710,5 @@ export class coreJodel
 
     }
 }
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////Interfaces///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 
 

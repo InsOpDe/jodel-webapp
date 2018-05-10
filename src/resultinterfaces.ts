@@ -68,7 +68,7 @@ export interface JRESULT
 
 }
 
-export interface MostSimiliar
+export interface MostSimilar
 {
     MostSimiliar: string[];
     KeyWordPosts: string[];
