@@ -1,5 +1,6 @@
 import {Component, Input, OnInit, SimpleChange} from '@angular/core';
 import {RelatedJodelModel} from "./related-jodel.model";
+import {relatedJodel} from "./mock-related-jodel";
 
 @Component({
     selector: 'app-related-jodel',
